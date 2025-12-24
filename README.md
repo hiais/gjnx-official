@@ -1,7 +1,8 @@
-# 🌐 Silicon Efficiency Official Website
+# 05_Official_Website (Brand Layer)
 
-> **Domain**: [gjnx.tech](https://gjnx.tech) / [ikit.cloud](https://ikit.cloud)
-> **Stack**: Astro v5, Vercel, Vanilla CSS (Cyberpunk Theme)
+> **Live Demo**: [https://gjnx.tech](https://gjnx.tech) | **Repository**: [hiais/gjnx-official](https://github.com/hiais/gjnx-official)
+
+此目录包含 **硅基能效 (Silicon Efficiency)** 的官方品牌网站代码。这是一个基于 Astro + TailwindCSS 构建的高性能静态网站，通过 GitHub Actions 或 Vercel 自动部署。
 
 ## 📌 Project Overview
 This directory contains the source code for the "Silicon Efficiency" official website. It acts as the **"Public Face"** and **"Toolbox"** for the WeChat Official Account ecosystem.
