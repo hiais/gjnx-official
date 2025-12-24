@@ -8,8 +8,23 @@ const pinyin = _pinyin.pinyin || _pinyin.default || _pinyin;
 const SOURCE_DIR = path.resolve('../03_Content_Factory/01_WeChat/Published');
 const DEST_DIR = path.resolve('src/content/articles');
 
-// 🛡️ SAFETY VALVE: Max new articles per run to prevent flooding
-const MAX_NEW_PER_RUN = 5;
+// 🛡️ SAFETY VALVE: New Article Limit Control
+// Usage: node sync-content.js [limit]
+// Default: 0 (Only update existing, no new articles)
+// 'all': Unlimited
+const args = process.argv.slice(2);
+let MAX_NEW_PER_RUN = 0;
+
+if (args.length > 0) {
+    if (args[0].toLowerCase() === 'all') {
+        MAX_NEW_PER_RUN = Infinity;
+    } else {
+        const parsed = parseInt(args[0], 10);
+        if (!isNaN(parsed) && parsed >= 0) {
+            MAX_NEW_PER_RUN = parsed;
+        }
+    }
+}
 
 // Recursively get all files
 function getFiles(dir) {
@@ -48,7 +63,8 @@ function cleanWeChatContent(content) {
 }
 
 async function sync() {
-    console.log('🤖 Auto-Curator Agent Active (Safety Mode On)...');
+    console.log('\n🤖 Auto-Curator Agent Active...');
+    console.log(`🎯 Sync Mode: ${MAX_NEW_PER_RUN === 0 ? 'UPDATES ONLY (No New Articles)' : `ALLOW NEW (${MAX_NEW_PER_RUN === Infinity ? 'ALL' : MAX_NEW_PER_RUN})`}`);
     console.log(`📂 Scanning Source: ${SOURCE_DIR}`);
 
     if (!fs.existsSync(SOURCE_DIR)) {
