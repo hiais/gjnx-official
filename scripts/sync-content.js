@@ -4,7 +4,7 @@ import matter from 'gray-matter';
 import pinyin from 'pinyin';
 
 // --- CONFIGURATION ---
-const SOURCE_DIR = path.resolve('../../03_Content_Factory/01_WeChat/Published');
+const SOURCE_DIR = path.resolve('../03_Content_Factory/01_WeChat/Published');
 const DEST_DIR = path.resolve('src/content/articles');
 
 // 🛡️ SAFETY VALVE: Max new articles per run to prevent flooding
