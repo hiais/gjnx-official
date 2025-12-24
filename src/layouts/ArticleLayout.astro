@@ -1,0 +1,361 @@
+---
+import Layout from './Layout.astro';
+
+interface Props {
+  title: string;
+  frontmatter?: any;
+}
+
+const { title, frontmatter } = Astro.props;
+// Generate the OG Image URL for this specific article
+const ogImage = new URL(`/og/${Astro.params.slug}.png`, Astro.site);
+
+// Convert Frontmatter tags to keywords string
+const keywords = frontmatter.tags ? frontmatter.tags.join(',') : undefined;
+---
+
+<Layout title={title} description={frontmatter?.description} image={ogImage} keywords={keywords}>
+
+  <!-- WeChat Share Image Hack -->
+  <!-- 微信分享会抓取页面里第一张 >300px 的图片，这里我们强制插入 OG 图 -->
+  <div style="position:absolute; width:0; height:0; overflow:hidden; z-index:-1; opacity: 0;">
+      <img src={ogImage.toString()} alt="WeChat Share Icon" />
+  </div>
+
+  <div class="reading-progress-bar" id="progress-bar"></div>
+  
+  <main class="article-container">
+    <!-- Header -->
+    <header class="article-header">
+      <div class="breadcrumbs mono">
+        <a href="/">HOME</a> / <a href="/articles">DATABASE</a> / <span class="current">LOG_{Math.floor(Math.random() * 9000) + 1000}</span>
+      </div>
+      
+      <h1 class="glitch-text">{title}</h1>
+      
+      <div class="meta-info mono">
+        <span class="tag">System.Log</span>
+        <span class="date">{frontmatter?.date ? new Date(frontmatter.date).toLocaleDateString() : 'UNKNOWN_DATE'}</span>
+        <span class="author">:: SILICON_OPERATOR</span>
+      </div>
+    </header>
+
+    <!-- Content -->
+    <article class="markdown-body">
+      <slot />
+    </article>
+
+    <!-- Footer CTA -->
+    <div class="article-footer-cta">
+      <div class="terminal-box">
+        <div class="terminal-header">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span>End_of_Stream</span>
+        </div>
+        <p>
+          > Accessing detailed technical specifications...<br>
+          > <span class="blink">_</span>
+        </p>
+        <div class="cta-actions">
+          <button id="open-modal" class="btn-scan">关注公众号获取完整白皮书</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- WeChat Modal -->
+  <dialog id="wechat-modal" class="modal">
+    <div class="modal-content">
+      <button id="close-modal" class="close-btn">×</button>
+      <h3 class="mono">> INITIATING_HANDSHAKE</h3>
+      <div class="qr-wrapper">
+        <img src="/assets/qrcode.jpg" alt="Silicon Efficiency WeChat QR" width="200" height="200" />
+        <div class="scan-line"></div>
+      </div>
+      <p class="instruction">
+        扫描二维码，回复 <span class="highlight">【报告】</span><br>
+        立即解锁完整版 PDF 报告
+      </p>
+    </div>
+  </dialog>
+</Layout>
+
+<style>
+  /* Existing Styles... */
+
+  /* Modal Styles */
+  dialog.modal {
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: auto;
+    color: white;
+    max-width: 90vw;
+  }
+  
+  dialog::backdrop {
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(4px);
+  }
+
+  .modal-content {
+    background: #0a0a0a;
+    border: 1px solid var(--c-accent-cyan);
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0, 240, 255, 0.2);
+  }
+
+  .modal h3 {
+    color: var(--c-accent-cyan);
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px dashed rgba(255,255,255,0.1);
+    padding-bottom: 0.5rem;
+  }
+
+  .qr-wrapper {
+    position: relative;
+    display: inline-block;
+    border: 2px solid #333;
+    padding: 10px;
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  /* Cyberpunk Scan Effect */
+  .scan-line {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 4px;
+    background: var(--c-accent-rose);
+    box-shadow: 0 0 10px var(--c-accent-rose);
+    animation: scan 2s linear infinite;
+    opacity: 0.7;
+  }
+
+  .instruction {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: #aaa;
+    line-height: 1.6;
+  }
+
+  .highlight {
+    color: var(--c-accent-amber);
+    font-weight: bold;
+    border: 1px solid var(--c-accent-amber);
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 10px; right: 15px;
+    background: none;
+    border: none;
+    color: #666;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .close-btn:hover { color: white; }
+
+  @keyframes scan {
+    0% { top: 0%; }
+    50% { top: 100%; }
+    51% { top: 0%; } /* Instant reset for loop effect */
+    100% { top: 0%; }
+  }
+
+  /* ... rest of styles */
+  
+  /* Progress Bar (existing) */
+  .reading-progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: var(--c-accent-cyan);
+    z-index: 100;
+    box-shadow: 0 0 10px var(--c-accent-cyan);
+    transition: width 0.1s;
+  }
+
+  .article-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 6rem 1.5rem;
+  }
+
+  .breadcrumbs {
+    font-size: 0.8rem;
+    color: var(--c-text-secondary);
+    margin-bottom: 2rem;
+  }
+  .breadcrumbs a {
+    color: var(--c-text-secondary);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  .breadcrumbs a:hover {
+    color: var(--c-accent-cyan);
+    border-color: var(--c-accent-cyan);
+  }
+  .current {
+    color: var(--c-accent-cyan);
+  }
+
+  .article-header h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    letter-spacing: -1px;
+  }
+
+  .meta-info {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.85rem;
+    color: var(--c-text-secondary);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  /* Markdown Content Styling */
+  .markdown-body {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #e0e0e0;
+  }
+  
+  /* These styles will target the rendered markdown */
+  .markdown-body :global(h2) {
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    color: white;
+    border-left: 4px solid var(--c-accent-cyan);
+    padding-left: 1rem;
+  }
+
+  .markdown-body :global(h3) {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: var(--c-text-primary);
+  }
+
+  .markdown-body :global(p) {
+    margin-bottom: 1.5rem;
+  }
+
+  .markdown-body :global(blockquote) {
+    border-left: 2px solid var(--c-accent-amber);
+    background: rgba(255, 174, 0, 0.05);
+    margin: 2rem 0;
+    padding: 1rem 1.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.95rem;
+    color: #ffd080;
+  }
+
+  .markdown-body :global(pre) {
+    background: #111 !important;
+    border: 1px solid #333;
+    border-radius: 6px;
+    padding: 1rem;
+    overflow-x: auto;
+  }
+
+  .markdown-body :global(img) {
+    max-width: 100%;
+    border-radius: 8px;
+    border: 1px solid #333;
+  }
+  
+  .btn-scan {
+    display: inline-block;
+    margin-top: 1rem;
+    background: var(--c-accent-cyan);
+    color: #000;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+  }
+  .btn-scan:hover {
+    box-shadow: 0 0 15px rgba(0,240,255,0.4);
+  }
+  
+  /* CTA Stylings */
+  .article-footer-cta {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px dashed #333;
+  }
+
+  .terminal-box {
+    background: #0f0f0f;
+    border: 1px solid #333;
+    border-radius: 6px;
+    padding: 1rem;
+    font-family: var(--font-mono);
+  }
+
+  .terminal-header {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 1rem;
+    color: #666;
+    font-size: 0.8rem;
+  }
+  
+  .blink {
+    animation: blink 1s step-end infinite;
+  }
+
+  @keyframes blink { 50% { opacity: 0; } }
+</style>
+
+<script>
+  // Reading Progress Logic
+  window.addEventListener('scroll', () => {
+    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = (winScroll / height) * 100;
+    const bar = document.getElementById('progress-bar');
+    if (bar) bar.style.width = scrolled + "%";
+  });
+
+  // Modal Logic
+  const modal = document.getElementById('wechat-modal') as HTMLDialogElement;
+  const openBtn = document.getElementById('open-modal');
+  const closeBtn = document.getElementById('close-modal');
+
+  if (modal && openBtn && closeBtn) {
+    openBtn.addEventListener('click', () => {
+      modal.showModal();
+    });
+
+    closeBtn.addEventListener('click', () => {
+      modal.close();
+    });
+
+    // Close on backdrop click
+    modal.addEventListener('click', (e) => {
+      const rect = modal.getBoundingClientRect();
+      const isInDialog = (rect.top <= e.clientY && e.clientY <= rect.top + rect.height &&
+        rect.left <= e.clientX && e.clientX <= rect.left + rect.width);
+      if (!isInDialog) {
+        modal.close();
+      }
+    });
+  }
+</script>

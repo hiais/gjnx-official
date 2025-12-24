@@ -1,0 +1,25 @@
+---
+import { getCollection, render } from 'astro:content';
+import ArticleLayout from '../../layouts/ArticleLayout.astro';
+
+// 1. Generate a new path for every collection entry
+export async function getStaticPaths() {
+  const articles = await getCollection('articles');
+  
+  // Filter out drafts if in production environment (optional logic)
+  // const liveArticles = articles.filter(post => !post.data.draft);
+
+  return articles.map(entry => ({
+    params: { slug: entry.id }, 
+    props: { entry },
+  }));
+}
+
+// 2. For your template, you can get the entry directly from the prop
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<ArticleLayout title={entry.data.title || "Untitled Log"} frontmatter={entry.data}>
+  <Content />
+</ArticleLayout>

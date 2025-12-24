@@ -1,0 +1,72 @@
+/* 
+  Silicon Efficiency Design System 
+  Theme: Cyberpunk Engineering
+*/
+:root {
+  /* Color Palette */
+  --c-bg-dark: #050505;
+  --c-bg-panel: #0a0a0a;
+  --c-bg-card: #111111;
+  
+  --c-text-primary: #e0e0e0;
+  --c-text-secondary: #888888;
+  
+  /* Brand Colors */
+  --c-accent-cyan: #00f0ff;    /* Data points, positive flow */
+  --c-accent-amber: #ffae00;   /* Warnings, energy heat */
+  --c-accent-rose: #ff0055;    /* Critical errors, high power consumption */
+  
+  /* Spacing */
+  --space-unit: 4px;
+  
+  /* Typography */
+  --font-mono: 'SF Mono', 'Menlo', 'Monaco', 'Courier New', monospace;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+html {
+  background-color: var(--c-bg-dark);
+  color: var(--c-text-primary);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Utilities */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, var(--c-accent-cyan), var(--c-accent-amber));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.grid-bg {
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 50px 50px;
+  position: fixed;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+}
