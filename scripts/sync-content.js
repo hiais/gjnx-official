@@ -1,7 +1,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import matter from 'gray-matter';
-import pinyin from 'pinyin';
+import _pinyin from 'pinyin';
+const pinyin = _pinyin.pinyin || _pinyin.default || _pinyin;
 
 // --- CONFIGURATION ---
 const SOURCE_DIR = path.resolve('../03_Content_Factory/01_WeChat/Published');
@@ -94,12 +95,22 @@ async function sync() {
 
         // --- EXECUTING SYNC ---
 
+        // 0. Extract Title from Content if missing
+        if (!parsed.data.title) {
+            const titleMatch = parsed.content.match(/^#\s+(.+)$/m);
+            if (titleMatch) {
+                parsed.data.title = titleMatch[1].trim();
+                // console.log(`🔍 Found title in content: ${parsed.data.title}`);
+            }
+        }
+
         // 1. Auto-Tagging
         let hasChanges = false;
         let slug = parsed.data.website_slug;
 
         if (!slug) {
-            slug = generateSlug(parsed.data.title || 'untitled', parsed.data.date);
+            const titleForSlug = parsed.data.title || 'untitled';
+            slug = generateSlug(titleForSlug, parsed.data.date);
             parsed.data.website_slug = slug;
             hasChanges = true;
         }
@@ -125,10 +136,10 @@ async function sync() {
         }
 
         const newFrontmatter = {
-            title: parsed.data.title,
-            date: parsed.data.date,
+            title: parsed.data.title || 'Untitled',
+            date: parsed.data.date || new Date(),
             tags: parsed.data.tags || [],
-            description: parsed.data.description || parsed.content.slice(0, 120).replace(/[#*]/g, '').trim() + '...',
+            description: parsed.data.description || (parsed.content ? parsed.content.slice(0, 120).replace(/[#*]/g, '').trim() + '...' : 'No description'),
         };
 
         const newContentBody = cleanWeChatContent(parsed.content);
