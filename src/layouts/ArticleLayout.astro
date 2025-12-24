@@ -34,8 +34,14 @@ const keywords = frontmatter.tags ? frontmatter.tags.join(',') : undefined;
       <h1 class="glitch-text">{title}</h1>
       
       <div class="meta-info mono">
-        <span class="tag">System.Log</span>
+        <div class="tags-row">
+          {frontmatter?.tags?.map((tag: string) => (
+            <a href={`/tags/${tag}`} class="tag-link">#{tag}</a>
+          )) || <span class="tag-link">System.Log</span>}
+        </div>
+        <span class="separator">|</span>
         <span class="date">{frontmatter?.date ? new Date(frontmatter.date).toLocaleDateString() : 'UNKNOWN_DATE'}</span>
+        <span class="separator">|</span>
         <span class="author">:: SILICON_OPERATOR</span>
       </div>
     </header>
@@ -217,12 +223,40 @@ const keywords = frontmatter.tags ? frontmatter.tags.join(',') : undefined;
 
   .meta-info {
     display: flex;
-    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
     font-size: 0.85rem;
     color: var(--c-text-secondary);
     border-bottom: 1px solid rgba(255,255,255,0.1);
     padding-bottom: 2rem;
     margin-bottom: 3rem;
+  }
+  
+  .separator {
+    color: #333;
+    margin: 0 0.5rem;
+  }
+
+  .tags-row {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .tag-link {
+    color: var(--c-accent-cyan);
+    text-decoration: none;
+    border: 1px solid rgba(0, 240, 255, 0.2);
+    padding: 2px 8px;
+    border-radius: 4px;
+    background: rgba(0, 240, 255, 0.05);
+    transition: all 0.2s;
+  }
+  
+  .tag-link:hover {
+    background: rgba(0, 240, 255, 0.2);
+    box-shadow: 0 0 10px rgba(0, 240, 255, 0.3);
+    border-color: var(--c-accent-cyan);
   }
 
   /* Markdown Content Styling */

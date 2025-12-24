@@ -1,0 +1,53 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const allArticles = await getCollection('articles');
+const tags = [...new Set(allArticles.map((article) => article.data.tags || []).flat())];
+
+const pageTitle = "能效数据库索引 | Tag Index";
+---
+
+<Layout title={pageTitle} description="浏览硅基能效所有技术话题标签。">
+  <main class="pt-32 pb-12 px-6 max-w-4xl mx-auto min-h-screen">
+    <h1 class="text-4xl md:text-5xl font-bold mb-12 text-center glitch-text" data-text="TOPIC INDEX">
+      <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">
+        Topic Matrix
+      </span>
+    </h1>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+      {tags.map((tag) => (
+        <a 
+          href={`/tags/${tag}`}
+          class="group relative bg-[#111] border border-white/10 p-6 rounded-lg hover:border-cyan-500/50 transition-all duration-300 hover:shadow-[0_0_20px_rgba(0,240,255,0.2)] flex items-center justify-between"
+        >
+          <div class="absolute inset-0 bg-gradient-to-r from-cyan-500/0 via-cyan-500/0 to-cyan-500/5 group-hover:to-cyan-500/10 transition-all"></div>
+          
+          <span class="text-lg text-gray-300 group-hover:text-cyan-400 font-mono tracking-wide relative z-10">
+            #{tag}
+          </span>
+          
+          <span class="text-xs text-gray-600 group-hover:text-cyan-600 font-mono relative z-10">
+            {allArticles.filter((post) => post.data.tags.includes(tag)).length} POSTS
+          </span>
+          
+          {/* Decorative Corner */}
+          <div class="absolute top-0 right-0 w-2 h-2 border-t border-r border-white/20 group-hover:border-cyan-400 transition-colors"></div>
+        </a>
+      ))}
+    </div>
+
+    {tags.length === 0 && (
+      <div class="text-center text-gray-500 py-20">
+        <p>No tags detected in the system.</p>
+      </div>
+    )}
+  </main>
+</Layout>
+
+<style>
+  .glitch-text {
+    position: relative;
+  }
+</style>
