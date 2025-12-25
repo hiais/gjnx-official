@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import EfficiencyCalculator from '../components/EfficiencyCalculator.astro';
+import EfficiencyCalculatorPro from '../components/EfficiencyCalculatorPro.astro';
 import { getCollection } from 'astro:content';
 
 // Fetch articles
@@ -60,7 +60,7 @@ const latestArticles = (await getCollection('articles'))
         <p class="max-w-600">选择你的芯片架构与电池方案，实时预测终端设备的续航表现。</p>
         
         <div class="tool-wrapper">
-          <EfficiencyCalculator />
+          <EfficiencyCalculatorPro />
         </div>
       </div>
     </section>

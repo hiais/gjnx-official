@@ -1,0 +1,98 @@
+[
+    {
+        "id": "a18-pro",
+        "name": "Apple A18 Pro",
+        "process": "TSMC N3E",
+        "type": "mobile",
+        "data_points": [
+            {
+                "watts": 3.5,
+                "score": 2100,
+                "scenario": "Daily"
+            },
+            {
+                "watts": 5.2,
+                "score": 2900,
+                "scenario": "Gaming"
+            },
+            {
+                "watts": 8.5,
+                "score": 3600,
+                "scenario": "Peak"
+            }
+        ],
+        "battery_drain_factor": 1.0
+    },
+    {
+        "id": "sd-8-elite",
+        "name": "Snapdragon 8 Elite",
+        "process": "TSMC N3E",
+        "type": "mobile",
+        "data_points": [
+            {
+                "watts": 4.0,
+                "score": 2000,
+                "scenario": "Daily"
+            },
+            {
+                "watts": 6.8,
+                "score": 3200,
+                "scenario": "Gaming"
+            },
+            {
+                "watts": 12.5,
+                "score": 4100,
+                "scenario": "Peak"
+            }
+        ],
+        "battery_drain_factor": 1.2
+    },
+    {
+        "id": "dimensity-9400",
+        "name": "Dimensity 9400",
+        "process": "TSMC N3E",
+        "type": "mobile",
+        "data_points": [
+            {
+                "watts": 3.8,
+                "score": 2050,
+                "scenario": "Daily"
+            },
+            {
+                "watts": 6.0,
+                "score": 3050,
+                "scenario": "Gaming"
+            },
+            {
+                "watts": 10.2,
+                "score": 3800,
+                "scenario": "Peak"
+            }
+        ],
+        "battery_drain_factor": 1.1
+    },
+    {
+        "id": "intel-18a-demo",
+        "name": "Intel Panther Lake (Sim)",
+        "process": "Intel 18A",
+        "type": "laptop",
+        "data_points": [
+            {
+                "watts": 15,
+                "score": 8000,
+                "scenario": "Silent"
+            },
+            {
+                "watts": 28,
+                "score": 14000,
+                "scenario": "Balanced"
+            },
+            {
+                "watts": 45,
+                "score": 19500,
+                "scenario": "Turbo"
+            }
+        ],
+        "battery_drain_factor": 2.5
+    }
+]

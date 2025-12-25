@@ -1,0 +1,416 @@
+---
+// EfficiencyCalculatorPro.astro
+import chipsData from '../data/chips.json';
+import WeChatModal from './WeChatModal.astro';
+
+// Serve data to client-side script
+const chipsJSON = JSON.stringify(chipsData);
+---
+
+<div class="calc-container cyber-border" id="calc-app">
+  <div class="calc-header">
+    <div class="label-box">
+      <span class="pulse-dot"></span>
+      SYSTEM: EFFICIENCY_ANALYZER_V2
+    </div>
+    <h2 class="calc-title">Silicon Battle Arena</h2>
+  </div>
+
+  <div class="arena-grid">
+    <!-- CONTENDER A -->
+    <div class="contender-col" id="col-a">
+      <div class="selector-box">
+        <label>UNIT ALPHA</label>
+        <select id="select-a" class="cyber-select">
+          {chipsData.map(c => <option value={c.id}>{c.name}</option>)}
+        </select>
+      </div>
+      <div class="stats-display">
+        <div class="stat-row">
+            <span class="label">POWER</span>
+            <span class="value cyan" id="power-a">-- W</span>
+        </div>
+        <div class="stat-row">
+            <span class="label">SCORE</span>
+            <span class="value white" id="score-a">--</span>
+        </div>
+        <div class="efficiency-bar-wrapper">
+             <div class="bar-label">PPW EFFICIENCY</div>
+             <div class="bar-track"><div class="bar-fill" id="bar-a"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CENTER CONTROL -->
+    <div class="control-col">
+       <div class="vs-badge">VS</div>
+       
+       <div class="control-panel">
+         <label>TDP LIMITER via <span class="cyan">PowerVia™</span></label>
+         <input type="range" id="tdp-slider" min="3" max="20" step="0.5" value="5" class="cyber-range">
+         <div class="range-val" id="tdp-val">5.0 W</div>
+         <div class="scenario-label" id="scenario-hint">GAMING MODE</div>
+       </div>
+
+       <div class="result-box">
+          <div class="winner-label">EFFICIENCY LEAD</div>
+          <div class="winner-name" id="winner-name">CALCULATING...</div>
+          <div class="diff-val" id="diff-val">+0%</div>
+       </div>
+    </div>
+
+    <!-- CONTENDER B -->
+    <div class="contender-col" id="col-b">
+      <div class="selector-box">
+        <label>UNIT BETA</label>
+        <select id="select-b" class="cyber-select">
+           {chipsData.map((c, i) => <option value={c.id} selected={i===1}>{c.name}</option>)}
+        </select>
+      </div>
+      <div class="stats-display">
+        <div class="stat-row">
+            <span class="label">POWER</span>
+            <span class="value cyan" id="power-b">-- W</span>
+        </div>
+        <div class="stat-row">
+            <span class="label">SCORE</span>
+            <span class="value white" id="score-b">--</span>
+        </div>
+        <div class="efficiency-bar-wrapper">
+             <div class="bar-label">PPW EFFICIENCY</div>
+             <div class="bar-track"><div class="bar-fill" id="bar-b"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="calc-footer">
+    <button class="cyber-btn active-btn" id="generate-poster">GENERATE REPORT [LOCKED]</button>
+    <div class="disclaimer">* SimData based on Geekbench 6 & SPECint curves.</div>
+  </div>
+  
+  <WeChatModal triggerId="generate-poster" keyword="能效" title="UNLOCK_PRO_REPORT" />
+</div>
+
+<script define:vars={{ chipsJSON }}>
+  // Client-side Logic
+  const chips = JSON.parse(chipsJSON);
+  
+  const els = {
+    selA: document.getElementById('select-a'),
+    selB: document.getElementById('select-b'),
+    slider: document.getElementById('tdp-slider'),
+    tdpVal: document.getElementById('tdp-val'),
+    hint: document.getElementById('scenario-hint'),
+    
+    // A
+    pwrA: document.getElementById('power-a'),
+    scrA: document.getElementById('score-a'),
+    barA: document.getElementById('bar-a'),
+    
+    // B
+    pwrB: document.getElementById('power-b'),
+    scrB: document.getElementById('score-b'),
+    barB: document.getElementById('bar-b'),
+    
+    // Result
+    winner: document.getElementById('winner-name'),
+    diff: document.getElementById('diff-val')
+  };
+
+  // Linear Interpolation
+  function interpolate(points, targetW) {
+    // Sort points by watts just in case
+    points.sort((a,b) => a.watts - b.watts);
+    
+    // Boundary checks
+    if (targetW <= points[0].watts) {
+        // Linear extrapolation downwards or floor
+        return points[0].score * (targetW / points[0].watts); 
+    }
+    if (targetW >= points[points.length-1].watts) {
+        // Diminishing returns (saturation) - simplistic model
+        return points[points.length-1].score; 
+    }
+
+    // Find interval
+    for (let i = 0; i < points.length - 1; i++) {
+        const p1 = points[i];
+        const p2 = points[i+1];
+        if (targetW >= p1.watts && targetW <= p2.watts) {
+            const ratio = (targetW - p1.watts) / (p2.watts - p1.watts);
+            return p1.score + ratio * (p2.score - p1.score);
+        }
+    }
+    return 0;
+  }
+  
+  function getScenario(watts) {
+      if (watts < 4) return "DAILY / IDLE";
+      if (watts < 8) return "HEAVY GAMING";
+      if (watts < 15) return "RENDERING / PEAK";
+      return "OVERDRIVE";
+  }
+
+  function update() {
+    const chipA = chips.find(c => c.id === els.selA.value);
+    const chipB = chips.find(c => c.id === els.selB.value);
+    const watts = parseFloat(els.slider.value);
+    
+    els.tdpVal.innerText = watts.toFixed(1) + ' W';
+    els.hint.innerText = getScenario(watts);
+
+    // Calculate Scores
+    const scoreA = interpolate(chipA.data_points, watts);
+    const scoreB = interpolate(chipB.data_points, watts);
+    
+    // Update UI A
+    els.pwrA.innerText = watts.toFixed(1) + ' W';
+    els.scrA.innerText = Math.round(scoreA);
+    
+    // Update UI B
+    els.pwrB.innerText = watts.toFixed(1) + ' W';
+    els.scrB.innerText = Math.round(scoreB);
+
+    // Update Bars (Max reference 5000 for mobile)
+    const maxRef = 5000; 
+    const ppwA = scoreA / watts;
+    const ppwB = scoreB / watts;
+    
+    // Visualizing Score (not PPW directly, but score bar)
+    els.barA.style.width = Math.min((scoreA / maxRef) * 100, 100) + '%';
+    els.barB.style.width = Math.min((scoreB / maxRef) * 100, 100) + '%';
+    
+    // Winner
+    if (scoreA > scoreB) {
+        els.winner.innerText = chipA.name;
+        els.winner.style.color = 'var(--c-accent-cyan)';
+        const d = ((scoreA - scoreB) / scoreB) * 100;
+        els.diff.innerText = '+' + d.toFixed(1) + '%';
+        els.diff.style.color = 'var(--c-accent-cyan)';
+    } else {
+        els.winner.innerText = chipB.name;
+        els.winner.style.color = '#ff0055'; // Rose for competitor
+        const d = ((scoreB - scoreA) / scoreA) * 100;
+        els.diff.innerText = '+' + d.toFixed(1) + '%';
+        els.diff.style.color = '#ff0055'; 
+    }
+  }
+
+  // Listeners
+  els.slider.addEventListener('input', update);
+  els.selA.addEventListener('change', update);
+  els.selB.addEventListener('change', update);
+
+  // Init
+  update();
+</script>
+
+<style>
+  :root {
+      --c-bg: #0a0a0a;
+      --c-border: rgba(255,255,255,0.1);
+      --c-cyan: #00f0ff;
+  }
+  
+  .calc-container {
+    background: var(--c-bg);
+    border: 1px solid var(--c-border);
+    padding: 1.5rem;
+    border-radius: 8px;
+    font-family: 'JetBrains Mono', monospace;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .cyber-border::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; width: 100%; height: 2px;
+      background: linear-gradient(90deg, transparent, var(--c-cyan), transparent);
+      opacity: 0.5;
+  }
+
+  .calc-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid var(--c-border);
+      padding-bottom: 1rem;
+  }
+  
+  .label-box {
+      font-size: 0.7rem;
+      color: #666;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+  }
+  
+  .pulse-dot {
+      width: 6px; height: 6px;
+      background: #0f0;
+      border-radius: 50%;
+      box-shadow: 0 0 5px #0f0;
+      animation: pulse 2s infinite;
+  }
+  
+  .calc-title {
+      font-size: 1.2rem;
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+  }
+
+  /* Arena Layout */
+  .arena-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+      .arena-grid {
+          grid-template-columns: 1fr 0.8fr 1fr;
+          align-items: start;
+      }
+  }
+
+  /* Contender Col */
+  .contender-col {
+      background: rgba(255,255,255,0.02);
+      padding: 1rem;
+      border-radius: 4px;
+      border: 1px solid transparent;
+      transition: border-color 0.3s;
+  }
+  .contender-col:hover {
+      border-color: rgba(0,240,255,0.3);
+  }
+
+  .selector-box label {
+      display: block;
+      font-size: 0.7rem;
+      color: #888;
+      margin-bottom: 0.5rem;
+  }
+  
+  .cyber-select {
+      width: 100%;
+      background: #000;
+      color: white;
+      border: 1px solid #333;
+      padding: 0.5rem;
+      font-family: inherit;
+      margin-bottom: 1.5rem;
+  }
+
+  .stat-row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0.8rem;
+      font-size: 0.9rem;
+  }
+  .stat-row .label { color: #666; }
+  .stat-row .value { font-weight: bold; }
+  .cyan { color: var(--c-cyan); }
+  .white { color: white; }
+
+  .bar-track {
+      height: 4px;
+      background: #333;
+      margin-top: 0.5rem;
+      position: relative;
+  }
+  .bar-fill {
+      height: 100%;
+      background: var(--c-cyan);
+      width: 0%;
+      transition: width 0.3s ease-out;
+      box-shadow: 0 0 10px var(--c-cyan);
+  }
+
+  /* Control Panel */
+  .control-col {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .vs-badge {
+      font-size: 1.5rem;
+      font-weight: 900;
+      color: #333;
+      margin-bottom: 2rem;
+  }
+
+  .control-panel {
+      width: 100%;
+      background: #111;
+      padding: 1rem;
+      border: 1px solid #333;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+  }
+  
+  .cyber-range {
+      width: 100%;
+      margin: 1rem 0;
+      accent-color: var(--c-cyan);
+  }
+  
+  .range-val {
+      font-size: 1.5rem;
+      color: var(--c-cyan);
+      font-weight: bold;
+  }
+  
+  .scenario-label {
+      font-size: 0.7rem;
+      color: #888;
+      margin-top: 0.5rem;
+  }
+
+  .result-box {
+      text-align: center;
+  }
+  .winner-label { font-size: 0.7rem; color: #666; letter-spacing: 2px; }
+  .winner-name { font-size: 1.2rem; font-weight: bold; margin: 0.5rem 0; }
+  .diff-val { font-size: 2rem; font-weight: 900; }
+
+  /* Footer */
+  .calc-footer {
+      border-top: 1px solid var(--c-border);
+      padding-top: 1rem;
+      margin-top: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .cyber-btn {
+      background: transparent;
+      border: 1px solid #333;
+      color: #666;
+      padding: 0.5rem 1rem;
+      font-family: inherit;
+      cursor: pointer;
+      transition: all 0.3s;
+  }
+  .active-btn:hover {
+      border-color: var(--c-cyan);
+      color: var(--c-cyan);
+      box-shadow: 0 0 15px rgba(0, 240, 255, 0.2);
+  }
+  
+  .disclaimer { font-size: 0.6rem; color: #444; }
+
+  @keyframes pulse {
+      0% { opacity: 0.5; }
+      50% { opacity: 1; }
+      100% { opacity: 0.5; }
+  }
+</style>

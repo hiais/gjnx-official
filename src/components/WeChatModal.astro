@@ -1,0 +1,147 @@
+---
+// WeChatModal.astro
+// A reusable modal for WeChat conversion
+interface Props {
+  triggerId: string; // The ID of the button that opens this modal
+  title?: string;
+  keyword?: string;
+}
+
+const { triggerId, title = "INITIATING_HANDSHAKE", keyword = "报告" } = Astro.props;
+---
+
+<dialog id="wechat-modal" class="modal">
+  <div class="modal-content cyber-border">
+    <button id="close-modal" class="close-btn">×</button>
+    <h3 class="mono">> {title}</h3>
+    
+    <div class="qr-wrapper">
+      <!-- Placeholder QR (Replace with real asset) -->
+      <img src="/assets/qrcode.jpg" alt="WeChat QR" width="200" height="200" />
+      <div class="scan-line"></div>
+    </div>
+    
+    <p class="instruction">
+      扫描二维码，回复 <span class="highlight">【{keyword}】</span><br>
+      立即解锁完整版功能
+    </p>
+  </div>
+</dialog>
+
+<style>
+  dialog.modal {
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: auto;
+    color: white;
+    max-width: 90vw;
+    z-index: 1000;
+  }
+  
+  dialog::backdrop {
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(8px);
+  }
+
+  .modal-content {
+    background: #0a0a0a;
+    border: 1px solid var(--c-accent-cyan, #00f0ff);
+    padding: 2.5rem;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0, 240, 255, 0.15);
+  }
+
+  h3 {
+    color: var(--c-accent-cyan, #00f0ff);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px dashed rgba(255,255,255,0.1);
+    padding-bottom: 0.8rem;
+  }
+
+  .qr-wrapper {
+    position: relative;
+    display: inline-block;
+    border: 2px solid #333;
+    padding: 10px;
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .scan-line {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 4px;
+    background: #ff0055;
+    box-shadow: 0 0 10px #ff0055;
+    animation: scan 2s linear infinite;
+    opacity: 0.8;
+  }
+
+  .instruction {
+    margin-top: 2rem;
+    font-size: 0.95rem;
+    color: #ccc;
+    line-height: 1.8;
+  }
+
+  .highlight {
+    color: #ffae00;
+    font-weight: bold;
+    border: 1px solid rgba(255, 174, 0, 0.5);
+    padding: 2px 8px;
+    border-radius: 4px;
+    background: rgba(255, 174, 0, 0.1);
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 15px; right: 20px;
+    background: none;
+    border: none;
+    color: #666;
+    font-size: 2rem;
+    line-height: 1;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  .close-btn:hover { color: white; }
+
+  @keyframes scan {
+    0% { top: 0%; }
+    50% { top: 100%; }
+    51% { top: 0%; }
+    100% { top: 0%; }
+  }
+</style>
+
+<script define:vars={{ triggerId }}>
+  const modal = document.getElementById('wechat-modal');
+  const openBtn = document.getElementById(triggerId);
+  const closeBtn = document.getElementById('close-modal');
+
+  if (modal && openBtn && closeBtn) {
+    openBtn.addEventListener('click', () => {
+      modal.showModal();
+    });
+
+    closeBtn.addEventListener('click', () => {
+      modal.close();
+    });
+
+    modal.addEventListener('click', (e) => {
+      const rect = modal.getBoundingClientRect();
+      const isInDialog = (
+        rect.top <= e.clientY && e.clientY <= rect.top + rect.height &&
+        rect.left <= e.clientX && e.clientX <= rect.left + rect.width
+      );
+      if (!isInDialog) {
+        modal.close();
+      }
+    });
+  }
+</script>
