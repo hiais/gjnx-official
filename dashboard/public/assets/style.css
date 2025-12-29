@@ -545,7 +545,16 @@ body {
     .header {
         flex-direction: column;
         text-align: center;
-        padding: 1.5rem;
+        padding: 1.25rem 1rem;
+        /* 减小内边距 */
+    }
+
+    .header-content h1 {
+        font-size: 1.4rem;
+        /* 缩小字号 */
+        white-space: nowrap;
+        /* 强制单行 */
+        margin-bottom: 0.25rem;
     }
 
     .health-display {
