@@ -391,12 +391,20 @@ function updateHealthIssues(health) {
     const healthIssues = document.getElementById('healthIssues');
     if (!healthIssues) return;
 
+    const translations = {
+        'ERR_P0_ALERTS_ACTIVE': '检测到活跃 P0 告警',
+        'WARN_QUEUE_BACKUP': '任务队列积压',
+        'WARN_HIGH_ERROR_RATE': '今日错误日志率较高',
+        'ERR_SCHEDULER_EXCEPTION': '调度任务执行异常'
+    };
+
     if (!health.issues || health.issues.length === 0) {
         healthIssues.innerHTML = '<div class="health-issue resolved">✅ 系统运行正常</div>';
     } else {
-        healthIssues.innerHTML = health.issues.map(issue => `
-            <div class="health-issue">⚠️ ${issue}</div>
-        `).join('');
+        healthIssues.innerHTML = health.issues.map(issue => {
+            const translated = translations[issue] || issue;
+            return `<div class="health-issue">⚠️ ${translated}</div>`;
+        }).join('');
     }
 }
 
