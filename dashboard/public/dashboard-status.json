@@ -12,7 +12,7 @@
                                                  },
                         "token_usage_today":  0
                     },
-    "timestamp":  "2025-12-30 04:00:06",
+    "timestamp":  "2025-12-30 04:00:07",
     "logs":  {
                  "by_level":  {
                                   "ERROR":  0,
@@ -74,7 +74,7 @@
                },
     "system":  {
                    "timezone":  "China Standard Time",
-                   "last_update":  "2025-12-30 04:00:06"
+                   "last_update":  "2025-12-30 04:00:07"
                },
     "comparison":  {
                        "success_rate":  {
@@ -190,7 +190,7 @@
                ],
     "metadata":  {
                      "collector_version":  "3.2",
-                     "duration_seconds":  5.85,
+                     "duration_seconds":  4.47,
                      "errors":  [
 
                                 ],
@@ -448,7 +448,7 @@
                                   {
                                       "id":  "pending_config_val.lock",
                                       "workflow":  "Unknown",
-                                      "age_minutes":  88.1,
+                                      "age_minutes":  88.2,
                                       "created":  "2025-12-30 02:31:53",
                                       "priority":  "Unknown",
                                       "trace_id":  null
