@@ -14,15 +14,43 @@
                                    ],
                  "total":  0
              },
-    "timestamp":  "2025-12-30 02:30:59",
+    "timestamp":  "2025-12-30 03:01:29",
     "tasks":  {
                   "pending":  [
                                   {
                                       "priority":  "P0",
+                                      "created":  "2025-12-30 03:00:00",
+                                      "id":  "P0_check_alerts_trc-1230030000.lock",
+                                      "age_minutes":  1.5,
+                                      "workflow":  "check-alerts"
+                                  },
+                                  {
+                                      "priority":  "P0",
                                       "created":  "2025-12-30 02:11:43",
                                       "id":  "P0_process_tasks_trc-1230021143.lock",
-                                      "age_minutes":  19.3,
+                                      "age_minutes":  49.8,
                                       "workflow":  "process-tasks"
+                                  },
+                                  {
+                                      "priority":  "P0",
+                                      "created":  "2025-12-30 03:00:00",
+                                      "id":  "P0_task_watchdog_trc-1230030000.lock",
+                                      "age_minutes":  1.5,
+                                      "workflow":  "task-watchdog"
+                                  },
+                                  {
+                                      "priority":  "P2",
+                                      "created":  "2025-12-30 03:00:00",
+                                      "id":  "P2_refresh_dashboard_trc-1230030000.lock",
+                                      "age_minutes":  1.5,
+                                      "workflow":  "refresh-dashboard"
+                                  },
+                                  {
+                                      "priority":  "Unknown",
+                                      "created":  "2025-12-30 02:31:53",
+                                      "id":  "pending_config_val.lock",
+                                      "age_minutes":  29.6,
+                                      "workflow":  "Unknown"
                                   }
                               ],
                   "alerts":  [
@@ -41,7 +69,7 @@
                },
     "system":  {
                    "timezone":  "China Standard Time",
-                   "last_update":  "2025-12-30 02:30:59"
+                   "last_update":  "2025-12-30 03:01:29"
                },
     "alerts":  [
                    {
