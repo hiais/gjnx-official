@@ -18,6 +18,7 @@
 ## 数据更新
 
 - 自动更新：每5分钟通过 GitHub Actions
+- 实时同步：本地运行 `.\scripts\start-log-monitor.bat` 持续监听日志变化
 - 手动更新：运行 `.\scripts\collect-dashboard-data.ps1`
 
 ## 密码保护
