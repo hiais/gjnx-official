@@ -1,14 +1,14 @@
-// 05_Official_Website/dashboard/public/assets/script.js
-// V2.0 增强版：添加图表、交互、筛选功能
+// 硅基能效 Dashboard - 核心逻辑 V3.1
+// 包含 Phase 1 增强功能：历史对比、性能分布、多指标趋势
 
-const DATA_FILE = 'dashboard-status.json';
-const REFRESH_INTERVAL = 30000; // 30秒
-
+const REFRESH_INTERVAL = 30000;
 let refreshTimer = null;
 let countdownTimer = null;
 let countdown = 30;
-let previousData = null;
 let tokenChart = null;
+let previousData = null;
+let lastDataHash = null;
+
 let currentFilters = {
     workflow: '',
     priority: ''
@@ -33,119 +33,81 @@ function setupFilters() {
     if (workflowFilter) {
         workflowFilter.addEventListener('change', (e) => {
             currentFilters.workflow = e.target.value;
-            applyFilters();
+            if (previousData) updateTaskQueue(previousData.tasks);
         });
     }
 
     if (priorityFilter) {
         priorityFilter.addEventListener('change', (e) => {
             currentFilters.priority = e.target.value;
-            applyFilters();
+            if (previousData) updateTaskQueue(previousData.tasks);
         });
     }
 }
 
-// 应用筛选
-function applyFilters() {
-    if (!previousData) return;
-    updateDashboard(previousData);
-}
-
 // 清除筛选
 function clearFilters() {
-    currentFilters.workflow = '';
-    currentFilters.priority = '';
-    const wfFilter = document.getElementById('workflowFilter');
-    const prFilter = document.getElementById('priorityFilter');
-    if (wfFilter) wfFilter.value = '';
-    if (prFilter) prFilter.value = '';
-
-    if (previousData) {
-        updateDashboard(previousData);
-    }
+    currentFilters = { workflow: '', priority: '' };
+    document.getElementById('workflowFilter').value = '';
+    document.getElementById('priorityFilter').value = '';
+    if (previousData) updateTaskQueue(previousData.tasks);
 }
 
 // 加载数据
 async function loadData(showLoading = false) {
-    if (showLoading) toggleLoading(true);
+    const overlay = document.getElementById('loadingOverlay');
+    if (showLoading && overlay) overlay.classList.add('visible');
 
     try {
-        const response = await fetch(`${DATA_FILE}?t=${Date.now()}`);
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
+        const response = await fetch('dashboard-status.json?t=' + new Date().getTime());
+        if (!response.ok) throw new Error('网络响应异常');
         const data = await response.json();
 
-        if (validateData(data)) {
-            updateDashboard(data);
-            previousData = data;
-            countdown = 30;
+        // 性能优化：只有数据变化时才完整渲染
+        const currentHash = JSON.stringify(data).slice(0, 2000); // 采样哈希
+        if (currentHash === lastDataHash) {
+            console.log('数据未发生变化，跳过完整渲染');
+            return;
         }
+        lastDataHash = currentHash;
+
+        updateDashboard(data);
+        previousData = data;
     } catch (error) {
-        console.error('Failed to load data:', error);
-        showError(`加载数据失败: ${error.message}`);
+        console.error('加载数据失败:', error);
+        showError('数据加载失败，请检查脚本运行状态');
     } finally {
-        if (showLoading) toggleLoading(false);
-    }
-}
-
-// 验证数据格式
-function validateData(data) {
-    if (!data || typeof data !== 'object') {
-        showError('无效的数据格式');
-        return false;
-    }
-
-    if (!data.health || !data.tasks || !data.logs) {
-        showError('数据缺失核心字段');
-        return false;
-    }
-
-    return true;
-}
-
-// 切换Loading显示
-function toggleLoading(show) {
-    const overlay = document.getElementById('loadingOverlay');
-    if (overlay) {
-        if (show) {
-            overlay.classList.add('visible');
-        } else {
-            overlay.classList.remove('visible');
-        }
+        if (showLoading && overlay) overlay.classList.remove('visible');
     }
 }
 
 // 更新看板
 function updateDashboard(data) {
-    // 更新头部
-    const lastUpdateEl = document.getElementById('lastUpdate');
-    const healthScoreEl = document.getElementById('healthScore');
-    if (lastUpdateEl) lastUpdateEl.textContent = data.timestamp || data.system.last_update;
-    if (healthScoreEl) healthScoreEl.textContent = data.health.score;
+    if (!data) return;
 
-    const statusBadge = document.getElementById('statusBadge');
-    if (statusBadge) {
-        statusBadge.textContent = data.health.status.toUpperCase();
-        statusBadge.className = `status-badge status-${data.health.status}`;
+    // 更新基础元数据
+    const lastUpdateEl = document.getElementById('lastUpdate');
+    if (lastUpdateEl) lastUpdateEl.textContent = data.timestamp;
+
+    const healthScoreEl = document.getElementById('healthScore');
+    if (healthScoreEl) {
+        healthScoreEl.textContent = data.health.score;
+        healthScoreEl.className = 'health-score score-' + data.health.status;
     }
 
-    // 更新任务队列
+    const statusBadgeEl = document.getElementById('statusBadge');
+    if (statusBadgeEl) {
+        const statusMap = { healthy: '系统正常', warning: '有警告', critical: '紧急告警' };
+        statusBadgeEl.textContent = statusMap[data.health.status] || '未知状态';
+        statusBadgeEl.className = 'status-badge status-' + data.health.status;
+    }
+
+    // 更新现有组件
     updateTaskQueue(data.tasks);
-
-    // 更新性能指标
     updatePerformance(data.performance, data.history);
-
-    // 更新业务指标
     updateBusinessMetrics(data.business);
-
-    // 更新调度任务
     updateScheduledTasks(data.scheduled_tasks || []);
-
-    // 更新工作流性能
     updateWorkflowPerformance(data.performance);
-
-    // 更新日志统计
     updateLogStats(data.logs);
 
     // 更新健康问题
@@ -157,15 +119,19 @@ function updateDashboard(data) {
     // 更新告警历史
     updateAlertList(data.alerts || []);
 
-    // 更新新功能 (Phase 1)
-    if (data.history && data.history.multi_metric_trend) {
-        updateMultiMetricChart(data);
-    }
-    if (data.performance && data.performance.duration_percentiles) {
-        updatePerformancePercentiles(data);
-    }
-    if (data.comparison) {
-        updateComparison(data);
+    // --- Phase 1 增强功能 (硬化版) ---
+    try {
+        if (data.history && data.history.multi_metric_trend) {
+            updateMultiMetricChart(data);
+        }
+        if (data.performance && data.performance.duration_percentiles) {
+            updatePerformancePercentiles(data);
+        }
+        if (data.comparison) {
+            updateComparison(data);
+        }
+    } catch (e) {
+        console.error('更新 Phase 1 增强卡片失败:', e);
     }
 
     // 检查新告警
@@ -173,6 +139,216 @@ function updateDashboard(data) {
         checkNewAlerts(data.tasks.alerts, previousData.tasks.alerts);
     }
 }
+
+// --- Phase 1 Extended Logic (Hardened) ---
+
+function setupExtendedFilters() {
+    const metricSelector = document.getElementById('metricSelector');
+    if (metricSelector) {
+        metricSelector.addEventListener('change', () => {
+            if (previousData) updateMultiMetricChart(previousData);
+        });
+    }
+
+    const workflowSelector = document.getElementById('workflowSelector');
+    if (workflowSelector) {
+        workflowSelector.addEventListener('change', () => {
+            if (previousData) updatePerformancePercentiles(previousData);
+        });
+    }
+}
+
+function updateMultiMetricChart(data) {
+    const canvas = document.getElementById('multiMetricChart');
+    if (!canvas) return;
+
+    if (!data.history || !data.history.multi_metric_trend) {
+        if (multiMetricChart) { multiMetricChart.destroy(); multiMetricChart = null; }
+        return;
+    }
+
+    const metricSelector = document.getElementById('metricSelector');
+    const selectedMetric = metricSelector ? metricSelector.value : 'token_usage';
+    const trendData = data.history.multi_metric_trend[selectedMetric];
+
+    if (!trendData || !Array.isArray(trendData) || trendData.length === 0) {
+        console.warn('Metric data empty:', selectedMetric);
+        return;
+    }
+
+    if (multiMetricChart) {
+        try { multiMetricChart.destroy(); } catch (e) { }
+        multiMetricChart = null;
+    }
+
+    const ctx = canvas.getContext('2d');
+    const colors = {
+        token_usage: { border: '#667eea', bg: 'rgba(102, 126, 234, 0.1)' },
+        success_rate: { border: '#10b981', bg: 'rgba(16, 185, 129, 0.1)' },
+        error_rate: { border: '#ef4444', bg: 'rgba(239, 68, 68, 0.1)' },
+        queue_length: { border: '#f59e0b', bg: 'rgba(245, 158, 11, 0.1)' },
+        avg_duration: { border: '#8b5cf6', bg: 'rgba(139, 92, 246, 0.1)' }
+    };
+    const color = colors[selectedMetric] || colors.token_usage;
+
+    // 处理 Null 值 (如历史队列长度)
+    const values = trendData.map(d => d.value !== null ? d.value : 0);
+
+    multiMetricChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: trendData.map(d => d.date),
+            datasets: [{
+                label: getMetricLabel(selectedMetric),
+                data: values,
+                borderColor: color.border,
+                backgroundColor: color.bg,
+                tension: 0.4,
+                fill: true,
+                pointRadius: trendData.map(d => d.value === null ? 0 : 3)
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        label: function (context) {
+                            const val = trendData[context.dataIndex].value;
+                            if (val === null) return context.dataset.label + ': ' + '无历史数据';
+                            return context.dataset.label + ': ' + val;
+                        }
+                    }
+                }
+            },
+            scales: { y: { beginAtZero: true } }
+        }
+    });
+}
+
+function getMetricLabel(metric) {
+    const labels = {
+        token_usage: 'Token消耗',
+        success_rate: '成功率 (%)',
+        error_rate: '错误率 (%)',
+        queue_length: '积压任务数 (当日准确/历史估算)',
+        avg_duration: '平均耗时 (分钟)'
+    };
+    return labels[metric] || metric;
+}
+
+function updatePerformancePercentiles(data) {
+    const container = document.getElementById('percentilesGrid');
+    const workflowSelector = document.getElementById('workflowSelector');
+    if (!container) return;
+
+    const percentiles = data.performance.duration_percentiles || {};
+    const workflows = Object.keys(percentiles);
+
+    if (workflowSelector && (workflowSelector.options.length <= 1 && workflows.length > 0)) {
+        workflows.forEach(wf => {
+            const opt = document.createElement('option');
+            opt.value = wf; opt.textContent = wf; workflowSelector.appendChild(opt);
+        });
+    }
+
+    const selected = workflowSelector ? workflowSelector.value : 'all';
+    const display = selected === 'all' ? workflows.slice(0, 4) : [selected];
+
+    if (display.length === 0) {
+        container.innerHTML = '<div class="empty-state">暂无性能数据。</div>';
+    } else {
+        container.innerHTML = display.map(wf => {
+            const p = percentiles[wf];
+            if (!p) return '';
+            return `
+                <div class="percentile-card">
+                    <div class="percentile-header"><strong>${wf}</strong></div>
+                    <div class="percentile-values">
+                        <div class="percentile-item"><span>P50</span><strong>${p.p50}m</strong></div>
+                        <div class="percentile-item"><span>P95</span><strong class="percentile-p95">${p.p95}m</strong></div>
+                        <div class="percentile-item"><span>P99</span><strong class="percentile-p99">${p.p99}m</strong></div>
+                    </div>
+                </div>
+            `;
+        }).join('');
+    }
+    updateDurationHistogram(data, selected);
+}
+
+function updateDurationHistogram(data, selected) {
+    const canvas = document.getElementById('durationHistogram');
+    if (!canvas) return;
+
+    if (histogramChart) {
+        try { histogramChart.destroy(); } catch (e) { }
+        histogramChart = null;
+    }
+
+    const percentiles = data.performance.duration_percentiles || {};
+    if (selected === 'all' || !percentiles[selected]) return;
+
+    const p = percentiles[selected];
+    const ctx = canvas.getContext('2d');
+    histogramChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['P50 (中位)', 'P95 (尾部)', 'P99 (极端)'],
+            datasets: [{
+                label: '耗时 (分钟)',
+                data: [p.p50, p.p95, p.p99],
+                backgroundColor: ['#667eea', '#f59e0b', '#ef4444']
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { display: false } },
+            scales: { y: { beginAtZero: true, title: { display: true, text: '分钟' } } }
+        }
+    });
+}
+
+function updateComparison(data) {
+    const container = document.getElementById('comparisonMetrics');
+    if (!container || !data.comparison) return;
+
+    const c = data.comparison;
+    const renderItem = (label, today, yesterday, deltaPerc, isPercent) => {
+        let deltaClass = 'delta-neutral';
+        let deltaLabel = '';
+
+        if (isNaN(deltaPerc) || !isFinite(deltaPerc)) {
+            deltaLabel = yesterday === 0 && today > 0 ? '新增' : '持平';
+        } else {
+            deltaClass = deltaPerc >= 0 ? 'delta-positive' : 'delta-negative';
+            // 错误数增多是负面的，颜色逻辑反向处理由CSS决定较好，此处仅标记升降
+            if (label.includes('错误') && deltaPerc > 0) deltaClass = 'delta-negative';
+            else if (label.includes('错误') && deltaPerc < 0) deltaClass = 'delta-positive';
+
+            deltaLabel = (deltaPerc >= 0 ? '↑' : '↓') + ' ' + Math.abs(deltaPerc).toFixed(1) + '%';
+        }
+
+        return `
+            <div class="comparison-item">
+                <div class="comparison-label">${label}</div>
+                <div class="comparison-values">
+                    <span class="comparison-today">${today}${isPercent ? '%' : ''}</span>
+                    <span class="comparison-yesterday">昨日: ${yesterday}${isPercent ? '%' : ''}</span>
+                    <span class="comparison-delta ${deltaClass}">${deltaLabel}</span>
+                </div>
+            </div>
+        `;
+    };
+
+    container.innerHTML =
+        renderItem('Token 消耗量', formatNumber(c.token_usage.today), formatNumber(c.token_usage.yesterday), c.token_usage.delta_percent, false) +
+        renderItem('执行成功率', c.success_rate.today, c.success_rate.yesterday, c.success_rate.delta_percent, true) +
+        renderItem('异常日志记录', c.error_count.today, c.error_count.yesterday, c.error_count.delta_percent, false);
+}
+
+// --- End Phase 1 ---
 
 // 更新任务队列
 function updateTaskQueue(tasks) {
@@ -373,12 +549,14 @@ function updateWorkflowPerformance(performance) {
 function updateLogStats(logs) {
     const ltEl = document.getElementById('logTotal');
     const liEl = document.getElementById('logInfo');
-    const lwEl = document.getElementById('logWarn');
+    const lwEl = document.getElementById('logError'); // 这里之前可能是 logWarn 对应不对
     const leEl = document.getElementById('logError');
 
     if (ltEl) ltEl.textContent = logs.total || 0;
     if (liEl) liEl.textContent = (logs.by_level && logs.by_level.INFO) || 0;
-    if (lwEl) lwEl.textContent = (logs.by_level && logs.by_level.WARN) || 0;
+
+    const warnEl = document.getElementById('logWarn');
+    if (warnEl) warnEl.textContent = (logs.by_level && logs.by_level.WARN) || 0;
     if (leEl) leEl.textContent = (logs.by_level && logs.by_level.ERROR) || 0;
 
     const workflowStats = document.getElementById('workflowStats');
@@ -431,7 +609,7 @@ function updateErrorList(errors) {
     if (!errorList) return;
 
     if (errors.length === 0) {
-        errorList.innerHTML = '<div class="empty-state">暂无错误</div>';
+        errorList.innerHTML = '<div class="empty-state">暂无错误记录</div>';
     } else {
         errorList.innerHTML = errors.slice(0, 5).map(error => `
             <div class="error-item" onclick="showTaskDetail(null, '${error.trace_id || ''}')">
@@ -448,7 +626,7 @@ function updateAlertList(alerts) {
     if (!alertList) return;
 
     if (alerts.length === 0) {
-        alertList.innerHTML = '<div class="empty-state">暂无告警</div>';
+        alertList.innerHTML = '<div class="empty-state">暂无告警历史</div>';
     } else {
         alertList.innerHTML = alerts.slice(0, 10).map(alert => `
             <div class="alert-item">
@@ -469,15 +647,13 @@ function showTaskDetail(taskId, traceId) {
     modalBody.innerHTML = '<div class="empty-state">加载详情中...</div>';
     modal.classList.add('visible');
 
-    // 这里可以扩展：通过API或本地数据加载任务详情
-    // 目前显示基本信息
     if (traceId) {
         modalBody.innerHTML = `
             <div class="task-detail">
                 <h4 style="margin-bottom: 1rem; color: #667eea;">Trace ID: ${traceId}</h4>
                 <p><strong>任务ID:</strong> ${taskId || 'N/A'}</p>
                 <div style="margin-top: 1.5rem; padding: 1rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #667eea;">
-                    <p style="font-size: 0.9rem; color: #666;">📝 提示：完整链路追踪功能正在接入中，当前由于安全沙箱限制，仅展示核心标识符。</p>
+                    <p style="font-size: 0.9rem; color: #666;">📝 提示：分布式追踪功能正在接入中，当前由于安全沙箱限制，仅展示 Trace ID。</p>
                 </div>
             </div>
         `;
@@ -485,7 +661,7 @@ function showTaskDetail(taskId, traceId) {
         modalBody.innerHTML = `
             <div class="task-detail">
                 <h4 style="margin-bottom: 1rem; color: #ef4444;">任务ID: ${taskId || 'N/A'}</h4>
-                <p>⚠️ 提示：该任务无 Trace ID，属于系统早期遗留任务或直接调用的脚本，无法进行完整链路追踪。</p>
+                <p>⚠️ 提示：该任务无 Trace ID，通常属于单一脚本触发或早期遗留任务。</p>
             </div>
         `;
     }
@@ -505,164 +681,9 @@ window.onclick = function (event) {
     }
 }
 
-// --- Phase 1 Extended Logic ---
-
-function setupExtendedFilters() {
-    const metricSelector = document.getElementById('metricSelector');
-    if (metricSelector) {
-        metricSelector.addEventListener('change', () => {
-            if (previousData) updateMultiMetricChart(previousData);
-        });
-    }
-
-    const workflowSelector = document.getElementById('workflowSelector');
-    if (workflowSelector) {
-        workflowSelector.addEventListener('change', () => {
-            if (previousData) updatePerformancePercentiles(previousData);
-        });
-    }
-}
-
-function updateMultiMetricChart(data) {
-    const canvas = document.getElementById('multiMetricChart');
-    if (!canvas || !data.history || !data.history.multi_metric_trend) return;
-
-    const metricSelector = document.getElementById('metricSelector');
-    const selectedMetric = metricSelector ? metricSelector.value : 'token_usage';
-    const trendData = data.history.multi_metric_trend[selectedMetric] || [];
-
-    if (multiMetricChart) multiMetricChart.destroy();
-    const ctx = canvas.getContext('2d');
-
-    const colors = {
-        token_usage: { border: '#667eea', bg: 'rgba(102, 126, 234, 0.1)' },
-        success_rate: { border: '#10b981', bg: 'rgba(16, 185, 129, 0.1)' },
-        error_rate: { border: '#ef4444', bg: 'rgba(239, 68, 68, 0.1)' },
-        queue_length: { border: '#f59e0b', bg: 'rgba(245, 158, 11, 0.1)' },
-        avg_duration: { border: '#8b5cf6', bg: 'rgba(139, 92, 246, 0.1)' }
-    };
-    const color = colors[selectedMetric] || colors.token_usage;
-
-    multiMetricChart = new Chart(ctx, {
-        type: 'line',
-        data: {
-            labels: trendData.map(d => d.date),
-            datasets: [{
-                label: getMetricLabel(selectedMetric),
-                data: trendData.map(d => d.value),
-                borderColor: color.border,
-                backgroundColor: color.bg,
-                tension: 0.4,
-                fill: true
-            }]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            scales: { y: { beginAtZero: true } }
-        }
-    });
-}
-
-function getMetricLabel(metric) {
-    const labels = {
-        token_usage: 'Token消耗',
-        success_rate: '成功率 (%)',
-        error_rate: '错误率 (%)',
-        queue_length: '待处理任务数',
-        avg_duration: '平均耗时 (分钟)'
-    };
-    return labels[metric] || metric;
-}
-
-function updatePerformancePercentiles(data) {
-    const container = document.getElementById('percentilesGrid');
-    const workflowSelector = document.getElementById('workflowSelector');
-    if (!container) return;
-
-    const percentiles = data.performance.duration_percentiles || {};
-    const workflows = Object.keys(percentiles);
-
-    if (workflowSelector && workflowSelector.options.length <= 1) {
-        workflows.forEach(wf => {
-            const opt = document.createElement('option');
-            opt.value = wf; opt.textContent = wf; workflowSelector.appendChild(opt);
-        });
-    }
-
-    const selected = workflowSelector ? workflowSelector.value : 'all';
-    const display = selected === 'all' ? workflows.slice(0, 4) : [selected];
-
-    if (display.length === 0) {
-        container.innerHTML = '<div class="empty-state">暂无性能分位数数据</div>';
-    } else {
-        container.innerHTML = display.map(wf => {
-            const p = percentiles[wf];
-            return `
-                <div class="percentile-card">
-                    <div class="percentile-header"><strong>${wf}</strong></div>
-                    <div class="percentile-values">
-                        <div class="percentile-item"><span>P50</span><strong>${p.p50}m</strong></div>
-                        <div class="percentile-item"><span>P95</span><strong class="percentile-p95">${p.p95}m</strong></div>
-                        <div class="percentile-item"><span>P99</span><strong class="percentile-p99">${p.p99}m</strong></div>
-                    </div>
-                </div>
-            `;
-        }).join('');
-    }
-    updateDurationHistogram(data, selected);
-}
-
-function updateDurationHistogram(data, selected) {
-    const canvas = document.getElementById('durationHistogram');
-    if (!canvas) return;
-    if (histogramChart) histogramChart.destroy();
-
-    const percentiles = data.performance.duration_percentiles || {};
-    if (selected === 'all' || !percentiles[selected]) return;
-
-    const p = percentiles[selected];
-    const ctx = canvas.getContext('2d');
-    histogramChart = new Chart(ctx, {
-        type: 'bar',
-        data: {
-            labels: ['P50', 'P95', 'P99'],
-            datasets: [{
-                label: '耗时 (分钟)',
-                data: [p.p50, p.p95, p.p99],
-                backgroundColor: 'rgba(102, 126, 234, 0.6)'
-            }]
-        },
-        options: { responsive: true, maintainAspectRatio: false }
-    });
-}
-
-function updateComparison(data) {
-    const container = document.getElementById('comparisonMetrics');
-    if (!container || !data.comparison) return;
-
-    const c = data.comparison;
-    const renderItem = (label, today, yesterday, delta, isPercent) => `
-        <div class="comparison-item">
-            <div class="comparison-label">${label}</div>
-            <div class="comparison-values">
-                <span class="comparison-today">${today}${isPercent ? '%' : ''}</span>
-                <span class="comparison-yesterday">昨日: ${yesterday}${isPercent ? '%' : ''}</span>
-                <span class="comparison-delta ${delta >= 0 ? 'delta-positive' : 'delta-negative'}">
-                    ${delta >= 0 ? '↑' : '↓'} ${Math.abs(delta)}%
-                </span>
-            </div>
-        </div>
-    `;
-
-    container.innerHTML =
-        renderItem('Token 消耗', formatNumber(c.token_usage.today), formatNumber(c.token_usage.yesterday), c.token_usage.delta_percent, false) +
-        renderItem('执行成功率', c.success_rate.today, c.success_rate.yesterday, c.success_rate.delta_percent, true) +
-        renderItem('错误日志数', c.error_count.today, c.error_count.yesterday, c.error_count.delta_percent, false);
-}
-
 // 检查新告警并通知
 function checkNewAlerts(currentAlerts, previousAlerts) {
+    if (!currentAlerts || !previousAlerts) return;
     const newAlerts = currentAlerts.filter(alert =>
         !previousAlerts.some(prev => prev.id === alert.id)
     );
@@ -670,12 +691,9 @@ function checkNewAlerts(currentAlerts, previousAlerts) {
     if (newAlerts.length > 0 && 'Notification' in window) {
         Notification.requestPermission().then(permission => {
             if (permission === 'granted') {
-                newAlerts.forEach(alert => {
-                    new Notification('🚨 新告警', {
-                        body: `发现 ${newAlerts.length} 个新P0告警`,
-                        icon: '/favicon.ico',
-                        tag: 'dashboard-alert'
-                    });
+                new Notification('🚨 硅基能效 - 新告警', {
+                    body: `发现 ${newAlerts.length} 个新 P0 告警`,
+                    tag: 'dashboard-alert'
                 });
             }
         });
@@ -730,12 +748,8 @@ function formatTime(timeString) {
 
 // 格式化数字
 function formatNumber(num) {
-    if (num >= 1000000) {
-        return (num / 1000000).toFixed(1) + 'M';
-    }
-    if (num >= 1000) {
-        return (num / 1000).toFixed(1) + 'K';
-    }
+    if (num >= 1000000) return (num / 1000000).toFixed(1) + 'M';
+    if (num >= 1000) return (num / 1000).toFixed(1) + 'K';
     return num.toString();
 }
 

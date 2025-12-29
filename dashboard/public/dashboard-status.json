@@ -33,8 +33,8 @@
                         "token_usage_today":  0
                     },
     "metadata":  {
-                     "collector_version":  "3.0",
-                     "duration_seconds":  4.22,
+                     "collector_version":  "3.1",
+                     "duration_seconds":  4.04,
                      "errors":  [
 
                                 ],
@@ -42,7 +42,7 @@
                  },
     "system":  {
                    "timezone":  "China Standard Time",
-                   "last_update":  "2025-12-30 03:43:11"
+                   "last_update":  "2025-12-30 03:45:59"
                },
     "history":  {
                     "multi_metric_trend":  {
@@ -108,27 +108,27 @@
                                                                ],
                                                "queue_length":  [
                                                                     {
-                                                                        "value":  0,
+                                                                        "value":  null,
                                                                         "date":  "2025-12-24"
                                                                     },
                                                                     {
-                                                                        "value":  0,
+                                                                        "value":  null,
                                                                         "date":  "2025-12-25"
                                                                     },
                                                                     {
-                                                                        "value":  0,
+                                                                        "value":  null,
                                                                         "date":  "2025-12-26"
                                                                     },
                                                                     {
-                                                                        "value":  0,
+                                                                        "value":  null,
                                                                         "date":  "2025-12-27"
                                                                     },
                                                                     {
-                                                                        "value":  1,
+                                                                        "value":  null,
                                                                         "date":  "2025-12-28"
                                                                     },
                                                                     {
-                                                                        "value":  0,
+                                                                        "value":  null,
                                                                         "date":  "2025-12-29"
                                                                     },
                                                                     {
@@ -243,7 +243,7 @@
                                    ],
                  "total":  0
              },
-    "timestamp":  "2025-12-30 03:43:11",
+    "timestamp":  "2025-12-30 03:45:59",
     "health":  {
                    "status":  "healthy",
                    "score":  95,
@@ -274,7 +274,7 @@
                                   {
                                       "id":  "P0_check_alerts_trc-1230030000.lock",
                                       "workflow":  "check-alerts",
-                                      "age_minutes":  43.1,
+                                      "age_minutes":  45.9,
                                       "created":  "2025-12-30 03:00:00",
                                       "priority":  "P0",
                                       "trace_id":  null
@@ -282,7 +282,7 @@
                                   {
                                       "id":  "P0_process_tasks_trc-1230021143.lock",
                                       "workflow":  "process-tasks",
-                                      "age_minutes":  91.4,
+                                      "age_minutes":  94.2,
                                       "created":  "2025-12-30 02:11:43",
                                       "priority":  "P0",
                                       "trace_id":  null
@@ -290,7 +290,7 @@
                                   {
                                       "id":  "P0_task_watchdog_trc-1230030000.lock",
                                       "workflow":  "task-watchdog",
-                                      "age_minutes":  43.1,
+                                      "age_minutes":  45.9,
                                       "created":  "2025-12-30 03:00:00",
                                       "priority":  "P0",
                                       "trace_id":  null
@@ -298,7 +298,7 @@
                                   {
                                       "id":  "P1_daily_config_check_trc-1230032500.lock",
                                       "workflow":  "daily-config-check",
-                                      "age_minutes":  18.1,
+                                      "age_minutes":  20.9,
                                       "created":  "2025-12-30 03:25:00",
                                       "priority":  "P1",
                                       "trace_id":  null
@@ -306,7 +306,7 @@
                                   {
                                       "id":  "P1_scout_trc-1230033000.lock",
                                       "workflow":  "scout",
-                                      "age_minutes":  13.1,
+                                      "age_minutes":  15.9,
                                       "created":  "2025-12-30 03:30:00",
                                       "priority":  "P1",
                                       "trace_id":  null
@@ -314,7 +314,7 @@
                                   {
                                       "id":  "P2_archive_logs_trc-1230032000.lock",
                                       "workflow":  "archive-logs",
-                                      "age_minutes":  23.1,
+                                      "age_minutes":  25.9,
                                       "created":  "2025-12-30 03:20:00",
                                       "priority":  "P2",
                                       "trace_id":  null
@@ -322,7 +322,7 @@
                                   {
                                       "id":  "P2_refresh_dashboard_trc-1230030000.lock",
                                       "workflow":  "refresh-dashboard",
-                                      "age_minutes":  43.1,
+                                      "age_minutes":  45.9,
                                       "created":  "2025-12-30 03:00:00",
                                       "priority":  "P2",
                                       "trace_id":  null
@@ -330,7 +330,7 @@
                                   {
                                       "id":  "pending_config_val.lock",
                                       "workflow":  "Unknown",
-                                      "age_minutes":  71.2,
+                                      "age_minutes":  74,
                                       "created":  "2025-12-30 02:31:53",
                                       "priority":  "Unknown",
                                       "trace_id":  null
