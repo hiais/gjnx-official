@@ -1,4 +1,81 @@
 {
+    "performance":  {
+                        "token_usage_week":  0,
+                        "success_rate":  0,
+                        "avg_duration_by_workflow":  {
+
+                                                     },
+                        "success_count":  0,
+                        "fail_count":  0,
+                        "duration_percentiles":  {
+
+                                                 },
+                        "token_usage_today":  0
+                    },
+    "timestamp":  "2025-12-30 04:00:06",
+    "logs":  {
+                 "by_level":  {
+                                  "ERROR":  0,
+                                  "FATAL":  0,
+                                  "INFO":  0,
+                                  "WARN":  0
+                              },
+                 "by_workflow":  {
+
+                                 },
+                 "recent_errors":  [
+
+                                   ],
+                 "total":  0
+             },
+    "alert_rules":  {
+                        "p0_alerts_threshold":  1,
+                        "queue_backup_threshold":  10,
+                        "error_rate_threshold":  5,
+                        "scheduler_failure_threshold":  1,
+                        "cost_budget_warning_percent":  80,
+                        "cost_budget_critical_percent":  100,
+                        "sla_timeout_threshold":  1,
+                        "description":  {
+                                            "p0_alerts_threshold":  "P0告警数量阈值，超过此值触发告警",
+                                            "queue_backup_threshold":  "任务队列积压阈值，超过此值触发告警",
+                                            "error_rate_threshold":  "每日错误日志数量阈值，超过此值触发告警",
+                                            "scheduler_failure_threshold":  "调度任务失败数量阈值，超过此值触发告警",
+                                            "cost_budget_warning_percent":  "成本预算警告阈值（百分比），达到此值触发警告",
+                                            "cost_budget_critical_percent":  "成本预算严重阈值（百分比），达到此值触发严重告警",
+                                            "sla_timeout_threshold":  "SLA超时任务数量阈值，超过此值触发告警"
+                                        }
+                    },
+    "cost_analysis":  {
+                          "by_workflow_today":  {
+
+                                                },
+                          "by_workflow_today_formatted":  null,
+                          "week_token_usage":  0,
+                          "today_total_cost":  0,
+                          "daily_token_budget":  500000,
+                          "daily_budget":  100,
+                          "token_price_per_k":  0.1,
+                          "budget_usage_percent":  0,
+                          "budget_status":  "normal",
+                          "by_workflow_week":  {
+
+                                               },
+                          "by_workflow_week_formatted":  null,
+                          "week_total_cost":  0,
+                          "today_token_usage":  0
+                      },
+    "health":  {
+                   "status":  "healthy",
+                   "score":  95,
+                   "issues":  [
+                                  "ERR_SCHEDULER_EXCEPTION"
+                              ]
+               },
+    "system":  {
+                   "timezone":  "China Standard Time",
+                   "last_update":  "2025-12-30 04:00:06"
+               },
     "comparison":  {
                        "success_rate":  {
                                             "today":  0,
@@ -19,31 +96,106 @@
                                            "delta_percent":  0
                                        }
                    },
-    "performance":  {
-                        "token_usage_week":  0,
-                        "success_rate":  0,
-                        "avg_duration_by_workflow":  {
-
-                                                     },
-                        "success_count":  0,
-                        "fail_count":  0,
-                        "duration_percentiles":  {
-
-                                                 },
-                        "token_usage_today":  0
-                    },
+    "scheduled_tasks":  [
+                            {
+                                "id":  "Task-0",
+                                "name":  "核心任务处理",
+                                "last_run":  "2025-12-30 03:46:46",
+                                "enabled":  true,
+                                "status":  "Ready",
+                                "last_result":  0
+                            },
+                            {
+                                "id":  "Task-1",
+                                "name":  "日志归档",
+                                "last_run":  "2025-12-30 03:20:20",
+                                "enabled":  true,
+                                "status":  "Ready",
+                                "last_result":  0
+                            },
+                            {
+                                "id":  "Task-2",
+                                "name":  "配置巡检",
+                                "last_run":  "2025-12-30 03:25:25",
+                                "enabled":  true,
+                                "status":  "Ready",
+                                "last_result":  0
+                            },
+                            {
+                                "id":  "Task-3",
+                                "name":  "晨间选题",
+                                "last_run":  "2025-12-30 03:30:30",
+                                "enabled":  true,
+                                "status":  "Ready",
+                                "last_result":  0
+                            },
+                            {
+                                "id":  "Task-5",
+                                "name":  "系统脉冲",
+                                "last_run":  "2025-12-30 04:00:00",
+                                "enabled":  true,
+                                "status":  "Ready",
+                                "last_result":  0
+                            },
+                            {
+                                "id":  "Task-6",
+                                "name":  "任务看门狗",
+                                "last_run":  "2025-12-30 04:00:00",
+                                "enabled":  true,
+                                "status":  "Running",
+                                "last_result":  267009
+                            },
+                            {
+                                "id":  "Task-7",
+                                "name":  "微信数据闭环",
+                                "last_run":  "1999-11-30 00:00:00",
+                                "enabled":  true,
+                                "status":  "Ready",
+                                "last_result":  267011
+                            },
+                            {
+                                "id":  "Task-9",
+                                "name":  "代码数据备份",
+                                "last_run":  "1999-11-30 00:00:00",
+                                "enabled":  true,
+                                "status":  "Ready",
+                                "last_result":  267011
+                            },
+                            {
+                                "id":  "Task-10",
+                                "name":  "告警自动响应",
+                                "last_run":  "2025-12-30 04:00:00",
+                                "enabled":  true,
+                                "status":  "Ready",
+                                "last_result":  0
+                            }
+                        ],
+    "alerts":  [
+                   {
+                       "action":  "在看板标记“性能黄色预警”",
+                       "rule_id":  "P1-001",
+                       "level":  "🟡 P1",
+                       "reason":  "写作耗时 21min (基准 15min)",
+                       "time":  "2025-12-28 03:26",
+                       "status":  "✅ 已记录"
+                   },
+                   {
+                       "action":  "在看板标记“性能黄色预警”",
+                       "rule_id":  "P1-001",
+                       "level":  "🟡 P1",
+                       "reason":  "平均耗时 21min (\u003e 15min)",
+                       "time":  "2025-12-28 03:26",
+                       "status":  "✅ 已复盘"
+                   }
+               ],
     "metadata":  {
                      "collector_version":  "3.2",
-                     "duration_seconds":  4.15,
+                     "duration_seconds":  5.85,
                      "errors":  [
 
                                 ],
                      "has_token_trend":  false
                  },
-    "system":  {
-                   "timezone":  "China Standard Time",
-                   "last_update":  "2025-12-30 03:48:29"
-               },
     "history":  {
                     "multi_metric_trend":  {
                                                "success_rate":  [
@@ -228,53 +380,19 @@
                                            }
                                        ]
                 },
-    "logs":  {
-                 "by_level":  {
-                                  "ERROR":  0,
-                                  "FATAL":  0,
-                                  "INFO":  0,
-                                  "WARN":  0
-                              },
-                 "by_workflow":  {
-
-                                 },
-                 "recent_errors":  [
-
-                                   ],
-                 "total":  0
-             },
-    "timestamp":  "2025-12-30 03:48:29",
-    "health":  {
-                   "status":  "healthy",
-                   "score":  95,
-                   "issues":  [
-                                  "ERR_SCHEDULER_EXCEPTION"
-                              ]
-               },
-    "alerts":  [
-                   {
-                       "action":  "在看板标记“性能黄色预警”",
-                       "rule_id":  "P1-001",
-                       "level":  "🟡 P1",
-                       "reason":  "写作耗时 21min (基准 15min)",
-                       "time":  "2025-12-28 03:26",
-                       "status":  "✅ 已记录"
-                   },
-                   {
-                       "action":  "在看板标记“性能黄色预警”",
-                       "rule_id":  "P1-001",
-                       "level":  "🟡 P1",
-                       "reason":  "平均耗时 21min (\u003e 15min)",
-                       "time":  "2025-12-28 03:26",
-                       "status":  "✅ 已复盘"
-                   }
-               ],
+    "business":  {
+                     "efficiency":  0,
+                     "qc_pass_rate":  0,
+                     "avg_duration":  0,
+                     "articles_week":  0,
+                     "articles_today":  0
+                 },
     "tasks":  {
                   "pending":  [
                                   {
                                       "id":  "P0_check_alerts_trc-1230030000.lock",
                                       "workflow":  "check-alerts",
-                                      "age_minutes":  48.4,
+                                      "age_minutes":  60,
                                       "created":  "2025-12-30 03:00:00",
                                       "priority":  "P0",
                                       "trace_id":  null
@@ -282,7 +400,7 @@
                                   {
                                       "id":  "P0_process_tasks_trc-1230021143.lock",
                                       "workflow":  "process-tasks",
-                                      "age_minutes":  96.7,
+                                      "age_minutes":  108.3,
                                       "created":  "2025-12-30 02:11:43",
                                       "priority":  "P0",
                                       "trace_id":  null
@@ -290,7 +408,7 @@
                                   {
                                       "id":  "P0_task_watchdog_trc-1230030000.lock",
                                       "workflow":  "task-watchdog",
-                                      "age_minutes":  48.4,
+                                      "age_minutes":  60,
                                       "created":  "2025-12-30 03:00:00",
                                       "priority":  "P0",
                                       "trace_id":  null
@@ -298,7 +416,7 @@
                                   {
                                       "id":  "P1_daily_config_check_trc-1230032500.lock",
                                       "workflow":  "daily-config-check",
-                                      "age_minutes":  23.4,
+                                      "age_minutes":  35,
                                       "created":  "2025-12-30 03:25:00",
                                       "priority":  "P1",
                                       "trace_id":  null
@@ -306,7 +424,7 @@
                                   {
                                       "id":  "P1_scout_trc-1230033000.lock",
                                       "workflow":  "scout",
-                                      "age_minutes":  18.4,
+                                      "age_minutes":  30,
                                       "created":  "2025-12-30 03:30:00",
                                       "priority":  "P1",
                                       "trace_id":  null
@@ -314,7 +432,7 @@
                                   {
                                       "id":  "P2_archive_logs_trc-1230032000.lock",
                                       "workflow":  "archive-logs",
-                                      "age_minutes":  28.4,
+                                      "age_minutes":  40,
                                       "created":  "2025-12-30 03:20:00",
                                       "priority":  "P2",
                                       "trace_id":  null
@@ -322,7 +440,7 @@
                                   {
                                       "id":  "P2_refresh_dashboard_trc-1230030000.lock",
                                       "workflow":  "refresh-dashboard",
-                                      "age_minutes":  48.4,
+                                      "age_minutes":  60,
                                       "created":  "2025-12-30 03:00:00",
                                       "priority":  "P2",
                                       "trace_id":  null
@@ -330,7 +448,7 @@
                                   {
                                       "id":  "pending_config_val.lock",
                                       "workflow":  "Unknown",
-                                      "age_minutes":  76.5,
+                                      "age_minutes":  88.1,
                                       "created":  "2025-12-30 02:31:53",
                                       "priority":  "Unknown",
                                       "trace_id":  null
@@ -342,86 +460,5 @@
                   "processing":  [
 
                                  ]
-              },
-    "scheduled_tasks":  [
-                            {
-                                "id":  "Task-0",
-                                "name":  "核心任务处理",
-                                "last_run":  "2025-12-30 03:46:46",
-                                "enabled":  true,
-                                "status":  "Ready",
-                                "last_result":  0
-                            },
-                            {
-                                "id":  "Task-1",
-                                "name":  "日志归档",
-                                "last_run":  "2025-12-30 03:20:20",
-                                "enabled":  true,
-                                "status":  "Ready",
-                                "last_result":  0
-                            },
-                            {
-                                "id":  "Task-2",
-                                "name":  "配置巡检",
-                                "last_run":  "2025-12-30 03:25:25",
-                                "enabled":  true,
-                                "status":  "Ready",
-                                "last_result":  0
-                            },
-                            {
-                                "id":  "Task-3",
-                                "name":  "晨间选题",
-                                "last_run":  "2025-12-30 03:30:30",
-                                "enabled":  true,
-                                "status":  "Ready",
-                                "last_result":  0
-                            },
-                            {
-                                "id":  "Task-5",
-                                "name":  "系统脉冲",
-                                "last_run":  "2025-12-30 03:00:00",
-                                "enabled":  true,
-                                "status":  "Ready",
-                                "last_result":  0
-                            },
-                            {
-                                "id":  "Task-6",
-                                "name":  "任务看门狗",
-                                "last_run":  "2025-12-30 03:00:00",
-                                "enabled":  true,
-                                "status":  "Ready",
-                                "last_result":  0
-                            },
-                            {
-                                "id":  "Task-7",
-                                "name":  "微信数据闭环",
-                                "last_run":  "1999-11-30 00:00:00",
-                                "enabled":  true,
-                                "status":  "Ready",
-                                "last_result":  267011
-                            },
-                            {
-                                "id":  "Task-9",
-                                "name":  "代码数据备份",
-                                "last_run":  "1999-11-30 00:00:00",
-                                "enabled":  true,
-                                "status":  "Ready",
-                                "last_result":  267011
-                            },
-                            {
-                                "id":  "Task-10",
-                                "name":  "告警自动响应",
-                                "last_run":  "2025-12-30 03:30:30",
-                                "enabled":  true,
-                                "status":  "Ready",
-                                "last_result":  0
-                            }
-                        ],
-    "business":  {
-                     "efficiency":  0,
-                     "qc_pass_rate":  0,
-                     "avg_duration":  0,
-                     "articles_week":  0,
-                     "articles_today":  0
-                 }
+              }
 }
