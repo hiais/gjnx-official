@@ -752,3 +752,328 @@ body {
 .delta-negative {
     color: var(--error);
 }
+
+/* --- Phase 2 Extended Styles --- */
+
+/* 成本分析 */
+.cost-period-selector {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.period-btn {
+    padding: 0.4rem 0.8rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--card-bg);
+    color: var(--text);
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.period-btn:hover {
+    border-color: var(--primary);
+    background: var(--bg);
+}
+
+.period-btn.active {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+}
+
+.cost-summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.cost-summary-item {
+    padding: 1rem;
+    background: var(--bg);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.cost-label {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    margin-bottom: 0.5rem;
+}
+
+.cost-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--text);
+    margin-bottom: 0.25rem;
+}
+
+.cost-value.cost-warning {
+    color: var(--warning);
+}
+
+.cost-value.cost-critical {
+    color: var(--error);
+}
+
+.cost-subtitle {
+    font-size: 0.75rem;
+    color: var(--text-light);
+}
+
+.cost-status {
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.cost-status-normal {
+    background: rgba(16, 185, 129, 0.1);
+    color: var(--success);
+}
+
+.cost-status-warning {
+    background: rgba(245, 158, 11, 0.1);
+    color: var(--warning);
+}
+
+.cost-status-critical {
+    background: rgba(239, 68, 68, 0.1);
+    color: var(--error);
+}
+
+.cost-breakdown {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.cost-item {
+    padding: 0.75rem;
+    background: var(--bg);
+    border-radius: 8px;
+    border-left: 4px solid var(--primary);
+}
+
+.cost-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.cost-workflow {
+    font-weight: 600;
+    color: var(--text);
+    font-size: 0.9rem;
+}
+
+.cost-amount {
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.cost-item-details {
+    color: var(--text-light);
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.cost-bar {
+    height: 6px;
+    background: var(--border);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.cost-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--primary), #8b5cf6);
+    transition: width 0.3s;
+}
+
+/* 告警规则配置 */
+.alert-config-panel {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: var(--bg);
+    border-radius: 8px;
+    border: 1px solid var(--border);
+}
+
+.alert-config-content {
+    margin-bottom: 1rem;
+}
+
+.alert-rule-item {
+    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.alert-rule-item:last-child {
+    border-bottom: none;
+}
+
+.alert-rule-item label {
+    display: block;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 0.4rem;
+    font-size: 0.9rem;
+}
+
+.alert-rule-item input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 0.9rem;
+    background: var(--card-bg);
+    color: var(--text);
+}
+
+.alert-config-actions {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-end;
+}
+
+.current-rules-summary {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background: var(--bg);
+    border-radius: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.rule-summary-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.3rem 0.6rem;
+    background: var(--card-bg);
+    border-radius: 4px;
+    font-size: 0.8rem;
+    border: 1px solid var(--border);
+}
+
+.rule-label {
+    color: var(--text-light);
+}
+
+.rule-value {
+    font-weight: 600;
+    color: var(--primary);
+}
+
+/* --- Phase 3 SLA Monitoring Styles --- */
+.sla-period-selector {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.sla-summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.sla-summary-item {
+    padding: 1rem;
+    background: var(--bg);
+    border-radius: 8px;
+    text-align: center;
+    border-top: 3px solid var(--primary);
+}
+
+.sla-label {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    margin-bottom: 0.5rem;
+}
+
+.sla-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--text);
+}
+
+.sla-excellent {
+    color: var(--success);
+}
+
+.sla-good {
+    color: var(--primary);
+}
+
+.sla-warning {
+    color: var(--warning);
+}
+
+.sla-critical {
+    color: var(--error);
+}
+
+.sla-stats-table {
+    margin-bottom: 1.5rem;
+    overflow-x: auto;
+}
+
+.sla-table {
+    width: 100%;
+}
+
+.sla-rate {
+    font-weight: 600;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.sla-rate-excellent {
+    background: rgba(16, 185, 129, 0.1);
+    color: var(--success);
+}
+
+.sla-rate-good {
+    background: rgba(59, 130, 246, 0.1);
+    color: var(--primary);
+}
+
+.sla-rate-warning {
+    background: rgba(245, 158, 11, 0.1);
+    color: var(--warning);
+}
+
+.sla-violations {
+    margin-top: 1rem;
+}
+
+.sla-violations h3 {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    color: var(--text);
+}
+
+.sla-violation-item {
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    background: var(--bg);
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    border-left: 4px solid var(--warning);
+}
+
+.sla-violation-critical {
+    border-left-color: var(--error);
+}

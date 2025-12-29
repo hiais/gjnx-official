@@ -15,6 +15,10 @@ let currentFilters = {
 };
 let multiMetricChart = null;
 let histogramChart = null;
+let costChart = null;
+let currentCostPeriod = 'today';
+let currentSLAPeriod = 'today';
+let alertRulesConfig = null;
 
 // 初始化
 document.addEventListener('DOMContentLoaded', () => {
@@ -119,7 +123,7 @@ function updateDashboard(data) {
     // 更新告警历史
     updateAlertList(data.alerts || []);
 
-    // --- Phase 1 增强功能 (硬化版) ---
+    // --- Phase 1 & 2 增强功能 ---
     try {
         if (data.history && data.history.multi_metric_trend) {
             updateMultiMetricChart(data);
@@ -130,8 +134,14 @@ function updateDashboard(data) {
         if (data.comparison) {
             updateComparison(data);
         }
+        // Phase 2
+        updateCostAnalysis(data);
+        updateSLAMonitoring(data); // Added SLA monitoring update
+        if (document.getElementById('alertConfigPanel') && document.getElementById('alertConfigPanel').style.display !== 'none') {
+            loadAlertRulesConfig();
+        }
     } catch (e) {
-        console.error('更新 Phase 1 增强卡片失败:', e);
+        console.error('更新增强卡片失败:', e);
     }
 
     // 检查新告警
@@ -347,6 +357,244 @@ function updateComparison(data) {
         renderItem('执行成功率', c.success_rate.today, c.success_rate.yesterday, c.success_rate.delta_percent, true) +
         renderItem('异常日志记录', c.error_count.today, c.error_count.yesterday, c.error_count.delta_percent, false);
 }
+
+// --- Phase 2 Extended Logic ---
+
+
+
+// 切换成本周期
+function switchCostPeriod(period) {
+    currentCostPeriod = period;
+    const buttons = document.querySelectorAll('.period-btn');
+    buttons.forEach(btn => {
+        if (btn.dataset.period === period) btn.classList.add('active');
+        else btn.classList.remove('active');
+    });
+    if (previousData) updateCostAnalysis(previousData);
+}
+
+function updateCostAnalysis(data) {
+    if (!data.cost_analysis) return;
+    const cost = data.cost_analysis;
+    const period = currentCostPeriod;
+    const isToday = period === 'today';
+
+    const totalCost = isToday ? (cost.today_total_cost || 0) : (cost.week_total_cost || 0);
+    const totalTokens = isToday ? (cost.today_token_usage || 0) : (cost.week_token_usage || 0);
+    const budgetUsage = isToday ? (cost.budget_usage_percent || 0) : ((cost.week_total_cost / (cost.daily_budget * 7)) * 100 || 0);
+    const workflowData = isToday ? (cost.by_workflow_today_formatted || []) : (cost.by_workflow_week_formatted || []);
+
+    const summaryEl = document.getElementById('costSummary');
+    if (summaryEl) {
+        const budgetStatusClass = cost.budget_status || 'normal';
+        summaryEl.innerHTML = `
+            <div class="cost-summary-item">
+                <div class="cost-label">总预估成本</div>
+                <div class="cost-value">¥${totalCost.toFixed(2)}</div>
+                <div class="cost-subtitle">${formatNumber(totalTokens)} tokens (含 MJ 估算)</div>
+            </div>
+            <div class="cost-summary-item">
+                <div class="cost-label">预算使用率</div>
+                <div class="cost-value cost-${budgetStatusClass}">${budgetUsage.toFixed(1)}%</div>
+                <div class="cost-subtitle">${isToday ? '今日' : '本周'} / ${isToday ? '¥' + cost.daily_budget : '¥' + (cost.daily_budget * 7)}</div>
+            </div>
+            <div class="cost-summary-item"><div class="cost-label">算力资产状态</div><div class="cost-status cost-status-${budgetStatusClass}">
+                ${budgetStatusClass === 'critical' ? '🔴 熔断/超支' : budgetStatusClass === 'warning' ? '🟡 接近上限' : '🟢 充足'}
+            </div></div>
+        `;
+    }
+
+    const breakdownEl = document.getElementById('costBreakdown');
+    if (breakdownEl) {
+        if (!workflowData || workflowData.length === 0) breakdownEl.innerHTML = '<div class="empty-state">暂无成本数据</div>';
+        else breakdownEl.innerHTML = workflowData.slice(0, 10).map(wf => `
+            <div class="cost-item">
+                <div class="cost-item-header"><span class="cost-workflow">${wf.workflow}</span><span class="cost-amount">¥${wf.cost.toFixed(2)}</span></div>
+                <div class="cost-item-details"><small>${wf.count} 次执行 | ${formatNumber(wf.tokens)} tokens | ${wf.percentage}%</small></div>
+                <div class="cost-bar"><div class="cost-bar-fill" style="width: ${wf.percentage}%"></div></div>
+            </div>
+        `).join('');
+    }
+    updateCostChart(workflowData, totalCost);
+}
+
+function updateCostChart(workflowData, totalCost) {
+    const canvas = document.getElementById('costChart');
+    if (!canvas) return;
+    if (costChart) { try { costChart.destroy(); } catch (e) { } }
+    const ctx = canvas.getContext('2d');
+    const displayData = (workflowData || []).slice(0, 8);
+    const labels = displayData.map(wf => wf.workflow);
+    const costs = displayData.map(wf => wf.cost);
+    const colors = ['rgba(102, 126, 234, 0.8)', 'rgba(16, 185, 129, 0.8)', 'rgba(245, 158, 11, 0.8)', 'rgba(239, 68, 68, 0.8)', 'rgba(139, 92, 246, 0.8)', 'rgba(236, 72, 153, 0.8)', 'rgba(59, 130, 246, 0.8)', 'rgba(34, 197, 94, 0.8)'];
+
+    costChart = new Chart(ctx, {
+        type: 'doughnut',
+        data: { labels: labels, datasets: [{ data: costs, backgroundColor: colors, borderWidth: 2, borderColor: '#ffffff' }] },
+        options: {
+            responsive: true, maintainAspectRatio: false,
+            plugins: {
+                legend: { position: 'right', labels: { boxWidth: 12, padding: 10, font: { size: 11 } } },
+                tooltip: { callbacks: { label: function (c) { const v = c.parsed || 0; return `${c.label}: ¥${v.toFixed(2)} (${totalCost > 0 ? ((v / totalCost) * 100).toFixed(1) : 0}%)`; } } }
+            }
+        }
+    });
+}
+
+function toggleAlertConfig() {
+    const panel = document.getElementById('alertConfigPanel');
+    const icon = document.getElementById('alertConfigToggleIcon');
+    if (panel.style.display === 'none') {
+        panel.style.display = 'block'; icon.textContent = '▲'; loadAlertRulesConfig();
+    } else {
+        panel.style.display = 'none'; icon.textContent = '▼';
+    }
+}
+
+function loadAlertRulesConfig() {
+    if (!previousData || !previousData.alert_rules) return;
+    alertRulesConfig = JSON.parse(JSON.stringify(previousData.alert_rules));
+    const contentEl = document.getElementById('alertConfigContent');
+    const summaryEl = document.getElementById('currentRulesSummary');
+
+    if (contentEl) {
+        contentEl.innerHTML = `
+            <div class="alert-rule-item"><label>P0告警阈值</label><input type="number" id="p0_alerts_threshold" value="${alertRulesConfig.p0_alerts_threshold}" min="0"></div>
+            <div class="alert-rule-item"><label>任务队列积压阈值</label><input type="number" id="queue_backup_threshold" value="${alertRulesConfig.queue_backup_threshold}" min="0"></div>
+            <div class="alert-rule-item"><label>错误日志阈值</label><input type="number" id="error_rate_threshold" value="${alertRulesConfig.error_rate_threshold}" min="0"></div>
+            <div class="alert-rule-item"><label>调度任务失败阈值</label><input type="number" id="scheduler_failure_threshold" value="${alertRulesConfig.scheduler_failure_threshold || 1}" min="0"></div>
+            <div class="alert-rule-item"><label>成本预算警告阈值 (%)</label><input type="number" id="cost_budget_warning_percent" value="${alertRulesConfig.cost_budget_warning_percent}" min="0" max="100"></div>
+            <div class="alert-rule-item"><label>成本预算严重阈值 (%)</label><input type="number" id="cost_budget_critical_percent" value="${alertRulesConfig.cost_budget_critical_percent}" min="0" max="100"></div>
+        `;
+    }
+    if (summaryEl) {
+        summaryEl.innerHTML = `<div class="rule-summary-item"><span class="rule-label">P0告警:</span><span class="rule-value">> ${alertRulesConfig.p0_alerts_threshold}</span></div>
+            <div class="rule-summary-item"><span class="rule-label">队列积压:</span><span class="rule-value">> ${alertRulesConfig.queue_backup_threshold}</span></div>
+            <div class="rule-summary-item"><span class="rule-label">错误日志:</span><span class="rule-value">> ${alertRulesConfig.error_rate_threshold}</span></div>
+            <div class="rule-summary-item"><span class="rule-label">调度失败:</span><span class="rule-value">> ${alertRulesConfig.scheduler_failure_threshold || 1}</span></div>`;
+    }
+}
+
+function validateAlertRules(rules) {
+    const errors = [];
+    if (rules.p0_alerts_threshold < 0) errors.push('P0告警阈值不能为负数');
+    if (rules.queue_backup_threshold < 0) errors.push('队列积压阈值不能为负数');
+    if (rules.error_rate_threshold < 0) errors.push('错误日志阈值不能为负数');
+    if (rules.cost_budget_warning_percent < 0 || rules.cost_budget_warning_percent > 100) {
+        errors.push('成本警告阈值必须在0-100之间');
+    }
+    if (rules.cost_budget_critical_percent < 0 || rules.cost_budget_critical_percent > 100) {
+        errors.push('成本严重阈值必须在0-100之间');
+    }
+    if (rules.cost_budget_warning_percent >= rules.cost_budget_critical_percent) {
+        errors.push('警告阈值必须小于严重阈值');
+    }
+    return errors;
+}
+
+async function saveAlertRules() {
+    if (!alertRulesConfig) return;
+
+    // 收集
+    const newRules = {
+        ...alertRulesConfig,
+        p0_alerts_threshold: parseInt(document.getElementById('p0_alerts_threshold').value) || 0,
+        queue_backup_threshold: parseInt(document.getElementById('queue_backup_threshold').value) || 0,
+        error_rate_threshold: parseInt(document.getElementById('error_rate_threshold').value) || 0,
+        scheduler_failure_threshold: parseInt(document.getElementById('scheduler_failure_threshold').value) || 0,
+        cost_budget_warning_percent: parseInt(document.getElementById('cost_budget_warning_percent').value) || 0,
+        cost_budget_critical_percent: parseInt(document.getElementById('cost_budget_critical_percent').value) || 0
+    };
+
+    // 验证
+    const errors = validateAlertRules(newRules);
+    if (errors.length > 0) {
+        alert('❌ 配置验证失败：\n' + errors.join('\n'));
+        return;
+    }
+
+    alertRulesConfig = newRules;
+    localStorage.setItem('alertRulesConfig', JSON.stringify(alertRulesConfig));
+
+    // 生成 JSON 供手动同步
+    const configJson = JSON.stringify(alertRulesConfig, null, 2);
+    console.log('Updated Config JSON:', configJson);
+
+    alert('✅ 告警规则已保存至本地存储。\n\n📋 配置 JSON 已输出至控制台，由于当前为独立部署版本，请手动更新服务器上的 alert-rules-config.json 文件以实现永久生效。');
+    loadAlertRulesConfig();
+}
+
+function resetAlertRules() {
+    if (confirm('确定要重置为默认值吗？')) {
+        alertRulesConfig = { p0_alerts_threshold: 1, queue_backup_threshold: 10, error_rate_threshold: 5, scheduler_failure_threshold: 1, cost_budget_warning_percent: 80, cost_budget_critical_percent: 100 };
+        loadAlertRulesConfig();
+    }
+}
+
+// --- Phase 3 SLA Monitoring ---
+
+function switchSLAPeriod(period) {
+    currentSLAPeriod = period;
+    const buttons = document.querySelectorAll('.sla-period-selector .period-btn');
+    buttons.forEach(btn => {
+        if (btn.dataset.period === period) btn.classList.add('active');
+        else btn.classList.remove('active');
+    });
+    if (previousData) updateSLAMonitoring(previousData);
+}
+
+function updateSLAMonitoring(data) {
+    if (!data.sla_monitoring) return;
+    const sla = data.sla_monitoring;
+    const period = currentSLAPeriod;
+    const isToday = period === 'today';
+    const stats = isToday ? sla.today_stats_formatted : (sla.week_stats_formatted || []);
+    const overallRate = isToday ? sla.overall_sla_rate : (stats.length > 0 ? stats.reduce((sum, s) => sum + (s.sla_rate || 0), 0) / stats.length : 0);
+    const violations = isToday ? (sla.sla_violations || []) : [];
+    const timeoutTasks = isToday ? (sla.timeout_tasks || []) : [];
+
+    const summaryEl = document.getElementById('slaSummary');
+    if (summaryEl) {
+        summaryEl.innerHTML = `
+            <div class="sla-summary-item"><div class="sla-label">整体 SLA 达成率</div><div class="sla-value ${overallRate >= 95 ? 'sla-excellent' : (overallRate >= 80 ? 'sla-good' : 'sla-warning')}">${overallRate.toFixed(1)}%</div></div>
+            <div class="sla-summary-item"><div class="sla-label">监控工作流</div><div class="sla-value">${stats.length}</div></div>
+            <div class="sla-summary-item"><div class="sla-label">超时任务</div><div class="sla-value ${timeoutTasks.length > 0 ? 'sla-critical' : ''}">${timeoutTasks.length}</div></div>
+            <div class="sla-summary-item"><div class="sla-label">SLA 违规</div><div class="sla-value ${violations.length > 0 ? 'sla-warning' : ''}">${violations.length}</div></div>
+        `;
+    }
+
+    const tableEl = document.getElementById('slaStatsTable');
+    if (tableEl) {
+        if (stats.length === 0) tableEl.innerHTML = '<div class="empty-state">暂无 SLA 数据</div>';
+        else {
+            tableEl.innerHTML = `
+                <table class="dashboard-table sla-table">
+                    <thead><tr><th>工作流</th><th>执行次</th><th>达成率</th><th>平均</th><th>最大</th><th>状态</th></tr></thead>
+                    <tbody>${stats.map(s => {
+                const rateClass = s.sla_rate >= 95 ? 'sla-rate-excellent' : (s.sla_rate >= 80 ? 'sla-rate-good' : 'sla-rate-warning');
+                return `<tr><td>${s.workflow}</td><td>${s.total}</td><td><span class="sla-rate ${rateClass}">${s.sla_rate}%</span></td><td>${s.avg_duration}m</td><td>${s.max_duration}m</td><td>${s.sla_rate >= 80 ? '✅' : '⚠️'}</td></tr>`;
+            }).join('')}</tbody>
+                </table>
+            `;
+        }
+    }
+
+    const violationsEl = document.getElementById('slaViolations');
+    if (violationsEl) {
+        if (violations.length === 0) violationsEl.innerHTML = '<div class="empty-state">✅ 暂无违规</div>';
+        else {
+            violationsEl.innerHTML = `<h3>最近违规</h3>` + violations.slice(0, 5).map(v => `
+                <div class="sla-violation-item sla-violation-${v.severity || 'warning'}">
+                    <span>${v.workflow}</span><span>${v.duration}m</span><span>阈值 ${v.threshold || (v.baseline ? v.baseline.warning : '?')}m</span>
+                </div>
+            `).join('');
+        }
+    }
+}
+
+// --- End Phase 3 ---
+
+// --- End Phase 2 ---
 
 // --- End Phase 1 ---
 
@@ -587,7 +835,10 @@ function updateHealthIssues(health) {
         'ERR_P0_ALERTS_ACTIVE': '检测到活跃 P0 告警',
         'WARN_QUEUE_BACKUP': '任务队列积压',
         'WARN_HIGH_ERROR_RATE': '今日错误日志率较高',
-        'ERR_SCHEDULER_EXCEPTION': '调度任务执行异常'
+        'ERR_SCHEDULER_EXCEPTION': '调度任务执行异常',
+        'ERR_COST_BUDGET_EXCEEDED': '成本预算已超支',
+        'WARN_COST_BUDGET_WARNING': '成本预算使用率过高(警告)',
+        'WARN_SLA_VIOLATION': 'SLA 超时任务过多'
     };
 
     if (!health.issues || health.issues.length === 0) {
@@ -771,4 +1022,5 @@ window.addEventListener('beforeunload', () => {
     if (tokenChart) tokenChart.destroy();
     if (multiMetricChart) multiMetricChart.destroy();
     if (histogramChart) histogramChart.destroy();
+    if (costChart) costChart.destroy();
 });

@@ -226,6 +226,70 @@
                 </div>
             </div>
 
+            <!-- 成本分析卡片 -->
+            <div class="card card-wide">
+                <div class="card-header">
+                    <h2>💰 成本分析</h2>
+                    <div class="cost-period-selector">
+                        <button class="period-btn active" data-period="today"
+                            onclick="switchCostPeriod('today')">今日</button>
+                        <button class="period-btn" data-period="week" onclick="switchCostPeriod('week')">本周</button>
+                    </div>
+                </div>
+                <div class="cost-summary" id="costSummary">
+                    <div class="empty-state">加载中...</div>
+                </div>
+                <div class="cost-breakdown" id="costBreakdown">
+                    <div class="empty-state">加载中...</div>
+                </div>
+                <div class="chart-container-large">
+                    <canvas id="costChart"></canvas>
+                </div>
+            </div>
+
+            <!-- 告警规则配置卡片 -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>⚙️ 告警规则配置</h2>
+                    <button class="btn btn-secondary btn-small" onclick="toggleAlertConfig()" id="alertConfigToggle">
+                        <span id="alertConfigToggleIcon">▼</span> 配置
+                    </button>
+                </div>
+                <div id="alertConfigPanel" class="alert-config-panel" style="display:none">
+                    <div class="alert-config-content" id="alertConfigContent">
+                        <div class="empty-state">加载中...</div>
+                    </div>
+                    <div class="alert-config-actions">
+                        <button class="btn btn-primary" onclick="saveAlertRules()">保存配置</button>
+                        <button class="btn btn-secondary" onclick="resetAlertRules()">重置默认</button>
+                    </div>
+                </div>
+                <div class="current-rules-summary" id="currentRulesSummary">
+                    <div class="empty-state">加载中...</div>
+                </div>
+            </div>
+
+            <!-- SLA监控卡片 -->
+            <div class="card card-wide">
+                <div class="card-header">
+                    <h2>⏱️ SLA 监控 (Beta)</h2>
+                    <div class="sla-period-selector">
+                        <button class="period-btn active" data-period="today"
+                            onclick="switchSLAPeriod('today')">今日</button>
+                        <button class="period-btn" data-period="week" onclick="switchSLAPeriod('week')">本周</button>
+                    </div>
+                </div>
+                <div class="sla-summary" id="slaSummary">
+                    <div class="empty-state">加载中...</div>
+                </div>
+                <div class="sla-stats-table" id="slaStatsTable">
+                    <div class="empty-state">加载中...</div>
+                </div>
+                <div class="sla-violations" id="slaViolations">
+                    <div class="empty-state">加载中...</div>
+                </div>
+            </div>
+
             <!-- 🚨 最近错误卡片 -->
             <div class="card">
                 <div class="card-header">

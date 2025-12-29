@@ -32,7 +32,7 @@
                                                  },
                         "token_usage_today":  0
                     },
-    "timestamp":  "2025-12-30 04:16:20",
+    "timestamp":  "2025-12-30 04:21:24",
     "logs":  {
                  "by_level":  {
                                   "ERROR":  0,
@@ -104,22 +104,21 @@
                },
     "system":  {
                    "timezone":  "China Standard Time",
-                   "last_update":  "2025-12-30 04:16:20"
+                   "last_update":  "2025-12-30 04:21:24"
                },
     "sla_monitoring":  {
+                           "week_stats_formatted":  null,
                            "week_stats":  {
 
                                           },
-                           "sla_violations":  [
-
-                                              ],
-                           "timeout_tasks":  [
-
-                                             ],
-                           "overall_sla_rate":  0,
+                           "today_stats_formatted":  null,
+                           "overall_sla_rate":  100,
                            "today_stats":  {
 
                                            },
+                           "timeout_tasks":  [
+
+                                             ],
                            "baselines":  {
                                              "edit-article":  {
                                                                   "critical":  8,
@@ -142,9 +141,7 @@
                                                                    "typical":  12
                                                                }
                                          },
-                           "today_stats_formatted":  [
-
-                                                     ]
+                           "sla_violations":  null
                        },
     "scheduled_tasks":  [
                             {
@@ -240,7 +237,7 @@
                ],
     "metadata":  {
                      "collector_version":  "3.2",
-                     "duration_seconds":  4.37,
+                     "duration_seconds":  4.56,
                      "errors":  [
 
                                 ],
@@ -442,7 +439,7 @@
                                   {
                                       "id":  "P0_check_alerts_trc-1230030000.lock",
                                       "workflow":  "check-alerts",
-                                      "age_minutes":  76.3,
+                                      "age_minutes":  81.3,
                                       "created":  "2025-12-30 03:00:00",
                                       "priority":  "P0",
                                       "trace_id":  null
@@ -450,7 +447,7 @@
                                   {
                                       "id":  "P0_process_tasks_trc-1230021143.lock",
                                       "workflow":  "process-tasks",
-                                      "age_minutes":  124.5,
+                                      "age_minutes":  129.6,
                                       "created":  "2025-12-30 02:11:43",
                                       "priority":  "P0",
                                       "trace_id":  null
@@ -458,7 +455,7 @@
                                   {
                                       "id":  "P0_task_watchdog_trc-1230030000.lock",
                                       "workflow":  "task-watchdog",
-                                      "age_minutes":  76.3,
+                                      "age_minutes":  81.3,
                                       "created":  "2025-12-30 03:00:00",
                                       "priority":  "P0",
                                       "trace_id":  null
@@ -466,7 +463,7 @@
                                   {
                                       "id":  "P1_daily_config_check_trc-1230032500.lock",
                                       "workflow":  "daily-config-check",
-                                      "age_minutes":  51.3,
+                                      "age_minutes":  56.3,
                                       "created":  "2025-12-30 03:25:00",
                                       "priority":  "P1",
                                       "trace_id":  null
@@ -474,7 +471,7 @@
                                   {
                                       "id":  "P1_scout_trc-1230033000.lock",
                                       "workflow":  "scout",
-                                      "age_minutes":  46.3,
+                                      "age_minutes":  51.3,
                                       "created":  "2025-12-30 03:30:00",
                                       "priority":  "P1",
                                       "trace_id":  null
@@ -482,7 +479,7 @@
                                   {
                                       "id":  "P2_archive_logs_trc-1230032000.lock",
                                       "workflow":  "archive-logs",
-                                      "age_minutes":  56.3,
+                                      "age_minutes":  61.3,
                                       "created":  "2025-12-30 03:20:00",
                                       "priority":  "P2",
                                       "trace_id":  null
@@ -490,7 +487,7 @@
                                   {
                                       "id":  "P2_refresh_dashboard_trc-1230030000.lock",
                                       "workflow":  "refresh-dashboard",
-                                      "age_minutes":  76.3,
+                                      "age_minutes":  81.3,
                                       "created":  "2025-12-30 03:00:00",
                                       "priority":  "P2",
                                       "trace_id":  null
@@ -498,7 +495,7 @@
                                   {
                                       "id":  "pending_config_val.lock",
                                       "workflow":  "Unknown",
-                                      "age_minutes":  104.4,
+                                      "age_minutes":  109.5,
                                       "created":  "2025-12-30 02:31:53",
                                       "priority":  "Unknown",
                                       "trace_id":  null
