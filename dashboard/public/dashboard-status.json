@@ -1,0 +1,64 @@
+﻿{
+    "logs":  {
+                 "by_level":  {
+                                  "ERROR":  0,
+                                  "FATAL":  0,
+                                  "INFO":  0,
+                                  "WARN":  0
+                              },
+                 "by_workflow":  {
+
+                                 },
+                 "recent_errors":  [
+
+                                   ],
+                 "total":  0
+             },
+    "timestamp":  "2025-12-30 02:30:59",
+    "tasks":  {
+                  "pending":  [
+                                  {
+                                      "priority":  "P0",
+                                      "created":  "2025-12-30 02:11:43",
+                                      "id":  "P0_process_tasks_trc-1230021143.lock",
+                                      "age_minutes":  19.3,
+                                      "workflow":  "process-tasks"
+                                  }
+                              ],
+                  "alerts":  [
+
+                             ],
+                  "processing":  [
+
+                                 ]
+              },
+    "health":  {
+                   "status":  "healthy",
+                   "score":  100,
+                   "issues":  [
+
+                              ]
+               },
+    "system":  {
+                   "timezone":  "China Standard Time",
+                   "last_update":  "2025-12-30 02:30:59"
+               },
+    "alerts":  [
+                   {
+                       "action":  "在看板标记“性能黄色预警”",
+                       "rule_id":  "P1-001",
+                       "level":  "🟡 P1",
+                       "reason":  "写作耗时 21min (基准 15min)",
+                       "time":  "2025-12-28 03:26",
+                       "status":  "✅ 已记录"
+                   },
+                   {
+                       "action":  "在看板标记“性能黄色预警”",
+                       "rule_id":  "P1-001",
+                       "level":  "🟡 P1",
+                       "reason":  "平均耗时 21min (\u003e 15min)",
+                       "time":  "2025-12-28 03:26",
+                       "status":  "✅ 已复盘"
+                   }
+               ]
+}

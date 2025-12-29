@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="theme-color" content="#667eea">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>硅基能效 - 系统监控看板</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-content">
+            <h1>🩺 硅基能效系统监控看板</h1>
+            <p class="subtitle">最后更新: <span id="lastUpdate">-</span></p>
+        </div>
+        <div class="health-display">
+            <div class="health-score" id="healthScore">-</div>
+            <div class="status-badge" id="statusBadge">-</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="grid">
+            <!-- 任务队列卡片 -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>📋 任务队列</h2>
+                    <span class="badge" id="pendingBadge">0</span>
+                </div>
+                <div class="metrics">
+                    <div class="metric">
+                        <span class="metric-label">待处理</span>
+                        <span class="metric-value" id="pendingCount">0</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">处理中</span>
+                        <span class="metric-value" id="processingCount">0</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">P0告警</span>
+                        <span class="metric-value alert-count" id="alertCount">0</span>
+                    </div>
+                </div>
+                <div class="task-list" id="taskList">
+                    <div class="empty-state">暂无任务</div>
+                </div>
+            </div>
+
+            <!-- 日志统计卡片 -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>📊 今日日志</h2>
+                </div>
+                <div class="metrics">
+                    <div class="metric">
+                        <span class="metric-label">总日志数</span>
+                        <span class="metric-value" id="logTotal">0</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">INFO</span>
+                        <span class="metric-value info-count" id="logInfo">0</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">WARN</span>
+                        <span class="metric-value warn-count" id="logWarn">0</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">ERROR</span>
+                        <span class="metric-value error-count" id="logError">0</span>
+                    </div>
+                </div>
+                <div class="workflow-stats" id="workflowStats">
+                    <div class="empty-state">暂无工作流数据</div>
+                </div>
+            </div>
+
+            <!-- 系统健康卡片 -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>🏥 系统健康</h2>
+                </div>
+                <div id="healthIssues" class="health-issues">
+                    <div class="empty-state">加载中...</div>
+                </div>
+                <div class="actions">
+                    <button class="btn btn-primary" onclick="refreshData()">
+                        <span>🔄</span> 刷新数据
+                    </button>
+                </div>
+            </div>
+
+            <!-- 最近错误卡片 -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>🚨 最近错误</h2>
+                    <span class="badge error-badge" id="errorBadge">0</span>
+                </div>
+                <div class="error-list" id="errorList">
+                    <div class="empty-state">暂无错误</div>
+                </div>
+            </div>
+
+            <!-- 告警历史卡片 -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>📋 告警历史</h2>
+                </div>
+                <div class="alert-list" id="alertList">
+                    <div class="empty-state">暂无告警</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="loadingOverlay" class="loading-overlay">
+        <div class="spinner"></div>
+    </div>
+
+    <div class="refresh-indicator" id="refreshIndicator">
+        <span>自动刷新: <span id="countdown">30</span>秒</span>
+    </div>
+
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
