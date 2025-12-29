@@ -12,7 +12,7 @@
                                                  },
                         "token_usage_today":  0
                     },
-    "timestamp":  "2025-12-30 04:00:14",
+    "timestamp":  "2025-12-30 04:00:21",
     "logs":  {
                  "by_level":  {
                                   "ERROR":  0,
@@ -74,7 +74,7 @@
                },
     "system":  {
                    "timezone":  "China Standard Time",
-                   "last_update":  "2025-12-30 04:00:14"
+                   "last_update":  "2025-12-30 04:00:21"
                },
     "comparison":  {
                        "success_rate":  {
@@ -190,7 +190,7 @@
                ],
     "metadata":  {
                      "collector_version":  "3.2",
-                     "duration_seconds":  4.36,
+                     "duration_seconds":  4.48,
                      "errors":  [
 
                                 ],
@@ -392,7 +392,7 @@
                                   {
                                       "id":  "P0_check_alerts_trc-1230030000.lock",
                                       "workflow":  "check-alerts",
-                                      "age_minutes":  60.2,
+                                      "age_minutes":  60.3,
                                       "created":  "2025-12-30 03:00:00",
                                       "priority":  "P0",
                                       "trace_id":  null
@@ -400,7 +400,7 @@
                                   {
                                       "id":  "P0_process_tasks_trc-1230021143.lock",
                                       "workflow":  "process-tasks",
-                                      "age_minutes":  108.4,
+                                      "age_minutes":  108.6,
                                       "created":  "2025-12-30 02:11:43",
                                       "priority":  "P0",
                                       "trace_id":  null
@@ -408,7 +408,7 @@
                                   {
                                       "id":  "P0_task_watchdog_trc-1230030000.lock",
                                       "workflow":  "task-watchdog",
-                                      "age_minutes":  60.2,
+                                      "age_minutes":  60.3,
                                       "created":  "2025-12-30 03:00:00",
                                       "priority":  "P0",
                                       "trace_id":  null
@@ -416,7 +416,7 @@
                                   {
                                       "id":  "P1_daily_config_check_trc-1230032500.lock",
                                       "workflow":  "daily-config-check",
-                                      "age_minutes":  35.2,
+                                      "age_minutes":  35.3,
                                       "created":  "2025-12-30 03:25:00",
                                       "priority":  "P1",
                                       "trace_id":  null
@@ -424,7 +424,7 @@
                                   {
                                       "id":  "P1_scout_trc-1230033000.lock",
                                       "workflow":  "scout",
-                                      "age_minutes":  30.2,
+                                      "age_minutes":  30.3,
                                       "created":  "2025-12-30 03:30:00",
                                       "priority":  "P1",
                                       "trace_id":  null
@@ -432,7 +432,7 @@
                                   {
                                       "id":  "P2_archive_logs_trc-1230032000.lock",
                                       "workflow":  "archive-logs",
-                                      "age_minutes":  40.2,
+                                      "age_minutes":  40.3,
                                       "created":  "2025-12-30 03:20:00",
                                       "priority":  "P2",
                                       "trace_id":  null
@@ -440,7 +440,7 @@
                                   {
                                       "id":  "P2_refresh_dashboard_trc-1230030000.lock",
                                       "workflow":  "refresh-dashboard",
-                                      "age_minutes":  60.2,
+                                      "age_minutes":  60.3,
                                       "created":  "2025-12-30 03:00:00",
                                       "priority":  "P2",
                                       "trace_id":  null
@@ -448,7 +448,7 @@
                                   {
                                       "id":  "pending_config_val.lock",
                                       "workflow":  "Unknown",
-                                      "age_minutes":  88.3,
+                                      "age_minutes":  88.4,
                                       "created":  "2025-12-30 02:31:53",
                                       "priority":  "Unknown",
                                       "trace_id":  null
