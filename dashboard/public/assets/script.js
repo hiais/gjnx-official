@@ -294,7 +294,7 @@ function updateDurationHistogram(data, selected) {
     histogramChart = new Chart(ctx, {
         type: 'bar',
         data: {
-            labels: ['P50 (中位)', 'P95 (尾部)', 'P99 (极端)'],
+            labels: ['P50 典型耗时', 'P95 长尾耗时', 'P99 极端耗时'],
             datasets: [{
                 label: '耗时 (分钟)',
                 data: [p.p50, p.p95, p.p99],
