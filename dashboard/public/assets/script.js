@@ -27,6 +27,43 @@ document.addEventListener('DOMContentLoaded', () => {
     startCountdown();
     setupFilters();
     setupExtendedFilters();
+
+    // 恢复上次选中的标签页
+    const savedTab = localStorage.getItem('dashboard-active-tab');
+    if (savedTab) {
+        switchTab(savedTab);
+    } else {
+        switchTab('overview');
+    }
+
+    // 恢复折叠分组状态
+    const groups = ['core'];
+    groups.forEach(groupId => {
+        const savedState = localStorage.getItem(`group-${groupId}-state`);
+        if (savedState === 'collapsed') {
+            const content = document.getElementById(`group-${groupId}`);
+            const icon = document.getElementById(`icon-${groupId}`);
+            const header = icon?.closest('.card-group-header');
+            if (content && icon && header) {
+                content.classList.add('collapsed');
+                header.classList.add('collapsed');
+                icon.textContent = '▶';
+            }
+        }
+    });
+
+    // KPI卡片点击事件
+    const alertCard = document.querySelector('.kpi-card.critical');
+    if (alertCard) alertCard.addEventListener('click', () => switchTab('alerts'));
+
+    const queueCard = document.querySelector('.kpi-card.warning');
+    if (queueCard) queueCard.addEventListener('click', () => switchTab('overview'));
+
+    const successCard = document.querySelector('.kpi-card.info');
+    if (successCard) successCard.addEventListener('click', () => switchTab('performance'));
+
+    const costCard = document.querySelector('.kpi-card.cost');
+    if (costCard) costCard.addEventListener('click', () => switchTab('cost'));
 });
 
 // 设置筛选器
@@ -137,6 +174,7 @@ function updateDashboard(data) {
         // Phase 2
         updateCostAnalysis(data);
         updateSLAMonitoring(data); // Added SLA monitoring update
+        updateKPIBanner(data); // Added KPI banner update
         if (document.getElementById('alertConfigPanel') && document.getElementById('alertConfigPanel').style.display !== 'none') {
             loadAlertRulesConfig();
         }
@@ -870,6 +908,144 @@ function updateErrorList(errors) {
         `).join('');
     }
 }
+
+// ========== 标签页切换功能 ==========
+function switchTab(tabName) {
+    // 隐藏所有标签页内容
+    document.querySelectorAll('.tab-content').forEach(tab => {
+        tab.classList.remove('active');
+    });
+
+    // 移除所有标签按钮的active状态
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.classList.remove('active');
+    });
+
+    // 显示选中的标签页
+    const targetTab = document.getElementById(`tab-${tabName}`);
+    if (targetTab) {
+        targetTab.classList.add('active');
+    }
+
+    // 激活对应的标签按钮
+    const targetBtn = document.querySelector(`[data-tab="${tabName}"]`);
+    if (targetBtn) {
+        targetBtn.classList.add('active');
+    }
+
+    // 保存当前标签到localStorage
+    try {
+        localStorage.setItem('dashboard-active-tab', tabName);
+    } catch (e) {
+        console.warn('LocalStorage access failed:', e);
+    }
+
+    // 切换标签时确保该标签下的图表重绘（因 Canvas 尺寸变化所需）
+    if (typeof previousData !== 'undefined' && previousData) {
+        requestAnimationFrame(() => {
+            setTimeout(() => {
+                const targetTab = document.getElementById(`tab-${tabName}`);
+                if (targetTab && targetTab.offsetHeight > 0) {
+                    if (tabName === 'performance') {
+                        if (previousData.history?.multi_metric_trend) updateMultiMetricChart(previousData);
+                        if (previousData.performance?.duration_percentiles) updatePerformancePercentiles(previousData);
+                    }
+                    else if (tabName === 'cost') {
+                        updateCostAnalysis(previousData);
+                    }
+                    else if (tabName === 'sla') {
+                        updateSLAMonitoring(previousData);
+                    }
+                }
+            }, 100);
+        });
+    }
+}
+
+// ========== 折叠分组功能 ==========
+function toggleGroup(groupId) {
+    const content = document.getElementById(`group-${groupId}`);
+    const icon = document.getElementById(`icon-${groupId}`);
+
+    if (!content || !icon) {
+        console.warn(`Group elements not found: ${groupId}`);
+        return;
+    }
+
+    const header = icon.closest('.card-group-header');
+    if (!header) {
+        console.warn(`Group header not found: ${groupId}`);
+        return;
+    }
+
+    if (content.classList.contains('collapsed')) {
+        content.classList.remove('collapsed');
+        header.classList.remove('collapsed');
+        icon.textContent = '▼';
+    } else {
+        content.classList.add('collapsed');
+        header.classList.add('collapsed');
+        icon.textContent = '▶';
+    }
+
+    // 保存折叠状态
+    const state = content.classList.contains('collapsed') ? 'collapsed' : 'expanded';
+    localStorage.setItem(`group-${groupId}-state`, state);
+}
+
+// ========== 更新KPI横幅 ==========
+function updateKPIBanner(data) {
+    if (!data) return;
+
+    // P0告警
+    const kpiAlerts = document.getElementById('kpiAlerts');
+    if (kpiAlerts) {
+        const alertCount = (data.tasks?.alerts?.length) || 0;
+        kpiAlerts.textContent = alertCount;
+        const card = kpiAlerts.closest('.kpi-card');
+        if (card) {
+            card.classList.toggle('pulse', alertCount > 0);
+            card.title = `当前有 ${alertCount} 个 P0 级别告警`;
+        }
+    }
+
+    // 队列堆积
+    const kpiQueue = document.getElementById('kpiQueue');
+    if (kpiQueue) {
+        const queueCount = (data.tasks?.pending?.length) || 0;
+        kpiQueue.textContent = queueCount;
+    }
+
+    // 成功率
+    const kpiSuccess = document.getElementById('kpiSuccess');
+    if (kpiSuccess) {
+        const successRate = data.performance?.success_rate ?? 0;
+        kpiSuccess.textContent = `${Number(successRate).toFixed(1)}%`;
+    }
+
+    // 今日成本
+    const kpiCost = document.getElementById('kpiCost');
+    if (kpiCost) {
+        const cost = data.cost_analysis?.today_total_cost ?? 0;
+        kpiCost.textContent = `¥${Number(cost).toFixed(2)}`;
+
+        // 添加成本超预算警告
+        const budgetPercent = data.cost_analysis?.budget_usage_percent ?? 0;
+        const card = kpiCost.closest('.kpi-card');
+        if (card && budgetPercent >= 80) {
+            // 如果 CSS 尚未定义 warning 类，这里仅作为逻辑预留，或复用 critical 类样式
+            // 为避免视觉冲突，这里仅在极端情况(>100%)添加 critical 样式
+            if (budgetPercent >= 100) {
+                card.classList.add('critical');
+                card.classList.remove('cost');
+            }
+            card.title = `预算使用率已达 ${budgetPercent}%`;
+        }
+    }
+}
+
+
+
 
 // 更新告警历史
 function updateAlertList(alerts) {
