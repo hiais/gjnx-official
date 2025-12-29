@@ -13,6 +13,8 @@ let currentFilters = {
     workflow: '',
     priority: ''
 };
+let multiMetricChart = null;
+let histogramChart = null;
 
 // 初始化
 document.addEventListener('DOMContentLoaded', () => {
@@ -20,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     startAutoRefresh();
     startCountdown();
     setupFilters();
+    setupExtendedFilters();
 });
 
 // 设置筛选器
@@ -153,6 +156,17 @@ function updateDashboard(data) {
 
     // 更新告警历史
     updateAlertList(data.alerts || []);
+
+    // 更新新功能 (Phase 1)
+    if (data.history && data.history.multi_metric_trend) {
+        updateMultiMetricChart(data);
+    }
+    if (data.performance && data.performance.duration_percentiles) {
+        updatePerformancePercentiles(data);
+    }
+    if (data.comparison) {
+        updateComparison(data);
+    }
 
     // 检查新告警
     if (previousData && previousData.tasks.alerts.length < (data.tasks.alerts.length || 0)) {
@@ -491,6 +505,162 @@ window.onclick = function (event) {
     }
 }
 
+// --- Phase 1 Extended Logic ---
+
+function setupExtendedFilters() {
+    const metricSelector = document.getElementById('metricSelector');
+    if (metricSelector) {
+        metricSelector.addEventListener('change', () => {
+            if (previousData) updateMultiMetricChart(previousData);
+        });
+    }
+
+    const workflowSelector = document.getElementById('workflowSelector');
+    if (workflowSelector) {
+        workflowSelector.addEventListener('change', () => {
+            if (previousData) updatePerformancePercentiles(previousData);
+        });
+    }
+}
+
+function updateMultiMetricChart(data) {
+    const canvas = document.getElementById('multiMetricChart');
+    if (!canvas || !data.history || !data.history.multi_metric_trend) return;
+
+    const metricSelector = document.getElementById('metricSelector');
+    const selectedMetric = metricSelector ? metricSelector.value : 'token_usage';
+    const trendData = data.history.multi_metric_trend[selectedMetric] || [];
+
+    if (multiMetricChart) multiMetricChart.destroy();
+    const ctx = canvas.getContext('2d');
+
+    const colors = {
+        token_usage: { border: '#667eea', bg: 'rgba(102, 126, 234, 0.1)' },
+        success_rate: { border: '#10b981', bg: 'rgba(16, 185, 129, 0.1)' },
+        error_rate: { border: '#ef4444', bg: 'rgba(239, 68, 68, 0.1)' },
+        queue_length: { border: '#f59e0b', bg: 'rgba(245, 158, 11, 0.1)' },
+        avg_duration: { border: '#8b5cf6', bg: 'rgba(139, 92, 246, 0.1)' }
+    };
+    const color = colors[selectedMetric] || colors.token_usage;
+
+    multiMetricChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: trendData.map(d => d.date),
+            datasets: [{
+                label: getMetricLabel(selectedMetric),
+                data: trendData.map(d => d.value),
+                borderColor: color.border,
+                backgroundColor: color.bg,
+                tension: 0.4,
+                fill: true
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: { y: { beginAtZero: true } }
+        }
+    });
+}
+
+function getMetricLabel(metric) {
+    const labels = {
+        token_usage: 'Token消耗',
+        success_rate: '成功率 (%)',
+        error_rate: '错误率 (%)',
+        queue_length: '待处理任务数',
+        avg_duration: '平均耗时 (分钟)'
+    };
+    return labels[metric] || metric;
+}
+
+function updatePerformancePercentiles(data) {
+    const container = document.getElementById('percentilesGrid');
+    const workflowSelector = document.getElementById('workflowSelector');
+    if (!container) return;
+
+    const percentiles = data.performance.duration_percentiles || {};
+    const workflows = Object.keys(percentiles);
+
+    if (workflowSelector && workflowSelector.options.length <= 1) {
+        workflows.forEach(wf => {
+            const opt = document.createElement('option');
+            opt.value = wf; opt.textContent = wf; workflowSelector.appendChild(opt);
+        });
+    }
+
+    const selected = workflowSelector ? workflowSelector.value : 'all';
+    const display = selected === 'all' ? workflows.slice(0, 4) : [selected];
+
+    if (display.length === 0) {
+        container.innerHTML = '<div class="empty-state">暂无性能分位数数据</div>';
+    } else {
+        container.innerHTML = display.map(wf => {
+            const p = percentiles[wf];
+            return `
+                <div class="percentile-card">
+                    <div class="percentile-header"><strong>${wf}</strong></div>
+                    <div class="percentile-values">
+                        <div class="percentile-item"><span>P50</span><strong>${p.p50}m</strong></div>
+                        <div class="percentile-item"><span>P95</span><strong class="percentile-p95">${p.p95}m</strong></div>
+                        <div class="percentile-item"><span>P99</span><strong class="percentile-p99">${p.p99}m</strong></div>
+                    </div>
+                </div>
+            `;
+        }).join('');
+    }
+    updateDurationHistogram(data, selected);
+}
+
+function updateDurationHistogram(data, selected) {
+    const canvas = document.getElementById('durationHistogram');
+    if (!canvas) return;
+    if (histogramChart) histogramChart.destroy();
+
+    const percentiles = data.performance.duration_percentiles || {};
+    if (selected === 'all' || !percentiles[selected]) return;
+
+    const p = percentiles[selected];
+    const ctx = canvas.getContext('2d');
+    histogramChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['P50', 'P95', 'P99'],
+            datasets: [{
+                label: '耗时 (分钟)',
+                data: [p.p50, p.p95, p.p99],
+                backgroundColor: 'rgba(102, 126, 234, 0.6)'
+            }]
+        },
+        options: { responsive: true, maintainAspectRatio: false }
+    });
+}
+
+function updateComparison(data) {
+    const container = document.getElementById('comparisonMetrics');
+    if (!container || !data.comparison) return;
+
+    const c = data.comparison;
+    const renderItem = (label, today, yesterday, delta, isPercent) => `
+        <div class="comparison-item">
+            <div class="comparison-label">${label}</div>
+            <div class="comparison-values">
+                <span class="comparison-today">${today}${isPercent ? '%' : ''}</span>
+                <span class="comparison-yesterday">昨日: ${yesterday}${isPercent ? '%' : ''}</span>
+                <span class="comparison-delta ${delta >= 0 ? 'delta-positive' : 'delta-negative'}">
+                    ${delta >= 0 ? '↑' : '↓'} ${Math.abs(delta)}%
+                </span>
+            </div>
+        </div>
+    `;
+
+    container.innerHTML =
+        renderItem('Token 消耗', formatNumber(c.token_usage.today), formatNumber(c.token_usage.yesterday), c.token_usage.delta_percent, false) +
+        renderItem('执行成功率', c.success_rate.today, c.success_rate.yesterday, c.success_rate.delta_percent, true) +
+        renderItem('错误日志数', c.error_count.today, c.error_count.yesterday, c.error_count.delta_percent, false);
+}
+
 // 检查新告警并通知
 function checkNewAlerts(currentAlerts, previousAlerts) {
     const newAlerts = currentAlerts.filter(alert =>
@@ -585,4 +755,6 @@ window.addEventListener('beforeunload', () => {
     if (refreshTimer) clearInterval(refreshTimer);
     if (countdownTimer) clearInterval(countdownTimer);
     if (tokenChart) tokenChart.destroy();
+    if (multiMetricChart) multiMetricChart.destroy();
+    if (histogramChart) histogramChart.destroy();
 });

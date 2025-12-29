@@ -179,7 +179,54 @@
                 </div>
             </div>
 
-            <!-- 最近错误卡片 -->
+            <!-- 二、Phase 1 增强功能卡片 -->
+
+            <!-- 多指标趋势卡片 -->
+            <div class="card card-wide">
+                <div class="card-header">
+                    <h2>📈 关键指标趋势</h2>
+                    <div class="metric-selector-group">
+                        <select id="metricSelector" class="metric-selector">
+                            <option value="token_usage">Token消耗</option>
+                            <option value="success_rate">成功率</option>
+                            <option value="error_rate">错误率</option>
+                            <option value="queue_length">队列长度</option>
+                            <option value="avg_duration">平均耗时</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="chart-container-large">
+                    <canvas id="multiMetricChart"></canvas>
+                </div>
+            </div>
+
+            <!-- 性能分布卡片 -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>⏱️ 性能分布</h2>
+                    <select id="workflowSelector" class="workflow-selector">
+                        <option value="all">全部工作流</option>
+                    </select>
+                </div>
+                <div class="percentiles-grid" id="percentilesGrid">
+                    <div class="empty-state">加载中...</div>
+                </div>
+                <div class="chart-container">
+                    <canvas id="durationHistogram"></canvas>
+                </div>
+            </div>
+
+            <!-- 历史对比卡片 -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>📊 历史对比</h2>
+                </div>
+                <div class="comparison-metrics" id="comparisonMetrics">
+                    <div class="empty-state">加载中...</div>
+                </div>
+            </div>
+
+            <!-- 🚨 最近错误卡片 -->
             <div class="card">
                 <div class="card-header">
                     <h2>🚨 最近错误</h2>
