@@ -1,10 +1,10 @@
 {
     "comparison":  {
                        "success_rate":  {
-                                            "today":  89.5,
-                                            "delta":  -10.5,
+                                            "today":  90.5,
+                                            "delta":  -9.5,
                                             "yesterday":  100,
-                                            "delta_percent":  -10.5
+                                            "delta_percent":  -9.5
                                         },
                        "token_usage":  {
                                            "today":  100000,
@@ -21,14 +21,14 @@
                    },
     "performance":  {
                         "token_usage_week":  100000,
-                        "success_rate":  89.5,
+                        "success_rate":  90.5,
                         "avg_duration_by_workflow":  {
                                                          "scout":  22,
                                                          "scheduler":  0,
                                                          "qc-check":  0,
                                                          "write-article":  6.4
                                                      },
-                        "success_count":  17,
+                        "success_count":  19,
                         "fail_count":  2,
                         "duration_percentiles":  {
                                                      "scout":  {
@@ -58,19 +58,20 @@
                                                  },
                         "token_usage_today":  100000
                     },
-    "timestamp":  "2025-12-30 20:50:17",
+    "timestamp":  "2025-12-30 20:53:00",
     "logs":  {
                  "by_level":  {
                                   "ERROR":  1,
                                   "FATAL":  1,
-                                  "INFO":  17,
+                                  "INFO":  19,
                                   "WARN":  0
                               },
                  "by_workflow":  {
-                                     "scheduler":  1,
-                                     "scout":  1,
+                                     "write-article":  16,
+                                     "check-alerts":  2,
                                      "qc-check":  1,
-                                     "write-article":  16
+                                     "scout":  1,
+                                     "scheduler":  1
                                  },
                  "recent_errors":  [
                                        {
@@ -88,7 +89,7 @@
                                            "workflow":  "scheduler"
                                        }
                                    ],
-                 "total":  19
+                 "total":  21
              },
     "alert_rules":  {
                         "p0_alerts_threshold":  1,
@@ -129,22 +130,34 @@
                                                                           "cost":  9.4999999999999964,
                                                                           "tokens":  95000,
                                                                           "count":  16
-                                                                      }
+                                                                      },
+                                                    "check-alerts":  {
+                                                                         "cost":  0,
+                                                                         "tokens":  0,
+                                                                         "count":  2
+                                                                     }
                                                 },
                           "by_workflow_today_formatted":  [
-                                                              {
-                                                                  "cost":  0,
-                                                                  "percentage":  0,
-                                                                  "tokens":  0,
-                                                                  "count":  1,
-                                                                  "workflow":  "qc-check"
-                                                              },
                                                               {
                                                                   "cost":  9.5,
                                                                   "percentage":  95,
                                                                   "tokens":  95000,
                                                                   "count":  16,
                                                                   "workflow":  "write-article"
+                                                              },
+                                                              {
+                                                                  "cost":  0,
+                                                                  "percentage":  0,
+                                                                  "tokens":  0,
+                                                                  "count":  2,
+                                                                  "workflow":  "check-alerts"
+                                                              },
+                                                              {
+                                                                  "cost":  0,
+                                                                  "percentage":  0,
+                                                                  "tokens":  0,
+                                                                  "count":  1,
+                                                                  "workflow":  "qc-check"
                                                               },
                                                               {
                                                                   "cost":  0,
@@ -188,22 +201,34 @@
                                                                          "cost":  9.4999999999999964,
                                                                          "tokens":  95000,
                                                                          "count":  18
-                                                                     }
+                                                                     },
+                                                   "check-alerts":  {
+                                                                        "cost":  0,
+                                                                        "tokens":  0,
+                                                                        "count":  2
+                                                                    }
                                                },
                           "by_workflow_week_formatted":  [
-                                                             {
-                                                                 "cost":  0,
-                                                                 "percentage":  0,
-                                                                 "tokens":  0,
-                                                                 "count":  1,
-                                                                 "workflow":  "qc-check"
-                                                             },
                                                              {
                                                                  "cost":  9.5,
                                                                  "percentage":  95,
                                                                  "tokens":  95000,
                                                                  "count":  18,
                                                                  "workflow":  "write-article"
+                                                             },
+                                                             {
+                                                                 "cost":  0,
+                                                                 "percentage":  0,
+                                                                 "tokens":  0,
+                                                                 "count":  2,
+                                                                 "workflow":  "check-alerts"
+                                                             },
+                                                             {
+                                                                 "cost":  0,
+                                                                 "percentage":  0,
+                                                                 "tokens":  0,
+                                                                 "count":  1,
+                                                                 "workflow":  "qc-check"
                                                              },
                                                              {
                                                                  "cost":  0,
@@ -232,7 +257,7 @@
                },
     "system":  {
                    "timezone":  "China Standard Time",
-                   "last_update":  "2025-12-30 20:50:17"
+                   "last_update":  "2025-12-30 20:53:00"
                },
     "sla_monitoring":  {
                            "week_stats_formatted":  [
@@ -376,13 +401,13 @@
                            "timeout_tasks":  [
                                                  {
                                                      "duration":  22,
-                                                     "timestamp":  "2025-12-30 20:50:17",
+                                                     "timestamp":  "2025-12-30 20:53:00",
                                                      "threshold":  20,
                                                      "workflow":  "scout"
                                                  },
                                                  {
                                                      "duration":  28,
-                                                     "timestamp":  "2025-12-30 20:50:17",
+                                                     "timestamp":  "2025-12-30 20:53:00",
                                                      "threshold":  25,
                                                      "workflow":  "write-article"
                                                  }
@@ -412,14 +437,14 @@
                            "sla_violations":  [
                                                   {
                                                       "duration":  22,
-                                                      "timestamp":  "2025-12-30 20:50:17",
+                                                      "timestamp":  "2025-12-30 20:53:00",
                                                       "threshold":  12,
                                                       "severity":  "critical",
                                                       "workflow":  "scout"
                                                   },
                                                   {
                                                       "duration":  28,
-                                                      "timestamp":  "2025-12-30 20:50:17",
+                                                      "timestamp":  "2025-12-30 20:53:00",
                                                       "threshold":  15,
                                                       "severity":  "critical",
                                                       "workflow":  "write-article"
@@ -520,7 +545,7 @@
                ],
     "metadata":  {
                      "collector_version":  "3.2",
-                     "duration_seconds":  4.3,
+                     "duration_seconds":  4.62,
                      "errors":  [
 
                                 ],
@@ -554,7 +579,7 @@
                                                                         "date":  "2025-12-29"
                                                                     },
                                                                     {
-                                                                        "value":  89.5,
+                                                                        "value":  90.5,
                                                                         "date":  "2025-12-30"
                                                                     }
                                                                 ],
@@ -614,7 +639,7 @@
                                                                         "date":  "2025-12-29"
                                                                     },
                                                                     {
-                                                                        "value":  1,
+                                                                        "value":  0,
                                                                         "date":  "2025-12-30"
                                                                     }
                                                                 ],
@@ -674,7 +699,7 @@
                                                                       "date":  "2025-12-29"
                                                                   },
                                                                   {
-                                                                      "value":  10.53,
+                                                                      "value":  9.52,
                                                                       "date":  "2025-12-30"
                                                                   }
                                                               ]
@@ -719,20 +744,17 @@
                  },
     "tasks":  {
                   "pending":  [
-                                  {
-                                      "id":  "P0_check_alerts_trc-1230200000.lock",
-                                      "workflow":  "check-alerts",
-                                      "age_minutes":  50.2,
-                                      "created":  "2025-12-30 20:00:00",
-                                      "priority":  "P0",
-                                      "trace_id":  null
-                                  }
+
                               ],
                   "alerts":  [
 
                              ],
                   "processing":  [
-
+                                     {
+                                         "created":  "2025-12-30 20:00:00",
+                                         "id":  "P0_check_alerts_trc-1230200000.processing",
+                                         "age_minutes":  52.9
+                                     }
                                  ]
               }
 }
