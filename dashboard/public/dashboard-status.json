@@ -58,7 +58,7 @@
                                                  },
                         "token_usage_today":  100000
                     },
-    "timestamp":  "2025-12-30 19:51:28",
+    "timestamp":  "2025-12-30 19:51:29",
     "logs":  {
                  "by_level":  {
                                   "ERROR":  1,
@@ -233,7 +233,7 @@
                },
     "system":  {
                    "timezone":  "China Standard Time",
-                   "last_update":  "2025-12-30 19:51:28"
+                   "last_update":  "2025-12-30 19:51:29"
                },
     "sla_monitoring":  {
                            "week_stats_formatted":  [
@@ -377,13 +377,13 @@
                            "timeout_tasks":  [
                                                  {
                                                      "duration":  22,
-                                                     "timestamp":  "2025-12-30 19:51:28",
+                                                     "timestamp":  "2025-12-30 19:51:29",
                                                      "threshold":  20,
                                                      "workflow":  "scout"
                                                  },
                                                  {
                                                      "duration":  28,
-                                                     "timestamp":  "2025-12-30 19:51:28",
+                                                     "timestamp":  "2025-12-30 19:51:29",
                                                      "threshold":  25,
                                                      "workflow":  "write-article"
                                                  }
@@ -413,14 +413,14 @@
                            "sla_violations":  [
                                                   {
                                                       "duration":  22,
-                                                      "timestamp":  "2025-12-30 19:51:28",
+                                                      "timestamp":  "2025-12-30 19:51:29",
                                                       "threshold":  12,
                                                       "severity":  "critical",
                                                       "workflow":  "scout"
                                                   },
                                                   {
                                                       "duration":  28,
-                                                      "timestamp":  "2025-12-30 19:51:28",
+                                                      "timestamp":  "2025-12-30 19:51:29",
                                                       "threshold":  15,
                                                       "severity":  "critical",
                                                       "workflow":  "write-article"
@@ -521,7 +521,7 @@
                ],
     "metadata":  {
                      "collector_version":  "3.2",
-                     "duration_seconds":  6.02,
+                     "duration_seconds":  4.67,
                      "errors":  [
 
                                 ],
@@ -786,10 +786,10 @@
                                   },
                                   {
                                       "id":  "pending_config_val.lock",
-                                      "workflow":  "Unknown",
+                                      "workflow":  null,
                                       "age_minutes":  1039.5,
                                       "created":  "2025-12-30 02:31:53",
-                                      "priority":  "Unknown",
+                                      "priority":  null,
                                       "trace_id":  null
                                   }
                               ],
