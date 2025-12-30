@@ -17,7 +17,7 @@
 
 ## 数据更新
 
-- 自动更新：每5分钟通过 GitHub Actions
+- 自动更新：每60分钟通过系统调度任务 (Task-5) 自动推送
 - 实时同步：本地运行 `.\scripts\start-log-monitor.bat` 持续监听日志变化
 - 手动更新：运行 `.\scripts\collect-dashboard-data.ps1`
 

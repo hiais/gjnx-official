@@ -58,7 +58,7 @@
                                                  },
                         "token_usage_today":  100000
                     },
-    "timestamp":  "2025-12-30 21:45:37",
+    "timestamp":  "2025-12-30 22:45:08",
     "logs":  {
                  "by_level":  {
                                   "ERROR":  1,
@@ -308,7 +308,7 @@
                },
     "system":  {
                    "timezone":  "China Standard Time",
-                   "last_update":  "2025-12-30 21:45:37"
+                   "last_update":  "2025-12-30 22:45:08"
                },
     "sla_monitoring":  {
                            "week_stats_formatted":  [
@@ -452,13 +452,13 @@
                            "timeout_tasks":  [
                                                  {
                                                      "duration":  22,
-                                                     "timestamp":  "2025-12-30 21:45:37",
+                                                     "timestamp":  "2025-12-30 22:45:08",
                                                      "threshold":  20,
                                                      "workflow":  "scout"
                                                  },
                                                  {
                                                      "duration":  28,
-                                                     "timestamp":  "2025-12-30 21:45:37",
+                                                     "timestamp":  "2025-12-30 22:45:08",
                                                      "threshold":  25,
                                                      "workflow":  "write-article"
                                                  }
@@ -488,14 +488,14 @@
                            "sla_violations":  [
                                                   {
                                                       "duration":  22,
-                                                      "timestamp":  "2025-12-30 21:45:37",
+                                                      "timestamp":  "2025-12-30 22:45:08",
                                                       "threshold":  12,
                                                       "severity":  "critical",
                                                       "workflow":  "scout"
                                                   },
                                                   {
                                                       "duration":  28,
-                                                      "timestamp":  "2025-12-30 21:45:37",
+                                                      "timestamp":  "2025-12-30 22:45:08",
                                                       "threshold":  15,
                                                       "severity":  "critical",
                                                       "workflow":  "write-article"
@@ -506,7 +506,7 @@
                             {
                                 "id":  "Task-0",
                                 "name":  "核心任务处理",
-                                "last_run":  "2025-12-30 21:30:30",
+                                "last_run":  "2025-12-30 22:30:30",
                                 "enabled":  true,
                                 "status":  "Ready",
                                 "last_result":  0
@@ -538,18 +538,18 @@
                             {
                                 "id":  "Task-5",
                                 "name":  "系统脉冲",
-                                "last_run":  "1999-11-30 00:00:00",
+                                "last_run":  "2025-12-30 22:00:00",
                                 "enabled":  true,
                                 "status":  "Ready",
-                                "last_result":  267011
+                                "last_result":  0
                             },
                             {
                                 "id":  "Task-6",
                                 "name":  "任务看门狗",
-                                "last_run":  "1999-11-30 00:00:00",
+                                "last_run":  "2025-12-30 22:00:00",
                                 "enabled":  true,
                                 "status":  "Ready",
-                                "last_result":  267011
+                                "last_result":  0
                             },
                             {
                                 "id":  "Task-7",
@@ -570,10 +570,10 @@
                             {
                                 "id":  "Task-10",
                                 "name":  "告警自动响应",
-                                "last_run":  "1999-11-30 00:00:00",
+                                "last_run":  "2025-12-30 22:30:30",
                                 "enabled":  true,
                                 "status":  "Ready",
-                                "last_result":  267011
+                                "last_result":  0
                             }
                         ],
     "alerts":  [
@@ -596,7 +596,7 @@
                ],
     "metadata":  {
                      "collector_version":  "3.2",
-                     "duration_seconds":  4.42,
+                     "duration_seconds":  4.41,
                      "errors":  [
 
                                 ],
@@ -690,7 +690,7 @@
                                                                         "date":  "2025-12-29"
                                                                     },
                                                                     {
-                                                                        "value":  1,
+                                                                        "value":  0,
                                                                         "date":  "2025-12-30"
                                                                     }
                                                                 ],
@@ -795,14 +795,7 @@
                  },
     "tasks":  {
                   "pending":  [
-                                  {
-                                      "id":  "P0_process_tasks_trc-1230213045.lock",
-                                      "workflow":  "process-tasks",
-                                      "age_minutes":  14.8,
-                                      "created":  "2025-12-30 21:30:45",
-                                      "priority":  "P0",
-                                      "trace_id":  null
-                                  }
+
                               ],
                   "alerts":  [
 
