@@ -58,7 +58,7 @@
                                                  },
                         "token_usage_today":  100000
                     },
-    "timestamp":  "2025-12-30 21:20:19",
+    "timestamp":  "2025-12-30 21:20:41",
     "logs":  {
                  "by_level":  {
                                   "ERROR":  1,
@@ -282,7 +282,7 @@
                },
     "system":  {
                    "timezone":  "China Standard Time",
-                   "last_update":  "2025-12-30 21:20:19"
+                   "last_update":  "2025-12-30 21:20:41"
                },
     "sla_monitoring":  {
                            "week_stats_formatted":  [
@@ -426,13 +426,13 @@
                            "timeout_tasks":  [
                                                  {
                                                      "duration":  22,
-                                                     "timestamp":  "2025-12-30 21:20:19",
+                                                     "timestamp":  "2025-12-30 21:20:41",
                                                      "threshold":  20,
                                                      "workflow":  "scout"
                                                  },
                                                  {
                                                      "duration":  28,
-                                                     "timestamp":  "2025-12-30 21:20:19",
+                                                     "timestamp":  "2025-12-30 21:20:41",
                                                      "threshold":  25,
                                                      "workflow":  "write-article"
                                                  }
@@ -462,14 +462,14 @@
                            "sla_violations":  [
                                                   {
                                                       "duration":  22,
-                                                      "timestamp":  "2025-12-30 21:20:19",
+                                                      "timestamp":  "2025-12-30 21:20:41",
                                                       "threshold":  12,
                                                       "severity":  "critical",
                                                       "workflow":  "scout"
                                                   },
                                                   {
                                                       "duration":  28,
-                                                      "timestamp":  "2025-12-30 21:20:19",
+                                                      "timestamp":  "2025-12-30 21:20:41",
                                                       "threshold":  15,
                                                       "severity":  "critical",
                                                       "workflow":  "write-article"
@@ -570,7 +570,7 @@
                ],
     "metadata":  {
                      "collector_version":  "3.2",
-                     "duration_seconds":  4.37,
+                     "duration_seconds":  4.27,
                      "errors":  [
 
                                 ],
@@ -664,7 +664,7 @@
                                                                         "date":  "2025-12-29"
                                                                     },
                                                                     {
-                                                                        "value":  2,
+                                                                        "value":  1,
                                                                         "date":  "2025-12-30"
                                                                     }
                                                                 ],
@@ -772,17 +772,9 @@
                                   {
                                       "id":  "P0_process_tasks_trc-1230211613.lock",
                                       "workflow":  "process-tasks",
-                                      "age_minutes":  4,
+                                      "age_minutes":  4.4,
                                       "created":  "2025-12-30 21:16:13",
                                       "priority":  "P0",
-                                      "trace_id":  null
-                                  },
-                                  {
-                                      "id":  "P2_refresh_dashboard_trc-1230210000.lock",
-                                      "workflow":  "refresh-dashboard",
-                                      "age_minutes":  20.2,
-                                      "created":  "2025-12-30 21:00:00",
-                                      "priority":  "P2",
                                       "trace_id":  null
                                   }
                               ],
@@ -790,7 +782,11 @@
 
                              ],
                   "processing":  [
-
+                                     {
+                                         "created":  "2025-12-30 21:00:00",
+                                         "id":  "P2_refresh_dashboard_trc-1230210000.processing",
+                                         "age_minutes":  20.6
+                                     }
                                  ]
               }
 }
