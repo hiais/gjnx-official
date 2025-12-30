@@ -58,7 +58,7 @@
                                                  },
                         "token_usage_today":  100000
                     },
-    "timestamp":  "2025-12-30 22:45:08",
+    "timestamp":  "2025-12-30 22:58:19",
     "logs":  {
                  "by_level":  {
                                   "ERROR":  1,
@@ -308,7 +308,7 @@
                },
     "system":  {
                    "timezone":  "China Standard Time",
-                   "last_update":  "2025-12-30 22:45:08"
+                   "last_update":  "2025-12-30 22:58:19"
                },
     "sla_monitoring":  {
                            "week_stats_formatted":  [
@@ -452,13 +452,13 @@
                            "timeout_tasks":  [
                                                  {
                                                      "duration":  22,
-                                                     "timestamp":  "2025-12-30 22:45:08",
+                                                     "timestamp":  "2025-12-30 22:58:19",
                                                      "threshold":  20,
                                                      "workflow":  "scout"
                                                  },
                                                  {
                                                      "duration":  28,
-                                                     "timestamp":  "2025-12-30 22:45:08",
+                                                     "timestamp":  "2025-12-30 22:58:19",
                                                      "threshold":  25,
                                                      "workflow":  "write-article"
                                                  }
@@ -488,14 +488,14 @@
                            "sla_violations":  [
                                                   {
                                                       "duration":  22,
-                                                      "timestamp":  "2025-12-30 22:45:08",
+                                                      "timestamp":  "2025-12-30 22:58:19",
                                                       "threshold":  12,
                                                       "severity":  "critical",
                                                       "workflow":  "scout"
                                                   },
                                                   {
                                                       "duration":  28,
-                                                      "timestamp":  "2025-12-30 22:45:08",
+                                                      "timestamp":  "2025-12-30 22:58:19",
                                                       "threshold":  15,
                                                       "severity":  "critical",
                                                       "workflow":  "write-article"
@@ -596,7 +596,7 @@
                ],
     "metadata":  {
                      "collector_version":  "3.2",
-                     "duration_seconds":  4.41,
+                     "duration_seconds":  4.66,
                      "errors":  [
 
                                 ],
@@ -690,7 +690,7 @@
                                                                         "date":  "2025-12-29"
                                                                     },
                                                                     {
-                                                                        "value":  0,
+                                                                        "value":  4,
                                                                         "date":  "2025-12-30"
                                                                     }
                                                                 ],
@@ -795,7 +795,38 @@
                  },
     "tasks":  {
                   "pending":  [
-
+                                  {
+                                      "id":  "P0_check_alerts_trc-1230225755.lock",
+                                      "workflow":  "check-alerts",
+                                      "age_minutes":  0.3,
+                                      "created":  "2025-12-30 22:57:55",
+                                      "priority":  "P0",
+                                      "trace_id":  null
+                                  },
+                                  {
+                                      "id":  "P0_process_tasks_trc-1230225747.lock",
+                                      "workflow":  "process-tasks",
+                                      "age_minutes":  0.4,
+                                      "created":  "2025-12-30 22:57:47",
+                                      "priority":  "P0",
+                                      "trace_id":  null
+                                  },
+                                  {
+                                      "id":  "P0_task_watchdog_trc-1230225752.lock",
+                                      "workflow":  "task-watchdog",
+                                      "age_minutes":  0.4,
+                                      "created":  "2025-12-30 22:57:52",
+                                      "priority":  "P0",
+                                      "trace_id":  null
+                                  },
+                                  {
+                                      "id":  "P1_daily_config_check_trc-1230225809.lock",
+                                      "workflow":  "daily-config-check",
+                                      "age_minutes":  0.1,
+                                      "created":  "2025-12-30 22:58:09",
+                                      "priority":  "P1",
+                                      "trace_id":  null
+                                  }
                               ],
                   "alerts":  [
 
