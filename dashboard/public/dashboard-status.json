@@ -58,7 +58,7 @@
                                                  },
                         "token_usage_today":  100000
                     },
-    "timestamp":  "2025-12-30 09:11:35",
+    "timestamp":  "2025-12-30 09:11:42",
     "logs":  {
                  "by_level":  {
                                   "ERROR":  1,
@@ -232,7 +232,7 @@
                },
     "system":  {
                    "timezone":  "China Standard Time",
-                   "last_update":  "2025-12-30 09:11:35"
+                   "last_update":  "2025-12-30 09:11:42"
                },
     "sla_monitoring":  {
                            "week_stats_formatted":  [
@@ -376,13 +376,13 @@
                            "timeout_tasks":  [
                                                  {
                                                      "duration":  22,
-                                                     "timestamp":  "2025-12-30 09:11:35",
+                                                     "timestamp":  "2025-12-30 09:11:42",
                                                      "threshold":  20,
                                                      "workflow":  "scout"
                                                  },
                                                  {
                                                      "duration":  28,
-                                                     "timestamp":  "2025-12-30 09:11:35",
+                                                     "timestamp":  "2025-12-30 09:11:42",
                                                      "threshold":  25,
                                                      "workflow":  "write-article"
                                                  }
@@ -412,14 +412,14 @@
                            "sla_violations":  [
                                                   {
                                                       "duration":  22,
-                                                      "timestamp":  "2025-12-30 09:11:35",
+                                                      "timestamp":  "2025-12-30 09:11:42",
                                                       "threshold":  12,
                                                       "severity":  "critical",
                                                       "workflow":  "scout"
                                                   },
                                                   {
                                                       "duration":  28,
-                                                      "timestamp":  "2025-12-30 09:11:35",
+                                                      "timestamp":  "2025-12-30 09:11:42",
                                                       "threshold":  15,
                                                       "severity":  "critical",
                                                       "workflow":  "write-article"
@@ -520,7 +520,7 @@
                ],
     "metadata":  {
                      "collector_version":  "3.2",
-                     "duration_seconds":  4.32,
+                     "duration_seconds":  4.22,
                      "errors":  [
 
                                 ],
@@ -722,7 +722,7 @@
                                   {
                                       "id":  "P0_check_alerts_trc-1230030000.lock",
                                       "workflow":  "check-alerts",
-                                      "age_minutes":  371.5,
+                                      "age_minutes":  371.6,
                                       "created":  "2025-12-30 03:00:00",
                                       "priority":  "P0",
                                       "trace_id":  null
@@ -730,7 +730,7 @@
                                   {
                                       "id":  "P0_process_tasks_trc-1230021143.lock",
                                       "workflow":  "process-tasks",
-                                      "age_minutes":  419.8,
+                                      "age_minutes":  419.9,
                                       "created":  "2025-12-30 02:11:43",
                                       "priority":  "P0",
                                       "trace_id":  null
@@ -738,7 +738,7 @@
                                   {
                                       "id":  "P0_task_watchdog_trc-1230030000.lock",
                                       "workflow":  "task-watchdog",
-                                      "age_minutes":  371.5,
+                                      "age_minutes":  371.6,
                                       "created":  "2025-12-30 03:00:00",
                                       "priority":  "P0",
                                       "trace_id":  null
@@ -746,7 +746,7 @@
                                   {
                                       "id":  "P1_daily_config_check_trc-1230032500.lock",
                                       "workflow":  "daily-config-check",
-                                      "age_minutes":  346.5,
+                                      "age_minutes":  346.6,
                                       "created":  "2025-12-30 03:25:00",
                                       "priority":  "P1",
                                       "trace_id":  null
@@ -754,7 +754,7 @@
                                   {
                                       "id":  "P1_scout_trc-1230033000.lock",
                                       "workflow":  "scout",
-                                      "age_minutes":  341.5,
+                                      "age_minutes":  341.6,
                                       "created":  "2025-12-30 03:30:00",
                                       "priority":  "P1",
                                       "trace_id":  null
@@ -762,7 +762,7 @@
                                   {
                                       "id":  "P2_archive_logs_trc-1230032000.lock",
                                       "workflow":  "archive-logs",
-                                      "age_minutes":  351.5,
+                                      "age_minutes":  351.6,
                                       "created":  "2025-12-30 03:20:00",
                                       "priority":  "P2",
                                       "trace_id":  null
@@ -770,7 +770,7 @@
                                   {
                                       "id":  "P2_refresh_dashboard_trc-1230030000.lock",
                                       "workflow":  "refresh-dashboard",
-                                      "age_minutes":  371.5,
+                                      "age_minutes":  371.6,
                                       "created":  "2025-12-30 03:00:00",
                                       "priority":  "P2",
                                       "trace_id":  null
@@ -778,7 +778,7 @@
                                   {
                                       "id":  "P2_wechat_auto_stats_trc-1230091112.lock",
                                       "workflow":  "wechat-auto-stats",
-                                      "age_minutes":  0.3,
+                                      "age_minutes":  0.4,
                                       "created":  "2025-12-30 09:11:12",
                                       "priority":  "P2",
                                       "trace_id":  null
@@ -786,7 +786,7 @@
                                   {
                                       "id":  "pending_config_val.lock",
                                       "workflow":  "Unknown",
-                                      "age_minutes":  399.6,
+                                      "age_minutes":  399.8,
                                       "created":  "2025-12-30 02:31:53",
                                       "priority":  "Unknown",
                                       "trace_id":  null
