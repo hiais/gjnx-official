@@ -72,338 +72,174 @@
             <button class="btn btn-secondary" onclick="clearFilters()">清除筛选</button>
         </div>
 
-        <!-- 新增：标签页导航 -->
+        <!-- 3-Tab Navigation (Simplified) -->
         <div class="tab-navigation">
-            <button class="tab-btn active" data-tab="overview" onclick="switchTab('overview')">
-                <span>📊</span> 概览
+            <button class="tab-btn active" data-tab="cockpit" onclick="switchTab('cockpit')">
+                <span>📊</span> 驾驶舱 (Cockpit)
             </button>
-            <button class="tab-btn" data-tab="performance" onclick="switchTab('performance')">
-                <span>⚡</span> 性能
-            </button>
-            <button class="tab-btn" data-tab="cost" onclick="switchTab('cost')">
-                <span>💰</span> 成本
-            </button>
-            <button class="tab-btn" data-tab="alerts" onclick="switchTab('alerts')">
-                <span>🚨</span> 告警
-            </button>
-            <button class="tab-btn" data-tab="sla" onclick="switchTab('sla')">
-                <span>⏱️</span> SLA
+            <button class="tab-btn" data-tab="activity" onclick="switchTab('activity')">
+                <span>📝</span> 系统动态 (Activity)
             </button>
             <button class="tab-btn" data-tab="content" onclick="switchTab('content')">
-                <span>🏭</span> 内容工厂
+                <span>🏭</span> 内容工厂 (Factory)
             </button>
         </div>
 
-        <!-- 标签页内容 -->
-        <!-- 概览标签页 -->
-        <div class="tab-content active" id="tab-overview">
+        <!-- Tab 1: 驾驶舱 (Cockpit) - The Single Source of Truth -->
+        <div class="tab-content active" id="tab-cockpit">
 
-            <!-- 核心监控分组 (独立于grid) -->
-            <div class="card-group">
-                <div class="card-group-header" onclick="toggleGroup('core')">
-                    <h3>🔧 核心监控</h3>
-                    <span class="toggle-icon" id="icon-core">▼</span>
+            <!-- Health Hero Section -->
+            <div class="health-hero-section">
+                <!-- Health Score Card -->
+                <div class="card health-card">
+                    <div class="health-header">
+                        <h2>系统健康评分</h2>
+                        <div class="status-pill" id="cockpitStatusBadge">Checking...</div>
+                    </div>
+                    <div class="health-main">
+                        <div class="score-circle">
+                            <span id="cockpitHealthScore">-</span>
+                            <small>/ 100</small>
+                        </div>
+                        <div class="health-summary" id="cockpitHealthSummary">
+                            正在分析系统各项指标...
+                        </div>
+                    </div>
                 </div>
-                <div class="card-group-content active" id="group-core">
-                    <!-- 任务队列卡片 -->
-                    <div class="card">
-                        <div class="card-header">
-                            <h2>📋 任务队列</h2>
-                            <span class="badge" id="pendingBadge">0</span>
-                        </div>
-                        <div class="metrics">
-                            <div class="metric">
-                                <span class="metric-label">待处理</span>
-                                <span class="metric-value" id="pendingCount">0</span>
-                            </div>
-                            <div class="metric">
-                                <span class="metric-label">处理中</span>
-                                <span class="metric-value" id="processingCount">0</span>
-                            </div>
-                            <div class="metric">
-                                <span class="metric-label">P0告警</span>
-                                <span class="metric-value alert-count" id="alertCount">0</span>
-                            </div>
-                        </div>
-                        <div class="task-list" id="taskList">
-                            <div class="empty-state">暂无任务</div>
-                        </div>
-                    </div>
 
-                    <!-- 系统健康卡片 -->
-                    <div class="card">
-                        <div class="card-header">
-                            <h2>🏥 系统健康</h2>
-                        </div>
-                        <div id="healthIssues" class="health-issues">
-                            <div class="empty-state">加载中...</div>
-                        </div>
-                        <div class="actions">
-                            <button class="btn btn-primary" onclick="refreshData()">
-                                <span>🔄 刷新数据</span>
-                            </button>
-                        </div>
+                <!-- Active Alerts & Actions -->
+                <div class="card actions-card">
+                    <div class="card-header">
+                        <h2>运维控制台 (O&M)</h2>
                     </div>
-
-                    <!-- 调度任务状态卡片 -->
-                    <div class="card">
-                        <div class="card-header">
-                            <h2>⏰ 调度任务</h2>
-                            <span class="badge" id="scheduledTasksBadge">0</span>
+                    <div class="om-grid">
+                        <div class="alert-box" id="cockpitAlertBox">
+                            <div class="alert-icon">🟢</div>
+                            <div class="alert-info">
+                                <strong>当前无活跃告警</strong>
+                                <small>系统运行平稳</small>
+                            </div>
                         </div>
-                        <div class="scheduled-tasks-list" id="scheduledTasksList">
-                            <div class="empty-state">加载中...</div>
+                        <div class="action-buttons">
+                            <button class="btn btn-secondary" onclick="window.open('/run-all-maintenance', '_blank')">⚡
+                                一键维护</button>
+                            <button class="btn btn-secondary" onclick="toggleAlertConfig()">⚙️ 阈值配置</button>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="grid">
-                <!-- 业务指标卡片 -->
-                <div class="card">
-                    <div class="card-header">
-                        <h2>📈 业务指标</h2>
-                    </div>
-                    <div class="metrics">
-                        <div class="metric">
-                            <span class="metric-label">今日文章</span>
-                            <span class="metric-value" id="articlesToday">0</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-label">本周文章</span>
-                            <span class="metric-value" id="articlesWeek">0</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-label">QC通过率</span>
-                            <span class="metric-value" id="qcPassRate">0%</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-label">生产效率</span>
-                            <span class="metric-value" id="efficiency">0</span>
-                        </div>
+            <!-- Unified KPI Grid (Pulse) -->
+            <h3 class="section-title">核心运行指标 (Key Metrics)</h3>
+            <div class="grid kpi-grid-4">
+                <!-- 1. Operations KPI -->
+                <div class="card kpi-card-detailed">
+                    <div class="kpi-icon-wrapper op">📈</div>
+                    <div class="kpi-data-wrapper">
+                        <div class="kpi-title">今日产出</div>
+                        <div class="kpi-main-val" id="kpiOpsOutput">0</div>
+                        <div class="kpi-sub-text">QC通过率: <strong id="kpiOpsQC">0%</strong></div>
                     </div>
                 </div>
-
-                <!-- 日志统计卡片 -->
-                <div class="card">
-                    <div class="card-header">
-                        <h2>📊 今日日志</h2>
+                <!-- 2. Performance KPI -->
+                <div class="card kpi-card-detailed">
+                    <div class="kpi-icon-wrapper perf">⚡</div>
+                    <div class="kpi-data-wrapper">
+                        <div class="kpi-title">平均耗时</div>
+                        <div class="kpi-main-val" id="kpiPerfDuration">0m</div>
+                        <div class="kpi-sub-text">成功率: <strong id="kpiPerfSuccess">0%</strong></div>
                     </div>
-                    <div class="metrics">
-                        <div class="metric">
-                            <span class="metric-label">总日志数</span>
-                            <span class="metric-value" id="logTotal">0</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-label">INFO</span>
-                            <span class="metric-value info-count" id="logInfo">0</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-label">WARN</span>
-                            <span class="metric-value warn-count" id="logWarn">0</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-label">ERROR</span>
-                            <span class="metric-value error-count" id="logError">0</span>
-                        </div>
+                </div>
+                <!-- 3. Resource KPI -->
+                <div class="card kpi-card-detailed">
+                    <div class="kpi-icon-wrapper res">⛽</div>
+                    <div class="kpi-data-wrapper">
+                        <div class="kpi-title">Token 消耗</div>
+                        <div class="kpi-main-val" id="kpiResTokens">0</div>
+                        <div class="kpi-sub-text">预估成本: <strong id="kpiResCost">¥0</strong></div>
                     </div>
-
-                    <div class="workflow-stats" id="workflowStats">
-                        <div class="empty-state">暂无工作流数据</div>
+                </div>
+                <!-- 4. Stability KPI -->
+                <div class="card kpi-card-detailed">
+                    <div class="kpi-icon-wrapper stab">🛡️</div>
+                    <div class="kpi-data-wrapper">
+                        <div class="kpi-title">队列健康度</div>
+                        <div class="kpi-main-val" id="kpiStabQueue">0</div>
+                        <div class="kpi-sub-text">活跃错误: <strong id="kpiStabErrors">0</strong></div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- 性能标签页 -->
-        <div class="tab-content" id="tab-performance">
-            <div class="grid">
-                <!-- 性能指标卡片 -->
-                <div class="card">
-                    <div class="card-header">
-                        <h2>⚡ 性能指标</h2>
-                    </div>
-                    <div class="metrics">
-                        <div class="metric">
-                            <span class="metric-label">Token消耗(今日)</span>
-                            <span class="metric-value" id="tokenToday">0</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-label">Token消耗(本周)</span>
-                            <span class="metric-value" id="tokenWeek">0</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-label">成功率</span>
-                            <span class="metric-value" id="successRate">0%</span>
-                        </div>
-                    </div>
-                    <div class="chart-container">
-                        <canvas id="tokenTrendChart"></canvas>
-                    </div>
-                </div>
-
-                <!-- 工作流性能卡片 -->
-                <div class="card">
-                    <div class="card-header">
-                        <h2>🔧 工作流性能</h2>
-                    </div>
-                    <div class="workflow-performance" id="workflowPerformance">
-                        <div class="empty-state">加载中...</div>
-                    </div>
-                </div>
-
-                <!-- 多指标趋势卡片 -->
+            <!-- Trends & Analysis -->
+            <div class="grid" style="margin-top: 1.5rem;">
                 <div class="card card-wide">
                     <div class="card-header">
-                        <h2>📈 关键指标趋势</h2>
-                        <div class="metric-selector-group">
-                            <select id="metricSelector" class="metric-selector">
-                                <option value="token_usage">Token消耗</option>
-                                <option value="success_rate">成功率</option>
-                                <option value="error_rate">错误率</option>
-                                <option value="queue_length">队列长度</option>
-                                <option value="avg_duration">平均耗时</option>
-                            </select>
-                        </div>
+                        <h2>📈 关键指标趋势 (7天)</h2>
+                        <select id="metricSelector" class="metric-selector">
+                            <option value="token_usage">Token消耗</option>
+                            <option value="success_rate">成功率</option>
+                            <option value="avg_duration">平均耗时</option>
+                        </select>
                     </div>
                     <div class="chart-container-large">
                         <canvas id="multiMetricChart"></canvas>
                     </div>
                 </div>
+            </div>
 
-                <!-- 性能分布卡片 -->
-                <div class="card">
-                    <div class="card-header">
-                        <h2>⏱️ 性能分位数对比</h2>
-                        <select id="workflowSelector" class="workflow-selector">
-                            <option value="all">全部工作流</option>
-                        </select>
-                    </div>
-                    <div class="percentiles-grid" id="percentilesGrid">
-                        <div class="empty-state">加载中...</div>
-                    </div>
-                    <div class="chart-container">
-                        <canvas id="durationHistogram"></canvas>
-                    </div>
+            <!-- Alert Config Panel (Hidden by default) -->
+            <div id="alertConfigPanel" class="card" style="display:none; margin-top: 1rem;">
+                <div class="card-header">
+                    <h2>⚙️ 告警阈值配置</h2>
                 </div>
-
-                <!-- 历史对比卡片 -->
-                <div class="card">
-                    <div class="card-header">
-                        <h2>📊 历史对比</h2>
-                    </div>
-                    <div class="comparison-metrics" id="comparisonMetrics">
-                        <div class="empty-state">加载中...</div>
-                    </div>
+                <div class="alert-config-content" id="alertConfigContent"></div>
+                <div class="alert-config-actions">
+                    <button class="btn btn-primary" onclick="saveAlertRules()">保存</button>
                 </div>
             </div>
         </div>
 
-        <!-- 成本标签页 -->
-        <div class="tab-content" id="tab-cost">
+        <!-- Tab 2: 系统动态 (Activity) -->
+        <div class="tab-content" id="tab-activity">
             <div class="grid">
-                <!-- 成本分析卡片 -->
+                <!-- Task Queue -->
+                <div class="card">
+                    <div class="card-header">
+                        <h2>📋 当前任务队列</h2>
+                        <span class="badge" id="pendingBadge">0</span>
+                    </div>
+                    <div class="task-list" id="taskList">
+                        <div class="empty-state">暂无积压任务</div>
+                    </div>
+                </div>
+
+                <!-- Scheduled Tasks -->
+                <div class="card">
+                    <div class="card-header">
+                        <h2>⏰ 调度器状态</h2>
+                        <span class="badge" id="scheduledTasksBadge">0</span>
+                    </div>
+                    <div class="scheduled-tasks-list" id="scheduledTasksList">
+                        <div class="empty-state">加载中...</div>
+                    </div>
+                </div>
+
+                <!-- Recent Logs/Errors -->
                 <div class="card card-wide">
                     <div class="card-header">
-                        <h2>💰 成本分析</h2>
-                        <div class="cost-period-selector">
-                            <button class="period-btn active" data-period="today"
-                                onclick="switchCostPeriod('today')">今日</button>
-                            <button class="period-btn" data-period="week" onclick="switchCostPeriod('week')">本周</button>
-                        </div>
-                    </div>
-                    <div class="cost-summary" id="costSummary">
-                        <div class="empty-state">加载中...</div>
-                    </div>
-                    <div class="cost-breakdown" id="costBreakdown">
-                        <div class="empty-state">加载中...</div>
-                    </div>
-                    <div class="chart-container-large">
-                        <canvas id="costChart"></canvas>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- 告警标签页 -->
-        <div class="tab-content" id="tab-alerts">
-            <div class="grid">
-                <!-- 🚨 最近错误卡片 -->
-                <div class="card">
-                    <div class="card-header">
-                        <h2>🚨 最近错误</h2>
-                        <span class="badge error-badge" id="errorBadge">0</span>
+                        <h2>🚨 异常活动日志</h2>
                     </div>
                     <div class="error-list" id="errorList">
-                        <div class="empty-state">暂无错误</div>
-                    </div>
-                </div>
-
-                <!-- 告警历史卡片 -->
-                <div class="card">
-                    <div class="card-header">
-                        <h2>📋 告警历史</h2>
-                    </div>
-                    <div class="alert-list" id="alertList">
-                        <div class="empty-state">暂无告警</div>
-                    </div>
-                </div>
-
-                <!-- 告警规则配置卡片 -->
-                <div class="card">
-                    <div class="card-header">
-                        <h2>⚙️ 告警规则配置</h2>
-                        <button class="btn btn-secondary btn-small" onclick="toggleAlertConfig()"
-                            id="alertConfigToggle">
-                            <span id="alertConfigToggleIcon">▼</span> 配置
-                        </button>
-                    </div>
-                    <div id="alertConfigPanel" class="alert-config-panel" style="display:none">
-                        <div class="alert-config-content" id="alertConfigContent">
-                            <div class="empty-state">加载中...</div>
-                        </div>
-                        <div class="alert-config-actions">
-                            <button class="btn btn-primary" onclick="saveAlertRules()">保存配置</button>
-                            <button class="btn btn-secondary" onclick="resetAlertRules()">重置默认</button>
-                        </div>
-                    </div>
-                    <div class="current-rules-summary" id="currentRulesSummary">
-                        <div class="empty-state">加载中...</div>
+                        <div class="empty-state">日志流清洁</div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- SLA标签页 -->
-        <div class="tab-content" id="tab-sla">
-            <div class="grid">
-                <!-- SLA监控卡片 -->
-                <div class="card card-wide">
-                    <div class="card-header">
-                        <h2>⏱️ SLA 监控 (Beta)</h2>
-                        <div class="sla-period-selector">
-                            <button class="period-btn active" data-period="today"
-                                onclick="switchSLAPeriod('today')">今日</button>
-                            <button class="period-btn" data-period="week" onclick="switchSLAPeriod('week')">本周</button>
-                        </div>
-                    </div>
-                    <div class="sla-summary" id="slaSummary">
-                        <div class="empty-state">加载中...</div>
-                    </div>
-                    <div class="sla-stats-table" id="slaStatsTable">
-                        <div class="empty-state">加载中...</div>
-                    </div>
-                    <div class="sla-violations" id="slaViolations">
-                        <div class="empty-state">加载中...</div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!-- 内容工厂标签页 -->
+        <!-- Tab 3: 内容工厂 (Factory) - Unchanged -->
         <div class="tab-content" id="tab-content">
             <div class="grid">
-                <!-- 漏斗状态卡片 - Enhanced Interactive Version -->
+                <!-- Pipeline Status -->
                 <div class="card card-wide">
                     <div class="card-header">
                         <h2>🏭 生产流水线 (点击查看详情)</h2>
@@ -433,41 +269,29 @@
                             <div class="step-value success" id="pfPublished">0</div>
                         </div>
                     </div>
-
-                    <!-- New Detail Section -->
                     <div class="pipeline-details-section" id="pipelineDetails">
                         <div class="empty-state">点击上方状态查看详情</div>
                     </div>
                 </div>
 
-                <!-- 话题分布卡片 -->
+                <!-- Charts -->
                 <div class="card">
                     <div class="card-header">
                         <h2>🎯 话题分布</h2>
                     </div>
-                    <div class="chart-container">
-                        <canvas id="topicDistChart"></canvas>
-                    </div>
+                    <div class="chart-container"><canvas id="topicDistChart"></canvas></div>
                 </div>
-
-                <!-- 周产出趋势卡片 -->
                 <div class="card">
                     <div class="card-header">
                         <h2>📅 周产出趋势</h2>
                     </div>
-                    <div class="chart-container">
-                        <canvas id="weeklyOutputChart"></canvas>
-                    </div>
+                    <div class="chart-container"><canvas id="weeklyOutputChart"></canvas></div>
                 </div>
-
-                <!-- 最近发布列表 -->
                 <div class="card card-wide">
                     <div class="card-header">
                         <h2>📰 最近发布</h2>
                     </div>
-                    <div class="recent-published-list" id="recentPublishedList">
-                        <div class="empty-state">加载中...</div>
-                    </div>
+                    <div class="recent-published-list" id="recentPublishedList"></div>
                 </div>
             </div>
         </div>

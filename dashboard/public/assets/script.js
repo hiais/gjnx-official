@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (savedTab) {
         switchTab(savedTab);
     } else {
-        switchTab('overview');
+        switchTab('cockpit');
     }
 
     // 恢复折叠分组状态
@@ -52,18 +52,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // KPI卡片点击事件
-    const alertCard = document.querySelector('.kpi-card.critical');
-    if (alertCard) alertCard.addEventListener('click', () => switchTab('alerts'));
-
-    const queueCard = document.querySelector('.kpi-card.warning');
-    if (queueCard) queueCard.addEventListener('click', () => switchTab('overview'));
-
-    const successCard = document.querySelector('.kpi-card.info');
-    if (successCard) successCard.addEventListener('click', () => switchTab('performance'));
-
-    const costCard = document.querySelector('.kpi-card.cost');
-    if (costCard) costCard.addEventListener('click', () => switchTab('cost'));
+    // KPI卡片点击事件 (Mapping old event listeners might fail if elements don't exist, remove if not needed or update)
+    // Removed old KPI listeners as structure changed significantly
 });
 
 // 设置筛选器
@@ -143,44 +133,18 @@ function updateDashboard(data) {
         statusBadgeEl.className = 'status-badge status-' + data.health.status;
     }
 
-    // 更新现有组件
-    updateTaskQueue(data.tasks);
-    updatePerformance(data.performance, data.history);
-    updateBusinessMetrics(data.business);
-    updateScheduledTasks(data.scheduled_tasks || []);
-    updateWorkflowPerformance(data.performance);
-    updateLogStats(data.logs);
-
-    // 更新健康问题
-    updateHealthIssues(data.health);
-
-    // 更新错误列表
-    updateErrorList(data.logs.recent_errors || []);
-
-    // 更新告警历史
-    updateAlertList(data.alerts || []);
-
-    // --- Phase 1 & 2 增强功能 ---
+    // Dispatcher
     try {
+        updateCockpit(data);
+        updateActivity(data);
+        updateContentFactory(data);
+
+        // Multi-metric chart (available in Cockpit now)
         if (data.history && data.history.multi_metric_trend) {
             updateMultiMetricChart(data);
         }
-        if (data.performance && data.performance.duration_percentiles) {
-            updatePerformancePercentiles(data);
-        }
-        if (data.comparison) {
-            updateComparison(data);
-        }
-        // Phase 2
-        updateCostAnalysis(data);
-        updateSLAMonitoring(data); // Added SLA monitoring update
-        updateKPIBanner(data); // Added KPI banner update
-        updateContentFactory(data); // Added Content Factory update
-        if (document.getElementById('alertConfigPanel') && document.getElementById('alertConfigPanel').style.display !== 'none') {
-            loadAlertRulesConfig();
-        }
     } catch (e) {
-        console.error('更新增强卡片失败:', e);
+        console.error('Core update failed:', e);
     }
 
     // 检查新告警
@@ -1447,3 +1411,259 @@ window.addEventListener('beforeunload', () => {
     if (histogramChart) histogramChart.destroy();
     if (costChart) costChart.destroy();
 });
+
+// --- Consolidated Views Logic ---
+
+function updateSystemHealth(data) {
+    // 1. Vital Signs
+    const metrics = data.performance || {};
+    const health = data.health || {};
+    const logs = data.logs || {};
+
+    // Success Rate
+    setText('sysSuccessRate', metrics.success_rate || '0%');
+
+    // Avg Duration (convert s to m if needed, simpler logic)
+    const avg = metrics.avg_duration_all || 0;
+    const p95 = (metrics.duration_percentiles && metrics.duration_percentiles['all'] && metrics.duration_percentiles['all'].p95) || 0;
+    setText('sysAvgDuration', avg.toFixed(1) + 'm');
+    setText('sysP95', p95 + 'm');
+
+    // Error Rate
+    const errCount = logs.total_errors || 0;
+    const total = logs.total_count || 1;
+    const errRate = ((errCount / total) * 100).toFixed(1) + '%';
+    setText('sysErrorRate', errRate);
+    setText('sysErrorCount', errCount);
+
+    // 2. Alerts & Errors Lists
+    const errors = logs.recent_errors || [];
+    renderErrorListSimplified('sysErrorList', errors);
+
+    const alerts = data.alerts || [];
+    renderAlertListSimplified('sysAlertList', alerts);
+    setText('activeAlertsBadge', (errors.length + alerts.length) || 0);
+
+    // 3. SLA Simple List
+    const sla = data.sla_monitoring || {};
+    renderSLASimple('slaSimpleList', sla);
+}
+
+function updateResourcesSimplified(data) {
+    const cost = data.cost_analysis || {};
+    const period = currentCostPeriod;
+    const isToday = period === 'today';
+
+    // 1. Budget Gauge
+    const limit = cost.daily_budget || 100;
+    const current = isToday ? (cost.today_total_cost || 0) : (cost.week_total_cost || 0);
+    const displayLimit = isToday ? limit : (limit * 7);
+
+    setText('resTodayCost', '¥' + current.toFixed(2));
+    setText('resDailyLimit', displayLimit);
+
+    const pct = Math.min(100, Math.max(0, (current / displayLimit) * 100));
+    const bar = document.getElementById('resBudgetBar');
+    if (bar) {
+        bar.style.width = pct + '%';
+        bar.className = 'budget-progress-fill ' + (pct > 90 ? 'critical' : pct > 75 ? 'warning' : 'success');
+        if (pct > 90) bar.style.backgroundColor = '#ef4444';
+        else if (pct > 75) bar.style.backgroundColor = '#f59e0b';
+        else bar.style.backgroundColor = '#10b981';
+    }
+
+    const statusText = pct > 100 ? '严重超支' : pct > 90 ? '即将耗尽' : pct > 75 ? '使用较高' : '预算充足';
+    setText('resBudgetStatus', '状态: ' + statusText);
+
+    // Token Secondary
+    const tokens = isToday ? (cost.today_token_usage || 0) : (cost.week_token_usage || 0);
+    setText('resTodayTokens', formatNumber(tokens));
+
+    // 2. Top Consumption List
+    const list = isToday ? (cost.by_workflow_today_formatted || []) : (cost.by_workflow_week_formatted || []);
+    const topList = list.sort((a, b) => b.cost - a.cost).slice(0, 5);
+    const listContainer = document.getElementById('costTopList');
+
+    if (listContainer) {
+        if (topList.length === 0) listContainer.innerHTML = '<div class="empty-state">暂无数据</div>';
+        else {
+            listContainer.innerHTML = topList.map((item, idx) => `
+                <div class="cost-top-item">
+                     <div class="cost-idx">${idx + 1}</div>
+                     <div class="cost-name">${item.workflow}</div>
+                     <div class="cost-val">¥${item.cost.toFixed(2)}</div>
+                </div>
+            `).join('');
+        }
+    }
+}
+
+// Helper: Tab switcher for Alerts section
+window.switchAlertSubTab = function (subTab) {
+    // Buttons
+    document.querySelectorAll('.alert-tab').forEach(b => b.classList.remove('active'));
+    event.target.classList.add('active');
+
+    // Content
+    document.querySelectorAll('.alert-sub-content').forEach(c => c.style.display = 'none');
+    document.getElementById('alertSubTab-' + subTab).style.display = 'block';
+};
+
+// Helper: Renderers
+function renderErrorListSimplified(id, items) {
+    const el = document.getElementById(id);
+    if (!el) return;
+    if (!items || items.length === 0) {
+        el.innerHTML = '<div class="empty-state">运行平稳，无最近错误</div>';
+        return;
+    }
+    el.innerHTML = items.map(err => `
+        <div class="error-item">
+            <strong>${err.time.split('T')[1].split('.')[0]} - ${err.workflow}</strong>
+            <small>${err.message}</small>
+        </div>
+    `).join('');
+}
+
+function renderAlertListSimplified(id, items) {
+    const el = document.getElementById(id);
+    if (!el) return;
+    if (!items || items.length === 0) {
+        el.innerHTML = '<div class="empty-state">历史记录清洁</div>';
+        return;
+    }
+    el.innerHTML = items.map(a => `
+        <div class="alert-item">
+             <strong>${a.title}</strong>
+             <small>${a.time}</small>
+        </div>
+    `).join('');
+}
+
+function renderSLASimple(id, sla) {
+    const el = document.getElementById(id);
+    if (!el || !sla) return;
+
+    if (!sla.violations || sla.violations.length === 0) {
+        el.innerHTML = `
+            <div style="text-align:center; padding: 1rem; color: #10b981;">
+                <h3>✨ 100% 达标</h3>
+                <small>今日无 SLA 违规记录</small>
+            </div>
+        `;
+    } else {
+        el.innerHTML = sla.violations.slice(0, 3).map(v => `
+            <div class="health-issue">
+                <strong>SLA 违规: ${v.workflow}</strong>
+                <div>耗时 ${v.duration}s (标准 < ${v.threshold}s)</div>
+            </div>
+        `).join('') + (sla.violations.length > 3 ? `<div style="text-align:center; font-size:0.8rem;">...等 ${sla.violations.length} 项</div>` : '');
+    }
+}
+
+function setText(id, text) {
+    const el = document.getElementById(id);
+    if (el) el.textContent = text;
+}
+
+// --- V3.3 Cockpit & Activity Logic ---
+
+function updateCockpit(data) {
+    const health = data.health || { score: 0, status: 'unknown' };
+    const perf = data.performance || {};
+    const business = data.business || {};
+    const cost = data.cost_analysis || {};
+    const logs = data.logs || {};
+    const alerts = data.alerts || [];
+    const tasks = data.tasks || {};
+
+    // 1. Health Hero
+    setText('cockpitHealthScore', health.score);
+    setText('cockpitStatusBadge', health.status === 'healthy' ? '✅ System Healthy' : (health.status === 'warning' ? '⚠️ Warning' : '🔴 Critical'));
+
+    // Summary Text Logic
+    const summary = [];
+    if (health.score === 100) summary.push('系统运行完美，所有指标均在最佳范围内。');
+    else if (health.score >= 90) summary.push('系统运行良好，各项指标正常。');
+    else summary.push('系统存在部分异常，请关注告警信息。');
+
+    if (tasks.pending > 5) summary.push(`积压任务 ${tasks.pending} 个。`);
+    if (logs.recent_errors && logs.recent_errors.length > 0) summary.push(`最近 ${logs.recent_errors.length} 个错误。`);
+
+    setText('cockpitHealthSummary', summary.join(' '));
+
+    // 2. Active Alert Box
+    const alertBox = document.getElementById('cockpitAlertBox');
+    if (alertBox) {
+        if (alerts.length > 0 || (logs.recent_errors && logs.recent_errors.length > 0)) {
+            const count = alerts.length + (logs.recent_errors ? logs.recent_errors.length : 0);
+            alertBox.className = 'alert-box has-alert';
+            alertBox.innerHTML = `
+                <div class="alert-icon">🚨</div>
+                <div class="alert-info">
+                    <strong>发现 ${count} 个活跃异常</strong>
+                    <small>请立即检查系统动态或执行维护</small>
+                </div>
+            `;
+        } else {
+            alertBox.className = 'alert-box';
+            alertBox.innerHTML = `
+                <div class="alert-icon">🟢</div>
+                <div class="alert-info">
+                    <strong>当前无活跃告警</strong>
+                    <small>系统运行平稳，各项监测正常</small>
+                </div>
+            `;
+        }
+    }
+
+    // 3. KPI Grid (The Dashboard Pulse)
+
+    // Op: Output & QC
+    setText('kpiOpsOutput', (business.articles_today || 0) + ' 篇');
+    setText('kpiOpsQC', (business.qc_pass_rate || '0%'));
+
+    // Perf: Duration & Success
+    const avg = perf.avg_duration_all || 0;
+    setText('kpiPerfDuration', avg.toFixed(1) + 'm');
+    setText('kpiPerfSuccess', (perf.success_rate || '0%'));
+
+    // Res: Token & Cost
+    const todayTokens = cost.today_token_usage || 0;
+    const todayCost = cost.today_total_cost || 0;
+    setText('kpiResTokens', formatNumber(todayTokens));
+    setText('kpiResCost', '¥' + todayCost.toFixed(2));
+
+    // Stab: Queue & Errors
+    setText('kpiStabQueue', (tasks.pending || 0));
+    setText('kpiStabErrors', (logs.total_errors || 0));
+}
+
+function updateActivity(data) {
+    // 1. Task Queue (Reusing existing logic logic but scoped)
+    updateTaskQueue(data.tasks);
+
+    // 2. Scheduled Tasks
+    updateScheduledTasks(data.scheduled_tasks || []);
+
+    // 3. Recent Logs (Consolidated Errors)
+    const logs = data.logs || {};
+    const errors = logs.recent_errors || [];
+    renderErrorListSimplified('errorList', errors);
+}
+
+// Re-using simplified renderer from previous step
+function renderErrorListSimplified(id, items) {
+    const el = document.getElementById(id);
+    if (!el) return;
+    if (!items || items.length === 0) {
+        el.innerHTML = '<div class="empty-state">日志流清洁 (Log Stream Clean)</div>';
+        return;
+    }
+    el.innerHTML = items.map(err => `
+        <div class="error-item">
+            <strong>${err.time.split('T')[1].split('.')[0]} - ${err.workflow}</strong>
+            <small>${err.message}</small>
+        </div>
+    `).join('');
+}

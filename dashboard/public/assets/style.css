@@ -1627,3 +1627,401 @@ body {
     color: var(--text-light);
     margin-top: 0.2rem;
 }
+
+
+/* --- System Health Simplified --- */
+
+.vital-signs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.vital-card {
+    background: var(--bg);
+    border-radius: 12px;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: transform 0.2s;
+}
+
+.vital-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px var(--shadow);
+}
+
+.vital-icon {
+    font-size: 2.5rem;
+    line-height: 1;
+}
+
+.vital-data {
+    display: flex;
+    flex-direction: column;
+}
+
+.vital-label {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    margin-bottom: 0.25rem;
+}
+
+.vital-value {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--text);
+    line-height: 1.2;
+}
+
+.vital-trend {
+    font-size: 0.8rem;
+    color: var(--text-light);
+}
+
+.metric-selector-mini {
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+    font-size: 0.8rem;
+    background: var(--bg);
+}
+
+/* Alert Tabs Simplified */
+.alert-tabs {
+    display: flex;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 1rem;
+}
+
+.alert-tab {
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    font-weight: 500;
+    color: var(--text-light);
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s;
+}
+
+.alert-tab:hover {
+    color: var(--primary);
+}
+
+.alert-tab.active {
+    color: var(--primary);
+    border-bottom-color: var(--primary);
+}
+
+/* --- Resources Simplified --- */
+
+.budget-gauge-container {
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.budget-main-val {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+.budget-main-val small {
+    font-size: 1rem;
+    color: var(--text-light);
+    font-weight: 400;
+}
+
+.budget-progress-bg {
+    width: 100%;
+    height: 12px;
+    background: #e5e7eb;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 0.75rem;
+}
+
+.budget-progress-fill {
+    height: 100%;
+    background: var(--success);
+    transition: width 0.5s ease-out;
+}
+
+.budget-status-text {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.token-secondary-stats {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+    font-size: 0.9rem;
+}
+
+.cost-top-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.cost-top-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem;
+    background: var(--bg);
+    border-radius: 8px;
+}
+
+.cost-idx {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #e5e7eb;
+    color: var(--text-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-right: 0.75rem;
+}
+
+.cost-top-item:nth-child(1) .cost-idx {
+    background: #fee2e2;
+    color: #ef4444;
+}
+
+.cost-top-item:nth-child(2) .cost-idx {
+    background: #ffedd5;
+    color: #f97316;
+}
+
+.cost-top-item:nth-child(3) .cost-idx {
+    background: #fef3c7;
+    color: #d97706;
+}
+
+.cost-name {
+    flex: 1;
+    font-weight: 500;
+}
+
+.cost-val {
+    font-weight: bold;
+}
+
+.period-btn-mini {
+    padding: 0.25rem 0.6rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    background: var(--card-bg);
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+
+.period-btn-mini.active {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+}
+
+/* --- V3.3 Cockpit Redesign --- */
+
+/* Health Hero Section */
+.health-hero-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 900px) {
+    .health-hero-section {
+        grid-template-columns: 1fr;
+    }
+}
+
+.health-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.health-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.health-header h2 {
+    color: white;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.status-pill {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.health-main {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.score-circle {
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.score-circle small {
+    font-size: 1.2rem;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+.health-summary {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    opacity: 0.9;
+    flex: 1;
+}
+
+/* O&M Controls */
+.om-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.alert-box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background: var(--bg);
+    border-radius: 8px;
+    border-left: 4px solid var(--success);
+}
+
+.alert-box.has-alert {
+    border-left-color: var(--error);
+    background: #fef2f2;
+}
+
+.alert-icon {
+    font-size: 2rem;
+}
+
+.alert-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.action-buttons .btn {
+    flex: 1;
+    justify-content: center;
+}
+
+/* KPI Grid 4 */
+.kpi-grid-4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+}
+
+.kpi-card-detailed {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.25rem;
+}
+
+.kpi-icon-wrapper {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.kpi-icon-wrapper.op {
+    background: #e0f2fe;
+    color: #0284c7;
+}
+
+.kpi-icon-wrapper.perf {
+    background: #f3e8ff;
+    color: #7c3aed;
+}
+
+.kpi-icon-wrapper.res {
+    background: #ffedd5;
+    color: #ea580c;
+}
+
+.kpi-icon-wrapper.stab {
+    background: #fee2e2;
+    color: #dc2626;
+}
+
+.kpi-data-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.kpi-title {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    margin-bottom: 0.25rem;
+}
+
+.kpi-main-val {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 0.25rem;
+}
+
+.kpi-sub-text {
+    font-size: 0.8rem;
+    color: var(--text-light);
+}
+
+.kpi-sub-text strong {
+    color: var(--text);
+}
+
+.section-title {
+    margin: 1.5rem 0 1rem;
+    font-size: 1.1rem;
+    color: var(--text-light);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding-left: 0.5rem;
+    border-left: 4px solid var(--primary);
+}
