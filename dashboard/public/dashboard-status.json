@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-01 06:00:08",
+  "timestamp": "2026-01-01 06:00:09",
   "health": {
     "score": 100,
     "status": "healthy",
@@ -8,11 +8,6 @@
   "tasks": {
     "pending": [],
     "processing": [
-      {
-        "id": "P2_archive_logs_trc-0101060006.processing",
-        "created": "2026-01-01 06:00:06",
-        "age_minutes": 0.0
-      },
       {
         "id": "P2_run_tests_trc-0101060006.processing",
         "created": "2026-01-01 06:00:06",
@@ -1503,7 +1498,7 @@
     }
   },
   "system": {
-    "last_update": "2026-01-01 06:00:08",
+    "last_update": "2026-01-01 06:00:09",
     "timezone": "China Standard Time"
   },
   "metadata": {
