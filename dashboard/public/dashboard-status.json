@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-01 02:00:31",
+  "timestamp": "2026-01-01 02:24:46",
   "health": {
     "score": 100,
     "status": "healthy",
@@ -8,26 +8,46 @@
   "tasks": {
     "pending": [
       {
+        "id": "P0_check_alerts_trc-0101020929.lock",
+        "priority": "P0",
+        "workflow": "check-alerts",
+        "created": "2026-01-01 02:09:29",
+        "age_minutes": 15.3,
+        "trace_id": "trc-0101020929"
+      },
+      {
         "id": "P0_process_tasks_trc-0101015929.lock",
         "priority": "P0",
         "workflow": "process-tasks",
         "created": "2026-01-01 01:59:29",
-        "age_minutes": 1.0,
+        "age_minutes": 25.3,
         "trace_id": "trc-0101015929"
+      },
+      {
+        "id": "pending_config_val.lock",
+        "priority": "Unknown",
+        "workflow": "validate-config",
+        "created": "2026-01-01 02:03:39",
+        "age_minutes": 21.1,
+        "trace_id": null
       }
     ],
     "processing": [],
     "alerts": []
   },
   "logs": {
-    "total": 0,
+    "total": 10,
     "by_level": {
-      "INFO": 0,
+      "INFO": 10,
       "WARN": 0,
       "ERROR": 0,
       "FATAL": 0
     },
-    "by_workflow": {},
+    "by_workflow": {
+      "scout": 3,
+      "system_optimization": 4,
+      "plan": 3
+    },
     "recent_errors": []
   },
   "performance": {
@@ -35,31 +55,52 @@
     "duration_percentiles": {},
     "token_usage_today": 0,
     "token_usage_week": 88000,
-    "success_count": 0,
+    "success_count": 7,
     "fail_count": 0,
-    "success_rate": 0
+    "success_rate": 100.0
   },
   "cost_analysis": {
     "daily_budget": 100.0,
     "daily_token_budget": 500000,
     "token_price_per_k": 0.1,
-    "today_total_cost": 0,
+    "today_total_cost": 0.0,
     "today_token_usage": 0,
     "week_total_cost": 8.8,
     "week_token_usage": 88000,
     "budget_usage_percent": 0.0,
     "budget_status": "normal",
-    "by_workflow_today": {},
-    "by_workflow_week": {
+    "by_workflow_today": {
       "scout": {
-        "tokens": 5000,
-        "cost": 0.5,
-        "count": 2
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 3
+      },
+      "system_optimization": {
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 4
       },
       "plan": {
         "tokens": 0,
         "cost": 0.0,
-        "count": 2
+        "count": 3
+      }
+    },
+    "by_workflow_week": {
+      "scout": {
+        "tokens": 5000,
+        "cost": 0.5,
+        "count": 5
+      },
+      "system_optimization": {
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 4
+      },
+      "plan": {
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 5
       },
       "write-article": {
         "tokens": 83000,
@@ -92,7 +133,29 @@
         "count": 1
       }
     },
-    "by_workflow_today_formatted": [],
+    "by_workflow_today_formatted": [
+      {
+        "workflow": "scout",
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 3,
+        "percentage": 0
+      },
+      {
+        "workflow": "system_optimization",
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 4,
+        "percentage": 0
+      },
+      {
+        "workflow": "plan",
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 3,
+        "percentage": 0
+      }
+    ],
     "by_workflow_week_formatted": [
       {
         "workflow": "write-article",
@@ -105,14 +168,21 @@
         "workflow": "scout",
         "tokens": 5000,
         "cost": 0.5,
-        "count": 2,
+        "count": 5,
         "percentage": 5.7
+      },
+      {
+        "workflow": "system_optimization",
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 4,
+        "percentage": 0.0
       },
       {
         "workflow": "plan",
         "tokens": 0,
         "cost": 0.0,
-        "count": 2,
+        "count": 5,
         "percentage": 0.0
       },
       {
@@ -316,7 +386,7 @@
         },
         {
           "date": "2026-01-01",
-          "value": 0
+          "value": 100.0
         }
       ],
       "error_rate": [
@@ -346,7 +416,7 @@
         },
         {
           "date": "2026-01-01",
-          "value": 0
+          "value": 0.0
         }
       ],
       "queue_length": [
@@ -419,10 +489,10 @@
       "delta_percent": 0.0
     },
     "success_rate": {
-      "today": 0,
+      "today": 100.0,
       "yesterday": 100.0,
-      "delta": -100.0,
-      "delta_percent": -100.0
+      "delta": 0.0,
+      "delta_percent": 0.0
     },
     "error_count": {
       "today": 0,
@@ -432,12 +502,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-01 02:00:32",
+    "last_update": "2026-01-01 02:24:46",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.02,
+    "duration_seconds": 0.06,
     "has_token_trend": true,
     "errors": []
   }
