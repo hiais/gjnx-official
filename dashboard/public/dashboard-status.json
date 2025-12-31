@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-01 00:49:48",
+  "timestamp": "2026-01-01 00:52:49",
   "health": {
     "score": 100,
     "status": "healthy",
@@ -12,7 +12,7 @@
         "priority": "P0",
         "workflow": "check-alerts",
         "created": "2025-12-31 21:00:00",
-        "age_minutes": 229.8,
+        "age_minutes": 232.8,
         "trace_id": "trc-1231210000"
       },
       {
@@ -20,7 +20,7 @@
         "priority": "P0",
         "workflow": "process-tasks",
         "created": "2025-12-31 21:00:45",
-        "age_minutes": 229.1,
+        "age_minutes": 232.1,
         "trace_id": "trc-1231210045"
       },
       {
@@ -28,7 +28,7 @@
         "priority": "P0",
         "workflow": "task-watchdog",
         "created": "2025-12-31 21:00:00",
-        "age_minutes": 229.8,
+        "age_minutes": 232.8,
         "trace_id": "trc-1231210000"
       },
       {
@@ -36,7 +36,7 @@
         "priority": "P2",
         "workflow": "save-all",
         "created": "2025-12-31 23:55:01",
-        "age_minutes": 54.8,
+        "age_minutes": 57.8,
         "trace_id": "trc-1231235501"
       },
       {
@@ -44,7 +44,7 @@
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2025-12-31 22:23:19",
-        "age_minutes": 146.5,
+        "age_minutes": 149.5,
         "trace_id": null
       }
     ],
@@ -464,12 +464,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-01 00:49:48",
+    "last_update": "2026-01-01 00:52:49",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.08,
+    "duration_seconds": 0.02,
     "has_token_trend": true,
     "errors": []
   }
