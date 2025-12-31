@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-01 03:57:23",
+  "timestamp": "2026-01-01 04:09:50",
   "health": {
     "score": 100,
     "status": "healthy",
@@ -12,7 +12,7 @@
         "priority": "P0",
         "workflow": "check-alerts",
         "created": "2026-01-01 02:09:29",
-        "age_minutes": 107.9,
+        "age_minutes": 120.4,
         "trace_id": "trc-0101020929"
       },
       {
@@ -20,7 +20,7 @@
         "priority": "P0",
         "workflow": "process-tasks",
         "created": "2026-01-01 01:59:29",
-        "age_minutes": 117.9,
+        "age_minutes": 130.4,
         "trace_id": "trc-0101015929"
       },
       {
@@ -28,7 +28,7 @@
         "priority": "P0",
         "workflow": "task-watchdog",
         "created": "2026-01-01 02:39:29",
-        "age_minutes": 77.9,
+        "age_minutes": 90.3,
         "trace_id": "trc-0101023929"
       },
       {
@@ -36,7 +36,7 @@
         "priority": "P1",
         "workflow": "daily-config-check",
         "created": "2026-01-01 03:24:30",
-        "age_minutes": 32.9,
+        "age_minutes": 45.3,
         "trace_id": "trc-0101032430"
       },
       {
@@ -44,7 +44,7 @@
         "priority": "P2",
         "workflow": "archive-logs",
         "created": "2026-01-01 03:19:30",
-        "age_minutes": 37.9,
+        "age_minutes": 50.3,
         "trace_id": "trc-0101031930"
       },
       {
@@ -52,7 +52,7 @@
         "priority": "P2",
         "workflow": "refresh-dashboard",
         "created": "2026-01-01 02:39:29",
-        "age_minutes": 77.9,
+        "age_minutes": 90.3,
         "trace_id": "trc-0101023929"
       },
       {
@@ -60,7 +60,7 @@
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-01 02:03:39",
-        "age_minutes": 113.7,
+        "age_minutes": 126.2,
         "trace_id": null
       }
     ],
@@ -1057,49 +1057,63 @@
           "priority": "P0",
           "title": "7500mAh！硅碳负极让 2026 年旗舰机彻底告别充电宝",
           "topic": "5-端侧异变",
-          "date": "2026-01-03"
+          "date": "2026-01-03",
+          "agent": "Writer A",
+          "goal": "💰 电商带货 (7000mAh+手机推荐) + 私域引流 (续航天梯图)"
         },
         {
           "priority": "P1",
           "title": "算力的尽头是发电厂：为何 AMD 与 Nvidia 都在死磕“每瓦性能”？",
           "topic": "2-算力跃迁",
-          "date": "2026-01-04"
+          "date": "2026-01-04",
+          "agent": "Writer B",
+          "goal": "📈 行业深度 (芯片能效分析) + 私域引流 (AI能耗白皮书)"
         },
         {
           "priority": "P1",
           "title": "零下 20 度缩水 40%？2026 冬测揭开电动车\"虚标\"的遮羞布",
           "topic": "4-电力之冠",
-          "date": "2026-01-05"
+          "date": "2026-01-05",
+          "agent": "Writer C",
+          "goal": "📉 避坑指南 (热泵红黑榜) + 知识付费 (冬季用车手册)"
         },
         {
           "priority": "P0",
           "title": "25小时续航！一加15用7300mAh硅碳电池终结了充电焦虑",
           "topic": "5-端侧异变",
-          "date": "2026-01-02"
+          "date": "2026-01-02",
+          "agent": "Writer A",
+          "goal": "💰 电商带货 (7000mAh+手机推荐) + 私域引流 (续航实测数据表)"
         },
         {
           "priority": "P1",
           "title": "34小时续航！AI PC用NPU终结了笔记本\"半天电\"魔咒",
           "topic": "5-端侧异变",
-          "date": "2026-01-03"
+          "date": "2026-01-03",
+          "agent": "Writer A",
+          "goal": "💰 电商带货 (AI PC推荐) + 行业洞察 (NPU能效革命)"
         },
         {
           "priority": "P1",
           "title": "-25°C大考！Polestar 3仅缩水5%，这才是电动车续航的真相",
           "topic": "4-电力之冠",
-          "date": "2026-01-04"
+          "date": "2026-01-04",
+          "agent": "Writer C",
+          "goal": "📈 知识付费 (冬季用车指南) + 痛点追踪 (热泵技术)"
         }
       ],
       "wip": [
         {
           "priority": "WIP",
           "title": "34小时续航！AI PC用NPU终结了笔记本...",
-          "date": "2026-01-03"
+          "date": "2026-01-03",
+          "status": "✍️ 写作中"
         },
         {
           "priority": "WIP",
           "title": "-25°C大考！Polestar 3仅缩水5%，这才是...",
-          "date": "2026-01-04"
+          "date": "2026-01-04",
+          "status": "✍️ 写作中"
         }
       ],
       "published": [
@@ -1515,12 +1529,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-01 03:57:23",
+    "last_update": "2026-01-01 04:09:50",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.05,
+    "duration_seconds": 0.03,
     "has_token_trend": true,
     "errors": []
   }
