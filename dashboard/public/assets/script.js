@@ -1568,6 +1568,7 @@ function setText(id, text) {
 
 // --- V3.3 Cockpit & Activity Logic ---
 
+
 function updateCockpit(data) {
     const health = data.health || { score: 0, status: 'unknown' };
     const perf = data.performance || {};
@@ -1575,7 +1576,7 @@ function updateCockpit(data) {
     const cost = data.cost_analysis || {};
     const logs = data.logs || {};
     const alerts = data.alerts || [];
-    const tasks = data.tasks || {};
+    const tasks = data.tasks || { pending: [], processing: [] };
 
     // 1. Health Hero
     setText('cockpitHealthScore', health.score);
@@ -1587,26 +1588,55 @@ function updateCockpit(data) {
     else if (health.score >= 90) summary.push('系统运行良好，各项指标正常。');
     else summary.push('系统存在部分异常，请关注告警信息。');
 
-    if (tasks.pending > 5) summary.push(`积压任务 ${tasks.pending} 个。`);
+    // Safe count for pending
+    const pendingCount = Array.isArray(tasks.pending) ? tasks.pending.length : (tasks.pending_count || 0);
+
+    if (pendingCount > 5) summary.push(`积压任务 ${pendingCount} 个。`);
     if (logs.recent_errors && logs.recent_errors.length > 0) summary.push(`最近 ${logs.recent_errors.length} 个错误。`);
 
     setText('cockpitHealthSummary', summary.join(' '));
 
-    // 2. Active Alert Box
+    // 2. Alert Box Logic (Refined)
     const alertBox = document.getElementById('cockpitAlertBox');
     if (alertBox) {
-        if (alerts.length > 0 || (logs.recent_errors && logs.recent_errors.length > 0)) {
-            const count = alerts.length + (logs.recent_errors ? logs.recent_errors.length : 0);
+        // Only show RED if there are active P0 alerts or status is critical
+        if (alerts.length > 0 || health.status === 'critical') {
+            const count = alerts.length;
             alertBox.className = 'alert-box has-alert';
             alertBox.innerHTML = `
                 <div class="alert-icon">🚨</div>
                 <div class="alert-info">
-                    <strong>发现 ${count} 个活跃异常</strong>
+                    <strong>发现 ${count} 个活跃告警</strong>
                     <small>请立即检查系统动态或执行维护</small>
                 </div>
             `;
+        } else if (health.status === 'warning' || (logs.recent_errors && logs.recent_errors.length > 0)) {
+            // Yellow state for warnings or recent errors (but system is technically 'healthy' or 'warning')
+            // If score is 100, we force green even if there are recent errors (they are resolved)
+            if (health.score === 100) {
+                alertBox.className = 'alert-box';
+                alertBox.innerHTML = `
+                    <div class="alert-icon">🟢</div>
+                    <div class="alert-info">
+                        <strong>系统运行平稳</strong>
+                        <small>最近异常已解决，当前无活跃告警</small>
+                    </div>
+                `;
+            } else {
+                const count = logs.recent_errors ? logs.recent_errors.length : 0;
+                alertBox.className = 'alert-box'; // Use standard bg but maybe add a warning icon inside
+                alertBox.style.borderLeftColor = '#f59e0b'; // Warning yellow
+                alertBox.innerHTML = `
+                    <div class="alert-icon">⚠️</div>
+                    <div class="alert-info">
+                        <strong>发现 ${count} 个最近异常</strong>
+                        <small>非阻塞性问题，请关注日志</small>
+                    </div>
+                `;
+            }
         } else {
             alertBox.className = 'alert-box';
+            alertBox.style.borderLeftColor = ''; // Reset
             alertBox.innerHTML = `
                 <div class="alert-icon">🟢</div>
                 <div class="alert-info">
@@ -1617,7 +1647,7 @@ function updateCockpit(data) {
         }
     }
 
-    // 3. KPI Grid (The Dashboard Pulse)
+    // 3. KPI Grid
 
     // Op: Output & QC
     setText('kpiOpsOutput', (business.articles_today || 0) + ' 篇');
@@ -1634,8 +1664,8 @@ function updateCockpit(data) {
     setText('kpiResTokens', formatNumber(todayTokens));
     setText('kpiResCost', '¥' + todayCost.toFixed(2));
 
-    // Stab: Queue & Errors
-    setText('kpiStabQueue', (tasks.pending || 0));
+    // Stab: Queue & Errors - FIXED: tasks.pending is an array
+    setText('kpiStabQueue', pendingCount);
     setText('kpiStabErrors', (logs.total_errors || 0));
 }
 
