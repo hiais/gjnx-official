@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-01 03:23:44",
+  "timestamp": "2026-01-01 03:41:29",
   "health": {
     "score": 100,
     "status": "healthy",
@@ -12,7 +12,7 @@
         "priority": "P0",
         "workflow": "check-alerts",
         "created": "2026-01-01 02:09:29",
-        "age_minutes": 74.3,
+        "age_minutes": 92.0,
         "trace_id": "trc-0101020929"
       },
       {
@@ -20,7 +20,7 @@
         "priority": "P0",
         "workflow": "process-tasks",
         "created": "2026-01-01 01:59:29",
-        "age_minutes": 84.3,
+        "age_minutes": 102.0,
         "trace_id": "trc-0101015929"
       },
       {
@@ -28,15 +28,23 @@
         "priority": "P0",
         "workflow": "task-watchdog",
         "created": "2026-01-01 02:39:29",
-        "age_minutes": 44.2,
+        "age_minutes": 62.0,
         "trace_id": "trc-0101023929"
+      },
+      {
+        "id": "P1_daily_config_check_trc-0101032430.lock",
+        "priority": "P1",
+        "workflow": "daily-config-check",
+        "created": "2026-01-01 03:24:30",
+        "age_minutes": 17.0,
+        "trace_id": "trc-0101032430"
       },
       {
         "id": "P2_archive_logs_trc-0101031930.lock",
         "priority": "P2",
         "workflow": "archive-logs",
         "created": "2026-01-01 03:19:30",
-        "age_minutes": 4.2,
+        "age_minutes": 22.0,
         "trace_id": "trc-0101031930"
       },
       {
@@ -44,7 +52,7 @@
         "priority": "P2",
         "workflow": "refresh-dashboard",
         "created": "2026-01-01 02:39:29",
-        "age_minutes": 44.2,
+        "age_minutes": 62.0,
         "trace_id": "trc-0101023929"
       },
       {
@@ -52,7 +60,7 @@
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-01 02:03:39",
-        "age_minutes": 80.1,
+        "age_minutes": 97.8,
         "trace_id": null
       }
     ],
@@ -593,24 +601,7 @@
     "avg_duration": 0,
     "efficiency": 0
   },
-  "alerts": [
-    {
-      "time": "2025-12-28 03:26",
-      "level": "🟡 P1",
-      "rule_id": "P1-001",
-      "reason": "写作耗时 21min (基准 15min)",
-      "action": "在看板标记“性能黄色预警”",
-      "status": "✅ 已记录"
-    },
-    {
-      "time": "2025-12-28 03:26",
-      "level": "🟡 P1",
-      "rule_id": "P1-001",
-      "reason": "平均耗时 21min (> 15min)",
-      "action": "在看板标记“性能黄色预警”",
-      "status": "✅ 已复盘"
-    }
-  ],
+  "alerts": [],
   "history": {
     "token_trend_7d": [
       {
@@ -816,7 +807,7 @@
     }
   },
   "system": {
-    "last_update": "2026-01-01 03:23:44",
+    "last_update": "2026-01-01 03:41:29",
     "timezone": "China Standard Time"
   },
   "metadata": {
