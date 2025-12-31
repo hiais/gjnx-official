@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-01 03:41:29",
+  "timestamp": "2026-01-01 03:50:07",
   "health": {
     "score": 100,
     "status": "healthy",
@@ -12,7 +12,7 @@
         "priority": "P0",
         "workflow": "check-alerts",
         "created": "2026-01-01 02:09:29",
-        "age_minutes": 92.0,
+        "age_minutes": 100.6,
         "trace_id": "trc-0101020929"
       },
       {
@@ -20,7 +20,7 @@
         "priority": "P0",
         "workflow": "process-tasks",
         "created": "2026-01-01 01:59:29",
-        "age_minutes": 102.0,
+        "age_minutes": 110.6,
         "trace_id": "trc-0101015929"
       },
       {
@@ -28,7 +28,7 @@
         "priority": "P0",
         "workflow": "task-watchdog",
         "created": "2026-01-01 02:39:29",
-        "age_minutes": 62.0,
+        "age_minutes": 70.6,
         "trace_id": "trc-0101023929"
       },
       {
@@ -36,7 +36,7 @@
         "priority": "P1",
         "workflow": "daily-config-check",
         "created": "2026-01-01 03:24:30",
-        "age_minutes": 17.0,
+        "age_minutes": 25.6,
         "trace_id": "trc-0101032430"
       },
       {
@@ -44,7 +44,7 @@
         "priority": "P2",
         "workflow": "archive-logs",
         "created": "2026-01-01 03:19:30",
-        "age_minutes": 22.0,
+        "age_minutes": 30.6,
         "trace_id": "trc-0101031930"
       },
       {
@@ -52,7 +52,7 @@
         "priority": "P2",
         "workflow": "refresh-dashboard",
         "created": "2026-01-01 02:39:29",
-        "age_minutes": 62.0,
+        "age_minutes": 70.6,
         "trace_id": "trc-0101023929"
       },
       {
@@ -60,7 +60,7 @@
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-01 02:03:39",
-        "age_minutes": 97.8,
+        "age_minutes": 106.5,
         "trace_id": null
       }
     ],
@@ -80,7 +80,93 @@
       "system_optimization": 4,
       "plan": 3
     },
-    "recent_errors": []
+    "recent_errors": [],
+    "recent_activities": [
+      {
+        "time": "2026-01-01T02:33:21.195+08:00",
+        "level": "INFO",
+        "workflow": "scout",
+        "message": "Scout completed with 3 new topics",
+        "trace_id": "trace-20260101-023033-scout"
+      },
+      {
+        "time": "2026-01-01T02:30:48.858+08:00",
+        "level": "INFO",
+        "workflow": "scout",
+        "message": "Scout workflow started",
+        "trace_id": "trace-20260101-023033-scout"
+      },
+      {
+        "time": "2026-01-01T02:24:46.052+08:00",
+        "level": "INFO",
+        "workflow": "system_optimization",
+        "message": "Real-time dashboard sync enabled",
+        "trace_id": "trace-20260101-022446-system_optimization"
+      },
+      {
+        "time": "2026-01-01T02:24:27.479+08:00",
+        "level": "INFO",
+        "workflow": "system_optimization",
+        "message": "Testing real-time dashboard update trigger",
+        "trace_id": "trace-20260101-022427-system_optimization"
+      },
+      {
+        "time": "2026-01-01T02:21:21.958+08:00",
+        "level": "INFO",
+        "workflow": "plan",
+        "message": "Plan step 2: Agent E logic",
+        "trace_id": "trace-20260101-022044-plan"
+      },
+      {
+        "time": "2026-01-01T02:21:21.453+08:00",
+        "level": "INFO",
+        "workflow": "plan",
+        "message": "Plan step 1: inputs read",
+        "trace_id": "trace-20260101-022044-plan"
+      },
+      {
+        "time": "2026-01-01T02:20:51.315+08:00",
+        "level": "INFO",
+        "workflow": "plan",
+        "message": "Plan workflow started",
+        "trace_id": "trace-20260101-022044-plan"
+      },
+      {
+        "time": "2026-01-01T02:19:59.394+08:00",
+        "level": "INFO",
+        "workflow": "system_optimization",
+        "message": "Verified and optimized log standards",
+        "trace_id": "trace-20260101-021959-system_optimization"
+      },
+      {
+        "time": "2026-01-01T02:17:14.390+08:00",
+        "level": "INFO",
+        "workflow": "system_optimization",
+        "message": "Automation script created and workflow updated",
+        "trace_id": "trace-20260101-021714-system_optimization"
+      },
+      {
+        "time": "2026-01-01T02:20:00+08:00",
+        "level": "INFO",
+        "workflow": "scout",
+        "message": "workflow_end",
+        "trace_id": "trace-20260101-020820-scout"
+      },
+      {
+        "time": "2026-01-01T02:15:00+08:00",
+        "level": "INFO",
+        "workflow": "scout",
+        "message": "workflow_progress",
+        "trace_id": "trace-20260101-020820-scout"
+      },
+      {
+        "time": "2026-01-01T02:08:20+08:00",
+        "level": "INFO",
+        "workflow": "scout",
+        "message": "workflow_start",
+        "trace_id": "trace-20260101-020820-scout"
+      }
+    ]
   },
   "performance": {
     "avg_duration_by_workflow": {},
@@ -596,8 +682,8 @@
   "scheduled_tasks": [],
   "business": {
     "articles_today": 0,
-    "articles_week": 0,
-    "qc_pass_rate": 0,
+    "articles_week": 21,
+    "qc_pass_rate": 66.7,
     "avg_duration": 0,
     "efficiency": 0
   },
@@ -807,12 +893,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-01 03:41:29",
+    "last_update": "2026-01-01 03:50:07",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.02,
+    "duration_seconds": 0.03,
     "has_token_trend": true,
     "errors": []
   }
