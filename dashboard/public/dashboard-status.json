@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-01 06:03:10",
+  "timestamp": "2026-01-01 06:56:10",
   "health": {
     "score": 100,
     "status": "healthy",
@@ -12,7 +12,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 06:00:30",
-        "age_minutes": 2.7,
+        "age_minutes": 55.7,
         "trace_id": "trc-0101060030"
       },
       {
@@ -20,7 +20,7 @@
         "priority": "P2",
         "workflow": "verify-data",
         "created": "2026-01-01 06:00:30",
-        "age_minutes": 2.7,
+        "age_minutes": 55.7,
         "trace_id": "trc-0101060030"
       }
     ],
@@ -28,16 +28,16 @@
     "alerts": []
   },
   "logs": {
-    "total": 226,
+    "total": 286,
     "by_level": {
-      "INFO": 223,
+      "INFO": 283,
       "WARN": 3,
       "ERROR": 0,
       "FATAL": 0,
       "SUCCESS": 0
     },
     "by_workflow": {
-      "daemon": 169,
+      "daemon": 229,
       "verify-data": 1,
       "process-tasks": 26,
       "refresh-dashboard": 8,
@@ -49,6 +49,426 @@
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-01-01T06:56:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:55:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:54:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:53:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:52:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:51:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:50:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:49:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:48:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:47:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 06:47",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:47:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:46:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:45:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:44:41",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon running... (running for 180 seconds, event-driven mode)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:44:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:43:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:42:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:41:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:40:45",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon running... (running for 180 seconds, event-driven mode)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:40:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:39:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:38:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:37:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 06:37",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:37:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:36:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:35:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:34:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:33:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:32:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:31:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:30:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:29:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:28:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:27:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 06:27",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:27:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:26:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:25:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:24:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:23:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:22:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:21:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:20:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:19:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:18:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:17:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 06:17",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:17:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:16:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:15:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:14:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:13:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:12:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:11:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:10:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:09:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:08:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:07:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 06:07",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:07:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:06:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:05:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:04:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-01T06:03:07",
         "level": "INFO",
@@ -327,426 +747,6 @@
         "level": "INFO",
         "workflow": "daemon",
         "message": "Headless Runner: Executing [save-all] -> git add . && git commit -m 'chore(auto): periodic configuration & log backup' && git push",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T06:00:06",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T06:00:06",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [validate-config] -> python scripts/auto_update_dashboard.py",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T05:57:06",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 05:57",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T05:47:06",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 05:47",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T05:44:26",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon running... (running for 120 seconds, event-driven mode)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T05:44:24",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Workflow completed detected: wechat-auto-stats",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T05:43:29",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Workflow completed detected: wechat-auto-stats",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T05:43:05",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [wechat-auto-stats] -> python scripts/wechat_stats_automation.py --mode quick",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T05:40:29",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon running... (running for 120 seconds, event-driven mode)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T05:37:05",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 05:37",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T05:27:05",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 05:27",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T05:18:05",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon V2.6 Started (Wall-Clock Alignment Mode)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T05:18:05",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Project Root: D:\\gjnx",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T05:16:07",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 05:16",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T05:06:07",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 05:06",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T05:00:26",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Workflow completed detected: system-sentinel",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T05:00:22",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Workflow completed detected: system-sentinel",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T05:00:06",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Pulse Alignment: Triggering [system-sentinel] exactly at 05:00",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T05:00:06",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:57:06",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon V2.6 Started (Wall-Clock Alignment Mode)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:57:06",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Project Root: D:\\gjnx",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:54:24",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Workflow completed detected: system-sentinel",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:54:20",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Workflow completed detected: system-sentinel",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:54:13",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon V2.5 Started (Autonomous Execution Mode)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:54:13",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Project Root: D:\\gjnx",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:54:13",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Pulse: Signaling periodic task [system-sentinel]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:54:13",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:53:53",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon V2.5 Started (Autonomous Execution Mode)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:53:53",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Project Root: D:\\gjnx",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:53:53",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Pulse: Signaling periodic task [system-sentinel]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:53:53",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "No automation command for [system]. Skipping headless execution.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:52:40",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Config file loaded successfully: D:\\gjnx\\02_Agent_System\\Config\\workflow-dependencies.json",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:52:40",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "File system watcher started: D:\\gjnx\\.agent\\tasks (Watching for Deleted and Created events)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:52:40",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon started (Event-driven mode - Immersive Creation)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:52:40",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Project root: D:\\gjnx",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:52:40",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Watch directory: D:\\gjnx\\.agent\\tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:52:40",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Mode: All workflows are event-driven, no scheduled tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:52:40",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Pulse: Triggering periodic task [system-sentinel] (Interval: 30 min)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:48:48",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Config file loaded successfully: D:\\gjnx\\02_Agent_System\\Config\\workflow-dependencies.json",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:48:48",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "File system watcher started: D:\\gjnx\\.agent\\tasks (Watching for Deleted and Created events)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:48:48",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon started (Event-driven mode - Immersive Creation)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:48:48",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Project root: D:\\gjnx",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:48:48",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Watch directory: D:\\gjnx\\.agent\\tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:48:48",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Mode: All workflows are event-driven, no scheduled tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:48:48",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Pulse: Triggering periodic task [system-sentinel] (Interval: 30 min)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:44:20",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon running... (running for 60 seconds, event-driven mode)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:44:08",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Config file loaded successfully: D:\\gjnx\\02_Agent_System\\Config\\workflow-dependencies.json",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:44:08",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "File system watcher started: D:\\gjnx\\.agent\\tasks (Watching for Deleted and Created events)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:44:08",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon started (Event-driven mode - Immersive Creation)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:44:08",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Project root: D:\\gjnx",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:44:08",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Watch directory: D:\\gjnx\\.agent\\tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:44:08",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Mode: All workflows are event-driven, no scheduled tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T04:40:24",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon running... (running for 60 seconds, event-driven mode)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:45:19",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Config file loaded successfully: D:\\gjnx\\02_Agent_System\\Config\\workflow-dependencies.json",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:45:19",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "File system watcher started: D:\\gjnx\\.agent\\tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:45:19",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon started (Event-driven mode - Immersive Creation)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:45:19",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Project root: D:\\gjnx",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:45:19",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Watch directory: D:\\gjnx\\.agent\\tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:45:19",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Mode: All workflows are event-driven, no scheduled tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:41:24",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Config file loaded successfully: D:\\gjnx\\02_Agent_System\\Config\\workflow-dependencies.json",
         "trace_id": ""
       }
     ]
@@ -1490,7 +1490,7 @@
     }
   },
   "system": {
-    "last_update": "2026-01-01 06:03:10",
+    "last_update": "2026-01-01 06:56:10",
     "timezone": "China Standard Time"
   },
   "metadata": {
