@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-01 05:02:58",
+  "timestamp": "2026-01-01 06:00:07",
   "health": {
     "score": 100,
     "status": "healthy",
@@ -7,20 +7,46 @@
   },
   "tasks": {
     "pending": [],
-    "processing": [],
+    "processing": [
+      {
+        "id": "P2_archive_logs_trc-0101060006.processing",
+        "created": "2026-01-01 06:00:06",
+        "age_minutes": 0.0
+      },
+      {
+        "id": "P2_run_tests_trc-0101060006.processing",
+        "created": "2026-01-01 06:00:06",
+        "age_minutes": 0.0
+      },
+      {
+        "id": "P2_system_sentinel_trc-0101060006.processing",
+        "created": "2026-01-01 06:00:06",
+        "age_minutes": 0.0
+      },
+      {
+        "id": "P2_validate_config_trc-0101060006.processing",
+        "created": "2026-01-01 06:00:06",
+        "age_minutes": 0.0
+      },
+      {
+        "id": "P2_wechat_auto_stats_trc-0101060006.processing",
+        "created": "2026-01-01 06:00:06",
+        "age_minutes": 0.0
+      }
+    ],
     "alerts": []
   },
   "logs": {
-    "total": 171,
+    "total": 196,
     "by_level": {
-      "INFO": 171,
+      "INFO": 196,
       "WARN": 0,
       "ERROR": 0,
       "FATAL": 0,
       "SUCCESS": 0
     },
     "by_workflow": {
-      "daemon": 117,
+      "daemon": 142,
       "check-alerts": 6,
       "refresh-dashboard": 7,
       "task-watchdog": 4,
@@ -31,6 +57,181 @@
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-01-01T06:00:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [wechat-auto-stats] -> python scripts/wechat_stats_automation.py --mode quick --headless false",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:06",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Pulse Alignment: Triggering [system-sentinel] exactly at 06:00",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:06",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daily Pulse: Triggering [archive-logs] (Once per day)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:06",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Pulse Alignment: Triggering [save-all] exactly at 06:00",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:06",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Pulse Alignment: Triggering [wechat-auto-stats] exactly at 06:00",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:06",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Pulse Alignment: Triggering [validate-config] exactly at 06:00",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:06",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Pulse Alignment: Triggering [run-tests] exactly at 06:00",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:06",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [archive-logs] -> python scripts/auto_update_dashboard.py --archive",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:06",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [run-tests] -> powershell -ExecutionPolicy Bypass -File scripts/test-workflow-automation.ps1",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:06",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [save-all] -> git add . && git commit -m 'chore(auto): periodic configuration & log backup' && git push",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:06",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:06",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [validate-config] -> python scripts/auto_update_dashboard.py",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T05:57:06",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 05:57",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T05:47:06",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 05:47",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T05:44:26",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon running... (running for 120 seconds, event-driven mode)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T05:44:24",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Workflow completed detected: wechat-auto-stats",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T05:43:29",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Workflow completed detected: wechat-auto-stats",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T05:43:05",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [wechat-auto-stats] -> python scripts/wechat_stats_automation.py --mode quick",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T05:40:29",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon running... (running for 120 seconds, event-driven mode)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T05:37:05",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 05:37",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T05:27:05",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 05:27",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T05:18:05",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon V2.6 Started (Wall-Clock Alignment Mode)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T05:18:05",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Project Root: D:\\gjnx",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T05:16:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 05:16",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T05:06:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 05:06",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-01T05:00:26",
         "level": "INFO",
@@ -551,181 +752,6 @@
       },
       {
         "time": "2026-01-01T03:14:30",
-        "level": "INFO",
-        "workflow": "process-tasks",
-        "message": "Successfully triggered periodic task: process-tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:09:30",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: check-alerts (interval: 30 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:09:30",
-        "level": "INFO",
-        "workflow": "check-alerts",
-        "message": "Successfully triggered periodic task: check-alerts",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:09:30",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:09:30",
-        "level": "INFO",
-        "workflow": "process-tasks",
-        "message": "Successfully triggered periodic task: process-tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:04:30",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:04:30",
-        "level": "INFO",
-        "workflow": "process-tasks",
-        "message": "Successfully triggered periodic task: process-tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:59:30",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:59:30",
-        "level": "INFO",
-        "workflow": "process-tasks",
-        "message": "Successfully triggered periodic task: process-tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:54:30",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:54:30",
-        "level": "INFO",
-        "workflow": "process-tasks",
-        "message": "Successfully triggered periodic task: process-tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:49:30",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:49:30",
-        "level": "INFO",
-        "workflow": "process-tasks",
-        "message": "Successfully triggered periodic task: process-tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:44:30",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:44:30",
-        "level": "INFO",
-        "workflow": "process-tasks",
-        "message": "Successfully triggered periodic task: process-tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:39:29",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: check-alerts (interval: 30 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:39:29",
-        "level": "INFO",
-        "workflow": "check-alerts",
-        "message": "Successfully triggered periodic task: check-alerts",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:39:29",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: refresh-dashboard (interval: 60 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:39:29",
-        "level": "INFO",
-        "workflow": "refresh-dashboard",
-        "message": "Successfully triggered periodic task: refresh-dashboard",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:39:29",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: task-watchdog (interval: 60 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:39:29",
-        "level": "INFO",
-        "workflow": "task-watchdog",
-        "message": "Successfully triggered periodic task: task-watchdog",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:39:29",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:39:29",
-        "level": "INFO",
-        "workflow": "process-tasks",
-        "message": "Successfully triggered periodic task: process-tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:38:29",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon running... (running for 60 seconds)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:34:29",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:34:29",
         "level": "INFO",
         "workflow": "process-tasks",
         "message": "Successfully triggered periodic task: process-tasks",
@@ -1472,12 +1498,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-01 05:02:58",
+    "last_update": "2026-01-01 06:00:07",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.03,
+    "duration_seconds": 0.04,
     "has_token_trend": true,
     "errors": []
   }
