@@ -1,83 +1,26 @@
 {
-  "timestamp": "2026-01-01 04:12:01",
+  "timestamp": "2026-01-01 05:02:58",
   "health": {
     "score": 100,
     "status": "healthy",
     "issues": []
   },
   "tasks": {
-    "pending": [
-      {
-        "id": "P0_check_alerts_trc-0101020929.lock",
-        "priority": "P0",
-        "workflow": "check-alerts",
-        "created": "2026-01-01 02:09:29",
-        "age_minutes": 122.5,
-        "trace_id": "trc-0101020929"
-      },
-      {
-        "id": "P0_process_tasks_trc-0101015929.lock",
-        "priority": "P0",
-        "workflow": "process-tasks",
-        "created": "2026-01-01 01:59:29",
-        "age_minutes": 132.5,
-        "trace_id": "trc-0101015929"
-      },
-      {
-        "id": "P0_task_watchdog_trc-0101023929.lock",
-        "priority": "P0",
-        "workflow": "task-watchdog",
-        "created": "2026-01-01 02:39:29",
-        "age_minutes": 92.5,
-        "trace_id": "trc-0101023929"
-      },
-      {
-        "id": "P1_daily_config_check_trc-0101032430.lock",
-        "priority": "P1",
-        "workflow": "daily-config-check",
-        "created": "2026-01-01 03:24:30",
-        "age_minutes": 47.5,
-        "trace_id": "trc-0101032430"
-      },
-      {
-        "id": "P2_archive_logs_trc-0101031930.lock",
-        "priority": "P2",
-        "workflow": "archive-logs",
-        "created": "2026-01-01 03:19:30",
-        "age_minutes": 52.5,
-        "trace_id": "trc-0101031930"
-      },
-      {
-        "id": "P2_refresh_dashboard_trc-0101023929.lock",
-        "priority": "P2",
-        "workflow": "refresh-dashboard",
-        "created": "2026-01-01 02:39:29",
-        "age_minutes": 92.5,
-        "trace_id": "trc-0101023929"
-      },
-      {
-        "id": "pending_config_val.lock",
-        "priority": "Unknown",
-        "workflow": "validate-config",
-        "created": "2026-01-01 02:03:39",
-        "age_minutes": 128.4,
-        "trace_id": null
-      }
-    ],
+    "pending": [],
     "processing": [],
     "alerts": []
   },
   "logs": {
-    "total": 133,
+    "total": 171,
     "by_level": {
-      "INFO": 133,
+      "INFO": 171,
       "WARN": 0,
       "ERROR": 0,
       "FATAL": 0,
       "SUCCESS": 0
     },
     "by_workflow": {
-      "daemon": 79,
+      "daemon": 117,
       "check-alerts": 6,
       "refresh-dashboard": 7,
       "task-watchdog": 4,
@@ -88,6 +31,272 @@
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-01-01T05:00:26",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Workflow completed detected: system-sentinel",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T05:00:22",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Workflow completed detected: system-sentinel",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T05:00:06",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Pulse Alignment: Triggering [system-sentinel] exactly at 05:00",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T05:00:06",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:57:06",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon V2.6 Started (Wall-Clock Alignment Mode)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:57:06",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Project Root: D:\\gjnx",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:54:24",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Workflow completed detected: system-sentinel",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:54:20",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Workflow completed detected: system-sentinel",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:54:13",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon V2.5 Started (Autonomous Execution Mode)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:54:13",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Project Root: D:\\gjnx",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:54:13",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Pulse: Signaling periodic task [system-sentinel]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:54:13",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:53:53",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon V2.5 Started (Autonomous Execution Mode)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:53:53",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Project Root: D:\\gjnx",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:53:53",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Pulse: Signaling periodic task [system-sentinel]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:53:53",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [system]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:52:40",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Config file loaded successfully: D:\\gjnx\\02_Agent_System\\Config\\workflow-dependencies.json",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:52:40",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "File system watcher started: D:\\gjnx\\.agent\\tasks (Watching for Deleted and Created events)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:52:40",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon started (Event-driven mode - Immersive Creation)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:52:40",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Project root: D:\\gjnx",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:52:40",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Watch directory: D:\\gjnx\\.agent\\tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:52:40",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Mode: All workflows are event-driven, no scheduled tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:52:40",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Pulse: Triggering periodic task [system-sentinel] (Interval: 30 min)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:48:48",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Config file loaded successfully: D:\\gjnx\\02_Agent_System\\Config\\workflow-dependencies.json",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:48:48",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "File system watcher started: D:\\gjnx\\.agent\\tasks (Watching for Deleted and Created events)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:48:48",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon started (Event-driven mode - Immersive Creation)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:48:48",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Project root: D:\\gjnx",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:48:48",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Watch directory: D:\\gjnx\\.agent\\tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:48:48",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Mode: All workflows are event-driven, no scheduled tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:48:48",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Pulse: Triggering periodic task [system-sentinel] (Interval: 30 min)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:44:20",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon running... (running for 60 seconds, event-driven mode)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:44:08",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Config file loaded successfully: D:\\gjnx\\02_Agent_System\\Config\\workflow-dependencies.json",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:44:08",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "File system watcher started: D:\\gjnx\\.agent\\tasks (Watching for Deleted and Created events)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:44:08",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon started (Event-driven mode - Immersive Creation)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:44:08",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Project root: D:\\gjnx",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:44:08",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Watch directory: D:\\gjnx\\.agent\\tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:44:08",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Mode: All workflows are event-driven, no scheduled tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T04:40:24",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon running... (running for 60 seconds, event-driven mode)",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-01T03:45:19",
         "level": "INFO",
@@ -520,272 +729,6 @@
         "level": "INFO",
         "workflow": "process-tasks",
         "message": "Successfully triggered periodic task: process-tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:33:21.195+08:00",
-        "level": "INFO",
-        "workflow": "scout",
-        "message": "Scout completed with 3 new topics",
-        "trace_id": "trace-20260101-023033-scout"
-      },
-      {
-        "time": "2026-01-01T02:30:48.858+08:00",
-        "level": "INFO",
-        "workflow": "scout",
-        "message": "Scout workflow started",
-        "trace_id": "trace-20260101-023033-scout"
-      },
-      {
-        "time": "2026-01-01T02:29:29",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:29:29",
-        "level": "INFO",
-        "workflow": "process-tasks",
-        "message": "Successfully triggered periodic task: process-tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:24:46.052+08:00",
-        "level": "INFO",
-        "workflow": "system_optimization",
-        "message": "Real-time dashboard sync enabled",
-        "trace_id": "trace-20260101-022446-system_optimization"
-      },
-      {
-        "time": "2026-01-01T02:24:29",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:24:29",
-        "level": "INFO",
-        "workflow": "process-tasks",
-        "message": "Successfully triggered periodic task: process-tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:24:27.479+08:00",
-        "level": "INFO",
-        "workflow": "system_optimization",
-        "message": "Testing real-time dashboard update trigger",
-        "trace_id": "trace-20260101-022427-system_optimization"
-      },
-      {
-        "time": "2026-01-01T02:21:21.958+08:00",
-        "level": "INFO",
-        "workflow": "plan",
-        "message": "Plan step 2: Agent E logic",
-        "trace_id": "trace-20260101-022044-plan"
-      },
-      {
-        "time": "2026-01-01T02:21:21.453+08:00",
-        "level": "INFO",
-        "workflow": "plan",
-        "message": "Plan step 1: inputs read",
-        "trace_id": "trace-20260101-022044-plan"
-      },
-      {
-        "time": "2026-01-01T02:20:51.315+08:00",
-        "level": "INFO",
-        "workflow": "plan",
-        "message": "Plan workflow started",
-        "trace_id": "trace-20260101-022044-plan"
-      },
-      {
-        "time": "2026-01-01T02:20:00+08:00",
-        "level": "INFO",
-        "workflow": "scout",
-        "message": "workflow_end",
-        "trace_id": "trace-20260101-020820-scout"
-      },
-      {
-        "time": "2026-01-01T02:19:59.394+08:00",
-        "level": "INFO",
-        "workflow": "system_optimization",
-        "message": "Verified and optimized log standards",
-        "trace_id": "trace-20260101-021959-system_optimization"
-      },
-      {
-        "time": "2026-01-01T02:19:29",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:19:29",
-        "level": "INFO",
-        "workflow": "process-tasks",
-        "message": "Successfully triggered periodic task: process-tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:17:14.390+08:00",
-        "level": "INFO",
-        "workflow": "system_optimization",
-        "message": "Automation script created and workflow updated",
-        "trace_id": "trace-20260101-021714-system_optimization"
-      },
-      {
-        "time": "2026-01-01T02:15:00+08:00",
-        "level": "INFO",
-        "workflow": "scout",
-        "message": "workflow_progress",
-        "trace_id": "trace-20260101-020820-scout"
-      },
-      {
-        "time": "2026-01-01T02:14:29",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:14:29",
-        "level": "INFO",
-        "workflow": "process-tasks",
-        "message": "Successfully triggered periodic task: process-tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:09:29",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: check-alerts (interval: 30 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:09:29",
-        "level": "INFO",
-        "workflow": "check-alerts",
-        "message": "Successfully triggered periodic task: check-alerts",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:09:29",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:09:29",
-        "level": "INFO",
-        "workflow": "process-tasks",
-        "message": "Successfully triggered periodic task: process-tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:08:20+08:00",
-        "level": "INFO",
-        "workflow": "scout",
-        "message": "workflow_start",
-        "trace_id": "trace-20260101-020820-scout"
-      },
-      {
-        "time": "2026-01-01T02:04:29",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T02:04:29",
-        "level": "INFO",
-        "workflow": "process-tasks",
-        "message": "Successfully triggered periodic task: process-tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T01:59:29",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T01:59:29",
-        "level": "INFO",
-        "workflow": "process-tasks",
-        "message": "Successfully triggered periodic task: process-tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T01:54:29",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T01:54:29",
-        "level": "INFO",
-        "workflow": "process-tasks",
-        "message": "Successfully triggered periodic task: process-tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T01:52:29",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Chain trigger: refresh-dashboard (triggered by write-article completion)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T01:52:29",
-        "level": "INFO",
-        "workflow": "refresh-dashboard",
-        "message": "Successfully triggered workflow: refresh-dashboard",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T01:52:27",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Workflow completed detected: write-article",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T01:49:27",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T01:49:27",
-        "level": "INFO",
-        "workflow": "process-tasks",
-        "message": "Successfully triggered periodic task: process-tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T01:44:27",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T01:44:27",
-        "level": "INFO",
-        "workflow": "process-tasks",
-        "message": "Successfully triggered periodic task: process-tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T01:39:27",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Config file loaded successfully: D:\\gjnx\\02_Agent_System\\Config\\workflow-dependencies.json",
         "trace_id": ""
       }
     ]
@@ -1529,7 +1472,7 @@
     }
   },
   "system": {
-    "last_update": "2026-01-01 04:12:01",
+    "last_update": "2026-01-01 05:02:58",
     "timezone": "China Standard Time"
   },
   "metadata": {
