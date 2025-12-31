@@ -2,9 +2,9 @@
     "comparison":  {
                        "success_rate":  {
                                             "today":  100,
-                                            "delta":  8,
-                                            "yesterday":  92,
-                                            "delta_percent":  8
+                                            "delta":  4.2,
+                                            "yesterday":  95.8,
+                                            "delta_percent":  4.2
                                         },
                        "token_usage":  {
                                            "today":  0,
@@ -14,8 +14,8 @@
                                        },
                        "error_count":  {
                                            "today":  0,
-                                           "delta":  -2,
-                                           "yesterday":  2,
+                                           "delta":  -1,
+                                           "yesterday":  1,
                                            "delta_percent":  -100
                                        }
                    },
@@ -32,7 +32,7 @@
                                                  },
                         "token_usage_today":  0
                     },
-    "timestamp":  "2025-12-31 22:00:07",
+    "timestamp":  "2025-12-31 22:00:08",
     "logs":  {
                  "by_level":  {
                                   "ERROR":  0,
@@ -232,14 +232,14 @@
                       },
     "health":  {
                    "status":  "healthy",
-                   "score":  100,
+                   "score":  95,
                    "issues":  [
-
+                                  "ERR_SCHEDULER_EXCEPTION"
                               ]
                },
     "system":  {
                    "timezone":  "China Standard Time",
-                   "last_update":  "2025-12-31 22:00:07"
+                   "last_update":  "2025-12-31 22:00:08"
                },
     "sla_monitoring":  {
                            "week_stats_formatted":  null,
@@ -314,18 +314,18 @@
                             {
                                 "id":  "Task-5",
                                 "name":  "系统脉冲",
-                                "last_run":  null,
+                                "last_run":  "2025-12-31 22:00:00",
                                 "enabled":  true,
-                                "status":  "Unknown",
-                                "last_result":  null
+                                "status":  "Ready",
+                                "last_result":  1
                             },
                             {
                                 "id":  "Task-6",
                                 "name":  "任务看门狗",
-                                "last_run":  null,
+                                "last_run":  "2025-12-31 22:00:00",
                                 "enabled":  true,
-                                "status":  "Unknown",
-                                "last_result":  null
+                                "status":  "Ready",
+                                "last_result":  255
                             },
                             {
                                 "id":  "Task-7",
@@ -372,7 +372,7 @@
                ],
     "metadata":  {
                      "collector_version":  "3.2",
-                     "duration_seconds":  5.88,
+                     "duration_seconds":  6.71,
                      "errors":  [
 
                                 ],
