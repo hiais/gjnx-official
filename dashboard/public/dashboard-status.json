@@ -32,7 +32,7 @@
                                                  },
                         "token_usage_today":  0
                     },
-    "timestamp":  "2025-12-31 20:34:07",
+    "timestamp":  "2025-12-31 20:34:09",
     "logs":  {
                  "by_level":  {
                                   "ERROR":  0,
@@ -239,7 +239,7 @@
                },
     "system":  {
                    "timezone":  "China Standard Time",
-                   "last_update":  "2025-12-31 20:34:07"
+                   "last_update":  "2025-12-31 20:34:09"
                },
     "sla_monitoring":  {
                            "week_stats_formatted":  null,
@@ -372,7 +372,7 @@
                ],
     "metadata":  {
                      "collector_version":  "3.2",
-                     "duration_seconds":  6.07,
+                     "duration_seconds":  6.39,
                      "errors":  [
 
                                 ],
@@ -590,7 +590,7 @@
                                   {
                                       "id":  "P0_task_watchdog_trc-1231203359.lock",
                                       "workflow":  "task-watchdog",
-                                      "age_minutes":  0,
+                                      "age_minutes":  0.1,
                                       "created":  "2025-12-31 20:33:59",
                                       "priority":  "P0",
                                       "trace_id":  null
@@ -606,7 +606,7 @@
                                   {
                                       "id":  "P1_scout_trc-1231203359.lock",
                                       "workflow":  "scout",
-                                      "age_minutes":  0,
+                                      "age_minutes":  0.1,
                                       "created":  "2025-12-31 20:33:59",
                                       "priority":  "P1",
                                       "trace_id":  null
@@ -622,7 +622,7 @@
                                   {
                                       "id":  "P2_wechat_auto_stats_trc-1231203359.lock",
                                       "workflow":  "wechat-auto-stats",
-                                      "age_minutes":  0,
+                                      "age_minutes":  0.1,
                                       "created":  "2025-12-31 20:33:59",
                                       "priority":  "P2",
                                       "trace_id":  null
