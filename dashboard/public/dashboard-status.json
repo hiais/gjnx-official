@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-01 06:00:09",
+  "timestamp": "2026-01-01 06:00:11",
   "health": {
     "score": 100,
     "status": "healthy",
@@ -11,27 +11,22 @@
       {
         "id": "P2_run_tests_trc-0101060006.processing",
         "created": "2026-01-01 06:00:06",
-        "age_minutes": 0.0
+        "age_minutes": 0.1
       },
       {
         "id": "P2_system_sentinel_trc-0101060006.processing",
         "created": "2026-01-01 06:00:06",
-        "age_minutes": 0.0
+        "age_minutes": 0.1
       },
       {
         "id": "P2_validate_config_trc-0101060006.processing",
         "created": "2026-01-01 06:00:06",
-        "age_minutes": 0.0
+        "age_minutes": 0.1
       },
       {
         "id": "P2_wechat_auto_stats_trc-0101060006.processing",
         "created": "2026-01-01 06:00:06",
-        "age_minutes": 0.0
-      },
-      {
-        "id": "P2_write_article_trc-test123.processing",
-        "created": "2026-01-01 06:00:07",
-        "age_minutes": 0.0
+        "age_minutes": 0.1
       }
     ],
     "alerts": []
@@ -1498,7 +1493,7 @@
     }
   },
   "system": {
-    "last_update": "2026-01-01 06:00:09",
+    "last_update": "2026-01-01 06:00:11",
     "timezone": "China Standard Time"
   },
   "metadata": {
