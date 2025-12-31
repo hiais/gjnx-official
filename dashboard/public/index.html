@@ -174,9 +174,9 @@
                 <button class="btn btn-secondary" onclick="clearFilters()">清除筛选</button>
             </div>
 
-            <div class="grid">
-                <!-- Task Queue -->
-                <div class="card">
+            <div class="activity-grid">
+                <!-- Task Queue (35%) -->
+                <div class="card task-queue-card">
                     <div class="card-header">
                         <h2>📋 当前任务队列</h2>
                         <span class="badge" id="pendingBadge">0</span>
@@ -186,112 +186,129 @@
                     </div>
                 </div>
 
-                <!-- Scheduled Tasks -->
-                <div class="card">
+                <!-- System Activity Stream (65%) -->
+                <div class="card activity-stream-card">
                     <div class="card-header">
-                        <h2>⏰ 调度器状态</h2>
-                        <span class="badge" id="scheduledTasksBadge">0</span>
+                        <h2>📜 系统全景动态 (Live Stream)</h2>
+                        <div class="stream-controls">
+                            <div class="stream-filters" id="streamFilters">
+                                <button class="stream-filter-btn active" onclick="setLogFilter('ALL', this)">全部</button>
+                                <button class="stream-filter-btn" onclick="setLogFilter('ERROR', this)">🔴 异常</button>
+                                <button class="stream-filter-btn" onclick="setLogFilter('AGENT', this)">🤖
+                                    Agent</button>
+                                <button class="stream-filter-btn" onclick="setLogFilter('SYSTEM', this)">🛡️ 系统</button>
+                            </div>
+                            <div class="live-indicator"><span class="pulse-dot"></span> 实时</div>
+                        </div>
                     </div>
-                    <div class="scheduled-tasks-list" id="scheduledTasksList">
-                        <div class="empty-state">加载中...</div>
-                    </div>
-                </div>
-
-                <!-- Recent Logs/Errors -->
-                <div class="card card-wide">
-                    <div class="card-header">
-                        <h2>🚨 异常活动日志</h2>
-                    </div>
-                    <div class="error-list" id="errorList">
-                        <div class="empty-state">日志流清洁</div>
+                    <div class="activity-stream-list" id="activityStreamList">
+                        <div class="empty-state">正在接入日志流...</div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Tab 3: 内容工厂 (Factory) - Unchanged -->
+        <!-- Tab 3: 内容工厂 (Factory) -->
         <div class="tab-content" id="tab-content">
-            <div class="grid">
-                <!-- Pipeline Status -->
-                <div class="card card-wide">
-                    <div class="card-header">
-                        <h2>🏭 生产流水线 (点击查看详情)</h2>
-                    </div>
-                    <div class="pipeline-status">
-                        <div class="pipeline-step" data-step="inbox">
-                            <div class="step-icon">📥</div>
-                            <div class="step-label">素材池</div>
-                            <div class="step-value" id="pfInbox">0</div>
+            <div class="container-fluid">
+                <div class="section-title">🏭 内容生产看板 (Production Kanban)</div>
+
+                <div class="kanban-board" id="kanbanBoard">
+                    <!-- Inbox Column -->
+                    <div class="kanban-column inbox">
+                        <div class="column-header">
+                            <h3>📥 素材池 (Inbox)</h3>
+                            <span class="column-badge" id="kbBadgeInbox">0</span>
                         </div>
-                        <div class="pipeline-arrow">➔</div>
-                        <div class="pipeline-step" data-step="scheduled">
-                            <div class="step-icon">📅</div>
-                            <div class="step-label">待排期</div>
-                            <div class="step-value" id="pfScheduled">0</div>
-                        </div>
-                        <div class="pipeline-arrow">➔</div>
-                        <div class="pipeline-step" data-step="wip">
-                            <div class="step-icon">🏗️</div>
-                            <div class="step-label">在制中</div>
-                            <div class="step-value" id="pfWip">0</div>
-                        </div>
-                        <div class="pipeline-arrow">➔</div>
-                        <div class="pipeline-step" data-step="published">
-                            <div class="step-icon">🚀</div>
-                            <div class="step-label">已发布</div>
-                            <div class="step-value success" id="pfPublished">0</div>
+                        <div class="kanban-items" id="kbItemsInbox">
+                            <div class="empty-state">加载中...</div>
                         </div>
                     </div>
-                    <div class="pipeline-details-section" id="pipelineDetails">
-                        <div class="empty-state">点击上方状态查看详情</div>
+
+                    <!-- Scheduled Column -->
+                    <div class="kanban-column scheduled">
+                        <div class="column-header">
+                            <h3>📅 待排期 (Scheduled)</h3>
+                            <span class="column-badge" id="kbBadgeScheduled">0</span>
+                        </div>
+                        <div class="kanban-items" id="kbItemsScheduled">
+                            <div class="empty-state">加载中...</div>
+                        </div>
+                    </div>
+
+                    <!-- WIP Column -->
+                    <div class="kanban-column wip">
+                        <div class="column-header">
+                            <h3>🏗️ 制作中 (WIP)</h3>
+                            <span class="column-badge" id="kbBadgeWip">0</span>
+                        </div>
+                        <div class="kanban-items" id="kbItemsWip">
+                            <div class="empty-state">加载中...</div>
+                        </div>
+                    </div>
+
+                    <!-- Published Column -->
+                    <div class="kanban-column published">
+                        <div class="column-header">
+                            <h3>🚀 已发布 (Published)</h3>
+                            <span class="column-badge" id="kbBadgePublished">0</span>
+                        </div>
+                        <div class="kanban-items" id="kbItemsPublished">
+                            <div class="empty-state">加载中...</div>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Charts -->
-                <div class="card">
-                    <div class="card-header">
-                        <h2>🎯 话题分布</h2>
+                <div class="grid">
+                    <!-- Charts -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>🎯 话题分布</h2>
+                        </div>
+                        <div class="chart-container"><canvas id="topicDistChart"></canvas></div>
                     </div>
-                    <div class="chart-container"><canvas id="topicDistChart"></canvas></div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>📅 周产出趋势</h2>
+                        </div>
+                        <div class="chart-container"><canvas id="weeklyOutputChart"></canvas></div>
+                    </div>
                 </div>
-                <div class="card">
+
+                <!-- Recently Published -->
+                <div class="card card-wide" style="margin-top: 2rem;">
                     <div class="card-header">
-                        <h2>📅 周产出趋势</h2>
+                        <h2>📰 最近发布内容 (Recently Published)</h2>
                     </div>
-                    <div class="chart-container"><canvas id="weeklyOutputChart"></canvas></div>
-                </div>
-                <div class="card card-wide">
-                    <div class="card-header">
-                        <h2>📰 最近发布</h2>
+                    <div class="recent-published-list" id="recentPublishedList">
+                        <div class="empty-state">正在同步数据...</div>
                     </div>
-                    <div class="recent-published-list" id="recentPublishedList"></div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- 任务详情模态框 -->
-    <div id="taskModal" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3>任务详情</h3>
-                <span class="modal-close" onclick="closeTaskModal()">&times;</span>
-            </div>
-            <div class="modal-body" id="taskModalBody">
-                <div class="empty-state">加载中...</div>
+        <!-- 任务详情模态框 -->
+        <div id="taskModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>任务详情</h3>
+                    <span class="modal-close" onclick="closeTaskModal()">&times;</span>
+                </div>
+                <div class="modal-body" id="taskModalBody">
+                    <div class="empty-state">加载中...</div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="loadingOverlay" class="loading-overlay">
-        <div class="spinner"></div>
-    </div>
+        <div id="loadingOverlay" class="loading-overlay">
+            <div class="spinner"></div>
+        </div>
 
-    <div class="refresh-indicator" id="refreshIndicator">
-        <span>自动刷新: <span id="countdown">30</span>秒</span>
-    </div>
+        <div class="refresh-indicator" id="refreshIndicator">
+            <span>自动刷新: <span id="countdown">30</span>秒</span>
+        </div>
 
-    <script src="assets/script.js?v=20260101"></script>
+        <script src="assets/script.js?v=20260101"></script>
 </body>
 
 </html>

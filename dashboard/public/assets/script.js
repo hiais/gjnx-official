@@ -163,124 +163,57 @@ function updateContentFactory(data) {
     if (!data.content_factory) return;
     const cf = data.content_factory;
 
-    // 1. Pipeline Status
-    const pipeline = cf.pipeline || {};
-    const setVal = (id, val) => {
-        const el = document.getElementById(id);
-        if (el) el.textContent = val !== undefined ? val : '-';
-    };
-    setVal('pfInbox', pipeline.inbox);
-    setVal('pfScheduled', pipeline.scheduled);
-    setVal('pfWip', pipeline.wip);
-    setVal('pfPublished', pipeline.published);
+    // 1. Kanban Board
+    renderKanban(cf.pipeline_details);
 
-    // 2. Topic Distribution Chart
-    renderTopicChart(cf.topic_distribution);
+    // 2. Charts
+    if (cf.topic_distribution) renderTopicChart(cf.topic_distribution);
+    if (cf.weekly_output) renderWeeklyOutputChart(cf.weekly_output);
 
-    // 3. Weekly Output Chart
-    renderWeeklyOutputChart(cf.weekly_output);
-
-    // 4. Recent Published List
-    renderRecentPublished(cf.recent_published);
-
-    // 5. Setup Interactions
-    setupPipelineInteractions(cf.pipeline_details);
+    // 3. Recent Published (Keep for back-compat or footer)
+    if (cf.recent_published) renderRecentPublished(cf.recent_published);
 }
 
-let currentPipelineStep = null;
-
-function setupPipelineInteractions(details) {
+function renderKanban(details) {
     if (!details) return;
 
     const steps = ['inbox', 'scheduled', 'wip', 'published'];
 
     steps.forEach(step => {
-        const stepEl = document.querySelector(`.pipeline-step[data-step="${step}"]`);
-        if (stepEl) {
-            // Remove old listeners (by cloning if necessary, but simple overwrite acts as replacement here)
-            stepEl.onclick = () => {
-                const allSteps = document.querySelectorAll('.pipeline-step');
-                allSteps.forEach(el => el.classList.remove('active'));
-                stepEl.classList.add('active');
+        const items = details[step] || [];
+        const badge = document.getElementById(`kbBadge${step.charAt(0).toUpperCase() + step.slice(1)}`);
+        const container = document.getElementById(`kbItems${step.charAt(0).toUpperCase() + step.slice(1)}`);
 
-                currentPipelineStep = step;
-                renderPipelineDetail(step, details[step]);
-            };
+        if (badge) badge.textContent = items.length;
+        if (container) {
+            if (items.length === 0) {
+                container.innerHTML = '<div class="empty-state">暂无项目</div>';
+                return;
+            }
+
+            container.innerHTML = items.map(item => {
+                const prio = item.priority || (step === 'wip' ? 'WIP' : 'P2');
+                const prioClass = `prio-${prio.toLowerCase()}`;
+                const title = item.title || '无标题';
+                const topic = item.topic || 'General';
+                const date = item.date || '';
+                const agent = item.agent ? ` • 🤖 ${item.agent}` : '';
+                const status = item.status ? `<div class="item-status-text">${item.status}</div>` : '';
+
+                return `
+                    <div class="kanban-item-card">
+                        <div class="item-prio-badge ${prioClass}">${prio}</div>
+                        <div class="item-title" title="${title}">${title}</div>
+                        ${status}
+                        <div class="item-meta">
+                            <span class="item-topic"># ${topic}${agent}</span>
+                            <span class="item-date">${date}</span>
+                        </div>
+                    </div>
+                `;
+            }).join('');
         }
     });
-
-    // Auto-select first tab or restore state
-    if (!currentPipelineStep) {
-        currentPipelineStep = 'inbox'; // Default
-    }
-
-    // Trigger render for current step
-    const activeEl = document.querySelector(`.pipeline-step[data-step="${currentPipelineStep}"]`);
-    if (activeEl) {
-        activeEl.classList.add('active');
-        renderPipelineDetail(currentPipelineStep, details[currentPipelineStep]);
-    }
-}
-
-function renderPipelineDetail(step, items) {
-    const container = document.getElementById('pipelineDetails');
-    if (!container) return;
-
-    const titles = {
-        inbox: '素材池待选',
-        scheduled: '排期任务表',
-        wip: '正在制作中',
-        published: '已发布内容'
-    };
-
-    let html = `
-        <div class="pipeline-detail-header">
-            <h3>${titles[step]} (${items ? items.length : 0})</h3>
-        </div>
-    `;
-
-    if (!items || items.length === 0) {
-        html += '<div class="empty-state">此阶段暂无项目</div>';
-    } else {
-        html += '<div class="table-responsive"><table class="pipeline-detail-table"><thead><tr>';
-
-        // Dynamic Headers
-        if (step === 'inbox') {
-            html += '<th width="70%">选题标题</th><th>来源/Topic</th>';
-        } else if (step === 'scheduled' || step === 'wip') {
-            html += '<th width="10%">优先级</th><th width="60%">标题</th><th>预定发布</th>';
-        } else if (step === 'published') {
-            html += '<th width="15%">发布日期</th><th width="60%">标题</th><th>Topic</th>';
-        }
-
-        html += '</tr></thead><tbody>';
-
-        html += items.map(item => {
-            if (step === 'inbox') {
-                return `<tr>
-                    <td><div class="detail-title">${item.title}</div></td>
-                    <td><span class="detail-badge">${item.topic || 'Auto-Scout'}</span></td>
-                </tr>`;
-            } else if (step === 'scheduled' || step === 'wip') {
-                const prio = item.priority || 'P2';
-                return `<tr>
-                    <td><span class="detail-badge ${prio.toLowerCase()}">${prio}</span></td>
-                    <td><div class="detail-title">${item.title}</div></td>
-                    <td><div class="detail-meta">${item.date || '-'}</div></td>
-                </tr>`;
-            } else if (step === 'published') {
-                return `<tr>
-                    <td><div class="detail-meta">${item.date}</div></td>
-                    <td><div class="detail-title">${item.title}</div></td>
-                    <td><span class="detail-badge">${item.topic || 'General'}</span></td>
-                </tr>`;
-            }
-        }).join('');
-
-        html += '</tbody></table></div>';
-    }
-
-    container.innerHTML = html;
 }
 
 let topicChart = null;
@@ -1064,6 +997,126 @@ function updateLogStats(logs) {
     }
 }
 
+// ========== Activity Tab (Task & Stream) ==========
+// Global state for logs
+let lastActivityData = [];
+let currentLogFilter = 'ALL';
+
+function updateActivity(data) {
+    if (!data) return;
+
+    // 1. Task Queue (Existing Logic)
+    const taskList = document.getElementById('taskList');
+    const badge = document.getElementById('pendingBadge');
+
+    // Support both new (tasks.pending list) and old (tasks.pending_count) structure
+    const pendingTasks = (data.tasks && Array.isArray(data.tasks.pending))
+        ? data.tasks.pending
+        : [];
+
+    if (badge) badge.textContent = pendingTasks.length;
+
+    if (taskList) {
+        if (!pendingTasks || pendingTasks.length === 0) {
+            taskList.innerHTML = '<div class="empty-state">暂无待处理任务</div>';
+        } else {
+            taskList.innerHTML = pendingTasks.map(t => `
+            <div class="task-item priority-${t.priority || 'P2'}" onclick="showTaskDetail('${t.id || ''}', '${t.trace_id || ''}')">
+                <div style="display:flex; justify-content:space-between;">
+                    <strong>${t.workflow || '未知任务'}</strong>
+                    <span class="badge" style="font-size:0.7rem">${t.priority || 'P2'}</span>
+                </div>
+                <small>${t.id} | ${formatTime(t.created)}</small>
+            </div>
+        `).join('');
+        }
+    }
+
+    // 2. System Activity Stream (New Logic)
+    const streamList = document.getElementById('activityStreamList');
+    if (streamList && data.logs && data.logs.recent_activities) {
+        lastActivityData = data.logs.recent_activities; // Store data
+        renderActivityStream(streamList, lastActivityData);
+    }
+}
+
+function setLogFilter(filterType, btnElement) {
+    currentLogFilter = filterType;
+
+    // Update active button state
+    const btns = document.querySelectorAll('.stream-filter-btn');
+    btns.forEach(btn => btn.classList.remove('active'));
+    if (btnElement) {
+        btnElement.classList.add('active');
+    }
+
+    // Re-render
+    const streamList = document.getElementById('activityStreamList');
+    if (streamList) {
+        renderActivityStream(streamList, lastActivityData);
+    }
+}
+
+function renderActivityStream(container, activities) {
+    if (!activities || activities.length === 0) {
+        container.innerHTML = '<div class="empty-state">日志流静默中...</div>';
+        return;
+    }
+
+    // Apply Filter
+    const filtered = activities.filter(act => {
+        if (currentLogFilter === 'ALL') return true;
+
+        const lvl = (act.level || '').toUpperCase();
+        const wf = (act.workflow || '').toLowerCase();
+
+        if (currentLogFilter === 'ERROR') {
+            return lvl === 'ERROR' || lvl === 'FATAL';
+        }
+        if (currentLogFilter === 'AGENT') {
+            // Include core agent workflows
+            return ['agent', 'write-article', 'qc-check', 'scout', 'plan', 'zhihu-auto-cruise'].includes(wf);
+        }
+        if (currentLogFilter === 'SYSTEM') {
+            // Daemon, Execution, Maintenance
+            return ['daemon', 'execution', 'task-watchdog', 'check-alerts', 'process-tasks', 'refresh-dashboard'].includes(wf);
+        }
+        return true;
+    });
+
+    if (filtered.length === 0) {
+        container.innerHTML = '<div class="empty-state">无符合条件的日志</div>';
+        return;
+    }
+
+    const html = filtered.map(act => {
+        const levelClass = `log-${act.level}`;
+        const time = act.time.split('T')[1]?.substring(0, 8) || act.time; // HH:mm:ss
+
+        let icon = '🔹'; // INFO default
+        if (act.level === 'WARN') icon = '⚠️';
+        if (act.level === 'ERROR') icon = '🔴';
+        if (act.level === 'SUCCESS') icon = '✅';
+
+        // Format message - Check for Trace ID link
+        let message = act.message;
+
+        return `
+        <div class="activity-item ${levelClass}">
+            <div class="activity-header">
+                <span>${icon} ${time}</span>
+                <span>${act.workflow}</span>
+            </div>
+            <div class="activity-body">
+                ${act.trace_id ? `<span class="activity-tag">Trace: ${act.trace_id.substring(0, 8)}...</span>` : ''}
+                ${message}
+            </div>
+        </div>
+        `;
+    }).join('');
+
+    container.innerHTML = html;
+}
 // 更新健康问题
 function updateHealthIssues(health) {
     const healthIssues = document.getElementById('healthIssues');
@@ -1669,31 +1722,4 @@ function updateCockpit(data) {
     setText('kpiStabErrors', (logs.total_errors || 0));
 }
 
-function updateActivity(data) {
-    // 1. Task Queue (Reusing existing logic logic but scoped)
-    updateTaskQueue(data.tasks);
 
-    // 2. Scheduled Tasks
-    updateScheduledTasks(data.scheduled_tasks || []);
-
-    // 3. Recent Logs (Consolidated Errors)
-    const logs = data.logs || {};
-    const errors = logs.recent_errors || [];
-    renderErrorListSimplified('errorList', errors);
-}
-
-// Re-using simplified renderer from previous step
-function renderErrorListSimplified(id, items) {
-    const el = document.getElementById(id);
-    if (!el) return;
-    if (!items || items.length === 0) {
-        el.innerHTML = '<div class="empty-state">日志流清洁 (Log Stream Clean)</div>';
-        return;
-    }
-    el.innerHTML = items.map(err => `
-        <div class="error-item">
-            <strong>${err.time.split('T')[1].split('.')[0]} - ${err.workflow}</strong>
-            <small>${err.message}</small>
-        </div>
-    `).join('');
-}

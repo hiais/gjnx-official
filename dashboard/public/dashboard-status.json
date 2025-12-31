@@ -1,57 +1,264 @@
 {
-  "timestamp": "2026-01-01 06:00:11",
+  "timestamp": "2026-01-01 06:03:10",
   "health": {
     "score": 100,
     "status": "healthy",
     "issues": []
   },
   "tasks": {
-    "pending": [],
-    "processing": [
+    "pending": [
       {
-        "id": "P2_run_tests_trc-0101060006.processing",
-        "created": "2026-01-01 06:00:06",
-        "age_minutes": 0.1
+        "id": "P2_process_tasks_trc-0101060030.lock",
+        "priority": "P2",
+        "workflow": "process-tasks",
+        "created": "2026-01-01 06:00:30",
+        "age_minutes": 2.7,
+        "trace_id": "trc-0101060030"
       },
       {
-        "id": "P2_system_sentinel_trc-0101060006.processing",
-        "created": "2026-01-01 06:00:06",
-        "age_minutes": 0.1
-      },
-      {
-        "id": "P2_validate_config_trc-0101060006.processing",
-        "created": "2026-01-01 06:00:06",
-        "age_minutes": 0.1
-      },
-      {
-        "id": "P2_wechat_auto_stats_trc-0101060006.processing",
-        "created": "2026-01-01 06:00:06",
-        "age_minutes": 0.1
+        "id": "P2_verify_data_trc-0101060030.lock",
+        "priority": "P2",
+        "workflow": "verify-data",
+        "created": "2026-01-01 06:00:30",
+        "age_minutes": 2.7,
+        "trace_id": "trc-0101060030"
       }
     ],
+    "processing": [],
     "alerts": []
   },
   "logs": {
-    "total": 196,
+    "total": 226,
     "by_level": {
-      "INFO": 196,
-      "WARN": 0,
+      "INFO": 223,
+      "WARN": 3,
       "ERROR": 0,
       "FATAL": 0,
       "SUCCESS": 0
     },
     "by_workflow": {
-      "daemon": 142,
+      "daemon": 169,
+      "verify-data": 1,
+      "process-tasks": 26,
+      "refresh-dashboard": 8,
       "check-alerts": 6,
-      "refresh-dashboard": 7,
       "task-watchdog": 4,
-      "process-tasks": 25,
       "scout": 5,
       "system_optimization": 4,
       "plan": 3
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-01-01T06:03:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:02:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:01:43",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Workflow completed detected: refresh-dashboard",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:01:38",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Workflow completed detected: refresh-dashboard",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:01:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [refresh-dashboard] -> python scripts/auto_update_dashboard.py",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:01:07",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:41",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Workflow completed detected: validate-config",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:39",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Workflow completed detected: system-sentinel",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:37",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Workflow completed detected: wechat-auto-stats",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:36",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Workflow completed detected: validate-config",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:35",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Chain trigger: verify-data (triggered by write-article completion)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:35",
+        "level": "INFO",
+        "workflow": "verify-data",
+        "message": "Successfully triggered workflow: verify-data",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:35",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Chain trigger: process-tasks (triggered by write-article completion)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:35",
+        "level": "INFO",
+        "workflow": "process-tasks",
+        "message": "Successfully triggered workflow: process-tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:35",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Chain trigger: refresh-dashboard (triggered by write-article completion)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:35",
+        "level": "INFO",
+        "workflow": "refresh-dashboard",
+        "message": "Successfully triggered workflow: refresh-dashboard",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:35",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Workflow completed detected: run-tests",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:34",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Workflow completed detected: system-sentinel",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:33",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Workflow completed detected: write-article",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:32",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Workflow completed detected: wechat-auto-stats",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:31",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Workflow completed detected: archive-logs",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:30",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Chain trigger: verify-data (triggered by write-article completion)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:30",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Failed to trigger workflow: verify-data",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:30",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Chain trigger: process-tasks (triggered by write-article completion)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:30",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Failed to trigger workflow: process-tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:30",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Chain trigger: refresh-dashboard (triggered by write-article completion)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:30",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Failed to trigger workflow: refresh-dashboard",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:30",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Workflow completed detected: run-tests",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:28",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Workflow completed detected: write-article",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T06:00:26",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Workflow completed detected: archive-logs",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-01T06:00:07",
         "level": "INFO",
@@ -540,216 +747,6 @@
         "level": "INFO",
         "workflow": "daemon",
         "message": "Config file loaded successfully: D:\\gjnx\\02_Agent_System\\Config\\workflow-dependencies.json",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:41:24",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "File system watcher started: D:\\gjnx\\.agent\\tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:41:24",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon started (Event-driven mode - Immersive Creation)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:41:24",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Project root: D:\\gjnx",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:41:24",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Watch directory: D:\\gjnx\\.agent\\tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:41:24",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Mode: All workflows are event-driven, no scheduled tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:41:18",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon stopping...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:41:18",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon stopped",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:39:30",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: check-alerts (interval: 30 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:39:30",
-        "level": "INFO",
-        "workflow": "check-alerts",
-        "message": "Successfully triggered periodic task: check-alerts",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:39:30",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: refresh-dashboard (interval: 60 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:39:30",
-        "level": "INFO",
-        "workflow": "refresh-dashboard",
-        "message": "Successfully triggered periodic task: refresh-dashboard",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:39:30",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: task-watchdog (interval: 60 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:39:30",
-        "level": "INFO",
-        "workflow": "task-watchdog",
-        "message": "Successfully triggered periodic task: task-watchdog",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:39:30",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:39:30",
-        "level": "INFO",
-        "workflow": "process-tasks",
-        "message": "Successfully triggered periodic task: process-tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:38:30",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon running... (running for 120 seconds)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:34:30",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:34:30",
-        "level": "INFO",
-        "workflow": "process-tasks",
-        "message": "Successfully triggered periodic task: process-tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:29:30",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:29:30",
-        "level": "INFO",
-        "workflow": "process-tasks",
-        "message": "Successfully triggered periodic task: process-tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:24:30",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:24:30",
-        "level": "INFO",
-        "workflow": "process-tasks",
-        "message": "Successfully triggered periodic task: process-tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:24:30",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daily task triggered: daily-config-check (time: 03:25)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:24:30",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Successfully triggered daily task: daily-config-check",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:19:30",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:19:30",
-        "level": "INFO",
-        "workflow": "process-tasks",
-        "message": "Successfully triggered periodic task: process-tasks",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:19:30",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daily task triggered: archive-logs (time: 03:20)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:19:30",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Successfully triggered daily task: archive-logs",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:14:30",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T03:14:30",
-        "level": "INFO",
-        "workflow": "process-tasks",
-        "message": "Successfully triggered periodic task: process-tasks",
         "trace_id": ""
       }
     ]
@@ -1493,7 +1490,7 @@
     }
   },
   "system": {
-    "last_update": "2026-01-01 06:00:11",
+    "last_update": "2026-01-01 06:03:10",
     "timezone": "China Standard Time"
   },
   "metadata": {
