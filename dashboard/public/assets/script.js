@@ -997,15 +997,24 @@ function toggleGroup(groupId) {
 function updateKPIBanner(data) {
     if (!data) return;
 
-    // P0告警
+    // P0告警 - 修复：同时统计ALERT文件和pending中的P0任务
     const kpiAlerts = document.getElementById('kpiAlerts');
     if (kpiAlerts) {
-        const alertCount = (data.tasks?.alerts?.length) || 0;
+        const alertFiles = (data.tasks?.alerts?.length) || 0;
+        const p0Pending = (data.tasks?.pending || []).filter(t => t.priority === 'P0').length;
+        const alertCount = alertFiles + p0Pending;
         kpiAlerts.textContent = alertCount;
         const card = kpiAlerts.closest('.kpi-card');
         if (card) {
             card.classList.toggle('pulse', alertCount > 0);
-            card.title = `当前有 ${alertCount} 个 P0 级别告警`;
+            const detailText = alertFiles > 0 && p0Pending > 0 
+                ? `当前有 ${alertFiles} 个告警文件 + ${p0Pending} 个P0待处理任务`
+                : alertFiles > 0 
+                    ? `当前有 ${alertFiles} 个 P0 级别告警文件`
+                    : p0Pending > 0
+                        ? `当前有 ${p0Pending} 个 P0 级别待处理任务`
+                        : `当前无 P0 级别告警`;
+            card.title = detailText;
         }
     }
 
@@ -1016,11 +1025,15 @@ function updateKPIBanner(data) {
         kpiQueue.textContent = queueCount;
     }
 
-    // 成功率
+    // 成功率 - 修复：确保正确处理数据，包括null/undefined情况
     const kpiSuccess = document.getElementById('kpiSuccess');
     if (kpiSuccess) {
-        const successRate = data.performance?.success_rate ?? 0;
-        kpiSuccess.textContent = `${Number(successRate).toFixed(1)}%`;
+        const successRate = data.performance?.success_rate;
+        // 处理null、undefined、NaN等情况
+        const rate = (successRate !== null && successRate !== undefined && !isNaN(successRate)) 
+            ? Number(successRate) 
+            : 0;
+        kpiSuccess.textContent = `${rate.toFixed(1)}%`;
     }
 
     // 今日成本
