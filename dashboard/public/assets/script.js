@@ -997,23 +997,18 @@ function toggleGroup(groupId) {
 function updateKPIBanner(data) {
     if (!data) return;
 
-    // P0告警 - 修复：同时统计ALERT文件和pending中的P0任务
+    // P0告警 - 只统计ALERT文件（ALERT_P0_*.lock），不包括普通P0任务
+    // 普通P0任务只是高优先级任务，不是告警；只有系统生成的ALERT文件才是真正的告警
     const kpiAlerts = document.getElementById('kpiAlerts');
     if (kpiAlerts) {
-        const alertFiles = (data.tasks?.alerts?.length) || 0;
-        const p0Pending = (data.tasks?.pending || []).filter(t => t.priority === 'P0').length;
-        const alertCount = alertFiles + p0Pending;
+        const alertCount = (data.tasks?.alerts?.length) || 0;
         kpiAlerts.textContent = alertCount;
         const card = kpiAlerts.closest('.kpi-card');
         if (card) {
             card.classList.toggle('pulse', alertCount > 0);
-            const detailText = alertFiles > 0 && p0Pending > 0 
-                ? `当前有 ${alertFiles} 个告警文件 + ${p0Pending} 个P0待处理任务`
-                : alertFiles > 0 
-                    ? `当前有 ${alertFiles} 个 P0 级别告警文件`
-                    : p0Pending > 0
-                        ? `当前有 ${p0Pending} 个 P0 级别待处理任务`
-                        : `当前无 P0 级别告警`;
+            const detailText = alertCount > 0 
+                ? `当前有 ${alertCount} 个 P0 级别告警文件 (ALERT_P0_*.lock)`
+                : `当前无 P0 级别告警`;
             card.title = detailText;
         }
     }
