@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-01 03:20:54",
+  "timestamp": "2026-01-01 03:23:44",
   "health": {
     "score": 100,
     "status": "healthy",
@@ -12,7 +12,7 @@
         "priority": "P0",
         "workflow": "check-alerts",
         "created": "2026-01-01 02:09:29",
-        "age_minutes": 71.4,
+        "age_minutes": 74.3,
         "trace_id": "trc-0101020929"
       },
       {
@@ -20,7 +20,7 @@
         "priority": "P0",
         "workflow": "process-tasks",
         "created": "2026-01-01 01:59:29",
-        "age_minutes": 81.4,
+        "age_minutes": 84.3,
         "trace_id": "trc-0101015929"
       },
       {
@@ -28,7 +28,7 @@
         "priority": "P0",
         "workflow": "task-watchdog",
         "created": "2026-01-01 02:39:29",
-        "age_minutes": 41.4,
+        "age_minutes": 44.2,
         "trace_id": "trc-0101023929"
       },
       {
@@ -36,7 +36,7 @@
         "priority": "P2",
         "workflow": "archive-logs",
         "created": "2026-01-01 03:19:30",
-        "age_minutes": 1.4,
+        "age_minutes": 4.2,
         "trace_id": "trc-0101031930"
       },
       {
@@ -44,7 +44,7 @@
         "priority": "P2",
         "workflow": "refresh-dashboard",
         "created": "2026-01-01 02:39:29",
-        "age_minutes": 41.4,
+        "age_minutes": 44.2,
         "trace_id": "trc-0101023929"
       },
       {
@@ -52,7 +52,7 @@
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-01 02:03:39",
-        "age_minutes": 77.2,
+        "age_minutes": 80.1,
         "trace_id": null
       }
     ],
@@ -816,12 +816,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-01 03:20:54",
+    "last_update": "2026-01-01 03:23:44",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.03,
+    "duration_seconds": 0.02,
     "has_token_trend": true,
     "errors": []
   }

@@ -25,52 +25,10 @@
         </div>
     </div>
 
-    <!-- 新增：关键指标横幅 -->
-    <div class="kpi-banner">
-        <div class="kpi-card critical">
-            <div class="kpi-icon">🚨</div>
-            <div class="kpi-content">
-                <div class="kpi-label">P0告警</div>
-                <div class="kpi-value" id="kpiAlerts">0</div>
-            </div>
-        </div>
-        <div class="kpi-card warning">
-            <div class="kpi-icon">📋</div>
-            <div class="kpi-content">
-                <div class="kpi-label">队列堆积</div>
-                <div class="kpi-value" id="kpiQueue">0</div>
-            </div>
-        </div>
-        <div class="kpi-card info">
-            <div class="kpi-icon">⚡</div>
-            <div class="kpi-content">
-                <div class="kpi-label">成功率</div>
-                <div class="kpi-value" id="kpiSuccess">0%</div>
-            </div>
-        </div>
-        <div class="kpi-card cost">
-            <div class="kpi-icon">💰</div>
-            <div class="kpi-content">
-                <div class="kpi-label">今日成本</div>
-                <div class="kpi-value" id="kpiCost">¥0</div>
-            </div>
-        </div>
-    </div>
+    <!-- KPI Banner Removed -->
 
     <div class="container">
-        <!-- 筛选器 -->
-        <div class="filters">
-            <select id="workflowFilter" class="filter-select">
-                <option value="">所有工作流</option>
-            </select>
-            <select id="priorityFilter" class="filter-select">
-                <option value="">所有优先级</option>
-                <option value="P0">P0</option>
-                <option value="P1">P1</option>
-                <option value="P2">P2</option>
-            </select>
-            <button class="btn btn-secondary" onclick="clearFilters()">清除筛选</button>
-        </div>
+        <!-- Global Filters Removed (Moved to Activity Tab) -->
 
         <!-- 3-Tab Navigation (Simplified) -->
         <div class="tab-navigation">
@@ -199,8 +157,23 @@
             </div>
         </div>
 
+
         <!-- Tab 2: 系统动态 (Activity) -->
         <div class="tab-content" id="tab-activity">
+            <!-- Filters (Relocated) -->
+            <div class="filters" style="margin-bottom: 1rem;">
+                <select id="workflowFilter" class="filter-select">
+                    <option value="">所有工作流</option>
+                </select>
+                <select id="priorityFilter" class="filter-select">
+                    <option value="">所有优先级</option>
+                    <option value="P0">P0</option>
+                    <option value="P1">P1</option>
+                    <option value="P2">P2</option>
+                </select>
+                <button class="btn btn-secondary" onclick="clearFilters()">清除筛选</button>
+            </div>
+
             <div class="grid">
                 <!-- Task Queue -->
                 <div class="card">
