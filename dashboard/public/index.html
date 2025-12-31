@@ -89,6 +89,9 @@
             <button class="tab-btn" data-tab="sla" onclick="switchTab('sla')">
                 <span>⏱️</span> SLA
             </button>
+            <button class="tab-btn" data-tab="content" onclick="switchTab('content')">
+                <span>🏭</span> 内容工厂
+            </button>
         </div>
 
         <!-- 标签页内容 -->
@@ -391,6 +394,78 @@
                         <div class="empty-state">加载中...</div>
                     </div>
                     <div class="sla-violations" id="slaViolations">
+                        <div class="empty-state">加载中...</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- 内容工厂标签页 -->
+        <div class="tab-content" id="tab-content">
+            <div class="grid">
+                <!-- 漏斗状态卡片 - Enhanced Interactive Version -->
+                <div class="card card-wide">
+                    <div class="card-header">
+                        <h2>🏭 生产流水线 (点击查看详情)</h2>
+                    </div>
+                    <div class="pipeline-status">
+                        <div class="pipeline-step" data-step="inbox">
+                            <div class="step-icon">📥</div>
+                            <div class="step-label">素材池</div>
+                            <div class="step-value" id="pfInbox">0</div>
+                        </div>
+                        <div class="pipeline-arrow">➔</div>
+                        <div class="pipeline-step" data-step="scheduled">
+                            <div class="step-icon">📅</div>
+                            <div class="step-label">待排期</div>
+                            <div class="step-value" id="pfScheduled">0</div>
+                        </div>
+                        <div class="pipeline-arrow">➔</div>
+                        <div class="pipeline-step" data-step="wip">
+                            <div class="step-icon">🏗️</div>
+                            <div class="step-label">在制中</div>
+                            <div class="step-value" id="pfWip">0</div>
+                        </div>
+                        <div class="pipeline-arrow">➔</div>
+                        <div class="pipeline-step" data-step="published">
+                            <div class="step-icon">🚀</div>
+                            <div class="step-label">已发布</div>
+                            <div class="step-value success" id="pfPublished">0</div>
+                        </div>
+                    </div>
+
+                    <!-- New Detail Section -->
+                    <div class="pipeline-details-section" id="pipelineDetails">
+                        <div class="empty-state">点击上方状态查看详情</div>
+                    </div>
+                </div>
+
+                <!-- 话题分布卡片 -->
+                <div class="card">
+                    <div class="card-header">
+                        <h2>🎯 话题分布</h2>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="topicDistChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- 周产出趋势卡片 -->
+                <div class="card">
+                    <div class="card-header">
+                        <h2>📅 周产出趋势</h2>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="weeklyOutputChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- 最近发布列表 -->
+                <div class="card card-wide">
+                    <div class="card-header">
+                        <h2>📰 最近发布</h2>
+                    </div>
+                    <div class="recent-published-list" id="recentPublishedList">
                         <div class="empty-state">加载中...</div>
                     </div>
                 </div>

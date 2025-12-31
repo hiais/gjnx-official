@@ -175,6 +175,7 @@ function updateDashboard(data) {
         updateCostAnalysis(data);
         updateSLAMonitoring(data); // Added SLA monitoring update
         updateKPIBanner(data); // Added KPI banner update
+        updateContentFactory(data); // Added Content Factory update
         if (document.getElementById('alertConfigPanel') && document.getElementById('alertConfigPanel').style.display !== 'none') {
             loadAlertRulesConfig();
         }
@@ -189,6 +190,241 @@ function updateDashboard(data) {
 }
 
 // --- Phase 1 Extended Logic (Hardened) ---
+// ... (No change)
+
+// --- Phase 3 SLA Monitoring ---
+// ... (No change to updateSLAMonitoring)
+
+function updateContentFactory(data) {
+    if (!data.content_factory) return;
+    const cf = data.content_factory;
+
+    // 1. Pipeline Status
+    const pipeline = cf.pipeline || {};
+    const setVal = (id, val) => {
+        const el = document.getElementById(id);
+        if (el) el.textContent = val !== undefined ? val : '-';
+    };
+    setVal('pfInbox', pipeline.inbox);
+    setVal('pfScheduled', pipeline.scheduled);
+    setVal('pfWip', pipeline.wip);
+    setVal('pfPublished', pipeline.published);
+
+    // 2. Topic Distribution Chart
+    renderTopicChart(cf.topic_distribution);
+
+    // 3. Weekly Output Chart
+    renderWeeklyOutputChart(cf.weekly_output);
+
+    // 4. Recent Published List
+    renderRecentPublished(cf.recent_published);
+
+    // 5. Setup Interactions
+    setupPipelineInteractions(cf.pipeline_details);
+}
+
+let currentPipelineStep = null;
+
+function setupPipelineInteractions(details) {
+    if (!details) return;
+
+    const steps = ['inbox', 'scheduled', 'wip', 'published'];
+
+    steps.forEach(step => {
+        const stepEl = document.querySelector(`.pipeline-step[data-step="${step}"]`);
+        if (stepEl) {
+            // Remove old listeners (by cloning if necessary, but simple overwrite acts as replacement here)
+            stepEl.onclick = () => {
+                const allSteps = document.querySelectorAll('.pipeline-step');
+                allSteps.forEach(el => el.classList.remove('active'));
+                stepEl.classList.add('active');
+
+                currentPipelineStep = step;
+                renderPipelineDetail(step, details[step]);
+            };
+        }
+    });
+
+    // Auto-select first tab or restore state
+    if (!currentPipelineStep) {
+        currentPipelineStep = 'inbox'; // Default
+    }
+
+    // Trigger render for current step
+    const activeEl = document.querySelector(`.pipeline-step[data-step="${currentPipelineStep}"]`);
+    if (activeEl) {
+        activeEl.classList.add('active');
+        renderPipelineDetail(currentPipelineStep, details[currentPipelineStep]);
+    }
+}
+
+function renderPipelineDetail(step, items) {
+    const container = document.getElementById('pipelineDetails');
+    if (!container) return;
+
+    const titles = {
+        inbox: '素材池待选',
+        scheduled: '排期任务表',
+        wip: '正在制作中',
+        published: '已发布内容'
+    };
+
+    let html = `
+        <div class="pipeline-detail-header">
+            <h3>${titles[step]} (${items ? items.length : 0})</h3>
+        </div>
+    `;
+
+    if (!items || items.length === 0) {
+        html += '<div class="empty-state">此阶段暂无项目</div>';
+    } else {
+        html += '<div class="table-responsive"><table class="pipeline-detail-table"><thead><tr>';
+
+        // Dynamic Headers
+        if (step === 'inbox') {
+            html += '<th width="70%">选题标题</th><th>来源/Topic</th>';
+        } else if (step === 'scheduled' || step === 'wip') {
+            html += '<th width="10%">优先级</th><th width="60%">标题</th><th>预定发布</th>';
+        } else if (step === 'published') {
+            html += '<th width="15%">发布日期</th><th width="60%">标题</th><th>Topic</th>';
+        }
+
+        html += '</tr></thead><tbody>';
+
+        html += items.map(item => {
+            if (step === 'inbox') {
+                return `<tr>
+                    <td><div class="detail-title">${item.title}</div></td>
+                    <td><span class="detail-badge">${item.topic || 'Auto-Scout'}</span></td>
+                </tr>`;
+            } else if (step === 'scheduled' || step === 'wip') {
+                const prio = item.priority || 'P2';
+                return `<tr>
+                    <td><span class="detail-badge ${prio.toLowerCase()}">${prio}</span></td>
+                    <td><div class="detail-title">${item.title}</div></td>
+                    <td><div class="detail-meta">${item.date || '-'}</div></td>
+                </tr>`;
+            } else if (step === 'published') {
+                return `<tr>
+                    <td><div class="detail-meta">${item.date}</div></td>
+                    <td><div class="detail-title">${item.title}</div></td>
+                    <td><span class="detail-badge">${item.topic || 'General'}</span></td>
+                </tr>`;
+            }
+        }).join('');
+
+        html += '</tbody></table></div>';
+    }
+
+    container.innerHTML = html;
+}
+
+let topicChart = null;
+function renderTopicChart(distribution) {
+    const canvas = document.getElementById('topicDistChart');
+    if (!canvas || !distribution) return;
+
+    if (topicChart) {
+        try { topicChart.destroy(); } catch (e) { }
+    }
+
+    const labels = Object.keys(distribution);
+    const data = Object.values(distribution);
+    const ctx = canvas.getContext('2d');
+
+    topicChart = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            labels: labels,
+            datasets: [{
+                data: data,
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.8)',
+                    'rgba(54, 162, 235, 0.8)',
+                    'rgba(255, 206, 86, 0.8)',
+                    'rgba(75, 192, 192, 0.8)',
+                    'rgba(153, 102, 255, 0.8)',
+                    'rgba(255, 159, 64, 0.8)'
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    position: 'right',
+                    labels: {
+                        boxWidth: 10,
+                        usePointStyle: true,
+                    }
+                }
+            }
+        }
+    });
+}
+
+let weeklyOutputChart = null;
+function renderWeeklyOutputChart(weeklyData) {
+    const canvas = document.getElementById('weeklyOutputChart');
+    if (!canvas || !weeklyData) return;
+
+    if (weeklyOutputChart) {
+        try { weeklyOutputChart.destroy(); } catch (e) { }
+    }
+
+    // Sort dates
+    const sortedDates = Object.keys(weeklyData).sort();
+    const data = sortedDates.map(d => weeklyData[d]);
+
+    const ctx = canvas.getContext('2d');
+    weeklyOutputChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: sortedDates,
+            datasets: [{
+                label: '发布数量',
+                data: data,
+                backgroundColor: 'rgba(54, 162, 235, 0.6)',
+                borderColor: 'rgba(54, 162, 235, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: { precision: 0 }
+                }
+            }
+        }
+    });
+}
+
+function renderRecentPublished(recentList) {
+    const container = document.getElementById('recentPublishedList');
+    if (!container) return;
+
+    if (!recentList || recentList.length === 0) {
+        container.innerHTML = '<div class="empty-state">暂无发布记录</div>';
+        return;
+    }
+
+    container.innerHTML = recentList.map(item => `
+        <div class="recent-article-item">
+            <div class="article-date">${item.date}</div>
+            <div class="article-info">
+                <div class="article-title">${item.title}</div>
+                <div class="article-topic badge badge-topic">${item.topic}</div>
+            </div>
+            <div class="article-status">✅ 已发布</div>
+        </div>
+    `).join('');
+}
+
 
 function setupExtendedFilters() {
     const metricSelector = document.getElementById('metricSelector');
@@ -956,6 +1192,9 @@ function switchTab(tabName) {
                     else if (tabName === 'sla') {
                         updateSLAMonitoring(previousData);
                     }
+                    else if (tabName === 'content') {
+                        updateContentFactory(previousData);
+                    }
                 }
             }, 100);
         });
@@ -1006,7 +1245,7 @@ function updateKPIBanner(data) {
         const card = kpiAlerts.closest('.kpi-card');
         if (card) {
             card.classList.toggle('pulse', alertCount > 0);
-            const detailText = alertCount > 0 
+            const detailText = alertCount > 0
                 ? `当前有 ${alertCount} 个 P0 级别告警文件 (ALERT_P0_*.lock)`
                 : `当前无 P0 级别告警`;
             card.title = detailText;
@@ -1025,8 +1264,8 @@ function updateKPIBanner(data) {
     if (kpiSuccess) {
         const successRate = data.performance?.success_rate;
         // 处理null、undefined、NaN等情况
-        const rate = (successRate !== null && successRate !== undefined && !isNaN(successRate)) 
-            ? Number(successRate) 
+        const rate = (successRate !== null && successRate !== undefined && !isNaN(successRate))
+            ? Number(successRate)
             : 0;
         kpiSuccess.textContent = `${rate.toFixed(1)}%`;
     }

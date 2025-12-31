@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-01 02:24:46",
+  "timestamp": "2026-01-01 03:02:29",
   "health": {
     "score": 100,
     "status": "healthy",
@@ -12,7 +12,7 @@
         "priority": "P0",
         "workflow": "check-alerts",
         "created": "2026-01-01 02:09:29",
-        "age_minutes": 15.3,
+        "age_minutes": 53.0,
         "trace_id": "trc-0101020929"
       },
       {
@@ -20,15 +20,31 @@
         "priority": "P0",
         "workflow": "process-tasks",
         "created": "2026-01-01 01:59:29",
-        "age_minutes": 25.3,
+        "age_minutes": 63.0,
         "trace_id": "trc-0101015929"
+      },
+      {
+        "id": "P0_task_watchdog_trc-0101023929.lock",
+        "priority": "P0",
+        "workflow": "task-watchdog",
+        "created": "2026-01-01 02:39:29",
+        "age_minutes": 23.0,
+        "trace_id": "trc-0101023929"
+      },
+      {
+        "id": "P2_refresh_dashboard_trc-0101023929.lock",
+        "priority": "P2",
+        "workflow": "refresh-dashboard",
+        "created": "2026-01-01 02:39:29",
+        "age_minutes": 23.0,
+        "trace_id": "trc-0101023929"
       },
       {
         "id": "pending_config_val.lock",
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-01 02:03:39",
-        "age_minutes": 21.1,
+        "age_minutes": 58.8,
         "trace_id": null
       }
     ],
@@ -36,15 +52,15 @@
     "alerts": []
   },
   "logs": {
-    "total": 10,
+    "total": 12,
     "by_level": {
-      "INFO": 10,
+      "INFO": 12,
       "WARN": 0,
       "ERROR": 0,
       "FATAL": 0
     },
     "by_workflow": {
-      "scout": 3,
+      "scout": 5,
       "system_optimization": 4,
       "plan": 3
     },
@@ -53,9 +69,9 @@
   "performance": {
     "avg_duration_by_workflow": {},
     "duration_percentiles": {},
-    "token_usage_today": 0,
-    "token_usage_week": 88000,
-    "success_count": 7,
+    "token_usage_today": 5000,
+    "token_usage_week": 93000,
+    "success_count": 9,
     "fail_count": 0,
     "success_rate": 100.0
   },
@@ -63,17 +79,17 @@
     "daily_budget": 100.0,
     "daily_token_budget": 500000,
     "token_price_per_k": 0.1,
-    "today_total_cost": 0.0,
-    "today_token_usage": 0,
-    "week_total_cost": 8.8,
-    "week_token_usage": 88000,
-    "budget_usage_percent": 0.0,
+    "today_total_cost": 1.0,
+    "today_token_usage": 10000,
+    "week_total_cost": 17.05,
+    "week_token_usage": 170500,
+    "budget_usage_percent": 1.0,
     "budget_status": "normal",
     "by_workflow_today": {
       "scout": {
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 3
+        "tokens": 10000,
+        "cost": 1.0,
+        "count": 5
       },
       "system_optimization": {
         "tokens": 0,
@@ -88,9 +104,9 @@
     },
     "by_workflow_week": {
       "scout": {
-        "tokens": 5000,
-        "cost": 0.5,
-        "count": 5
+        "tokens": 20000,
+        "cost": 2.0,
+        "count": 7
       },
       "system_optimization": {
         "tokens": 0,
@@ -98,18 +114,18 @@
         "count": 4
       },
       "plan": {
-        "tokens": 0,
-        "cost": 0.0,
+        "tokens": 2000,
+        "cost": 0.2,
         "count": 5
       },
       "write-article": {
-        "tokens": 83000,
-        "cost": 8.3,
+        "tokens": 143000,
+        "cost": 14.299999999999994,
         "count": 20
       },
       "qc-check": {
-        "tokens": 0,
-        "cost": 0.0,
+        "tokens": 5000,
+        "cost": 0.5,
         "count": 3
       },
       "scheduler": {
@@ -118,8 +134,8 @@
         "count": 1
       },
       "check-alerts": {
-        "tokens": 0,
-        "cost": 0.0,
+        "tokens": 500,
+        "cost": 0.05,
         "count": 3
       },
       "task-watchdog": {
@@ -136,60 +152,67 @@
     "by_workflow_today_formatted": [
       {
         "workflow": "scout",
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 3,
-        "percentage": 0
+        "tokens": 10000,
+        "cost": 1.0,
+        "count": 5,
+        "percentage": 100.0
       },
       {
         "workflow": "system_optimization",
         "tokens": 0,
         "cost": 0.0,
         "count": 4,
-        "percentage": 0
+        "percentage": 0.0
       },
       {
         "workflow": "plan",
         "tokens": 0,
         "cost": 0.0,
         "count": 3,
-        "percentage": 0
+        "percentage": 0.0
       }
     ],
     "by_workflow_week_formatted": [
       {
         "workflow": "write-article",
-        "tokens": 83000,
-        "cost": 8.3,
+        "tokens": 143000,
+        "cost": 14.3,
         "count": 20,
-        "percentage": 94.3
+        "percentage": 83.9
       },
       {
         "workflow": "scout",
+        "tokens": 20000,
+        "cost": 2.0,
+        "count": 7,
+        "percentage": 11.7
+      },
+      {
+        "workflow": "qc-check",
         "tokens": 5000,
         "cost": 0.5,
+        "count": 3,
+        "percentage": 2.9
+      },
+      {
+        "workflow": "plan",
+        "tokens": 2000,
+        "cost": 0.2,
         "count": 5,
-        "percentage": 5.7
+        "percentage": 1.2
+      },
+      {
+        "workflow": "check-alerts",
+        "tokens": 500,
+        "cost": 0.05,
+        "count": 3,
+        "percentage": 0.3
       },
       {
         "workflow": "system_optimization",
         "tokens": 0,
         "cost": 0.0,
         "count": 4,
-        "percentage": 0.0
-      },
-      {
-        "workflow": "plan",
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 5,
-        "percentage": 0.0
-      },
-      {
-        "workflow": "qc-check",
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 3,
         "percentage": 0.0
       },
       {
@@ -197,13 +220,6 @@
         "tokens": 0,
         "cost": 0.0,
         "count": 1,
-        "percentage": 0.0
-      },
-      {
-        "workflow": "check-alerts",
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 3,
         "percentage": 0.0
       },
       {
@@ -221,6 +237,296 @@
         "percentage": 0.0
       }
     ]
+  },
+  "content_factory": {
+    "pipeline": {
+      "inbox": 67,
+      "scheduled": 6,
+      "wip": 2,
+      "published": 72
+    },
+    "pipeline_details": {
+      "inbox": [
+        {
+          "title": "OpenAI 的 24 亿美元电费账单曝光",
+          "type": "topic"
+        },
+        {
+          "title": "端侧 AI 的隐形代价：4 小时吸干电池",
+          "type": "topic"
+        },
+        {
+          "title": "Nvidia B200 实测功耗破 1000W",
+          "type": "topic"
+        },
+        {
+          "title": "固态电池量产倒计时：2026 成关键分水岭",
+          "type": "topic"
+        },
+        {
+          "title": "2025/2026 冬测实录：热泵成败局关键",
+          "type": "topic"
+        },
+        {
+          "title": "硅碳负极普及风暴：7000mAh 旗舰机扎堆",
+          "type": "topic"
+        },
+        {
+          "title": "NEW-1：7300mAh硅碳电池军备竞赛：一加15续航25小时登顶",
+          "type": "topic"
+        },
+        {
+          "title": "NEW-2：AI PC续航逆袭：NPU让笔记本续航突破30小时",
+          "type": "topic"
+        },
+        {
+          "title": "NEW-3：2025电动车冬季续航大考：Polestar 3仅缩水5%登顶",
+          "type": "topic"
+        },
+        {
+          "title": "NEW-4：台积电2nm量产：GAA晶体管让能效提升30%",
+          "type": "topic"
+        },
+        {
+          "title": "NEW-5：OpenAI能耗账单曝光：ChatGPT年耗电172亿度，电费24亿美元",
+          "type": "topic"
+        },
+        {
+          "title": "5090功耗怪兽与B200的降本真相",
+          "type": "topic"
+        },
+        {
+          "title": "2025年冬测：电车谁最抗冻?",
+          "type": "topic"
+        },
+        {
+          "title": "固态电池量产元年？",
+          "type": "topic"
+        },
+        {
+          "title": "AI PC 续航逆天：30小时时代",
+          "type": "topic"
+        },
+        {
+          "title": "NEW-4：光子芯片突破：比英伟达 GPU 快 100 倍，能耗降 100 倍",
+          "type": "topic"
+        },
+        {
+          "title": "NEW-5：硅碳负极全面爆发：中国厂商集体7000mAh，苹果三星被甩开",
+          "type": "topic"
+        },
+        {
+          "title": "NEW-1：AMD 38x 能效目标提前达成，2030 冲20x机架级能效",
+          "type": "topic"
+        },
+        {
+          "title": "NEW-2：奔驰固态电池实测突破 1200 公里续航",
+          "type": "topic"
+        },
+        {
+          "title": "NEW-3：2025 年 AI 数据中心吃掉全球 448 TWh 电力，2030 将翻倍",
+          "type": "topic"
+        }
+      ],
+      "scheduled": [
+        {
+          "priority": "P0",
+          "title": "7500mAh！硅碳负极让 2026 年旗舰机彻底告别充电宝",
+          "topic": "5-端侧异变",
+          "date": "2026-01-03"
+        },
+        {
+          "priority": "P1",
+          "title": "算力的尽头是发电厂：为何 AMD 与 Nvidia 都在死磕“每瓦性能”？",
+          "topic": "2-算力跃迁",
+          "date": "2026-01-04"
+        },
+        {
+          "priority": "P1",
+          "title": "零下 20 度缩水 40%？2026 冬测揭开电动车\"虚标\"的遮羞布",
+          "topic": "4-电力之冠",
+          "date": "2026-01-05"
+        },
+        {
+          "priority": "P0",
+          "title": "25小时续航！一加15用7300mAh硅碳电池终结了充电焦虑",
+          "topic": "5-端侧异变",
+          "date": "2026-01-02"
+        },
+        {
+          "priority": "P1",
+          "title": "34小时续航！AI PC用NPU终结了笔记本\"半天电\"魔咒",
+          "topic": "5-端侧异变",
+          "date": "2026-01-03"
+        },
+        {
+          "priority": "P1",
+          "title": "-25°C大考！Polestar 3仅缩水5%，这才是电动车续航的真相",
+          "topic": "4-电力之冠",
+          "date": "2026-01-04"
+        }
+      ],
+      "wip": [
+        {
+          "priority": "WIP",
+          "title": "34小时续航！AI PC用NPU终结了笔记本...",
+          "date": "2026-01-03"
+        },
+        {
+          "priority": "WIP",
+          "title": "-25°C大考！Polestar 3仅缩水5%，这才是...",
+          "date": "2026-01-04"
+        }
+      ],
+      "published": [
+        {
+          "date": "2025-12-31",
+          "title": "555°C 秒变 3.5°C！Nature 揭秘“温敏”黑科技，锂电池针刺测试竟比体温还低？",
+          "topic": "04-电力之冠"
+        },
+        {
+          "date": "2025-12-30",
+          "title": "200 亿美金只买\"租用权\"？英伟达变相吞下 Groq，揭示了 AI 推理的能效焦虑",
+          "topic": "02-算力跃迁"
+        },
+        {
+          "date": "2025-12-29",
+          "title": "续航 1200km？奔驰 EQS 固态版上路：这次不靠“大标”，靠铜负极",
+          "topic": "04-电力之冠"
+        },
+        {
+          "date": "2025-12-28",
+          "title": "充电器可以扔了？这颗能用 50 年的“核能电池”，正从科幻走进现实",
+          "topic": "04-电力之冠"
+        },
+        {
+          "date": "2025-12-28",
+          "title": "10,000mAh！荣耀撕开了移动算力最后一块“遮羞布”",
+          "topic": "04-电力之冠"
+        },
+        {
+          "date": "2025-12-28",
+          "title": "续航暴涨 40%？Snapdragon X Elite 并不是为了赢，而是为了送葬 x86 的“插座时代”",
+          "topic": "05-端侧异变"
+        },
+        {
+          "date": "2025-12-26",
+          "title": "为什么机器人连鸡蛋都拿不住？别怪大脑，它只是缺一张“皮”",
+          "topic": "03-具身革命"
+        },
+        {
+          "date": "2025-12-25",
+          "title": "别只盯着跑分了！英伟达 B300 突然变强，其实是因为它学会了“偷工减料”",
+          "topic": "02-算力跃迁"
+        },
+        {
+          "date": "2025-12-25",
+          "title": "深度透视：RTX 5090 移动版效能前瞻——3 万元买的是「卡皇」还是「李鬼」?",
+          "topic": "02-算力跃迁"
+        },
+        {
+          "date": "2025-12-24",
+          "title": "马斯克不敢提的 Optimus 软肋：全身装满电池，只能打工 2 小时",
+          "topic": "03-具身革命"
+        },
+        {
+          "date": "2025-12-24",
+          "title": "别只盯着 2nm 了！星际旅行不需要“娇贵”的芯片，我们要的是“能防弹”的钻石大脑",
+          "topic": "06-星际硅基"
+        },
+        {
+          "date": "2025-12-23",
+          "title": "AI 智能体的“热力学墙”：为何 2nm 也救不了全天候 AI？",
+          "topic": "01-硬件终局"
+        },
+        {
+          "date": "2025-12-23",
+          "title": "深度透视：Intel Panther Lake (18A) 效能前瞻——x86 的「背水一战」还是「困兽之斗」？",
+          "topic": "01-硬件终局"
+        },
+        {
+          "date": "2025-12-22",
+          "title": "Intel 18A 并不是一次升级，而是 x86 帝国最后的“赌命”",
+          "topic": "01-硬件终局"
+        },
+        {
+          "date": "2025-12-22",
+          "title": "别只盯着显卡了！清华“类脑芯片”暴力破局：计算的终局，竟然是模仿大脑 🧠",
+          "topic": "07-模拟觉醒"
+        },
+        {
+          "date": "2025-12-22",
+          "title": "物理学的“逆行”：为什么 2025 年的顶级芯片，都开始“倒着”造了？",
+          "topic": "01-硬件终局"
+        },
+        {
+          "date": "2025-12-21",
+          "title": "AI 手机的“续航谎言”：算力再高，散热压不住也是徒劳",
+          "topic": "05-端侧异变"
+        },
+        {
+          "date": "2025-12-20",
+          "title": "硅基时代生存地图：拒绝成为“电池人”",
+          "topic": "00-系统综述"
+        },
+        {
+          "date": "2025-12-20",
+          "title": "NAND 闪存的“阳谋”：你薅的 SSD 羊毛，正在烧穿未来的电费单",
+          "topic": "05-端侧异变"
+        },
+        {
+          "date": "2025-12-20",
+          "title": "你为 100% 云 CPU 付费，但只用到 70%？Hypervisor 隐藏的虚拟化能耗税",
+          "topic": "00-待分类"
+        }
+      ]
+    },
+    "recent_published": [
+      {
+        "date": "2025-12-31",
+        "title": "555°C 秒变 3.5°C！Nature 揭秘“温敏”黑科技，锂电池针刺测试竟比体温还低？",
+        "topic": "04-电力之冠"
+      },
+      {
+        "date": "2025-12-30",
+        "title": "200 亿美金只买\"租用权\"？英伟达变相吞下 Groq，揭示了 AI 推理的能效焦虑",
+        "topic": "02-算力跃迁"
+      },
+      {
+        "date": "2025-12-29",
+        "title": "续航 1200km？奔驰 EQS 固态版上路：这次不靠“大标”，靠铜负极",
+        "topic": "04-电力之冠"
+      },
+      {
+        "date": "2025-12-28",
+        "title": "充电器可以扔了？这颗能用 50 年的“核能电池”，正从科幻走进现实",
+        "topic": "04-电力之冠"
+      },
+      {
+        "date": "2025-12-28",
+        "title": "10,000mAh！荣耀撕开了移动算力最后一块“遮羞布”",
+        "topic": "04-电力之冠"
+      }
+    ],
+    "topic_distribution": {
+      "04-电力之冠": 15,
+      "02-算力跃迁": 10,
+      "05-端侧异变": 15,
+      "03-具身革命": 3,
+      "06-星际硅基": 3,
+      "01-硬件终局": 10,
+      "07-模拟觉醒": 5,
+      "00-系统综述": 2,
+      "00-待分类": 9
+    },
+    "weekly_output": {
+      "2025-12-31": 1,
+      "2025-12-30": 1,
+      "2025-12-29": 1,
+      "2025-12-28": 3,
+      "2025-12-26": 1,
+      "2025-12-25": 2
+    }
   },
   "alert_rules": {
     "p0_alerts_threshold": 1,
@@ -325,7 +631,7 @@
       },
       {
         "date": "2026-01-01",
-        "value": 0
+        "value": 5000
       }
     ],
     "multi_metric_trend": {
@@ -356,7 +662,7 @@
         },
         {
           "date": "2026-01-01",
-          "value": 0
+          "value": 5000
         }
       ],
       "success_rate": [
@@ -483,10 +789,10 @@
   },
   "comparison": {
     "token_usage": {
-      "today": 0,
+      "today": 5000,
       "yesterday": 0,
-      "delta": 0,
-      "delta_percent": 0.0
+      "delta": 5000,
+      "delta_percent": 100.0
     },
     "success_rate": {
       "today": 100.0,
@@ -502,12 +808,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-01 02:24:46",
+    "last_update": "2026-01-01 03:02:29",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.06,
+    "duration_seconds": 0.02,
     "has_token_trend": true,
     "errors": []
   }
