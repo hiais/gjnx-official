@@ -1,614 +1,370 @@
 {
-    "comparison":  {
-                       "success_rate":  {
-                                            "today":  100,
-                                            "delta":  8,
-                                            "yesterday":  92,
-                                            "delta_percent":  8
-                                        },
-                       "token_usage":  {
-                                           "today":  0,
-                                           "delta":  -100000,
-                                           "yesterday":  100000,
-                                           "delta_percent":  -100
-                                       },
-                       "error_count":  {
-                                           "today":  0,
-                                           "delta":  -2,
-                                           "yesterday":  2,
-                                           "delta_percent":  -100
-                                       }
-                   },
-    "performance":  {
-                        "token_usage_week":  100000,
-                        "success_rate":  100,
-                        "avg_duration_by_workflow":  {
-
-                                                     },
-                        "success_count":  9,
-                        "fail_count":  0,
-                        "duration_percentiles":  {
-
-                                                 },
-                        "token_usage_today":  0
-                    },
-    "timestamp":  "2025-12-31 23:22:46",
-    "logs":  {
-                 "by_level":  {
-                                  "ERROR":  0,
-                                  "FATAL":  0,
-                                  "INFO":  9,
-                                  "WARN":  0
-                              },
-                 "by_workflow":  {
-                                     "plan":  2,
-                                     "scout":  2,
-                                     "qc-check":  2,
-                                     "write-article":  3
-                                 },
-                 "recent_errors":  null,
-                 "total":  9
-             },
-    "alert_rules":  {
-                        "p0_alerts_threshold":  1,
-                        "queue_backup_threshold":  10,
-                        "error_rate_threshold":  5,
-                        "scheduler_failure_threshold":  1,
-                        "cost_budget_warning_percent":  80,
-                        "cost_budget_critical_percent":  100,
-                        "sla_timeout_threshold":  1,
-                        "description":  {
-                                            "p0_alerts_threshold":  "P0告警数量阈值，超过此值触发告警",
-                                            "queue_backup_threshold":  "任务队列积压阈值，超过此值触发告警",
-                                            "error_rate_threshold":  "每日错误日志数量阈值，超过此值触发告警",
-                                            "scheduler_failure_threshold":  "调度任务失败数量阈值，超过此值触发告警",
-                                            "cost_budget_warning_percent":  "成本预算警告阈值（百分比），达到此值触发警告",
-                                            "cost_budget_critical_percent":  "成本预算严重阈值（百分比），达到此值触发严重告警",
-                                            "sla_timeout_threshold":  "SLA超时任务数量阈值，超过此值触发告警"
-                                        }
-                    },
-    "cost_analysis":  {
-                          "by_workflow_today":  {
-                                                    "plan":  {
-                                                                 "cost":  0,
-                                                                 "tokens":  0,
-                                                                 "count":  2
-                                                             },
-                                                    "scout":  {
-                                                                  "cost":  0,
-                                                                  "tokens":  0,
-                                                                  "count":  2
-                                                              },
-                                                    "qc-check":  {
-                                                                     "cost":  0,
-                                                                     "tokens":  0,
-                                                                     "count":  2
-                                                                 },
-                                                    "write-article":  {
-                                                                          "cost":  0,
-                                                                          "tokens":  0,
-                                                                          "count":  3
-                                                                      }
-                                                },
-                          "by_workflow_today_formatted":  [
-                                                              {
-                                                                  "cost":  0,
-                                                                  "percentage":  0,
-                                                                  "tokens":  0,
-                                                                  "count":  2,
-                                                                  "workflow":  "qc-check"
-                                                              },
-                                                              {
-                                                                  "cost":  0,
-                                                                  "percentage":  0,
-                                                                  "tokens":  0,
-                                                                  "count":  3,
-                                                                  "workflow":  "write-article"
-                                                              },
-                                                              {
-                                                                  "cost":  0,
-                                                                  "percentage":  0,
-                                                                  "tokens":  0,
-                                                                  "count":  2,
-                                                                  "workflow":  "plan"
-                                                              },
-                                                              {
-                                                                  "cost":  0,
-                                                                  "percentage":  0,
-                                                                  "tokens":  0,
-                                                                  "count":  2,
-                                                                  "workflow":  "scout"
-                                                              }
-                                                          ],
-                          "week_token_usage":  0,
-                          "today_total_cost":  0,
-                          "daily_token_budget":  500000,
-                          "daily_budget":  100,
-                          "token_price_per_k":  0.1,
-                          "budget_usage_percent":  0,
-                          "budget_status":  "normal",
-                          "by_workflow_week":  {
-                                                   "write-article":  {
-                                                                         "cost":  9.4999999999999964,
-                                                                         "tokens":  95000,
-                                                                         "count":  21
-                                                                     },
-                                                   "refresh-dashboard":  {
-                                                                             "cost":  0,
-                                                                             "tokens":  0,
-                                                                             "count":  1
-                                                                         },
-                                                   "check-alerts":  {
-                                                                        "cost":  0,
-                                                                        "tokens":  0,
-                                                                        "count":  3
-                                                                    },
-                                                   "qc-check":  {
-                                                                    "cost":  0,
-                                                                    "tokens":  0,
-                                                                    "count":  3
-                                                                },
-                                                   "task-watchdog":  {
-                                                                         "cost":  0,
-                                                                         "tokens":  0,
-                                                                         "count":  2
-                                                                     },
-                                                   "plan":  {
-                                                                "cost":  0,
-                                                                "tokens":  0,
-                                                                "count":  2
-                                                            },
-                                                   "scout":  {
-                                                                 "cost":  0.5,
-                                                                 "tokens":  5000,
-                                                                 "count":  3
-                                                             },
-                                                   "scheduler":  {
-                                                                     "cost":  0,
-                                                                     "tokens":  0,
-                                                                     "count":  1
-                                                                 }
-                                               },
-                          "by_workflow_week_formatted":  [
-                                                             {
-                                                                 "cost":  0,
-                                                                 "percentage":  0,
-                                                                 "tokens":  0,
-                                                                 "count":  2,
-                                                                 "workflow":  "plan"
-                                                             },
-                                                             {
-                                                                 "cost":  0,
-                                                                 "percentage":  0,
-                                                                 "tokens":  0,
-                                                                 "count":  2,
-                                                                 "workflow":  "task-watchdog"
-                                                             },
-                                                             {
-                                                                 "cost":  0,
-                                                                 "percentage":  0,
-                                                                 "tokens":  0,
-                                                                 "count":  1,
-                                                                 "workflow":  "scheduler"
-                                                             },
-                                                             {
-                                                                 "cost":  0.5,
-                                                                 "percentage":  5,
-                                                                 "tokens":  5000,
-                                                                 "count":  3,
-                                                                 "workflow":  "scout"
-                                                             },
-                                                             {
-                                                                 "cost":  0,
-                                                                 "percentage":  0,
-                                                                 "tokens":  0,
-                                                                 "count":  1,
-                                                                 "workflow":  "refresh-dashboard"
-                                                             },
-                                                             {
-                                                                 "cost":  9.5,
-                                                                 "percentage":  95,
-                                                                 "tokens":  95000,
-                                                                 "count":  21,
-                                                                 "workflow":  "write-article"
-                                                             },
-                                                             {
-                                                                 "cost":  0,
-                                                                 "percentage":  0,
-                                                                 "tokens":  0,
-                                                                 "count":  3,
-                                                                 "workflow":  "qc-check"
-                                                             },
-                                                             {
-                                                                 "cost":  0,
-                                                                 "percentage":  0,
-                                                                 "tokens":  0,
-                                                                 "count":  3,
-                                                                 "workflow":  "check-alerts"
-                                                             }
-                                                         ],
-                          "week_total_cost":  9.9999999999999929,
-                          "today_token_usage":  0
-                      },
-    "health":  {
-                   "status":  "healthy",
-                   "score":  95,
-                   "issues":  [
-                                  "ERR_SCHEDULER_EXCEPTION"
-                              ]
-               },
-    "system":  {
-                   "timezone":  "China Standard Time",
-                   "last_update":  "2025-12-31 23:22:46"
-               },
-    "sla_monitoring":  {
-                           "week_stats_formatted":  null,
-                           "week_stats":  {
-
-                                          },
-                           "today_stats_formatted":  null,
-                           "overall_sla_rate":  100,
-                           "today_stats":  {
-
-                                           },
-                           "timeout_tasks":  [
-
-                                             ],
-                           "baselines":  {
-                                             "edit-article":  {
-                                                                  "critical":  8,
-                                                                  "warning":  5,
-                                                                  "typical":  3
-                                                              },
-                                             "scout":  {
-                                                           "critical":  20,
-                                                           "warning":  12,
-                                                           "typical":  8.5
-                                                       },
-                                             "qc-check":  {
-                                                              "critical":  5,
-                                                              "warning":  2,
-                                                              "typical":  1.5
-                                                          },
-                                             "write-article":  {
-                                                                   "critical":  25,
-                                                                   "warning":  15,
-                                                                   "typical":  12
-                                                               }
-                                         },
-                           "sla_violations":  null
-                       },
-    "scheduled_tasks":  [
-                            {
-                                "id":  "Task-0",
-                                "name":  "核心任务处理",
-                                "last_run":  "2025-12-31 23:00:00",
-                                "enabled":  true,
-                                "status":  "Ready",
-                                "last_result":  0
-                            },
-                            {
-                                "id":  "Task-1",
-                                "name":  "日志归档",
-                                "last_run":  "2025-12-31 20:33:33",
-                                "enabled":  true,
-                                "status":  "Ready",
-                                "last_result":  0
-                            },
-                            {
-                                "id":  "Task-2",
-                                "name":  "配置巡检",
-                                "last_run":  "2025-12-31 20:33:33",
-                                "enabled":  true,
-                                "status":  "Ready",
-                                "last_result":  0
-                            },
-                            {
-                                "id":  "Task-3",
-                                "name":  "晨间选题",
-                                "last_run":  "2025-12-31 20:33:33",
-                                "enabled":  true,
-                                "status":  "Ready",
-                                "last_result":  0
-                            },
-                            {
-                                "id":  "Task-5",
-                                "name":  "系统脉冲",
-                                "last_run":  "2025-12-31 23:00:00",
-                                "enabled":  true,
-                                "status":  "Ready",
-                                "last_result":  1
-                            },
-                            {
-                                "id":  "Task-6",
-                                "name":  "任务看门狗",
-                                "last_run":  "2025-12-31 23:00:00",
-                                "enabled":  true,
-                                "status":  "Ready",
-                                "last_result":  0
-                            },
-                            {
-                                "id":  "Task-7",
-                                "name":  "微信数据闭环",
-                                "last_run":  "2025-12-31 20:33:33",
-                                "enabled":  true,
-                                "status":  "Ready",
-                                "last_result":  0
-                            },
-                            {
-                                "id":  "Task-9",
-                                "name":  "代码数据备份",
-                                "last_run":  "2025-12-30 23:55:55",
-                                "enabled":  true,
-                                "status":  "Ready",
-                                "last_result":  0
-                            },
-                            {
-                                "id":  "Task-10",
-                                "name":  "告警自动响应",
-                                "last_run":  "2025-12-31 23:00:00",
-                                "enabled":  true,
-                                "status":  "Ready",
-                                "last_result":  1
-                            }
-                        ],
-    "alerts":  [
-                   {
-                       "action":  "在看板标记“性能黄色预警”",
-                       "rule_id":  "P1-001",
-                       "level":  "🟡 P1",
-                       "reason":  "写作耗时 21min (基准 15min)",
-                       "time":  "2025-12-28 03:26",
-                       "status":  "✅ 已记录"
-                   },
-                   {
-                       "action":  "在看板标记“性能黄色预警”",
-                       "rule_id":  "P1-001",
-                       "level":  "🟡 P1",
-                       "reason":  "平均耗时 21min (\u003e 15min)",
-                       "time":  "2025-12-28 03:26",
-                       "status":  "✅ 已复盘"
-                   }
-               ],
-    "metadata":  {
-                     "collector_version":  "3.2",
-                     "duration_seconds":  4.75,
-                     "errors":  [
-
-                                ],
-                     "has_token_trend":  true
-                 },
-    "history":  {
-                    "multi_metric_trend":  {
-                                               "success_rate":  [
-                                                                    {
-                                                                        "value":  0,
-                                                                        "date":  "2025-12-25"
-                                                                    },
-                                                                    {
-                                                                        "value":  0,
-                                                                        "date":  "2025-12-26"
-                                                                    },
-                                                                    {
-                                                                        "value":  0,
-                                                                        "date":  "2025-12-27"
-                                                                    },
-                                                                    {
-                                                                        "value":  0,
-                                                                        "date":  "2025-12-28"
-                                                                    },
-                                                                    {
-                                                                        "value":  100,
-                                                                        "date":  "2025-12-29"
-                                                                    },
-                                                                    {
-                                                                        "value":  92,
-                                                                        "date":  "2025-12-30"
-                                                                    },
-                                                                    {
-                                                                        "value":  100,
-                                                                        "date":  "2025-12-31"
-                                                                    }
-                                                                ],
-                                               "token_usage":  [
-                                                                   {
-                                                                       "value":  0,
-                                                                       "date":  "2025-12-25"
-                                                                   },
-                                                                   {
-                                                                       "value":  0,
-                                                                       "date":  "2025-12-26"
-                                                                   },
-                                                                   {
-                                                                       "value":  0,
-                                                                       "date":  "2025-12-27"
-                                                                   },
-                                                                   {
-                                                                       "value":  0,
-                                                                       "date":  "2025-12-28"
-                                                                   },
-                                                                   {
-                                                                       "value":  0,
-                                                                       "date":  "2025-12-29"
-                                                                   },
-                                                                   {
-                                                                       "value":  100000,
-                                                                       "date":  "2025-12-30"
-                                                                   },
-                                                                   {
-                                                                       "value":  0,
-                                                                       "date":  "2025-12-31"
-                                                                   }
-                                                               ],
-                                               "queue_length":  [
-                                                                    {
-                                                                        "value":  0,
-                                                                        "date":  "2025-12-25"
-                                                                    },
-                                                                    {
-                                                                        "value":  0,
-                                                                        "date":  "2025-12-26"
-                                                                    },
-                                                                    {
-                                                                        "value":  0,
-                                                                        "date":  "2025-12-27"
-                                                                    },
-                                                                    {
-                                                                        "value":  0,
-                                                                        "date":  "2025-12-28"
-                                                                    },
-                                                                    {
-                                                                        "value":  0,
-                                                                        "date":  "2025-12-29"
-                                                                    },
-                                                                    {
-                                                                        "value":  0,
-                                                                        "date":  "2025-12-30"
-                                                                    },
-                                                                    {
-                                                                        "value":  4,
-                                                                        "date":  "2025-12-31"
-                                                                    }
-                                                                ],
-                                               "avg_duration":  [
-                                                                    {
-                                                                        "value":  0,
-                                                                        "date":  "2025-12-25"
-                                                                    },
-                                                                    {
-                                                                        "value":  0,
-                                                                        "date":  "2025-12-26"
-                                                                    },
-                                                                    {
-                                                                        "value":  0,
-                                                                        "date":  "2025-12-27"
-                                                                    },
-                                                                    {
-                                                                        "value":  0,
-                                                                        "date":  "2025-12-28"
-                                                                    },
-                                                                    {
-                                                                        "value":  41,
-                                                                        "date":  "2025-12-29"
-                                                                    },
-                                                                    {
-                                                                        "value":  6.6,
-                                                                        "date":  "2025-12-30"
-                                                                    },
-                                                                    {
-                                                                        "value":  0,
-                                                                        "date":  "2025-12-31"
-                                                                    }
-                                                                ],
-                                               "error_rate":  [
-                                                                  {
-                                                                      "value":  0,
-                                                                      "date":  "2025-12-25"
-                                                                  },
-                                                                  {
-                                                                      "value":  0,
-                                                                      "date":  "2025-12-26"
-                                                                  },
-                                                                  {
-                                                                      "value":  0,
-                                                                      "date":  "2025-12-27"
-                                                                  },
-                                                                  {
-                                                                      "value":  0,
-                                                                      "date":  "2025-12-28"
-                                                                  },
-                                                                  {
-                                                                      "value":  0,
-                                                                      "date":  "2025-12-29"
-                                                                  },
-                                                                  {
-                                                                      "value":  8,
-                                                                      "date":  "2025-12-30"
-                                                                  },
-                                                                  {
-                                                                      "value":  0,
-                                                                      "date":  "2025-12-31"
-                                                                  }
-                                                              ]
-                                           },
-                    "token_trend_7d":  [
-                                           {
-                                               "value":  0,
-                                               "date":  "2025-12-25"
-                                           },
-                                           {
-                                               "value":  0,
-                                               "date":  "2025-12-26"
-                                           },
-                                           {
-                                               "value":  0,
-                                               "date":  "2025-12-27"
-                                           },
-                                           {
-                                               "value":  0,
-                                               "date":  "2025-12-28"
-                                           },
-                                           {
-                                               "value":  0,
-                                               "date":  "2025-12-29"
-                                           },
-                                           {
-                                               "value":  100000,
-                                               "date":  "2025-12-30"
-                                           },
-                                           {
-                                               "value":  0,
-                                               "date":  "2025-12-31"
-                                           }
-                                       ]
-                },
-    "business":  {
-                     "efficiency":  0,
-                     "qc_pass_rate":  0,
-                     "avg_duration":  0,
-                     "articles_week":  0,
-                     "articles_today":  0
-                 },
-    "tasks":  {
-                  "pending":  [
-                                  {
-                                      "id":  "P0_check_alerts_trc-1231210000.lock",
-                                      "workflow":  "check-alerts",
-                                      "age_minutes":  142.7,
-                                      "created":  "2025-12-31 21:00:00",
-                                      "priority":  "P0",
-                                      "trace_id":  null
-                                  },
-                                  {
-                                      "id":  "P0_process_tasks_trc-1231210045.lock",
-                                      "workflow":  "process-tasks",
-                                      "age_minutes":  141.9,
-                                      "created":  "2025-12-31 21:00:45",
-                                      "priority":  "P0",
-                                      "trace_id":  null
-                                  },
-                                  {
-                                      "id":  "P0_task_watchdog_trc-1231210000.lock",
-                                      "workflow":  "task-watchdog",
-                                      "age_minutes":  142.7,
-                                      "created":  "2025-12-31 21:00:00",
-                                      "priority":  "P0",
-                                      "trace_id":  null
-                                  },
-                                  {
-                                      "id":  "pending_config_val.lock",
-                                      "workflow":  "Unknown",
-                                      "age_minutes":  59.4,
-                                      "created":  "2025-12-31 22:23:19",
-                                      "priority":  "Unknown",
-                                      "trace_id":  null
-                                  }
-                              ],
-                  "alerts":  [
-
-                             ],
-                  "processing":  [
-
-                                 ]
-              }
+  "timestamp": "2026-01-01 00:00:46",
+  "health": {
+    "score": 100,
+    "status": "healthy",
+    "issues": []
+  },
+  "tasks": {
+    "pending": [
+      {
+        "id": "P0_check_alerts_trc-1231210000.lock",
+        "priority": "P0",
+        "workflow": "check-alerts",
+        "created": "2025-12-31 21:00:00",
+        "age_minutes": 180.8,
+        "trace_id": null
+      },
+      {
+        "id": "P0_process_tasks_trc-1231210045.lock",
+        "priority": "P0",
+        "workflow": "process-tasks",
+        "created": "2025-12-31 21:00:45",
+        "age_minutes": 180.0,
+        "trace_id": null
+      },
+      {
+        "id": "P0_task_watchdog_trc-1231210000.lock",
+        "priority": "P0",
+        "workflow": "task-watchdog",
+        "created": "2025-12-31 21:00:00",
+        "age_minutes": 180.8,
+        "trace_id": null
+      },
+      {
+        "id": "P2_save_all_trc-1231235501.lock",
+        "priority": "P2",
+        "workflow": "save",
+        "created": "2025-12-31 23:55:01",
+        "age_minutes": 5.7,
+        "trace_id": null
+      },
+      {
+        "id": "pending_config_val.lock",
+        "priority": "Unknown",
+        "workflow": "validate-config",
+        "created": "2025-12-31 22:23:19",
+        "age_minutes": 97.4,
+        "trace_id": null
+      }
+    ],
+    "processing": [],
+    "alerts": []
+  },
+  "logs": {
+    "total": 0,
+    "by_level": {},
+    "by_workflow": {},
+    "recent_errors": []
+  },
+  "performance": {
+    "avg_duration_by_workflow": {},
+    "duration_percentiles": {},
+    "token_usage_today": 0,
+    "token_usage_week": 0,
+    "success_count": 0,
+    "fail_count": 0,
+    "success_rate": 0
+  },
+  "cost_analysis": {
+    "daily_budget": 100.0,
+    "daily_token_budget": 500000,
+    "token_price_per_k": 0.1,
+    "today_total_cost": 0.0,
+    "today_token_usage": 0,
+    "week_total_cost": 0.0,
+    "week_token_usage": 0,
+    "budget_usage_percent": 0.0,
+    "budget_status": "normal",
+    "by_workflow_today_formatted": [],
+    "by_workflow_week_formatted": []
+  },
+  "alert_rules": {
+    "p0_alerts_threshold": 1,
+    "queue_backup_threshold": 10,
+    "error_rate_threshold": 5,
+    "scheduler_failure_threshold": 1,
+    "cost_budget_warning_percent": 80,
+    "cost_budget_critical_percent": 100,
+    "sla_timeout_threshold": 1,
+    "description": {
+      "p0_alerts_threshold": "P0告警数量阈值，超过此值触发告警",
+      "queue_backup_threshold": "任务队列积压阈值，超过此值触发告警",
+      "error_rate_threshold": "每日错误日志数量阈值，超过此值触发告警",
+      "scheduler_failure_threshold": "调度任务失败数量阈值，超过此值触发告警",
+      "cost_budget_warning_percent": "成本预算警告阈值（百分比），达到此值触发警告",
+      "cost_budget_critical_percent": "成本预算严重阈值（百分比），达到此值触发严重告警",
+      "sla_timeout_threshold": "SLA超时任务数量阈值，超过此值触发告警"
+    }
+  },
+  "sla_monitoring": {
+    "baselines": {
+      "write-article": {
+        "typical": 12.0,
+        "warning": 15.0,
+        "critical": 25.0
+      },
+      "edit-article": {
+        "typical": 3.0,
+        "warning": 5.0,
+        "critical": 8.0
+      },
+      "qc-check": {
+        "typical": 1.5,
+        "warning": 2.0,
+        "critical": 5.0
+      },
+      "scout": {
+        "typical": 8.5,
+        "warning": 12.0,
+        "critical": 20.0
+      }
+    },
+    "today_stats": {},
+    "today_stats_formatted": [],
+    "week_stats_formatted": [],
+    "overall_sla_rate": 100,
+    "timeout_tasks": [],
+    "sla_violations": []
+  },
+  "scheduled_tasks": [],
+  "business": {
+    "articles_today": 0,
+    "articles_week": 0,
+    "qc_pass_rate": 0,
+    "avg_duration": 0,
+    "efficiency": 0
+  },
+  "alerts": [
+    {
+      "time": "2025-12-28 03:26",
+      "level": "🟡 P1",
+      "rule_id": "P1-001",
+      "reason": "写作耗时 21min (基准 15min)",
+      "action": "在看板标记“性能黄色预警”",
+      "status": "✅ 已记录"
+    },
+    {
+      "time": "2025-12-28 03:26",
+      "level": "🟡 P1",
+      "rule_id": "P1-001",
+      "reason": "平均耗时 21min (> 15min)",
+      "action": "在看板标记“性能黄色预警”",
+      "status": "✅ 已复盘"
+    }
+  ],
+  "history": {
+    "token_trend_7d": [
+      {
+        "date": "2025-12-26",
+        "value": 0
+      },
+      {
+        "date": "2025-12-27",
+        "value": 0
+      },
+      {
+        "date": "2025-12-28",
+        "value": 0
+      },
+      {
+        "date": "2025-12-29",
+        "value": 0
+      },
+      {
+        "date": "2025-12-30",
+        "value": 88000
+      },
+      {
+        "date": "2025-12-31",
+        "value": 0
+      },
+      {
+        "date": "2026-01-01",
+        "value": 0
+      }
+    ],
+    "multi_metric_trend": {
+      "token_usage": [
+        {
+          "date": "2025-12-26",
+          "value": 0
+        },
+        {
+          "date": "2025-12-27",
+          "value": 0
+        },
+        {
+          "date": "2025-12-28",
+          "value": 0
+        },
+        {
+          "date": "2025-12-29",
+          "value": 0
+        },
+        {
+          "date": "2025-12-30",
+          "value": 88000
+        },
+        {
+          "date": "2025-12-31",
+          "value": 0
+        },
+        {
+          "date": "2026-01-01",
+          "value": 0
+        }
+      ],
+      "success_rate": [
+        {
+          "date": "2025-12-26",
+          "value": 0
+        },
+        {
+          "date": "2025-12-27",
+          "value": 0
+        },
+        {
+          "date": "2025-12-28",
+          "value": 0
+        },
+        {
+          "date": "2025-12-29",
+          "value": 100.0
+        },
+        {
+          "date": "2025-12-30",
+          "value": 91.7
+        },
+        {
+          "date": "2025-12-31",
+          "value": 100.0
+        },
+        {
+          "date": "2026-01-01",
+          "value": 0
+        }
+      ],
+      "error_rate": [
+        {
+          "date": "2025-12-26",
+          "value": 0
+        },
+        {
+          "date": "2025-12-27",
+          "value": 0
+        },
+        {
+          "date": "2025-12-28",
+          "value": 0
+        },
+        {
+          "date": "2025-12-29",
+          "value": 0.0
+        },
+        {
+          "date": "2025-12-30",
+          "value": 8.33
+        },
+        {
+          "date": "2025-12-31",
+          "value": 0.0
+        },
+        {
+          "date": "2026-01-01",
+          "value": 0
+        }
+      ],
+      "queue_length": [
+        {
+          "date": "2025-12-26",
+          "value": 0
+        },
+        {
+          "date": "2025-12-27",
+          "value": 0
+        },
+        {
+          "date": "2025-12-28",
+          "value": 0
+        },
+        {
+          "date": "2025-12-29",
+          "value": 0
+        },
+        {
+          "date": "2025-12-30",
+          "value": 0
+        },
+        {
+          "date": "2025-12-31",
+          "value": 0
+        },
+        {
+          "date": "2026-01-01",
+          "value": 0
+        }
+      ],
+      "avg_duration": [
+        {
+          "date": "2025-12-26",
+          "value": 0
+        },
+        {
+          "date": "2025-12-27",
+          "value": 0
+        },
+        {
+          "date": "2025-12-28",
+          "value": 0
+        },
+        {
+          "date": "2025-12-29",
+          "value": 41.0
+        },
+        {
+          "date": "2025-12-30",
+          "value": 6.3
+        },
+        {
+          "date": "2025-12-31",
+          "value": 0
+        },
+        {
+          "date": "2026-01-01",
+          "value": 0
+        }
+      ]
+    }
+  },
+  "comparison": {
+    "token_usage": {
+      "today": 0,
+      "yesterday": 0,
+      "delta": 0,
+      "delta_percent": 0.0
+    },
+    "success_rate": {
+      "today": 0,
+      "yesterday": 100.0,
+      "delta": -100.0,
+      "delta_percent": -100.0
+    },
+    "error_count": {
+      "today": 0,
+      "yesterday": 0,
+      "delta": 0,
+      "delta_percent": 0.0
+    }
+  },
+  "system": {
+    "last_update": "2026-01-01T00:00:46.174618",
+    "timezone": "Asia/Shanghai"
+  },
+  "metadata": {
+    "collector_version": "3.2",
+    "duration_seconds": 0.01,
+    "has_token_trend": true,
+    "errors": []
+  }
 }
