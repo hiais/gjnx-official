@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-01 03:50:07",
+  "timestamp": "2026-01-01 03:57:23",
   "health": {
     "score": 100,
     "status": "healthy",
@@ -12,7 +12,7 @@
         "priority": "P0",
         "workflow": "check-alerts",
         "created": "2026-01-01 02:09:29",
-        "age_minutes": 100.6,
+        "age_minutes": 107.9,
         "trace_id": "trc-0101020929"
       },
       {
@@ -20,7 +20,7 @@
         "priority": "P0",
         "workflow": "process-tasks",
         "created": "2026-01-01 01:59:29",
-        "age_minutes": 110.6,
+        "age_minutes": 117.9,
         "trace_id": "trc-0101015929"
       },
       {
@@ -28,7 +28,7 @@
         "priority": "P0",
         "workflow": "task-watchdog",
         "created": "2026-01-01 02:39:29",
-        "age_minutes": 70.6,
+        "age_minutes": 77.9,
         "trace_id": "trc-0101023929"
       },
       {
@@ -36,7 +36,7 @@
         "priority": "P1",
         "workflow": "daily-config-check",
         "created": "2026-01-01 03:24:30",
-        "age_minutes": 25.6,
+        "age_minutes": 32.9,
         "trace_id": "trc-0101032430"
       },
       {
@@ -44,7 +44,7 @@
         "priority": "P2",
         "workflow": "archive-logs",
         "created": "2026-01-01 03:19:30",
-        "age_minutes": 30.6,
+        "age_minutes": 37.9,
         "trace_id": "trc-0101031930"
       },
       {
@@ -52,7 +52,7 @@
         "priority": "P2",
         "workflow": "refresh-dashboard",
         "created": "2026-01-01 02:39:29",
-        "age_minutes": 70.6,
+        "age_minutes": 77.9,
         "trace_id": "trc-0101023929"
       },
       {
@@ -60,7 +60,7 @@
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-01 02:03:39",
-        "age_minutes": 106.5,
+        "age_minutes": 113.7,
         "trace_id": null
       }
     ],
@@ -68,20 +68,460 @@
     "alerts": []
   },
   "logs": {
-    "total": 12,
+    "total": 133,
     "by_level": {
-      "INFO": 12,
+      "INFO": 133,
       "WARN": 0,
       "ERROR": 0,
-      "FATAL": 0
+      "FATAL": 0,
+      "SUCCESS": 0
     },
     "by_workflow": {
+      "daemon": 79,
+      "check-alerts": 6,
+      "refresh-dashboard": 7,
+      "task-watchdog": 4,
+      "process-tasks": 25,
       "scout": 5,
       "system_optimization": 4,
       "plan": 3
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-01-01T03:45:19",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Config file loaded successfully: D:\\gjnx\\02_Agent_System\\Config\\workflow-dependencies.json",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:45:19",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "File system watcher started: D:\\gjnx\\.agent\\tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:45:19",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon started (Event-driven mode - Immersive Creation)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:45:19",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Project root: D:\\gjnx",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:45:19",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Watch directory: D:\\gjnx\\.agent\\tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:45:19",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Mode: All workflows are event-driven, no scheduled tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:41:24",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Config file loaded successfully: D:\\gjnx\\02_Agent_System\\Config\\workflow-dependencies.json",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:41:24",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "File system watcher started: D:\\gjnx\\.agent\\tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:41:24",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon started (Event-driven mode - Immersive Creation)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:41:24",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Project root: D:\\gjnx",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:41:24",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Watch directory: D:\\gjnx\\.agent\\tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:41:24",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Mode: All workflows are event-driven, no scheduled tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:41:18",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon stopping...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:41:18",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon stopped",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:39:30",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: check-alerts (interval: 30 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:39:30",
+        "level": "INFO",
+        "workflow": "check-alerts",
+        "message": "Successfully triggered periodic task: check-alerts",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:39:30",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: refresh-dashboard (interval: 60 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:39:30",
+        "level": "INFO",
+        "workflow": "refresh-dashboard",
+        "message": "Successfully triggered periodic task: refresh-dashboard",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:39:30",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: task-watchdog (interval: 60 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:39:30",
+        "level": "INFO",
+        "workflow": "task-watchdog",
+        "message": "Successfully triggered periodic task: task-watchdog",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:39:30",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:39:30",
+        "level": "INFO",
+        "workflow": "process-tasks",
+        "message": "Successfully triggered periodic task: process-tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:38:30",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon running... (running for 120 seconds)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:34:30",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:34:30",
+        "level": "INFO",
+        "workflow": "process-tasks",
+        "message": "Successfully triggered periodic task: process-tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:29:30",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:29:30",
+        "level": "INFO",
+        "workflow": "process-tasks",
+        "message": "Successfully triggered periodic task: process-tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:24:30",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:24:30",
+        "level": "INFO",
+        "workflow": "process-tasks",
+        "message": "Successfully triggered periodic task: process-tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:24:30",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daily task triggered: daily-config-check (time: 03:25)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:24:30",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Successfully triggered daily task: daily-config-check",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:19:30",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:19:30",
+        "level": "INFO",
+        "workflow": "process-tasks",
+        "message": "Successfully triggered periodic task: process-tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:19:30",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daily task triggered: archive-logs (time: 03:20)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:19:30",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Successfully triggered daily task: archive-logs",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:14:30",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:14:30",
+        "level": "INFO",
+        "workflow": "process-tasks",
+        "message": "Successfully triggered periodic task: process-tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:09:30",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: check-alerts (interval: 30 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:09:30",
+        "level": "INFO",
+        "workflow": "check-alerts",
+        "message": "Successfully triggered periodic task: check-alerts",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:09:30",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:09:30",
+        "level": "INFO",
+        "workflow": "process-tasks",
+        "message": "Successfully triggered periodic task: process-tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:04:30",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T03:04:30",
+        "level": "INFO",
+        "workflow": "process-tasks",
+        "message": "Successfully triggered periodic task: process-tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T02:59:30",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T02:59:30",
+        "level": "INFO",
+        "workflow": "process-tasks",
+        "message": "Successfully triggered periodic task: process-tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T02:54:30",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T02:54:30",
+        "level": "INFO",
+        "workflow": "process-tasks",
+        "message": "Successfully triggered periodic task: process-tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T02:49:30",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T02:49:30",
+        "level": "INFO",
+        "workflow": "process-tasks",
+        "message": "Successfully triggered periodic task: process-tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T02:44:30",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T02:44:30",
+        "level": "INFO",
+        "workflow": "process-tasks",
+        "message": "Successfully triggered periodic task: process-tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T02:39:29",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: check-alerts (interval: 30 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T02:39:29",
+        "level": "INFO",
+        "workflow": "check-alerts",
+        "message": "Successfully triggered periodic task: check-alerts",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T02:39:29",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: refresh-dashboard (interval: 60 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T02:39:29",
+        "level": "INFO",
+        "workflow": "refresh-dashboard",
+        "message": "Successfully triggered periodic task: refresh-dashboard",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T02:39:29",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: task-watchdog (interval: 60 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T02:39:29",
+        "level": "INFO",
+        "workflow": "task-watchdog",
+        "message": "Successfully triggered periodic task: task-watchdog",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T02:39:29",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T02:39:29",
+        "level": "INFO",
+        "workflow": "process-tasks",
+        "message": "Successfully triggered periodic task: process-tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T02:38:29",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon running... (running for 60 seconds)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T02:34:29",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T02:34:29",
+        "level": "INFO",
+        "workflow": "process-tasks",
+        "message": "Successfully triggered periodic task: process-tasks",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-01T02:33:21.195+08:00",
         "level": "INFO",
@@ -97,11 +537,39 @@
         "trace_id": "trace-20260101-023033-scout"
       },
       {
+        "time": "2026-01-01T02:29:29",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T02:29:29",
+        "level": "INFO",
+        "workflow": "process-tasks",
+        "message": "Successfully triggered periodic task: process-tasks",
+        "trace_id": ""
+      },
+      {
         "time": "2026-01-01T02:24:46.052+08:00",
         "level": "INFO",
         "workflow": "system_optimization",
         "message": "Real-time dashboard sync enabled",
         "trace_id": "trace-20260101-022446-system_optimization"
+      },
+      {
+        "time": "2026-01-01T02:24:29",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T02:24:29",
+        "level": "INFO",
+        "workflow": "process-tasks",
+        "message": "Successfully triggered periodic task: process-tasks",
+        "trace_id": ""
       },
       {
         "time": "2026-01-01T02:24:27.479+08:00",
@@ -132,11 +600,32 @@
         "trace_id": "trace-20260101-022044-plan"
       },
       {
+        "time": "2026-01-01T02:20:00+08:00",
+        "level": "INFO",
+        "workflow": "scout",
+        "message": "workflow_end",
+        "trace_id": "trace-20260101-020820-scout"
+      },
+      {
         "time": "2026-01-01T02:19:59.394+08:00",
         "level": "INFO",
         "workflow": "system_optimization",
         "message": "Verified and optimized log standards",
         "trace_id": "trace-20260101-021959-system_optimization"
+      },
+      {
+        "time": "2026-01-01T02:19:29",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T02:19:29",
+        "level": "INFO",
+        "workflow": "process-tasks",
+        "message": "Successfully triggered periodic task: process-tasks",
+        "trace_id": ""
       },
       {
         "time": "2026-01-01T02:17:14.390+08:00",
@@ -146,13 +635,6 @@
         "trace_id": "trace-20260101-021714-system_optimization"
       },
       {
-        "time": "2026-01-01T02:20:00+08:00",
-        "level": "INFO",
-        "workflow": "scout",
-        "message": "workflow_end",
-        "trace_id": "trace-20260101-020820-scout"
-      },
-      {
         "time": "2026-01-01T02:15:00+08:00",
         "level": "INFO",
         "workflow": "scout",
@@ -160,11 +642,151 @@
         "trace_id": "trace-20260101-020820-scout"
       },
       {
+        "time": "2026-01-01T02:14:29",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T02:14:29",
+        "level": "INFO",
+        "workflow": "process-tasks",
+        "message": "Successfully triggered periodic task: process-tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T02:09:29",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: check-alerts (interval: 30 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T02:09:29",
+        "level": "INFO",
+        "workflow": "check-alerts",
+        "message": "Successfully triggered periodic task: check-alerts",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T02:09:29",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T02:09:29",
+        "level": "INFO",
+        "workflow": "process-tasks",
+        "message": "Successfully triggered periodic task: process-tasks",
+        "trace_id": ""
+      },
+      {
         "time": "2026-01-01T02:08:20+08:00",
         "level": "INFO",
         "workflow": "scout",
         "message": "workflow_start",
         "trace_id": "trace-20260101-020820-scout"
+      },
+      {
+        "time": "2026-01-01T02:04:29",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T02:04:29",
+        "level": "INFO",
+        "workflow": "process-tasks",
+        "message": "Successfully triggered periodic task: process-tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T01:59:29",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T01:59:29",
+        "level": "INFO",
+        "workflow": "process-tasks",
+        "message": "Successfully triggered periodic task: process-tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T01:54:29",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T01:54:29",
+        "level": "INFO",
+        "workflow": "process-tasks",
+        "message": "Successfully triggered periodic task: process-tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T01:52:29",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Chain trigger: refresh-dashboard (triggered by write-article completion)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T01:52:29",
+        "level": "INFO",
+        "workflow": "refresh-dashboard",
+        "message": "Successfully triggered workflow: refresh-dashboard",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T01:52:27",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Workflow completed detected: write-article",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T01:49:27",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T01:49:27",
+        "level": "INFO",
+        "workflow": "process-tasks",
+        "message": "Successfully triggered periodic task: process-tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T01:44:27",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic task triggered: process-tasks (interval: 5 minutes)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T01:44:27",
+        "level": "INFO",
+        "workflow": "process-tasks",
+        "message": "Successfully triggered periodic task: process-tasks",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T01:39:27",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Config file loaded successfully: D:\\gjnx\\02_Agent_System\\Config\\workflow-dependencies.json",
+        "trace_id": ""
       }
     ]
   },
@@ -893,12 +1515,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-01 03:50:07",
+    "last_update": "2026-01-01 03:57:23",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.03,
+    "duration_seconds": 0.05,
     "has_token_trend": true,
     "errors": []
   }
