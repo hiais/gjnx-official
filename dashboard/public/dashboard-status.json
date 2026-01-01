@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-01 14:54:25",
+  "timestamp": "2026-01-01 14:57:44",
   "health": {
     "score": 100,
     "status": "healthy",
     "issues": [],
     "daemon_status": {
       "alive": true,
-      "last_heartbeat": "2026-01-01 14:47:03"
+      "last_heartbeat": "2026-01-01 14:56:04"
     }
   },
   "tasks": {
@@ -16,7 +16,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 13:59:31",
-        "age_minutes": 54.9,
+        "age_minutes": 58.2,
         "trace_id": "trc-0101135931"
       },
       {
@@ -24,7 +24,7 @@
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-01 14:49:14",
-        "age_minutes": 5.2,
+        "age_minutes": 8.5,
         "trace_id": null
       }
     ],
@@ -32,23 +32,23 @@
       {
         "id": "P2_save_all_trc-0101135814.processing",
         "created": "2026-01-01 13:58:14",
-        "age_minutes": 56.2
+        "age_minutes": 59.5
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 693,
+    "total": 694,
     "by_level": {
-      "INFO": 656,
+      "INFO": 657,
       "WARN": 3,
       "ERROR": 2,
       "FATAL": 0,
       "SUCCESS": 32
     },
     "by_workflow": {
-      "daemon": 612,
+      "daemon": 613,
       "verify-data": 9,
       "process-tasks": 34,
       "refresh-dashboard": 16,
@@ -75,6 +75,13 @@
       }
     ],
     "recent_activities": [
+      {
+        "time": "2026-01-01T14:56:04",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 14:56",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-01T14:50:04",
         "level": "INFO",
@@ -766,13 +773,6 @@
         "level": "INFO",
         "workflow": "daemon",
         "message": "Headless Runner: Executing [wechat-auto-stats] -> python scripts/wechat_stats_automation.py --mode quick --headless false",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T13:58:14",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon V2.8 Started (Chain-Enabled + Smart Logging)",
         "trace_id": ""
       }
     ]
@@ -1516,12 +1516,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-01 14:54:25",
+    "last_update": "2026-01-01 14:57:44",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.03,
+    "duration_seconds": 0.04,
     "has_token_trend": true,
     "errors": []
   }
