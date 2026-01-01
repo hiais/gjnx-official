@@ -1,829 +1,116 @@
 {
-  "timestamp": "2026-01-01 22:30:20",
+  "timestamp": "2026-01-02 02:14:11",
   "health": {
     "score": 100,
     "status": "healthy",
     "issues": [],
     "daemon_status": {
       "alive": true,
-      "last_heartbeat": "2026-01-01 22:24:20"
+      "last_heartbeat": "2026-01-02 02:12:10"
     }
   },
   "tasks": {
     "pending": [
       {
+        "id": "P2_archive_logs_trc-0102021410.lock",
+        "priority": "P2",
+        "workflow": "archive-logs",
+        "created": "2026-01-02 02:14:10",
+        "age_minutes": 0.0,
+        "trace_id": "trc-0102021410"
+      },
+      {
         "id": "P2_process_tasks_trc-0101163845.lock",
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 351.6,
+        "age_minutes": 575.4,
         "trace_id": "trc-0101163845"
+      },
+      {
+        "id": "pending_config_val.lock",
+        "priority": "Unknown",
+        "workflow": "validate-config",
+        "created": "2026-01-01 22:30:28",
+        "age_minutes": 223.7,
+        "trace_id": null
       }
     ],
     "processing": [
       {
-        "id": "P2_save_all_trc-0101223020.processing",
-        "created": "2026-01-01 22:30:20",
-        "age_minutes": 0.0
+        "id": "P0_system_sentinel_trc-0102021400.processing",
+        "created": "2026-01-02 02:14:00",
+        "age_minutes": 0.2
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 908,
+    "total": 4,
     "by_level": {
-      "INFO": 838,
-      "WARN": 3,
-      "ERROR": 2,
+      "INFO": 4,
+      "WARN": 0,
+      "ERROR": 0,
       "FATAL": 0,
-      "SUCCESS": 49,
-      "SYSTEM": 16
+      "SUCCESS": 0,
+      "SYSTEM": 0
     },
     "by_workflow": {
-      "daemon": 755,
-      "system": 17,
-      "validate-config": 8,
-      "write-article": 38,
-      "verify-data": 13,
-      "plan": 8,
-      "process-tasks": 34,
-      "refresh-dashboard": 16,
-      "check-alerts": 6,
-      "task-watchdog": 4,
-      "scout": 5,
-      "system_optimization": 4
+      "daemon": 4
     },
-    "recent_errors": [
-      {
-        "time": "2026-01-01T12:54:15",
-        "level": "ERROR",
-        "workflow": "daemon",
-        "message": "Workflow Failed: [save-all] - ERROR: 所在位置 行:1 字符: 11",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T12:51:31",
-        "level": "ERROR",
-        "workflow": "daemon",
-        "message": "Workflow Failed: [save-all] - ERROR: 所在位置 行:1 字符: 11",
-        "trace_id": ""
-      }
-    ],
+    "recent_errors": [],
     "recent_activities": [
       {
-        "time": "2026-01-01T22:30:20",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic Trigger: [save-all] at 22:30",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T22:30:20",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [save-all] -> powershell -ExecutionPolicy Bypass -File scripts/save-all.ps1",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T22:30:20",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Generating dashboard data...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T22:26:17.560+08:00",
-        "level": "INFO",
-        "workflow": "validate-config",
-        "message": "Config Validation Completed. 'Core Highlights' Citation rule is now strictly FORBIDDEN across Prompt, Config, and QC.",
-        "trace_id": "trace-20260101-222527-val"
-      },
-      {
-        "time": "2026-01-01T22:25:36.952+08:00",
-        "level": "INFO",
-        "workflow": "validate-config",
-        "message": "Validating system configuration after 'Core Highlights Citation' rule update.",
-        "trace_id": "trace-20260101-222527-val"
-      },
-      {
-        "time": "2026-01-01T22:24:20",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 22:24",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T22:22:49.956+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Rewrite complete. Draft generated at '03_Content_Factory/01_WeChat/Drafts/04-电力之冠/'. Status: QC PASS.",
-        "trace_id": "trace-20260101-221818-write"
-      },
-      {
-        "time": "2026-01-01T22:22:18.154+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Step 7.1: Performing Final QC Check.",
-        "trace_id": "trace-20260101-221818-write"
-      },
-      {
-        "time": "2026-01-01T22:21:58.070+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Step 7: Initiating Data Verification.",
-        "trace_id": "trace-20260101-221818-write"
-      },
-      {
-        "time": "2026-01-01T22:20:49.343+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Step 6: Generating Remaining Modules and Finalizing Footer SSOT.",
-        "trace_id": "trace-20260101-221818-write"
-      },
-      {
-        "time": "2026-01-01T22:20:36.339+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Step 5: Generating Chapters 03-04 (Solution & System Depth) with G-R-T-B visuals.",
-        "trace_id": "trace-20260101-221818-write"
-      },
-      {
-        "time": "2026-01-01T22:20:25.797+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Step 4: Generating Chapter 02 (Root Cause Analysis with Data Table).",
-        "trace_id": "trace-20260101-221818-write"
-      },
-      {
-        "time": "2026-01-01T22:20:15.143+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Step 3: Generating Chapter 01 (Pain Point Scenario).",
-        "trace_id": "trace-20260101-221818-write"
-      },
-      {
-        "time": "2026-01-01T22:20:05.733+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Step 2: Generating Metadata and Golden Opening.",
-        "trace_id": "trace-20260101-221818-write"
-      },
-      {
-        "time": "2026-01-01T22:19:38.564+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Step 1: Title Formatting for LG Battery article.",
-        "trace_id": "trace-20260101-221818-write"
-      },
-      {
-        "time": "2026-01-01T22:18:29.085+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Initiating Rewrite of the latest article with full SSOT alignment.",
-        "trace_id": "trace-20260101-221818-write"
-      },
-      {
-        "time": "2026-01-01T22:16:15.547+08:00",
-        "level": "INFO",
-        "workflow": "validate-config",
-        "message": "Validation complete: System is 100% aligned with V5.3/V3.8/V1.3 standards. All hardcoded dates removed or semanticized.",
-        "trace_id": "trace-20260101-221356-final-val"
-      },
-      {
-        "time": "2026-01-01T22:14:19",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 22:14",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T22:14:06.422+08:00",
-        "level": "INFO",
-        "workflow": "validate-config",
-        "message": "Initiating final consistency validation for Article Structure V3.8 and system-wide alignment.",
-        "trace_id": "trace-20260101-221356-final-val"
-      },
-      {
-        "time": "2026-01-01T22:07:45.973+08:00",
-        "level": "INFO",
-        "workflow": "validate-config",
-        "message": "Architecture consolidation complete: Expert Tone rules migrated to Image Specification Config (SSOT)",
-        "trace_id": "trace-20260101-220656-final-ssot"
-      },
-      {
-        "time": "2026-01-01T22:04:19",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 22:04",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T22:02:19",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [archive-logs]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T22:01:19",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [system-sentinel]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T22:01:19",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Chain Propagation: [system-sentinel] -> [process-tasks]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T22:01:19",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [archive-logs] -> python scripts/auto_update_dashboard.py --archive",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T22:00:19",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic Trigger: [system-sentinel] at 22:00",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T22:00:19",
+        "time": "2026-01-02T02:14:10",
         "level": "INFO",
         "workflow": "daemon",
         "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
         "trace_id": ""
       },
       {
-        "time": "2026-01-01T22:00:19",
+        "time": "2026-01-02T02:14:10",
         "level": "INFO",
         "workflow": "daemon",
         "message": "Daily Sidecar Activation: [archive-logs] (Triggered by system-sentinel)",
         "trace_id": ""
       },
       {
-        "time": "2026-01-01T21:59:25.711+08:00",
-        "level": "INFO",
-        "workflow": "validate-config",
-        "message": "Final deep scan for configuration consistency (V3.8/V1.3)",
-        "trace_id": "trace-20260101-215916-final-val"
-      },
-      {
-        "time": "2026-01-01T21:58:29.150+08:00",
-        "level": "INFO",
-        "workflow": "validate-config",
-        "message": "Config validation and auto-alignment complete for V3.8",
-        "trace_id": "trace-20260101-215729-val"
-      },
-      {
-        "time": "2026-01-01T21:57:45.062+08:00",
-        "level": "INFO",
-        "workflow": "validate-config",
-        "message": "Initiating validation for Article Structure Config V3.8",
-        "trace_id": "trace-20260101-215729-val"
-      },
-      {
-        "time": "2026-01-01T21:54:19",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 21:54",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T21:50:13.229+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "LG Battery Draft generated and VERIFIED. QC passed.",
-        "trace_id": "trace-20260101-214706-write-lg"
-      },
-      {
-        "time": "2026-01-01T21:49:39.854+08:00",
-        "level": "INFO",
-        "workflow": "verify-data",
-        "message": "Verifying data for LG Battery story",
-        "trace_id": "trace-20260101-214706-write-lg"
-      },
-      {
-        "time": "2026-01-01T21:48:45.843+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Chapter 05-06 & Footer QC passed",
-        "trace_id": "trace-20260101-214706-write-lg"
-      },
-      {
-        "time": "2026-01-01T21:48:38.778+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Chapter 03-04 QC passed",
-        "trace_id": "trace-20260101-214706-write-lg"
-      },
-      {
-        "time": "2026-01-01T21:48:29.204+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Chapter 02 QC passed",
-        "trace_id": "trace-20260101-214706-write-lg"
-      },
-      {
-        "time": "2026-01-01T21:48:22.911+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Chapter 01 QC passed",
-        "trace_id": "trace-20260101-214706-write-lg"
-      },
-      {
-        "time": "2026-01-01T21:48:16.331+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Opening QC passed",
-        "trace_id": "trace-20260101-214706-write-lg"
-      },
-      {
-        "time": "2026-01-01T21:48:09.844+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Title QC passed: 寿命翻倍！LG 发布软件定义电池，充电宝这下真要失业了",
-        "trace_id": "trace-20260101-214706-write-lg"
-      },
-      {
-        "time": "2026-01-01T21:47:27.195+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Config synchronized: Structure V3.7, QC V1.2 (Data Enhanced)",
-        "trace_id": "trace-20260101-214706-write-lg"
-      },
-      {
-        "time": "2026-01-01T21:44:18",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 21:44",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T21:40:30.525+08:00",
-        "level": "INFO",
-        "workflow": "verify-data",
-        "message": "补产数据验证流程完成",
-        "trace_id": "trace-20260101-213855-verify"
-      },
-      {
-        "time": "2026-01-01T21:40:00.631+08:00",
-        "level": "INFO",
-        "workflow": "verify-data",
-        "message": "补产 A19 Pro 稿件的数据验证报告 (Apple Multi-core Power)",
-        "trace_id": "trace-20260101-213855-verify"
-      },
-      {
-        "time": "2026-01-01T21:39:18.187+08:00",
-        "level": "INFO",
-        "workflow": "verify-data",
-        "message": "补产 OpenAI 稿件的数据验证报告 (Multi-source Cross-check)",
-        "trace_id": "trace-20260101-213855-verify"
-      },
-      {
-        "time": "2026-01-01T21:34:18",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 21:34",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T21:24:18",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 21:24",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T21:18:36.820+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Write-article workflow for P1 OpenAI task finished (Imagery pending due to quota)",
-        "trace_id": "trace-20260101-211631-write"
-      },
-      {
-        "time": "2026-01-01T21:17:39.114+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Title and Opening QC passed",
-        "trace_id": "trace-20260101-211631-write"
-      },
-      {
-        "time": "2026-01-01T21:17:25.574+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Step 1 & 2: Title and Opening",
-        "trace_id": "trace-20260101-211631-write"
-      },
-      {
-        "time": "2026-01-01T21:16:58.492+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Config synchronized: Structure V3.7, QC V1.2, Persona V5.0",
-        "trace_id": "trace-20260101-211631-write"
-      },
-      {
-        "time": "2026-01-01T21:16:49.373+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Initiating write-article workflow for scheduled tasks",
-        "trace_id": "trace-20260101-211631-write"
-      },
-      {
-        "time": "2026-01-01T21:15:18",
+        "time": "2026-01-02T02:12:10",
         "level": "INFO",
         "workflow": "daemon",
         "message": "Daemon V3.1 Started (Sidecar Engine + Smart State)",
         "trace_id": ""
       },
       {
-        "time": "2026-01-01T21:15:18",
+        "time": "2026-01-02T02:12:10",
         "level": "INFO",
         "workflow": "daemon",
         "message": "Project Root: D:\\gjnx",
         "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T21:14:52",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "CLEAN: Old processes and ports released",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T21:14:52",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "START: All background services launched (Monitor, Daemon, Web)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T21:14:48",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "STOP: Killing old processes (LogMonitor, WorkflowDaemon, DashboardServer)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T21:14:47",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "INIT: Dashboard Full Restart Initiated",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T21:13:23",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon V3.1 Started (Sidecar Engine + Smart State)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T21:13:23",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Project Root: D:\\gjnx",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T21:13:11",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "CLEAN: Old processes and ports released",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T21:13:11",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "START: All background services launched (Monitor, Daemon, Web)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T21:13:08",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "STOP: Killing old processes (LogMonitor, WorkflowDaemon, DashboardServer)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T21:13:07",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "INIT: Dashboard Full Restart Initiated",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T21:11:40",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "CLEAN: Old processes and ports released",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T21:11:40",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "START: All background services launched (Monitor, Daemon, Web)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T21:11:37",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "INIT: Dashboard Full Restart Initiated",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T21:11:37",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "STOP: Killing old processes (LogMonitor, WorkflowDaemon, DashboardServer)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T21:10:31",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon V3.1 Started (Sidecar Engine + Smart State)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T21:10:31",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Project Root: D:\\gjnx",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T20:51:14",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "CLEAN: Old processes and ports released",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T20:51:14",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "START: All background services launched (Monitor, Daemon, Web)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T20:51:11",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "INIT: Dashboard Full Restart Initiated",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T20:51:11",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "STOP: Killing old processes (LogMonitor, WorkflowDaemon, DashboardServer)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T20:45:46",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 20:45",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T20:35:46",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 20:35",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T20:31:46",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [save-all]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T20:31:46",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Chain Propagation: [save-all] -> [process-tasks]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T20:31:10.000+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Write-article workflow completed successfully",
-        "trace_id": "trace-20260101-202620-write"
-      },
-      {
-        "time": "2026-01-01T20:30:45",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic Trigger: [save-all] at 20:30",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T20:30:45",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [save-all] -> powershell -ExecutionPolicy Bypass -File scripts/save-all.ps1",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T20:29:12.607+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Chapter 05-06 & Closing QC passed",
-        "trace_id": "trace-20260101-202620-write"
-      },
-      {
-        "time": "2026-01-01T20:29:05.309+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Step 6: Remaining Modules & Closing",
-        "trace_id": "trace-20260101-202620-write"
-      },
-      {
-        "time": "2026-01-01T20:28:53.010+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Chapter 03-04 QC passed",
-        "trace_id": "trace-20260101-202620-write"
-      },
-      {
-        "time": "2026-01-01T20:28:46.076+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Step 5: Chapter 03-04",
-        "trace_id": "trace-20260101-202620-write"
-      },
-      {
-        "time": "2026-01-01T20:28:35.638+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Chapter 02 QC passed",
-        "trace_id": "trace-20260101-202620-write"
-      },
-      {
-        "time": "2026-01-01T20:28:27.438+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Step 4: Chapter 02",
-        "trace_id": "trace-20260101-202620-write"
-      },
-      {
-        "time": "2026-01-01T20:28:16.729+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Chapter 01 QC passed",
-        "trace_id": "trace-20260101-202620-write"
-      },
-      {
-        "time": "2026-01-01T20:28:09.597+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Step 3: Chapter 01",
-        "trace_id": "trace-20260101-202620-write"
-      },
-      {
-        "time": "2026-01-01T20:28:00.068+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Opening QC passed",
-        "trace_id": "trace-20260101-202620-write"
-      },
-      {
-        "time": "2026-01-01T20:27:52.174+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Step 2: Introduction & Core Points",
-        "trace_id": "trace-20260101-202620-write"
-      },
-      {
-        "time": "2026-01-01T20:27:40.881+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Title QC passed: # 12.1W 的暴击！A19 Pro 彻底撕开了安卓旗舰的能效遮羞布",
-        "trace_id": "trace-20260101-202620-write"
-      },
-      {
-        "time": "2026-01-01T20:27:28.920+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Step 1: Title Formatting",
-        "trace_id": "trace-20260101-202620-write"
-      },
-      {
-        "time": "2026-01-01T20:26:46.049+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Config synchronized: Structure V3.7, QC V1.2",
-        "trace_id": "trace-20260101-202620-write"
-      },
-      {
-        "time": "2026-01-01T20:26:31.201+08:00",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "Write-article workflow started",
-        "trace_id": "trace-20260101-202620-write"
-      },
-      {
-        "time": "2026-01-01T20:25:48.740+08:00",
-        "level": "INFO",
-        "workflow": "plan",
-        "message": "Plan workflow completed successfully",
-        "trace_id": "trace-20260101-202214-plan"
-      },
-      {
-        "time": "2026-01-01T20:25:45",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 20:25",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T20:25:08.947+08:00",
-        "level": "INFO",
-        "workflow": "plan",
-        "message": "User approved the plan proposal",
-        "trace_id": "trace-20260101-202214-plan"
-      },
-      {
-        "time": "2026-01-01T20:23:34.393+08:00",
-        "level": "INFO",
-        "workflow": "plan",
-        "message": "Cleared pending_config_val.lock, proceeding with planning",
-        "trace_id": "trace-20260101-202214-plan"
-      },
-      {
-        "time": "2026-01-01T20:23:01.702+08:00",
-        "level": "INFO",
-        "workflow": "plan",
-        "message": "Triggering process-tasks due to pending_config_val.lock",
-        "trace_id": "trace-20260101-202214-plan"
       }
     ]
   },
   "performance": {
     "avg_duration_by_workflow": {},
     "duration_percentiles": {},
-    "token_usage_today": 5000,
-    "token_usage_week": 93000,
-    "success_count": 64,
+    "token_usage_today": 0,
+    "token_usage_week": 292500,
+    "success_count": 0,
     "fail_count": 0,
-    "success_rate": 100.0
+    "success_rate": 0
   },
   "cost_analysis": {
     "daily_budget": 100.0,
     "daily_token_budget": 500000,
     "token_price_per_k": 0.1,
-    "today_total_cost": 13.2,
-    "today_token_usage": 132000,
+    "today_total_cost": 0,
+    "today_token_usage": 0,
     "week_total_cost": 29.25,
     "week_token_usage": 292500,
-    "budget_usage_percent": 13.2,
+    "budget_usage_percent": 0.0,
     "budget_status": "normal",
-    "by_workflow_today": {
-      "scout": {
-        "tokens": 10000,
-        "cost": 1.0,
-        "count": 5
-      },
-      "system_optimization": {
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 4
-      },
-      "plan": {
-        "tokens": 2000,
-        "cost": 0.2,
-        "count": 8
-      },
-      "write-article": {
-        "tokens": 120000,
-        "cost": 12.0,
-        "count": 38
-      },
-      "verify-data": {
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 4
-      },
-      "validate-config": {
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 8
-      }
-    },
+    "by_workflow_today": {},
     "by_workflow_week": {
       "scout": {
         "tokens": 20000,
@@ -881,50 +168,7 @@
         "count": 1
       }
     },
-    "by_workflow_today_formatted": [
-      {
-        "workflow": "write-article",
-        "tokens": 120000,
-        "cost": 12.0,
-        "count": 38,
-        "percentage": 90.9
-      },
-      {
-        "workflow": "scout",
-        "tokens": 10000,
-        "cost": 1.0,
-        "count": 5,
-        "percentage": 7.6
-      },
-      {
-        "workflow": "plan",
-        "tokens": 2000,
-        "cost": 0.2,
-        "count": 8,
-        "percentage": 1.5
-      },
-      {
-        "workflow": "system_optimization",
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 4,
-        "percentage": 0.0
-      },
-      {
-        "workflow": "verify-data",
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 4,
-        "percentage": 0.0
-      },
-      {
-        "workflow": "validate-config",
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 8,
-        "percentage": 0.0
-      }
-    ],
+    "by_workflow_today_formatted": [],
     "by_workflow_week_formatted": [
       {
         "workflow": "write-article",
@@ -1306,8 +550,7 @@
       "2025-12-30": 1,
       "2025-12-29": 1,
       "2025-12-28": 3,
-      "2025-12-26": 1,
-      "2025-12-25": 2
+      "2025-12-26": 1
     }
   },
   "alert_rules": {
@@ -1361,7 +604,7 @@
   },
   "scheduled_tasks": [],
   "business": {
-    "articles_today": 38,
+    "articles_today": 0,
     "articles_week": 59,
     "qc_pass_rate": 66.7,
     "avg_duration": 0,
@@ -1370,10 +613,6 @@
   "alerts": [],
   "history": {
     "token_trend_7d": [
-      {
-        "date": "2025-12-26",
-        "value": 0
-      },
       {
         "date": "2025-12-27",
         "value": 0
@@ -1384,27 +623,27 @@
       },
       {
         "date": "2025-12-29",
-        "value": 0
+        "value": 30000
       },
       {
         "date": "2025-12-30",
-        "value": 88000
+        "value": 88500
       },
       {
         "date": "2025-12-31",
-        "value": 0
+        "value": 42000
       },
       {
         "date": "2026-01-01",
-        "value": 5000
+        "value": 132000
+      },
+      {
+        "date": "2026-01-02",
+        "value": 0
       }
     ],
     "multi_metric_trend": {
       "token_usage": [
-        {
-          "date": "2025-12-26",
-          "value": 0
-        },
         {
           "date": "2025-12-27",
           "value": 0
@@ -1415,26 +654,26 @@
         },
         {
           "date": "2025-12-29",
-          "value": 0
+          "value": 30000
         },
         {
           "date": "2025-12-30",
-          "value": 88000
+          "value": 88500
         },
         {
           "date": "2025-12-31",
-          "value": 0
+          "value": 42000
         },
         {
           "date": "2026-01-01",
-          "value": 5000
+          "value": 132000
+        },
+        {
+          "date": "2026-01-02",
+          "value": 0
         }
       ],
       "success_rate": [
-        {
-          "date": "2025-12-26",
-          "value": 0
-        },
         {
           "date": "2025-12-27",
           "value": 0
@@ -1458,13 +697,13 @@
         {
           "date": "2026-01-01",
           "value": 100.0
+        },
+        {
+          "date": "2026-01-02",
+          "value": 0
         }
       ],
       "error_rate": [
-        {
-          "date": "2025-12-26",
-          "value": 0
-        },
         {
           "date": "2025-12-27",
           "value": 0
@@ -1488,13 +727,13 @@
         {
           "date": "2026-01-01",
           "value": 0.0
+        },
+        {
+          "date": "2026-01-02",
+          "value": 0
         }
       ],
       "queue_length": [
-        {
-          "date": "2025-12-26",
-          "value": 0
-        },
         {
           "date": "2025-12-27",
           "value": 0
@@ -1518,13 +757,13 @@
         {
           "date": "2026-01-01",
           "value": 0
+        },
+        {
+          "date": "2026-01-02",
+          "value": 0
         }
       ],
       "avg_duration": [
-        {
-          "date": "2025-12-26",
-          "value": 0
-        },
         {
           "date": "2025-12-27",
           "value": 0
@@ -1548,37 +787,41 @@
         {
           "date": "2026-01-01",
           "value": 0
+        },
+        {
+          "date": "2026-01-02",
+          "value": 0
         }
       ]
     }
   },
   "comparison": {
     "token_usage": {
-      "today": 5000,
-      "yesterday": 0,
-      "delta": 5000,
-      "delta_percent": 100.0
+      "today": 0,
+      "yesterday": 132000,
+      "delta": -132000,
+      "delta_percent": -100.0
     },
     "success_rate": {
-      "today": 100.0,
+      "today": 0,
       "yesterday": 100.0,
-      "delta": 0.0,
-      "delta_percent": 0.0
+      "delta": -100.0,
+      "delta_percent": -100.0
     },
     "error_count": {
-      "today": 2,
+      "today": 0,
       "yesterday": 0,
-      "delta": 2,
-      "delta_percent": 100.0
+      "delta": 0,
+      "delta_percent": 0.0
     }
   },
   "system": {
-    "last_update": "2026-01-01 22:30:20",
+    "last_update": "2026-01-02 02:14:11",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.06,
+    "duration_seconds": 0.29,
     "has_token_trend": true,
     "errors": []
   }
