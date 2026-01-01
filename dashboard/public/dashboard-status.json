@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-01 12:34:07",
+  "timestamp": "2026-01-01 12:34:08",
   "health": {
     "score": 100,
     "status": "healthy",
@@ -1490,12 +1490,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-01 12:34:07",
+    "last_update": "2026-01-01 12:34:08",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.05,
+    "duration_seconds": 0.03,
     "has_token_trend": true,
     "errors": []
   }
