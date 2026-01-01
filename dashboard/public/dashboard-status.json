@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-01 19:00:49",
+  "timestamp": "2026-01-01 20:00:29",
   "health": {
     "score": 100,
     "status": "healthy",
     "issues": [],
     "daemon_status": {
       "alive": true,
-      "last_heartbeat": "2026-01-01 18:55:48"
+      "last_heartbeat": "2026-01-01 19:56:28"
     }
   },
   "tasks": {
@@ -16,7 +16,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 142.1,
+        "age_minutes": 201.7,
         "trace_id": "trc-0101163845"
       },
       {
@@ -24,19 +24,19 @@
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-01 15:53:03",
-        "age_minutes": 187.8,
+        "age_minutes": 247.4,
         "trace_id": null
       }
     ],
     "processing": [
       {
-        "id": "P2_archive_logs_trc-0101190048.processing",
-        "created": "2026-01-01 19:00:48",
+        "id": "P2_archive_logs_trc-0101200028.processing",
+        "created": "2026-01-01 20:00:28",
         "age_minutes": 0.0
       },
       {
-        "id": "P2_system_sentinel_trc-0101190048.processing",
-        "created": "2026-01-01 19:00:48",
+        "id": "P2_system_sentinel_trc-0101200028.processing",
+        "created": "2026-01-01 20:00:28",
         "age_minutes": 0.0
       }
     ],
@@ -44,16 +44,16 @@
     "alerts": []
   },
   "logs": {
-    "total": 788,
+    "total": 799,
     "by_level": {
-      "INFO": 741,
+      "INFO": 750,
       "WARN": 3,
       "ERROR": 2,
       "FATAL": 0,
-      "SUCCESS": 42
+      "SUCCESS": 44
     },
     "by_workflow": {
-      "daemon": 707,
+      "daemon": 718,
       "verify-data": 9,
       "process-tasks": 34,
       "refresh-dashboard": 16,
@@ -80,6 +80,83 @@
       }
     ],
     "recent_activities": [
+      {
+        "time": "2026-01-01T20:00:28",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Scheduled Trigger: [system-sentinel] at 20:00",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T20:00:28",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daily Trigger: [archive-logs] (Once per day)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T20:00:28",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [archive-logs] -> python scripts/auto_update_dashboard.py --archive",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T20:00:28",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T19:56:28",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 19:56",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T19:46:28",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 19:46",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T19:15:49",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 19:15",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T19:05:49",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 19:05",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T19:01:49",
+        "level": "SUCCESS",
+        "workflow": "daemon",
+        "message": "Workflow Completed: [archive-logs]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T19:01:49",
+        "level": "SUCCESS",
+        "workflow": "daemon",
+        "message": "Workflow Completed: [system-sentinel]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T19:01:49",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Chain Trigger: [system-sentinel] -> [process-tasks]",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-01T19:00:49",
         "level": "INFO",
@@ -701,83 +778,6 @@
         "level": "INFO",
         "workflow": "daemon",
         "message": "No automation command for [generic]. Skipping headless execution.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T15:19:53",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 15:19",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T15:10:53",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon V2.8 Started (Chain-Enabled + Smart Logging)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T15:10:53",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Project Root: D:\\gjnx",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T15:10:53",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "No automation command for [generic]. Skipping headless execution.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T15:06:04",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 15:06",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T14:56:04",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 14:56",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T14:50:04",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "No automation command for [generic]. Skipping headless execution.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T14:49:04",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [run-tests]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T14:48:04",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Pulse Alignment: Triggering [run-tests] exactly at 14:48",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T14:48:04",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [validate-config]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T14:48:04",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [system-sentinel]",
         "trace_id": ""
       }
     ]
@@ -1522,7 +1522,7 @@
     }
   },
   "system": {
-    "last_update": "2026-01-01 19:00:49",
+    "last_update": "2026-01-01 20:00:29",
     "timezone": "China Standard Time"
   },
   "metadata": {
