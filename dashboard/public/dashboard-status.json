@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-01 16:35:51",
+  "timestamp": "2026-01-01 16:36:46",
   "health": {
     "score": 100,
     "status": "healthy",
@@ -16,25 +16,31 @@
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-01 15:53:03",
-        "age_minutes": 42.8,
+        "age_minutes": 43.7,
         "trace_id": null
       }
     ],
-    "processing": [],
+    "processing": [
+      {
+        "id": "P1_save_all_trc-0101163557.processing",
+        "created": "2026-01-01 16:35:57",
+        "age_minutes": 0.8
+      }
+    ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 718,
+    "total": 719,
     "by_level": {
-      "INFO": 679,
+      "INFO": 680,
       "WARN": 3,
       "ERROR": 2,
       "FATAL": 0,
       "SUCCESS": 34
     },
     "by_workflow": {
-      "daemon": 637,
+      "daemon": 638,
       "verify-data": 9,
       "process-tasks": 34,
       "refresh-dashboard": 16,
@@ -61,6 +67,13 @@
       }
     ],
     "recent_activities": [
+      {
+        "time": "2026-01-01T16:36:45",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [save-all] -> powershell -ExecutionPolicy Bypass -File scripts/save-all.ps1",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-01T16:30:45",
         "level": "INFO",
@@ -752,13 +765,6 @@
         "level": "INFO",
         "workflow": "daemon",
         "message": "Pulse Alignment: Triggering [validate-config] exactly at 14:00",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T14:00:13",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Pulse Alignment: Triggering [run-tests] exactly at 14:00",
         "trace_id": ""
       }
     ]
@@ -1502,12 +1508,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-01 16:35:51",
+    "last_update": "2026-01-01 16:36:46",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.03,
+    "duration_seconds": 0.04,
     "has_token_trend": true,
     "errors": []
   }
