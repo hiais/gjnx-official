@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-01 07:52:10",
+  "timestamp": "2026-01-01 12:34:07",
   "health": {
     "score": 100,
     "status": "healthy",
@@ -12,7 +12,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 06:00:30",
-        "age_minutes": 111.7,
+        "age_minutes": 393.6,
         "trace_id": "trc-0101060030"
       },
       {
@@ -20,7 +20,7 @@
         "priority": "P2",
         "workflow": "verify-data",
         "created": "2026-01-01 06:00:30",
-        "age_minutes": 111.7,
+        "age_minutes": 393.6,
         "trace_id": "trc-0101060030"
       }
     ],
@@ -28,16 +28,16 @@
     "alerts": []
   },
   "logs": {
-    "total": 350,
+    "total": 368,
     "by_level": {
-      "INFO": 347,
+      "INFO": 365,
       "WARN": 3,
       "ERROR": 0,
       "FATAL": 0,
       "SUCCESS": 0
     },
     "by_workflow": {
-      "daemon": 293,
+      "daemon": 311,
       "verify-data": 1,
       "process-tasks": 26,
       "refresh-dashboard": 8,
@@ -49,6 +49,132 @@
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-01-01T12:34:06",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T08:07:09",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T08:07:08",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 08:07",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T08:06:08",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T08:05:08",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T08:04:08",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T08:03:08",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T08:02:08",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T08:01:08",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T08:00:08",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T07:59:08",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T07:58:08",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T07:57:08",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 07:57",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T07:57:08",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T07:56:08",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T07:55:08",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T07:54:08",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T07:53:08",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "No automation command for [verify-data]. Skipping headless execution.",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-01T07:52:08",
         "level": "INFO",
@@ -618,132 +744,6 @@
       },
       {
         "time": "2026-01-01T06:41:07",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "No automation command for [verify-data]. Skipping headless execution.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T06:40:45",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon running... (running for 180 seconds, event-driven mode)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T06:40:07",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "No automation command for [verify-data]. Skipping headless execution.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T06:39:07",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "No automation command for [verify-data]. Skipping headless execution.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T06:38:07",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "No automation command for [verify-data]. Skipping headless execution.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T06:37:07",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 06:37",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T06:37:07",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "No automation command for [verify-data]. Skipping headless execution.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T06:36:07",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "No automation command for [verify-data]. Skipping headless execution.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T06:35:07",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "No automation command for [verify-data]. Skipping headless execution.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T06:34:07",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "No automation command for [verify-data]. Skipping headless execution.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T06:33:07",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "No automation command for [verify-data]. Skipping headless execution.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T06:32:07",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "No automation command for [verify-data]. Skipping headless execution.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T06:31:07",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "No automation command for [verify-data]. Skipping headless execution.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T06:30:07",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "No automation command for [verify-data]. Skipping headless execution.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T06:29:07",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "No automation command for [verify-data]. Skipping headless execution.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T06:28:07",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "No automation command for [verify-data]. Skipping headless execution.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T06:27:07",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 06:27",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T06:27:07",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "No automation command for [verify-data]. Skipping headless execution.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T06:26:07",
         "level": "INFO",
         "workflow": "daemon",
         "message": "No automation command for [verify-data]. Skipping headless execution.",
@@ -1490,12 +1490,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-01 07:52:10",
+    "last_update": "2026-01-01 12:34:07",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.03,
+    "duration_seconds": 0.05,
     "has_token_trend": true,
     "errors": []
   }
