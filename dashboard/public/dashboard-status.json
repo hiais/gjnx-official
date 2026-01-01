@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-01 14:37:23",
+  "timestamp": "2026-01-01 14:41:31",
   "health": {
     "score": 100,
     "status": "healthy",
@@ -16,7 +16,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 13:59:31",
-        "age_minutes": 37.9,
+        "age_minutes": 42.0,
         "trace_id": "trc-0101135931"
       }
     ],
@@ -24,7 +24,7 @@
       {
         "id": "P2_save_all_trc-0101135814.processing",
         "created": "2026-01-01 13:58:14",
-        "age_minutes": 39.2
+        "age_minutes": 43.3
       }
     ],
     "failed": [],
@@ -1508,12 +1508,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-01 14:37:23",
+    "last_update": "2026-01-01 14:41:31",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.04,
+    "duration_seconds": 0.03,
     "has_token_trend": true,
     "errors": []
   }
