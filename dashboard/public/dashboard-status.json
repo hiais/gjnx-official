@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-02 04:00:05",
+  "timestamp": "2026-01-02 04:30:05",
   "health": {
     "score": 90,
     "status": "healthy",
@@ -8,7 +8,7 @@
     ],
     "daemon_status": {
       "alive": true,
-      "last_heartbeat": "2026-01-02 03:57:04"
+      "last_heartbeat": "2026-01-02 04:27:05"
     }
   },
   "tasks": {
@@ -18,7 +18,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 681.3,
+        "age_minutes": 711.3,
         "trace_id": "trc-0101163845"
       },
       {
@@ -26,14 +26,14 @@
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-01 22:30:28",
-        "age_minutes": 329.6,
+        "age_minutes": 359.6,
         "trace_id": null
       }
     ],
     "processing": [
       {
-        "id": "P2_system_sentinel_trc-0102040004.processing",
-        "created": "2026-01-02 04:00:04",
+        "id": "P2_save_all_trc-0102043005.processing",
+        "created": "2026-01-02 04:30:05",
         "age_minutes": 0.0
       }
     ],
@@ -41,18 +41,18 @@
     "alerts": []
   },
   "logs": {
-    "total": 62,
+    "total": 70,
     "by_level": {
-      "INFO": 40,
+      "INFO": 47,
       "WARN": 1,
       "ERROR": 6,
       "FATAL": 0,
-      "SUCCESS": 7,
+      "SUCCESS": 8,
       "SYSTEM": 8
     },
     "by_workflow": {
-      "daemon": 47,
-      "system": 15
+      "daemon": 54,
+      "system": 16
     },
     "recent_errors": [
       {
@@ -99,6 +99,62 @@
       }
     ],
     "recent_activities": [
+      {
+        "time": "2026-01-02T04:30:05",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic Trigger: [save-all] at 04:30",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T04:30:05",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [save-all] -> powershell -ExecutionPolicy Bypass -File scripts/save-all.ps1",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T04:30:05",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T04:27:05",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 04:27",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T04:17:04",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 04:17",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T04:07:04",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 04:07",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T04:01:04",
+        "level": "SUCCESS",
+        "workflow": "daemon",
+        "message": "Workflow Completed: [system-sentinel]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T04:01:04",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Chain Propagation: [system-sentinel] -> [process-tasks]",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-02T04:00:04",
         "level": "INFO",
@@ -1260,12 +1316,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-02 04:00:05",
+    "last_update": "2026-01-02 04:30:05",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.1,
+    "duration_seconds": 0.08,
     "has_token_trend": true,
     "errors": []
   }
