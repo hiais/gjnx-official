@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-01 14:41:31",
+  "timestamp": "2026-01-01 14:47:38",
   "health": {
     "score": 100,
     "status": "healthy",
     "issues": [],
     "daemon_status": {
       "alive": true,
-      "last_heartbeat": "2026-01-01 14:37:19"
+      "last_heartbeat": "2026-01-01 14:47:03"
     }
   },
   "tasks": {
@@ -16,7 +16,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 13:59:31",
-        "age_minutes": 42.0,
+        "age_minutes": 48.1,
         "trace_id": "trc-0101135931"
       }
     ],
@@ -24,23 +24,23 @@
       {
         "id": "P2_save_all_trc-0101135814.processing",
         "created": "2026-01-01 13:58:14",
-        "age_minutes": 43.3
+        "age_minutes": 49.4
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 673,
+    "total": 684,
     "by_level": {
-      "INFO": 641,
+      "INFO": 652,
       "WARN": 3,
       "ERROR": 2,
       "FATAL": 0,
       "SUCCESS": 27
     },
     "by_workflow": {
-      "daemon": 592,
+      "daemon": 603,
       "verify-data": 9,
       "process-tasks": 34,
       "refresh-dashboard": 16,
@@ -67,6 +67,83 @@
       }
     ],
     "recent_activities": [
+      {
+        "time": "2026-01-01T14:47:03",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon V2.8 Started (Chain-Enabled + Smart Logging)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T14:47:03",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Project Root: D:\\gjnx",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T14:47:03",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Pulse Alignment: Triggering [system-sentinel] exactly at 14:47",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T14:47:03",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daily Pulse: Triggering [archive-logs] (Once per day)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T14:47:03",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Pulse Alignment: Triggering [save-all] exactly at 14:47",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T14:47:03",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Pulse Alignment: Triggering [wechat-auto-stats] exactly at 14:47",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T14:47:03",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Pulse Alignment: Triggering [validate-config] exactly at 14:47",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T14:47:03",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [archive-logs] -> python scripts/auto_update_dashboard.py --archive",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T14:47:03",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T14:47:03",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [validate-config] -> python scripts/auto_update_dashboard.py",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T14:47:03",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [wechat-auto-stats] -> python scripts/wechat_stats_automation.py --mode quick --headless false",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-01T14:37:19",
         "level": "INFO",
@@ -688,83 +765,6 @@
         "level": "INFO",
         "workflow": "daemon",
         "message": "Headless Runner: Executing [run-tests] -> powershell -ExecutionPolicy Bypass -File scripts/test-workflow-automation.ps1",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T13:58:14",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [save-all] -> git add . ; git commit -m 'chore(auto): periodic configuration & log backup' ; git push",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T13:58:14",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T13:58:14",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [validate-config] -> python scripts/auto_update_dashboard.py",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T13:58:14",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [wechat-auto-stats] -> python scripts/wechat_stats_automation.py --mode quick --headless false",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T13:02:15",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 13:02",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T12:59:06",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "No automation command for [verify-data]. Skipping headless execution.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T12:58:06",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "No automation command for [verify-data]. Skipping headless execution.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T12:57:06",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "No automation command for [verify-data]. Skipping headless execution.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T12:56:06",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "No automation command for [verify-data]. Skipping headless execution.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T12:55:15",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [system-sentinel]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T12:55:15",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Chain Trigger: [system-sentinel] -> [process-tasks]",
         "trace_id": ""
       }
     ]
@@ -1508,7 +1508,7 @@
     }
   },
   "system": {
-    "last_update": "2026-01-01 14:41:31",
+    "last_update": "2026-01-01 14:47:38",
     "timezone": "China Standard Time"
   },
   "metadata": {
