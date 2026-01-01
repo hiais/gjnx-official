@@ -1,30 +1,24 @@
 {
-  "timestamp": "2026-01-02 02:14:11",
+  "timestamp": "2026-01-02 02:30:03",
   "health": {
-    "score": 100,
+    "score": 90,
     "status": "healthy",
-    "issues": [],
+    "issues": [
+      "WARN_HIGH_ERROR_RATE"
+    ],
     "daemon_status": {
       "alive": true,
-      "last_heartbeat": "2026-01-02 02:12:10"
+      "last_heartbeat": "2026-01-02 02:28:02"
     }
   },
   "tasks": {
     "pending": [
       {
-        "id": "P2_archive_logs_trc-0102021410.lock",
-        "priority": "P2",
-        "workflow": "archive-logs",
-        "created": "2026-01-02 02:14:10",
-        "age_minutes": 0.0,
-        "trace_id": "trc-0102021410"
-      },
-      {
         "id": "P2_process_tasks_trc-0101163845.lock",
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 575.4,
+        "age_minutes": 591.3,
         "trace_id": "trc-0101163845"
       },
       {
@@ -32,35 +26,324 @@
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-01 22:30:28",
-        "age_minutes": 223.7,
+        "age_minutes": 239.6,
         "trace_id": null
       }
     ],
     "processing": [
       {
-        "id": "P0_system_sentinel_trc-0102021400.processing",
-        "created": "2026-01-02 02:14:00",
-        "age_minutes": 0.2
+        "id": "P2_save_all_trc-0102023002.processing",
+        "created": "2026-01-02 02:30:02",
+        "age_minutes": 0.0
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 4,
+    "total": 39,
     "by_level": {
-      "INFO": 4,
+      "INFO": 22,
       "WARN": 0,
-      "ERROR": 0,
+      "ERROR": 6,
       "FATAL": 0,
-      "SUCCESS": 0,
-      "SYSTEM": 0
+      "SUCCESS": 3,
+      "SYSTEM": 8
     },
     "by_workflow": {
-      "daemon": 4
+      "system": 9,
+      "daemon": 30
     },
-    "recent_errors": [],
+    "recent_errors": [
+      {
+        "time": "2026-01-02T02:23:02",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "FATAL ERROR in Daemon Loop: 设置“daily_runs”时发生异常:“在此对象上找不到属性“daily_runs”。请确认该属性存在并且可设置。”",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:23:02",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "在 Invoke-SidecarWorkflows、D:\\gjnx\\scripts\\workflow-daemon.ps1 中: 第 69 行",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:21:57",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "FATAL ERROR in Daemon Loop: 设置“daily_runs”时发生异常:“在此对象上找不到属性“daily_runs”。请确认该属性存在并且可设置。”",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:21:57",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "在 Invoke-SidecarWorkflows、D:\\gjnx\\scripts\\workflow-daemon.ps1 中: 第 69 行",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:20:52",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "FATAL ERROR in Daemon Loop: 设置“daily_runs”时发生异常:“在此对象上找不到属性“daily_runs”。请确认该属性存在并且可设置。”",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:20:52",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "在 Invoke-SidecarWorkflows、D:\\gjnx\\scripts\\workflow-daemon.ps1 中: 第 69 行",
+        "trace_id": ""
+      }
+    ],
     "recent_activities": [
+      {
+        "time": "2026-01-02T02:30:03",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:30:02",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic Trigger: [save-all] at 02:30",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:30:02",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [save-all] -> powershell -ExecutionPolicy Bypass -File scripts/save-all.ps1",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:28:02",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon V3.1 Started (Sidecar Engine + Smart State)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:28:02",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Project Root: D:\\gjnx",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:28:02",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "CLEAN: Old processes and ports released",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:28:02",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "START: All background services launched (Monitor, Daemon, Web)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:27:59",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "INIT: Dashboard Full Restart Initiated",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:27:59",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "STOP: Killing old processes (LogMonitor, WorkflowDaemon, DashboardServer)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:26:16",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "CLEAN: Old processes and ports released",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:26:16",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "START: All background services launched (Monitor, Daemon, Web)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:26:14",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "STOP: Killing old processes (LogMonitor, WorkflowDaemon, DashboardServer)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:26:13",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "INIT: Dashboard Full Restart Initiated",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:25:20",
+        "level": "SUCCESS",
+        "workflow": "daemon",
+        "message": "Workflow Completed: [system-sentinel]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:25:20",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Chain Propagation: [system-sentinel] -> [process-tasks]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:25:20",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [archive-logs] -> python scripts/auto_update_dashboard.py --archive",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:24:19",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon V3.1 Started (Sidecar Engine + Smart State)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:24:19",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Project Root: D:\\gjnx",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:24:19",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:24:19",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daily Sidecar Activation: [archive-logs] (Triggered by system-sentinel)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:23:02",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:23:02",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "FATAL ERROR in Daemon Loop: 设置“daily_runs”时发生异常:“在此对象上找不到属性“daily_runs”。请确认该属性存在并且可设置。”",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:23:02",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "在 Invoke-SidecarWorkflows、D:\\gjnx\\scripts\\workflow-daemon.ps1 中: 第 69 行",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:21:57",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:21:57",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "FATAL ERROR in Daemon Loop: 设置“daily_runs”时发生异常:“在此对象上找不到属性“daily_runs”。请确认该属性存在并且可设置。”",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:21:57",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "在 Invoke-SidecarWorkflows、D:\\gjnx\\scripts\\workflow-daemon.ps1 中: 第 69 行",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:20:52",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:20:52",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "FATAL ERROR in Daemon Loop: 设置“daily_runs”时发生异常:“在此对象上找不到属性“daily_runs”。请确认该属性存在并且可设置。”",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:20:52",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "在 Invoke-SidecarWorkflows、D:\\gjnx\\scripts\\workflow-daemon.ps1 中: 第 69 行",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:19:52",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon V3.1 Started (Sidecar Engine + Smart State)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:19:52",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Project Root: D:\\gjnx",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:16:10",
+        "level": "SUCCESS",
+        "workflow": "daemon",
+        "message": "Workflow Completed: [archive-logs]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:15:10",
+        "level": "SUCCESS",
+        "workflow": "daemon",
+        "message": "Workflow Completed: [system-sentinel]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:15:10",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Chain Propagation: [system-sentinel] -> [process-tasks]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T02:15:10",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [archive-logs] -> python scripts/auto_update_dashboard.py --archive",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-02T02:14:10",
         "level": "INFO",
@@ -809,19 +1092,19 @@
       "delta_percent": -100.0
     },
     "error_count": {
-      "today": 0,
+      "today": 6,
       "yesterday": 0,
-      "delta": 0,
-      "delta_percent": 0.0
+      "delta": 6,
+      "delta_percent": 100.0
     }
   },
   "system": {
-    "last_update": "2026-01-02 02:14:11",
+    "last_update": "2026-01-02 02:30:03",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.29,
+    "duration_seconds": 0.05,
     "has_token_trend": true,
     "errors": []
   }
