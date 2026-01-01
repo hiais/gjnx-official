@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-01 20:30:46",
+  "timestamp": "2026-01-01 21:39:18",
   "health": {
     "score": 100,
     "status": "healthy",
     "issues": [],
     "daemon_status": {
       "alive": true,
-      "last_heartbeat": "2026-01-01 20:25:45"
+      "last_heartbeat": "2026-01-01 21:34:18"
     }
   },
   "tasks": {
@@ -16,34 +16,30 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 232.0,
+        "age_minutes": 300.5,
         "trace_id": "trc-0101163845"
       }
     ],
-    "processing": [
-      {
-        "id": "P2_save_all_trc-0101203045.processing",
-        "created": "2026-01-01 20:30:45",
-        "age_minutes": 0.0
-      }
-    ],
+    "processing": [],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 829,
+    "total": 864,
     "by_level": {
-      "INFO": 778,
+      "INFO": 796,
       "WARN": 3,
       "ERROR": 2,
       "FATAL": 0,
-      "SUCCESS": 46
+      "SUCCESS": 47,
+      "SYSTEM": 16
     },
     "by_workflow": {
-      "daemon": 729,
-      "write-article": 14,
+      "verify-data": 10,
+      "daemon": 741,
+      "write-article": 20,
+      "system": 16,
       "plan": 8,
-      "verify-data": 9,
       "process-tasks": 34,
       "refresh-dashboard": 16,
       "check-alerts": 6,
@@ -68,6 +64,251 @@
       }
     ],
     "recent_activities": [
+      {
+        "time": "2026-01-01T21:39:18.187+08:00",
+        "level": "INFO",
+        "workflow": "verify-data",
+        "message": "补产 OpenAI 稿件的数据验证报告 (Multi-source Cross-check)",
+        "trace_id": "trace-20260101-213855-verify"
+      },
+      {
+        "time": "2026-01-01T21:34:18",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 21:34",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T21:24:18",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 21:24",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T21:18:36.820+08:00",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "Write-article workflow for P1 OpenAI task finished (Imagery pending due to quota)",
+        "trace_id": "trace-20260101-211631-write"
+      },
+      {
+        "time": "2026-01-01T21:17:39.114+08:00",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "Title and Opening QC passed",
+        "trace_id": "trace-20260101-211631-write"
+      },
+      {
+        "time": "2026-01-01T21:17:25.574+08:00",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "Step 1 & 2: Title and Opening",
+        "trace_id": "trace-20260101-211631-write"
+      },
+      {
+        "time": "2026-01-01T21:16:58.492+08:00",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "Config synchronized: Structure V3.7, QC V1.2, Persona V5.0",
+        "trace_id": "trace-20260101-211631-write"
+      },
+      {
+        "time": "2026-01-01T21:16:49.373+08:00",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "Initiating write-article workflow for scheduled tasks",
+        "trace_id": "trace-20260101-211631-write"
+      },
+      {
+        "time": "2026-01-01T21:15:18",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon V3.1 Started (Sidecar Engine + Smart State)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T21:15:18",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Project Root: D:\\gjnx",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T21:14:52",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "CLEAN: Old processes and ports released",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T21:14:52",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "START: All background services launched (Monitor, Daemon, Web)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T21:14:48",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "STOP: Killing old processes (LogMonitor, WorkflowDaemon, DashboardServer)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T21:14:47",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "INIT: Dashboard Full Restart Initiated",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T21:13:23",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon V3.1 Started (Sidecar Engine + Smart State)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T21:13:23",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Project Root: D:\\gjnx",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T21:13:11",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "CLEAN: Old processes and ports released",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T21:13:11",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "START: All background services launched (Monitor, Daemon, Web)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T21:13:08",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "STOP: Killing old processes (LogMonitor, WorkflowDaemon, DashboardServer)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T21:13:07",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "INIT: Dashboard Full Restart Initiated",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T21:11:40",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "CLEAN: Old processes and ports released",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T21:11:40",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "START: All background services launched (Monitor, Daemon, Web)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T21:11:37",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "INIT: Dashboard Full Restart Initiated",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T21:11:37",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "STOP: Killing old processes (LogMonitor, WorkflowDaemon, DashboardServer)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T21:10:31",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon V3.1 Started (Sidecar Engine + Smart State)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T21:10:31",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Project Root: D:\\gjnx",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T20:51:14",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "CLEAN: Old processes and ports released",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T20:51:14",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "START: All background services launched (Monitor, Daemon, Web)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T20:51:11",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "INIT: Dashboard Full Restart Initiated",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T20:51:11",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "STOP: Killing old processes (LogMonitor, WorkflowDaemon, DashboardServer)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T20:45:46",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 20:45",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T20:35:46",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 20:35",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T20:31:46",
+        "level": "SUCCESS",
+        "workflow": "daemon",
+        "message": "Workflow Completed: [save-all]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T20:31:46",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Chain Propagation: [save-all] -> [process-tasks]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T20:31:10.000+08:00",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "Write-article workflow completed successfully",
+        "trace_id": "trace-20260101-202620-write"
+      },
       {
         "time": "2026-01-01T20:30:45",
         "level": "INFO",
@@ -522,251 +763,6 @@
         "workflow": "daemon",
         "message": "Scheduled Trigger: [system-sentinel] at 18:00",
         "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T18:00:47",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daily Trigger: [archive-logs] (Once per day)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T18:00:47",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [archive-logs] -> python scripts/auto_update_dashboard.py --archive",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T18:00:47",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T17:55:47",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 17:55",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T17:45:46",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 17:45",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T17:35:46",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 17:35",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T17:25:46",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 17:25",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T17:15:46",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 17:15",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T17:06:46",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon V2.8 Started (Chain-Enabled + Smart Logging)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T17:06:46",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Project Root: D:\\gjnx",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T17:03:19",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon V2.8 Started (Chain-Enabled + Smart Logging)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T17:03:19",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Project Root: D:\\gjnx",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T17:01:19",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon V2.8 Started (Chain-Enabled + Smart Logging)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T17:01:19",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Project Root: D:\\gjnx",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T17:01:19",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon V2.8 Started (Chain-Enabled + Smart Logging)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T17:01:19",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Project Root: D:\\gjnx",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T17:00:46",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Scheduled Trigger: [system-sentinel] at 17:00",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T17:00:46",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daily Trigger: [archive-logs] (Once per day)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T17:00:46",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [archive-logs] -> python scripts/auto_update_dashboard.py --archive",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T17:00:46",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T17:00:29",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [archive-logs] -> python scripts/auto_update_dashboard.py --archive",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T17:00:29",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T17:00:28",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Scheduled Trigger: [system-sentinel] at 17:00",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T17:00:28",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daily Trigger: [archive-logs] (Once per day)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T16:58:46",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 16:58",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T16:57:28",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon V2.8 Started (Chain-Enabled + Smart Logging)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T16:57:28",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Project Root: D:\\gjnx",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T16:48:46",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 16:48",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T16:48:18",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 16:48",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T16:47:59",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 16:47",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T16:39:46",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [system-sentinel]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T16:39:46",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Chain Trigger: [system-sentinel] -> [process-tasks]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T16:39:18",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon V2.8 Started (Chain-Enabled + Smart Logging)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T16:39:18",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Project Root: D:\\gjnx",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T16:38:59",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon V2.8 Started (Chain-Enabled + Smart Logging)",
-        "trace_id": ""
       }
     ]
   },
@@ -775,7 +771,7 @@
     "duration_percentiles": {},
     "token_usage_today": 5000,
     "token_usage_week": 93000,
-    "success_count": 28,
+    "success_count": 35,
     "fail_count": 0,
     "success_rate": 100.0
   },
@@ -783,11 +779,11 @@
     "daily_budget": 100.0,
     "daily_token_budget": 500000,
     "token_price_per_k": 0.1,
-    "today_total_cost": 1.2,
-    "today_token_usage": 12000,
-    "week_total_cost": 17.25,
-    "week_token_usage": 172500,
-    "budget_usage_percent": 1.2,
+    "today_total_cost": 7.2,
+    "today_token_usage": 72000,
+    "week_total_cost": 23.25,
+    "week_token_usage": 232500,
+    "budget_usage_percent": 7.2,
     "budget_status": "normal",
     "by_workflow_today": {
       "scout": {
@@ -806,9 +802,14 @@
         "count": 8
       },
       "write-article": {
+        "tokens": 60000,
+        "cost": 6.0,
+        "count": 20
+      },
+      "verify-data": {
         "tokens": 0,
         "cost": 0.0,
-        "count": 14
+        "count": 1
       }
     },
     "by_workflow_week": {
@@ -828,9 +829,14 @@
         "count": 10
       },
       "write-article": {
-        "tokens": 143000,
-        "cost": 14.299999999999994,
-        "count": 34
+        "tokens": 203000,
+        "cost": 20.29999999999999,
+        "count": 40
+      },
+      "verify-data": {
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 1
       },
       "qc-check": {
         "tokens": 5000,
@@ -860,18 +866,25 @@
     },
     "by_workflow_today_formatted": [
       {
+        "workflow": "write-article",
+        "tokens": 60000,
+        "cost": 6.0,
+        "count": 20,
+        "percentage": 83.3
+      },
+      {
         "workflow": "scout",
         "tokens": 10000,
         "cost": 1.0,
         "count": 5,
-        "percentage": 83.3
+        "percentage": 13.9
       },
       {
         "workflow": "plan",
         "tokens": 2000,
         "cost": 0.2,
         "count": 8,
-        "percentage": 16.7
+        "percentage": 2.8
       },
       {
         "workflow": "system_optimization",
@@ -881,54 +894,61 @@
         "percentage": 0.0
       },
       {
-        "workflow": "write-article",
+        "workflow": "verify-data",
         "tokens": 0,
         "cost": 0.0,
-        "count": 14,
+        "count": 1,
         "percentage": 0.0
       }
     ],
     "by_workflow_week_formatted": [
       {
         "workflow": "write-article",
-        "tokens": 143000,
-        "cost": 14.3,
-        "count": 34,
-        "percentage": 82.9
+        "tokens": 203000,
+        "cost": 20.3,
+        "count": 40,
+        "percentage": 87.3
       },
       {
         "workflow": "scout",
         "tokens": 20000,
         "cost": 2.0,
         "count": 7,
-        "percentage": 11.6
+        "percentage": 8.6
       },
       {
         "workflow": "qc-check",
         "tokens": 5000,
         "cost": 0.5,
         "count": 3,
-        "percentage": 2.9
+        "percentage": 2.2
       },
       {
         "workflow": "plan",
         "tokens": 4000,
         "cost": 0.4,
         "count": 10,
-        "percentage": 2.3
+        "percentage": 1.7
       },
       {
         "workflow": "check-alerts",
         "tokens": 500,
         "cost": 0.05,
         "count": 3,
-        "percentage": 0.3
+        "percentage": 0.2
       },
       {
         "workflow": "system_optimization",
         "tokens": 0,
         "cost": 0.0,
         "count": 4,
+        "percentage": 0.0
+      },
+      {
+        "workflow": "verify-data",
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 1,
         "percentage": 0.0
       },
       {
@@ -1310,8 +1330,8 @@
   },
   "scheduled_tasks": [],
   "business": {
-    "articles_today": 14,
-    "articles_week": 35,
+    "articles_today": 20,
+    "articles_week": 41,
     "qc_pass_rate": 66.7,
     "avg_duration": 0,
     "efficiency": 0
@@ -1522,12 +1542,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-01 20:30:46",
+    "last_update": "2026-01-01 21:39:18",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.05,
+    "duration_seconds": 0.06,
     "has_token_trend": true,
     "errors": []
   }
