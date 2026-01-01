@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-01 21:39:18",
+  "timestamp": "2026-01-01 22:30:20",
   "health": {
     "score": 100,
     "status": "healthy",
     "issues": [],
     "daemon_status": {
       "alive": true,
-      "last_heartbeat": "2026-01-01 21:34:18"
+      "last_heartbeat": "2026-01-01 22:24:20"
     }
   },
   "tasks": {
@@ -16,29 +16,36 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 300.5,
+        "age_minutes": 351.6,
         "trace_id": "trc-0101163845"
       }
     ],
-    "processing": [],
+    "processing": [
+      {
+        "id": "P2_save_all_trc-0101223020.processing",
+        "created": "2026-01-01 22:30:20",
+        "age_minutes": 0.0
+      }
+    ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 864,
+    "total": 908,
     "by_level": {
-      "INFO": 796,
+      "INFO": 838,
       "WARN": 3,
       "ERROR": 2,
       "FATAL": 0,
-      "SUCCESS": 47,
+      "SUCCESS": 49,
       "SYSTEM": 16
     },
     "by_workflow": {
-      "verify-data": 10,
-      "daemon": 741,
-      "write-article": 20,
-      "system": 16,
+      "daemon": 755,
+      "system": 17,
+      "validate-config": 8,
+      "write-article": 38,
+      "verify-data": 13,
       "plan": 8,
       "process-tasks": 34,
       "refresh-dashboard": 16,
@@ -64,6 +71,314 @@
       }
     ],
     "recent_activities": [
+      {
+        "time": "2026-01-01T22:30:20",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic Trigger: [save-all] at 22:30",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T22:30:20",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [save-all] -> powershell -ExecutionPolicy Bypass -File scripts/save-all.ps1",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T22:30:20",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T22:26:17.560+08:00",
+        "level": "INFO",
+        "workflow": "validate-config",
+        "message": "Config Validation Completed. 'Core Highlights' Citation rule is now strictly FORBIDDEN across Prompt, Config, and QC.",
+        "trace_id": "trace-20260101-222527-val"
+      },
+      {
+        "time": "2026-01-01T22:25:36.952+08:00",
+        "level": "INFO",
+        "workflow": "validate-config",
+        "message": "Validating system configuration after 'Core Highlights Citation' rule update.",
+        "trace_id": "trace-20260101-222527-val"
+      },
+      {
+        "time": "2026-01-01T22:24:20",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 22:24",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T22:22:49.956+08:00",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "Rewrite complete. Draft generated at '03_Content_Factory/01_WeChat/Drafts/04-电力之冠/'. Status: QC PASS.",
+        "trace_id": "trace-20260101-221818-write"
+      },
+      {
+        "time": "2026-01-01T22:22:18.154+08:00",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "Step 7.1: Performing Final QC Check.",
+        "trace_id": "trace-20260101-221818-write"
+      },
+      {
+        "time": "2026-01-01T22:21:58.070+08:00",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "Step 7: Initiating Data Verification.",
+        "trace_id": "trace-20260101-221818-write"
+      },
+      {
+        "time": "2026-01-01T22:20:49.343+08:00",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "Step 6: Generating Remaining Modules and Finalizing Footer SSOT.",
+        "trace_id": "trace-20260101-221818-write"
+      },
+      {
+        "time": "2026-01-01T22:20:36.339+08:00",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "Step 5: Generating Chapters 03-04 (Solution & System Depth) with G-R-T-B visuals.",
+        "trace_id": "trace-20260101-221818-write"
+      },
+      {
+        "time": "2026-01-01T22:20:25.797+08:00",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "Step 4: Generating Chapter 02 (Root Cause Analysis with Data Table).",
+        "trace_id": "trace-20260101-221818-write"
+      },
+      {
+        "time": "2026-01-01T22:20:15.143+08:00",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "Step 3: Generating Chapter 01 (Pain Point Scenario).",
+        "trace_id": "trace-20260101-221818-write"
+      },
+      {
+        "time": "2026-01-01T22:20:05.733+08:00",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "Step 2: Generating Metadata and Golden Opening.",
+        "trace_id": "trace-20260101-221818-write"
+      },
+      {
+        "time": "2026-01-01T22:19:38.564+08:00",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "Step 1: Title Formatting for LG Battery article.",
+        "trace_id": "trace-20260101-221818-write"
+      },
+      {
+        "time": "2026-01-01T22:18:29.085+08:00",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "Initiating Rewrite of the latest article with full SSOT alignment.",
+        "trace_id": "trace-20260101-221818-write"
+      },
+      {
+        "time": "2026-01-01T22:16:15.547+08:00",
+        "level": "INFO",
+        "workflow": "validate-config",
+        "message": "Validation complete: System is 100% aligned with V5.3/V3.8/V1.3 standards. All hardcoded dates removed or semanticized.",
+        "trace_id": "trace-20260101-221356-final-val"
+      },
+      {
+        "time": "2026-01-01T22:14:19",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 22:14",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T22:14:06.422+08:00",
+        "level": "INFO",
+        "workflow": "validate-config",
+        "message": "Initiating final consistency validation for Article Structure V3.8 and system-wide alignment.",
+        "trace_id": "trace-20260101-221356-final-val"
+      },
+      {
+        "time": "2026-01-01T22:07:45.973+08:00",
+        "level": "INFO",
+        "workflow": "validate-config",
+        "message": "Architecture consolidation complete: Expert Tone rules migrated to Image Specification Config (SSOT)",
+        "trace_id": "trace-20260101-220656-final-ssot"
+      },
+      {
+        "time": "2026-01-01T22:04:19",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 22:04",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T22:02:19",
+        "level": "SUCCESS",
+        "workflow": "daemon",
+        "message": "Workflow Completed: [archive-logs]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T22:01:19",
+        "level": "SUCCESS",
+        "workflow": "daemon",
+        "message": "Workflow Completed: [system-sentinel]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T22:01:19",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Chain Propagation: [system-sentinel] -> [process-tasks]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T22:01:19",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [archive-logs] -> python scripts/auto_update_dashboard.py --archive",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T22:00:19",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic Trigger: [system-sentinel] at 22:00",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T22:00:19",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T22:00:19",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daily Sidecar Activation: [archive-logs] (Triggered by system-sentinel)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T21:59:25.711+08:00",
+        "level": "INFO",
+        "workflow": "validate-config",
+        "message": "Final deep scan for configuration consistency (V3.8/V1.3)",
+        "trace_id": "trace-20260101-215916-final-val"
+      },
+      {
+        "time": "2026-01-01T21:58:29.150+08:00",
+        "level": "INFO",
+        "workflow": "validate-config",
+        "message": "Config validation and auto-alignment complete for V3.8",
+        "trace_id": "trace-20260101-215729-val"
+      },
+      {
+        "time": "2026-01-01T21:57:45.062+08:00",
+        "level": "INFO",
+        "workflow": "validate-config",
+        "message": "Initiating validation for Article Structure Config V3.8",
+        "trace_id": "trace-20260101-215729-val"
+      },
+      {
+        "time": "2026-01-01T21:54:19",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 21:54",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T21:50:13.229+08:00",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "LG Battery Draft generated and VERIFIED. QC passed.",
+        "trace_id": "trace-20260101-214706-write-lg"
+      },
+      {
+        "time": "2026-01-01T21:49:39.854+08:00",
+        "level": "INFO",
+        "workflow": "verify-data",
+        "message": "Verifying data for LG Battery story",
+        "trace_id": "trace-20260101-214706-write-lg"
+      },
+      {
+        "time": "2026-01-01T21:48:45.843+08:00",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "Chapter 05-06 & Footer QC passed",
+        "trace_id": "trace-20260101-214706-write-lg"
+      },
+      {
+        "time": "2026-01-01T21:48:38.778+08:00",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "Chapter 03-04 QC passed",
+        "trace_id": "trace-20260101-214706-write-lg"
+      },
+      {
+        "time": "2026-01-01T21:48:29.204+08:00",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "Chapter 02 QC passed",
+        "trace_id": "trace-20260101-214706-write-lg"
+      },
+      {
+        "time": "2026-01-01T21:48:22.911+08:00",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "Chapter 01 QC passed",
+        "trace_id": "trace-20260101-214706-write-lg"
+      },
+      {
+        "time": "2026-01-01T21:48:16.331+08:00",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "Opening QC passed",
+        "trace_id": "trace-20260101-214706-write-lg"
+      },
+      {
+        "time": "2026-01-01T21:48:09.844+08:00",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "Title QC passed: 寿命翻倍！LG 发布软件定义电池，充电宝这下真要失业了",
+        "trace_id": "trace-20260101-214706-write-lg"
+      },
+      {
+        "time": "2026-01-01T21:47:27.195+08:00",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "Config synchronized: Structure V3.7, QC V1.2 (Data Enhanced)",
+        "trace_id": "trace-20260101-214706-write-lg"
+      },
+      {
+        "time": "2026-01-01T21:44:18",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 21:44",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-01T21:40:30.525+08:00",
+        "level": "INFO",
+        "workflow": "verify-data",
+        "message": "补产数据验证流程完成",
+        "trace_id": "trace-20260101-213855-verify"
+      },
+      {
+        "time": "2026-01-01T21:40:00.631+08:00",
+        "level": "INFO",
+        "workflow": "verify-data",
+        "message": "补产 A19 Pro 稿件的数据验证报告 (Apple Multi-core Power)",
+        "trace_id": "trace-20260101-213855-verify"
+      },
       {
         "time": "2026-01-01T21:39:18.187+08:00",
         "level": "INFO",
@@ -455,314 +770,6 @@
         "workflow": "plan",
         "message": "Triggering process-tasks due to pending_config_val.lock",
         "trace_id": "trace-20260101-202214-plan"
-      },
-      {
-        "time": "2026-01-01T20:22:42.284+08:00",
-        "level": "INFO",
-        "workflow": "plan",
-        "message": "Plan workflow started",
-        "trace_id": "trace-20260101-202214-plan"
-      },
-      {
-        "time": "2026-01-01T20:16:45",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon V3.1 Started (Sidecar Engine + Smart State)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T20:16:45",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Project Root: D:\\gjnx",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T20:15:33",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon V3.1 Started (Sidecar Engine + Smart State)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T20:15:33",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Project Root: D:\\gjnx",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T20:06:28",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 20:06",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T20:01:28",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [system-sentinel]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T20:01:28",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Chain Trigger: [system-sentinel] -> [process-tasks]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T20:01:28",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [archive-logs]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T20:00:28",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Scheduled Trigger: [system-sentinel] at 20:00",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T20:00:28",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daily Trigger: [archive-logs] (Once per day)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T20:00:28",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [archive-logs] -> python scripts/auto_update_dashboard.py --archive",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T20:00:28",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T19:56:28",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 19:56",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T19:46:28",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 19:46",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T19:15:49",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 19:15",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T19:05:49",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 19:05",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T19:01:49",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [archive-logs]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T19:01:49",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [system-sentinel]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T19:01:49",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Chain Trigger: [system-sentinel] -> [process-tasks]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T19:00:49",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [archive-logs] -> python scripts/auto_update_dashboard.py --archive",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T19:00:49",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T19:00:48",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Scheduled Trigger: [system-sentinel] at 19:00",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T19:00:48",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daily Trigger: [archive-logs] (Once per day)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T18:55:48",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 18:55",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T18:45:48",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 18:45",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T18:35:48",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 18:35",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T18:32:48",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [system-sentinel]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T18:32:48",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Chain Trigger: [system-sentinel] -> [process-tasks]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T18:31:48",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [save-all]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T18:31:48",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Chain Trigger: [save-all] -> [system-sentinel]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T18:31:48",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T18:30:48",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Scheduled Trigger: [save-all] at 18:30",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T18:30:48",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [save-all] -> powershell -ExecutionPolicy Bypass -File scripts/save-all.ps1",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T18:25:48",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 18:25",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T18:15:48",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 18:15",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T18:11:48",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [wechat-auto-stats]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T18:10:48",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Scheduled Trigger: [wechat-auto-stats] at 18:10",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T18:10:48",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [wechat-auto-stats] -> python scripts/wechat_stats_automation.py --mode quick --headless false",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T18:05:48",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 18:05",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T18:01:48",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [archive-logs]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T18:01:48",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [system-sentinel]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T18:01:48",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Chain Trigger: [system-sentinel] -> [process-tasks]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-01T18:00:47",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Scheduled Trigger: [system-sentinel] at 18:00",
-        "trace_id": ""
       }
     ]
   },
@@ -771,7 +778,7 @@
     "duration_percentiles": {},
     "token_usage_today": 5000,
     "token_usage_week": 93000,
-    "success_count": 35,
+    "success_count": 64,
     "fail_count": 0,
     "success_rate": 100.0
   },
@@ -779,11 +786,11 @@
     "daily_budget": 100.0,
     "daily_token_budget": 500000,
     "token_price_per_k": 0.1,
-    "today_total_cost": 7.2,
-    "today_token_usage": 72000,
-    "week_total_cost": 23.25,
-    "week_token_usage": 232500,
-    "budget_usage_percent": 7.2,
+    "today_total_cost": 13.2,
+    "today_token_usage": 132000,
+    "week_total_cost": 29.25,
+    "week_token_usage": 292500,
+    "budget_usage_percent": 13.2,
     "budget_status": "normal",
     "by_workflow_today": {
       "scout": {
@@ -802,14 +809,19 @@
         "count": 8
       },
       "write-article": {
-        "tokens": 60000,
-        "cost": 6.0,
-        "count": 20
+        "tokens": 120000,
+        "cost": 12.0,
+        "count": 38
       },
       "verify-data": {
         "tokens": 0,
         "cost": 0.0,
-        "count": 1
+        "count": 4
+      },
+      "validate-config": {
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 8
       }
     },
     "by_workflow_week": {
@@ -829,14 +841,19 @@
         "count": 10
       },
       "write-article": {
-        "tokens": 203000,
-        "cost": 20.29999999999999,
-        "count": 40
+        "tokens": 263000,
+        "cost": 26.29999999999999,
+        "count": 58
       },
       "verify-data": {
         "tokens": 0,
         "cost": 0.0,
-        "count": 1
+        "count": 4
+      },
+      "validate-config": {
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 8
       },
       "qc-check": {
         "tokens": 5000,
@@ -867,24 +884,24 @@
     "by_workflow_today_formatted": [
       {
         "workflow": "write-article",
-        "tokens": 60000,
-        "cost": 6.0,
-        "count": 20,
-        "percentage": 83.3
+        "tokens": 120000,
+        "cost": 12.0,
+        "count": 38,
+        "percentage": 90.9
       },
       {
         "workflow": "scout",
         "tokens": 10000,
         "cost": 1.0,
         "count": 5,
-        "percentage": 13.9
+        "percentage": 7.6
       },
       {
         "workflow": "plan",
         "tokens": 2000,
         "cost": 0.2,
         "count": 8,
-        "percentage": 2.8
+        "percentage": 1.5
       },
       {
         "workflow": "system_optimization",
@@ -897,38 +914,45 @@
         "workflow": "verify-data",
         "tokens": 0,
         "cost": 0.0,
-        "count": 1,
+        "count": 4,
+        "percentage": 0.0
+      },
+      {
+        "workflow": "validate-config",
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 8,
         "percentage": 0.0
       }
     ],
     "by_workflow_week_formatted": [
       {
         "workflow": "write-article",
-        "tokens": 203000,
-        "cost": 20.3,
-        "count": 40,
-        "percentage": 87.3
+        "tokens": 263000,
+        "cost": 26.3,
+        "count": 58,
+        "percentage": 89.9
       },
       {
         "workflow": "scout",
         "tokens": 20000,
         "cost": 2.0,
         "count": 7,
-        "percentage": 8.6
+        "percentage": 6.8
       },
       {
         "workflow": "qc-check",
         "tokens": 5000,
         "cost": 0.5,
         "count": 3,
-        "percentage": 2.2
+        "percentage": 1.7
       },
       {
         "workflow": "plan",
         "tokens": 4000,
         "cost": 0.4,
         "count": 10,
-        "percentage": 1.7
+        "percentage": 1.4
       },
       {
         "workflow": "check-alerts",
@@ -948,7 +972,14 @@
         "workflow": "verify-data",
         "tokens": 0,
         "cost": 0.0,
-        "count": 1,
+        "count": 4,
+        "percentage": 0.0
+      },
+      {
+        "workflow": "validate-config",
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 8,
         "percentage": 0.0
       },
       {
@@ -1330,8 +1361,8 @@
   },
   "scheduled_tasks": [],
   "business": {
-    "articles_today": 20,
-    "articles_week": 41,
+    "articles_today": 38,
+    "articles_week": 59,
     "qc_pass_rate": 66.7,
     "avg_duration": 0,
     "efficiency": 0
@@ -1542,7 +1573,7 @@
     }
   },
   "system": {
-    "last_update": "2026-01-01 21:39:18",
+    "last_update": "2026-01-01 22:30:20",
     "timezone": "China Standard Time"
   },
   "metadata": {
