@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-02 18:30:37",
+  "timestamp": "2026-01-02 18:30:40",
   "health": {
     "score": 90,
     "status": "healthy",
@@ -38,14 +38,20 @@
         "trace_id": null
       }
     ],
-    "processing": [],
+    "processing": [
+      {
+        "id": "P2_save_all_trc-0102183040.processing",
+        "created": "2026-01-02 18:30:40",
+        "age_minutes": 0.0
+      }
+    ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 268,
+    "total": 271,
     "by_level": {
-      "INFO": 141,
+      "INFO": 144,
       "WARN": 68,
       "ERROR": 6,
       "FATAL": 0,
@@ -53,8 +59,8 @@
       "SYSTEM": 28
     },
     "by_workflow": {
-      "daemon": 212,
-      "system": 56
+      "daemon": 214,
+      "system": 57
     },
     "recent_errors": [
       {
@@ -101,6 +107,27 @@
       }
     ],
     "recent_activities": [
+      {
+        "time": "2026-01-02T18:30:40",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic Trigger: [save-all] at 18:30",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T18:30:40",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [save-all] -> powershell -ExecutionPolicy Bypass -File scripts/save-all.ps1",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T18:30:40",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-02T18:30:37",
         "level": "INFO",
@@ -778,27 +805,6 @@
         "level": "SYSTEM",
         "workflow": "system",
         "message": "CLEAN: Old processes, ports, and zombie locks released",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T12:20:59",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "START: All background services launched (Monitor, Daemon, Web)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T12:20:56",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "INIT: Dashboard Full Restart Initiated",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T12:20:56",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "STOP: Killing old processes (LogMonitor, WorkflowDaemon, DashboardServer)",
         "trace_id": ""
       }
     ]
@@ -1529,12 +1535,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-02 18:30:37",
+    "last_update": "2026-01-02 18:30:40",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.04,
+    "duration_seconds": 0.05,
     "has_token_trend": true,
     "errors": []
   }
