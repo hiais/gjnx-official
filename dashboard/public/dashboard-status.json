@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-03 02:27:24",
+  "timestamp": "2026-01-03 03:27:34",
   "health": {
     "score": 100,
     "status": "healthy",
     "issues": [],
     "daemon_status": {
       "alive": true,
-      "last_heartbeat": "2026-01-03 02:27:24"
+      "last_heartbeat": "2026-01-03 03:27:34"
     }
   },
   "tasks": {
@@ -16,7 +16,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 2028.7,
+        "age_minutes": 2088.8,
         "trace_id": "trc-0101163845"
       },
       {
@@ -24,7 +24,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 566.0,
+        "age_minutes": 626.1,
         "trace_id": "trc-0102170126"
       },
       {
@@ -32,7 +32,7 @@
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-01 22:30:28",
-        "age_minutes": 1676.9,
+        "age_minutes": 1737.1,
         "trace_id": null
       }
     ],
@@ -40,28 +40,105 @@
       {
         "id": "P2_save_all_trc-0102203030.processing",
         "created": "2026-01-03 00:30:30",
-        "age_minutes": 116.9
+        "age_minutes": 177.1
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 51,
+    "total": 62,
     "by_level": {
-      "INFO": 39,
+      "INFO": 49,
       "WARN": 2,
       "ERROR": 0,
       "FATAL": 0,
-      "SUCCESS": 10,
+      "SUCCESS": 11,
       "SYSTEM": 0
     },
     "by_workflow": {
-      "daemon": 37,
+      "daemon": 48,
       "system": 14
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-01-03T03:27:34",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 03:27",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T03:17:33",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 03:17",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T03:07:32",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 03:07",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T03:01:32",
+        "level": "SUCCESS",
+        "workflow": "daemon",
+        "message": "Workflow Completed: [system-sentinel]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T03:01:32",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Chain Propagation: [system-sentinel] -> [process-tasks]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T03:00:32",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic Trigger: [system-sentinel] at 03:00",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T03:00:32",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T02:57:31",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 02:57",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T02:47:30",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 02:47",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T02:37:28",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 02:37",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T02:30:28",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic Trigger: [save-all] at 02:30",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-03T02:27:24",
         "level": "INFO",
@@ -1170,12 +1247,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-03 02:27:25",
+    "last_update": "2026-01-03 03:27:34",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.1,
+    "duration_seconds": 0.04,
     "has_token_trend": true,
     "errors": []
   }
