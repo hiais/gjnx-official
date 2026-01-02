@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-03 00:30:09",
+  "timestamp": "2026-01-03 00:31:03",
   "health": {
     "score": 100,
     "status": "healthy",
@@ -16,7 +16,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 1911.4,
+        "age_minutes": 1912.3,
         "trace_id": "trc-0101163845"
       },
       {
@@ -24,7 +24,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 448.7,
+        "age_minutes": 449.6,
         "trace_id": "trc-0102170126"
       },
       {
@@ -32,41 +32,90 @@
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-01 22:30:28",
-        "age_minutes": 1559.7,
+        "age_minutes": 1560.6,
         "trace_id": null
       }
     ],
     "processing": [
       {
-        "id": "P2_save_all_trc-0103003008.processing",
-        "created": "2026-01-03 00:30:08",
-        "age_minutes": 0.0
+        "id": "P2_save_all_trc-0102203030.processing",
+        "created": "2026-01-03 00:30:30",
+        "age_minutes": 0.5
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 16,
+    "total": 23,
     "by_level": {
-      "INFO": 13,
-      "WARN": 0,
+      "INFO": 17,
+      "WARN": 1,
       "ERROR": 0,
       "FATAL": 0,
-      "SUCCESS": 3,
+      "SUCCESS": 5,
       "SYSTEM": 0
     },
     "by_workflow": {
-      "system": 1,
+      "system": 8,
       "daemon": 15
     },
     "recent_errors": [],
     "recent_activities": [
       {
+        "time": "2026-01-03T00:31:02",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T00:30:11",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Website: Pushed with message: feat(auto): sync website (1 modified, 0 added, 0 deleted) @00:30:09",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T00:30:11",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Core repository...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T00:30:11",
+        "level": "WARN",
+        "workflow": "system",
+        "message": "[save-all] Core: No changes to commit",
+        "trace_id": ""
+      },
+      {
         "time": "2026-01-03T00:30:09",
         "level": "INFO",
         "workflow": "system",
         "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T00:30:09",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Dashboard generated successfully",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T00:30:09",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Website repository...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T00:30:09",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Pushing to GitHub...",
         "trace_id": ""
       },
       {
@@ -901,7 +950,7 @@
     }
   },
   "system": {
-    "last_update": "2026-01-03 00:30:09",
+    "last_update": "2026-01-03 00:31:03",
     "timezone": "China Standard Time"
   },
   "metadata": {
