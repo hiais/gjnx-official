@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-02 11:45:09",
+  "timestamp": "2026-01-02 12:40:41",
   "health": {
     "score": 90,
     "status": "healthy",
@@ -8,7 +8,7 @@
     ],
     "daemon_status": {
       "alive": true,
-      "last_heartbeat": "2026-01-02 11:45:08"
+      "last_heartbeat": "2026-01-02 12:40:40"
     }
   },
   "tasks": {
@@ -18,7 +18,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 1146.4,
+        "age_minutes": 1201.9,
         "trace_id": "trc-0101163845"
       },
       {
@@ -26,7 +26,7 @@
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-01 22:30:28",
-        "age_minutes": 794.7,
+        "age_minutes": 850.2,
         "trace_id": null
       }
     ],
@@ -35,18 +35,18 @@
     "alerts": []
   },
   "logs": {
-    "total": 88,
+    "total": 182,
     "by_level": {
-      "INFO": 57,
-      "WARN": 2,
+      "INFO": 73,
+      "WARN": 66,
       "ERROR": 6,
       "FATAL": 0,
-      "SUCCESS": 11,
-      "SYSTEM": 12
+      "SUCCESS": 13,
+      "SYSTEM": 24
     },
     "by_workflow": {
-      "daemon": 62,
-      "system": 26
+      "daemon": 144,
+      "system": 38
     },
     "recent_errors": [
       {
@@ -94,6 +94,664 @@
     ],
     "recent_activities": [
       {
+        "time": "2026-01-02T12:40:40",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 12:40",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:31:40",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon V3.1 Started (Sidecar Engine + Smart State)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:31:40",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Project Root: D:\\gjnx",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:31:40",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "CLEAN: Old processes, ports, and zombie locks released",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:31:40",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "START: All background services launched (Monitor, Daemon, Web)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:31:37",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "INIT: Dashboard Full Restart Initiated",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:31:37",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "STOP: Killing old processes (LogMonitor, WorkflowDaemon, DashboardServer)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:29:59",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 12:29",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:20:59",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon V3.1 Started (Sidecar Engine + Smart State)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:20:59",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Project Root: D:\\gjnx",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:20:59",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "CLEAN: Old processes, ports, and zombie locks released",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:20:59",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "START: All background services launched (Monitor, Daemon, Web)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:20:56",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "INIT: Dashboard Full Restart Initiated",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:20:56",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "STOP: Killing old processes (LogMonitor, WorkflowDaemon, DashboardServer)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:18:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:18:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:17:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:17:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:16:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:16:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:16:04",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 12:16",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:15:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:15:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:14:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:14:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:13:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:13:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:12:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:12:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:11:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:11:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:11:04",
+        "level": "SUCCESS",
+        "workflow": "daemon",
+        "message": "Workflow Completed: [wechat-auto-stats]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:10:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:10:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:10:04",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic Trigger: [wechat-auto-stats] at 12:10",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:10:04",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [wechat-auto-stats] -> python scripts/wechat_stats_automation.py --mode quick --headless false",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:09:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:09:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:08:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:08:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:07:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:07:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:06:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:06:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:06:03",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 12:06",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:05:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:05:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:04:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:04:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:03:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:03:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:02:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:02:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:01:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:01:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:01:03",
+        "level": "SUCCESS",
+        "workflow": "daemon",
+        "message": "Workflow Completed: [system-sentinel]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:01:03",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Chain Propagation: [system-sentinel] -> [process-tasks]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:00:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:00:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:00:03",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T12:00:02",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic Trigger: [system-sentinel] at 12:00",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:59:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:59:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:58:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:58:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:57:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:57:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:56:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:56:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:56:01",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 11:56",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:55:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:55:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:54:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:54:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:53:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:53:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:52:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:52:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:51:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:51:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:50:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:50:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:49:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:49:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:48:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:48:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:47:58",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:47:28",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "Daemon already running with PID 16364",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:47:01",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon V3.1 Started (Sidecar Engine + Smart State)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:47:01",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Project Root: D:\\gjnx",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:47:01",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "CLEAN: Old processes, ports, and zombie locks released",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:47:01",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "START: All background services launched (Monitor, Daemon, Web)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:46:58",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "INIT: Dashboard Full Restart Initiated",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:46:58",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "STOP: Killing old processes (LogMonitor, WorkflowDaemon, DashboardServer)",
+        "trace_id": ""
+      },
+      {
         "time": "2026-01-02T11:45:08",
         "level": "INFO",
         "workflow": "daemon",
@@ -133,580 +791,6 @@
         "level": "SYSTEM",
         "workflow": "system",
         "message": "STOP: Killing old processes (LogMonitor, WorkflowDaemon, DashboardServer)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T11:36:05",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "INIT: Dashboard Full Restart Initiated",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T11:29:13",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 11:29",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T11:19:12",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 11:19",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T11:09:12",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 11:09",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T04:31:05",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [save-all]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T04:31:05",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Chain Propagation: [save-all] -> [process-tasks]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T04:30:09",
-        "level": "WARN",
-        "workflow": "system",
-        "message": "[save-all] Core: No changes to commit",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T04:30:08",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Website: Pushed with message: feat(auto): sync website (1 modified, 0 added, 0 deleted) @04:30:05",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T04:30:08",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Core repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T04:30:06",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Pushing to GitHub...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T04:30:05",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic Trigger: [save-all] at 04:30",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T04:30:05",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [save-all] -> powershell -ExecutionPolicy Bypass -File scripts/save-all.ps1",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T04:30:05",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Generating dashboard data...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T04:30:05",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Dashboard generated successfully",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T04:30:05",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Website repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T04:27:05",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 04:27",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T04:17:04",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 04:17",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T04:07:04",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 04:07",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T04:01:04",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [system-sentinel]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T04:01:04",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Chain Propagation: [system-sentinel] -> [process-tasks]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T04:00:04",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic Trigger: [system-sentinel] at 04:00",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T04:00:04",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T03:57:04",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 03:57",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T03:47:04",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 03:47",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T03:37:04",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 03:37",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T03:27:04",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 03:27",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T03:17:04",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 03:17",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T03:07:04",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 03:07",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T03:01:03",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [system-sentinel]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T03:01:03",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Chain Propagation: [system-sentinel] -> [process-tasks]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T03:00:03",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic Trigger: [system-sentinel] at 03:00",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T03:00:03",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:57:03",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 02:57",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:47:03",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 02:47",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:37:03",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 02:37",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:31:03",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [save-all]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:31:03",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Chain Propagation: [save-all] -> [process-tasks]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:30:48",
-        "level": "WARN",
-        "workflow": "system",
-        "message": "[save-all] Core: No changes to commit",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:30:06",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Website: Pushed with message: feat(auto): sync website (1 modified, 0 added, 0 deleted) @02:30:03",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:30:06",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Core repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:30:04",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Pushing to GitHub...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:30:03",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Generating dashboard data...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:30:03",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Dashboard generated successfully",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:30:03",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Website repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:30:02",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic Trigger: [save-all] at 02:30",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:30:02",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [save-all] -> powershell -ExecutionPolicy Bypass -File scripts/save-all.ps1",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:28:02",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon V3.1 Started (Sidecar Engine + Smart State)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:28:02",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Project Root: D:\\gjnx",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:28:02",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "CLEAN: Old processes and ports released",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:28:02",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "START: All background services launched (Monitor, Daemon, Web)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:27:59",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "INIT: Dashboard Full Restart Initiated",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:27:59",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "STOP: Killing old processes (LogMonitor, WorkflowDaemon, DashboardServer)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:26:16",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "CLEAN: Old processes and ports released",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:26:16",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "START: All background services launched (Monitor, Daemon, Web)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:26:14",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "STOP: Killing old processes (LogMonitor, WorkflowDaemon, DashboardServer)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:26:13",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "INIT: Dashboard Full Restart Initiated",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:25:20",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [system-sentinel]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:25:20",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Chain Propagation: [system-sentinel] -> [process-tasks]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:25:20",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [archive-logs] -> python scripts/auto_update_dashboard.py --archive",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:24:19",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon V3.1 Started (Sidecar Engine + Smart State)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:24:19",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Project Root: D:\\gjnx",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:24:19",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:24:19",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daily Sidecar Activation: [archive-logs] (Triggered by system-sentinel)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:23:02",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:23:02",
-        "level": "ERROR",
-        "workflow": "daemon",
-        "message": "FATAL ERROR in Daemon Loop: 设置“daily_runs”时发生异常:“在此对象上找不到属性“daily_runs”。请确认该属性存在并且可设置。”",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:23:02",
-        "level": "ERROR",
-        "workflow": "daemon",
-        "message": "在 Invoke-SidecarWorkflows、D:\\gjnx\\scripts\\workflow-daemon.ps1 中: 第 69 行",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:21:57",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:21:57",
-        "level": "ERROR",
-        "workflow": "daemon",
-        "message": "FATAL ERROR in Daemon Loop: 设置“daily_runs”时发生异常:“在此对象上找不到属性“daily_runs”。请确认该属性存在并且可设置。”",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:21:57",
-        "level": "ERROR",
-        "workflow": "daemon",
-        "message": "在 Invoke-SidecarWorkflows、D:\\gjnx\\scripts\\workflow-daemon.ps1 中: 第 69 行",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:20:52",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:20:52",
-        "level": "ERROR",
-        "workflow": "daemon",
-        "message": "FATAL ERROR in Daemon Loop: 设置“daily_runs”时发生异常:“在此对象上找不到属性“daily_runs”。请确认该属性存在并且可设置。”",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:20:52",
-        "level": "ERROR",
-        "workflow": "daemon",
-        "message": "在 Invoke-SidecarWorkflows、D:\\gjnx\\scripts\\workflow-daemon.ps1 中: 第 69 行",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:19:52",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon V3.1 Started (Sidecar Engine + Smart State)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:19:52",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Project Root: D:\\gjnx",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:16:10",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [archive-logs]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:15:10",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [system-sentinel]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:15:10",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Chain Propagation: [system-sentinel] -> [process-tasks]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:15:10",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [archive-logs] -> python scripts/auto_update_dashboard.py --archive",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:14:10",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:14:10",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daily Sidecar Activation: [archive-logs] (Triggered by system-sentinel)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:12:10",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon V3.1 Started (Sidecar Engine + Smart State)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T02:12:10",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Project Root: D:\\gjnx",
         "trace_id": ""
       }
     ]
@@ -874,7 +958,7 @@
       "inbox": 74,
       "scheduled": 6,
       "wip": 2,
-      "published": 73
+      "published": 74
     },
     "pipeline_details": {
       "inbox": [
@@ -1025,6 +1109,11 @@
       ],
       "published": [
         {
+          "date": "2026-01-02",
+          "title": "12.1W 的暴击！A19 Pro 彻底撕开了安卓旗舰的能效遮羞布",
+          "topic": "04-电力之冠"
+        },
+        {
           "date": "2026-01-01",
           "title": "你的 ChatGPT 每天喝掉一个西湖？AI 算力背后的万亿电费账单",
           "topic": "02-算力跃迁"
@@ -1118,15 +1207,15 @@
           "date": "2025-12-20",
           "title": "硅基时代生存地图：拒绝成为“电池人”",
           "topic": "00-系统综述"
-        },
-        {
-          "date": "2025-12-20",
-          "title": "NAND 闪存的“阳谋”：你薅的 SSD 羊毛，正在烧穿未来的电费单",
-          "topic": "05-端侧异变"
         }
       ]
     },
     "recent_published": [
+      {
+        "date": "2026-01-02",
+        "title": "12.1W 的暴击！A19 Pro 彻底撕开了安卓旗舰的能效遮羞布",
+        "topic": "04-电力之冠"
+      },
       {
         "date": "2026-01-01",
         "title": "你的 ChatGPT 每天喝掉一个西湖？AI 算力背后的万亿电费账单",
@@ -1146,16 +1235,11 @@
         "date": "2025-12-29",
         "title": "续航 1200km？奔驰 EQS 固态版上路：这次不靠“大标”，靠铜负极",
         "topic": "04-电力之冠"
-      },
-      {
-        "date": "2025-12-28",
-        "title": "充电器可以扔了？这颗能用 50 年的“核能电池”，正从科幻走进现实",
-        "topic": "04-电力之冠"
       }
     ],
     "topic_distribution": {
+      "04-电力之冠": 16,
       "02-算力跃迁": 11,
-      "04-电力之冠": 15,
       "05-端侧异变": 15,
       "03-具身革命": 3,
       "06-星际硅基": 3,
@@ -1165,6 +1249,7 @@
       "00-待分类": 9
     },
     "weekly_output": {
+      "2026-01-02": 1,
       "2026-01-01": 1,
       "2025-12-31": 1,
       "2025-12-30": 1,
@@ -1436,12 +1521,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-02 11:45:09",
+    "last_update": "2026-01-02 12:40:41",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.32,
+    "duration_seconds": 0.21,
     "has_token_trend": true,
     "errors": []
   }
