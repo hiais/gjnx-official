@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-03 00:27:04",
+  "timestamp": "2026-01-03 00:30:09",
   "health": {
     "score": 100,
     "status": "healthy",
@@ -16,7 +16,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 1908.3,
+        "age_minutes": 1911.4,
         "trace_id": "trc-0101163845"
       },
       {
@@ -24,7 +24,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 445.6,
+        "age_minutes": 448.7,
         "trace_id": "trc-0102170126"
       },
       {
@@ -32,18 +32,24 @@
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-01 22:30:28",
-        "age_minutes": 1556.6,
+        "age_minutes": 1559.7,
         "trace_id": null
       }
     ],
-    "processing": [],
+    "processing": [
+      {
+        "id": "P2_save_all_trc-0103003008.processing",
+        "created": "2026-01-03 00:30:08",
+        "age_minutes": 0.0
+      }
+    ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 13,
+    "total": 16,
     "by_level": {
-      "INFO": 10,
+      "INFO": 13,
       "WARN": 0,
       "ERROR": 0,
       "FATAL": 0,
@@ -51,10 +57,32 @@
       "SYSTEM": 0
     },
     "by_workflow": {
-      "daemon": 13
+      "system": 1,
+      "daemon": 15
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-01-03T00:30:09",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T00:30:08",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic Trigger: [save-all] at 00:30",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T00:30:08",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [save-all] -> powershell -ExecutionPolicy Bypass -File scripts/save-all.ps1",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-03T00:27:04",
         "level": "INFO",
@@ -873,12 +901,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-03 00:27:04",
+    "last_update": "2026-01-03 00:30:09",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.04,
+    "duration_seconds": 0.05,
     "has_token_trend": true,
     "errors": []
   }
