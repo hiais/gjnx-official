@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-03 00:31:03",
+  "timestamp": "2026-01-03 01:27:15",
   "health": {
     "score": 100,
     "status": "healthy",
     "issues": [],
     "daemon_status": {
       "alive": true,
-      "last_heartbeat": "2026-01-03 00:27:04"
+      "last_heartbeat": "2026-01-03 01:27:14"
     }
   },
   "tasks": {
@@ -16,7 +16,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 1912.3,
+        "age_minutes": 1968.5,
         "trace_id": "trc-0101163845"
       },
       {
@@ -24,7 +24,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 449.6,
+        "age_minutes": 505.8,
         "trace_id": "trc-0102170126"
       },
       {
@@ -32,7 +32,7 @@
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-01 22:30:28",
-        "age_minutes": 1560.6,
+        "age_minutes": 1616.8,
         "trace_id": null
       }
     ],
@@ -40,28 +40,154 @@
       {
         "id": "P2_save_all_trc-0102203030.processing",
         "created": "2026-01-03 00:30:30",
-        "age_minutes": 0.5
+        "age_minutes": 56.7
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 23,
+    "total": 41,
     "by_level": {
-      "INFO": 17,
-      "WARN": 1,
+      "INFO": 30,
+      "WARN": 2,
       "ERROR": 0,
       "FATAL": 0,
-      "SUCCESS": 5,
+      "SUCCESS": 9,
       "SYSTEM": 0
     },
     "by_workflow": {
-      "system": 8,
-      "daemon": 15
+      "daemon": 27,
+      "system": 14
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-01-03T01:27:14",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 01:27",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T01:17:13",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 01:17",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T01:07:12",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 01:07",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T01:01:12",
+        "level": "SUCCESS",
+        "workflow": "daemon",
+        "message": "Workflow Completed: [system-sentinel]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T01:01:12",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Chain Propagation: [system-sentinel] -> [process-tasks]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T01:00:12",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic Trigger: [system-sentinel] at 01:00",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T01:00:12",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T00:57:11",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 00:57",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T00:47:10",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 00:47",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T00:37:09",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 00:37",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T00:31:09",
+        "level": "SUCCESS",
+        "workflow": "daemon",
+        "message": "Workflow Completed: [save-all]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T00:31:09",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Chain Propagation: [save-all] -> [process-tasks]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T00:31:05",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Website: Pushed with message: feat(auto): sync website (1 modified, 0 added, 0 deleted) @00:31:03",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T00:31:05",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Core repository...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T00:31:05",
+        "level": "WARN",
+        "workflow": "system",
+        "message": "[save-all] Core: No changes to commit",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T00:31:03",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Dashboard generated successfully",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T00:31:03",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Website repository...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T00:31:03",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Pushing to GitHub...",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-03T00:31:02",
         "level": "INFO",
@@ -385,13 +511,29 @@
   },
   "content_factory": {
     "pipeline": {
-      "inbox": 74,
-      "scheduled": 6,
+      "inbox": 79,
+      "scheduled": 9,
       "wip": 2,
       "published": 74
     },
     "pipeline_details": {
       "inbox": [
+        {
+          "title": "NEW-1：10080mAh巨无霸来袭！荣耀Power2彻底重新定义手机续航 {2026-01-03}",
+          "type": "topic"
+        },
+        {
+          "title": "NEW-2：27小时续航！LG Gram Pro AI让笔记本续航进入\"超长待机\"时代 {2026-01-03}",
+          "type": "topic"
+        },
+        {
+          "title": "NEW-3：-25°C仅缩水5%！中国电动车冬测揭开了热泵技术的能效真相 {2026-01-03}",
+          "type": "topic"
+        },
+        {
+          "title": "NEW-4：2026固态电池量产元年！东风/广汽/上汽集体冲刺1000公里续航 {2026-01-03}",
+          "type": "topic"
+        },
         {
           "title": "4：Intel Nova Lake 曝光：LPE-Core 占领桌面端 {2026-01-01}",
           "type": "topic"
@@ -455,25 +597,33 @@
         {
           "title": "2025年冬测：电车谁最抗冻?",
           "type": "topic"
-        },
-        {
-          "title": "固态电池量产元年？",
-          "type": "topic"
-        },
-        {
-          "title": "AI PC 续航逆天：30小时时代",
-          "type": "topic"
-        },
-        {
-          "title": "NEW-4：光子芯片突破：比英伟达 GPU 快 100 倍，能耗降 100 倍",
-          "type": "topic"
-        },
-        {
-          "title": "NEW-5：硅碳负极全面爆发：中国厂商集体7000mAh，苹果三星被甩开",
-          "type": "topic"
         }
       ],
       "scheduled": [
+        {
+          "priority": "P0",
+          "title": "10080mAh！荣耀Power2彻底终结了\"一天两充\"焦虑时代",
+          "topic": "5-端侧异变",
+          "date": "2026-01-06",
+          "agent": "Writer A",
+          "goal": "💰 电商brought货 (荣耀手机推荐) + 私域引流 (续航实测数据表)"
+        },
+        {
+          "priority": "P1",
+          "title": "1000公里续航不再是PPT！东风/广汽定档2026，固态电池量产元年来了",
+          "topic": "4-电力之冠",
+          "date": "2026-01-07",
+          "agent": "Writer C",
+          "goal": "📈 行业洞察 + 固态电池技术白皮书下载"
+        },
+        {
+          "priority": "P1",
+          "title": "低功耗核心也要卷？Intel Nova Lake曝光，桌面端能效比的天要变了",
+          "topic": "1-硬件终局",
+          "date": "2026-01-08",
+          "agent": "Writer B",
+          "goal": "🔍 技术深度 + Intel路线图解析"
+        },
         {
           "priority": "P0",
           "title": "12.1W 的暴击！A19 Pro 彻底撕开了安卓旗舰的能效遮羞布",
@@ -492,11 +642,11 @@
         },
         {
           "priority": "P1",
-          "title": "寿命翻倍！LG 发布“软件定义电池”，充电宝这下真要失业了",
+          "title": "-25°C大考！小鹏P7仅缩水46%，67款车冬测揭开热泵技术真相",
           "topic": "4-电力之冠",
-          "date": "2026-01-05",
+          "date": "2026-01-04",
           "agent": "Writer C",
-          "goal": "📉 避坑指南 + 电池保养手册引流"
+          "goal": "� 知识付费 (冬季用车指南) + 痛点追踪 (热泵技术红黑榜)"
         },
         {
           "priority": "P0",
@@ -950,12 +1100,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-03 00:31:03",
+    "last_update": "2026-01-03 01:27:15",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.05,
+    "duration_seconds": 0.04,
     "has_token_trend": true,
     "errors": []
   }
