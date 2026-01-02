@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-02 16:30:19",
+  "timestamp": "2026-01-02 16:30:23",
   "health": {
     "score": 90,
     "status": "healthy",
@@ -30,14 +30,20 @@
         "trace_id": null
       }
     ],
-    "processing": [],
+    "processing": [
+      {
+        "id": "P2_save_all_trc-0102163022.processing",
+        "created": "2026-01-02 16:30:22",
+        "age_minutes": 0.0
+      }
+    ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 234,
+    "total": 237,
     "by_level": {
-      "INFO": 114,
+      "INFO": 117,
       "WARN": 67,
       "ERROR": 6,
       "FATAL": 0,
@@ -45,8 +51,8 @@
       "SYSTEM": 28
     },
     "by_workflow": {
-      "daemon": 185,
-      "system": 49
+      "daemon": 187,
+      "system": 50
     },
     "recent_errors": [
       {
@@ -93,6 +99,27 @@
       }
     ],
     "recent_activities": [
+      {
+        "time": "2026-01-02T16:30:22",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic Trigger: [save-all] at 16:30",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T16:30:22",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [save-all] -> powershell -ExecutionPolicy Bypass -File scripts/save-all.ps1",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T16:30:22",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-02T16:30:19",
         "level": "INFO",
@@ -770,27 +797,6 @@
         "level": "INFO",
         "workflow": "daemon",
         "message": "Daemon Heartbeat: Running at 12:06",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T12:05:58",
-        "level": "WARN",
-        "workflow": "daemon",
-        "message": "Daemon already running with PID 16364",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T12:05:28",
-        "level": "WARN",
-        "workflow": "daemon",
-        "message": "Daemon already running with PID 16364",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-02T12:04:58",
-        "level": "WARN",
-        "workflow": "daemon",
-        "message": "Daemon already running with PID 16364",
         "trace_id": ""
       }
     ]
@@ -1521,12 +1527,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-02 16:30:19",
+    "last_update": "2026-01-02 16:30:23",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.04,
+    "duration_seconds": 0.05,
     "has_token_trend": true,
     "errors": []
   }
