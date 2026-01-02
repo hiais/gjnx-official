@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-02 04:30:05",
+  "timestamp": "2026-01-02 11:45:09",
   "health": {
     "score": 90,
     "status": "healthy",
@@ -8,7 +8,7 @@
     ],
     "daemon_status": {
       "alive": true,
-      "last_heartbeat": "2026-01-02 04:27:05"
+      "last_heartbeat": "2026-01-02 11:45:08"
     }
   },
   "tasks": {
@@ -18,7 +18,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 711.3,
+        "age_minutes": 1146.4,
         "trace_id": "trc-0101163845"
       },
       {
@@ -26,33 +26,27 @@
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-01 22:30:28",
-        "age_minutes": 359.6,
+        "age_minutes": 794.7,
         "trace_id": null
       }
     ],
-    "processing": [
-      {
-        "id": "P2_save_all_trc-0102043005.processing",
-        "created": "2026-01-02 04:30:05",
-        "age_minutes": 0.0
-      }
-    ],
+    "processing": [],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 70,
+    "total": 88,
     "by_level": {
-      "INFO": 47,
-      "WARN": 1,
+      "INFO": 57,
+      "WARN": 2,
       "ERROR": 6,
       "FATAL": 0,
-      "SUCCESS": 8,
-      "SYSTEM": 8
+      "SUCCESS": 11,
+      "SYSTEM": 12
     },
     "by_workflow": {
-      "daemon": 54,
-      "system": 16
+      "daemon": 62,
+      "system": 26
     },
     "recent_errors": [
       {
@@ -100,6 +94,118 @@
     ],
     "recent_activities": [
       {
+        "time": "2026-01-02T11:45:08",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 11:45",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:36:08",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon V3.1 Started (Sidecar Engine + Smart State)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:36:08",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Project Root: D:\\gjnx",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:36:08",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "CLEAN: Old processes and ports released",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:36:08",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "START: All background services launched (Monitor, Daemon, Web)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:36:06",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "STOP: Killing old processes (LogMonitor, WorkflowDaemon, DashboardServer)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:36:05",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "INIT: Dashboard Full Restart Initiated",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:29:13",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 11:29",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:19:12",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 11:19",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T11:09:12",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 11:09",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T04:31:05",
+        "level": "SUCCESS",
+        "workflow": "daemon",
+        "message": "Workflow Completed: [save-all]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T04:31:05",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Chain Propagation: [save-all] -> [process-tasks]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T04:30:09",
+        "level": "WARN",
+        "workflow": "system",
+        "message": "[save-all] Core: No changes to commit",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T04:30:08",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Website: Pushed with message: feat(auto): sync website (1 modified, 0 added, 0 deleted) @04:30:05",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T04:30:08",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Core repository...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T04:30:06",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Pushing to GitHub...",
+        "trace_id": ""
+      },
+      {
         "time": "2026-01-02T04:30:05",
         "level": "INFO",
         "workflow": "daemon",
@@ -118,6 +224,20 @@
         "level": "INFO",
         "workflow": "system",
         "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T04:30:05",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Dashboard generated successfully",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-02T04:30:05",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Website repository...",
         "trace_id": ""
       },
       {
@@ -1316,12 +1436,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-02 04:30:05",
+    "last_update": "2026-01-02 11:45:09",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.08,
+    "duration_seconds": 0.32,
     "has_token_trend": true,
     "errors": []
   }
