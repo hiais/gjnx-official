@@ -1,12 +1,14 @@
 {
-  "timestamp": "2026-01-03 11:28:28",
+  "timestamp": "2026-01-03 12:28:25",
   "health": {
-    "score": 100,
+    "score": 90,
     "status": "healthy",
-    "issues": [],
+    "issues": [
+      "WARN_HIGH_ERROR_RATE"
+    ],
     "daemon_status": {
       "alive": true,
-      "last_heartbeat": "2026-01-03 11:28:27"
+      "last_heartbeat": "2026-01-03 12:28:25"
     }
   },
   "tasks": {
@@ -16,7 +18,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 2569.7,
+        "age_minutes": 2629.7,
         "trace_id": "trc-0101163845"
       },
       {
@@ -24,7 +26,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 1107.0,
+        "age_minutes": 1167.0,
         "trace_id": "trc-0102170126"
       },
       {
@@ -32,7 +34,7 @@
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-01 22:30:28",
-        "age_minutes": 2218.0,
+        "age_minutes": 2278.0,
         "trace_id": null
       }
     ],
@@ -40,28 +42,386 @@
       {
         "id": "P2_save_all_trc-0102203030.processing",
         "created": "2026-01-03 00:30:30",
-        "age_minutes": 658.0
+        "age_minutes": 717.9
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 72,
+    "total": 113,
     "by_level": {
-      "INFO": 58,
+      "INFO": 74,
       "WARN": 2,
-      "ERROR": 0,
+      "ERROR": 11,
       "FATAL": 0,
-      "SUCCESS": 12,
-      "SYSTEM": 0
+      "SUCCESS": 14,
+      "SYSTEM": 12
     },
     "by_workflow": {
-      "daemon": 58,
-      "system": 14
+      "daemon": 87,
+      "system": 26
     },
-    "recent_errors": [],
+    "recent_errors": [
+      {
+        "time": "2026-01-03T11:38:19",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "FATAL ERROR in Daemon Loop: 找不到“op_Subtraction”的重载，参数计数为:“2”。",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:38:19",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "在 <ScriptBlock>、D:\\gjnx\\scripts\\workflow-daemon.ps1 中: 第 195 行",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:37:14",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "FATAL ERROR in Daemon Loop: 找不到“op_Subtraction”的重载，参数计数为:“2”。",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:37:14",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "在 <ScriptBlock>、D:\\gjnx\\scripts\\workflow-daemon.ps1 中: 第 195 行",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:36:09",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "FATAL ERROR in Daemon Loop: 找不到“op_Subtraction”的重载，参数计数为:“2”。",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:36:09",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "在 <ScriptBlock>、D:\\gjnx\\scripts\\workflow-daemon.ps1 中: 第 195 行",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:35:04",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "FATAL ERROR in Daemon Loop: 找不到“op_Subtraction”的重载，参数计数为:“2”。",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:35:04",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "在 <ScriptBlock>、D:\\gjnx\\scripts\\workflow-daemon.ps1 中: 第 195 行",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:33:59",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "FATAL ERROR in Daemon Loop: 找不到“op_Subtraction”的重载，参数计数为:“2”。",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:33:59",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "在 <ScriptBlock>、D:\\gjnx\\scripts\\workflow-daemon.ps1 中: 第 195 行",
+        "trace_id": ""
+      }
+    ],
     "recent_activities": [
+      {
+        "time": "2026-01-03T12:28:25",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 12:28",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T12:18:24",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 12:18",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T12:11:23",
+        "level": "SUCCESS",
+        "workflow": "daemon",
+        "message": "Workflow Completed: [wechat-auto-stats]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T12:10:23",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic Trigger: [wechat-auto-stats] at 12:10",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T12:10:23",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [wechat-auto-stats] -> python scripts/wechat_stats_automation.py --mode quick --headless false",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T12:08:22",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 12:08",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T12:01:22",
+        "level": "SUCCESS",
+        "workflow": "daemon",
+        "message": "Workflow Completed: [system-sentinel]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T12:01:22",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Chain Propagation: [system-sentinel] -> [process-tasks]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T12:00:22",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic Trigger: [system-sentinel] at 12:00",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T12:00:22",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:58:21",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 11:58",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:48:19",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 11:48",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:39:18",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon V3.1 Started (Sidecar Engine + Smart State)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:39:18",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Project Root: D:\\gjnx",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:39:18",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "CLEAN: Old processes, ports, and zombie locks released",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:39:18",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "START: All background services launched (Monitor, Daemon, Web)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:39:15",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "INIT: Dashboard Full Restart Initiated",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:39:15",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "STOP: Killing old processes (LogMonitor, WorkflowDaemon, DashboardServer)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:38:19",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "FATAL ERROR in Daemon Loop: 找不到“op_Subtraction”的重载，参数计数为:“2”。",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:38:19",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "在 <ScriptBlock>、D:\\gjnx\\scripts\\workflow-daemon.ps1 中: 第 195 行",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:37:14",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "FATAL ERROR in Daemon Loop: 找不到“op_Subtraction”的重载，参数计数为:“2”。",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:37:14",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "在 <ScriptBlock>、D:\\gjnx\\scripts\\workflow-daemon.ps1 中: 第 195 行",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:36:09",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "FATAL ERROR in Daemon Loop: 找不到“op_Subtraction”的重载，参数计数为:“2”。",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:36:09",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "在 <ScriptBlock>、D:\\gjnx\\scripts\\workflow-daemon.ps1 中: 第 195 行",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:35:04",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "FATAL ERROR in Daemon Loop: 找不到“op_Subtraction”的重载，参数计数为:“2”。",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:35:04",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "在 <ScriptBlock>、D:\\gjnx\\scripts\\workflow-daemon.ps1 中: 第 195 行",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:33:59",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon V3.1 Started (Sidecar Engine + Smart State)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:33:59",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Project Root: D:\\gjnx",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:33:59",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "FATAL ERROR in Daemon Loop: 找不到“op_Subtraction”的重载，参数计数为:“2”。",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:33:59",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "在 <ScriptBlock>、D:\\gjnx\\scripts\\workflow-daemon.ps1 中: 第 195 行",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:33:59",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "CLEAN: Old processes, ports, and zombie locks released",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:33:59",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "START: All background services launched (Monitor, Daemon, Web)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:33:56",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "INIT: Dashboard Full Restart Initiated",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:33:56",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "STOP: Killing old processes (LogMonitor, WorkflowDaemon, DashboardServer)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:33:46",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon V3.1 Started (Sidecar Engine + Smart State)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:33:46",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Project Root: D:\\gjnx",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:33:46",
+        "level": "ERROR",
+        "workflow": "daemon",
+        "message": "在 <ScriptBlock>、D:\\gjnx\\scripts\\workflow-daemon.ps1 中: 第 195 行",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:33:46",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "CLEAN: Old processes, ports, and zombie locks released",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:33:46",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "START: All background services launched (Monitor, Daemon, Web)",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:33:43",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "INIT: Dashboard Full Restart Initiated",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T11:33:43",
+        "level": "SYSTEM",
+        "workflow": "system",
+        "message": "STOP: Killing old processes (LogMonitor, WorkflowDaemon, DashboardServer)",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-03T11:28:27",
         "level": "INFO",
@@ -474,97 +834,6 @@
         "workflow": "daemon",
         "message": "Headless Runner: Executing [save-all] -> powershell -ExecutionPolicy Bypass -File scripts/save-all.ps1",
         "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T00:27:04",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 00:27",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T00:17:03",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 00:17",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T00:11:03",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [wechat-auto-stats]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T00:10:03",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic Trigger: [wechat-auto-stats] at 00:10",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T00:10:03",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [wechat-auto-stats] -> python scripts/wechat_stats_automation.py --mode quick --headless false",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T00:07:02",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 00:07",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T00:02:02",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [archive-logs]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T00:01:02",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [system-sentinel]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T00:01:02",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Chain Propagation: [system-sentinel] -> [process-tasks]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T00:01:02",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [archive-logs] -> python scripts/auto_update_dashboard.py --archive",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T00:00:02",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic Trigger: [system-sentinel] at 00:00",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T00:00:02",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T00:00:02",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daily Sidecar Activation: [archive-logs] (Triggered by system-sentinel)",
-        "trace_id": ""
       }
     ]
   },
@@ -731,7 +1000,7 @@
       "inbox": 79,
       "scheduled": 9,
       "wip": 2,
-      "published": 74
+      "published": 75
     },
     "pipeline_details": {
       "inbox": [
@@ -906,6 +1175,11 @@
       ],
       "published": [
         {
+          "date": "2026-01-03",
+          "title": "踢开英伟达！OpenAI 联手博通造芯，10GW 算力的尽头是能耗",
+          "topic": "02-算力跃迁"
+        },
+        {
           "date": "2026-01-02",
           "title": "12.1W 的暴击！A19 Pro 彻底撕开了安卓旗舰的能效遮羞布",
           "topic": "04-电力之冠"
@@ -999,15 +1273,15 @@
           "date": "2025-12-21",
           "title": "AI 手机的“续航谎言”：算力再高，散热压不住也是徒劳",
           "topic": "05-端侧异变"
-        },
-        {
-          "date": "2025-12-20",
-          "title": "硅基时代生存地图：拒绝成为“电池人”",
-          "topic": "00-系统综述"
         }
       ]
     },
     "recent_published": [
+      {
+        "date": "2026-01-03",
+        "title": "踢开英伟达！OpenAI 联手博通造芯，10GW 算力的尽头是能耗",
+        "topic": "02-算力跃迁"
+      },
       {
         "date": "2026-01-02",
         "title": "12.1W 的暴击！A19 Pro 彻底撕开了安卓旗舰的能效遮羞布",
@@ -1027,16 +1301,11 @@
         "date": "2025-12-30",
         "title": "200 亿美金只买\"租用权\"？英伟达变相吞下 Groq，揭示了 AI 推理的能效焦虑",
         "topic": "02-算力跃迁"
-      },
-      {
-        "date": "2025-12-29",
-        "title": "续航 1200km？奔驰 EQS 固态版上路：这次不靠“大标”，靠铜负极",
-        "topic": "04-电力之冠"
       }
     ],
     "topic_distribution": {
+      "02-算力跃迁": 12,
       "04-电力之冠": 16,
-      "02-算力跃迁": 11,
       "05-端侧异变": 15,
       "03-具身革命": 3,
       "06-星际硅基": 3,
@@ -1046,6 +1315,7 @@
       "00-待分类": 9
     },
     "weekly_output": {
+      "2026-01-03": 1,
       "2026-01-02": 1,
       "2026-01-01": 1,
       "2025-12-31": 1,
@@ -1310,14 +1580,14 @@
       "delta_percent": 0
     },
     "error_count": {
-      "today": 0,
+      "today": 11,
       "yesterday": 0,
-      "delta": 0,
-      "delta_percent": 0.0
+      "delta": 11,
+      "delta_percent": 100.0
     }
   },
   "system": {
-    "last_update": "2026-01-03 11:28:28",
+    "last_update": "2026-01-03 12:28:25",
     "timezone": "China Standard Time"
   },
   "metadata": {
