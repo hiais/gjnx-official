@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-03 17:39:17",
+  "timestamp": "2026-01-03 18:39:25",
   "health": {
     "score": 90,
     "status": "healthy",
@@ -8,7 +8,7 @@
     ],
     "daemon_status": {
       "alive": true,
-      "last_heartbeat": "2026-01-03 17:39:16"
+      "last_heartbeat": "2026-01-03 18:39:25"
     }
   },
   "tasks": {
@@ -18,7 +18,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 2940.5,
+        "age_minutes": 3000.7,
         "trace_id": "trc-0101163845"
       },
       {
@@ -26,15 +26,23 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 1477.8,
+        "age_minutes": 1538.0,
         "trace_id": "trc-0102170126"
+      },
+      {
+        "id": "P2_process_tasks_trc-0103180122.lock",
+        "priority": "P2",
+        "workflow": "process-tasks",
+        "created": "2026-01-03 18:01:22",
+        "age_minutes": 38.1,
+        "trace_id": "trc-0103180122"
       },
       {
         "id": "pending_config_val.lock",
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-01 22:30:28",
-        "age_minutes": 2588.8,
+        "age_minutes": 2649.0,
         "trace_id": null
       }
     ],
@@ -42,24 +50,24 @@
       {
         "id": "P2_save_all_trc-0102203030.processing",
         "created": "2026-01-03 00:30:30",
-        "age_minutes": 1028.8
+        "age_minutes": 1088.9
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 167,
+    "total": 181,
     "by_level": {
-      "INFO": 123,
+      "INFO": 135,
       "WARN": 2,
       "ERROR": 11,
       "FATAL": 0,
-      "SUCCESS": 19,
+      "SUCCESS": 21,
       "SYSTEM": 12
     },
     "by_workflow": {
-      "daemon": 141,
+      "daemon": 155,
       "system": 26
     },
     "recent_errors": [
@@ -135,6 +143,104 @@
       }
     ],
     "recent_activities": [
+      {
+        "time": "2026-01-03T18:39:25",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 18:39",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T18:30:25",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic Trigger: [save-all] at 18:30",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T18:29:24",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 18:29",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T18:19:23",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 18:19",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T18:11:23",
+        "level": "SUCCESS",
+        "workflow": "daemon",
+        "message": "Workflow Completed: [wechat-auto-stats]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T18:10:23",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic Trigger: [wechat-auto-stats] at 18:10",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T18:10:23",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [wechat-auto-stats] -> python scripts/wechat_stats_automation.py --mode quick --headless false",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T18:09:22",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 18:09",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T18:01:22",
+        "level": "SUCCESS",
+        "workflow": "daemon",
+        "message": "Workflow Completed: [system-sentinel]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T18:01:22",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Chain Propagation: [system-sentinel] -> [process-tasks]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T18:00:22",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic Trigger: [system-sentinel] at 18:00",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T18:00:22",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T17:59:21",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 17:59",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T17:49:19",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 17:49",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-03T17:39:16",
         "level": "INFO",
@@ -735,104 +841,6 @@
         "level": "SYSTEM",
         "workflow": "system",
         "message": "START: All background services launched (Monitor, Daemon, Web)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T11:33:56",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "INIT: Dashboard Full Restart Initiated",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T11:33:56",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "STOP: Killing old processes (LogMonitor, WorkflowDaemon, DashboardServer)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T11:33:46",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon V3.1 Started (Sidecar Engine + Smart State)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T11:33:46",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Project Root: D:\\gjnx",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T11:33:46",
-        "level": "ERROR",
-        "workflow": "daemon",
-        "message": "在 <ScriptBlock>、D:\\gjnx\\scripts\\workflow-daemon.ps1 中: 第 195 行",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T11:33:46",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "CLEAN: Old processes, ports, and zombie locks released",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T11:33:46",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "START: All background services launched (Monitor, Daemon, Web)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T11:33:43",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "INIT: Dashboard Full Restart Initiated",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T11:33:43",
-        "level": "SYSTEM",
-        "workflow": "system",
-        "message": "STOP: Killing old processes (LogMonitor, WorkflowDaemon, DashboardServer)",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T11:28:27",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 11:28",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T04:17:42",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 04:17",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T04:07:41",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 04:07",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T04:01:41",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [system-sentinel]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T04:01:41",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Chain Propagation: [system-sentinel] -> [process-tasks]",
         "trace_id": ""
       }
     ]
@@ -1587,7 +1595,7 @@
     }
   },
   "system": {
-    "last_update": "2026-01-03 17:39:17",
+    "last_update": "2026-01-03 18:39:25",
     "timezone": "China Standard Time"
   },
   "metadata": {
