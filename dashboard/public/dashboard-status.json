@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-03 13:28:34",
+  "timestamp": "2026-01-03 14:28:43",
   "health": {
     "score": 90,
     "status": "healthy",
@@ -8,7 +8,7 @@
     ],
     "daemon_status": {
       "alive": true,
-      "last_heartbeat": "2026-01-03 13:28:34"
+      "last_heartbeat": "2026-01-03 14:28:42"
     }
   },
   "tasks": {
@@ -18,7 +18,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 2689.8,
+        "age_minutes": 2750.0,
         "trace_id": "trc-0101163845"
       },
       {
@@ -26,7 +26,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 1227.1,
+        "age_minutes": 1287.3,
         "trace_id": "trc-0102170126"
       },
       {
@@ -34,7 +34,7 @@
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-01 22:30:28",
-        "age_minutes": 2338.1,
+        "age_minutes": 2398.3,
         "trace_id": null
       }
     ],
@@ -42,24 +42,24 @@
       {
         "id": "P2_save_all_trc-0102203030.processing",
         "created": "2026-01-03 00:30:30",
-        "age_minutes": 778.1
+        "age_minutes": 838.2
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 124,
+    "total": 134,
     "by_level": {
-      "INFO": 84,
+      "INFO": 93,
       "WARN": 2,
       "ERROR": 11,
       "FATAL": 0,
-      "SUCCESS": 15,
+      "SUCCESS": 16,
       "SYSTEM": 12
     },
     "by_workflow": {
-      "daemon": 98,
+      "daemon": 108,
       "system": 26
     },
     "recent_errors": [
@@ -135,6 +135,76 @@
       }
     ],
     "recent_activities": [
+      {
+        "time": "2026-01-03T14:28:42",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 14:28",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T14:18:41",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 14:18",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T14:08:40",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 14:08",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T14:01:40",
+        "level": "SUCCESS",
+        "workflow": "daemon",
+        "message": "Workflow Completed: [system-sentinel]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T14:01:40",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Chain Propagation: [system-sentinel] -> [process-tasks]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T14:00:40",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic Trigger: [system-sentinel] at 14:00",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T14:00:40",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T13:58:39",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 13:58",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T13:48:38",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 13:48",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-03T13:38:37",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 13:38",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-03T13:28:34",
         "level": "INFO",
@@ -763,76 +833,6 @@
         "level": "INFO",
         "workflow": "daemon",
         "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T00:57:11",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 00:57",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T00:47:10",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 00:47",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T00:37:09",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 00:37",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T00:31:09",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [save-all]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T00:31:09",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Chain Propagation: [save-all] -> [process-tasks]",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T00:31:05",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Website: Pushed with message: feat(auto): sync website (1 modified, 0 added, 0 deleted) @00:31:03",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T00:31:05",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Core repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T00:31:05",
-        "level": "WARN",
-        "workflow": "system",
-        "message": "[save-all] Core: No changes to commit",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T00:31:03",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Dashboard generated successfully",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-03T00:31:03",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Website repository...",
         "trace_id": ""
       }
     ]
@@ -1587,12 +1587,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-03 13:28:34",
+    "last_update": "2026-01-03 14:28:43",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.04,
+    "duration_seconds": 0.23,
     "has_token_trend": true,
     "errors": []
   }
