@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-04 01:40:23",
+  "timestamp": "2026-01-04 02:40:32",
   "health": {
     "score": 100,
     "status": "healthy",
     "issues": [],
     "daemon_status": {
       "alive": true,
-      "last_heartbeat": "2026-01-04 01:40:22"
+      "last_heartbeat": "2026-01-04 02:40:32"
     }
   },
   "tasks": {
@@ -16,7 +16,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 3421.6,
+        "age_minutes": 3481.8,
         "trace_id": "trc-0101163845"
       },
       {
@@ -24,7 +24,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 1958.9,
+        "age_minutes": 2019.1,
         "trace_id": "trc-0102170126"
       },
       {
@@ -32,7 +32,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-03 18:01:22",
-        "age_minutes": 459.0,
+        "age_minutes": 519.2,
         "trace_id": "trc-0103180122"
       },
       {
@@ -40,7 +40,7 @@
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-01 22:30:28",
-        "age_minutes": 3069.9,
+        "age_minutes": 3130.1,
         "trace_id": null
       }
     ],
@@ -48,28 +48,105 @@
       {
         "id": "P2_save_all_trc-0102203030.processing",
         "created": "2026-01-03 00:30:30",
-        "age_minutes": 1509.9
+        "age_minutes": 1570.0
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 40,
+    "total": 51,
     "by_level": {
-      "INFO": 30,
+      "INFO": 40,
       "WARN": 0,
       "ERROR": 0,
       "FATAL": 0,
-      "SUCCESS": 10,
+      "SUCCESS": 11,
       "SYSTEM": 0
     },
     "by_workflow": {
-      "daemon": 26,
+      "daemon": 37,
       "system": 14
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-01-04T02:40:32",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 02:40",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T02:30:32",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic Trigger: [save-all] at 02:30",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T02:30:31",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 02:30",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T02:20:30",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 02:20",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T02:10:29",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 02:10",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T02:01:29",
+        "level": "SUCCESS",
+        "workflow": "daemon",
+        "message": "Workflow Completed: [system-sentinel]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T02:01:29",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Chain Propagation: [system-sentinel] -> [process-tasks]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T02:00:29",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic Trigger: [system-sentinel] at 02:00",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T02:00:29",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T02:00:28",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 02:00",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T01:50:27",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 01:50",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-04T01:40:22",
         "level": "INFO",
@@ -1098,7 +1175,7 @@
     }
   },
   "system": {
-    "last_update": "2026-01-04 01:40:23",
+    "last_update": "2026-01-04 02:40:32",
     "timezone": "China Standard Time"
   },
   "metadata": {
