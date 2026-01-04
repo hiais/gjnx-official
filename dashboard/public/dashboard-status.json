@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-04 20:13:02",
+  "timestamp": "2026-01-04 20:33:12",
   "health": {
     "score": 100,
     "status": "healthy",
     "issues": [],
     "daemon_status": {
       "alive": true,
-      "last_heartbeat": "2026-01-04 20:06:35"
+      "last_heartbeat": "2026-01-04 20:26:37"
     }
   },
   "tasks": {
@@ -16,7 +16,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 4534.3,
+        "age_minutes": 4554.4,
         "trace_id": "trc-0101163845"
       },
       {
@@ -24,7 +24,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 3071.6,
+        "age_minutes": 3091.8,
         "trace_id": "trc-0102170126"
       },
       {
@@ -32,7 +32,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-03 18:01:22",
-        "age_minutes": 1571.7,
+        "age_minutes": 1591.8,
         "trace_id": "trc-0103180122"
       },
       {
@@ -40,7 +40,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-04 20:01:35",
-        "age_minutes": 11.4,
+        "age_minutes": 31.6,
         "trace_id": "trc-0104200135"
       },
       {
@@ -48,7 +48,7 @@
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-01 22:30:28",
-        "age_minutes": 4182.6,
+        "age_minutes": 4202.7,
         "trace_id": null
       }
     ],
@@ -56,28 +56,98 @@
       {
         "id": "P2_save_all_trc-0102203030.processing",
         "created": "2026-01-03 00:30:30",
-        "age_minutes": 2622.5
+        "age_minutes": 2642.7
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 89,
+    "total": 99,
     "by_level": {
-      "INFO": 74,
+      "INFO": 81,
       "WARN": 0,
       "ERROR": 0,
       "FATAL": 0,
-      "SUCCESS": 15,
+      "SUCCESS": 18,
       "SYSTEM": 0
     },
     "by_workflow": {
-      "system": 15,
-      "daemon": 74
+      "system": 22,
+      "daemon": 77
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-01-04T20:33:12",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T20:30:38",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic Trigger: [save-all] at 20:30",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T20:26:37",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 20:26",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T20:16:36",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 20:16",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T20:13:07",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Core: Committed locally: chore(auto): deep sync [Content/Scripts/Tasks] (17 modified, 3 added, 1182 deleted) @20:13:06",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T20:13:05",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Website: Pushed with message: feat(auto): sync website (1 modified, 0 added, 0 deleted) @20:13:02",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T20:13:05",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Core repository...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T20:13:02",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Dashboard generated successfully",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T20:13:02",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Website repository...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T20:13:02",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Pushing to GitHub...",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-04T20:13:01",
         "level": "INFO",
@@ -1453,12 +1523,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-04 20:13:02",
+    "last_update": "2026-01-04 20:33:12",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.04,
+    "duration_seconds": 0.05,
     "has_token_trend": true,
     "errors": []
   }
