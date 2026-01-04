@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-04 11:00:13",
+  "timestamp": "2026-01-04 19:18:16",
   "health": {
     "score": 100,
     "status": "healthy",
     "issues": [],
     "daemon_status": {
       "alive": true,
-      "last_heartbeat": "2026-01-04 10:54:11"
+      "last_heartbeat": "2026-01-04 19:18:16"
     }
   },
   "tasks": {
@@ -16,7 +16,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 3981.5,
+        "age_minutes": 4479.5,
         "trace_id": "trc-0101163845"
       },
       {
@@ -24,7 +24,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 2518.8,
+        "age_minutes": 3016.8,
         "trace_id": "trc-0102170126"
       },
       {
@@ -32,7 +32,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-03 18:01:22",
-        "age_minutes": 1018.8,
+        "age_minutes": 1516.9,
         "trace_id": "trc-0103180122"
       },
       {
@@ -40,7 +40,7 @@
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-01 22:30:28",
-        "age_minutes": 3629.8,
+        "age_minutes": 4127.8,
         "trace_id": null
       }
     ],
@@ -48,33 +48,56 @@
       {
         "id": "P2_save_all_trc-0102203030.processing",
         "created": "2026-01-03 00:30:30",
-        "age_minutes": 2069.7
-      },
-      {
-        "id": "P2_system_sentinel_trc-0104110012.processing",
-        "created": "2026-01-04 11:00:12",
-        "age_minutes": 0.0
+        "age_minutes": 2567.8
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 75,
+    "total": 79,
     "by_level": {
-      "INFO": 62,
+      "INFO": 65,
       "WARN": 0,
       "ERROR": 0,
       "FATAL": 0,
-      "SUCCESS": 13,
+      "SUCCESS": 14,
       "SYSTEM": 0
     },
     "by_workflow": {
-      "daemon": 61,
+      "daemon": 65,
       "system": 14
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-01-04T19:18:16",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 19:18",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T11:04:12",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 11:04",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T11:01:12",
+        "level": "SUCCESS",
+        "workflow": "daemon",
+        "message": "Workflow Completed: [system-sentinel]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T11:01:12",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Chain Propagation: [system-sentinel] -> [process-tasks]",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-04T11:00:12",
         "level": "INFO",
@@ -1348,7 +1371,7 @@
     }
   },
   "system": {
-    "last_update": "2026-01-04 11:00:13",
+    "last_update": "2026-01-04 19:18:16",
     "timezone": "China Standard Time"
   },
   "metadata": {
