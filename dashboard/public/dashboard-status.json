@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-04 19:18:16",
+  "timestamp": "2026-01-04 20:13:02",
   "health": {
     "score": 100,
     "status": "healthy",
     "issues": [],
     "daemon_status": {
       "alive": true,
-      "last_heartbeat": "2026-01-04 19:18:16"
+      "last_heartbeat": "2026-01-04 20:06:35"
     }
   },
   "tasks": {
@@ -16,7 +16,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 4479.5,
+        "age_minutes": 4534.3,
         "trace_id": "trc-0101163845"
       },
       {
@@ -24,7 +24,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 3016.8,
+        "age_minutes": 3071.6,
         "trace_id": "trc-0102170126"
       },
       {
@@ -32,15 +32,23 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-03 18:01:22",
-        "age_minutes": 1516.9,
+        "age_minutes": 1571.7,
         "trace_id": "trc-0103180122"
+      },
+      {
+        "id": "P2_process_tasks_trc-0104200135.lock",
+        "priority": "P2",
+        "workflow": "process-tasks",
+        "created": "2026-01-04 20:01:35",
+        "age_minutes": 11.4,
+        "trace_id": "trc-0104200135"
       },
       {
         "id": "pending_config_val.lock",
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-01 22:30:28",
-        "age_minutes": 4127.8,
+        "age_minutes": 4182.6,
         "trace_id": null
       }
     ],
@@ -48,28 +56,98 @@
       {
         "id": "P2_save_all_trc-0102203030.processing",
         "created": "2026-01-03 00:30:30",
-        "age_minutes": 2567.8
+        "age_minutes": 2622.5
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 79,
+    "total": 89,
     "by_level": {
-      "INFO": 65,
+      "INFO": 74,
       "WARN": 0,
       "ERROR": 0,
       "FATAL": 0,
-      "SUCCESS": 14,
+      "SUCCESS": 15,
       "SYSTEM": 0
     },
     "by_workflow": {
-      "daemon": 65,
-      "system": 14
+      "system": 15,
+      "daemon": 74
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-01-04T20:13:01",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T20:06:35",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 20:06",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T20:01:35",
+        "level": "SUCCESS",
+        "workflow": "daemon",
+        "message": "Workflow Completed: [system-sentinel]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T20:01:35",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Chain Propagation: [system-sentinel] -> [process-tasks]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T20:00:35",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic Trigger: [system-sentinel] at 20:00",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T20:00:35",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T19:56:34",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 19:56",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T19:46:32",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 19:46",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T19:36:31",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 19:36",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-04T19:26:30",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 19:26",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-04T19:18:16",
         "level": "INFO",
@@ -785,7 +863,7 @@
   },
   "content_factory": {
     "pipeline": {
-      "inbox": 23,
+      "inbox": 27,
       "scheduled": 9,
       "wip": 2,
       "published": 76
@@ -845,6 +923,18 @@
           "type": "topic"
         },
         {
+          "title": "AI手机隐形税 (耗电50%)",
+          "type": "topic"
+        },
+        {
+          "title": "RTX 5070 功耗翻车",
+          "type": "topic"
+        },
+        {
+          "title": "Starlink V3 零能耗基站",
+          "type": "topic"
+        },
+        {
           "title": "A19 Pro 能效霸榜",
           "type": "topic"
         },
@@ -859,14 +949,6 @@
         {
           "title": "7500mAh 硅碳负极普及",
           "type": "topic"
-        },
-        {
-          "title": "AI算力能耗翻倍",
-          "type": "topic"
-        },
-        {
-          "title": "2026 电动车冬测",
-          "type": "topic"
         }
       ],
       "scheduled": [
@@ -880,19 +962,19 @@
         },
         {
           "priority": "P1",
-          "title": "1000公里续航不再是PPT！东风/广汽定档2026，固态电池量产元年来了",
-          "topic": "4-电力之冠",
+          "title": "耗电激增50%？揭秘2026年AI手机不敢告诉你的\"隐形税\"",
+          "topic": "5-端侧异变",
           "date": "2026-01-07",
-          "agent": "Writer C",
-          "goal": "📈 行业洞察 + 固态电池技术白皮书下载"
+          "agent": "Writer B",
+          "goal": "📈 流量爆款 (用户痛点) + 避坑指南"
         },
         {
           "priority": "P1",
-          "title": "低功耗核心也要卷？Intel Nova Lake曝光，桌面端能效比的天要变了",
-          "topic": "1-硬件终局",
+          "title": "1000公里续航不再是PPT！东风/广汽定档2026，固态电池量产元年来了",
+          "topic": "4-电力之冠",
           "date": "2026-01-08",
-          "agent": "Writer B",
-          "goal": "🔍 技术深度 + Intel路线图解析"
+          "agent": "Writer C",
+          "goal": "📈 行业洞察 + 固态电池技术白皮书下载"
         },
         {
           "priority": "P0",
@@ -1371,7 +1453,7 @@
     }
   },
   "system": {
-    "last_update": "2026-01-04 19:18:16",
+    "last_update": "2026-01-04 20:13:02",
     "timezone": "China Standard Time"
   },
   "metadata": {
