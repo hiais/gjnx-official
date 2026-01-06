@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-07 01:04:43",
+  "timestamp": "2026-01-07 02:00:53",
   "health": {
     "score": 100,
     "status": "healthy",
     "issues": [],
     "daemon_status": {
       "alive": true,
-      "last_heartbeat": "2026-01-07 01:01:46"
+      "last_heartbeat": "2026-01-07 01:51:52"
     }
   },
   "tasks": {
@@ -16,15 +16,23 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-06 00:25:07",
-        "age_minutes": 1479.6,
+        "age_minutes": 1535.8,
         "trace_id": "trc-0106002507"
+      },
+      {
+        "id": "P1_task_watchdog_trc-0107012343.lock",
+        "priority": "P1",
+        "workflow": "task-watchdog",
+        "created": "2026-01-07 01:23:43",
+        "age_minutes": 37.2,
+        "trace_id": "trc-0107012343"
       },
       {
         "id": "P2_process_tasks_trc-0101163845.lock",
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 7706.0,
+        "age_minutes": 7762.1,
         "trace_id": "trc-0101163845"
       },
       {
@@ -32,7 +40,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 6243.3,
+        "age_minutes": 6299.5,
         "trace_id": "trc-0102170126"
       },
       {
@@ -40,7 +48,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-03 18:01:22",
-        "age_minutes": 4743.3,
+        "age_minutes": 4799.5,
         "trace_id": "trc-0103180122"
       },
       {
@@ -48,7 +56,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-04 20:01:35",
-        "age_minutes": 3183.1,
+        "age_minutes": 3239.3,
         "trace_id": "trc-0104200135"
       },
       {
@@ -56,7 +64,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-05 22:01:18",
-        "age_minutes": 1623.4,
+        "age_minutes": 1679.6,
         "trace_id": "trc-0105220118"
       },
       {
@@ -64,7 +72,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-06 23:01:30",
-        "age_minutes": 123.2,
+        "age_minutes": 179.4,
         "trace_id": "trc-0106230130"
       },
       {
@@ -72,7 +80,7 @@
         "priority": "P2",
         "workflow": "verify-test",
         "created": "2026-01-05 23:51:51",
-        "age_minutes": 1512.9,
+        "age_minutes": 1569.0,
         "trace_id": "trc-0105235151"
       },
       {
@@ -80,7 +88,7 @@
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-01 22:30:28",
-        "age_minutes": 7354.3,
+        "age_minutes": 7410.4,
         "trace_id": null
       }
     ],
@@ -88,33 +96,136 @@
       {
         "id": "P2_save_all_trc-0102203030.processing",
         "created": "2026-01-03 00:30:30",
-        "age_minutes": 5794.2
+        "age_minutes": 5850.4
+      },
+      {
+        "id": "P2_system_sentinel_trc-0107020053.processing",
+        "created": "2026-01-07 02:00:53",
+        "age_minutes": 0.0
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 44,
+    "total": 58,
     "by_level": {
-      "INFO": 29,
-      "WARN": 2,
+      "INFO": 39,
+      "WARN": 3,
       "ERROR": 0,
       "FATAL": 0,
-      "SUCCESS": 13,
+      "SUCCESS": 16,
       "SYSTEM": 0
     },
     "by_workflow": {
-      "system": 22,
-      "daemon": 22
+      "daemon": 30,
+      "system": 28
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-01-07T02:00:53",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic Trigger: [system-sentinel] at 02:00",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T02:00:53",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T01:51:52",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 01:51",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T01:41:51",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 01:41",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T01:31:50",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 01:31",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T01:23:50",
+        "level": "WARN",
+        "workflow": "daemon",
+        "message": "No automation command for [task-watchdog]. Skipping.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T01:21:49",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 01:21",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T01:11:47",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 01:11",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T01:04:47",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Core: Committed locally: chore(auto): deep sync (0 modified, 1 added, 0 deleted) @01:04:46",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T01:04:46",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Website: Pushed with message: feat(auto): sync website (1 modified, 0 added, 0 deleted) @01:04:43",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T01:04:46",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Core repository...",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-07T01:04:43",
         "level": "INFO",
         "workflow": "system",
         "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T01:04:43",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Dashboard generated successfully",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T01:04:43",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Website repository...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T01:04:43",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Pushing to GitHub...",
         "trace_id": ""
       },
       {
@@ -557,8 +668,8 @@
   "content_factory": {
     "pipeline": {
       "inbox": 31,
-      "scheduled": 9,
-      "wip": 2,
+      "scheduled": 0,
+      "wip": 0,
       "published": 79
     },
     "pipeline_details": {
@@ -644,94 +755,8 @@
           "type": "topic"
         }
       ],
-      "scheduled": [
-        {
-          "priority": "P0",
-          "title": "10080mAh！荣耀Power2彻底终结了\"一天两充\"焦虑时代",
-          "topic": "5-端侧异变",
-          "date": "2026-01-06",
-          "agent": "Writer A",
-          "goal": "💰 电商brought货 (荣耀手机推荐) + 私域引流 (续航实测数据表)"
-        },
-        {
-          "priority": "P1",
-          "title": "耗电激增50%？揭秘2026年AI手机不敢告诉你的\"隐形税\"",
-          "topic": "5-端侧异变",
-          "date": "2026-01-07",
-          "agent": "Writer B",
-          "goal": "📈 流量爆款 (用户痛点) + 避坑指南"
-        },
-        {
-          "priority": "P1",
-          "title": "1000公里续航不再是PPT！东风/广汽定档2026，固态电池量产元年来了",
-          "topic": "4-电力之冠",
-          "date": "2026-01-08",
-          "agent": "Writer C",
-          "goal": "📈 行业洞察 + 固态电池技术白皮书下载"
-        },
-        {
-          "priority": "P0",
-          "title": "12.1W 的暴击！A19 Pro 彻底撕开了安卓旗舰的能效遮羞布",
-          "topic": "5-端侧异变",
-          "date": "2026-01-03",
-          "agent": "Writer A",
-          "goal": "📈 性能榜单 + 续航实测数据表引流"
-        },
-        {
-          "priority": "P1",
-          "title": "踢开英伟达！OpenAI 联手博通造芯，10GW 算力的尽头是能耗",
-          "topic": "2-算力跃迁",
-          "date": "2026-01-04",
-          "agent": "Writer B",
-          "goal": "💰 行业深度 + AI能耗白皮书下载"
-        },
-        {
-          "priority": "P1",
-          "title": "-25°C大考！小鹏P7仅缩水46%，67款车冬测揭开热泵技术真相",
-          "topic": "4-电力之冠",
-          "date": "2026-01-04",
-          "agent": "Writer C",
-          "goal": "� 知识付费 (冬季用车指南) + 痛点追踪 (热泵技术红黑榜)"
-        },
-        {
-          "priority": "P0",
-          "title": "25小时续航！一加15用7300mAh硅碳电池终结了充电焦虑",
-          "topic": "5-端侧异变",
-          "date": "2026-01-02",
-          "agent": "Writer A",
-          "goal": "💰 电商带货 (7000mAh+手机推荐) + 私域引流 (续航实测数据表)"
-        },
-        {
-          "priority": "P1",
-          "title": "34小时续航！AI PC用NPU终结了笔记本\"半天电\"魔咒",
-          "topic": "5-端侧异变",
-          "date": "2026-01-03",
-          "agent": "Writer A",
-          "goal": "💰 电商带货 (AI PC推荐) + 行业洞察 (NPU能效革命)"
-        },
-        {
-          "priority": "P1",
-          "title": "-25°C大考！Polestar 3仅缩水5%，这才是电动车续航的真相",
-          "topic": "4-电力之冠",
-          "date": "2026-01-04",
-          "agent": "Writer C",
-          "goal": "📈 知识付费 (冬季用车指南) + 痛点追踪 (热泵技术)"
-        }
-      ],
-      "wip": [
-        {
-          "priority": "WIP",
-          "title": "34小时续航！AI PC用NPU终结了笔记本...",
-          "date": "2026-01-03",
-          "status": "✍️ 写作中"
-        },
-        {
-          "priority": "WIP",
-          "title": "-25°C大考！Polestar 3仅缩水5%，这才是...",
-          "date": "2026-01-04",
-          "status": "✍️ 写作中"
-        }
-      ],
+      "scheduled": [],
+      "wip": [],
       "published": [
         {
           "date": "2026-01-06",
@@ -1146,13 +1171,15 @@
     }
   },
   "system": {
-    "last_update": "2026-01-07 01:04:43",
+    "last_update": "2026-01-07 02:00:53",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
     "duration_seconds": 0.04,
     "has_token_trend": true,
-    "errors": []
+    "errors": [
+      "Plan file parse error: 'utf-8' codec can't decode byte 0xb9 in position 2: invalid start byte"
+    ]
   }
 }
