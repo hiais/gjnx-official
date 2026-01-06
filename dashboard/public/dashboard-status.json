@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-06 01:26:52",
+  "timestamp": "2026-01-06 22:42:24",
   "health": {
     "score": 100,
     "status": "healthy",
     "issues": [],
     "daemon_status": {
       "alive": true,
-      "last_heartbeat": "2026-01-06 01:20:47"
+      "last_heartbeat": "2026-01-06 22:42:24"
     }
   },
   "tasks": {
@@ -16,7 +16,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-06 00:25:07",
-        "age_minutes": 61.7,
+        "age_minutes": 1337.3,
         "trace_id": "trc-0106002507"
       },
       {
@@ -24,7 +24,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 6288.1,
+        "age_minutes": 7563.6,
         "trace_id": "trc-0101163845"
       },
       {
@@ -32,7 +32,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 4825.4,
+        "age_minutes": 6101.0,
         "trace_id": "trc-0102170126"
       },
       {
@@ -40,7 +40,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-03 18:01:22",
-        "age_minutes": 3325.5,
+        "age_minutes": 4601.0,
         "trace_id": "trc-0103180122"
       },
       {
@@ -48,7 +48,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-04 20:01:35",
-        "age_minutes": 1765.3,
+        "age_minutes": 3040.8,
         "trace_id": "trc-0104200135"
       },
       {
@@ -56,7 +56,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-05 22:01:18",
-        "age_minutes": 205.6,
+        "age_minutes": 1481.1,
         "trace_id": "trc-0105220118"
       },
       {
@@ -64,7 +64,7 @@
         "priority": "P2",
         "workflow": "verify-test",
         "created": "2026-01-05 23:51:51",
-        "age_minutes": 95.0,
+        "age_minutes": 1370.6,
         "trace_id": "trc-0105235151"
       },
       {
@@ -72,7 +72,7 @@
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-01 22:30:28",
-        "age_minutes": 5936.4,
+        "age_minutes": 7211.9,
         "trace_id": null
       }
     ],
@@ -80,16 +80,16 @@
       {
         "id": "P2_save_all_trc-0102203030.processing",
         "created": "2026-01-03 00:30:30",
-        "age_minutes": 4376.4
+        "age_minutes": 5651.9
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 32,
+    "total": 36,
     "by_level": {
-      "INFO": 23,
+      "INFO": 27,
       "WARN": 2,
       "ERROR": 0,
       "FATAL": 0,
@@ -97,11 +97,39 @@
       "SYSTEM": 0
     },
     "by_workflow": {
-      "daemon": 25,
+      "daemon": 29,
       "system": 7
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-01-06T22:42:24",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 22:42",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-06T01:50:50",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 01:50",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-06T01:40:49",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 01:40",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-06T01:30:48",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 01:30",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-06T01:20:47",
         "level": "INFO",
@@ -1054,12 +1082,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-06 01:26:52",
+    "last_update": "2026-01-06 22:42:24",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.05,
+    "duration_seconds": 0.22,
     "has_token_trend": true,
     "errors": []
   }
