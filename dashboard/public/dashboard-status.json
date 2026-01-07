@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-07 19:31:23",
+  "timestamp": "2026-01-07 20:25:19",
   "health": {
     "score": 100,
     "status": "healthy",
     "issues": [],
     "daemon_status": {
       "alive": true,
-      "last_heartbeat": "2026-01-07 19:25:10"
+      "last_heartbeat": "2026-01-07 20:25:19"
     }
   },
   "tasks": {
@@ -16,7 +16,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-06 00:25:07",
-        "age_minutes": 2586.3,
+        "age_minutes": 2640.2,
         "trace_id": "trc-0106002507"
       },
       {
@@ -24,7 +24,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-07 01:23:43",
-        "age_minutes": 1087.7,
+        "age_minutes": 1141.6,
         "trace_id": "trc-0107012343"
       },
       {
@@ -32,7 +32,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 8812.6,
+        "age_minutes": 8866.6,
         "trace_id": "trc-0101163845"
       },
       {
@@ -40,7 +40,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 7349.9,
+        "age_minutes": 7403.9,
         "trace_id": "trc-0102170126"
       },
       {
@@ -48,7 +48,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-03 18:01:22",
-        "age_minutes": 5850.0,
+        "age_minutes": 5904.0,
         "trace_id": "trc-0103180122"
       },
       {
@@ -56,7 +56,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-04 20:01:35",
-        "age_minutes": 4289.8,
+        "age_minutes": 4343.7,
         "trace_id": "trc-0104200135"
       },
       {
@@ -64,7 +64,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-05 22:01:18",
-        "age_minutes": 2730.1,
+        "age_minutes": 2784.0,
         "trace_id": "trc-0105220118"
       },
       {
@@ -72,7 +72,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-06 23:01:30",
-        "age_minutes": 1229.9,
+        "age_minutes": 1283.8,
         "trace_id": "trc-0106230130"
       },
       {
@@ -80,7 +80,7 @@
         "priority": "P2",
         "workflow": "verify-test",
         "created": "2026-01-05 23:51:51",
-        "age_minutes": 2619.5,
+        "age_minutes": 2673.5,
         "trace_id": "trc-0105235151"
       }
     ],
@@ -88,31 +88,143 @@
       {
         "id": "P2_save_all_trc-0102203030.processing",
         "created": "2026-01-03 00:30:30",
-        "age_minutes": 6900.9
+        "age_minutes": 6954.8
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 189,
+    "total": 205,
     "by_level": {
-      "INFO": 129,
-      "WARN": 17,
+      "INFO": 140,
+      "WARN": 18,
       "ERROR": 0,
       "FATAL": 0,
-      "SUCCESS": 43,
+      "SUCCESS": 47,
       "SYSTEM": 0
     },
     "by_workflow": {
-      "system": 92,
-      "daemon": 76,
+      "daemon": 86,
+      "system": 98,
       "write-article": 13,
       "plan": 5,
       "scout": 3
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-01-07T20:25:19",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 20:25",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T20:15:18",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 20:15",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T20:05:16",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 20:05",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T20:01:16",
+        "level": "SUCCESS",
+        "workflow": "daemon",
+        "message": "Workflow Completed: [system-sentinel]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T20:01:16",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Chain Propagation: [system-sentinel] -> [process-tasks]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T20:00:16",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic Trigger: [system-sentinel] at 20:00",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T20:00:16",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T19:55:15",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 19:55",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T19:45:14",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 19:45",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T19:35:13",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 19:35",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T19:31:24",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Core: Committed locally: chore(auto): deep sync [Content/Scripts] (3 modified, 2 added, 4 deleted) @19:31:23",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T19:31:23",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Dashboard generated successfully",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T19:31:23",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Website repository...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T19:31:23",
+        "level": "WARN",
+        "workflow": "system",
+        "message": "[save-all] Push cooldown active (6.2m < 30.0m). Push skipped.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T19:31:23",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Website: Committed locally (Push delayed): feat(auto): sync website (1 modified, 0 added, 0 deleted) @19:31:23",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T19:31:23",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Core repository...",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-07T19:31:22",
         "level": "INFO",
@@ -700,118 +812,6 @@
         "workflow": "daemon",
         "message": "Workflow Completed: [wechat-auto-stats]",
         "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T18:10:38",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Core: Committed locally: chore(auto): deep sync [Content/Scripts/Tasks] (7 modified, 5 added, 1 deleted) @18:10:37",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T18:10:36",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Dashboard generated successfully",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T18:10:36",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Website repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T18:10:36",
-        "level": "WARN",
-        "workflow": "system",
-        "message": "[save-all] Push cooldown active (16.6m < 30.0m). Push skipped.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T18:10:36",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Website: Committed locally (Push delayed): feat(auto): sync website (1 modified, 0 added, 0 deleted) @18:10:36",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T18:10:36",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Core repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T18:10:35",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Generating dashboard data...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T18:10:02",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Periodic Trigger: [wechat-auto-stats] at 18:10",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T18:10:02",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [wechat-auto-stats] -> python scripts/wechat_stats_automation.py --mode quick --headless false",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T18:08:30.124666",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "workflow_end",
-        "trace_id": "status\\: \\finished\\, \\results\\: {\\file\\: \\03_Content_Factory/01_WeChat/Drafts/05-端侧异变/20260109-7300mAh！OnePlus"
-      },
-      {
-        "time": "2026-01-07T18:08:09.803496",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "title_qc_passed",
-        "trace_id": "title\\: \\7300mAh！OnePlus"
-      },
-      {
-        "time": "2026-01-07T18:07:24.172167",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "lead_magnet_sourced",
-        "trace_id": "topic\\: \\Auto\\, \\source_found\\: true}"
-      },
-      {
-        "time": "2026-01-07T18:07:14.018963",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "config_synced",
-        "trace_id": "version\\: \\V5.3\\}"
-      },
-      {
-        "time": "2026-01-07T18:06:55.764494",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "workflow_start",
-        "trace_id": "agent\\: \\Writer\\, \\topic\\: \\Auto\\}"
-      },
-      {
-        "time": "2026-01-07T18:05:00",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 18:05",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T18:04:36.357033",
-        "level": "INFO",
-        "workflow": "plan",
-        "message": "workflow_end",
-        "trace_id": "status\\: \\finished\\, \\results\\: {\\p0_selected\\: \\1\\, \\p1_selected\\: \\2\\}}"
       }
     ]
   },
@@ -1572,7 +1572,7 @@
     }
   },
   "system": {
-    "last_update": "2026-01-07 19:31:23",
+    "last_update": "2026-01-07 20:25:19",
     "timezone": "China Standard Time"
   },
   "metadata": {
