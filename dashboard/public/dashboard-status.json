@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-07 20:25:19",
+  "timestamp": "2026-01-07 20:31:21",
   "health": {
     "score": 100,
     "status": "healthy",
@@ -16,7 +16,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-06 00:25:07",
-        "age_minutes": 2640.2,
+        "age_minutes": 2646.2,
         "trace_id": "trc-0106002507"
       },
       {
@@ -24,7 +24,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-07 01:23:43",
-        "age_minutes": 1141.6,
+        "age_minutes": 1147.6,
         "trace_id": "trc-0107012343"
       },
       {
@@ -32,7 +32,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 8866.6,
+        "age_minutes": 8872.6,
         "trace_id": "trc-0101163845"
       },
       {
@@ -40,7 +40,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 7403.9,
+        "age_minutes": 7409.9,
         "trace_id": "trc-0102170126"
       },
       {
@@ -48,7 +48,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-03 18:01:22",
-        "age_minutes": 5904.0,
+        "age_minutes": 5910.0,
         "trace_id": "trc-0103180122"
       },
       {
@@ -56,7 +56,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-04 20:01:35",
-        "age_minutes": 4343.7,
+        "age_minutes": 4349.8,
         "trace_id": "trc-0104200135"
       },
       {
@@ -64,7 +64,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-05 22:01:18",
-        "age_minutes": 2784.0,
+        "age_minutes": 2790.1,
         "trace_id": "trc-0105220118"
       },
       {
@@ -72,7 +72,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-06 23:01:30",
-        "age_minutes": 1283.8,
+        "age_minutes": 1289.8,
         "trace_id": "trc-0106230130"
       },
       {
@@ -80,7 +80,7 @@
         "priority": "P2",
         "workflow": "verify-test",
         "created": "2026-01-05 23:51:51",
-        "age_minutes": 2673.5,
+        "age_minutes": 2679.5,
         "trace_id": "trc-0105235151"
       }
     ],
@@ -88,16 +88,16 @@
       {
         "id": "P2_save_all_trc-0102203030.processing",
         "created": "2026-01-03 00:30:30",
-        "age_minutes": 6954.8
+        "age_minutes": 6960.8
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 205,
+    "total": 207,
     "by_level": {
-      "INFO": 140,
+      "INFO": 142,
       "WARN": 18,
       "ERROR": 0,
       "FATAL": 0,
@@ -105,14 +105,28 @@
       "SYSTEM": 0
     },
     "by_workflow": {
-      "daemon": 86,
-      "system": 98,
+      "system": 99,
+      "daemon": 87,
       "write-article": 13,
       "plan": 5,
       "scout": 3
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-01-07T20:31:21",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T20:30:23",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic Trigger: [save-all] at 20:30",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-07T20:25:19",
         "level": "INFO",
@@ -797,20 +811,6 @@
         "level": "INFO",
         "workflow": "daemon",
         "message": "Daemon Heartbeat: Running at 18:25",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T18:15:02",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 18:15",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T18:11:02",
-        "level": "SUCCESS",
-        "workflow": "daemon",
-        "message": "Workflow Completed: [wechat-auto-stats]",
         "trace_id": ""
       }
     ]
@@ -1572,7 +1572,7 @@
     }
   },
   "system": {
-    "last_update": "2026-01-07 20:25:19",
+    "last_update": "2026-01-07 20:31:21",
     "timezone": "China Standard Time"
   },
   "metadata": {
