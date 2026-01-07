@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-07 18:25:12",
+  "timestamp": "2026-01-07 18:25:56",
   "health": {
     "score": 100,
     "status": "healthy",
@@ -16,7 +16,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-06 00:25:07",
-        "age_minutes": 2520.1,
+        "age_minutes": 2520.8,
         "trace_id": "trc-0106002507"
       },
       {
@@ -24,7 +24,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-07 01:23:43",
-        "age_minutes": 1021.5,
+        "age_minutes": 1022.2,
         "trace_id": "trc-0107012343"
       },
       {
@@ -32,7 +32,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 8746.4,
+        "age_minutes": 8747.2,
         "trace_id": "trc-0101163845"
       },
       {
@@ -40,7 +40,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 7283.8,
+        "age_minutes": 7284.5,
         "trace_id": "trc-0102170126"
       },
       {
@@ -48,7 +48,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-03 18:01:22",
-        "age_minutes": 5783.8,
+        "age_minutes": 5784.6,
         "trace_id": "trc-0103180122"
       },
       {
@@ -56,7 +56,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-04 20:01:35",
-        "age_minutes": 4223.6,
+        "age_minutes": 4224.3,
         "trace_id": "trc-0104200135"
       },
       {
@@ -64,7 +64,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-05 22:01:18",
-        "age_minutes": 2663.9,
+        "age_minutes": 2664.6,
         "trace_id": "trc-0105220118"
       },
       {
@@ -72,7 +72,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-06 23:01:30",
-        "age_minutes": 1163.7,
+        "age_minutes": 1164.4,
         "trace_id": "trc-0106230130"
       },
       {
@@ -80,7 +80,7 @@
         "priority": "P2",
         "workflow": "verify-test",
         "created": "2026-01-05 23:51:51",
-        "age_minutes": 2553.4,
+        "age_minutes": 2554.1,
         "trace_id": "trc-0105235151"
       }
     ],
@@ -88,24 +88,24 @@
       {
         "id": "P2_save_all_trc-0102203030.processing",
         "created": "2026-01-03 00:30:30",
-        "age_minutes": 6834.7
+        "age_minutes": 6835.4
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 109,
+    "total": 116,
     "by_level": {
-      "INFO": 81,
+      "INFO": 85,
       "WARN": 4,
       "ERROR": 0,
       "FATAL": 0,
-      "SUCCESS": 24,
+      "SUCCESS": 27,
       "SYSTEM": 0
     },
     "by_workflow": {
-      "system": 36,
+      "system": 43,
       "daemon": 65,
       "write-article": 5,
       "plan": 3
@@ -113,10 +113,59 @@
     "recent_errors": [],
     "recent_activities": [
       {
+        "time": "2026-01-07T18:25:55",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T18:25:16",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Website: Pushed with message: feat(auto): sync website (1 modified, 0 added, 0 deleted) @18:25:13",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T18:25:16",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Core repository...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T18:25:16",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Core: Committed locally: chore(auto): deep sync [Scripts] (1 modified, 0 added, 0 deleted) @18:25:16",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T18:25:13",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Pushing to GitHub...",
+        "trace_id": ""
+      },
+      {
         "time": "2026-01-07T18:25:12",
         "level": "INFO",
         "workflow": "system",
         "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T18:25:12",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Dashboard generated successfully",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T18:25:12",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Website repository...",
         "trace_id": ""
       },
       {
@@ -761,55 +810,6 @@
         "level": "INFO",
         "workflow": "daemon",
         "message": "Periodic Trigger: [wechat-auto-stats] at 00:10",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T00:10:40",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [wechat-auto-stats] -> python scripts/wechat_stats_automation.py --mode quick --headless false",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T00:05:39",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Core: Committed locally: chore(auto): deep sync [Scripts/Tasks] (1 modified, 12 added, 0 deleted) @00:05:39",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T00:05:38",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Generating dashboard data...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T00:05:38",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Dashboard generated successfully",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T00:05:38",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Website repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T00:05:38",
-        "level": "WARN",
-        "workflow": "system",
-        "message": "[save-all] Push cooldown active (24.0m < 30.0m). Push skipped.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T00:05:38",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Website: Committed locally (Push delayed): feat(auto): sync website (1 modified, 0 added, 0 deleted) @00:05:38",
         "trace_id": ""
       }
     ]
@@ -1591,7 +1591,7 @@
     }
   },
   "system": {
-    "last_update": "2026-01-07 18:25:12",
+    "last_update": "2026-01-07 18:25:56",
     "timezone": "China Standard Time"
   },
   "metadata": {
