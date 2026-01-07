@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-07 17:53:47",
+  "timestamp": "2026-01-07 18:10:36",
   "health": {
     "score": 100,
     "status": "healthy",
     "issues": [],
     "daemon_status": {
       "alive": true,
-      "last_heartbeat": "2026-01-07 17:53:47"
+      "last_heartbeat": "2026-01-07 18:05:00"
     }
   },
   "tasks": {
@@ -16,7 +16,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-06 00:25:07",
-        "age_minutes": 2488.7,
+        "age_minutes": 2505.5,
         "trace_id": "trc-0106002507"
       },
       {
@@ -24,7 +24,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-07 01:23:43",
-        "age_minutes": 990.1,
+        "age_minutes": 1006.9,
         "trace_id": "trc-0107012343"
       },
       {
@@ -32,7 +32,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 8715.0,
+        "age_minutes": 8731.8,
         "trace_id": "trc-0101163845"
       },
       {
@@ -40,7 +40,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 7252.4,
+        "age_minutes": 7269.2,
         "trace_id": "trc-0102170126"
       },
       {
@@ -48,7 +48,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-03 18:01:22",
-        "age_minutes": 5752.4,
+        "age_minutes": 5769.2,
         "trace_id": "trc-0103180122"
       },
       {
@@ -56,7 +56,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-04 20:01:35",
-        "age_minutes": 4192.2,
+        "age_minutes": 4209.0,
         "trace_id": "trc-0104200135"
       },
       {
@@ -64,7 +64,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-05 22:01:18",
-        "age_minutes": 2632.5,
+        "age_minutes": 2649.3,
         "trace_id": "trc-0105220118"
       },
       {
@@ -72,7 +72,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-06 23:01:30",
-        "age_minutes": 1132.3,
+        "age_minutes": 1149.1,
         "trace_id": "trc-0106230130"
       },
       {
@@ -80,44 +80,171 @@
         "priority": "P2",
         "workflow": "verify-test",
         "created": "2026-01-05 23:51:51",
-        "age_minutes": 2521.9,
+        "age_minutes": 2538.7,
         "trace_id": "trc-0105235151"
-      },
-      {
-        "id": "pending_config_val.lock",
-        "priority": "Unknown",
-        "workflow": "validate-config",
-        "created": "2026-01-01 22:30:28",
-        "age_minutes": 8363.3,
-        "trace_id": null
       }
     ],
     "processing": [
       {
         "id": "P2_save_all_trc-0102203030.processing",
         "created": "2026-01-03 00:30:30",
-        "age_minutes": 6803.3
+        "age_minutes": 6820.1
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 80,
+    "total": 99,
     "by_level": {
-      "INFO": 59,
+      "INFO": 76,
       "WARN": 3,
       "ERROR": 0,
       "FATAL": 0,
-      "SUCCESS": 18,
+      "SUCCESS": 20,
       "SYSTEM": 0
     },
     "by_workflow": {
-      "daemon": 52,
-      "system": 28
+      "system": 29,
+      "daemon": 62,
+      "write-article": 5,
+      "plan": 3
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-01-07T18:10:35",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T18:10:02",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic Trigger: [wechat-auto-stats] at 18:10",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T18:10:02",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [wechat-auto-stats] -> python scripts/wechat_stats_automation.py --mode quick --headless false",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T18:08:30.124666",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "workflow_end",
+        "trace_id": "status\\: \\finished\\, \\results\\: {\\file\\: \\03_Content_Factory/01_WeChat/Drafts/05-端侧异变/20260109-7300mAh！OnePlus"
+      },
+      {
+        "time": "2026-01-07T18:08:09.803496",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "title_qc_passed",
+        "trace_id": "title\\: \\7300mAh！OnePlus"
+      },
+      {
+        "time": "2026-01-07T18:07:24.172167",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "lead_magnet_sourced",
+        "trace_id": "topic\\: \\Auto\\, \\source_found\\: true}"
+      },
+      {
+        "time": "2026-01-07T18:07:14.018963",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "config_synced",
+        "trace_id": "version\\: \\V5.3\\}"
+      },
+      {
+        "time": "2026-01-07T18:06:55.764494",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "workflow_start",
+        "trace_id": "agent\\: \\Writer\\, \\topic\\: \\Auto\\}"
+      },
+      {
+        "time": "2026-01-07T18:05:00",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 18:05",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T18:04:36.357033",
+        "level": "INFO",
+        "workflow": "plan",
+        "message": "workflow_end",
+        "trace_id": "status\\: \\finished\\, \\results\\: {\\p0_selected\\: \\1\\, \\p1_selected\\: \\2\\}}"
+      },
+      {
+        "time": "2026-01-07T18:03:33.034977",
+        "level": "INFO",
+        "workflow": "plan",
+        "message": "workflow_resumed",
+        "trace_id": "trace-20260107-180227-plan"
+      },
+      {
+        "time": "2026-01-07T18:02:43.918611",
+        "level": "INFO",
+        "workflow": "plan",
+        "message": "workflow_start",
+        "trace_id": "agent\\: \\Editor\\}"
+      },
+      {
+        "time": "2026-01-07T18:01:00",
+        "level": "SUCCESS",
+        "workflow": "daemon",
+        "message": "Workflow Completed: [system-sentinel]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T18:01:00",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Chain Propagation: [system-sentinel] -> [process-tasks]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T18:00:00",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic Trigger: [system-sentinel] at 18:00",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T18:00:00",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T17:54:59",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 17:54",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T17:53:59",
+        "level": "SUCCESS",
+        "workflow": "daemon",
+        "message": "Workflow Completed: [system-sentinel]",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T17:53:59",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Chain Propagation: [system-sentinel] -> [process-tasks]",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-07T17:53:47",
         "level": "INFO",
@@ -683,28 +810,44 @@
   "performance": {
     "avg_duration_by_workflow": {},
     "duration_percentiles": {},
-    "token_usage_today": 0,
-    "token_usage_week": 143500,
-    "success_count": 0,
+    "token_usage_today": 32000,
+    "token_usage_week": 175500,
+    "success_count": 6,
     "fail_count": 0,
-    "success_rate": 0
+    "success_rate": 100.0
   },
   "cost_analysis": {
     "daily_budget": 100.0,
     "daily_token_budget": 500000,
     "token_price_per_k": 0.1,
-    "today_total_cost": 0,
-    "today_token_usage": 0,
-    "week_total_cost": 14.35,
-    "week_token_usage": 143500,
-    "budget_usage_percent": 0.0,
+    "today_total_cost": 3.2,
+    "today_token_usage": 32000,
+    "week_total_cost": 17.55,
+    "week_token_usage": 175500,
+    "budget_usage_percent": 3.2,
     "budget_status": "normal",
-    "by_workflow_today": {},
-    "by_workflow_week": {
+    "by_workflow_today": {
+      "plan": {
+        "tokens": 2000,
+        "cost": 0.2,
+        "count": 3
+      },
       "write-article": {
-        "tokens": 120500,
-        "cost": 12.05,
-        "count": 40
+        "tokens": 30000,
+        "cost": 3.0,
+        "count": 5
+      }
+    },
+    "by_workflow_week": {
+      "plan": {
+        "tokens": 4000,
+        "cost": 0.4,
+        "count": 11
+      },
+      "write-article": {
+        "tokens": 150500,
+        "cost": 15.05,
+        "count": 45
       },
       "test-workflow": {
         "tokens": 0,
@@ -736,53 +879,63 @@
         "cost": 0.0,
         "count": 4
       },
-      "plan": {
-        "tokens": 2000,
-        "cost": 0.2,
-        "count": 8
-      },
       "verify-data": {
         "tokens": 0,
         "cost": 0.0,
         "count": 4
       }
     },
-    "by_workflow_today_formatted": [],
+    "by_workflow_today_formatted": [
+      {
+        "workflow": "write-article",
+        "tokens": 30000,
+        "cost": 3.0,
+        "count": 5,
+        "percentage": 93.8
+      },
+      {
+        "workflow": "plan",
+        "tokens": 2000,
+        "cost": 0.2,
+        "count": 3,
+        "percentage": 6.2
+      }
+    ],
     "by_workflow_week_formatted": [
       {
         "workflow": "write-article",
-        "tokens": 120500,
-        "cost": 12.05,
-        "count": 40,
-        "percentage": 84.0
+        "tokens": 150500,
+        "cost": 15.05,
+        "count": 45,
+        "percentage": 85.8
       },
       {
         "workflow": "scout",
         "tokens": 15000,
         "cost": 1.5,
         "count": 8,
-        "percentage": 10.5
+        "percentage": 8.5
       },
       {
         "workflow": "qc-check",
         "tokens": 5000,
         "cost": 0.5,
         "count": 7,
-        "percentage": 3.5
+        "percentage": 2.8
       },
       {
         "workflow": "plan",
-        "tokens": 2000,
-        "cost": 0.2,
-        "count": 8,
-        "percentage": 1.4
+        "tokens": 4000,
+        "cost": 0.4,
+        "count": 11,
+        "percentage": 2.3
       },
       {
         "workflow": "process-tasks",
         "tokens": 1000,
         "cost": 0.1,
         "count": 2,
-        "percentage": 0.7
+        "percentage": 0.6
       },
       {
         "workflow": "test-workflow",
@@ -817,24 +970,12 @@
   "content_factory": {
     "pipeline": {
       "inbox": 31,
-      "scheduled": 0,
-      "wip": 0,
-      "published": 79
+      "scheduled": 12,
+      "wip": 2,
+      "published": 80
     },
     "pipeline_details": {
       "inbox": [
-        {
-          "title": "1：OnePlus 15 & iPhone 17 Pro Max 续航霸榜 {2026-01-05}",
-          "type": "topic"
-        },
-        {
-          "title": "2：AI PC 续航实测：ARM 架构吊打 x86？ {2026-01-05}",
-          "type": "topic"
-        },
-        {
-          "title": "3：2025 冬测惨案：Model Y 续航打 3.5 折？ {2026-01-05}",
-          "type": "topic"
-        },
         {
           "title": "NEW-1：10080mAh巨无霸来袭！荣耀Power2彻底重新定义手机续航 {2026-01-03}",
           "type": "topic"
@@ -888,6 +1029,18 @@
           "type": "topic"
         },
         {
+          "title": "OnePlus 15 vs iPhone 17 (Week 11 P0)",
+          "type": "topic"
+        },
+        {
+          "title": "Model Y 冬测翻车 (Week 11 P1)",
+          "type": "topic"
+        },
+        {
+          "title": "ARM AI PC (Week 11 P1)",
+          "type": "topic"
+        },
+        {
           "title": "AI手机隐形税 (耗电50%)",
           "type": "topic"
         },
@@ -904,9 +1057,124 @@
           "type": "topic"
         }
       ],
-      "scheduled": [],
-      "wip": [],
+      "scheduled": [
+        {
+          "priority": "P0",
+          "title": "7300mAh！OnePlus 15 续航封神，iPhone 17 Pro Max 只能排第二？",
+          "topic": "5-端侧异变",
+          "date": "2026-01-09",
+          "agent": "Writer A",
+          "goal": "📈 跑分对比 (硅碳电池) + 6000mAh+机型推荐"
+        },
+        {
+          "priority": "P1",
+          "title": "续航打3折？2025冬测揭秘：Model Y 竟成\"电动爹\"，谁在裸泳？",
+          "topic": "4-电力之冠",
+          "date": "2026-01-10",
+          "agent": "Writer B",
+          "goal": "📉 红黑榜 (避坑指南) + 热泵技术科普"
+        },
+        {
+          "priority": "P1",
+          "title": "ARM 屠榜！骁龙 X Elite 续航吊打 Intel，x86 霸权终结？",
+          "topic": "5-端侧异变",
+          "date": "2026-01-11",
+          "agent": "Writer C",
+          "goal": "💻 AI PC 选购指南 + NPU 能效分析"
+        },
+        {
+          "priority": "?? P0",
+          "title": "10080mAh！荣耀Power2彻底终结了\"一天两充\"焦虑时代",
+          "topic": "5-端侧异变",
+          "date": "2026-01-06",
+          "agent": "Writer A",
+          "goal": "?? 电商brought货 (荣耀手机推荐) + 私域引流 (续航实测数据表)"
+        },
+        {
+          "priority": "? P1",
+          "title": "耗电激增50%？揭秘2026年AI手机不敢告诉你的\"隐形税\"",
+          "topic": "5-端侧异变",
+          "date": "2026-01-07",
+          "agent": "Writer B",
+          "goal": "?? 流量爆款 (用户痛点) + 避坑指南"
+        },
+        {
+          "priority": "? P1",
+          "title": "1000公里续航不再是PPT！东风/广汽定档2026，固态电池量产元年来了",
+          "topic": "4-电力之冠",
+          "date": "2026-01-08",
+          "agent": "Writer C",
+          "goal": "?? 行业洞察 + 固态电池技术白皮书下载"
+        },
+        {
+          "priority": "?? P0",
+          "title": "12.1W 的暴击！A19 Pro 彻底撕开了安卓旗舰的能效遮羞布",
+          "topic": "5-端侧异变",
+          "date": "2026-01-03",
+          "agent": "Writer A",
+          "goal": "?? 性能榜单 + 续航实测数据表引流"
+        },
+        {
+          "priority": "? P1",
+          "title": "踢开英伟达！OpenAI 联手博通造芯，10GW 算力的尽头是能耗",
+          "topic": "2-算力跃迁",
+          "date": "2026-01-04",
+          "agent": "Writer B",
+          "goal": "?? 行业深度 + AI能耗白皮书下载"
+        },
+        {
+          "priority": "? P1",
+          "title": "-25°C大考！小鹏P7仅缩水46%，67款车冬测揭开热泵技术真相",
+          "topic": "4-电力之冠",
+          "date": "2026-01-04",
+          "agent": "Writer C",
+          "goal": "? 知识付费 (冬季用车指南) + 痛点追踪 (热泵技术红黑榜)"
+        },
+        {
+          "priority": "?? P0",
+          "title": "25小时续航！一加15用7300mAh硅碳电池终结了充电焦虑",
+          "topic": "5-端侧异变",
+          "date": "2026-01-02",
+          "agent": "Writer A",
+          "goal": "?? 电商带货 (7000mAh+手机推荐) + 私域引流 (续航实测数据表)"
+        },
+        {
+          "priority": "? P1",
+          "title": "34小时续航！AI PC用NPU终结了笔记本\"半天电\"魔咒",
+          "topic": "5-端侧异变",
+          "date": "2026-01-03",
+          "agent": "Writer A",
+          "goal": "?? 电商带货 (AI PC推荐) + 行业洞察 (NPU能效革命)"
+        },
+        {
+          "priority": "? P1",
+          "title": "-25°C大考！Polestar 3仅缩水5%，这才是电动车续航的真相",
+          "topic": "4-电力之冠",
+          "date": "2026-01-04",
+          "agent": "Writer C",
+          "goal": "?? 知识付费 (冬季用车指南) + 痛点追踪 (热泵技术)"
+        }
+      ],
+      "wip": [
+        {
+          "priority": "WIP",
+          "title": "34小时续航！AI PC用NPU终结了笔记本...",
+          "date": "2026-01-03",
+          "status": "?? 写作中"
+        },
+        {
+          "priority": "WIP",
+          "title": "-25°C大考！Polestar 3仅缩水5%，这才是...",
+          "date": "2026-01-04",
+          "status": "?? 写作中"
+        }
+      ],
       "published": [
+        {
+          "date": "2026-01-07",
+          "title": "耗电激增50%？揭秘2026年AI手机不敢告诉你的\"隐形税\"",
+          "topic": "05-端侧异变"
+        },
         {
           "date": "2026-01-06",
           "title": "10080mAh！荣耀Power2彻底终结了\"一天两充\"焦虑时代",
@@ -1001,15 +1269,15 @@
           "date": "2025-12-23",
           "title": "深度透视：Intel Panther Lake (18A) 效能前瞻——x86 的「背水一战」还是「困兽之斗」？",
           "topic": "01-硬件终局"
-        },
-        {
-          "date": "2025-12-22",
-          "title": "Intel 18A 并不是一次升级，而是 x86 帝国最后的“赌命”",
-          "topic": "01-硬件终局"
         }
       ]
     },
     "recent_published": [
+      {
+        "date": "2026-01-07",
+        "title": "耗电激增50%？揭秘2026年AI手机不敢告诉你的\"隐形税\"",
+        "topic": "05-端侧异变"
+      },
       {
         "date": "2026-01-06",
         "title": "10080mAh！荣耀Power2彻底终结了\"一天两充\"焦虑时代",
@@ -1029,18 +1297,13 @@
         "date": "2026-01-03",
         "title": "踢开英伟达！OpenAI 联手博通造芯，10GW 算力的尽头是能耗",
         "topic": "02-算力跃迁"
-      },
-      {
-        "date": "2026-01-02",
-        "title": "12.1W 的暴击！A19 Pro 彻底撕开了安卓旗舰的能效遮羞布",
-        "topic": "04-电力之冠"
       }
     ],
     "topic_distribution": {
+      "05-端侧异变": 16,
       "00-待分类": 11,
       "04-电力之冠": 18,
       "02-算力跃迁": 12,
-      "05-端侧异变": 15,
       "03-具身革命": 3,
       "06-星际硅基": 3,
       "01-硬件终局": 10,
@@ -1048,6 +1311,7 @@
       "00-系统综述": 2
     },
     "weekly_output": {
+      "2026-01-07": 1,
       "2026-01-06": 1,
       "2026-01-05": 1,
       "2026-01-04": 1,
@@ -1108,8 +1372,8 @@
   },
   "scheduled_tasks": [],
   "business": {
-    "articles_today": 0,
-    "articles_week": 41,
+    "articles_today": 4,
+    "articles_week": 45,
     "qc_pass_rate": 100.0,
     "avg_duration": 0,
     "efficiency": 0
@@ -1143,7 +1407,7 @@
       },
       {
         "date": "2026-01-07",
-        "value": 0
+        "value": 32000
       }
     ],
     "multi_metric_trend": {
@@ -1174,7 +1438,7 @@
         },
         {
           "date": "2026-01-07",
-          "value": 0
+          "value": 32000
         }
       ],
       "success_rate": [
@@ -1204,7 +1468,7 @@
         },
         {
           "date": "2026-01-07",
-          "value": 0
+          "value": 100.0
         }
       ],
       "error_rate": [
@@ -1234,7 +1498,7 @@
         },
         {
           "date": "2026-01-07",
-          "value": 0
+          "value": 0.0
         }
       ],
       "queue_length": [
@@ -1301,16 +1565,16 @@
   },
   "comparison": {
     "token_usage": {
-      "today": 0,
+      "today": 32000,
       "yesterday": 0,
-      "delta": 0,
-      "delta_percent": 0.0
+      "delta": 32000,
+      "delta_percent": 100.0
     },
     "success_rate": {
-      "today": 0,
+      "today": 100.0,
       "yesterday": 0,
-      "delta": 0,
-      "delta_percent": 0
+      "delta": 100.0,
+      "delta_percent": 100.0
     },
     "error_count": {
       "today": 0,
@@ -1320,15 +1584,13 @@
     }
   },
   "system": {
-    "last_update": "2026-01-07 17:53:47",
+    "last_update": "2026-01-07 18:10:36",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.04,
+    "duration_seconds": 0.05,
     "has_token_trend": true,
-    "errors": [
-      "Plan file parse error: 'utf-8' codec can't decode byte 0xb9 in position 2: invalid start byte"
-    ]
+    "errors": []
   }
 }
