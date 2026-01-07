@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-01-07 04:00:07",
+  "timestamp": "2026-01-07 17:53:47",
   "health": {
     "score": 100,
     "status": "healthy",
     "issues": [],
     "daemon_status": {
       "alive": true,
-      "last_heartbeat": "2026-01-07 03:52:05"
+      "last_heartbeat": "2026-01-07 17:53:47"
     }
   },
   "tasks": {
@@ -16,7 +16,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-06 00:25:07",
-        "age_minutes": 1655.0,
+        "age_minutes": 2488.7,
         "trace_id": "trc-0106002507"
       },
       {
@@ -24,7 +24,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-07 01:23:43",
-        "age_minutes": 156.4,
+        "age_minutes": 990.1,
         "trace_id": "trc-0107012343"
       },
       {
@@ -32,7 +32,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 7881.4,
+        "age_minutes": 8715.0,
         "trace_id": "trc-0101163845"
       },
       {
@@ -40,7 +40,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 6418.7,
+        "age_minutes": 7252.4,
         "trace_id": "trc-0102170126"
       },
       {
@@ -48,7 +48,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-03 18:01:22",
-        "age_minutes": 4918.8,
+        "age_minutes": 5752.4,
         "trace_id": "trc-0103180122"
       },
       {
@@ -56,7 +56,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-04 20:01:35",
-        "age_minutes": 3358.5,
+        "age_minutes": 4192.2,
         "trace_id": "trc-0104200135"
       },
       {
@@ -64,7 +64,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-05 22:01:18",
-        "age_minutes": 1798.8,
+        "age_minutes": 2632.5,
         "trace_id": "trc-0105220118"
       },
       {
@@ -72,7 +72,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-06 23:01:30",
-        "age_minutes": 298.6,
+        "age_minutes": 1132.3,
         "trace_id": "trc-0106230130"
       },
       {
@@ -80,7 +80,7 @@
         "priority": "P2",
         "workflow": "verify-test",
         "created": "2026-01-05 23:51:51",
-        "age_minutes": 1688.3,
+        "age_minutes": 2521.9,
         "trace_id": "trc-0105235151"
       },
       {
@@ -88,7 +88,7 @@
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-01 22:30:28",
-        "age_minutes": 7529.7,
+        "age_minutes": 8363.3,
         "trace_id": null
       }
     ],
@@ -96,21 +96,16 @@
       {
         "id": "P2_save_all_trc-0102203030.processing",
         "created": "2026-01-03 00:30:30",
-        "age_minutes": 5969.6
-      },
-      {
-        "id": "P2_system_sentinel_trc-0107040007.processing",
-        "created": "2026-01-07 04:00:07",
-        "age_minutes": 0.0
+        "age_minutes": 6803.3
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 79,
+    "total": 80,
     "by_level": {
-      "INFO": 58,
+      "INFO": 59,
       "WARN": 3,
       "ERROR": 0,
       "FATAL": 0,
@@ -118,11 +113,18 @@
       "SYSTEM": 0
     },
     "by_workflow": {
-      "daemon": 51,
+      "daemon": 52,
       "system": 28
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-01-07T17:53:47",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Daemon Heartbeat: Running at 17:53",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-07T04:00:07",
         "level": "INFO",
@@ -1318,7 +1320,7 @@
     }
   },
   "system": {
-    "last_update": "2026-01-07 04:00:07",
+    "last_update": "2026-01-07 17:53:47",
     "timezone": "China Standard Time"
   },
   "metadata": {
