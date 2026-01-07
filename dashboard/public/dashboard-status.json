@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-07 19:25:10",
+  "timestamp": "2026-01-07 19:31:23",
   "health": {
     "score": 100,
     "status": "healthy",
@@ -16,7 +16,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-06 00:25:07",
-        "age_minutes": 2580.0,
+        "age_minutes": 2586.3,
         "trace_id": "trc-0106002507"
       },
       {
@@ -24,7 +24,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-07 01:23:43",
-        "age_minutes": 1081.5,
+        "age_minutes": 1087.7,
         "trace_id": "trc-0107012343"
       },
       {
@@ -32,7 +32,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 8806.4,
+        "age_minutes": 8812.6,
         "trace_id": "trc-0101163845"
       },
       {
@@ -40,7 +40,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 7343.7,
+        "age_minutes": 7349.9,
         "trace_id": "trc-0102170126"
       },
       {
@@ -48,7 +48,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-03 18:01:22",
-        "age_minutes": 5843.8,
+        "age_minutes": 5850.0,
         "trace_id": "trc-0103180122"
       },
       {
@@ -56,7 +56,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-04 20:01:35",
-        "age_minutes": 4283.6,
+        "age_minutes": 4289.8,
         "trace_id": "trc-0104200135"
       },
       {
@@ -64,7 +64,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-05 22:01:18",
-        "age_minutes": 2723.9,
+        "age_minutes": 2730.1,
         "trace_id": "trc-0105220118"
       },
       {
@@ -72,7 +72,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-06 23:01:30",
-        "age_minutes": 1223.7,
+        "age_minutes": 1229.9,
         "trace_id": "trc-0106230130"
       },
       {
@@ -80,7 +80,7 @@
         "priority": "P2",
         "workflow": "verify-test",
         "created": "2026-01-05 23:51:51",
-        "age_minutes": 2613.3,
+        "age_minutes": 2619.5,
         "trace_id": "trc-0105235151"
       }
     ],
@@ -88,16 +88,16 @@
       {
         "id": "P2_save_all_trc-0102203030.processing",
         "created": "2026-01-03 00:30:30",
-        "age_minutes": 6894.7
+        "age_minutes": 6900.9
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 188,
+    "total": 189,
     "by_level": {
-      "INFO": 128,
+      "INFO": 129,
       "WARN": 17,
       "ERROR": 0,
       "FATAL": 0,
@@ -105,14 +105,21 @@
       "SYSTEM": 0
     },
     "by_workflow": {
+      "system": 92,
       "daemon": 76,
       "write-article": 13,
       "plan": 5,
-      "scout": 3,
-      "system": 91
+      "scout": 3
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-01-07T19:31:22",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-07T19:25:10",
         "level": "INFO",
@@ -805,13 +812,6 @@
         "workflow": "plan",
         "message": "workflow_end",
         "trace_id": "status\\: \\finished\\, \\results\\: {\\p0_selected\\: \\1\\, \\p1_selected\\: \\2\\}}"
-      },
-      {
-        "time": "2026-01-07T18:03:33.034977",
-        "level": "INFO",
-        "workflow": "plan",
-        "message": "workflow_resumed",
-        "trace_id": "trace-20260107-180227-plan"
       }
     ]
   },
@@ -1572,7 +1572,7 @@
     }
   },
   "system": {
-    "last_update": "2026-01-07 19:25:10",
+    "last_update": "2026-01-07 19:31:23",
     "timezone": "China Standard Time"
   },
   "metadata": {
