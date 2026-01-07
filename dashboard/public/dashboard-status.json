@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-07 18:28:48",
+  "timestamp": "2026-01-07 18:31:37",
   "health": {
     "score": 100,
     "status": "healthy",
@@ -16,7 +16,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-06 00:25:07",
-        "age_minutes": 2523.7,
+        "age_minutes": 2526.5,
         "trace_id": "trc-0106002507"
       },
       {
@@ -24,7 +24,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-07 01:23:43",
-        "age_minutes": 1025.1,
+        "age_minutes": 1027.9,
         "trace_id": "trc-0107012343"
       },
       {
@@ -32,7 +32,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 8750.0,
+        "age_minutes": 8752.9,
         "trace_id": "trc-0101163845"
       },
       {
@@ -40,7 +40,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 7287.4,
+        "age_minutes": 7290.2,
         "trace_id": "trc-0102170126"
       },
       {
@@ -48,7 +48,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-03 18:01:22",
-        "age_minutes": 5787.4,
+        "age_minutes": 5790.3,
         "trace_id": "trc-0103180122"
       },
       {
@@ -56,7 +56,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-04 20:01:35",
-        "age_minutes": 4227.2,
+        "age_minutes": 4230.0,
         "trace_id": "trc-0104200135"
       },
       {
@@ -64,7 +64,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-05 22:01:18",
-        "age_minutes": 2667.5,
+        "age_minutes": 2670.3,
         "trace_id": "trc-0105220118"
       },
       {
@@ -72,7 +72,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-06 23:01:30",
-        "age_minutes": 1167.3,
+        "age_minutes": 1170.1,
         "trace_id": "trc-0106230130"
       },
       {
@@ -80,7 +80,7 @@
         "priority": "P2",
         "workflow": "verify-test",
         "created": "2026-01-05 23:51:51",
-        "age_minutes": 2557.0,
+        "age_minutes": 2559.8,
         "trace_id": "trc-0105235151"
       }
     ],
@@ -88,35 +88,126 @@
       {
         "id": "P2_save_all_trc-0102203030.processing",
         "created": "2026-01-03 00:30:30",
-        "age_minutes": 6838.3
+        "age_minutes": 6841.1
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 144,
+    "total": 157,
     "by_level": {
-      "INFO": 97,
-      "WARN": 12,
+      "INFO": 106,
+      "WARN": 14,
       "ERROR": 0,
       "FATAL": 0,
-      "SUCCESS": 35,
+      "SUCCESS": 37,
       "SYSTEM": 0
     },
     "by_workflow": {
-      "system": 71,
-      "daemon": 65,
-      "write-article": 5,
+      "system": 78,
+      "write-article": 10,
+      "daemon": 66,
       "plan": 3
     },
     "recent_errors": [],
     "recent_activities": [
       {
+        "time": "2026-01-07T18:31:37",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T18:30:58.025158",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "workflow_end",
+        "trace_id": "status\\: \\finished\\, \\results\\: {\\file\\: \\03_Content_Factory/01_WeChat/Drafts/04-电力之冠/20260110-ModelY冬测揭秘.md\\, \\qc_score\\: \\pass\\}}"
+      },
+      {
+        "time": "2026-01-07T18:30:37.201911",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "title_qc_passed",
+        "trace_id": "title\\: \\续航打3折？2025冬测揭秘：Model"
+      },
+      {
+        "time": "2026-01-07T18:30:04",
+        "level": "INFO",
+        "workflow": "daemon",
+        "message": "Periodic Trigger: [save-all] at 18:30",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T18:29:53.072761",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "lead_magnet_sourced",
+        "trace_id": "topic\\: \\Auto\\, \\source_found\\: true}"
+      },
+      {
+        "time": "2026-01-07T18:29:41.906343",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "config_synced",
+        "trace_id": "version\\: \\V5.3\\}"
+      },
+      {
+        "time": "2026-01-07T18:29:36.336946",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "checking_lock_status",
+        "trace_id": "status\\: \\clean\\}"
+      },
+      {
+        "time": "2026-01-07T18:28:49",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Website: Committed locally (Push delayed): feat(auto): sync website (1 modified, 0 added, 0 deleted) @18:28:48",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T18:28:49",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Core repository...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T18:28:49",
+        "level": "WARN",
+        "workflow": "system",
+        "message": "[save-all] Core: No changes to commit",
+        "trace_id": ""
+      },
+      {
         "time": "2026-01-07T18:28:48",
         "level": "INFO",
         "workflow": "system",
         "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T18:28:48",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Dashboard generated successfully",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T18:28:48",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Website repository...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-07T18:28:48",
+        "level": "WARN",
+        "workflow": "system",
+        "message": "[save-all] Push cooldown active (3.5m < 30.0m). Push skipped.",
         "trace_id": ""
       },
       {
@@ -720,106 +811,15 @@
         "workflow": "daemon",
         "message": "Periodic Trigger: [system-sentinel] at 02:00",
         "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T02:00:53",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Headless Runner: Executing [system-sentinel] -> python scripts/auto_update_dashboard.py",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T01:51:52",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 01:51",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T01:41:51",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 01:41",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T01:31:50",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 01:31",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T01:23:50",
-        "level": "WARN",
-        "workflow": "daemon",
-        "message": "No automation command for [task-watchdog]. Skipping.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T01:21:49",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 01:21",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T01:11:47",
-        "level": "INFO",
-        "workflow": "daemon",
-        "message": "Daemon Heartbeat: Running at 01:11",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T01:04:47",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Core: Committed locally: chore(auto): deep sync (0 modified, 1 added, 0 deleted) @01:04:46",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T01:04:46",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Website: Pushed with message: feat(auto): sync website (1 modified, 0 added, 0 deleted) @01:04:43",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T01:04:46",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Core repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T01:04:43",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Generating dashboard data...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T01:04:43",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Dashboard generated successfully",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-07T01:04:43",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Website repository...",
-        "trace_id": ""
       }
     ]
   },
   "performance": {
     "avg_duration_by_workflow": {},
     "duration_percentiles": {},
-    "token_usage_today": 32000,
-    "token_usage_week": 175500,
-    "success_count": 6,
+    "token_usage_today": 62000,
+    "token_usage_week": 205500,
+    "success_count": 10,
     "fail_count": 0,
     "success_rate": 100.0
   },
@@ -827,11 +827,11 @@
     "daily_budget": 100.0,
     "daily_token_budget": 500000,
     "token_price_per_k": 0.1,
-    "today_total_cost": 3.2,
-    "today_token_usage": 32000,
-    "week_total_cost": 17.55,
-    "week_token_usage": 175500,
-    "budget_usage_percent": 3.2,
+    "today_total_cost": 6.2,
+    "today_token_usage": 62000,
+    "week_total_cost": 20.55,
+    "week_token_usage": 205500,
+    "budget_usage_percent": 6.2,
     "budget_status": "normal",
     "by_workflow_today": {
       "plan": {
@@ -840,9 +840,9 @@
         "count": 3
       },
       "write-article": {
-        "tokens": 30000,
-        "cost": 3.0,
-        "count": 5
+        "tokens": 60000,
+        "cost": 6.0,
+        "count": 10
       }
     },
     "by_workflow_week": {
@@ -852,9 +852,9 @@
         "count": 11
       },
       "write-article": {
-        "tokens": 150500,
-        "cost": 15.05,
-        "count": 45
+        "tokens": 180500,
+        "cost": 18.05,
+        "count": 50
       },
       "test-workflow": {
         "tokens": 0,
@@ -895,54 +895,54 @@
     "by_workflow_today_formatted": [
       {
         "workflow": "write-article",
-        "tokens": 30000,
-        "cost": 3.0,
-        "count": 5,
-        "percentage": 93.8
+        "tokens": 60000,
+        "cost": 6.0,
+        "count": 10,
+        "percentage": 96.8
       },
       {
         "workflow": "plan",
         "tokens": 2000,
         "cost": 0.2,
         "count": 3,
-        "percentage": 6.2
+        "percentage": 3.2
       }
     ],
     "by_workflow_week_formatted": [
       {
         "workflow": "write-article",
-        "tokens": 150500,
-        "cost": 15.05,
-        "count": 45,
-        "percentage": 85.8
+        "tokens": 180500,
+        "cost": 18.05,
+        "count": 50,
+        "percentage": 87.8
       },
       {
         "workflow": "scout",
         "tokens": 15000,
         "cost": 1.5,
         "count": 8,
-        "percentage": 8.5
+        "percentage": 7.3
       },
       {
         "workflow": "qc-check",
         "tokens": 5000,
         "cost": 0.5,
         "count": 7,
-        "percentage": 2.8
+        "percentage": 2.4
       },
       {
         "workflow": "plan",
         "tokens": 4000,
         "cost": 0.4,
         "count": 11,
-        "percentage": 2.3
+        "percentage": 1.9
       },
       {
         "workflow": "process-tasks",
         "tokens": 1000,
         "cost": 0.1,
         "count": 2,
-        "percentage": 0.6
+        "percentage": 0.5
       },
       {
         "workflow": "test-workflow",
@@ -1379,8 +1379,8 @@
   },
   "scheduled_tasks": [],
   "business": {
-    "articles_today": 4,
-    "articles_week": 45,
+    "articles_today": 8,
+    "articles_week": 49,
     "qc_pass_rate": 100.0,
     "avg_duration": 0,
     "efficiency": 0
@@ -1414,7 +1414,7 @@
       },
       {
         "date": "2026-01-07",
-        "value": 32000
+        "value": 62000
       }
     ],
     "multi_metric_trend": {
@@ -1445,7 +1445,7 @@
         },
         {
           "date": "2026-01-07",
-          "value": 32000
+          "value": 62000
         }
       ],
       "success_rate": [
@@ -1572,9 +1572,9 @@
   },
   "comparison": {
     "token_usage": {
-      "today": 32000,
+      "today": 62000,
       "yesterday": 0,
-      "delta": 32000,
+      "delta": 62000,
       "delta_percent": 100.0
     },
     "success_rate": {
@@ -1591,12 +1591,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-07 18:28:48",
+    "last_update": "2026-01-07 18:31:37",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.05,
+    "duration_seconds": 0.06,
     "has_token_trend": true,
     "errors": []
   }
