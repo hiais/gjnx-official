@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-01-09 23:42:07",
+  "timestamp": "2026-01-10 00:01:19",
   "health": {
     "score": 30,
     "status": "critical",
     "issues": [
       "WARN_QUEUE_BACKUP",
-      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (3006m ago))"
+      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (3025m ago))"
     ],
     "daemon_status": {
       "alive": false,
-      "last_heartbeat": "2026-01-07 21:35:33 (3006m ago)"
+      "last_heartbeat": "2026-01-07 21:35:33 (3025m ago)"
     }
   },
   "tasks": {
@@ -19,7 +19,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-06 00:25:07",
-        "age_minutes": 5717.0,
+        "age_minutes": 5736.2,
         "trace_id": "trc-0106002507"
       },
       {
@@ -27,7 +27,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-07 01:23:43",
-        "age_minutes": 4218.4,
+        "age_minutes": 4237.6,
         "trace_id": "trc-0107012343"
       },
       {
@@ -35,7 +35,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-08 01:31:22",
-        "age_minutes": 2770.8,
+        "age_minutes": 2790.0,
         "trace_id": "trc-0108013122"
       },
       {
@@ -43,7 +43,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-09 20:18:32",
-        "age_minutes": 203.6,
+        "age_minutes": 222.8,
         "trace_id": "trc-0109201832"
       },
       {
@@ -51,7 +51,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 11943.4,
+        "age_minutes": 11962.6,
         "trace_id": "trc-0101163845"
       },
       {
@@ -59,7 +59,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 10480.7,
+        "age_minutes": 10499.9,
         "trace_id": "trc-0102170126"
       },
       {
@@ -67,7 +67,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-03 18:01:22",
-        "age_minutes": 8980.8,
+        "age_minutes": 9000.0,
         "trace_id": "trc-0103180122"
       },
       {
@@ -75,7 +75,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-04 20:01:35",
-        "age_minutes": 7420.5,
+        "age_minutes": 7439.7,
         "trace_id": "trc-0104200135"
       },
       {
@@ -83,7 +83,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-05 22:01:18",
-        "age_minutes": 5860.8,
+        "age_minutes": 5880.0,
         "trace_id": "trc-0105220118"
       },
       {
@@ -91,7 +91,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-06 23:01:30",
-        "age_minutes": 4360.6,
+        "age_minutes": 4379.8,
         "trace_id": "trc-0106230130"
       },
       {
@@ -99,7 +99,7 @@
         "priority": "P2",
         "workflow": "verify-test",
         "created": "2026-01-05 23:51:51",
-        "age_minutes": 5750.3,
+        "age_minutes": 5769.5,
         "trace_id": "trc-0105235151"
       }
     ],
@@ -107,725 +107,29 @@
       {
         "id": "P2_save_all_trc-0102203030.processing",
         "created": "2026-01-03 00:30:30",
-        "age_minutes": 10031.6
+        "age_minutes": 10050.8
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 137,
+    "total": 1,
     "by_level": {
-      "INFO": 75,
-      "WARN": 17,
+      "INFO": 1,
+      "WARN": 0,
       "ERROR": 0,
       "FATAL": 0,
-      "SUCCESS": 45,
+      "SUCCESS": 0,
       "SYSTEM": 0
     },
     "by_workflow": {
-      "system": 119,
-      "scout": 10,
-      "write-article": 6,
-      "plan": 2
+      "system": 1
     },
     "recent_errors": [],
     "recent_activities": [
       {
-        "time": "2026-01-09T23:42:07",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Generating dashboard data...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:38:37.060478",
-        "level": "INFO",
-        "workflow": "scout",
-        "message": "daily_config_check_executed",
-        "trace_id": "trace-20260109-233812-720b1250"
-      },
-      {
-        "time": "2026-01-09T23:38:30.066055",
-        "level": "INFO",
-        "workflow": "scout",
-        "message": "workflow_start",
-        "trace_id": "trace-20260109-233812-720b1250"
-      },
-      {
-        "time": "2026-01-09T23:38:21",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Website: Committed locally (Push delayed): feat(auto): sync website (1 modified, 0 added, 0 deleted) @23:38:20",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:38:21",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Core repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:38:21",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Core: Committed locally: chore(auto): deep sync [Scripts] (2 modified, 0 added, 0 deleted) @23:38:21",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:38:20",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Generating dashboard data...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:38:20",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Dashboard generated successfully",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:38:20",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Website repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:33:58",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Core: Committed locally: chore(auto): deep sync [Content] (1 modified, 0 added, 0 deleted) @23:33:57",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:33:57",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Website: Pushed with message: feat(auto): sync website (1 modified, 0 added, 0 deleted) @23:33:54",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:33:57",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Core repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:33:55",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Pushing to GitHub...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:33:54",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Generating dashboard data...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:33:54",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Dashboard generated successfully",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:33:54",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Website repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:22:42.479691",
-        "level": "INFO",
-        "workflow": "scout",
-        "message": "workflow_end",
-        "trace_id": "trace-20260109-231847-2f86daf9"
-      },
-      {
-        "time": "2026-01-09T23:19:59.801185",
-        "level": "INFO",
-        "workflow": "scout",
-        "message": "daily_config_check_executed",
-        "trace_id": "trace-20260109-231847-2f86daf9"
-      },
-      {
-        "time": "2026-01-09T23:19:52.797835",
-        "level": "INFO",
-        "workflow": "scout",
-        "message": "workflow_start",
-        "trace_id": "trace-20260109-231847-2f86daf9"
-      },
-      {
-        "time": "2026-01-09T23:18:55",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Website: Committed locally (Push delayed): feat(auto): sync website (1 modified, 0 added, 0 deleted) @23:18:54",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:18:55",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Core repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:18:55",
-        "level": "WARN",
-        "workflow": "system",
-        "message": "[save-all] Core: No changes to commit",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:18:54",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Generating dashboard data...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:18:54",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Dashboard generated successfully",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:18:54",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Website repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:18:54",
-        "level": "WARN",
-        "workflow": "system",
-        "message": "[save-all] Push cooldown active (27.5m < 30.0m). Push skipped.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:13:31",
-        "level": "WARN",
-        "workflow": "system",
-        "message": "[save-all] Push cooldown active (22.1m < 30.0m). Push skipped.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:13:31",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Website: Committed locally (Push delayed): feat(auto): sync website (1 modified, 0 added, 0 deleted) @23:13:31",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:13:31",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Core repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:13:31",
-        "level": "WARN",
-        "workflow": "system",
-        "message": "[save-all] Core: No changes to commit",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:13:30",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Generating dashboard data...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:13:30",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Dashboard generated successfully",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:13:30",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Website repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:12:53.121951",
-        "level": "INFO",
-        "workflow": "scout",
-        "message": "daily_config_check_executed",
-        "trace_id": "trace-20260109-231222-11d98b51"
-      },
-      {
-        "time": "2026-01-09T23:12:47.413567",
-        "level": "INFO",
-        "workflow": "scout",
-        "message": "workflow_start",
-        "trace_id": "trace-20260109-231222-11d98b51"
-      },
-      {
-        "time": "2026-01-09T23:12:30",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Dashboard generated successfully",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:12:30",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Website repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:12:30",
-        "level": "WARN",
-        "workflow": "system",
-        "message": "[save-all] Push cooldown active (21.1m < 30.0m). Push skipped.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:12:30",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Website: Committed locally (Push delayed): feat(auto): sync website (1 modified, 0 added, 0 deleted) @23:12:30",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:12:30",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Core repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:12:30",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Core: Committed locally: chore(auto): deep sync [Scripts] (1 modified, 0 added, 0 deleted) @23:12:30",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:12:29",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Generating dashboard data...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:09:00",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Website: Committed locally (Push delayed): feat(auto): sync website (1 modified, 0 added, 0 deleted) @23:08:59",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:09:00",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Core repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:09:00",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Core: Committed locally: chore(auto): deep sync [Scripts] (1 modified, 0 added, 0 deleted) @23:09:00",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:08:59",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Generating dashboard data...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:08:59",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Dashboard generated successfully",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:08:59",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Website repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:08:59",
-        "level": "WARN",
-        "workflow": "system",
-        "message": "[save-all] Push cooldown active (17.6m < 30.0m). Push skipped.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:06:54",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Dashboard generated successfully",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:06:54",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Website repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:06:54",
-        "level": "WARN",
-        "workflow": "system",
-        "message": "[save-all] Push cooldown active (15.5m < 30.0m). Push skipped.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:06:54",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Website: Committed locally (Push delayed): feat(auto): sync website (1 modified, 0 added, 0 deleted) @23:06:54",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:06:54",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Core repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:06:54",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Core: Committed locally: chore(auto): deep sync [Scripts] (1 modified, 0 added, 0 deleted) @23:06:54",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T23:06:53",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Generating dashboard data...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:55:16",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Core: Committed locally: chore(auto): deep sync [Scripts] (1 modified, 0 added, 0 deleted) @22:55:15",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:55:15",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Generating dashboard data...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:55:15",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Dashboard generated successfully",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:55:15",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Website repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:55:15",
-        "level": "WARN",
-        "workflow": "system",
-        "message": "[save-all] Push cooldown active (3.9m < 30.0m). Push skipped.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:55:15",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Website: Committed locally (Push delayed): feat(auto): sync website (1 modified, 0 added, 0 deleted) @22:55:15",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:55:15",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Core repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:51:22",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Website: Pushed with message: feat(auto): sync website (1 modified, 0 added, 0 deleted) @22:51:20",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:51:22",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Core repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:51:22",
-        "level": "WARN",
-        "workflow": "system",
-        "message": "[save-all] Core: No changes to commit",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:51:20",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Pushing to GitHub...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:51:19",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Generating dashboard data...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:51:19",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Dashboard generated successfully",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:51:19",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Website repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:48:17",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Core: Committed locally: chore(auto): deep sync [Scripts] (1 modified, 0 added, 0 deleted) @22:48:17",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:48:16",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Generating dashboard data...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:48:16",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Dashboard generated successfully",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:48:16",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Website repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:48:16",
-        "level": "WARN",
-        "workflow": "system",
-        "message": "[save-all] Push cooldown active (27.8m < 30.0m). Push skipped.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:48:16",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Website: Committed locally (Push delayed): feat(auto): sync website (1 modified, 0 added, 0 deleted) @22:48:16",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:48:16",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Core repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:35:28",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Website: Committed locally (Push delayed): feat(auto): sync website (1 modified, 0 added, 0 deleted) @22:35:27",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:35:28",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Core repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:35:28",
-        "level": "WARN",
-        "workflow": "system",
-        "message": "[save-all] Core: No changes to commit",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:35:27",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Generating dashboard data...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:35:27",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Dashboard generated successfully",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:35:27",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Website repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:35:27",
-        "level": "WARN",
-        "workflow": "system",
-        "message": "[save-all] Push cooldown active (15.0m < 30.0m). Push skipped.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:20:29",
-        "level": "WARN",
-        "workflow": "system",
-        "message": "[save-all] Core: No changes to commit",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:20:28",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Website: Pushed with message: feat(auto): sync website (1 modified, 0 added, 0 deleted) @22:20:26",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:20:28",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Core repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:20:26",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Generating dashboard data...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:20:26",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Dashboard generated successfully",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:20:26",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Website repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:20:26",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Pushing to GitHub...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:05:27",
-        "level": "WARN",
-        "workflow": "system",
-        "message": "[save-all] Core: No changes to commit",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:05:26",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Generating dashboard data...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:05:26",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Dashboard generated successfully",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:05:26",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Website repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:05:26",
-        "level": "WARN",
-        "workflow": "system",
-        "message": "[save-all] Push cooldown active (29.0m < 30.0m). Push skipped.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:05:26",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Website: Committed locally (Push delayed): feat(auto): sync website (1 modified, 0 added, 0 deleted) @22:05:26",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T22:05:26",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Core repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T21:50:27",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Core: Committed locally: chore(auto): deep sync [Content] (1 modified, 0 added, 0 deleted) @21:50:26",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-09T21:50:26",
+        "time": "2026-01-10T00:01:19",
         "level": "INFO",
         "workflow": "system",
         "message": "[save-all] Generating dashboard data...",
@@ -836,8 +140,8 @@
   "performance": {
     "avg_duration_by_workflow": {},
     "duration_percentiles": {},
-    "token_usage_today": 102000,
-    "token_usage_week": 422750,
+    "token_usage_today": 0,
+    "token_usage_week": 427750,
     "success_count": 0,
     "fail_count": 0,
     "success_rate": 0
@@ -846,34 +150,18 @@
     "daily_budget": 100.0,
     "daily_token_budget": 500000,
     "token_price_per_k": 0.1,
-    "today_total_cost": 10.2,
-    "today_token_usage": 102000,
-    "week_total_cost": 42.27,
-    "week_token_usage": 422750,
-    "budget_usage_percent": 10.2,
+    "today_total_cost": 0,
+    "today_token_usage": 0,
+    "week_total_cost": 42.77,
+    "week_token_usage": 427750,
+    "budget_usage_percent": 0.0,
     "budget_status": "normal",
-    "by_workflow_today": {
-      "scout": {
-        "tokens": 10000,
-        "cost": 1.0,
-        "count": 10
-      },
-      "plan": {
-        "tokens": 2000,
-        "cost": 0.2,
-        "count": 2
-      },
-      "write-article": {
-        "tokens": 90000,
-        "cost": 9.0,
-        "count": 6
-      }
-    },
+    "by_workflow_today": {},
     "by_workflow_week": {
       "scout": {
-        "tokens": 40000,
-        "cost": 4.0,
-        "count": 26
+        "tokens": 45000,
+        "cost": 4.5,
+        "count": 29
       },
       "plan": {
         "tokens": 14000,
@@ -911,43 +199,21 @@
         "count": 12
       }
     },
-    "by_workflow_today_formatted": [
-      {
-        "workflow": "write-article",
-        "tokens": 90000,
-        "cost": 9.0,
-        "count": 6,
-        "percentage": 88.2
-      },
-      {
-        "workflow": "scout",
-        "tokens": 10000,
-        "cost": 1.0,
-        "count": 10,
-        "percentage": 9.8
-      },
-      {
-        "workflow": "plan",
-        "tokens": 2000,
-        "cost": 0.2,
-        "count": 2,
-        "percentage": 2.0
-      }
-    ],
+    "by_workflow_today_formatted": [],
     "by_workflow_week_formatted": [
       {
         "workflow": "write-article",
         "tokens": 362750,
         "cost": 36.27,
         "count": 52,
-        "percentage": 85.8
+        "percentage": 84.8
       },
       {
         "workflow": "scout",
-        "tokens": 40000,
-        "cost": 4.0,
-        "count": 26,
-        "percentage": 9.5
+        "tokens": 45000,
+        "cost": 4.5,
+        "count": 29,
+        "percentage": 10.5
       },
       {
         "workflow": "plan",
@@ -995,7 +261,7 @@
   },
   "content_factory": {
     "pipeline": {
-      "inbox": 34,
+      "inbox": 38,
       "scheduled": 15,
       "wip": 2,
       "published": 84
@@ -1012,6 +278,18 @@
         },
         {
           "title": "微软重启三里岛核电站 {2026-01-09}",
+          "type": "topic"
+        },
+        {
+          "title": "2026 硅碳负极普及元年 {2026-01-09}",
+          "type": "topic"
+        },
+        {
+          "title": "固态电池 2027 量产定局？ {2026-01-09}",
+          "type": "topic"
+        },
+        {
+          "title": "AI 数据中心核能化 {2026-01-09}",
           "type": "topic"
         },
         {
@@ -1068,18 +346,6 @@
         },
         {
           "title": "Google Agent 爆发 (Week 12 P1)",
-          "type": "topic"
-        },
-        {
-          "title": "OnePlus 15 vs iPhone 17 (Week 11 P0)",
-          "type": "topic"
-        },
-        {
-          "title": "Model Y 冬测翻车 (Week 11 P1)",
-          "type": "topic"
-        },
-        {
-          "title": "ARM AI PC (Week 11 P1)",
           "type": "topic"
         }
       ],
@@ -1367,8 +633,7 @@
       "2026-01-06": 1,
       "2026-01-05": 1,
       "2026-01-04": 1,
-      "2026-01-03": 1,
-      "2026-01-02": 1
+      "2026-01-03": 1
     }
   },
   "alert_rules": {
@@ -1430,20 +695,16 @@
   },
   "alerts": [
     {
-      "time": "23:42",
+      "time": "00:01",
       "level": "🔴 P0",
       "rule_id": "SYS-001",
-      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (3006m ago)",
+      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (3025m ago)",
       "action": "请运行 start-dashboard-full.bat (推荐)",
       "status": "Active"
     }
   ],
   "history": {
     "token_trend_7d": [
-      {
-        "date": "2026-01-03",
-        "value": 0
-      },
       {
         "date": "2026-01-04",
         "value": 5000
@@ -1466,15 +727,15 @@
       },
       {
         "date": "2026-01-09",
-        "value": 102000
+        "value": 107000
+      },
+      {
+        "date": "2026-01-10",
+        "value": 0
       }
     ],
     "multi_metric_trend": {
       "token_usage": [
-        {
-          "date": "2026-01-03",
-          "value": 0
-        },
         {
           "date": "2026-01-04",
           "value": 5000
@@ -1497,14 +758,14 @@
         },
         {
           "date": "2026-01-09",
-          "value": 102000
+          "value": 107000
+        },
+        {
+          "date": "2026-01-10",
+          "value": 0
         }
       ],
       "success_rate": [
-        {
-          "date": "2026-01-03",
-          "value": 0
-        },
         {
           "date": "2026-01-04",
           "value": 100.0
@@ -1527,15 +788,15 @@
         },
         {
           "date": "2026-01-09",
+          "value": 0
+        },
+        {
+          "date": "2026-01-10",
           "value": 0
         }
       ],
       "error_rate": [
         {
-          "date": "2026-01-03",
-          "value": 0
-        },
-        {
           "date": "2026-01-04",
           "value": 0.0
         },
@@ -1558,14 +819,14 @@
         {
           "date": "2026-01-09",
           "value": 0.0
+        },
+        {
+          "date": "2026-01-10",
+          "value": 0
         }
       ],
       "queue_length": [
         {
-          "date": "2026-01-03",
-          "value": 0
-        },
-        {
           "date": "2026-01-04",
           "value": 0
         },
@@ -1587,15 +848,15 @@
         },
         {
           "date": "2026-01-09",
+          "value": 0
+        },
+        {
+          "date": "2026-01-10",
           "value": 0
         }
       ],
       "avg_duration": [
         {
-          "date": "2026-01-03",
-          "value": 0
-        },
-        {
           "date": "2026-01-04",
           "value": 0
         },
@@ -1617,6 +878,10 @@
         },
         {
           "date": "2026-01-09",
+          "value": 0
+        },
+        {
+          "date": "2026-01-10",
           "value": 0
         }
       ]
@@ -1624,16 +889,16 @@
   },
   "comparison": {
     "token_usage": {
-      "today": 102000,
-      "yesterday": 198250,
-      "delta": -96250,
-      "delta_percent": -48.5
+      "today": 0,
+      "yesterday": 107000,
+      "delta": -107000,
+      "delta_percent": -100.0
     },
     "success_rate": {
       "today": 0,
-      "yesterday": 100.0,
-      "delta": -100.0,
-      "delta_percent": -100.0
+      "yesterday": 0,
+      "delta": 0,
+      "delta_percent": 0
     },
     "error_count": {
       "today": 0,
@@ -1643,7 +908,7 @@
     }
   },
   "system": {
-    "last_update": "2026-01-09 23:42:07",
+    "last_update": "2026-01-10 00:01:19",
     "timezone": "China Standard Time"
   },
   "metadata": {
