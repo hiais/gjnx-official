@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-01-10 02:24:07",
+  "timestamp": "2026-01-10 02:26:09",
   "health": {
     "score": 30,
     "status": "critical",
     "issues": [
       "WARN_QUEUE_BACKUP",
-      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (3168m ago))"
+      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (3170m ago))"
     ],
     "daemon_status": {
       "alive": false,
-      "last_heartbeat": "2026-01-07 21:35:33 (3168m ago)"
+      "last_heartbeat": "2026-01-07 21:35:33 (3170m ago)"
     }
   },
   "tasks": {
@@ -19,7 +19,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-06 00:25:07",
-        "age_minutes": 5879.0,
+        "age_minutes": 5881.0,
         "trace_id": "trc-0106002507"
       },
       {
@@ -27,7 +27,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-07 01:23:43",
-        "age_minutes": 4380.4,
+        "age_minutes": 4382.4,
         "trace_id": "trc-0107012343"
       },
       {
@@ -35,7 +35,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-08 01:31:22",
-        "age_minutes": 2932.8,
+        "age_minutes": 2934.8,
         "trace_id": "trc-0108013122"
       },
       {
@@ -43,7 +43,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-09 20:18:32",
-        "age_minutes": 365.6,
+        "age_minutes": 367.6,
         "trace_id": "trc-0109201832"
       },
       {
@@ -51,7 +51,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 12105.4,
+        "age_minutes": 12107.4,
         "trace_id": "trc-0101163845"
       },
       {
@@ -59,7 +59,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 10642.7,
+        "age_minutes": 10644.7,
         "trace_id": "trc-0102170126"
       },
       {
@@ -67,7 +67,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-03 18:01:22",
-        "age_minutes": 9142.8,
+        "age_minutes": 9144.8,
         "trace_id": "trc-0103180122"
       },
       {
@@ -75,7 +75,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-04 20:01:35",
-        "age_minutes": 7582.5,
+        "age_minutes": 7584.6,
         "trace_id": "trc-0104200135"
       },
       {
@@ -83,7 +83,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-05 22:01:18",
-        "age_minutes": 6022.8,
+        "age_minutes": 6024.9,
         "trace_id": "trc-0105220118"
       },
       {
@@ -91,7 +91,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-06 23:01:30",
-        "age_minutes": 4522.6,
+        "age_minutes": 4524.7,
         "trace_id": "trc-0106230130"
       },
       {
@@ -99,7 +99,7 @@
         "priority": "P2",
         "workflow": "verify-test",
         "created": "2026-01-05 23:51:51",
-        "age_minutes": 5912.3,
+        "age_minutes": 5914.3,
         "trace_id": "trc-0105235151"
       },
       {
@@ -107,7 +107,7 @@
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-10 02:20:43",
-        "age_minutes": 3.4,
+        "age_minutes": 5.4,
         "trace_id": null
       }
     ],
@@ -115,24 +115,24 @@
       {
         "id": "P2_save_all_trc-0102203030.processing",
         "created": "2026-01-03 00:30:30",
-        "age_minutes": 10193.6
+        "age_minutes": 10195.7
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 165,
+    "total": 172,
     "by_level": {
-      "INFO": 116,
-      "WARN": 14,
+      "INFO": 119,
+      "WARN": 15,
       "ERROR": 0,
       "FATAL": 0,
-      "SUCCESS": 35,
+      "SUCCESS": 38,
       "SYSTEM": 0
     },
     "by_workflow": {
-      "system": 93,
+      "system": 100,
       "write-article": 36,
       "validate-config": 9,
       "plan": 15,
@@ -142,10 +142,59 @@
     "recent_errors": [],
     "recent_activities": [
       {
+        "time": "2026-01-10T02:26:09",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-10T02:24:08",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Core: Committed locally: chore(auto): deep sync [Scripts] (1 modified, 0 added, 0 deleted) @02:24:08",
+        "trace_id": ""
+      },
+      {
         "time": "2026-01-10T02:24:07",
         "level": "INFO",
         "workflow": "system",
         "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-10T02:24:07",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Dashboard generated successfully",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-10T02:24:07",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Website repository...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-10T02:24:07",
+        "level": "WARN",
+        "workflow": "system",
+        "message": "[save-all] Push cooldown active (3.4m < 30.0m). Push skipped.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-10T02:24:07",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Website: Committed locally (Push delayed): feat(auto): sync website (1 modified, 0 added, 0 deleted) @02:24:07",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-10T02:24:07",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Core repository...",
         "trace_id": ""
       },
       {
@@ -791,55 +840,6 @@
         "workflow": "validate-config",
         "message": "scan_result",
         "trace_id": "scanned_files\\: 3, \\risk_p0\\: 0, \\risk_p1\\: 0, \\status\\: \\clean\\}"
-      },
-      {
-        "time": "2026-01-10T00:54:54.027573",
-        "level": "INFO",
-        "workflow": "validate-config",
-        "message": "workflow_start",
-        "trace_id": "trace-20260110-005410-b6a59d48"
-      },
-      {
-        "time": "2026-01-10T00:54:30.232631",
-        "level": "INFO",
-        "workflow": "plan",
-        "message": "workflow_start",
-        "trace_id": "agent\\: \\Editor\\, \\force\\: \\detected\\}"
-      },
-      {
-        "time": "2026-01-10T00:54:11.454055",
-        "level": "INFO",
-        "workflow": "scout",
-        "message": "workflow_end",
-        "trace_id": "trace-20260110-005159-f22eacf5"
-      },
-      {
-        "time": "2026-01-10T00:52:17.769647",
-        "level": "INFO",
-        "workflow": "scout",
-        "message": "workflow_start",
-        "trace_id": "trace-20260110-005159-f22eacf5"
-      },
-      {
-        "time": "2026-01-10T00:52:07",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Website: Committed locally (Push delayed): feat(auto): sync website (1 modified, 0 added, 0 deleted) @00:52:06",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-10T00:52:07",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Core repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-10T00:52:07",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Core: Committed locally: chore(auto): deep sync [Content] (2 modified, 1 added, 0 deleted) @00:52:07",
-        "trace_id": ""
       }
     ]
   },
@@ -1547,10 +1547,10 @@
   },
   "alerts": [
     {
-      "time": "02:24",
+      "time": "02:26",
       "level": "🔴 P0",
       "rule_id": "SYS-001",
-      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (3168m ago)",
+      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (3170m ago)",
       "action": "请运行 start-dashboard-full.bat (推荐)",
       "status": "Active"
     }
@@ -1760,12 +1760,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-10 02:24:07",
+    "last_update": "2026-01-10 02:26:09",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.07,
+    "duration_seconds": 0.06,
     "has_token_trend": true,
     "errors": []
   }
