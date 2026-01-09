@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-01-10 02:55:28",
+  "timestamp": "2026-01-10 02:56:07",
   "health": {
     "score": 30,
     "status": "critical",
     "issues": [
       "WARN_QUEUE_BACKUP",
-      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (3199m ago))"
+      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (3200m ago))"
     ],
     "daemon_status": {
       "alive": false,
-      "last_heartbeat": "2026-01-07 21:35:33 (3199m ago)"
+      "last_heartbeat": "2026-01-07 21:35:33 (3200m ago)"
     }
   },
   "tasks": {
@@ -19,7 +19,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-06 00:25:07",
-        "age_minutes": 5910.3,
+        "age_minutes": 5911.0,
         "trace_id": "trc-0106002507"
       },
       {
@@ -27,7 +27,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-07 01:23:43",
-        "age_minutes": 4411.8,
+        "age_minutes": 4412.4,
         "trace_id": "trc-0107012343"
       },
       {
@@ -35,7 +35,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-08 01:31:22",
-        "age_minutes": 2964.1,
+        "age_minutes": 2964.8,
         "trace_id": "trc-0108013122"
       },
       {
@@ -43,7 +43,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-09 20:18:32",
-        "age_minutes": 396.9,
+        "age_minutes": 397.6,
         "trace_id": "trc-0109201832"
       },
       {
@@ -51,7 +51,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 12136.7,
+        "age_minutes": 12137.4,
         "trace_id": "trc-0101163845"
       },
       {
@@ -59,7 +59,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 10674.0,
+        "age_minutes": 10674.7,
         "trace_id": "trc-0102170126"
       },
       {
@@ -67,7 +67,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-03 18:01:22",
-        "age_minutes": 9174.1,
+        "age_minutes": 9174.8,
         "trace_id": "trc-0103180122"
       },
       {
@@ -75,7 +75,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-04 20:01:35",
-        "age_minutes": 7613.9,
+        "age_minutes": 7614.5,
         "trace_id": "trc-0104200135"
       },
       {
@@ -83,7 +83,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-05 22:01:18",
-        "age_minutes": 6054.2,
+        "age_minutes": 6054.8,
         "trace_id": "trc-0105220118"
       },
       {
@@ -91,7 +91,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-06 23:01:30",
-        "age_minutes": 4554.0,
+        "age_minutes": 4554.6,
         "trace_id": "trc-0106230130"
       },
       {
@@ -99,7 +99,7 @@
         "priority": "P2",
         "workflow": "verify-test",
         "created": "2026-01-05 23:51:51",
-        "age_minutes": 5943.6,
+        "age_minutes": 5944.3,
         "trace_id": "trc-0105235151"
       }
     ],
@@ -107,24 +107,24 @@
       {
         "id": "P2_save_all_trc-0102203030.processing",
         "created": "2026-01-03 00:30:30",
-        "age_minutes": 10225.0
+        "age_minutes": 10225.6
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 218,
+    "total": 225,
     "by_level": {
-      "INFO": 149,
+      "INFO": 153,
       "WARN": 22,
       "ERROR": 0,
       "FATAL": 0,
-      "SUCCESS": 47,
+      "SUCCESS": 50,
       "SYSTEM": 0
     },
     "by_workflow": {
-      "system": 128,
+      "system": 135,
       "validate-config": 12,
       "write-article": 46,
       "plan": 17,
@@ -134,10 +134,59 @@
     "recent_errors": [],
     "recent_activities": [
       {
+        "time": "2026-01-10T02:56:07",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-10T02:55:31",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Website: Pushed with message: feat(auto): sync website (1 modified, 0 added, 0 deleted) @02:55:28",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-10T02:55:31",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Core repository...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-10T02:55:31",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Core: Committed locally: chore(auto): deep sync [Tasks] (0 modified, 0 added, 1 deleted) @02:55:31",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-10T02:55:29",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Pushing to GitHub...",
+        "trace_id": ""
+      },
+      {
         "time": "2026-01-10T02:55:28",
         "level": "INFO",
         "workflow": "system",
         "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-10T02:55:28",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Dashboard generated successfully",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-10T02:55:28",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Website repository...",
         "trace_id": ""
       },
       {
@@ -783,55 +832,6 @@
         "workflow": "write-article",
         "message": "title_qc_passed",
         "trace_id": "title\\: \\#"
-      },
-      {
-        "time": "2026-01-10T01:56:26.171452",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "lead_magnet_sourced",
-        "trace_id": "topic\\: \\AI"
-      },
-      {
-        "time": "2026-01-10T01:56:16.007018",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "config_synced",
-        "trace_id": "version\\: \\V4.0\\}"
-      },
-      {
-        "time": "2026-01-10T01:56:06.919702",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "workflow_start",
-        "trace_id": "agent\\: \\Writer\\, \\topic\\: \\AI"
-      },
-      {
-        "time": "2026-01-10T01:38:15.074359",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "update_config",
-        "trace_id": "config\\: \\文章结构配置.md\\, \\version\\: \\V3.9\\, \\reason\\: \\simplify"
-      },
-      {
-        "time": "2026-01-10T01:24:51.339395",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "workflow_end",
-        "trace_id": "status\\: \\finished\\, \\results\\: {\\file\\: \\Ready_To_Publish/20260110-告别充电桩依赖？2026半固态电池全线量产：1000km续航不再是期货.md\\, \\qc_score\\: \\100\\}}"
-      },
-      {
-        "time": "2026-01-10T01:24:37.104266",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "data_verification_failed",
-        "trace_id": "reason\\: \\manual_review_needed\\}"
-      },
-      {
-        "time": "2026-01-10T01:24:09.761902",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "chapter-05-06_qc_passed",
-        "trace_id": "token_usage\\: {\\total\\: 500, \\estimated\\: true}}"
       }
     ]
   },
@@ -1539,10 +1539,10 @@
   },
   "alerts": [
     {
-      "time": "02:55",
+      "time": "02:56",
       "level": "🔴 P0",
       "rule_id": "SYS-001",
-      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (3199m ago)",
+      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (3200m ago)",
       "action": "请运行 start-dashboard-full.bat (推荐)",
       "status": "Active"
     }
@@ -1752,7 +1752,7 @@
     }
   },
   "system": {
-    "last_update": "2026-01-10 02:55:28",
+    "last_update": "2026-01-10 02:56:08",
     "timezone": "China Standard Time"
   },
   "metadata": {
