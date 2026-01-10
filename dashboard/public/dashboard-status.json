@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-01-10 20:54:47",
+  "timestamp": "2026-01-10 21:29:30",
   "health": {
     "score": 30,
     "status": "critical",
     "issues": [
       "WARN_QUEUE_BACKUP",
-      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (4279m ago))"
+      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (4313m ago))"
     ],
     "daemon_status": {
       "alive": false,
-      "last_heartbeat": "2026-01-07 21:35:33 (4279m ago)"
+      "last_heartbeat": "2026-01-07 21:35:33 (4313m ago)"
     }
   },
   "tasks": {
@@ -19,7 +19,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-06 00:25:07",
-        "age_minutes": 6989.7,
+        "age_minutes": 7024.4,
         "trace_id": "trc-0106002507"
       },
       {
@@ -27,7 +27,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-07 01:23:43",
-        "age_minutes": 5491.1,
+        "age_minutes": 5525.8,
         "trace_id": "trc-0107012343"
       },
       {
@@ -35,7 +35,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-08 01:31:22",
-        "age_minutes": 4043.4,
+        "age_minutes": 4078.1,
         "trace_id": "trc-0108013122"
       },
       {
@@ -43,7 +43,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-09 20:18:32",
-        "age_minutes": 1476.3,
+        "age_minutes": 1511.0,
         "trace_id": "trc-0109201832"
       },
       {
@@ -51,7 +51,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 13216.0,
+        "age_minutes": 13250.7,
         "trace_id": "trc-0101163845"
       },
       {
@@ -59,7 +59,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 11753.4,
+        "age_minutes": 11788.1,
         "trace_id": "trc-0102170126"
       },
       {
@@ -67,7 +67,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-03 18:01:22",
-        "age_minutes": 10253.4,
+        "age_minutes": 10288.1,
         "trace_id": "trc-0103180122"
       },
       {
@@ -75,7 +75,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-04 20:01:35",
-        "age_minutes": 8693.2,
+        "age_minutes": 8727.9,
         "trace_id": "trc-0104200135"
       },
       {
@@ -83,7 +83,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-05 22:01:18",
-        "age_minutes": 7133.5,
+        "age_minutes": 7168.2,
         "trace_id": "trc-0105220118"
       },
       {
@@ -91,7 +91,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-06 23:01:30",
-        "age_minutes": 5633.3,
+        "age_minutes": 5668.0,
         "trace_id": "trc-0106230130"
       },
       {
@@ -99,32 +99,40 @@
         "priority": "P2",
         "workflow": "verify-test",
         "created": "2026-01-05 23:51:51",
-        "age_minutes": 7022.9,
+        "age_minutes": 7057.7,
         "trace_id": "trc-0105235151"
+      },
+      {
+        "id": "pending_config_val.lock",
+        "priority": "Unknown",
+        "workflow": "validate-config",
+        "created": "2026-01-10 20:54:57",
+        "age_minutes": 34.6,
+        "trace_id": null
       }
     ],
     "processing": [
       {
         "id": "P2_save_all_trc-0102203030.processing",
         "created": "2026-01-03 00:30:30",
-        "age_minutes": 11304.3
+        "age_minutes": 11339.0
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 345,
+    "total": 352,
     "by_level": {
-      "INFO": 246,
+      "INFO": 250,
       "WARN": 28,
       "ERROR": 0,
       "FATAL": 0,
-      "SUCCESS": 71,
+      "SUCCESS": 74,
       "SYSTEM": 0
     },
     "by_workflow": {
-      "system": 191,
+      "system": 198,
       "write-article": 78,
       "validate-config": 16,
       "unknown": 1,
@@ -141,6 +149,55 @@
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-01-10T21:29:30",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-10T20:54:57",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Core: Committed locally: chore(auto): deep sync [Content/System/Scripts/Tasks] (11 modified, 28 added, 14 deleted) @20:54:56",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-10T20:54:51",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Website: Pushed with message: feat(auto): sync website (1 modified, 0 added, 0 deleted) @20:54:48",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-10T20:54:51",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Core repository...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-10T20:54:48",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Dashboard generated successfully",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-10T20:54:48",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Website repository...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-10T20:54:48",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Pushing to GitHub...",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-10T20:54:47",
         "level": "INFO",
@@ -791,55 +848,6 @@
         "workflow": "system_sentinel",
         "message": "{\\",
         "trace_id": "trace-review-002"
-      },
-      {
-        "time": "2026-01-10T03:14:10.599923",
-        "level": "INFO",
-        "workflow": "system_update",
-        "message": "{\\",
-        "trace_id": "30s"
-      },
-      {
-        "time": "2026-01-10T03:05:26.347006",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "workflow_end",
-        "trace_id": "status\\: \\finished\\, \\results\\: {\\file\\: \\20260110-trace-20260110-030409-49e60e18-AI-Power-Crisis.md\\, \\trace_id\\: \\trace-20260110-030409-49e60e18\\, \\qc_score\\: \\Pass\\}}"
-      },
-      {
-        "time": "2026-01-10T03:05:19.222318",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "truck_loaded",
-        "trace_id": "file\\: \\20260110-trace-20260110-030409-49e60e18-AI-Power-Crisis.md\\}"
-      },
-      {
-        "time": "2026-01-10T03:04:38.630627",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "workflow_start",
-        "trace_id": "topic\\: \\电网崩溃警告！AI"
-      },
-      {
-        "time": "2026-01-10T03:03:44.143504",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "workflow_start",
-        "trace_id": "topic\\: \\电网崩溃警告！AI"
-      },
-      {
-        "time": "2026-01-10T03:03:22.054116",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "workflow_end",
-        "trace_id": "status\\: \\finished\\, \\results\\: {\\file\\: \\20260110-trace-20260110-030205-b6315683-OnePlus-15-Battery-King.md\\, \\trace_id\\: \\trace-20260110-030205-b6315683\\, \\qc_score\\: \\Pass\\}}"
-      },
-      {
-        "time": "2026-01-10T03:03:14.913922",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "truck_loaded",
-        "trace_id": "file\\: \\20260110-trace-20260110-030205-b6315683-OnePlus-15-Battery-King.md\\}"
       }
     ]
   },
@@ -1233,10 +1241,10 @@
   },
   "content_factory": {
     "pipeline": {
-      "inbox": 68,
+      "inbox": 9,
       "scheduled": 21,
       "wip": 2,
-      "published": 89
+      "published": 88
     },
     "pipeline_details": {
       "inbox": [
@@ -1261,69 +1269,13 @@
           "type": "topic"
         },
         {
-          "title": "RTX 5090 功耗实锤 575W {2026-01-10}",
-          "type": "topic"
-        },
-        {
-          "title": "AI 推理能耗真相 (1000 TWh 危机) {2026-01-09}",
-          "type": "topic"
-        },
-        {
-          "title": "Galaxy S26 叠片电池革命 {2026-01-09}",
-          "type": "topic"
-        },
-        {
-          "title": "微软重启三里岛核电站 {2026-01-09}",
-          "type": "topic"
-        },
-        {
-          "title": "2026 硅碳负极普及元年 {2026-01-09}",
-          "type": "topic"
-        },
-        {
-          "title": "固态电池 2027 量产定局？ {2026-01-09}",
-          "type": "topic"
-        },
-        {
-          "title": "AI 数据中心核能化 {2026-01-09}",
-          "type": "topic"
-        },
-        {
-          "title": "NVIDIA Rubin (Planned)",
-          "type": "topic"
-        },
-        {
-          "title": "Lockin Optical Charge (Planned)",
-          "type": "topic"
-        },
-        {
-          "title": "AMD AI Max+ (Reserve)",
-          "type": "topic"
-        },
-        {
-          "title": "Intel Panther Lake (Planned)",
-          "type": "topic"
-        },
-        {
-          "title": "ProLogium Solid-State (Planned)",
-          "type": "topic"
-        },
-        {
-          "title": "Willo Wireless (Planned)",
-          "type": "topic"
-        },
-        {
-          "title": "Flint Paper Battery (Reserve)",
-          "type": "topic"
-        },
-        {
-          "title": "Figure 03 Efficiency (Planned)",
+          "title": "29小时续航！2026 AI PC 杀疯了 {2026-01-10}",
           "type": "topic"
         }
       ],
       "scheduled": [
         {
-          "priority": "P0",
+          "priority": "✅ Done ( P0)",
           "title": "29小时不插电？2026 AI PC 杀疯了，充电器以后只是\"装饰品\"？",
           "topic": "5-端侧异变",
           "date": "2026-01-13",
@@ -1508,23 +1460,8 @@
       "published": [
         {
           "date": "2026-01-10",
-          "title": "拒绝电费背刺！<5W \"边缘大脑\"量产：机器人的电池焦虑结束了？",
-          "topic": "00-待分类"
-        },
-        {
-          "date": "2026-01-10",
-          "title": "29小时不插电？2026 AI PC 杀疯了，充电器以后只是\"装饰品\"？",
-          "topic": "00-待分类"
-        },
-        {
-          "date": "2026-01-10",
-          "title": "拒绝电费背刺！<5W \"边缘大脑\"量产：机器人的电池焦虑结束了？",
-          "topic": "00-待分类"
-        },
-        {
-          "date": "2026-01-10",
           "title": "南孚这下真悬了？USB-C 直充版\"快充锂电\"炸场 CES：每一分钱都花在了刀刃上",
-          "topic": "00-待分类"
+          "topic": "05-端侧异变"
         },
         {
           "date": "2026-01-10",
@@ -1532,9 +1469,19 @@
           "topic": "04-电力之冠"
         },
         {
+          "date": "2026-01-10",
+          "title": "拒绝电费背刺！<5W \"边缘大脑\"量产：机器人的电池焦虑结束了？",
+          "topic": "03-具身革命"
+        },
+        {
+          "date": "2026-01-10",
+          "title": "29小时不插电？2026 AI PC 杀疯了，充电器以后只是\"装饰品\"？",
+          "topic": "05-端侧异变"
+        },
+        {
           "date": "2026-01-09",
           "title": "Google 终于动手了！Gemini 新功能接管浏览器，连鼠标都不用点了",
-          "topic": "00-待分类"
+          "topic": "02-算力跃迁"
         },
         {
           "date": "2026-01-09",
@@ -1544,7 +1491,7 @@
         {
           "date": "2026-01-09",
           "title": "疯了！MSI 5090 功耗飙升1000W：你的电源正在经历一场电刑",
-          "topic": "00-待分类"
+          "topic": "02-算力跃迁"
         },
         {
           "date": "2026-01-08",
@@ -1559,7 +1506,7 @@
         {
           "date": "2026-01-06",
           "title": "10080mAh！荣耀Power2彻底终结了\"一天两充\"焦虑时代",
-          "topic": "00-待分类"
+          "topic": "05-端侧异变"
         },
         {
           "date": "2026-01-05",
@@ -1605,49 +1552,54 @@
           "date": "2025-12-28",
           "title": "充电器可以扔了？这颗能用 50 年的“核能电池”，正从科幻走进现实",
           "topic": "04-电力之冠"
+        },
+        {
+          "date": "2025-12-28",
+          "title": "10,000mAh！荣耀撕开了移动算力最后一块“遮羞布”",
+          "topic": "04-电力之冠"
         }
       ]
     },
     "recent_published": [
       {
         "date": "2026-01-10",
-        "title": "拒绝电费背刺！<5W \"边缘大脑\"量产：机器人的电池焦虑结束了？",
-        "topic": "00-待分类"
-      },
-      {
-        "date": "2026-01-10",
-        "title": "29小时不插电？2026 AI PC 杀疯了，充电器以后只是\"装饰品\"？",
-        "topic": "00-待分类"
-      },
-      {
-        "date": "2026-01-10",
-        "title": "拒绝电费背刺！<5W \"边缘大脑\"量产：机器人的电池焦虑结束了？",
-        "topic": "00-待分类"
-      },
-      {
-        "date": "2026-01-10",
         "title": "南孚这下真悬了？USB-C 直充版\"快充锂电\"炸场 CES：每一分钱都花在了刀刃上",
-        "topic": "00-待分类"
+        "topic": "05-端侧异变"
       },
       {
         "date": "2026-01-10",
         "title": "说好的2026呢？东风/丰田固态电池集体\"跳票\"，真相太扎心",
         "topic": "04-电力之冠"
+      },
+      {
+        "date": "2026-01-10",
+        "title": "拒绝电费背刺！<5W \"边缘大脑\"量产：机器人的电池焦虑结束了？",
+        "topic": "03-具身革命"
+      },
+      {
+        "date": "2026-01-10",
+        "title": "29小时不插电？2026 AI PC 杀疯了，充电器以后只是\"装饰品\"？",
+        "topic": "05-端侧异变"
+      },
+      {
+        "date": "2026-01-09",
+        "title": "Google 终于动手了！Gemini 新功能接管浏览器，连鼠标都不用点了",
+        "topic": "02-算力跃迁"
       }
     ],
     "topic_distribution": {
-      "00-待分类": 17,
+      "05-端侧异变": 19,
       "04-电力之冠": 20,
-      "02-算力跃迁": 13,
-      "05-端侧异变": 16,
-      "03-具身革命": 3,
+      "03-具身革命": 4,
+      "02-算力跃迁": 15,
       "06-星际硅基": 3,
       "01-硬件终局": 10,
       "07-模拟觉醒": 5,
-      "00-系统综述": 2
+      "00-系统综述": 2,
+      "00-待分类": 10
     },
     "weekly_output": {
-      "2026-01-10": 5,
+      "2026-01-10": 4,
       "2026-01-09": 3,
       "2026-01-08": 1,
       "2026-01-07": 1,
@@ -1716,10 +1668,10 @@
   },
   "alerts": [
     {
-      "time": "20:54",
+      "time": "21:29",
       "level": "🔴 P0",
       "rule_id": "SYS-001",
-      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (4279m ago)",
+      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (4313m ago)",
       "action": "请运行 start-dashboard-full.bat (推荐)",
       "status": "Active"
     }
@@ -1929,12 +1881,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-10 20:54:48",
+    "last_update": "2026-01-10 21:29:30",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.39,
+    "duration_seconds": 0.08,
     "has_token_trend": true,
     "errors": []
   }
