@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-01-10 14:20:36",
+  "timestamp": "2026-01-10 15:44:04",
   "health": {
     "score": 30,
     "status": "critical",
     "issues": [
       "WARN_QUEUE_BACKUP",
-      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (3885m ago))"
+      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (3968m ago))"
     ],
     "daemon_status": {
       "alive": false,
-      "last_heartbeat": "2026-01-07 21:35:33 (3885m ago)"
+      "last_heartbeat": "2026-01-07 21:35:33 (3968m ago)"
     }
   },
   "tasks": {
@@ -19,7 +19,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-06 00:25:07",
-        "age_minutes": 6595.5,
+        "age_minutes": 6679.0,
         "trace_id": "trc-0106002507"
       },
       {
@@ -27,7 +27,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-07 01:23:43",
-        "age_minutes": 5096.9,
+        "age_minutes": 5180.4,
         "trace_id": "trc-0107012343"
       },
       {
@@ -35,7 +35,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-08 01:31:22",
-        "age_minutes": 3649.2,
+        "age_minutes": 3732.7,
         "trace_id": "trc-0108013122"
       },
       {
@@ -43,7 +43,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-09 20:18:32",
-        "age_minutes": 1082.1,
+        "age_minutes": 1165.5,
         "trace_id": "trc-0109201832"
       },
       {
@@ -51,7 +51,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 12821.8,
+        "age_minutes": 12905.3,
         "trace_id": "trc-0101163845"
       },
       {
@@ -59,7 +59,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 11359.2,
+        "age_minutes": 11442.6,
         "trace_id": "trc-0102170126"
       },
       {
@@ -67,7 +67,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-03 18:01:22",
-        "age_minutes": 9859.2,
+        "age_minutes": 9942.7,
         "trace_id": "trc-0103180122"
       },
       {
@@ -75,7 +75,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-04 20:01:35",
-        "age_minutes": 8299.0,
+        "age_minutes": 8382.5,
         "trace_id": "trc-0104200135"
       },
       {
@@ -83,7 +83,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-05 22:01:18",
-        "age_minutes": 6739.3,
+        "age_minutes": 6822.8,
         "trace_id": "trc-0105220118"
       },
       {
@@ -91,7 +91,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-06 23:01:30",
-        "age_minutes": 5239.1,
+        "age_minutes": 5322.6,
         "trace_id": "trc-0106230130"
       },
       {
@@ -99,7 +99,7 @@
         "priority": "P2",
         "workflow": "verify-test",
         "created": "2026-01-05 23:51:51",
-        "age_minutes": 6628.8,
+        "age_minutes": 6712.2,
         "trace_id": "trc-0105235151"
       },
       {
@@ -107,7 +107,7 @@
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-10 13:56:18",
-        "age_minutes": 24.3,
+        "age_minutes": 107.8,
         "trace_id": null
       }
     ],
@@ -115,29 +115,29 @@
       {
         "id": "P2_save_all_trc-0102203030.processing",
         "created": "2026-01-03 00:30:30",
-        "age_minutes": 10910.1
+        "age_minutes": 10993.6
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 294,
+    "total": 306,
     "by_level": {
-      "INFO": 208,
-      "WARN": 26,
+      "INFO": 216,
+      "WARN": 27,
       "ERROR": 0,
       "FATAL": 0,
-      "SUCCESS": 60,
+      "SUCCESS": 63,
       "SYSTEM": 0
     },
     "by_workflow": {
-      "system": 163,
+      "system": 170,
+      "plan": 23,
+      "scout": 21,
       "write-article": 72,
       "update-config": 3,
       "validate-config": 13,
-      "plan": 20,
-      "scout": 19,
       "daily-config-check": 1,
       "system_sentinel": 1,
       "system_update": 1,
@@ -146,10 +146,94 @@
     "recent_errors": [],
     "recent_activities": [
       {
+        "time": "2026-01-10T15:44:04",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-10T15:29:10.583274",
+        "level": "INFO",
+        "workflow": "plan",
+        "message": "workflow_end",
+        "trace_id": "trace-20260110-152759-a39a3809"
+      },
+      {
+        "time": "2026-01-10T15:28:27.704339",
+        "level": "INFO",
+        "workflow": "plan",
+        "message": "topic_evaluation",
+        "trace_id": "trace-20260110-152759-a39a3809"
+      },
+      {
+        "time": "2026-01-10T15:28:21.089983",
+        "level": "INFO",
+        "workflow": "plan",
+        "message": "workflow_start",
+        "trace_id": "trace-20260110-152759-a39a3809"
+      },
+      {
+        "time": "2026-01-10T15:28:03.782434",
+        "level": "INFO",
+        "workflow": "scout",
+        "message": "workflow_end",
+        "trace_id": "trace-20260110-152625-bb16acc8"
+      },
+      {
+        "time": "2026-01-10T15:26:58.649490",
+        "level": "INFO",
+        "workflow": "scout",
+        "message": "workflow_start",
+        "trace_id": "trace-20260110-152625-bb16acc8"
+      },
+      {
+        "time": "2026-01-10T14:20:37",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Core: Committed locally: chore(auto): deep sync [Content/System/Tasks] (3 modified, 4 added, 0 deleted) @14:20:37",
+        "trace_id": ""
+      },
+      {
         "time": "2026-01-10T14:20:36",
         "level": "INFO",
         "workflow": "system",
         "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-10T14:20:36",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Dashboard generated successfully",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-10T14:20:36",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Website repository...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-10T14:20:36",
+        "level": "WARN",
+        "workflow": "system",
+        "message": "[save-all] Push cooldown active (24.3m < 30.0m). Push skipped.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-10T14:20:36",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Website: Committed locally (Push delayed): feat(auto): sync website (1 modified, 0 added, 0 deleted) @14:20:36",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-10T14:20:36",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Core repository...",
         "trace_id": ""
       },
       {
@@ -760,99 +844,15 @@
         "workflow": "write-article",
         "message": "truck_loaded",
         "trace_id": "file\\: \\20260110-trace-20260110-023719-79c245d3-Intel-18A-Vs-Apple-M4.md\\}"
-      },
-      {
-        "time": "2026-01-10T02:39:02.979601",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "title_qc_passed",
-        "trace_id": "title\\: \\27"
-      },
-      {
-        "time": "2026-01-10T02:38:02.337197",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "config_synced",
-        "trace_id": "version\\: \\V4.1\\}"
-      },
-      {
-        "time": "2026-01-10T02:37:34.703234",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "workflow_start",
-        "trace_id": "agent\\: \\Writer\\, \\topic\\: \\27"
-      },
-      {
-        "time": "2026-01-10T02:37:22.848672",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "truck_loaded",
-        "trace_id": "file\\: \\20260110-trace-20260110-023515-ddb1d845-CES-2026-Remote-Solar-Charging-Lock.md\\}"
-      },
-      {
-        "time": "2026-01-10T02:36:52.134770",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "title_qc_passed",
-        "trace_id": "title\\: \\再见，南孚！CES"
-      },
-      {
-        "time": "2026-01-10T02:35:57.062252",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "config_synced",
-        "trace_id": "version\\: \\V4.1\\}"
-      },
-      {
-        "time": "2026-01-10T02:35:31.501546",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "workflow_start",
-        "trace_id": "agent\\: \\Writer\\, \\topic\\: \\再见，南孚！CES"
-      },
-      {
-        "time": "2026-01-10T02:34:16.113461",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "config_synced",
-        "trace_id": "version\\: \\V4.1\\}"
-      },
-      {
-        "time": "2026-01-10T02:33:36.385988",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "workflow_start",
-        "trace_id": "agent\\: \\Writer\\, \\topic\\: \\Blackwell"
-      },
-      {
-        "time": "2026-01-10T02:33:03.727137",
-        "level": "INFO",
-        "workflow": "plan",
-        "message": "workflow_autopilot_bypass",
-        "trace_id": "reason\\: \\force_flag_active\\}"
-      },
-      {
-        "time": "2026-01-10T02:32:26.439663",
-        "level": "INFO",
-        "workflow": "plan",
-        "message": "workflow_start",
-        "trace_id": "agent\\: \\Editor\\, \\force\\: \\detected\\}"
-      },
-      {
-        "time": "2026-01-10T02:32:06.636406",
-        "level": "INFO",
-        "workflow": "scout",
-        "message": "workflow_end",
-        "trace_id": "status\\: \\finished\\, \\results\\: {\\topics_found\\: \\3\\, \\mode\\: \\Manual-Trace\\}}"
       }
     ]
   },
   "performance": {
     "avg_duration_by_workflow": {},
     "duration_percentiles": {},
-    "token_usage_today": 324650,
-    "token_usage_week": 752400,
-    "success_count": 74,
+    "token_usage_today": 331650,
+    "token_usage_week": 759400,
+    "success_count": 75,
     "fail_count": 0,
     "success_rate": 100.0
   },
@@ -860,22 +860,22 @@
     "daily_budget": 100.0,
     "daily_token_budget": 500000,
     "token_price_per_k": 0.1,
-    "today_total_cost": 32.47,
-    "today_token_usage": 324650,
-    "week_total_cost": 75.24,
-    "week_token_usage": 752400,
-    "budget_usage_percent": 32.5,
+    "today_total_cost": 33.17,
+    "today_token_usage": 331650,
+    "week_total_cost": 75.94,
+    "week_token_usage": 759400,
+    "budget_usage_percent": 33.2,
     "budget_status": "normal",
     "by_workflow_today": {
       "scout": {
-        "tokens": 35000,
-        "cost": 3.5,
-        "count": 19
+        "tokens": 40000,
+        "cost": 4.0,
+        "count": 21
       },
       "plan": {
-        "tokens": 10000,
-        "cost": 1.0,
-        "count": 20
+        "tokens": 12000,
+        "cost": 1.2,
+        "count": 23
       },
       "factory": {
         "tokens": 0,
@@ -920,14 +920,14 @@
     },
     "by_workflow_week": {
       "scout": {
-        "tokens": 80000,
-        "cost": 8.0,
-        "count": 48
+        "tokens": 85000,
+        "cost": 8.5,
+        "count": 50
       },
       "plan": {
-        "tokens": 24000,
-        "cost": 2.4,
-        "count": 35
+        "tokens": 26000,
+        "cost": 2.6,
+        "count": 38
       },
       "factory": {
         "tokens": 0,
@@ -996,21 +996,21 @@
         "tokens": 279650,
         "cost": 27.97,
         "count": 72,
-        "percentage": 86.1
+        "percentage": 84.3
       },
       {
         "workflow": "scout",
-        "tokens": 35000,
-        "cost": 3.5,
-        "count": 19,
-        "percentage": 10.8
+        "tokens": 40000,
+        "cost": 4.0,
+        "count": 21,
+        "percentage": 12.1
       },
       {
         "workflow": "plan",
-        "tokens": 10000,
-        "cost": 1.0,
-        "count": 20,
-        "percentage": 3.1
+        "tokens": 12000,
+        "cost": 1.2,
+        "count": 23,
+        "percentage": 3.6
       },
       {
         "workflow": "factory",
@@ -1068,21 +1068,21 @@
         "tokens": 642400,
         "cost": 64.24,
         "count": 124,
-        "percentage": 85.4
+        "percentage": 84.6
       },
       {
         "workflow": "scout",
-        "tokens": 80000,
-        "cost": 8.0,
-        "count": 48,
-        "percentage": 10.6
+        "tokens": 85000,
+        "cost": 8.5,
+        "count": 50,
+        "percentage": 11.2
       },
       {
         "workflow": "plan",
-        "tokens": 24000,
-        "cost": 2.4,
-        "count": 35,
-        "percentage": 3.2
+        "tokens": 26000,
+        "cost": 2.6,
+        "count": 38,
+        "percentage": 3.4
       },
       {
         "workflow": "qc-check",
@@ -1165,10 +1165,10 @@
   },
   "content_factory": {
     "pipeline": {
-      "inbox": 63,
-      "scheduled": 27,
+      "inbox": 64,
+      "scheduled": 18,
       "wip": 2,
-      "published": 84
+      "published": 85
     },
     "pipeline_details": {
       "inbox": [
@@ -1256,99 +1256,27 @@
       "scheduled": [
         {
           "priority": "P0",
-          "title": "600Wh/kg！奇瑞固态电池这一炸，把丰田的 PPT 撕得粉碎",
-          "topic": "4-电力之冠",
-          "date": "2026-01-12",
-          "agent": "Writer C",
-          "goal": "🔋 物理极限突破 + 1200km 续航实锤"
-        },
-        {
-          "priority": "P1",
-          "title": "Model Y 冬测仅剩 3 成？2025 极寒实测：国产电车教特斯拉做人",
-          "topic": "4-电力之冠",
-          "date": "2026-01-13",
-          "agent": "Writer A",
-          "goal": "❄️ 极寒续航红黑榜 + 热泵技术差异"
-        },
-        {
-          "priority": "P1)",
-          "title": "台积电 2nm 量产实锤：功耗暴降 30%，iPhone 18 稳了？",
-          "topic": "1-硬件终局",
-          "date": "2026-01-14",
-          "agent": "Writer B",
-          "goal": "📉 摩尔定律续命 + 硅基能效大跃进"
-        },
-        {
-          "priority": "P0",
-          "title": "怕冷？宁德时代钠离子电池来了：-40℃ 随意跑，北方车主有救了",
-          "topic": "4-电力之冠",
-          "date": "2026-01-15",
-          "agent": "Writer C",
-          "goal": "🔋 钠离子低温优势实测 + 北方电车救星"
-        },
-        {
-          "priority": "P1",
-          "title": "20 小时只是及格线？OnePlus 15 续航实测 25 小时，压力给到了苹果",
+          "title": "拒绝电费背刺！<5W \"边缘大脑\"量产：机器人的电池焦虑结束了？",
           "topic": "5-端侧异变",
-          "date": "2026-01-16",
-          "agent": "Writer A",
-          "goal": "📱 2026 旗舰续航横评 + 电池技术内卷"
-        },
-        {
-          "priority": "P1",
-          "title": "电网崩溃警告！AI 还要再吃掉 50% 的电，算力真的不够烧了",
-          "topic": "2-算力跃迁",
-          "date": "2026-01-17",
-          "agent": "Writer B",
-          "goal": "📉 AI 能源危机宏观分析 + 算力成本预警"
-        },
-        {
-          "priority": "P0",
-          "title": "Blackwell 还没捂热就过时了？NVIDIA Rubin 官宣：AI 算力成本将进入“毛利时代”",
-          "topic": "2-算力跃迁",
           "date": "2026-01-12",
           "agent": "Writer B",
-          "goal": "📈 AI 算力单元能效比 (TCO) 深度分析"
+          "goal": "🤖 端侧 AI 功耗革命 (PPW) + 具身智能闭环"
         },
         {
           "priority": "P1",
-          "title": "再见，南孚！CES 2026 远程光能充电锁来了：4 米内电力“隔空取物”？",
+          "title": "南孚这下真悬了？USB-C 直充版\"快充锂电\"炸场 CES：每一分钱都花在了刀刃上",
           "topic": "5-端侧异变",
           "date": "2026-01-13",
           "agent": "Writer A",
-          "goal": "🔌 无线补能/光能传输实战意义"
+          "goal": "🔋 个人能源循环黑科技 + 避坑南孚/干电池"
         },
         {
           "priority": "P1",
-          "title": "27 小时！Intel 18A 终于封神，苹果 M 系列的续航神话到头了？",
-          "topic": "5-端侧异变",
-          "date": "2026-01-14",
-          "agent": "Writer A",
-          "goal": "🚀 18A 节点实测 + x86 续航革命"
-        },
-        {
-          "priority": "P0",
-          "title": "27 小时！Intel 18A 终于封神，苹果 M 系列的续航神话到头了？",
-          "topic": "5-端侧异变",
-          "date": "2026-01-13",
-          "agent": "Writer A",
-          "goal": "🚀 18A 节点实测 + x86 续航革命"
-        },
-        {
-          "priority": "P1",
-          "title": "充电比加油快？6 分钟满血，固态电池这次要把\"冬测刺客\"埋了",
-          "topic": "4-电力之冠",
+          "title": "算 AI 的费电，暖气不够用？丹麦人把超级计算机变成了\"大型暖气片\"",
+          "topic": "2-算力跃迁",
           "date": "2026-01-14",
           "agent": "Writer C",
-          "goal": "🔋 解决冬测痛点 + 低温能效突破"
-        },
-        {
-          "priority": "P1",
-          "title": "桌面上最后一条线也没了？Willo 隔空充电：让\"对齐焦虑\"彻底消失",
-          "topic": "5-端侧异变",
-          "date": "2026-01-15",
-          "agent": "Writer B",
-          "goal": "🔌 补能便利性 + 桌面补能效率革命"
+          "goal": "📉 数据中心 TCO 极致优化 + 能源资产化范本"
         },
         {
           "priority": "P0",
@@ -1487,6 +1415,11 @@
       ],
       "published": [
         {
+          "date": "2026-01-10",
+          "title": "说好的2026呢？东风/丰田固态电池集体\"跳票\"，真相太扎心",
+          "topic": "04-电力之冠"
+        },
+        {
           "date": "2026-01-09",
           "title": "Google 终于动手了！Gemini 新功能接管浏览器，连鼠标都不用点了",
           "topic": "00-待分类"
@@ -1580,15 +1513,15 @@
           "date": "2025-12-25",
           "title": "别只盯着跑分了！英伟达 B300 突然变强，其实是因为它学会了“偷工减料”",
           "topic": "02-算力跃迁"
-        },
-        {
-          "date": "2025-12-25",
-          "title": "深度透视：RTX 5090 移动版效能前瞻——3 万元买的是「卡皇」还是「李鬼」?",
-          "topic": "02-算力跃迁"
         }
       ]
     },
     "recent_published": [
+      {
+        "date": "2026-01-10",
+        "title": "说好的2026呢？东风/丰田固态电池集体\"跳票\"，真相太扎心",
+        "topic": "04-电力之冠"
+      },
       {
         "date": "2026-01-09",
         "title": "Google 终于动手了！Gemini 新功能接管浏览器，连鼠标都不用点了",
@@ -1608,17 +1541,12 @@
         "date": "2026-01-08",
         "title": "1000公里续航不再是PPT！东风/广汽定档2026，固态电池量产元年来了",
         "topic": "04-电力之冠"
-      },
-      {
-        "date": "2026-01-07",
-        "title": "耗电激增50%？揭秘2026年AI手机不敢告诉你的\"隐形税\"",
-        "topic": "05-端侧异变"
       }
     ],
     "topic_distribution": {
+      "04-电力之冠": 20,
       "00-待分类": 13,
       "02-算力跃迁": 13,
-      "04-电力之冠": 19,
       "05-端侧异变": 16,
       "03-具身革命": 3,
       "06-星际硅基": 3,
@@ -1627,6 +1555,7 @@
       "00-系统综述": 2
     },
     "weekly_output": {
+      "2026-01-10": 1,
       "2026-01-09": 3,
       "2026-01-08": 1,
       "2026-01-07": 1,
@@ -1695,10 +1624,10 @@
   },
   "alerts": [
     {
-      "time": "14:20",
+      "time": "15:44",
       "level": "🔴 P0",
       "rule_id": "SYS-001",
-      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (3885m ago)",
+      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (3968m ago)",
       "action": "请运行 start-dashboard-full.bat (推荐)",
       "status": "Active"
     }
@@ -1731,7 +1660,7 @@
       },
       {
         "date": "2026-01-10",
-        "value": 324650
+        "value": 331650
       }
     ],
     "multi_metric_trend": {
@@ -1762,7 +1691,7 @@
         },
         {
           "date": "2026-01-10",
-          "value": 324650
+          "value": 331650
         }
       ],
       "success_rate": [
@@ -1889,10 +1818,10 @@
   },
   "comparison": {
     "token_usage": {
-      "today": 324650,
+      "today": 331650,
       "yesterday": 107000,
-      "delta": 217650,
-      "delta_percent": 203.4
+      "delta": 224650,
+      "delta_percent": 210.0
     },
     "success_rate": {
       "today": 100.0,
@@ -1908,12 +1837,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-10 14:20:36",
+    "last_update": "2026-01-10 15:44:04",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.08,
+    "duration_seconds": 0.35,
     "has_token_trend": true,
     "errors": []
   }
