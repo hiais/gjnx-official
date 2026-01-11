@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-01-11 22:49:25",
+  "timestamp": "2026-01-11 23:13:34",
   "health": {
     "score": 30,
     "status": "critical",
     "issues": [
       "WARN_QUEUE_BACKUP",
-      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (5833m ago))"
+      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (5858m ago))"
     ],
     "daemon_status": {
       "alive": false,
-      "last_heartbeat": "2026-01-07 21:35:33 (5833m ago)"
+      "last_heartbeat": "2026-01-07 21:35:33 (5858m ago)"
     }
   },
   "tasks": {
@@ -19,7 +19,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-06 00:25:07",
-        "age_minutes": 8544.3,
+        "age_minutes": 8568.5,
         "trace_id": "trc-0106002507"
       },
       {
@@ -27,7 +27,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-07 01:23:43",
-        "age_minutes": 7045.7,
+        "age_minutes": 7069.9,
         "trace_id": "trc-0107012343"
       },
       {
@@ -35,7 +35,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-08 01:31:22",
-        "age_minutes": 5598.0,
+        "age_minutes": 5622.2,
         "trace_id": "trc-0108013122"
       },
       {
@@ -43,7 +43,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-09 20:18:32",
-        "age_minutes": 3030.9,
+        "age_minutes": 3055.0,
         "trace_id": "trc-0109201832"
       },
       {
@@ -51,7 +51,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 14770.7,
+        "age_minutes": 14794.8,
         "trace_id": "trc-0101163845"
       },
       {
@@ -59,7 +59,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 13308.0,
+        "age_minutes": 13332.1,
         "trace_id": "trc-0102170126"
       },
       {
@@ -67,7 +67,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-03 18:01:22",
-        "age_minutes": 11808.0,
+        "age_minutes": 11832.2,
         "trace_id": "trc-0103180122"
       },
       {
@@ -75,7 +75,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-04 20:01:35",
-        "age_minutes": 10247.8,
+        "age_minutes": 10272.0,
         "trace_id": "trc-0104200135"
       },
       {
@@ -83,7 +83,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-05 22:01:18",
-        "age_minutes": 8688.1,
+        "age_minutes": 8712.3,
         "trace_id": "trc-0105220118"
       },
       {
@@ -91,7 +91,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-06 23:01:30",
-        "age_minutes": 7187.9,
+        "age_minutes": 7212.1,
         "trace_id": "trc-0106230130"
       },
       {
@@ -99,7 +99,7 @@
         "priority": "P2",
         "workflow": "verify-test",
         "created": "2026-01-05 23:51:51",
-        "age_minutes": 8577.6,
+        "age_minutes": 8601.7,
         "trace_id": "trc-0105235151"
       },
       {
@@ -107,7 +107,7 @@
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-01-11 21:25:01",
-        "age_minutes": 84.4,
+        "age_minutes": 108.6,
         "trace_id": null
       }
     ],
@@ -115,36 +115,113 @@
       {
         "id": "P2_save_all_trc-0102203030.processing",
         "created": "2026-01-03 00:30:30",
-        "age_minutes": 12858.9
+        "age_minutes": 12883.1
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 65,
+    "total": 76,
     "by_level": {
-      "INFO": 53,
-      "WARN": 0,
+      "INFO": 60,
+      "WARN": 1,
       "ERROR": 0,
       "FATAL": 0,
-      "SUCCESS": 12,
+      "SUCCESS": 15,
       "SYSTEM": 0
     },
     "by_workflow": {
-      "system": 29,
+      "system": 36,
+      "validate-config": 9,
       "audit_optimization": 1,
       "system_audit": 1,
-      "validate-config": 5,
       "write-article": 29
     },
     "recent_errors": [],
     "recent_activities": [
       {
+        "time": "2026-01-11T23:13:34",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-11T23:09:44.454712",
+        "level": "INFO",
+        "workflow": "validate-config",
+        "message": "workflow_end",
+        "trace_id": "trace-20260111-230915-config-val-2"
+      },
+      {
+        "time": "2026-01-11T23:09:27.249661",
+        "level": "INFO",
+        "workflow": "validate-config",
+        "message": "workflow_start",
+        "trace_id": "trace-20260111-230915-config-val-2"
+      },
+      {
+        "time": "2026-01-11T23:05:23.183910",
+        "level": "INFO",
+        "workflow": "validate-config",
+        "message": "workflow_end",
+        "trace_id": "trace-20260111-230438-config-val"
+      },
+      {
+        "time": "2026-01-11T23:04:43.611930",
+        "level": "INFO",
+        "workflow": "validate-config",
+        "message": "workflow_start",
+        "trace_id": "trace-20260111-230438-config-val"
+      },
+      {
+        "time": "2026-01-11T22:49:28",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Core: Committed locally: chore(auto): deep sync [Content/System] (5 modified, 11 added, 0 deleted) @22:49:27",
+        "trace_id": ""
+      },
+      {
         "time": "2026-01-11T22:49:25",
         "level": "INFO",
         "workflow": "system",
         "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-11T22:49:25",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Dashboard generated successfully",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-11T22:49:25",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Website repository...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-11T22:49:25",
+        "level": "WARN",
+        "workflow": "system",
+        "message": "[save-all] Push cooldown active (24.3m < 30.0m). Push skipped.",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-11T22:49:25",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Website: Committed locally (Push delayed): feat(auto): sync website (1 modified, 0 added, 0 deleted) @22:49:25",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-11T22:49:25",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Core repository...",
         "trace_id": ""
       },
       {
@@ -625,7 +702,7 @@
       "validate-config": {
         "tokens": 0,
         "cost": 0.0,
-        "count": 5
+        "count": 9
       },
       "system_audit": {
         "tokens": 0,
@@ -647,7 +724,7 @@
       "validate-config": {
         "tokens": 0,
         "cost": 0.0,
-        "count": 24
+        "count": 28
       },
       "system_audit": {
         "tokens": 0,
@@ -747,7 +824,7 @@
         "workflow": "validate-config",
         "tokens": 0,
         "cost": 0.0,
-        "count": 5,
+        "count": 9,
         "percentage": 0.0
       },
       {
@@ -805,7 +882,7 @@
         "workflow": "validate-config",
         "tokens": 0,
         "cost": 0.0,
-        "count": 24,
+        "count": 28,
         "percentage": 0.0
       },
       {
@@ -906,7 +983,7 @@
       "inbox": 4,
       "scheduled": 9,
       "wip": 0,
-      "published": 96
+      "published": 97
     },
     "pipeline_details": {
       "inbox": [],
@@ -976,7 +1053,7 @@
           "goal": "❄️ 2026 冬测红黑榜"
         },
         {
-          "priority": "✍️ Drafting ( P1)",
+          "priority": "✅ Published ( P1)",
           "title": "2026-02-03",
           "topic": "**《别被 PPT 骗了：226 年你买到的\"固态电池\"，可能全是半成品》**",
           "date": "Writer C",
@@ -986,6 +1063,11 @@
       ],
       "wip": [],
       "published": [
+        {
+          "date": "2026-01-11",
+          "title": "别被 PPT 骗了：2026 年你买到的\"固态电池\"，可能全是半成品",
+          "topic": "00-待分类"
+        },
         {
           "date": "2026-01-11",
           "title": "腰斩！67款电动车极寒实测：2026年了，谁还在拿\"续航\"骗人？",
@@ -1080,15 +1162,15 @@
           "date": "2026-01-05",
           "title": "-25°C大考！小鹏P7仅缩水46%，这才是电动车续航的真相",
           "topic": "04-电力之冠"
-        },
-        {
-          "date": "2026-01-04",
-          "title": "寿命翻倍！LG 发布“软件定义电池”，充电宝这下真要失业了",
-          "topic": "04-电力之冠"
         }
       ]
     },
     "recent_published": [
+      {
+        "date": "2026-01-11",
+        "title": "别被 PPT 骗了：2026 年你买到的\"固态电池\"，可能全是半成品",
+        "topic": "00-待分类"
+      },
       {
         "date": "2026-01-11",
         "title": "腰斩！67款电动车极寒实测：2026年了，谁还在拿\"续航\"骗人？",
@@ -1108,15 +1190,10 @@
         "date": "2026-01-11",
         "title": "防不胜防！RTX 5090 接口再现\"融化门\"，600W 实测竟成物理终局？",
         "topic": "00-待分类"
-      },
-      {
-        "date": "2026-01-11",
-        "title": "告别一天两充！52 小时续航起步，硅碳负极电池终于在 2026 成了旗舰标配？",
-        "topic": "00-待分类"
       }
     ],
     "topic_distribution": {
-      "00-待分类": 18,
+      "00-待分类": 19,
       "03-具身革命": 4,
       "05-端侧异变": 19,
       "04-电力之冠": 20,
@@ -1127,7 +1204,7 @@
       "00-系统综述": 2
     },
     "weekly_output": {
-      "2026-01-11": 8,
+      "2026-01-11": 9,
       "2026-01-10": 4,
       "2026-01-09": 3,
       "2026-01-08": 1,
@@ -1196,10 +1273,10 @@
   },
   "alerts": [
     {
-      "time": "22:49",
+      "time": "23:13",
       "level": "🔴 P0",
       "rule_id": "SYS-001",
-      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (5833m ago)",
+      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (5858m ago)",
       "action": "请运行 start-dashboard-full.bat (推荐)",
       "status": "Active"
     }
@@ -1409,12 +1486,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-11 22:49:25",
+    "last_update": "2026-01-11 23:13:34",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.07,
+    "duration_seconds": 0.08,
     "has_token_trend": true,
     "errors": []
   }
