@@ -13,7 +13,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "sync": "node scripts/sync-content.js",
-    "push-seo": "astro build && node scripts/baidu-push.js"
+    "push-seo": "astro build && node scripts/baidu-push.js",
+    "validate:data": "node scripts/validate-data.js"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.6.0",
