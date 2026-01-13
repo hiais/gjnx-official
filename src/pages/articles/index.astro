@@ -10,10 +10,10 @@ const sortedArticles = allArticles
   .sort((a, b) => (b.data.date?.getTime() || 0) - (a.data.date?.getTime() || 0));
 ---
 
-<MainLayout title="Database (Articles)">
+<MainLayout title="深度专栏 | Column">
   <div class="container section">
-    <h1>Database Access</h1>
-    <p class="subtitle">Full repository of energy efficiency logs.</p>
+    <h1>深度专栏 <span class="highlight">/ COLUMN</span></h1>
+    <p class="subtitle">硅基能效核心叙事：旗舰级深度内容档案。</p>
 
     <div class="grid">
       {sortedArticles.map(article => (

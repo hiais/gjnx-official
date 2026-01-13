@@ -1,0 +1,80 @@
+import MainLayout from '../../layouts/MainLayout.astro';
+import Card from '../../components/ui/Card.astro';
+import { getCollection } from 'astro:content';
+import WeChatModal from '../../components/WeChatModal.astro';
+
+const allResources = await getCollection('resources');
+const sortedResources = allResources
+  .sort((a, b) => (b.data.date?.getTime() || 0) - (a.data.date?.getTime() || 0));
+---
+
+<MainLayout title="资源库 | Resources">
+  <div class="container section">
+    <h1>资源库 <span class="highlight">/ ASSETS</span></h1>
+    <p class="subtitle">深度能效报告、行业白皮书、生存地图下载中心。</p>
+
+    <div class="grid">
+      {sortedResources.length > 0 ? (
+        sortedResources.map(res => (
+          <Card 
+            href="javascript:void(0)" 
+            class="resource-card wechat-trigger" 
+            data-keyword={res.data.code || '报告'}
+          >
+            <div class="card-meta">
+              <span class="date mono">{res.data.date?.toISOString().split('T')[0]}</span>
+              <span class="category mono">{res.data.category}</span>
+            </div>
+            <h3 class="card-title">{res.data.title}</h3>
+            <p class="card-desc">{res.data.description}</p>
+            {res.data.code && (
+              <div class="resource-code mono">
+                CODE: <span class="highlight">{res.data.code}</span>
+              </div>
+            )}
+          </Card>
+        ))
+      ) : (
+        <div class="empty-state mono">
+          <p>> NO_RESOURCES_FOUND</p>
+          <p>AI_GENERATION_IN_PROGRESS...</p>
+        </div>
+      )}
+    </div>
+    
+    <WeChatModal triggerId="dynamic" />
+  </div>
+</MainLayout>
+
+<style>
+  .section { padding: var(--space-8) var(--space-8); }
+  h1 { font-size: 3rem; margin-bottom: var(--space-2); }
+  .highlight { color: var(--c-accent-cyan); }
+  .subtitle { color: var(--c-text-secondary); margin-bottom: var(--space-8); }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--space-6);
+  }
+  
+  .card-meta { display: flex; justify-content: space-between; margin-bottom: var(--space-4); font-size: 0.8rem; }
+  .card-title { font-size: 1.25rem; margin-bottom: var(--space-2); }
+  .card-desc { color: var(--c-text-secondary); font-size: 0.9rem; line-height: 1.5; margin-bottom: 1rem; }
+  
+  .resource-code {
+    background: rgba(0, 240, 255, 0.05);
+    border: 1px dashed var(--c-accent-cyan);
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .empty-state {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 4rem;
+    border: 1px dashed #333;
+    color: #555;
+  }
+</style>

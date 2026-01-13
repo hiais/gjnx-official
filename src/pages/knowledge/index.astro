@@ -6,10 +6,10 @@ import { getCollection } from 'astro:content';
 const allKnowledge = await getCollection('knowledge');
 ---
 
-<MainLayout title="Knowledge Base">
+<MainLayout title="硅基百科 | Wiki">
   <div class="container section">
-    <h1>Knowledge Base</h1>
-    <p class="subtitle">Technical documentation and definitions.</p>
+    <h1>硅基百科 <span class="highlight">/ WIKI</span></h1>
+    <p class="subtitle">技术词条与能效定义：构建你的硅基通识体系。</p>
 
     <div class="grid">
       {allKnowledge.map(item => (

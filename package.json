@@ -13,6 +13,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "sync": "node scripts/sync-content.js",
+    "sync:all": "node scripts/sync-all.js",
     "push-seo": "npm run build && node scripts/baidu-push.js",
     "validate:data": "node scripts/validate-data.js",
     "type-check": "astro check",

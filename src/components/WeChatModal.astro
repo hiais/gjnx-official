@@ -22,7 +22,7 @@ const { triggerId, title = "INITIATING_HANDSHAKE", keyword = "报告" } = Astro.
     </div>
     
     <p class="instruction">
-      扫描二维码，回复 <span class="highlight">【{keyword}】</span><br>
+      扫描二维码，回复 <span class="highlight">【<span id="modal-keyword">{keyword}</span>】</span><br>
       立即解锁完整版功能
     </p>
   </div>
@@ -119,14 +119,19 @@ const { triggerId, title = "INITIATING_HANDSHAKE", keyword = "报告" } = Astro.
   }
 </style>
 
-<script define:vars={{ triggerId }}>
-  const modal = document.getElementById('wechat-modal');
-  const openBtn = document.getElementById(triggerId);
+<script>
+  const modal = document.getElementById('wechat-modal') as HTMLDialogElement;
+  const triggerBtns = document.querySelectorAll('.wechat-trigger');
   const closeBtn = document.getElementById('close-modal');
+  const keywordDisplay = document.getElementById('modal-keyword');
 
-  if (modal && openBtn && closeBtn) {
-    openBtn.addEventListener('click', () => {
-      modal.showModal();
+  if (modal && closeBtn) {
+    triggerBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const keyword = btn.getAttribute('data-keyword') || '报告';
+        if (keywordDisplay) keywordDisplay.textContent = keyword;
+        modal.showModal();
+      });
     });
 
     closeBtn.addEventListener('click', () => {

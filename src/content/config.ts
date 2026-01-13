@@ -64,4 +64,36 @@ const database = defineCollection({
     })
 });
 
-export const collections = { articles, knowledge, database };
+// Define the "resources" collection (Whitepapers, Reports)
+const resources = defineCollection({
+    loader: glob({
+        pattern: "**/*.md",
+        base: "./src/content/resources"
+    }),
+    schema: z.object({
+        title: z.string(),
+        date: z.date().optional(),
+        category: z.string().optional(),
+        downloadUrl: z.string().optional(),
+        code: z.string().optional(), // Verification code
+        description: z.string().optional(),
+        image: z.string().optional(),
+    })
+});
+
+// Define the "news" collection (Observation Station / News)
+const news = defineCollection({
+    loader: glob({
+        pattern: "**/*.md",
+        base: "./src/content/news"
+    }),
+    schema: z.object({
+        title: z.string(),
+        date: z.date(),
+        author: z.string().optional().default("Agent O"),
+        summary: z.string().optional(),
+        tags: z.array(z.string()).optional(),
+    })
+});
+
+export const collections = { articles, knowledge, database, resources, news };
