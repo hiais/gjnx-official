@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-01-14 00:25:49",
+  "timestamp": "2026-01-14 00:31:12",
   "health": {
     "score": 30,
     "status": "critical",
     "issues": [
       "WARN_QUEUE_BACKUP",
-      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (8810m ago))"
+      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (8815m ago))"
     ],
     "daemon_status": {
       "alive": false,
-      "last_heartbeat": "2026-01-07 21:35:33 (8810m ago)"
+      "last_heartbeat": "2026-01-07 21:35:33 (8815m ago)"
     }
   },
   "tasks": {
@@ -19,7 +19,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-06 00:25:07",
-        "age_minutes": 11520.7,
+        "age_minutes": 11526.1,
         "trace_id": "trc-0106002507"
       },
       {
@@ -27,7 +27,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-07 01:23:43",
-        "age_minutes": 10022.1,
+        "age_minutes": 10027.5,
         "trace_id": "trc-0107012343"
       },
       {
@@ -35,7 +35,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-08 01:31:22",
-        "age_minutes": 8574.5,
+        "age_minutes": 8579.8,
         "trace_id": "trc-0108013122"
       },
       {
@@ -43,7 +43,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-09 20:18:32",
-        "age_minutes": 6007.3,
+        "age_minutes": 6012.7,
         "trace_id": "trc-0109201832"
       },
       {
@@ -51,7 +51,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 17747.1,
+        "age_minutes": 17752.4,
         "trace_id": "trc-0101163845"
       },
       {
@@ -59,7 +59,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 16284.4,
+        "age_minutes": 16289.8,
         "trace_id": "trc-0102170126"
       },
       {
@@ -67,7 +67,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-03 18:01:22",
-        "age_minutes": 14784.5,
+        "age_minutes": 14789.8,
         "trace_id": "trc-0103180122"
       },
       {
@@ -75,7 +75,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-04 20:01:35",
-        "age_minutes": 13224.2,
+        "age_minutes": 13229.6,
         "trace_id": "trc-0104200135"
       },
       {
@@ -83,7 +83,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-05 22:01:18",
-        "age_minutes": 11664.5,
+        "age_minutes": 11669.9,
         "trace_id": "trc-0105220118"
       },
       {
@@ -91,7 +91,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-06 23:01:30",
-        "age_minutes": 10164.3,
+        "age_minutes": 10169.7,
         "trace_id": "trc-0106230130"
       },
       {
@@ -99,7 +99,7 @@
         "priority": "P2",
         "workflow": "verify-test",
         "created": "2026-01-05 23:51:51",
-        "age_minutes": 11554.0,
+        "age_minutes": 11559.3,
         "trace_id": "trc-0105235151"
       }
     ],
@@ -107,32 +107,81 @@
       {
         "id": "P2_save_all_trc-0102203030.processing",
         "created": "2026-01-03 00:30:30",
-        "age_minutes": 15835.3
+        "age_minutes": 15840.7
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 1,
+    "total": 8,
     "by_level": {
-      "INFO": 1,
-      "WARN": 0,
+      "INFO": 5,
+      "WARN": 1,
       "ERROR": 0,
       "FATAL": 0,
-      "SUCCESS": 0,
+      "SUCCESS": 2,
       "SYSTEM": 0
     },
     "by_workflow": {
-      "system": 1
+      "system": 8
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-01-14T00:31:12",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-14T00:25:57",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Website: Pushed with message: feat(auto): sync website [Scripts] (8 modified, 76 added, 0 deleted) @00:25:53",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-14T00:25:57",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Core repository...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-14T00:25:57",
+        "level": "WARN",
+        "workflow": "system",
+        "message": "[save-all] Core: No changes to commit",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-14T00:25:54",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Pushing to GitHub...",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-14T00:25:49",
         "level": "INFO",
         "workflow": "system",
         "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-14T00:25:49",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Dashboard generated successfully",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-14T00:25:49",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Website repository...",
         "trace_id": ""
       }
     ]
@@ -709,10 +758,10 @@
   },
   "alerts": [
     {
-      "time": "00:25",
+      "time": "00:31",
       "level": "🔴 P0",
       "rule_id": "SYS-001",
-      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (8810m ago)",
+      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (8815m ago)",
       "action": "请运行 start-dashboard-full.bat (推荐)",
       "status": "Active"
     }
@@ -922,7 +971,7 @@
     }
   },
   "system": {
-    "last_update": "2026-01-14 00:25:49",
+    "last_update": "2026-01-14 00:31:12",
     "timezone": "China Standard Time"
   },
   "metadata": {
