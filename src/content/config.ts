@@ -10,7 +10,7 @@ const articles = defineCollection({
     }),
     schema: z.object({
         title: z.string(),
-        date: z.date().optional(),
+        date: z.coerce.date().optional(),
         tags: z.array(z.string()).optional(),
         description: z.string().optional(),
         // Allow drafts to be filtered out in production

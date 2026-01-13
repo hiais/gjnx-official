@@ -2,10 +2,10 @@
 import MainLayout from '../../layouts/MainLayout.astro';
 ---
 
-<MainLayout title="观察站 | Observation">
+<MainLayout title="情报站 | Intel">
   <div class="container section">
-    <h1>观察站 <span class="highlight">/ OBSERVATION</span></h1>
-    <p class="subtitle">硅基能效实时观测：行业情报与 AI 硬核锐评。</p>
+    <h1>情报站 <span class="highlight">/ INTEL</span></h1>
+    <p class="subtitle">实时捕获的硅基信号、能效动态与行业级情报。</p>
     
     <div class="mono" style="padding: 2rem; border: 1px dashed var(--c-text-secondary); text-align: center;">
       > SIGNAL_SCANNING_IN_PROGRESS<br>
@@ -15,7 +15,8 @@ import MainLayout from '../../layouts/MainLayout.astro';
 </MainLayout>
 
 <style>
-  .section { padding: var(--space-8) 0; }
-  h1 { font-size: 3rem; margin-bottom: var(--space-2); }
-  .subtitle { color: var(--c-text-secondary); margin-bottom: var(--space-8); }
+  .section { padding: var(--space-12) 0; }
+  h1 { font-size: 2.5rem; letter-spacing: -0.02em; margin-bottom: var(--space-4); }
+  .highlight { color: var(--c-accent-cyan); font-family: var(--font-mono); font-size: 1.5rem; margin-left: var(--space-2); opacity: 0.8; }
+  .subtitle { color: var(--c-text-secondary); font-size: 1.1rem; margin-bottom: var(--space-12); max-width: 600px; }
 </style>

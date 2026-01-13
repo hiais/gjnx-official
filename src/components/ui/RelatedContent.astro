@@ -46,18 +46,23 @@ const finalItems = relatedItems.length > 0
     </div>
     
     <div class="related-grid">
-      {finalItems.map(item => (
+      {finalItems.map(item => {
+        // Extract Chinese part of tag (after hyphen), or use full tag if no hyphen
+        const rawTag = item.data.tags?.[0] || (collection === 'articles' ? '专栏' : '知识');
+        const displayTag = rawTag.includes('-') ? rawTag.split('-')[1] : rawTag;
+        return (
         <Card href={collection === 'articles' ? `/articles/${item.id}` : `/knowledge/${item.id}`} class="related-card">
           <div class="card-meta mono">
-            <span class="card-tag">{item.data.tags?.[0] || (collection === 'articles' ? 'LOG' : 'DOC')}</span>
-            <span class="card-date">{item.data.date ? new Date(item.data.date).toLocaleDateString('en-US', { year: 'numeric', month: '2-digit', day: '2-digit' }) : '2025-01-01'}</span>
+            <span class="card-tag">{displayTag}</span>
+            <span class="card-date">{item.data.date ? new Date(item.data.date).toLocaleDateString('zh-CN', { month: '2-digit', day: '2-digit' }) : ''}</span>
           </div>
           <h4 class="card-title">{item.data.title}</h4>
           <p class="card-desc">
             {item.data.description?.replace(/<[^>]*>?/gm, '').slice(0, 70)}...
           </p>
         </Card>
-      ))}
+      );
+      })}
     </div>
   </section>
 )}
@@ -123,8 +128,23 @@ const finalItems = relatedItems.length > 0
 
   .related-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 2rem;
+    /* Force 3 columns on desktop for symmetry */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+
+  /* Tablet: 2 columns */
+  @media (max-width: 900px) {
+    .related-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  /* Mobile: 1 column */
+  @media (max-width: 600px) {
+    .related-grid {
+      grid-template-columns: 1fr;
+    }
   }
 
   .related-card {

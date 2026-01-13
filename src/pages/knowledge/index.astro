@@ -6,15 +6,15 @@ import { getCollection } from 'astro:content';
 const allKnowledge = await getCollection('knowledge');
 ---
 
-<MainLayout title="硅基百科 | Wiki">
+<MainLayout title="通识 | Lexicon">
   <div class="container section">
-    <h1>硅基百科 <span class="highlight">/ WIKI</span></h1>
-    <p class="subtitle">技术词条与能效定义：构建你的硅基通识体系。</p>
+    <h1>通识 <span class="highlight">/ LEXICON</span></h1>
+    <p class="subtitle">深度词条与技术定义：构建你的硅基通识体系。</p>
 
     <div class="grid">
       {allKnowledge.map(item => (
         <Card href={`/knowledge/${item.id}`} class="item-card">
-          <span class="category mono">{item.data.category.toUpperCase()}</span>
+          <div class="category mono">{item.data.category.toUpperCase()}</div>
           <h3>{item.data.title}</h3>
           <p>{item.data.description}</p>
         </Card>
@@ -24,7 +24,10 @@ const allKnowledge = await getCollection('knowledge');
 </MainLayout>
 
 <style>
-  .section { padding: var(--space-8) 0; }
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--space-4); }
-  .category { color: var(--c-accent-cyan); font-size: 0.8rem; display: block; margin-bottom: var(--space-2); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--space-6); }
+  .category { color: var(--c-accent-cyan); font-size: 0.75rem; display: block; margin-bottom: var(--space-2); letter-spacing: 0.05em; }
+  .section { padding: var(--space-12) 0; }
+  h1 { font-size: 2.5rem; letter-spacing: -0.02em; margin-bottom: var(--space-4); }
+  .highlight { color: var(--c-accent-cyan); font-family: var(--font-mono); font-size: 1.5rem; margin-left: var(--space-2); opacity: 0.8; }
+  .subtitle { color: var(--c-text-secondary); font-size: 1.1rem; margin-bottom: var(--space-12); max-width: 600px; }
 </style>
