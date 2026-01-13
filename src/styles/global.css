@@ -16,18 +16,42 @@
   --c-accent-amber: #ffae00;   /* Warnings, energy heat */
   --c-accent-rose: #ff0055;    /* Critical errors, high power consumption */
   
-  /* Spacing */
-  --space-unit: 4px;
-  
-  /* Typography */
+  /* Typography - Stack */
   --font-mono: 'SF Mono', 'Menlo', 'Monaco', 'Courier New', monospace;
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Typography - Scale (Desktop) */
+  --text-h1: 3.5rem;
+  --text-h2: 2.5rem;
+  --text-h3: 1.8rem;
+  --text-body: 1rem;
+  --text-sm: 0.9rem;
+
+  /* Typography - Weight */
+  --weight-bold: 800;
+  --weight-semibold: 700;
+  --weight-medium: 600;
+  --weight-regular: 400;
+  
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  
+  /* Borders */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --border-light: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 html {
   background-color: var(--c-bg-dark);
   color: var(--c-text-primary);
   font-family: var(--font-sans);
+  font-size: 16px;
   line-height: 1.6;
 }
 
@@ -39,16 +63,20 @@ body {
   flex-direction: column;
 }
 
+/* Typography Defaults */
+h1 { font-size: var(--text-h1); font-weight: var(--weight-bold); line-height: 1.1; margin: 0 0 var(--space-8) 0; letter-spacing: -2px; }
+h2 { font-size: var(--text-h2); font-weight: var(--weight-semibold); line-height: 1.2; margin: var(--space-8) 0 var(--space-4) 0; letter-spacing: -1px; }
+h3 { font-size: var(--text-h3); font-weight: var(--weight-medium); line-height: 1.3; margin: var(--space-6) 0 var(--space-2) 0; }
+p { margin-bottom: var(--space-4); }
+
 /* Utilities */
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 var(--space-8);
 }
 
-.mono {
-  font-family: var(--font-mono);
-}
+.mono { font-family: var(--font-mono); }
 
 .text-gradient {
   background: linear-gradient(90deg, var(--c-accent-cyan), var(--c-accent-amber));
@@ -63,10 +91,49 @@ body {
     linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
   background-size: 50px 50px;
   position: fixed;
-  top: 0; 
-  left: 0;
-  width: 100%;
-  height: 100%;
+  top: 0; left: 0; right: 0; bottom: 0;
   z-index: -1;
   pointer-events: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  :root {
+    --text-h1: 2.5rem;
+    --text-h2: 1.8rem;
+    --text-h3: 1.5rem;
+  }
+}
+
+/* Cyberpunk Enhancements */
+.neon-border {
+  border: 1px solid var(--c-accent-cyan);
+  box-shadow: 0 0 10px rgba(0, 240, 255, 0.2), inset 0 0 10px rgba(0, 240, 255, 0.1);
+}
+
+.neon-text {
+  text-shadow: 0 0 5px var(--c-accent-cyan), 0 0 10px rgba(0, 240, 255, 0.5);
+}
+
+.amber-glow {
+  box-shadow: 0 0 15px rgba(255, 174, 0, 0.2);
+}
+
+.glitch-hover:hover {
+  animation: glitch-skew 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+}
+
+@keyframes glitch-skew {
+  0% { transform: skew(0deg); }
+  20% { transform: skew(-1deg); }
+  40% { transform: skew(1deg); }
+  60% { transform: skew(-0.5deg); }
+  80% { transform: skew(0.5deg); }
+  100% { transform: skew(0deg); }
+}
+
+.glass-panel {
+  background: rgba(15, 15, 15, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
 }

@@ -1,0 +1,104 @@
+---
+import MainLayout from '../../layouts/MainLayout.astro';
+import TCOCalculator from '../../components/tools/TCOCalculator.astro';
+---
+
+<MainLayout title="Engineer Tools">
+  <div class="container section">
+    <header class="tools-header">
+      <h1 class="glitch-text">Engineer_Tools</h1>
+      <p class="subtitle mono">> Accessing interactive calculators and efficiency simulators.</p>
+    </header>
+    
+    <div class="tools-grid">
+      <section class="tool-section">
+        <div class="tool-info">
+          <h2 class="mono">01_CHIP_TCO_CALCULATOR</h2>
+          <p>
+            计算 AI 芯片在整个生命周期内的总拥有成本。
+            除了单纯的购买成本（CapEx），我们通过 TDP、PUE 和电力成本计算其运行支出（OpEx）。
+          </p>
+        </div>
+        <TCOCalculator />
+      </section>
+
+      <!-- Future Tool Placeholder -->
+      <section class="tool-section placeholder">
+        <div class="tool-info">
+          <h2 class="mono">02_BATTERY_DEGRADATION_MODAL</h2>
+          <p class="mono">> STATUS: [UNDER_DEVELOPMENT]</p>
+        </div>
+        <div class="placeholder-box mono">
+          [MODULE_LOCKED]
+        </div>
+      </section>
+    </div>
+  </div>
+</MainLayout>
+
+<style>
+  .section { padding: var(--space-8) 0; }
+  
+  .tools-header {
+    margin-bottom: var(--space-12);
+    border-left: 2px solid var(--c-accent-cyan);
+    padding-left: 2rem;
+  }
+
+  h1 { 
+    font-size: 3.5rem; 
+    margin-bottom: var(--space-2); 
+    letter-spacing: -2px;
+  }
+
+  .subtitle { 
+    color: var(--c-text-secondary); 
+    font-size: 0.9rem;
+  }
+
+  .tools-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+  }
+
+  .tool-section {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 3rem;
+    align-items: start;
+  }
+
+  .tool-info h2 {
+    font-size: 1.25rem;
+    color: var(--c-accent-cyan);
+    margin-bottom: 1rem;
+  }
+
+  .tool-info p {
+    color: var(--c-text-secondary);
+    line-height: 1.6;
+    font-size: 0.95rem;
+  }
+
+  .placeholder {
+    opacity: 0.4;
+    filter: grayscale(1);
+  }
+
+  .placeholder-box {
+    border: 1px dashed #333;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #444;
+  }
+
+  @media (max-width: 900px) {
+    .tool-section {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+  }
+</style>

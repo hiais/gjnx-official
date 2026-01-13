@@ -1,0 +1,20 @@
+---
+import MainLayout from '../../layouts/MainLayout.astro';
+---
+
+<MainLayout title="Glossary">
+  <div class="container section">
+    <h1>Term Glossary</h1>
+    <p class="subtitle">Defining the vocabulary of efficiency.</p>
+    
+    <div class="mono" style="padding: 2rem; border: 1px dashed var(--c-text-secondary); text-align: center;">
+      > DICTIONARY_NOT_LOADED
+    </div>
+  </div>
+</MainLayout>
+
+<style>
+  .section { padding: var(--space-8) 0; }
+  h1 { font-size: 3rem; margin-bottom: var(--space-2); }
+  .subtitle { color: var(--c-text-secondary); margin-bottom: var(--space-8); }
+</style>

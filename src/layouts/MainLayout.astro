@@ -1,18 +1,21 @@
 ---
 import '../styles/global.css';
+import Navbar from '../components/structure/Navbar.astro';
+import Footer from '../components/structure/Footer.astro';
+import SEO from '../components/structure/SEO.astro';
 
 interface Props {
   title: string;
   description?: string;
   image?: URL;
-  keywords?: string; // Add keywords support
+  keywords?: string; 
 }
 
 const { 
   title, 
   description = "硅基能效 - Deconstructing Silicon Efficiency", 
   image,
-  keywords = "硅基能效,AI算力,芯片能效,人工智能,算力,GPU,电池技术,机器人,大模型" // Default keywords
+  keywords = "硅基能效,AI算力,芯片能效,人工智能,算力,GPU,电池技术,机器人,大模型" 
 } = Astro.props;
 ---
 
@@ -20,17 +23,17 @@ const {
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content={description} />
+    <slot name="seo">
+      <SEO title={title} description={description} image={image} />
+    </slot>
     <meta name="keywords" content={keywords} />
-    <!-- Baidu Verification -->
     <meta name="baidu-site-verification" content="codeva-LaaNzkik4K" />
-    
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <title>{title} | 硅基能效</title>
     
-    <!-- Open Graph / Facebook -->
+    <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content={Astro.url} />
     <meta property="og:title" content={title} />
@@ -44,32 +47,23 @@ const {
     <meta property="twitter:description" content={description} />
     {image && <meta property="twitter:image" content={image} />}
   </head>
-	<body>
-    <!-- Background Grid Effect -->
+  <body>
+    <!-- Background -->
     <div class="grid-bg"></div>
 
-    <!-- Simple Nav -->
-    <nav style="border-bottom: 1px solid rgba(255,255,255,0.1); padding: 1rem 0;">
-      <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
-        <div style="font-weight: 700; font-size: 1.2rem; letter-spacing: -0.5px;">
-          GJNX<span style="color: var(--c-accent-cyan)">.TECH</span>
-        </div>
-        <div class="mono" style="font-size: 0.9rem; color: var(--c-text-secondary);">
-          v1.0.0 [BETA]
-        </div>
-      </div>
-    </nav>
+    <!-- Navigation -->
+    <Navbar />
 
     <!-- Main Content -->
-		<slot />
+    <main style="flex: 1;">
+      <slot />
+    </main>
 
     <!-- Footer -->
-    <footer style="margin-top: auto; padding: 4rem 0; border-top: 1px solid rgba(255,255,255,0.05); text-align: center;">
-      <div class="container">
-        <p style="color: var(--c-text-secondary); font-size: 0.9rem;">
-          &copy; 2025 硅基能效. Built with Astro for <span style="color: var(--c-accent-cyan)">Maximum Efficiency</span>.
-        </p>
-      </div>
-    </footer>
-	</body>
+    <Footer />
+  </body>
 </html>
+
+<style>
+  /* Global Styles injected here if needed, but components carry their own */
+</style>

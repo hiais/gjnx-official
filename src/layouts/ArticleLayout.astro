@@ -1,20 +1,34 @@
 ---
-import Layout from './Layout.astro';
+import Layout from './MainLayout.astro';
+import SEO from '../components/structure/SEO.astro';
+import RelatedContent from '../components/ui/RelatedContent.astro';
 
 interface Props {
   title: string;
   frontmatter?: any;
+  ogImage?: URL;
+  id?: string;
+  collection?: 'articles' | 'knowledge';
 }
 
-const { title, frontmatter } = Astro.props;
-// Generate the OG Image URL for this specific article
-const ogImage = new URL(`/og/${Astro.params.slug}.png`, Astro.site);
-
-// Convert Frontmatter tags to keywords string
-const keywords = frontmatter.tags ? frontmatter.tags.join(',') : undefined;
+const { title, frontmatter, ogImage, id, collection } = Astro.props;
+const description = frontmatter?.description || "硅基能效 - Deconstructing Silicon Efficiency";
+const keywords = frontmatter?.tags?.join(', ') || "Silicon Efficiency, AI, Chip";
 ---
 
-<Layout title={title} description={frontmatter?.description} image={ogImage} keywords={keywords}>
+<Layout title={title} description={description} image={ogImage} keywords={keywords}>
+  <SEO 
+    slot="seo"
+    title={title} 
+    description={description} 
+    image={ogImage} 
+    type="article" 
+    articleData={{
+      date: frontmatter?.date,
+      tags: frontmatter?.tags,
+      author: "Silicon Operator"
+    }}
+  />
 
   <!-- WeChat Share Image Hack -->
   <!-- 微信分享会抓取页面里第一张 >300px 的图片，这里我们强制插入 OG 图 -->
@@ -28,7 +42,16 @@ const keywords = frontmatter.tags ? frontmatter.tags.join(',') : undefined;
     <!-- Header -->
     <header class="article-header">
       <div class="breadcrumbs mono">
-        <a href="/">HOME</a> / <a href="/articles">DATABASE</a> / <span class="current">LOG_{Math.floor(Math.random() * 9000) + 1000}</span>
+        {(() => {
+          const isKnowledge = Astro.url.pathname.startsWith('/knowledge');
+          return (
+            <>
+              <a href="/">HOME</a> / 
+              <a href={isKnowledge ? "/knowledge" : "/articles"}>{isKnowledge ? "KNOWLEDGE" : "ARTICLES"}</a> / 
+              <span class="current">{title.toUpperCase().slice(0, 20)}...</span>
+            </>
+          );
+        })()}
       </div>
       
       <h1 class="glitch-text">{title}</h1>
@@ -50,6 +73,15 @@ const keywords = frontmatter.tags ? frontmatter.tags.join(',') : undefined;
     <article class="markdown-body">
       <slot />
     </article>
+
+    <!-- Content Intelligence: Related Logs -->
+    {id && collection && (
+      <RelatedContent 
+        currentId={id} 
+        collection={collection} 
+        tags={frontmatter?.tags} 
+      />
+    )}
 
     <!-- Footer CTA -->
     <div class="article-footer-cta">

@@ -1,0 +1,97 @@
+---
+interface Props {
+  specs: {
+    process: string;
+    tdp?: number;
+    cores?: string;
+    frequency?: string;
+    score?: number;
+    efficiency?: number;
+  };
+  brand: string;
+}
+
+const { specs, brand } = Astro.props;
+
+const specItems = [
+  { label: 'PROCESS', value: specs.process },
+  { label: 'TDP', value: specs.tdp ? `${specs.tdp}W` : 'N/A' },
+  { label: 'CORES', value: specs.cores || 'N/A' },
+  { label: 'FREQ', value: specs.frequency || 'N/A' },
+  { label: 'PSCORE', value: specs.score || 'N/A', highlight: true },
+  { label: 'EFFICIENCY', value: specs.efficiency || 'N/A' },
+];
+---
+
+<div class="spec-table glass-panel">
+  <div class="table-header mono">
+    <span class="brand-tag">{brand.toUpperCase()}</span>
+    <span class="status">> SPEC_SHEET_READY</span>
+  </div>
+  
+  <div class="spec-grid">
+    {specItems.map(item => (
+      <div class="spec-item">
+        <div class="spec-label mono">{item.label}</div>
+        <div class:list={["spec-value", { "highlight": item.highlight }]}>
+          {item.value}
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
+
+<style>
+  .spec-table {
+    padding: var(--space-6);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .table-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--space-6);
+    font-size: 0.75rem;
+  }
+
+  .brand-tag {
+    color: var(--c-accent-cyan);
+    background: rgba(0, 240, 255, 0.1);
+    padding: 2px 8px;
+    border-radius: 2px;
+  }
+
+  .status {
+    color: #666;
+  }
+
+  .spec-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-6) var(--space-12);
+  }
+
+  .spec-label {
+    font-size: 0.7rem;
+    color: var(--c-text-secondary);
+    margin-bottom: var(--space-2);
+    letter-spacing: 1px;
+  }
+
+  .spec-value {
+    font-size: 1.1rem;
+    color: var(--c-text-primary);
+    font-weight: 500;
+  }
+
+  .spec-value.highlight {
+    color: var(--c-accent-cyan);
+    text-shadow: 0 0 10px rgba(0, 240, 255, 0.3);
+  }
+
+  @media (max-width: 480px) {
+    .spec-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

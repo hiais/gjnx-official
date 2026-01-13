@@ -1,0 +1,30 @@
+---
+import { getCollection, render } from 'astro:content';
+import ArticleLayout from '../../layouts/ArticleLayout.astro';
+
+// 1. Generate Static Paths for all articles
+export async function getStaticPaths() {
+  const posts = await getCollection('articles');
+  return posts.map(post => ({
+    params: { slug: post.id },
+    props: { post },
+  }));
+}
+
+// 2. Get the prop for the current page
+const { post } = Astro.props;
+const { Content } = await render(post);
+
+// Generate OG Image URL
+const ogImage = new URL(`/og/articles/${post.id}.png`, Astro.site);
+---
+
+<ArticleLayout 
+  title={post.data.title} 
+  frontmatter={post.data} 
+  ogImage={ogImage}
+  id={post.id}
+  collection="articles"
+>
+  <Content />
+</ArticleLayout>

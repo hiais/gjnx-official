@@ -1,0 +1,96 @@
+---
+const links = {
+  main: [
+    { label: '首页', href: '/' },
+    { label: '知识库', href: '/knowledge' },
+    { label: '产品库', href: '/database' },
+  ],
+  legal: [
+    { label: '隐私政策', href: '#' },
+    { label: '使用条款', href: '#' },
+  ]
+};
+---
+
+<footer class="footer">
+  <div class="container footer-content">
+    <div class="footer-col">
+      <div class="brand">GJNX<span class="highlight">.TECH</span></div>
+      <p class="desc">Deconstructing Silicon Efficiency.</p>
+    </div>
+    
+    <div class="footer-col">
+      <h4>Navigation</h4>
+      <div class="links">
+        {links.main.map(l => <a href={l.href}>{l.label}</a>)}
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Connect</h4>
+      <div class="links">
+        <a href="#">GitHub</a>
+        <a href="#">WeChat</a>
+        <a href="#">RSS</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container footer-bottom">
+    <div class="mono copyright">
+      &copy; {new Date().getFullYear()} 硅基能效. Built with Astro.
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    border-top: 1px solid rgba(255,255,255,0.05);
+    background: #050505;
+    padding: var(--space-12) 0 var(--space-8);
+    margin-top: auto;
+  }
+
+  .footer-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: var(--space-8);
+    margin-bottom: var(--space-12);
+  }
+
+  .brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: var(--space-4);
+  }
+  .highlight { color: var(--c-accent-cyan); }
+  .desc { color: var(--c-text-secondary); max-width: 300px; }
+
+  h4 {
+    font-size: 0.9rem;
+    color: var(--c-text-secondary);
+    text-transform: uppercase;
+    margin-bottom: var(--space-4);
+  }
+
+  .links { display: flex; flex-direction: column; gap: var(--space-2); }
+  .links a {
+    color: var(--c-text-primary);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  .links a:hover { color: var(--c-accent-cyan); }
+
+  .footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.05);
+    padding-top: var(--space-8);
+    text-align: center;
+    color: var(--c-text-secondary);
+    font-size: 0.8rem;
+  }
+
+  @media (max-width: 768px) {
+    .footer-content { grid-template-columns: 1fr; gap: var(--space-8); text-align: center; }
+    .desc { margin: 0 auto; }
+  }
+</style>

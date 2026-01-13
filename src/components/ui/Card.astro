@@ -1,0 +1,65 @@
+---
+interface Props {
+  href?: string;
+  class?: string;
+}
+
+const { href, class: className } = Astro.props;
+const Element = href ? 'a' : 'div';
+---
+
+<Element href={href} class:list={['card', className, { 'card-link': !!href }]}>
+  <div class="card-inner">
+    <slot />
+  </div>
+  <div class="card-glow"></div>
+</Element>
+
+<style>
+  .card {
+    background: rgba(15, 15, 15, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: var(--radius-md);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .card-inner {
+    padding: var(--space-6);
+    position: relative;
+    z-index: 2;
+  }
+
+  .card-glow {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: radial-gradient(circle at top left, rgba(0, 240, 255, 0.05), transparent 70%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: 1;
+  }
+
+  .card-link:hover {
+    transform: translateY(-4px);
+    border-color: var(--c-accent-cyan);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 240, 255, 0.1);
+  }
+
+  .card-link:hover .card-glow {
+    opacity: 1;
+  }
+
+  /* Cyberpunk Corner Detail */
+  .card::after {
+    content: '';
+    position: absolute;
+    bottom: -5px; right: -5px;
+    width: 20px; height: 20px;
+    background: var(--c-accent-cyan);
+    transform: rotate(45deg);
+    opacity: 0.2;
+  }
+</style>

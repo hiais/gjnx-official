@@ -1,0 +1,67 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import Button from '../components/ui/Button.astro';
+---
+
+<MainLayout title="404: Signal Lost">
+  <div class="container container-center">
+    <div class="glitch-wrapper">
+      <h1 class="glitch" data-text="404">404</h1>
+    </div>
+    <p class="mono text-large">SIGNAL_LOST: The requested node could not be found.</p>
+    <div class="actions">
+      <Button href="/" variant="primary" size="lg">RETURN_HOME</Button>
+    </div>
+  </div>
+</MainLayout>
+
+<style>
+  .container-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    text-align: center;
+  }
+
+  .glitch {
+    font-size: 8rem;
+    font-weight: 800;
+    line-height: 1;
+    color: var(--c-accent-rose);
+    position: relative;
+  }
+
+  /* Simple glitch effect */
+  .glitch::before, .glitch::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+  }
+  .glitch::before {
+    color: var(--c-accent-cyan);
+    z-index: -1;
+    animation: glitch-anim 2s infinite linear alternate-reverse;
+  }
+  .glitch::after {
+    color: var(--c-accent-amber);
+    z-index: -2;
+    animation: glitch-anim-2 3s infinite linear alternate-reverse;
+  }
+
+  .text-large {
+    font-size: var(--text-h3);
+    margin: var(--space-8) 0;
+    color: var(--c-text-secondary);
+  }
+
+  @keyframes glitch-anim {
+    0% { clip-path: inset(10% 0 80% 0); transform: translate(-2px, 0); }
+    100% { clip-path: inset(80% 0 10% 0); transform: translate(2px, 0); }
+  }
+  @keyframes glitch-anim-2 {
+    0% { clip-path: inset(10% 0 80% 0); transform: translate(2px, 0); }
+    100% { clip-path: inset(80% 0 10% 0); transform: translate(-2px, 0); }
+  }
+</style>

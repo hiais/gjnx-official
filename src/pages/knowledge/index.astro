@@ -1,0 +1,30 @@
+---
+import MainLayout from '../../layouts/MainLayout.astro';
+import Card from '../../components/ui/Card.astro';
+import { getCollection } from 'astro:content';
+
+const allKnowledge = await getCollection('knowledge');
+---
+
+<MainLayout title="Knowledge Base">
+  <div class="container section">
+    <h1>Knowledge Base</h1>
+    <p class="subtitle">Technical documentation and definitions.</p>
+
+    <div class="grid">
+      {allKnowledge.map(item => (
+        <Card href={`/knowledge/${item.id}`} class="item-card">
+          <span class="category mono">{item.data.category.toUpperCase()}</span>
+          <h3>{item.data.title}</h3>
+          <p>{item.data.description}</p>
+        </Card>
+      ))}
+    </div>
+  </div>
+</MainLayout>
+
+<style>
+  .section { padding: var(--space-8) 0; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--space-4); }
+  .category { color: var(--c-accent-cyan); font-size: 0.8rem; display: block; margin-bottom: var(--space-2); }
+</style>

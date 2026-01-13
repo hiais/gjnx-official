@@ -1,0 +1,46 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  image?: URL;
+  type?: 'article' | 'website';
+  articleData?: {
+    date?: string;
+    tags?: string[];
+    author?: string;
+  };
+}
+
+const { title, description, image, type = 'website', articleData } = Astro.props;
+const siteUrl = Astro.site || 'https://gjnx.tech';
+const canonicalURL = new URL(Astro.url.pathname, siteUrl);
+
+// Structured Data
+const jsonLd: any = {
+  "@context": "https://schema.org",
+  "@type": type === 'article' ? "TechArticle" : "WebSite",
+  "name": title,
+  "description": description,
+  "url": canonicalURL.toString(),
+};
+
+if (type === 'article' && articleData) {
+  jsonLd.headline = title;
+  jsonLd.datePublished = articleData.date;
+  jsonLd.keywords = articleData.tags?.join(', ');
+  jsonLd.author = {
+    "@type": "Person",
+    "name": articleData.author || "Silicon Operator",
+    "url": siteUrl
+  };
+  if (image) {
+    jsonLd.image = image.toString();
+  }
+}
+---
+
+<!-- SEO Component -->
+<link rel="canonical" href={canonicalURL} />
+
+<!-- JSON-LD -->
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />

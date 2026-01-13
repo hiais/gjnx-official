@@ -1,7 +1,17 @@
----
 // EfficiencyCalculatorPro.astro
-import chipsData from '../data/chips.json';
+import { getCollection } from 'astro:content';
 import WeChatModal from './WeChatModal.astro';
+
+// Fetch real data from the database collection
+const products = await getCollection('database');
+
+// Map to the format expected by the calculator
+const chipsData = products.map(p => ({
+    id: p.id,
+    name: p.data.title,
+    data_points: p.data.curves || [],
+    process: p.data.specs.process
+}));
 
 // Serve data to client-side script
 const chipsJSON = JSON.stringify(chipsData);

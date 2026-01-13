@@ -1,0 +1,331 @@
+---
+import { getCollection } from 'astro:content';
+import MainLayout from '../../layouts/MainLayout.astro';
+import Card from '../../components/ui/Card.astro';
+import SpecTable from '../../components/database/SpecTable.astro';
+import SEO from '../../components/structure/SEO.astro';
+
+const products = await getCollection('database');
+
+// Extract unique filter categories
+const brands = [...new Set(products.map(p => p.data.brand))];
+const categories = [...new Set(products.map(p => p.data.category))];
+---
+
+<MainLayout title="硬件数据库 | 硅基能效">
+  <SEO 
+    slot="seo" 
+    title="硬件数据库 - 深度能效参数查询" 
+    description="收录全球顶级芯片与服务器的深度能效参数，支持多维度对比与性能评估。"
+  />
+
+  <section class="db-hero section">
+    <div class="container">
+      <h1 class="glitch-text">HARDWARE_DATABASE</h1>
+      <p class="subtitle mono">> ACCESSING_STRUCTURED_EFFICIENCY_DATA...</p>
+      
+      <!-- Filter Bar -->
+      <div class="filter-bar glass-panel mono">
+        <div class="filter-group">
+          <span class="label">:: BRAND</span>
+          <div class="options">
+            <button class="filter-btn active" data-filter="brand" data-value="all">ALL</button>
+            {brands.map(brand => (
+              <button class="filter-btn" data-filter="brand" data-value={brand}>{brand.toUpperCase()}</button>
+            ))}
+          </div>
+        </div>
+        
+        <div class="filter-group">
+          <span class="label">:: CATEGORY</span>
+          <div class="options">
+            <button class="filter-btn active" data-filter="cat" data-value="all">ALL</button>
+            {categories.map(cat => (
+              <button class="filter-btn" data-filter="cat" data-value={cat}>{cat.toUpperCase()}</button>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="db-grid-section section">
+    <div class="container">
+      <div class="product-grid" id="product-grid">
+        {products.map(product => (
+          <div class="product-item" data-brand={product.data.brand} data-cat={product.data.category}>
+            <Card href={`/database/${product.id}`} className="db-card">
+              <div class="card-header">
+                <span class="brand-name mono">{product.data.brand}</span>
+                <span class="category-tag mono">{product.data.category}</span>
+              </div>
+              <h3 class="product-title">{product.data.title}</h3>
+              <p class="product-subtitle mono">{product.data.subtitle}</p>
+              
+              <div class="mini-specs mono">
+                <div class="spec">
+                  <span class="label">PROCESS</span>
+                  <span class="value">{product.data.specs.process}</span>
+                </div>
+                <div class="spec">
+                  <span class="label">TDP</span>
+                  <span class="value">{product.data.specs.tdp}W</span>
+                </div>
+              </div>
+              
+              <div class="pscore-strip">
+                <div class="label mono">PSCORE</div>
+                <div class="progress-bg">
+                  <div class="progress-bar" style={`width: ${product.data.specs.score}%`}></div>
+                </div>
+                <div class="score-val mono">{product.data.specs.score}</div>
+              </div>
+            </Card>
+          </div>
+        ))}
+      </div>
+      
+      <div id="no-results" class="empty-state mono hidden">
+        > ERROR: NO_MATCHING_HARDWARE_FOUND<br>
+        > PLEASE_ADJUST_FILTERS
+      </div>
+    </div>
+  </section>
+</MainLayout>
+
+<style>
+  .db-hero {
+    padding-top: 5rem;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .subtitle {
+    color: var(--c-accent-cyan);
+    margin-bottom: 3rem;
+  }
+
+  .filter-bar {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background: rgba(10, 10, 10, 0.4);
+  }
+
+  .filter-group {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .filter-group .label {
+    font-size: 0.8rem;
+    color: #666;
+    min-width: 100px;
+  }
+
+  .options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .filter-btn {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #999;
+    padding: 0.3rem 1rem;
+    font-size: 0.75rem;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .filter-btn:hover {
+    border-color: var(--c-accent-cyan);
+    color: var(--c-text-primary);
+  }
+
+  .filter-btn.active {
+    background: var(--c-accent-cyan);
+    color: #000;
+    border-color: var(--c-accent-cyan);
+    font-weight: bold;
+    box-shadow: 0 0 15px rgba(0, 240, 255, 0.3);
+  }
+
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 2rem;
+  }
+
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+  }
+
+  .brand-name {
+    font-size: 0.75rem;
+    color: #666;
+  }
+
+  .category-tag {
+    font-size: 0.7rem;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 2px 8px;
+    border-radius: 2px;
+    color: var(--c-text-secondary);
+  }
+
+  .product-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .product-subtitle {
+    font-size: 0.8rem;
+    color: var(--c-accent-cyan);
+    margin-bottom: 1.5rem;
+  }
+
+  .mini-specs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 4px;
+  }
+
+  .spec .label {
+    display: block;
+    font-size: 0.65rem;
+    color: #555;
+    margin-bottom: 0.25rem;
+  }
+
+  .spec .value {
+    font-size: 0.9rem;
+    color: var(--c-text-primary);
+  }
+
+  .pscore-strip {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .pscore-strip .label {
+    font-size: 0.7rem;
+    color: #666;
+  }
+
+  .progress-bg {
+    flex: 1;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.05);
+    position: relative;
+  }
+
+  .progress-bar {
+    position: absolute;
+    height: 100%;
+    left: 0; top: 0;
+    background: var(--c-accent-cyan);
+    box-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+  }
+
+  .score-val {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--c-accent-cyan);
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: 5rem 0;
+    color: #666;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+
+  @media (max-width: 768px) {
+    .filter-group {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.75rem;
+    }
+    
+    .filter-group .label {
+      min-width: auto;
+    }
+  }
+</style>
+
+<script>
+  // Client-side filtering logic
+  function setupFilters() {
+    const buttons = document.querySelectorAll('.filter-btn');
+    const items = document.querySelectorAll('.product-item');
+    const noResults = document.getElementById('no-results');
+    
+    let activeFilters = {
+      brand: 'all',
+      cat: 'all'
+    };
+
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const filterType = btn.getAttribute('data-filter');
+        const filterValue = btn.getAttribute('data-value');
+
+        // Update active filter state
+        activeFilters[filterType] = filterValue;
+
+        // Update button UI
+        document.querySelectorAll(`.filter-btn[data-filter="${filterType}"]`).forEach(b => {
+          b.classList.remove('active');
+        });
+        btn.classList.add('active');
+
+        // Apply filters to items
+        let visibleCount = 0;
+        items.forEach(item => {
+          const itemBrand = item.getAttribute('data-brand');
+          const itemCat = item.getAttribute('data-cat');
+
+          const brandMatch = activeFilters.brand === 'all' || itemBrand === activeFilters.brand;
+          const catMatch = activeFilters.cat === 'all' || itemCat === activeFilters.cat;
+
+          if (brandMatch && catMatch) {
+            item.classList.remove('hidden');
+            visibleCount++;
+          } else {
+            item.classList.add('hidden');
+          }
+        });
+
+        // Toggle empty state
+        if (visibleCount === 0) {
+          noResults.classList.remove('hidden');
+        } else {
+          noResults.classList.add('hidden');
+        }
+      });
+    });
+  }
+
+  // Initialize on load
+  setupFilters();
+
+  // Re-init on Astro page transitions if using ViewTransitions
+  document.addEventListener('astro:after-swap', setupFilters);
+</script>

@@ -1,165 +1,168 @@
 import { getCollection } from 'astro:content';
 import satori from 'satori';
 import { Resvg } from '@resvg/resvg-js';
-import type { APIRoute } from 'astro';
-import fs from 'node:fs';
+import fs from 'node:fs/promises';
 import path from 'node:path';
 
-// 1. 定义哪些页面需要生成 OG 图片
 export async function getStaticPaths() {
     const articles = await getCollection('articles');
-    return articles.map((post) => ({
-        params: { slug: post.id },
-        props: { title: post.data.title, description: post.data.description },
-    }));
+    const knowledge = await getCollection('knowledge');
+
+    const allItems = [
+        ...articles.map(item => ({ params: { slug: `articles/${item.id}` }, props: { item } })),
+        ...knowledge.map(item => ({ params: { slug: `knowledge/${item.id}` }, props: { item } }))
+    ];
+
+    return allItems;
 }
 
-// 2. 核心生成逻辑
-export const GET: APIRoute = async ({ props }) => {
-    const { title, description } = props;
+export async function GET({ props }: { props: { item: any } }) {
+    const { item } = props;
+    const title = item.data.title;
+    const description = item.data.description || "";
+    const category = item.data.category || (item.collection === 'articles' ? 'ARTICLE' : 'KNOWLEDGE');
 
-    let fontData: Buffer | undefined;
+    // Load font
+    const fontPath = path.join(process.cwd(), 'public', 'fonts', 'LXGWWenKai-Regular.ttf');
+    const fontData = await fs.readFile(fontPath);
 
-    // 尝试读取本地字体文件
-    // 优先级：1. LXGW WenKai (完美中文于阅读体验) 2. Noto Sans SC (保底)
-    const fontsDir = path.join(process.cwd(), 'public', 'fonts');
-    const primaryFontPath = path.join(fontsDir, 'LXGWWenKai-Regular.ttf');
-    const secondaryFontPath = path.join(fontsDir, 'noto-sans-sc-latin-700-normal.woff');
-
-    try {
-        if (fs.existsSync(primaryFontPath)) {
-            fontData = fs.readFileSync(primaryFontPath);
-        } else if (fs.existsSync(secondaryFontPath)) {
-            fontData = fs.readFileSync(secondaryFontPath);
-        } else {
-            console.warn(`[OG] No local fonts found in ${fontsDir}. OG image text will be missing.`);
-        }
-    } catch (e) {
-        console.error('[OG] Failed to read font file:', e);
-    }
-
-    // 兜底：如果没有字体，为了让 Build 不崩溃，渲染一个不带文字的占位图
-    if (!fontData) {
-        const svg = await satori(
-            {
-                type: 'div',
-                props: {
-                    style: {
-                        display: 'flex', width: '100%', height: '100%', background: '#050505',
-                        justifyContent: 'center', alignItems: 'center', color: '#00F0FF', fontSize: 40, flexDirection: 'column'
-                    },
-                    children: [
-                        { type: 'div', props: { children: 'SILICON EFFICIENCY', style: { marginBottom: 20 } } },
-                        { type: 'div', props: { children: 'Image Generation Failed (No Font)', style: { fontSize: 20, color: '#666' } } }
-                    ]
-                }
-            },
-            {
-                width: 1200, height: 630,
-                fonts: [] // 空字体列表
-            }
-        );
-        const resvg = new Resvg(svg, { fitTo: { mode: 'width', value: 1200 } });
-        return new Response(resvg.render().asPng(), { headers: { 'Content-Type': 'image/png' } });
-    }
-
-    // 正常渲染
+    // Define OG Image structure using Satori
     const svg = await satori(
         {
             type: 'div',
             props: {
+                style: {
+                    width: '1200px',
+                    height: '630px',
+                    display: 'flex',
+                    position: 'relative',
+                    backgroundColor: '#050505',
+                },
                 children: [
-                    // Background Layer
+                    // Grid Background
                     {
                         type: 'div',
                         props: {
                             style: {
                                 position: 'absolute',
-                                top: 0, left: 0, width: '100%', height: '100%',
-                                background: '#050505',
-                                display: 'flex',
-                                backgroundImage: 'linear-gradient(rgba(0, 240, 255, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 240, 255, 0.05) 1px, transparent 1px)',
+                                top: 0, left: 0, right: 0, bottom: 0,
+                                backgroundImage: 'radial-gradient(circle at 2px 2px, rgba(255,255,255,0.05) 1px, transparent 0)',
                                 backgroundSize: '40px 40px',
-                            },
-                        },
+                                display: 'flex',
+                            }
+                        }
                     },
-                    // Content Layer
+                    // Accent Gradient
                     {
                         type: 'div',
                         props: {
                             style: {
+                                position: 'absolute',
+                                top: 0, left: 0, right: 0, bottom: 0,
+                                backgroundImage: 'radial-gradient(circle at top left, rgba(0, 240, 255, 0.1), transparent 70%)',
+                                display: 'flex',
+                            }
+                        }
+                    },
+                    // Content Container
+                    {
+                        type: 'div',
+                        props: {
+                            style: {
+                                width: '100%',
+                                height: '100%',
                                 display: 'flex',
                                 flexDirection: 'column',
                                 justifyContent: 'center',
                                 padding: '80px',
-                                width: '100%', height: '100%',
                             },
                             children: [
-                                // Brand Label
+                                // Category
                                 {
                                     type: 'div',
                                     props: {
-                                        children: 'SILICON EFFICIENCY // 硅基能效',
-                                        style: { color: '#00F0FF', fontSize: 24, marginBottom: 40, fontFamily: 'sans-serif' },
-                                    },
+                                        style: {
+                                            color: '#00f0ff',
+                                            fontSize: '28px',
+                                            fontWeight: 'bold',
+                                            letterSpacing: '2px',
+                                            marginBottom: '20px',
+                                        },
+                                        children: category.toUpperCase()
+                                    }
                                 },
                                 // Title
                                 {
                                     type: 'div',
                                     props: {
-                                        children: title,
-                                        style: { color: 'white', fontSize: 64, fontWeight: 'bold', lineHeight: 1.2, marginBottom: 20, fontFamily: 'LXGW WenKai' },
-                                    },
+                                        style: {
+                                            color: '#ffffff',
+                                            fontSize: '64px',
+                                            lineHeight: 1.2,
+                                            fontWeight: 800,
+                                            marginBottom: '30px',
+                                            display: 'flex',
+                                        },
+                                        children: title
+                                    }
                                 },
-                                // Description (Truncated)
+                                // Description
+                                description ? {
+                                    type: 'div',
+                                    props: {
+                                        style: {
+                                            color: '#888888',
+                                            fontSize: '28px',
+                                            lineHeight: 1.4,
+                                            maxWidth: '900px',
+                                            display: 'flex',
+                                        },
+                                        children: description.slice(0, 140) + (description.length > 140 ? '...' : '')
+                                    }
+                                } : null,
+                                // Brand Footer
                                 {
                                     type: 'div',
                                     props: {
-                                        children: description?.slice(0, 100) + (description && description.length > 100 ? '...' : ''),
-                                        style: { color: '#888', fontSize: 32, lineHeight: 1.4, fontFamily: 'LXGW WenKai' },
-                                    },
-                                },
-                                // Decoration Bar
-                                {
-                                    type: 'div',
-                                    props: {
-                                        style: { position: 'absolute', bottom: 0, left: 0, width: '100%', height: '8px', background: 'linear-gradient(90deg, #00F0FF, #FFAE00)' },
-                                    },
-                                },
-                            ],
-                        },
-                    },
-                ],
-                style: {
-                    width: '100%',
-                    height: '100%',
-                    display: 'flex',
-                    position: 'relative',
-                },
-            },
+                                        style: {
+                                            position: 'absolute',
+                                            bottom: '60px',
+                                            left: '80px',
+                                            display: 'flex',
+                                        },
+                                        children: [
+                                            { type: 'span', props: { style: { color: '#ffffff', fontSize: '32px', fontWeight: 'bold' }, children: 'GJNX' } },
+                                            { type: 'span', props: { style: { color: '#00f0ff', fontSize: '32px', fontWeight: 'bold' }, children: '.TECH' } }
+                                        ]
+                                    }
+                                }
+                            ].filter(Boolean)
+                        }
+                    }
+                ]
+            }
         },
         {
             width: 1200,
             height: 630,
             fonts: [
                 {
-                    name: 'LXGW WenKai', // 这一步仅仅是给字体起个名
-                    data: fontData,      // 这是真正的数据
+                    name: 'LXGW WenKai',
+                    data: fontData,
+                    weight: 400,
                     style: 'normal',
-                },
+                }
             ],
         }
     );
 
-    const resvg = new Resvg(svg, {
-        fitTo: { mode: 'width', value: 1200 },
-    });
-    const image = resvg.render();
+    const resvg = new Resvg(svg);
+    const pngData = resvg.render();
+    const pngBuffer = pngData.asPng();
 
-    return new Response(image.asPng(), {
+    return new Response(new Uint8Array(pngBuffer), {
         headers: {
             'Content-Type': 'image/png',
-            'Cache-Control': 'public, max-age=604800, immutable',
         },
     });
-};
+}

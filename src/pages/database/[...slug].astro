@@ -1,0 +1,183 @@
+---
+import { getCollection, render } from 'astro:content';
+import MainLayout from '../../layouts/MainLayout.astro';
+import SpecTable from '../../components/database/SpecTable.astro';
+import SEO from '../../components/structure/SEO.astro';
+import RelatedContent from '../../components/ui/RelatedContent.astro';
+
+export async function getStaticPaths() {
+  const products = await getCollection('database');
+  return products.map(product => ({
+    params: { slug: product.id },
+    props: { product },
+  }));
+}
+
+const { product } = Astro.props;
+const { Content } = await render(product);
+
+const ogImage = new URL(`/og/database/${product.id}.png`, Astro.site);
+---
+
+<MainLayout title={`${product.data.title} | 硬件数据库`}>
+  <SEO 
+    slot="seo"
+    title={`${product.data.title} - 硬件能效参数详情`} 
+    description={product.data.description}
+    image={ogImage}
+  />
+
+  <main class="product-detail">
+    <div class="container">
+      <header class="product-header">
+        <div class="breadcrumbs mono">
+          <a href="/">HOME</a> / <a href="/database">DATABASE</a> / <span class="current">{product.data.brand.toUpperCase()}</span>
+        </div>
+        <h1 class="glitch-text">{product.data.title}</h1>
+        <p class="subtitle mono">> {product.data.subtitle}</p>
+      </header>
+      
+      <div class="product-layout">
+        <!-- Main Content -->
+        <div class="main-content">
+          <section class="overview glass-panel">
+            <h2 class="mono">> EXECUTIVE_SUMMARY</h2>
+            <p>{product.data.description}</p>
+          </section>
+          
+          <article class="markdown-body">
+            <Content />
+          </article>
+        </div>
+        
+        <!-- Sidebar: Spec Sheet -->
+        <aside class="sidebar">
+          <SpecTable specs={product.data.specs} brand={product.data.brand} />
+          
+          <div class="action-card glass-panel mono">
+            <div class="card-header">:: ACTIONS</div>
+            <button class="action-btn" id="compare-trigger">ADD_TO_COMPARE</button>
+            <button class="action-btn secondary">EXPORT_JSON_DATA</button>
+          </div>
+        </aside>
+      </div>
+
+      <!-- Content Intelligence -->
+      <RelatedContent 
+        currentId={product.id} 
+        collection="articles" 
+        tags={product.data.tags} 
+        limit={3} 
+      />
+    </div>
+  </main>
+</MainLayout>
+
+<style>
+  .product-detail {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .product-header {
+    margin-bottom: 4rem;
+  }
+
+  .breadcrumbs {
+    font-size: 0.8rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+
+  .breadcrumbs a:hover {
+    color: var(--c-accent-cyan);
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .subtitle {
+    color: var(--c-accent-cyan);
+  }
+
+  .product-layout {
+    display: grid;
+    grid-template-columns: 1fr 340px;
+    gap: 4rem;
+    align-items: start;
+  }
+
+  .overview {
+    padding: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .overview h2 {
+    font-size: 1rem;
+    color: var(--c-accent-cyan);
+    margin-bottom: 1.5rem;
+  }
+
+  .overview p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--c-text-secondary);
+  }
+
+  .sidebar {
+    position: sticky;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .action-card {
+    padding: 1.5rem;
+  }
+
+  .action-card .card-header {
+    font-size: 0.75rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+
+  .action-btn {
+    width: 100%;
+    margin-bottom: 1rem;
+    background: var(--c-accent-cyan);
+    color: #000;
+    border: none;
+    padding: 0.75rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .action-btn:hover {
+    box-shadow: 0 0 20px rgba(0, 240, 255, 0.4);
+  }
+
+  .action-btn.secondary {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #999;
+  }
+
+  .action-btn.secondary:hover {
+    border-color: var(--c-accent-cyan);
+    color: var(--c-text-primary);
+  }
+
+  @media (max-width: 1024px) {
+    .product-layout {
+      grid-template-columns: 1fr;
+    }
+    
+    .sidebar {
+      position: static;
+    }
+  }
+</style>

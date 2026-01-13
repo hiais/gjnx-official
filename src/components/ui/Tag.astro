@@ -1,0 +1,35 @@
+---
+interface Props {
+  variant?: 'default' | 'outline';
+  class?: string;
+}
+
+const { variant = 'default', class: className } = Astro.props;
+---
+
+<span class:list={['tag', `tag-${variant}`, className]}>
+  <slot />
+</span>
+
+<style>
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.1rem 0.5rem;
+    border-radius: 999px; /* Pill shape */
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .tag-default {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--c-text-secondary);
+  }
+
+  .tag-outline {
+    border: 1px solid var(--c-text-secondary);
+    color: var(--c-text-secondary);
+  }
+</style>

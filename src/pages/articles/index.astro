@@ -1,0 +1,49 @@
+---
+import MainLayout from '../../layouts/MainLayout.astro';
+import Card from '../../components/ui/Card.astro';
+import Tag from '../../components/ui/Tag.astro';
+import { getCollection } from 'astro:content';
+
+const allArticles = await getCollection('articles');
+const sortedArticles = allArticles
+  .filter(a => !a.data.draft)
+  .sort((a, b) => (b.data.date?.getTime() || 0) - (a.data.date?.getTime() || 0));
+---
+
+<MainLayout title="Database (Articles)">
+  <div class="container section">
+    <h1>Database Access</h1>
+    <p class="subtitle">Full repository of energy efficiency logs.</p>
+
+    <div class="grid">
+      {sortedArticles.map(article => (
+        <Card href={`/articles/${article.id}`} class="article-card">
+          <div class="card-meta">
+            <span class="date mono">{article.data.date?.toISOString().split('T')[0]}</span>
+            {article.data.tags?.slice(0, 1).map((tag: any) => (
+              <Tag variant="outline">{tag}</Tag>
+            ))}
+          </div>
+          <h3 class="card-title">{article.data.title}</h3>
+          <p class="card-desc">{article.data.description}</p>
+        </Card>
+      ))}
+    </div>
+  </div>
+</MainLayout>
+
+<style>
+  .section { padding: var(--space-8) var(--space-8); }
+  h1 { font-size: 3rem; margin-bottom: var(--space-2); }
+  .subtitle { color: var(--c-text-secondary); margin-bottom: var(--space-8); }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--space-6);
+  }
+  
+  .card-meta { display: flex; justify-content: space-between; margin-bottom: var(--space-4); font-size: 0.8rem; }
+  .card-title { font-size: 1.25rem; margin-bottom: var(--space-2); }
+  .card-desc { color: var(--c-text-secondary); font-size: 0.9rem; line-height: 1.5; }
+</style>

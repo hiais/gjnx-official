@@ -1,0 +1,107 @@
+{
+  "$ref": "#/definitions/database",
+  "definitions": {
+    "database": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "subtitle": {
+          "type": "string"
+        },
+        "brand": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "releaseDate": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "integer",
+              "format": "unix-time"
+            }
+          ]
+        },
+        "specs": {
+          "type": "object",
+          "properties": {
+            "process": {
+              "type": "string"
+            },
+            "tdp": {
+              "type": "number"
+            },
+            "cores": {
+              "type": "string"
+            },
+            "frequency": {
+              "type": "string"
+            },
+            "score": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "process"
+          ],
+          "additionalProperties": false
+        },
+        "curves": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "watts": {
+                "type": "number"
+              },
+              "score": {
+                "type": "number"
+              },
+              "scenario": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "watts",
+              "score"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "description": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "image": {
+          "type": "string"
+        },
+        "$schema": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "brand",
+        "category",
+        "specs"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

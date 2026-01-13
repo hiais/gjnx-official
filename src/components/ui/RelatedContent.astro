@@ -1,0 +1,164 @@
+---
+import { getCollection } from 'astro:content';
+import Card from './Card.astro';
+
+interface Props {
+  currentId: string;
+  collection: 'articles' | 'knowledge';
+  tags?: string[];
+  limit?: number;
+}
+
+const { currentId, collection, tags = [], limit = 3 } = Astro.props;
+
+// Fetch all items from the collection
+const allItems = await getCollection(collection);
+
+// Filter out the current item and calculate relevance based on tags
+const relatedItems = allItems
+  .filter(item => item.id !== currentId)
+  .map(item => {
+    const itemTags = item.data.tags || [];
+    const overlap = tags.filter(t => itemTags.includes(t)).length;
+    return { ...item, overlap };
+  })
+  .sort((a, b) => b.overlap - a.overlap || (b.data.date?.getTime() || 0) - (a.data.date?.getTime() || 0))
+  .slice(0, limit);
+
+// Fallback: If no related items found by tags, show recent items from the same collection
+const finalItems = relatedItems.length > 0 
+  ? relatedItems 
+  : allItems
+      .filter(item => item.id !== currentId)
+      .sort((a, b) => (b.data.date?.getTime() || 0) - (a.data.date?.getTime() || 0))
+      .slice(0, limit);
+---
+
+{finalItems.length > 0 && (
+  <section class="related-section glass-panel">
+    <div class="section-header mono">
+      <span class="header-line"></span>
+      <h3 class="section-title neon-text">
+        <span class="status-dot"></span>
+        {relatedItems.length > 0 ? 'RELATED_LOGS_DETECTED' : 'LATEST_LOGS_DISCOVERED'}
+      </h3>
+      <span class="header-line"></span>
+    </div>
+    
+    <div class="related-grid">
+      {finalItems.map(item => (
+        <Card href={collection === 'articles' ? `/articles/${item.id}` : `/knowledge/${item.id}`} class="related-card">
+          <div class="card-meta mono">
+            <span class="card-tag">{item.data.tags?.[0] || (collection === 'articles' ? 'LOG' : 'DOC')}</span>
+            <span class="card-date">{item.data.date ? new Date(item.data.date).toLocaleDateString('en-US', { year: 'numeric', month: '2-digit', day: '2-digit' }) : '2025-01-01'}</span>
+          </div>
+          <h4 class="card-title">{item.data.title}</h4>
+          <p class="card-desc">
+            {item.data.description?.replace(/<[^>]*>?/gm, '').slice(0, 70)}...
+          </p>
+        </Card>
+      ))}
+    </div>
+  </section>
+)}
+
+<style>
+  .related-section {
+    margin: 6rem 0;
+    padding: 3rem;
+    background: linear-gradient(to bottom, rgba(0, 240, 255, 0.02), transparent);
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .related-section::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 20px 20px;
+    opacity: 0.3;
+    pointer-events: none;
+  }
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .header-line {
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.1), transparent);
+  }
+
+  .section-title {
+    font-size: 0.9rem;
+    color: var(--c-accent-cyan);
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    white-space: nowrap;
+  }
+
+  .status-dot {
+    width: 6px;
+    height: 6px;
+    background: var(--c-accent-cyan);
+    border-radius: 50%;
+    box-shadow: 0 0 10px var(--c-accent-cyan);
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.5); opacity: 0.5; }
+    100% { transform: scale(1); opacity: 1; }
+  }
+
+  .related-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 2rem;
+  }
+
+  .related-card {
+    background: rgba(10, 10, 10, 0.8) !important;
+  }
+
+  .card-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.65rem;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .card-tag {
+    color: var(--c-accent-cyan);
+    font-weight: bold;
+  }
+
+  .card-title {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.4;
+    color: var(--c-text-primary);
+    font-weight: 600;
+  }
+
+  .card-desc {
+    font-size: 0.8rem;
+    color: var(--c-text-secondary);
+    line-height: 1.6;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+</style>

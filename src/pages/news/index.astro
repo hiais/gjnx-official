@@ -1,0 +1,21 @@
+---
+import MainLayout from '../../layouts/MainLayout.astro';
+---
+
+<MainLayout title="Observation Deck (News)">
+  <div class="container section">
+    <h1>Observation Deck</h1>
+    <p class="subtitle">Aggregated intelligence on Silicon Efficiency.</p>
+    
+    <div class="mono" style="padding: 2rem; border: 1px dashed var(--c-text-secondary); text-align: center;">
+      > SIGNAL_SCANNING_IN_PROGRESS<br>
+      > NO_HEADLINES_FOUND
+    </div>
+  </div>
+</MainLayout>
+
+<style>
+  .section { padding: var(--space-8) 0; }
+  h1 { font-size: 3rem; margin-bottom: var(--space-2); }
+  .subtitle { color: var(--c-text-secondary); margin-bottom: var(--space-8); }
+</style>

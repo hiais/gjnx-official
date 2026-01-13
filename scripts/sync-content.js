@@ -5,29 +5,15 @@ import _pinyin from 'pinyin';
 const pinyin = _pinyin.pinyin || _pinyin.default || _pinyin;
 
 // --- CONFIGURATION ---
-const SOURCE_DIR = path.resolve('../03_Content_Factory/01_WeChat/Published');
-const DEST_DIR = path.resolve('src/content/articles');
+const SOURCE_DIR = path.resolve('../03_Content_Factory/03_Ready');
+const DEST_BASE = path.resolve('src/content');
+const ASSET_DEST_BASE = path.resolve('src/assets/images/posts');
 
-// 🛡️ SAFETY VALVE: New Article Limit Control
-// Usage: node sync-content.js [limit]
-// Default: 0 (Only update existing, no new articles)
-// 'all': Unlimited
-const args = process.argv.slice(2);
-let MAX_NEW_PER_RUN = 0;
+// Ensure directories exist
+if (!fs.existsSync(ASSET_DEST_BASE)) fs.mkdirSync(ASSET_DEST_BASE, { recursive: true });
 
-if (args.length > 0) {
-    if (args[0].toLowerCase() === 'all') {
-        MAX_NEW_PER_RUN = Infinity;
-    } else {
-        const parsed = parseInt(args[0], 10);
-        if (!isNaN(parsed) && parsed >= 0) {
-            MAX_NEW_PER_RUN = parsed;
-        }
-    }
-}
-
-// Recursively get all files
 function getFiles(dir) {
+    if (!fs.existsSync(dir)) return [];
     const subdirs = fs.readdirSync(dir);
     const files = [];
     subdirs.forEach(file => {
@@ -37,154 +23,141 @@ function getFiles(dir) {
     return files;
 }
 
-// Generate a SEO-friendly slug
-function generateSlug(title, dateObj) {
+function generateSlug(title, dateStr) {
+    // 1. Try to use English words
     const englishMatches = title.match(/[a-zA-Z0-9]+/g);
     let baseSlug = '';
 
     if (englishMatches && englishMatches.join('-').length > 5) {
         baseSlug = englishMatches.join('-').toLowerCase();
     } else {
+        // 2. Fallback to Pinyin
         const py = pinyin(title, { style: pinyin.STYLE_NORMAL, segment: true }).flat().join('-');
         baseSlug = py.replace(/[^a-zA-Z0-9-]/g, '').toLowerCase();
     }
 
-    const dateStr = dateObj ? new Date(dateObj).toISOString().split('T')[0].replace(/-/g, '') : '20250101';
-    return `${dateStr}-${baseSlug}`.slice(0, 80);
+    // Prepend Date: 20260206-slug
+    const cleanDate = dateStr.replace(/-/g, '').slice(0, 8);
+    return `${cleanDate}-${baseSlug}`.slice(0, 80);
 }
 
-function cleanWeChatContent(content) {
-    let cleaned = content;
-    cleaned = cleaned.replace(/<div.*?点击.*?硅基能效.*?<\/div>/gis, '');
-    cleaned = cleaned.replace(/<font.*?>(.*?)<\/font>/gis, '$1');
-    cleaned = cleaned.replace(/!\[(.*?)\]\((.*?)\)/g, (match, alt, url) => `![${alt}](${url.split('?')[0]})`);
-    cleaned = cleaned.replace(/\n{3,}/g, '\n\n');
-    return cleaned;
+function processContent(filePath) {
+    const rawContent = fs.readFileSync(filePath, 'utf-8');
+    const { data, content } = matter(rawContent);
+    const filename = path.basename(filePath);
+
+    // 1. Extract Date from Filename (e.g., 20260206-Title.md)
+    let dateStr = '2025-01-01';
+    const dateMatch = filename.match(/^(\d{8})/);
+    if (dateMatch) {
+        dateStr = `${dateMatch[1].slice(0, 4)}-${dateMatch[1].slice(4, 6)}-${dateMatch[1].slice(6, 8)}`;
+    }
+
+    // 2. Generate Slug
+    const slug = data.website_slug || generateSlug(data.title || filename.replace('.md', ''), dateStr);
+
+    // 3. Asset Teleportation
+    let processedContent = content;
+    const assetsDir = path.join(path.dirname(filePath), 'assets');
+    const targetAssetDir = path.join(ASSET_DEST_BASE, slug);
+
+    // Find all images: ![alt](assets/xxx.png)
+    const imgRegex = /!\[(.*?)\]\((.*?)\)/g;
+    let hasImages = false;
+
+    processedContent = processedContent.replace(imgRegex, (match, alt, imgPath) => {
+        if (imgPath.startsWith('http')) return match; // Skip external
+
+        // Clean path (handling ./assets or assets/)
+        const cleanPath = imgPath.replace(/^\.\//, '');
+
+        // Check if file exists in source
+        const sourceImgPath = path.resolve(path.dirname(filePath), cleanPath);
+
+        if (fs.existsSync(sourceImgPath)) {
+            // Copy to project assets
+            if (!fs.existsSync(targetAssetDir)) fs.mkdirSync(targetAssetDir, { recursive: true });
+
+            const imgFilename = path.basename(cleanPath);
+            const targetImgPath = path.join(targetAssetDir, imgFilename);
+
+            fs.copyFileSync(sourceImgPath, targetImgPath);
+            hasImages = true;
+
+            // Rewrite standard Markdown path to Astro asset path
+            // Note: In Astro content collections, we can use relative paths if images are colocated, 
+            // OR use alias. Since we put them in src/assets/images/posts/[slug], 
+            // valid path is: /src/assets/images/posts/[slug]/img.png 
+            // But better: use relative path from the content file? 
+            // Best practice for Astro: Colocate images with content? 
+            // Rewrite to relative path for Astro optimization
+            // The markdown file is in src/content/articles/[slug].md
+            // The image is in src/assets/images/posts/[slug]/img.png
+            // Path from article to image: ../../assets/images/posts/[slug]/img.png
+            return `![${alt}](../../assets/images/posts/${slug}/${imgFilename})`;
+        }
+        return match;
+    });
+
+    // 4. Normalize metadata
+    const cleanDescription = (data.description || '').replace(/<[^>]*>?/gm, '').trim();
+    const newFrontmatter = {
+        ...data, // Spread existing data first
+        title: data.title || path.basename(filePath, '.md'), // Use path.basename(filePath, '.md') for consistency
+        date: data.date ? new Date(data.date) : new Date(dateStr), // Use existing date or dateStr
+        tags: Array.isArray(data.tags) ? data.tags : (data.tags ? [data.tags] : ['General']), // Ensure tags is an array
+        category: data.category, // Pass through category if exists
+        description: cleanDescription || content.slice(0, 120).replace(/[#*`]/g, '').trim() + '...', // Use cleanDescription, fallback to content slice
+        // website_slug: slug // No need to save this in frontmatter if filename matches? 
+        // Actually Astro uses filename as ID. We will save file as [slug].md
+    };
+
+    return { slug, content: processedContent, frontmatter: newFrontmatter };
 }
 
 async function sync() {
-    console.log('\n🤖 Auto-Curator Agent Active...');
-    console.log(`🎯 Sync Mode: ${MAX_NEW_PER_RUN === 0 ? 'UPDATES ONLY (No New Articles)' : `ALLOW NEW (${MAX_NEW_PER_RUN === Infinity ? 'ALL' : MAX_NEW_PER_RUN})`}`);
-    console.log(`📂 Scanning Source: ${SOURCE_DIR}`);
+    console.log(`🤖 Bridge Activated via Node.js ${process.version}`);
+    console.log(`📂 Source: ${SOURCE_DIR}`);
 
-    if (!fs.existsSync(SOURCE_DIR)) {
-        console.error(`❌ Source directory not found`);
-        return;
+    // Articles
+    const files = getFiles(SOURCE_DIR).filter(f => f.endsWith('.md'));
+
+    for (const f of files) {
+        try {
+            const { slug, content, frontmatter } = processContent(f);
+
+            // Content Routing Logic
+            let collection = 'articles';
+            if (frontmatter.category || content.includes('category:')) {
+                // Heuristic: If it has a category, it's Knowledge
+                collection = 'knowledge';
+                // Ensure category exists for schema validation
+                if (!frontmatter.category) frontmatter.category = 'General';
+            }
+
+            let destPath;
+
+            if (collection === 'knowledge') {
+                // Ensure category is slug-friendly
+                const catSlug = (frontmatter.category || 'general').toLowerCase().replace(/[^a-z0-9]/g, '-');
+                destPath = path.join(DEST_BASE, collection, catSlug, `${slug}.md`);
+                // Update Metadata to reflect true slug structure if needed, 
+                // but Astro handles IDs based on path.
+            } else {
+                destPath = path.join(DEST_BASE, collection, `${slug}.md`);
+            }
+
+            // Ensure directory exists
+            const destDir = path.dirname(destPath);
+            if (!fs.existsSync(destDir)) fs.mkdirSync(destDir, { recursive: true });
+
+            const fileContent = matter.stringify(content, frontmatter);
+            fs.writeFileSync(destPath, fileContent);
+            console.log(`✅ Synced [${collection}]: ${path.relative(DEST_BASE, destPath)}`);
+        } catch (e) {
+            console.error(`❌ Failed: ${path.basename(f)}`, e.message);
+        }
     }
-
-    const allFiles = getFiles(SOURCE_DIR);
-    const markdownFiles = allFiles.filter(f => f.endsWith('.md'));
-
-    let stats = { scanned: 0, dropped: 0, new_synced: 0, updated: 0, skipped: 0, deleted: 0 };
-
-    for (const filePath of markdownFiles) {
-        stats.scanned++;
-        const fileContent = fs.readFileSync(filePath, 'utf-8');
-        const parsed = matter(fileContent);
-
-        // --- RECALL MECHANISM (倒挡: 自动删除) ---
-        // If sync: false, we ensure it does NOT exist on the website
-        if (parsed.data.sync === false) {
-            if (parsed.data.website_slug) {
-                const destPath = path.join(DEST_DIR, `${parsed.data.website_slug}.md`);
-                if (fs.existsSync(destPath)) {
-                    fs.unlinkSync(destPath);
-                    console.log(`🗑️  Recalled (Deleted): ${parsed.data.title}`);
-                    stats.deleted++;
-                }
-            }
-            stats.dropped++;
-            continue;
-        }
-
-        // --- QUALITY COP (AI 智能选品) ---
-        if (parsed.data.sync !== true) {
-            const contentLen = parsed.content.length;
-            const title = parsed.data.title || '';
-
-            // Rules: Length > 800, No "Notice" keywords, Must have headers
-            if (contentLen < 800 || /通知|招聘|周报|快讯/.test(title) || !parsed.content.includes('# ')) {
-                stats.dropped++;
-                continue;
-            }
-        }
-
-        // --- EXECUTING SYNC ---
-
-        // 0. Extract Title from Content if missing
-        if (!parsed.data.title) {
-            const titleMatch = parsed.content.match(/^#\s+(.+)$/m);
-            if (titleMatch) {
-                parsed.data.title = titleMatch[1].trim();
-                // console.log(`🔍 Found title in content: ${parsed.data.title}`);
-            }
-        }
-
-        // 1. Auto-Tagging
-        let hasChanges = false;
-        let slug = parsed.data.website_slug;
-
-        if (!slug) {
-            const titleForSlug = parsed.data.title || 'untitled';
-            slug = generateSlug(titleForSlug, parsed.data.date);
-            parsed.data.website_slug = slug;
-            hasChanges = true;
-        }
-        if (!parsed.data.date) {
-            parsed.data.date = new Date();
-            hasChanges = true;
-        }
-
-        if (hasChanges) {
-            const updatedFileContent = matter.stringify(parsed.content, parsed.data);
-            fs.writeFileSync(filePath, updatedFileContent);
-            // console.log(`🏷️  Tagged: "${parsed.data.title}"`);
-        }
-
-        // 2. Write to Website Directory
-        const destPath = path.join(DEST_DIR, `${slug}.md`);
-        const isNewArticle = !fs.existsSync(destPath);
-
-        // 🛡️ SAFETY VALVE Check (流量控制)
-        if (isNewArticle && stats.new_synced >= MAX_NEW_PER_RUN) {
-            // console.log(`⏳ Safety Limit Reached. Skipping new: ${parsed.data.title}`);
-            continue;
-        }
-
-        const newFrontmatter = {
-            title: parsed.data.title || 'Untitled',
-            date: parsed.data.date || new Date(),
-            tags: parsed.data.tags || [],
-            description: parsed.data.description || (parsed.content ? parsed.content.slice(0, 120).replace(/[#*]/g, '').trim() + '...' : 'No description'),
-        };
-
-        const newContentBody = cleanWeChatContent(parsed.content);
-        const newFileContent = matter.stringify(newContentBody, newFrontmatter);
-
-        // Idempotency check
-        if (!isNewArticle) {
-            const existing = fs.readFileSync(destPath, 'utf-8');
-            if (existing === newFileContent) {
-                stats.skipped++;
-                continue;
-            }
-            stats.updated++;
-            console.log(`📝 Updated: ${slug}`);
-        } else {
-            stats.new_synced++;
-            console.log(`✨ New Sync: ${slug}`);
-        }
-
-        fs.writeFileSync(destPath, newFileContent);
-    }
-
-    console.log('\n=============================================');
-    console.log(`🚀 Curated Sync Report:`);
-    console.log(`   Scanned: ${stats.scanned}`);
-    console.log(`   Dropped/Recalled: ${stats.dropped + stats.deleted}`);
-    console.log(`   ✨ New Synced: ${stats.new_synced} (Limit: ${MAX_NEW_PER_RUN})`);
-    console.log(`   📝 Updated: ${stats.updated}`);
-    console.log('=============================================');
 }
 
 sync();

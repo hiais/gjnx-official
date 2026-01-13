@@ -170,6 +170,22 @@ declare module 'astro:content' {
   rendered?: RenderedContent;
   filePath?: string;
 }>;
+"database": Record<string, {
+  id: string;
+  body?: string;
+  collection: "database";
+  data: InferEntrySchema<"database">;
+  rendered?: RenderedContent;
+  filePath?: string;
+}>;
+"knowledge": Record<string, {
+  id: string;
+  body?: string;
+  collection: "knowledge";
+  data: InferEntrySchema<"knowledge">;
+  rendered?: RenderedContent;
+  filePath?: string;
+}>;
 
 	};
 
