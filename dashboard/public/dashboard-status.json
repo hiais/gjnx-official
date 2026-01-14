@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-01-14 02:39:55",
+  "timestamp": "2026-01-14 18:59:46",
   "health": {
     "score": 30,
     "status": "critical",
     "issues": [
       "WARN_QUEUE_BACKUP",
-      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (8944m ago))"
+      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (9924m ago))"
     ],
     "daemon_status": {
       "alive": false,
-      "last_heartbeat": "2026-01-07 21:35:33 (8944m ago)"
+      "last_heartbeat": "2026-01-07 21:35:33 (9924m ago)"
     }
   },
   "tasks": {
@@ -19,7 +19,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-06 00:25:07",
-        "age_minutes": 11654.8,
+        "age_minutes": 12634.7,
         "trace_id": "trc-0106002507"
       },
       {
@@ -27,7 +27,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-07 01:23:43",
-        "age_minutes": 10156.2,
+        "age_minutes": 11136.1,
         "trace_id": "trc-0107012343"
       },
       {
@@ -35,7 +35,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-08 01:31:22",
-        "age_minutes": 8708.6,
+        "age_minutes": 9688.4,
         "trace_id": "trc-0108013122"
       },
       {
@@ -43,7 +43,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-09 20:18:32",
-        "age_minutes": 6141.4,
+        "age_minutes": 7121.2,
         "trace_id": "trc-0109201832"
       },
       {
@@ -51,7 +51,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 17881.2,
+        "age_minutes": 18861.0,
         "trace_id": "trc-0101163845"
       },
       {
@@ -59,7 +59,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 16418.5,
+        "age_minutes": 17398.3,
         "trace_id": "trc-0102170126"
       },
       {
@@ -67,7 +67,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-03 18:01:22",
-        "age_minutes": 14918.6,
+        "age_minutes": 15898.4,
         "trace_id": "trc-0103180122"
       },
       {
@@ -75,7 +75,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-04 20:01:35",
-        "age_minutes": 13358.3,
+        "age_minutes": 14338.2,
         "trace_id": "trc-0104200135"
       },
       {
@@ -83,7 +83,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-05 22:01:18",
-        "age_minutes": 11798.6,
+        "age_minutes": 12778.5,
         "trace_id": "trc-0105220118"
       },
       {
@@ -91,7 +91,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-06 23:01:30",
-        "age_minutes": 10298.4,
+        "age_minutes": 11278.3,
         "trace_id": "trc-0106230130"
       },
       {
@@ -99,7 +99,7 @@
         "priority": "P2",
         "workflow": "verify-test",
         "created": "2026-01-05 23:51:51",
-        "age_minutes": 11688.1,
+        "age_minutes": 12667.9,
         "trace_id": "trc-0105235151"
       }
     ],
@@ -107,27 +107,76 @@
       {
         "id": "P2_save_all_trc-0102203030.processing",
         "created": "2026-01-03 00:30:30",
-        "age_minutes": 15969.4
+        "age_minutes": 16949.3
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 15,
+    "total": 22,
     "by_level": {
-      "INFO": 8,
+      "INFO": 12,
       "WARN": 3,
       "ERROR": 0,
       "FATAL": 0,
-      "SUCCESS": 4,
+      "SUCCESS": 7,
       "SYSTEM": 0
     },
     "by_workflow": {
-      "system": 15
+      "system": 22
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-01-14T18:59:45",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-14T02:40:03",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Core: Committed locally: chore(auto): deep sync [Content/Scripts] (2 modified, 0 added, 0 deleted) @02:40:02",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-14T02:40:02",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Website: Pushed with message: feat(auto): sync website [Scripts] (18 modified, 40 added, 15 deleted) @02:39:57",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-14T02:40:02",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Core repository...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-14T02:39:58",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Pushing to GitHub...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-14T02:39:55",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Dashboard generated successfully",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-14T02:39:55",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Website repository...",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-14T02:39:54",
         "level": "INFO",
@@ -807,10 +856,10 @@
   },
   "alerts": [
     {
-      "time": "02:39",
+      "time": "18:59",
       "level": "🔴 P0",
       "rule_id": "SYS-001",
-      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (8944m ago)",
+      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (9924m ago)",
       "action": "请运行 start-dashboard-full.bat (推荐)",
       "status": "Active"
     }
@@ -1020,12 +1069,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-14 02:39:55",
+    "last_update": "2026-01-14 18:59:47",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.41,
+    "duration_seconds": 0.61,
     "has_token_trend": true,
     "errors": []
   }

@@ -28,4 +28,25 @@ const ogImage = new URL(`/og/knowledge/${entry.id}.png`, Astro.site);
   collection="knowledge"
 >
   <Content />
+  
+  <div class="knowledge-footer" style="margin-top: var(--space-12); padding-top: var(--space-8); border-top: 1px solid var(--c-border-subtle);">
+    <a href="/knowledge" class="back-link mono">
+      <span class="symbol">←</span> 返回通识首页 / BACK TO LEXICON
+    </a>
+  </div>
 </ArticleLayout>
+
+<style>
+  .back-link {
+    color: var(--c-accent-cyan);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+    opacity: 0.8;
+  }
+  .back-link:hover {
+    opacity: 1;
+    text-shadow: 0 0 10px var(--c-accent-cyan);
+  }
+  .symbol { margin-right: var(--space-2); }
+</style>

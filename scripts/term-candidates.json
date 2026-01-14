@@ -1,0 +1,498 @@
+[
+  {
+    "term": "AI",
+    "count": 462
+  },
+  {
+    "term": "NPU",
+    "count": 171
+  },
+  {
+    "term": "CPU",
+    "count": 85
+  },
+  {
+    "term": "GPU",
+    "count": 70
+  },
+  {
+    "term": "DRAM",
+    "count": 47
+  },
+  {
+    "term": "PUE",
+    "count": 35
+  },
+  {
+    "term": "LLM",
+    "count": 33
+  },
+  {
+    "term": "SRAM",
+    "count": 32
+  },
+  {
+    "term": "TOPS",
+    "count": 30
+  },
+  {
+    "term": "OS",
+    "count": 27
+  },
+  {
+    "term": "ISP",
+    "count": 25
+  },
+  {
+    "term": "IEEE",
+    "count": 24
+  },
+  {
+    "term": "KV",
+    "count": 22
+  },
+  {
+    "term": "PIM",
+    "count": 22
+  },
+  {
+    "term": "RTX",
+    "count": 21
+  },
+  {
+    "term": "SSD",
+    "count": 20
+  },
+  {
+    "term": "PMIC",
+    "count": 20
+  },
+  {
+    "term": "OLED",
+    "count": 20
+  },
+  {
+    "term": "NVIDIA",
+    "count": 19
+  },
+  {
+    "term": "TCO",
+    "count": 17
+  },
+  {
+    "term": "BMS",
+    "count": 15
+  },
+  {
+    "term": "PWM",
+    "count": 15
+  },
+  {
+    "term": "MAC",
+    "count": 14
+  },
+  {
+    "term": "FFRT",
+    "count": 13
+  },
+  {
+    "term": "DAG",
+    "count": 13
+  },
+  {
+    "term": "QLC",
+    "count": 12
+  },
+  {
+    "term": "OPPO",
+    "count": 12
+  },
+  {
+    "term": "GPT",
+    "count": 12
+  },
+  {
+    "term": "RAM",
+    "count": 12
+  },
+  {
+    "term": "CMOS",
+    "count": 12
+  },
+  {
+    "term": "DC",
+    "count": 12
+  },
+  {
+    "term": "HBM",
+    "count": 11
+  },
+  {
+    "term": "DRL",
+    "count": 11
+  },
+  {
+    "term": "CNN",
+    "count": 11
+  },
+  {
+    "term": "DSP",
+    "count": 10
+  },
+  {
+    "term": "SOH",
+    "count": 10
+  },
+  {
+    "term": "JNI",
+    "count": 10
+  },
+  {
+    "term": "USB",
+    "count": 10
+  },
+  {
+    "term": "IPC",
+    "count": 9
+  },
+  {
+    "term": "OP",
+    "count": 9
+  },
+  {
+    "term": "LTPO",
+    "count": 9
+  },
+  {
+    "term": "AC",
+    "count": 9
+  },
+  {
+    "term": "BSPDN",
+    "count": 9
+  },
+  {
+    "term": "ARM",
+    "count": 8
+  },
+  {
+    "term": "NAND",
+    "count": 8
+  },
+  {
+    "term": "GC",
+    "count": 8
+  },
+  {
+    "term": "UDC",
+    "count": 8
+  },
+  {
+    "term": "VC",
+    "count": 8
+  },
+  {
+    "term": "LPDDR",
+    "count": 8
+  },
+  {
+    "term": "TSMC",
+    "count": 7
+  },
+  {
+    "term": "PC",
+    "count": 7
+  },
+  {
+    "term": "UI",
+    "count": 7
+  },
+  {
+    "term": "CSI",
+    "count": 7
+  },
+  {
+    "term": "TDP",
+    "count": 7
+  },
+  {
+    "term": "IR",
+    "count": 6
+  },
+  {
+    "term": "AMD",
+    "count": 6
+  },
+  {
+    "term": "SLC",
+    "count": 6
+  },
+  {
+    "term": "TLC",
+    "count": 6
+  },
+  {
+    "term": "PPT",
+    "count": 6
+  },
+  {
+    "term": "PID",
+    "count": 6
+  },
+  {
+    "term": "APU",
+    "count": 6
+  },
+  {
+    "term": "ICA",
+    "count": 6
+  },
+  {
+    "term": "SOC",
+    "count": 6
+  },
+  {
+    "term": "GRU",
+    "count": 6
+  },
+  {
+    "term": "SVR",
+    "count": 6
+  },
+  {
+    "term": "MLP",
+    "count": 6
+  },
+  {
+    "term": "BNN",
+    "count": 6
+  },
+  {
+    "term": "HAL",
+    "count": 6
+  },
+  {
+    "term": "DTC",
+    "count": 6
+  },
+  {
+    "term": "RAW",
+    "count": 6
+  },
+  {
+    "term": "LPI",
+    "count": 6
+  },
+  {
+    "term": "FIFO",
+    "count": 6
+  },
+  {
+    "term": "MLA",
+    "count": 6
+  },
+  {
+    "term": "PLC",
+    "count": 5
+  },
+  {
+    "term": "MB",
+    "count": 5
+  },
+  {
+    "term": "DVFS",
+    "count": 5
+  },
+  {
+    "term": "JSON",
+    "count": 5
+  },
+  {
+    "term": "RRAM",
+    "count": 5
+  },
+  {
+    "term": "ART",
+    "count": 5
+  },
+  {
+    "term": "ECC",
+    "count": 5
+  },
+  {
+    "term": "UFS",
+    "count": 5
+  },
+  {
+    "term": "ACCEL",
+    "count": 5
+  },
+  {
+    "term": "MSI",
+    "count": 5
+  },
+  {
+    "term": "TSV",
+    "count": 4
+  },
+  {
+    "term": "ACM",
+    "count": 4
+  },
+  {
+    "term": "ISSCC",
+    "count": 4
+  },
+  {
+    "term": "AIGC",
+    "count": 4
+  },
+  {
+    "term": "RF",
+    "count": 4
+  },
+  {
+    "term": "ML",
+    "count": 4
+  },
+  {
+    "term": "AP",
+    "count": 4
+  },
+  {
+    "term": "EAS",
+    "count": 4
+  },
+  {
+    "term": "AEG",
+    "count": 4
+  },
+  {
+    "term": "ZSL",
+    "count": 4
+  },
+  {
+    "term": "AOD",
+    "count": 4
+  },
+  {
+    "term": "SLM",
+    "count": 4
+  },
+  {
+    "term": "TB",
+    "count": 4
+  },
+  {
+    "term": "RCC",
+    "count": 4
+  },
+  {
+    "term": "PPW",
+    "count": 3
+  },
+  {
+    "term": "FSD",
+    "count": 3
+  },
+  {
+    "term": "MIT",
+    "count": 3
+  },
+  {
+    "term": "CUDA",
+    "count": 3
+  },
+  {
+    "term": "FPS",
+    "count": 3
+  },
+  {
+    "term": "RL",
+    "count": 3
+  },
+  {
+    "term": "DVA",
+    "count": 3
+  },
+  {
+    "term": "VM",
+    "count": 3
+  },
+  {
+    "term": "PPA",
+    "count": 3
+  },
+  {
+    "term": "IIS",
+    "count": 3
+  },
+  {
+    "term": "VLM",
+    "count": 3
+  },
+  {
+    "term": "IT",
+    "count": 3
+  },
+  {
+    "term": "OCP",
+    "count": 3
+  },
+  {
+    "term": "HDR",
+    "count": 3
+  },
+  {
+    "term": "IC",
+    "count": 3
+  },
+  {
+    "term": "ELAA",
+    "count": 3
+  },
+  {
+    "term": "MIMO",
+    "count": 3
+  },
+  {
+    "term": "RRC",
+    "count": 3
+  },
+  {
+    "term": "AR",
+    "count": 3
+  },
+  {
+    "term": "VT",
+    "count": 3
+  },
+  {
+    "term": "SR",
+    "count": 3
+  },
+  {
+    "term": "IOV",
+    "count": 3
+  },
+  {
+    "term": "ZNS",
+    "count": 3
+  },
+  {
+    "term": "ASIC",
+    "count": 3
+  },
+  {
+    "term": "XR",
+    "count": 3
+  },
+  {
+    "term": "HTML",
+    "count": 3
+  },
+  {
+    "term": "ATX",
+    "count": 3
+  }
+]
