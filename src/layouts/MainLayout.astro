@@ -28,6 +28,8 @@ const {
     </slot>
     <meta name="keywords" content={keywords} />
     <meta name="baidu-site-verification" content="codeva-LaaNzkik4K" />
+    <!-- Google Search Console: Replace YOUR_CODE with actual verification code -->
+    <meta name="google-site-verification" content="PENDING_VERIFICATION" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
@@ -38,14 +40,14 @@ const {
     <meta property="og:url" content={Astro.url} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    {image && <meta property="og:image" content={image} />}
+    <meta property="og:image" content={image || new URL('/assets/og-default.png', Astro.site)} />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content={Astro.url} />
     <meta property="twitter:title" content={title} />
     <meta property="twitter:description" content={description} />
-    {image && <meta property="twitter:image" content={image} />}
+    <meta property="twitter:image" content={image || new URL('/assets/og-default.png', Astro.site)} />
 
     <!-- KaTeX for Math Rendering -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">

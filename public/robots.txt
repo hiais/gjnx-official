@@ -4,6 +4,13 @@ Allow: /
 # Sitemap
 Sitemap: https://ikit.cloud/sitemap-index.xml
 
+# RSS Feed
+# https://ikit.cloud/rss.xml
+
 # Baidu specific (optional optimization)
 User-agent: Baiduspider
+Allow: /
+
+# Google specific
+User-agent: Googlebot
 Allow: /
