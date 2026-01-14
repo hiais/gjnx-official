@@ -2,8 +2,8 @@
 import { getCollection } from 'astro:content';
 import MainLayout from '../../layouts/MainLayout.astro';
 import Card from '../../components/ui/Card.astro';
-import SpecTable from '../../components/database/SpecTable.astro';
 import SEO from '../../components/structure/SEO.astro';
+import SectionHeader from '../../components/ui/SectionHeader.astro';
 
 const products = await getCollection('database');
 
@@ -19,12 +19,14 @@ const categories = [...new Set(products.map(p => p.data.category))];
     description="收录全球顶级芯片与服务器的深度能效参数，支持多维度对比与性能评估。"
   />
 
-  <section class="db-hero section">
+  <SectionHeader 
+    title="硬件" 
+    ghostTitle="数据库" 
+    subtitle="收录全球顶级芯片、算力卡与服务器的深度能效参数，支持多维度对比与 TCO/PPW 性能评估。"
+  />
+
+  <section class="db-grid-section section">
     <div class="container">
-      <h1 class="glitch-text">HARDWARE_DATABASE</h1>
-      <p class="subtitle mono">> ACCESSING_STRUCTURED_EFFICIENCY_DATA...</p>
-      
-      <!-- Filter Bar -->
       <div class="filter-bar glass-panel mono">
         <div class="filter-group">
           <span class="label">:: BRAND</span>
@@ -46,12 +48,9 @@ const categories = [...new Set(products.map(p => p.data.category))];
           </div>
         </div>
       </div>
-    </div>
-  </section>
 
-  <section class="db-grid-section section">
-    <div class="container">
-      <div class="product-grid" id="product-grid">
+      <div class="product-grid-wrapper">
+        <div class="product-grid" id="product-grid">
         {products.map(product => (
           <div class="product-item" data-brand={product.data.brand} data-cat={product.data.category}>
             <Card href={`/database/${product.id}`} className="db-card">
@@ -94,18 +93,8 @@ const categories = [...new Set(products.map(p => p.data.category))];
 </MainLayout>
 
 <style>
-  .db-hero {
-    padding-top: 5rem;
-  }
-
-  h1 {
-    font-size: 3.5rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .subtitle {
-    color: var(--c-accent-cyan);
-    margin-bottom: 3rem;
+  .db-grid-section {
+    padding: var(--space-8) 0 var(--space-20);
   }
 
   .filter-bar {

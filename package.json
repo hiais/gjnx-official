@@ -29,6 +29,7 @@
     "gray-matter": "^4.0.3",
     "pagefind": "^1.4.0",
     "pinyin": "^4.0.0",
+    "rss-parser": "^3.13.0",
     "satori": "^0.18.3"
   },
   "devDependencies": {

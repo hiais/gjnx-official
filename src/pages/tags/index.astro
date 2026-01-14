@@ -1,20 +1,22 @@
 ---
 import Layout from '../../layouts/MainLayout.astro';
 import { getCollection } from 'astro:content';
+import SectionHeader from '../../components/ui/SectionHeader.astro';
 
 const allArticles = await getCollection('articles');
 const tags = [...new Set(allArticles.map((article) => article.data.tags || []).flat())];
 
-const pageTitle = "能效数据库索引 | Tag Index";
+const pageTitle = "主题矩阵 | Tag Matrix";
 ---
 
 <Layout title={pageTitle} description="浏览硅基能效所有技术话题标签。">
-  <main class="pt-32 pb-12 px-6 max-w-4xl mx-auto min-h-screen">
-    <h1 class="text-4xl md:text-5xl font-bold mb-12 text-center glitch-text" data-text="TOPIC INDEX">
-      <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">
-        Topic Matrix
-      </span>
-    </h1>
+  <SectionHeader 
+    title="主题" 
+    ghostTitle="矩阵" 
+    subtitle="系统全量技术标签图谱：通过多维词条快速定位深度情报节点。"
+  />
+
+  <main class="container section">
 
     <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
       {tags.map((tag) => (
@@ -47,7 +49,5 @@ const pageTitle = "能效数据库索引 | Tag Index";
 </Layout>
 
 <style>
-  .glitch-text {
-    position: relative;
-  }
+  .section { padding: var(--space-12) 0 var(--space-20); }
 </style>

@@ -3,6 +3,7 @@ import MainLayout from '../../layouts/MainLayout.astro';
 import Card from '../../components/ui/Card.astro';
 import Tag from '../../components/ui/Tag.astro';
 import { getCollection } from 'astro:content';
+import SectionHeader from '../../components/ui/SectionHeader.astro';
 
 const allArticles = await getCollection('articles');
 const sortedArticles = allArticles
@@ -11,9 +12,13 @@ const sortedArticles = allArticles
 ---
 
 <MainLayout title="深度专栏 | Column">
+  <SectionHeader 
+    title="深度" 
+    ghostTitle="专栏" 
+    subtitle="硅基能效核心叙事：专注于底层能效架构、博弈与进化真相的高级情报档案。"
+  />
+
   <div class="container section">
-    <h1>深度专栏 <span class="highlight">/ COLUMN</span></h1>
-    <p class="subtitle">硅基能效核心叙事：旗舰级深度内容档案。</p>
 
     <div class="grid">
       {sortedArticles.map(article => (
@@ -33,10 +38,7 @@ const sortedArticles = allArticles
 </MainLayout>
 
 <style>
-  .section { padding: var(--space-12) 0; }
-  h1 { font-size: 2.5rem; letter-spacing: -0.02em; margin-bottom: var(--space-4); }
-  .highlight { color: var(--c-accent-cyan); font-family: var(--font-mono); font-size: 1.5rem; margin-left: var(--space-2); opacity: 0.8; }
-  .subtitle { color: var(--c-text-secondary); font-size: 1.1rem; margin-bottom: var(--space-12); max-width: 600px; }
+  .section { padding: var(--space-12) 0 var(--space-20); }
 
   .grid {
     display: grid;

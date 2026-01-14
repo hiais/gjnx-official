@@ -1,14 +1,17 @@
 ---
 import MainLayout from '../../layouts/MainLayout.astro';
 import TCOCalculator from '../../components/tools/TCOCalculator.astro';
+import SectionHeader from '../../components/ui/SectionHeader.astro';
 ---
 
-<MainLayout title="Engineer Tools">
+<MainLayout title="工程工具箱 | Tools">
+  <SectionHeader 
+    title="工程" 
+    ghostTitle="工具箱" 
+    subtitle="深度能效模拟与成本分析工具：支持 TCO 评估及能效曲线模拟，为硬核决策提供数据底座。"
+  />
+
   <div class="container section">
-    <header class="tools-header">
-      <h1 class="glitch-text">Engineer_Tools</h1>
-      <p class="subtitle mono">> Accessing interactive calculators and efficiency simulators.</p>
-    </header>
     
     <div class="tools-grid">
       <section class="tool-section">
@@ -37,24 +40,7 @@ import TCOCalculator from '../../components/tools/TCOCalculator.astro';
 </MainLayout>
 
 <style>
-  .section { padding: var(--space-8) 0; }
-  
-  .tools-header {
-    margin-bottom: var(--space-12);
-    border-left: 2px solid var(--c-accent-cyan);
-    padding-left: 2rem;
-  }
-
-  h1 { 
-    font-size: 3.5rem; 
-    margin-bottom: var(--space-2); 
-    letter-spacing: -2px;
-  }
-
-  .subtitle { 
-    color: var(--c-text-secondary); 
-    font-size: 0.9rem;
-  }
+  .section { padding: var(--space-12) 0 var(--space-20); }
 
   .tools-grid {
     display: flex;

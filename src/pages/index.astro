@@ -4,6 +4,7 @@ import Button from '../components/ui/Button.astro';
 import Card from '../components/ui/Card.astro';
 import Tag from '../components/ui/Tag.astro';
 import { getCollection } from 'astro:content';
+import hotspotsData from '../data/hotspots.json';
 
 // Fetch recent articles (Mock data or real)
 const allArticles = await getCollection('articles');
@@ -11,19 +12,68 @@ const recentArticles = allArticles
   .filter(a => !a.data.draft)
   .sort((a, b) => (b.data.date?.getTime() || 0) - (a.data.date?.getTime() || 0))
   .slice(0, 6);
+
+// Get Top 3 Hotspots for Mini-Radar
+const topHotspots = hotspotsData.slice(0, 3);
 ---
 
 <MainLayout title="首页">
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="container">
-      <h1 class="text-gradient">Deconstructing<br>Silicon Efficiency</h1>
-      <p class="subtitle">
-        揭秘芯片、AI与电池技术的能效真相。我们只讲数据，不讲故事。
-      </p>
-      <div class="hero-actions">
-        <Button href="/articles" variant="primary">浏览数据库</Button>
-        <Button href="/about" variant="ghost">关于我们</Button>
+  <!-- Hero Section: Intelligence Command Center -->
+  <section class="hero-command-center">
+    <div class="hero-bg-grid">
+      <div class="scan-line-vertical"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    
+    <div class="container relative z-10">
+      <div class="command-grid">
+        <!-- Left: Main Title & Actions -->
+        <div class="command-left">
+           <div class="sys-status mono">
+              <span class="status-dot"></span> SYSTEM_ONLINE
+           </div>
+           <h1 class="hero-title glitch-text" data-text="SILICON_EFFICIENCY">
+              SILICON<br>EFFICIENCY
+           </h1>
+           <p class="hero-subtitle">
+             DECONSTRUCTING THE TRUTH OF CHIPS & AI POWER.
+             <span class="highlight">DATA_DRIVEN_ONLY.</span>
+           </p>
+           
+           <div class="hero-actions">
+             <Button href="/news" variant="primary" class="glow-btn">
+               ENTER_RADAR <span class="arrow">→</span>
+             </Button>
+             <Button href="/database" variant="ghost">ACCESS_DB</Button>
+           </div>
+        </div>
+
+        <!-- Right: Mini Radar Hud -->
+        <div class="command-right">
+           <div class="hud-panel glass-morphism">
+              <div class="hud-header mono">
+                 <span class="hud-title">LIVE_INTEL_FEED</span>
+                 <span class="live-indicator">LIVE</span>
+              </div>
+              <div class="mini-radar-list">
+                {topHotspots.map((item, index) => (
+                  <a href={item.link} target="_blank" class="mini-radar-item">
+                    <div class="mini-rank mono">0{index + 1}</div>
+                    <div class="mini-content">
+                       <div class="mini-title">{item.title}</div>
+                       <div class="mini-meta mono">
+                         <span>{item.source}</span>
+                         <span class="mini-score">PSCORE: {item.pscore}</span>
+                       </div>
+                    </div>
+                  </a>
+                ))}
+              </div>
+              <div class="hud-footer mono">
+                 <a href="/news" class="view-poll">> VIEW_FULL_LEADERBOARD</a>
+              </div>
+           </div>
+        </div>
       </div>
     </div>
   </section>
@@ -32,7 +82,7 @@ const recentArticles = allArticles
   <section class="section">
     <div class="container">
       <div class="section-header">
-        <h2>Latest_Intel</h2>
+        <h2 class="mono-heading">LATEST_TRANSMISSION</h2>
         <Button href="/articles" variant="secondary" size="sm">VIEW_ALL</Button>
       </div>
       
@@ -64,74 +114,283 @@ const recentArticles = allArticles
 </MainLayout>
 
 <style>
-  .hero {
-    padding: var(--space-12) 0;
-    text-align: center;
-    border-bottom: 1px solid rgba(255,255,255,0.05);
-  }
-  
-  h1 {
-    font-size: 4rem;
-    line-height: 1;
-    margin-bottom: var(--space-6);
+  /* Command Center Hero */
+  .hero-command-center {
+    position: relative;
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    background: #050505;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   }
 
-  .subtitle {
-    font-size: var(--text-h3);
+  .hero-bg-grid {
+    position: absolute;
+    inset: 0;
+    background-image: 
+      linear-gradient(rgba(0, 240, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 240, 255, 0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+    z-index: 0;
+  }
+  /* Spotlight effect centered on content */
+  .grid-overlay {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 30% 50%, rgba(0, 240, 255, 0.03) 0%, transparent 60%),
+                radial-gradient(circle at 50% 50%, transparent 20%, #050505 90%);
+  }
+
+  /* Scanline Animation */
+  .scan-line-vertical {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 3px;
+    background: rgba(0, 255, 136, 0.3);
+    box-shadow: 0 0 10px rgba(0, 255, 136, 0.4);
+    animation: scanDown 4s linear infinite;
+    z-index: 1;
+    opacity: 0.3;
+  }
+  @keyframes scanDown {
+    0% { top: -10%; opacity: 0; }
+    10% { opacity: 0.5; }
+    90% { opacity: 0.5; }
+    100% { top: 110%; opacity: 0; }
+  }
+
+  .command-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 4rem;
+    align-items: center;
+  }
+
+  /* Left Column */
+  .sys-status {
+    color: #00ff88;
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    opacity: 0.8;
+  }
+  .status-dot {
+    width: 6px; height: 6px;
+    background: #00ff88;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #00ff88;
+    animation: breathe 3s ease-in-out infinite;
+  }
+  @keyframes breathe { 
+    0%, 100% { opacity: 1; box-shadow: 0 0 8px #00ff88; } 
+    50% { opacity: 0.4; box-shadow: 0 0 2px #00ff88; } 
+  }
+
+  .hero-title {
+    font-size: clamp(3rem, 8vw, 5rem);
+    font-weight: 900;
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+    margin-bottom: 2rem;
+    background: linear-gradient(to right, #00f0ff, #00ff88, #00f0ff);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s linear infinite;
+    /* Neon Glow Effect */
+    filter: drop-shadow(0 0 15px rgba(0, 240, 255, 0.3));
+  }
+  @keyframes shine {
+    to { background-position: 200% center; }
+  }
+
+  .hero-subtitle {
+    font-size: 1.1rem;
     color: var(--c-text-secondary);
-    max-width: 600px;
-    margin: 0 auto var(--space-8);
+    max-width: 500px;
+    line-height: 1.6;
+    margin-bottom: 3rem;
+    border-left: 3px solid #00f0ff;
+    padding-left: 1.25rem;
+    margin-left: 4px;
+  }
+  .hero-subtitle .highlight {
+    display: block;
+    color: #00f0ff;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    font-family: var(--font-mono);
   }
 
   .hero-actions {
     display: flex;
-    gap: var(--space-4);
-    justify-content: center;
+    gap: 1.5rem;
   }
 
-  .section {
-    padding: var(--space-12) 0;
+  /* Right Column: Mini Radar HUD */
+  .hud-panel {
+    background: rgba(10, 10, 10, 0.85);
+    border: 1px solid rgba(0, 240, 255, 0.3);
+    backdrop-filter: blur(24px);
+    border-radius: 16px;
+    padding: 2rem;
+    position: relative;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.6), 0 0 40px rgba(0, 240, 255, 0.05);
+    overflow: hidden;
+  }
+  /* Subtle Tech Grid Texture on Panel */
+  .hud-panel::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+    background-size: 20px 20px;
+    opacity: 0.3;
+    pointer-events: none;
+    z-index: 0;
   }
 
+  .hud-content-wrapper {
+    position: relative;
+    z-index: 1;
+  }
+
+  .hud-panel::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 20px; right: 20px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #00f0ff, transparent);
+    box-shadow: 0 0 10px #00f0ff;
+    opacity: 0.8;
+  }
+
+  .hud-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    font-size: 0.8rem;
+    color: #fff;
+    letter-spacing: 0.1em;
+    border-bottom: 1px dashed rgba(255,255,255,0.1);
+    padding-bottom: 0.5rem;
+  }
+  .live-indicator {
+    color: #ff3366;
+    font-weight: bold;
+    text-shadow: 0 0 8px #ff3366;
+    animation: blink 1s infinite;
+  }
+
+  .mini-radar-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .mini-radar-item {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    background: rgba(0, 240, 255, 0.02);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: all 0.3s;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+  .mini-radar-item:hover {
+    background: rgba(0, 240, 255, 0.1);
+    border-color: #00f0ff;
+    box-shadow: 0 0 15px rgba(0, 240, 255, 0.2);
+    transform: translateX(5px);
+  }
+  .mini-rank {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #00f0ff;
+    text-shadow: 0 0 5px rgba(0, 240, 255, 0.5);
+    opacity: 1;
+  }
+  .mini-title {
+    font-size: 0.95rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 0.4rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: #eee;
+  }
+  .mini-meta {
+    font-size: 0.7rem;
+    color: rgba(255,255,255,0.4);
+    display: flex;
+    justify-content: space-between;
+  }
+  .mini-score { color: #00ff88; }
+
+  .hud-footer {
+    margin-top: 1.5rem;
+    text-align: right;
+    font-size: 0.75rem;
+  }
+  .view-poll {
+    color: #00f0ff;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+  }
+  .view-poll:hover { opacity: 1; text-decoration: underline; }
+
+  /* Sections */
+  .section { padding: var(--space-20) 0; }
+  .mono-heading {
+    font-family: var(--font-mono);
+    font-size: 1.5rem;
+    letter-spacing: -0.02em;
+  }
+  
   .section-header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-bottom: var(--space-8);
+    margin-bottom: var(--space-10);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 1rem;
   }
 
   .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: var(--space-6);
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2rem;
   }
 
-  .card-meta {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: var(--space-4);
-    font-size: var(--text-sm);
+  /* Card Overrides */
+  .article-card { 
+    height: 100%; 
+    border: 1px solid rgba(255,255,255,0.05); 
+    transition: all 0.3s ease;
   }
-
-  .card-title {
-    margin: 0 0 var(--space-2) 0;
-    font-size: 1.4rem;
+  .article-card:hover {
+    border-color: rgba(0, 240, 255, 0.3);
+    box-shadow: 0 0 20px rgba(0, 240, 255, 0.05);
+    transform: translateY(-2px);
   }
+  .card-meta { margin-bottom: 1rem; font-size: 0.8rem; color: rgba(255,255,255,0.4); display: flex; justify-content: space-between; }
+  .card-title { font-size: 1.25rem; margin-bottom: 0.8rem; line-height: 1.4; }
+  .card-desc { font-size: 0.9rem; color: rgba(255,255,255,0.5); line-height: 1.6; }
 
-  .card-desc {
-    color: var(--c-text-secondary);
-    font-size: 0.95rem;
-    margin: 0;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-
-  .empty-state {
-    text-align: center;
-    padding: var(--space-12);
-    border: 1px dashed var(--border-light);
-    color: var(--c-text-secondary);
+  /* Responsive Mobile */
+  @media (max-width: 1024px) {
+    .command-grid { grid-template-columns: 1fr; gap: 3rem; }
+    .hero-command-center { min-height: auto; padding: 6rem 0; }
+    .hero-title { font-size: 3.5rem; }
   }
 </style>

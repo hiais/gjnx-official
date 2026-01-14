@@ -1,0 +1,102 @@
+---
+interface Props {
+  title: string;
+  ghostTitle?: string;
+  status?: string;
+  subtitle?: string;
+}
+
+const { title, ghostTitle, status, subtitle } = Astro.props;
+---
+
+<div class="intel-header-area">
+  <div class="container">
+    <header class="intel-header">
+      {status && (
+        <div class="status-badge mono">
+          <span class="pulse-line"></span>
+          {status}
+        </div>
+      )}
+      <h1 class="intel-title">{title}{ghostTitle && <span class="ghost-text">{ghostTitle}</span>}</h1>
+      {subtitle && <p class="intel-subtitle">{subtitle}</p>}
+    </header>
+  </div>
+  <div class="header-scan-line"></div>
+</div>
+
+<style>
+  .intel-header-area {
+    padding: var(--space-20) 0 var(--space-8);
+    background: linear-gradient(to bottom, rgba(0, 240, 255, 0.03), transparent);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .intel-header {
+    position: relative;
+    z-index: 10;
+  }
+
+  .status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 0.75rem;
+    color: var(--c-accent-cyan);
+    background: rgba(0, 240, 255, 0.05);
+    padding: 6px 14px;
+    border-radius: 100px;
+    border: 1px solid rgba(0, 240, 255, 0.15);
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.1em;
+  }
+
+  .pulse-line {
+    width: 20px;
+    height: 2px;
+    background: var(--c-accent-cyan);
+    position: relative;
+    overflow: hidden;
+  }
+  .pulse-line::after {
+    content: '';
+    position: absolute;
+    width: 100%; height: 100%;
+    background: #fff;
+    left: -100%;
+    animation: p_pulseScan 2s infinite;
+  }
+
+  .intel-title {
+    font-size: clamp(3rem, 10vw, 4.5rem);
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    margin-bottom: 1.5rem;
+    color: #fff;
+  }
+  .ghost-text {
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(255,255,255,0.2);
+    margin-left: 0.5rem;
+  }
+  .intel-subtitle {
+    color: var(--c-text-secondary);
+    font-size: 1.1rem;
+    max-width: 650px;
+    line-height: 1.6;
+  }
+
+  .header-scan-line {
+    position: absolute;
+    width: 100%; height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(0, 240, 255, 0.2), transparent);
+    top: 0;
+    animation: p_globalScan 8s linear infinite;
+  }
+
+  @keyframes p_pulseScan { 100% { left: 100%; } }
+  @keyframes p_globalScan { 100% { top: 100%; } }
+</style>

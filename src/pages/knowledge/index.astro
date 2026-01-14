@@ -2,14 +2,19 @@
 import MainLayout from '../../layouts/MainLayout.astro';
 import Card from '../../components/ui/Card.astro';
 import { getCollection } from 'astro:content';
+import SectionHeader from '../../components/ui/SectionHeader.astro';
 
 const allKnowledge = await getCollection('knowledge');
 ---
 
 <MainLayout title="通识 | Lexicon">
+  <SectionHeader 
+    title="能效" 
+    ghostTitle="通识" 
+    subtitle="深度词条与技术定义：从原子级逻辑到系统级架构，全量构建您的硅基能效通识体系。"
+  />
+
   <div class="container section">
-    <h1>通识 <span class="highlight">/ LEXICON</span></h1>
-    <p class="subtitle">深度词条与技术定义：构建你的硅基通识体系。</p>
 
     <div class="grid">
       {allKnowledge.map(item => (
@@ -24,10 +29,8 @@ const allKnowledge = await getCollection('knowledge');
 </MainLayout>
 
 <style>
+  .section { padding: var(--space-12) 0 var(--space-20); }
+
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--space-6); }
   .category { color: var(--c-accent-cyan); font-size: 0.75rem; display: block; margin-bottom: var(--space-2); letter-spacing: 0.05em; }
-  .section { padding: var(--space-12) 0; }
-  h1 { font-size: 2.5rem; letter-spacing: -0.02em; margin-bottom: var(--space-4); }
-  .highlight { color: var(--c-accent-cyan); font-family: var(--font-mono); font-size: 1.5rem; margin-left: var(--space-2); opacity: 0.8; }
-  .subtitle { color: var(--c-text-secondary); font-size: 1.1rem; margin-bottom: var(--space-12); max-width: 600px; }
 </style>
