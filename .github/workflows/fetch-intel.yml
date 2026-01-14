@@ -19,21 +19,18 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
 
       - name: Install Dependencies
-        working-directory: 05_Official_Website
         run: npm install
 
       - name: Execute Fetch Script
-        working-directory: 05_Official_Website
         run: node scripts/fetch-hotspots.js
 
       - name: Commit and Push if Changed
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add 05_Official_Website/src/data/hotspots.json
+          git add src/data/hotspots.json
           if git diff --staged --quiet; then
             echo "No changes detected in hotspots.json"
           else
