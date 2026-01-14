@@ -7,7 +7,7 @@ export default defineConfig({
   compressHTML: true,
   prefetch: true,
   build: {
-    format: 'file'
+    format: 'directory'
   },
   server: {
     port: 4321,
