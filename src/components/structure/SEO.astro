@@ -12,31 +12,96 @@ interface Props {
 }
 
 const { title, description, image, type = 'website', articleData } = Astro.props;
-const siteUrl = Astro.site || 'https://gjnx.tech';
+const siteUrl = Astro.site ? Astro.site.toString().replace(/\/$/, '') : 'https://gjnx.tech';
 const canonicalURL = new URL(Astro.url.pathname, siteUrl);
 
-// Structured Data
-const jsonLd: any = {
-  "@context": "https://schema.org",
+// --- 1. Main Entity Schema (Article or WebSite) ---
+const mainEntity: any = {
   "@type": type === 'article' ? "TechArticle" : "WebSite",
+  "@id": canonicalURL.toString() + "#main",
   "name": title,
   "description": description,
   "url": canonicalURL.toString(),
 };
 
 if (type === 'article' && articleData) {
-  jsonLd.headline = title;
-  jsonLd.datePublished = articleData.date;
-  jsonLd.keywords = articleData.tags?.join(', ');
-  jsonLd.author = {
+  mainEntity.headline = title;
+  mainEntity.datePublished = articleData.date;
+  mainEntity.keywords = articleData.tags?.join(', ');
+  mainEntity.author = {
     "@type": "Person",
     "name": articleData.author || "Silicon Operator",
     "url": siteUrl
   };
   if (image) {
-    jsonLd.image = image.toString();
+    mainEntity.image = image.toString();
   }
+} else if (type === 'website') {
+  // WebSite schema specific fields
+  mainEntity.publisher = {
+    "@type": "Organization",
+    "name": "硅基能效 | Silicon Efficiency",
+    "logo": {
+       "@type": "ImageObject",
+       "url": `${siteUrl}/favicon.svg`
+    }
+  };
 }
+
+// --- 2. Auto-generated Breadcrumb Schema ---
+const pathSegments = canonicalURL.pathname.split('/').filter(Boolean);
+const pathMap: Record<string, string> = {
+  'articles': '深度专栏',
+  'news': '情报站',
+  'knowledge': '通识',
+  'database': '数据库',
+  'resources': '资源库',
+  'tags': '标签'
+};
+
+const breadcrumbItems = [
+  { name: '首页', item: siteUrl }
+];
+
+let accumPath = '';
+pathSegments.forEach((segment) => {
+  accumPath += `/${segment}`;
+  // Try to find a mapped name, or format the segment ID nicely
+  let name = pathMap[segment] || segment.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+  
+  // If we are on the current page, use the passed Title (more accurate)
+  if (accumPath === canonicalURL.pathname) {
+      // name = title; // Optional: use page title for last breadcrumb
+  }
+  
+  breadcrumbItems.push({
+    name: name,
+    item: `${siteUrl}${accumPath}`
+  });
+});
+
+const breadcrumbSchema = {
+  "@type": "BreadcrumbList",
+  "@id": canonicalURL.toString() + "#breadcrumb",
+  "itemListElement": breadcrumbItems.map((bread, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "name": bread.name,
+    item: {
+       "@id": bread.item,
+       "name": bread.name // Google requires name property nested or on item, strictly it's on ListItem but this is safer
+    }
+  }))
+};
+
+// --- Combine into @graph ---
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    mainEntity,
+    breadcrumbSchema
+  ]
+};
 ---
 
 <!-- SEO Component -->
