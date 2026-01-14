@@ -17,7 +17,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "(PR) MSI Unveils the PRO DP10 A14MG Mini PC",
@@ -27,7 +27,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Innosilicon Ships 14.4 Gbps LPDDR6 Modules to Customers",
@@ -37,7 +37,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Bluetti Green Power Solutions Debut at CES 2026",
@@ -57,7 +57,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "氪星晚报｜诺和诺德寻求收购交易强化肥胖症产品组合；OpenAI或正在开发一款对标苹果AirPods的人工智能设备",
@@ -67,7 +67,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "前小鹏高管创业，给美国家庭造了台户外陪伴机器人",
@@ -77,7 +77,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "复旦教授联手前英特尔首席科学家创业，获天使轮追加投资，已与小米、宇树科技合作｜36氪首发",
@@ -97,7 +97,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "小鹏联创何涛人生的下半场，他要接住下一场智能化出行的洪流｜36氪专访",
@@ -117,7 +117,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Intel Core Ultra X9 388H \"Panther Lake\" iGPU Doubles AMD \"Strix Point\" Performance in Cyberpunk 2077",
@@ -137,7 +137,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "14",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "New GPU Startup Bolt Graphics Promises 2.5x Path Tracing Performance of RTX 5090",
@@ -147,6 +147,6 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "up"
+    "trend": "down"
   }
 ]

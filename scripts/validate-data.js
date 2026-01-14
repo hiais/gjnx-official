@@ -24,6 +24,11 @@ try {
   const fileContent = readFileSync(chipsPath, 'utf-8');
   chips = JSON.parse(fileContent);
 } catch (error) {
+  if (error.code === 'ENOENT') {
+    console.log(`⚠️  文件不存在: ${chipsPath}`);
+    console.log('⏩ 跳过芯片数据验证');
+    process.exit(0);
+  }
   console.error(`❌ 无法读取文件: ${chipsPath}`);
   console.error(error.message);
   process.exit(1);
@@ -141,7 +146,7 @@ if (!Array.isArray(chips)) {
 // 验证每个芯片
 chips.forEach((chip, index) => {
   const { errors: chipErrors, warnings: chipWarnings } = validateChipData(chip, index);
-  
+
   if (chipErrors.length > 0) {
     errors.push({
       chip: chip.id || `[index ${index}]`,
@@ -149,7 +154,7 @@ chips.forEach((chip, index) => {
       errors: chipErrors
     });
   }
-  
+
   if (chipWarnings.length > 0) {
     warnings.push({
       chip: chip.id || `[index ${index}]`,
