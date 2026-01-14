@@ -3,6 +3,7 @@ import '../styles/global.css';
 import Navbar from '../components/structure/Navbar.astro';
 import Footer from '../components/structure/Footer.astro';
 import SEO from '../components/structure/SEO.astro';
+import { ClientRouter } from 'astro:transitions';
 
 interface Props {
   title: string;
@@ -49,21 +50,10 @@ const {
     <meta property="twitter:description" content={description} />
     <meta property="twitter:image" content={image || new URL('/assets/og-default.png', Astro.site)} />
 
-    <!-- KaTeX for Math Rendering -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
-    <script is:inline src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
-    <script is:inline src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
-    <script is:inline>
-      document.addEventListener("DOMContentLoaded", function() {
-        renderMathInElement(document.body, {
-          delimiters: [
-            {left: '$$', right: '$$', display: true},
-            {left: '$', right: '$', display: false}
-          ],
-          throwOnError : false
-        });
-      });
-    </script>
+    <ClientRouter />
+    
+    <!-- KaTeX for Math Rendering (Deferred) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" media="print" onload="this.media='all'">
   </head>
   <body>
     <!-- Background -->
@@ -79,6 +69,23 @@ const {
 
     <!-- Footer -->
     <Footer />
+
+    <!-- Deferred Scripts -->
+    <script is:inline src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" defer></script>
+    <script is:inline src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" defer></script>
+    <script is:inline>
+      document.addEventListener("astro:page-load", function() {
+        if (window.renderMathInElement) {
+          renderMathInElement(document.body, {
+            delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false}
+            ],
+            throwOnError : false
+          });
+        }
+      });
+    </script>
   </body>
 </html>
 
