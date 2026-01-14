@@ -245,8 +245,18 @@ const links = [
   const toggle = document.getElementById('menu-toggle');
   const menu = document.getElementById('mobile-menu');
   const mobileLinks = document.querySelectorAll('.mobile-link');
-  const navItems = document.querySelectorAll('.nav-item');
   
+  // Mobile Menu Logic
+  toggle?.addEventListener('click', () => {
+    menu?.classList.toggle('hidden');
+  });
+
+  mobileLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      menu?.classList.add('hidden');
+    });
+  });
+
   // Modal Logic (Search & Follow)
   const searchOpen = document.getElementById('search-open');
   const searchClose = document.getElementById('search-close');
