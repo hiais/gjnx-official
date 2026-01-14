@@ -17,7 +17,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "(PR) MSI Unveils the PRO DP10 A14MG Mini PC",
@@ -27,7 +27,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Innosilicon Ships 14.4 Gbps LPDDR6 Modules to Customers",
@@ -57,7 +57,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "氪星晚报｜诺和诺德寻求收购交易强化肥胖症产品组合；OpenAI或正在开发一款对标苹果AirPods的人工智能设备",
@@ -67,7 +67,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "前小鹏高管创业，给美国家庭造了台户外陪伴机器人",
@@ -87,7 +87,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "早报｜雷军：小米将会在今年推出一款重磅产品/「全球首款」可量产全固态电池遭质疑/Google逆袭成功，母公司市值超苹果",
@@ -97,7 +97,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "小鹏联创何涛人生的下半场，他要接住下一场智能化出行的洪流｜36氪专访",
@@ -107,7 +107,7 @@
     "pscore": 94,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "CTX Shows 540 Hz QHD OLED Gaming Monitor at CES 2026",
@@ -117,7 +117,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Intel Core Ultra X9 388H \"Panther Lake\" iGPU Doubles AMD \"Strix Point\" Performance in Cyberpunk 2077",
