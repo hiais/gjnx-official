@@ -2,8 +2,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 // CONFIGURATION
-const SITE_URL = 'https://ikit.cloud';
-const SITE_URL = 'https://ikit.cloud';
+const SITE_URL = 'https://www.gjnx.cc';
+const SITE_URL = 'https://www.gjnx.cc';
 // SECURITY: Do not hardcode tokens. Read from env or .env file.
 import 'dotenv/config'; // Requirement: npm install dotenv
 const TOKEN = process.env.BAIDU_TOKEN;

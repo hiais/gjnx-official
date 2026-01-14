@@ -2,7 +2,7 @@
 
 ## 访问地址
 
-- 生产环境: https://dashboard.ikit.cloud（需密码）
+- 生产环境: https://dashboard.gjnx.cc（需密码）
 - 开发环境: 本地打开 `index.html`
 
 ## 功能特性

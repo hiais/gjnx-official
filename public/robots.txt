@@ -2,10 +2,10 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://ikit.cloud/sitemap-index.xml
+Sitemap: https://www.gjnx.cc/sitemap-index.xml
 
 # RSS Feed
-# https://ikit.cloud/rss.xml
+# https://www.gjnx.cc/rss.xml
 
 # Baidu specific (optional optimization)
 User-agent: Baiduspider

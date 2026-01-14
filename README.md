@@ -49,7 +49,7 @@ Run these commands inside `d:\gjnx\05_Official_Website`:
 ## 📦 Deployment Workflow
 1.  **Commit**: `git add .` -> `git commit -m "update"` -> `git push`
 2.  **Build**: Vercel automatically detects the push and triggers a build.
-3.  **Live**: Changes are live at `https://ikit.cloud` within ~30s.
+3.  **Live**: Changes are live at `https://www.gjnx.cc` within ~30s.
 
 ## ⚠️ Important Rules
 1.  **Do NOT edit `dist/` manually**. It is generated code.

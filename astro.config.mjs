@@ -3,7 +3,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://ikit.cloud',
+  site: 'https://www.gjnx.cc',
   compressHTML: true,
   prefetch: true,
   build: {
