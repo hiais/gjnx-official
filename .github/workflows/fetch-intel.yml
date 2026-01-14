@@ -1,0 +1,43 @@
+name: Fetch Intel Hotspots
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Every 6 hours
+  workflow_dispatch: # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-and-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: 05_Official_Website/package.json
+
+      - name: Install Dependencies
+        working-directory: 05_Official_Website
+        run: npm install
+
+      - name: Execute Fetch Script
+        working-directory: 05_Official_Website
+        run: node scripts/fetch-hotspots.js
+
+      - name: Commit and Push if Changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add 05_Official_Website/src/data/hotspots.json
+          if git diff --staged --quiet; then
+            echo "No changes detected in hotspots.json"
+          else
+            git commit -m "chore: auto-update intel hotspots database [skip ci]"
+            git push
+          fi
