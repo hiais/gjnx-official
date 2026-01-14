@@ -1,13 +1,23 @@
 [
   {
+    "title": "NVIDIA DLSS 4.5 Comes to All GeForce RTX GPUs Today",
+    "source": "TechPowerUp",
+    "link": "https://www.techpowerup.com/345191/nvidia-dlss-4-5-comes-to-all-geforce-rtx-gpus-today",
+    "abstract": "NVIDIA's DLSS 4.5 was the one of the most interesting CES-centric announcements from the company's 2026 keynote. Today, the company confirmed to the community that DLSS 4.5 will be...",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "down"
+  },
+  {
     "title": "(PR) Cadence Unveils LPDDR5X Memory IP Supporting 9600 Mbps",
     "source": "TechPowerUp",
     "link": "https://www.techpowerup.com/345143/cadence-unveils-lpddr5x-memory-ip-supporting-9600-mbps",
     "abstract": "Cadence (Nasdaq: CDNS) today announced the industry's first LPDDR5X 9600 Mbps memory IP system solution designed specifically for enterprise and data center applications with high ...",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "up"
+    "rank": "02",
+    "trend": "down"
   },
   {
     "title": "AMD Ryzen AI PRO 400 AM5 Desktop APU Shown During Lenovo Presentation",
@@ -16,8 +26,8 @@
     "abstract": "Early last week, AMD briefed members of the press about a new Ryzen AI 400 series coming to desktop in the near future. At the time, details and visual material were scarce—fundame...",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
+    "rank": "03",
+    "trend": "down"
   },
   {
     "title": "(PR) MSI Unveils the PRO DP10 A14MG Mini PC",
@@ -26,8 +36,8 @@
     "abstract": "MSI proudly announces the new PRO DP10 A14MG, a compact and slim 1.1-liter mini PC engineered for modern business environments that demand performance, Safety, and space-saving fle...",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Innosilicon Ships 14.4 Gbps LPDDR6 Modules to Customers",
@@ -36,7 +46,7 @@
     "abstract": "Innosilicon has reportedly started shipping its LPDDR6 memory modules, which offer an impressive speed of 14.4 Gbps. This is significantly faster than Samsung's initial LPDDR6 modu...",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -46,8 +56,8 @@
     "abstract": "Bluetti showcased its innovative smart and green power solutions at CES 2026. During our visit, the company displayed the FridgePower UPS series, designed in various shapes and siz...",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "ASRock at CES: Single-Slot, Passive, Arc Pro B60 24 GB and AMD Radeon GPUs",
@@ -56,8 +66,8 @@
     "abstract": "Even though this year CES show lacked major desktop-class GPU launches, ASRock featured several graphics cards. Among those, one interesting product on display was a single-slot, p...",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "氪星晚报｜诺和诺德寻求收购交易强化肥胖症产品组合；OpenAI或正在开发一款对标苹果AirPods的人工智能设备",
@@ -66,8 +76,8 @@
     "abstract": "大公司： 百世软件进军拉美市场 36氪获悉，近日，百世集团旗下百世软件正式宣布进军拉美市场，首站墨西哥已于2025年12月成功落地，并将逐步推进巴西、阿根廷等核心市场布局。 亚马逊或将继续对意大利反垄断罚款提起上诉 据报道，在意大利法院减少该国反垄断监管机构对美国电商巨头亚马逊处以的罚款金额后，亚马逊仍将就这一裁决提出上诉，因为该公司认为意大利反垄断监管机构...",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "前小鹏高管创业，给美国家庭造了台户外陪伴机器人",
@@ -76,7 +86,7 @@
     "abstract": "文｜邱晓芬 编辑｜苏建勋 CES 2026上，一家中国机器人公司的展台外挤满了人。大家围观的，不是CES上司空见惯的人形机器人或四足狗，而是一台双轮足、身躯四四方方、带有显示屏的机器人——只有15公斤重，40厘米高。 它在草皮上时不时抱着皮球行进，稳稳穿越不同状态的地面。看到有观众拍摄它时， 它会停下来与人互动，左右轻轻摇晃，并在屏幕上切换不同表情。仔细看，...",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -86,7 +96,7 @@
     "abstract": "作者丨欧雪 编辑丨袁斯来 硬氪获悉，近日，全球首个生成式通用具身大脑公司——上海眸深智能科技有限公司（下称“眸深智能”）完成超千万人民币天使轮追加投资，投资方为徐汇资本。 本轮融资资金主要用于算力采购、工程化团队扩建及机器人实验平台搭建。同时，公司正式入驻徐汇区人工智能产业核心载体“模速空间”。 眸深智能成立于2025年，专注于生成式跨本体通用具身大脑研发，...",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -96,7 +106,7 @@
     "abstract": "· 何小鹏：今年规模量产人形机器人\r · 贾跃亭携新车亮相 CES：很快回国\r · 荣耀 Magic8 Pro Air 曝光 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。 \r 爱范儿 |\r 原文链接 ·\r 查看评论 ·\r 新浪微博...",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -106,8 +116,8 @@
     "abstract": "作者 | 张子怡 编辑 | 袁斯来 离开小鹏汽车第一年，何涛把能玩的东西都玩了一遍。去欧洲、去美国、去东南亚，“拼命地玩”，去爬山、冲浪、开帆船，什么刺激他做什么。 玩到后来，何涛感到空虚。在美国豪宅区闲逛时，他看到那些退休的公司老板，沉迷于打理自家花园，搞搞自动浇水系统，他仿佛看到自己的未来。“感觉这太可怕了。” 何涛说自己闲不住。经历过商战的大起大落，他...",
     "pscore": 94,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "CTX Shows 540 Hz QHD OLED Gaming Monitor at CES 2026",
@@ -116,8 +126,8 @@
     "abstract": "CTX, a Taiwanese monitor maker, has used its CES 2026 booth to display some amazing gaming monitors at various resolutions and refresh rates. One of the most notable models is the ...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
   },
   {
     "title": "Intel Core Ultra X9 388H \"Panther Lake\" iGPU Doubles AMD \"Strix Point\" Performance in Cyberpunk 2077",
@@ -126,24 +136,14 @@
     "abstract": "Intel's \"Panther Lake\" chips, built on the 18A node, debuted at CES 2026, featuring Arc B390 integrated graphics. This launch shows that Intel is now commited to delivering some of...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "14",
+    "trend": "down"
   },
   {
     "title": "Zettlab Brings its D4 and D6 AI NAS to CES 2026",
     "source": "TechPowerUp",
     "link": "https://www.techpowerup.com/345046/zettlab-brings-its-d4-and-d6-ai-nas-to-ces-2026",
     "abstract": "Over the past couple of years, we've seen a lot of new entries into the NAS market and another new player is Zettlab. The company ran a successful Kickstarter campaign, raising ove...",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
-  },
-  {
-    "title": "New GPU Startup Bolt Graphics Promises 2.5x Path Tracing Performance of RTX 5090",
-    "source": "TechPowerUp",
-    "link": "https://www.techpowerup.com/345018/new-gpu-startup-bolt-graphics-promises-2-5x-path-tracing-performance-of-rtx-5090",
-    "abstract": "Bolt Graphics is a new computer graphics hardware startup based out of Sunnyvale, California. This company wants to shake things up in the consumer graphics hardware market with a ...",
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "15",
