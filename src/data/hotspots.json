@@ -17,7 +17,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "AMD Ryzen AI PRO 400 AM5 Desktop APU Shown During Lenovo Presentation",
@@ -27,7 +27,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "(PR) MSI Unveils the PRO DP10 A14MG Mini PC",
@@ -37,7 +37,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Innosilicon Ships 14.4 Gbps LPDDR6 Modules to Customers",
@@ -50,33 +50,43 @@
     "trend": "up"
   },
   {
-    "title": "台积电 2025 年第四季度营收突破万亿新台币，净利润 5057.4 亿新台币同比增长 35%",
+    "title": "iQOO Z11 Turbo 手机发布：第五代骁龙 8 与 2 亿主摄加持，国补到手价 2039.15 元起",
     "source": "ITHome",
-    "link": "https://www.ithome.com/0/913/447.htm",
-    "abstract": "IT之家 1 月 15 日消息，台积电今日公布 2025 年第四季财务报告： 合并营收约 10460.9 亿元新台币（IT之家注：现汇率约合 2306.63 亿元人民币），同比增长 20.5%，环比增长 5.7%； 净利润约 5057.4 亿元新台币（现汇率约合 1115.16 亿元人民币），每股盈余为 19.50 元新台币（现汇率约合 4.3 元人民币），...",
+    "link": "https://www.ithome.com/0/913/592.htm",
+    "abstract": "IT之家 1 月 15 日消息，iQOO 今晚发布了 iQOO Z11 Turbo 手机，新机即刻开售，售价 2699 元起，首销期立减后仅售 2399 元起，国补到手价 2039.15 元起；首销购机还可享至高 6 期免息分期、以旧换新大额补贴、356 元权益大礼包等。    IT之家注意到，外观方面，iQOO Z11 Turbo 提供四款配色：沧浪浮光、...",
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "06",
     "trend": "down"
   },
   {
-    "title": "中国电信新 AI 技术把视频“压缩”到 0.02% 大小，画面依然清晰可看",
+    "title": "众擎 CEO 赵同阳称人形机器人体能超 90% 男人，先把“身强力壮”做好",
     "source": "ITHome",
-    "link": "https://www.ithome.com/0/913/420.htm",
-    "abstract": "感谢 AI！原生 1 个 G 的视频，现在只需要传 200K 数据就能看了 —— 视频数据的压缩率干到了 0.02%，但依旧能保持画面的高清、连贯和画面细节。 或许你会问，这又有什么用呢？ 想象一下，你身处于太平洋的一艘远洋货轮中，卫星信号只有一两格，刷个朋友圈，加载内容的圈圈都要转好久。 但正是因为有了这项 AI 技术，现在在如此极端的环境之下，你甚至可以...",
+    "link": "https://www.ithome.com/0/913/545.htm",
+    "abstract": "IT之家 1 月 15 日消息，新浪“2025 科技风云榜”于今日在北京举行，银河通用联合创始人张直政、众擎机器人 CEO 赵同阳、钛虎机器人 CEO 易港和商汤国香资本合伙人余俊共同参加主题为“具身智能跃迁时刻”的特别对话。 众擎机器人 CEO 赵同阳表示，众擎这十年一直做一件事，就是把接近于人类甚至超越人类的本体以及智能打造，从通用的机器人进入到千家万户...",
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "07",
     "trend": "down"
   },
   {
-    "title": "AMD Ryzen AI MAX+ 392 笔记本处理器曝光，多核跑分超桌面级 7900X",
+    "title": "星动纪元与顺丰科技签约，推动具身智能机器人在供应链落地",
     "source": "ITHome",
-    "link": "https://www.ithome.com/0/913/397.htm",
-    "abstract": "IT之家 1 月 15 日消息，科技媒体 Wccftech 昨日（1 月 14 日）发布博文，基于 GeekBench 跑分库数据，在华硕 TUF Gaming A14（型号 TX Air FA401EA）游戏本上，发现了 AMD Ryzen AI MAX+ 392 处理器的踪迹。 IT之家援引博文介绍，AMD Ryzen AI MAX+ 392 处理器采用...",
+    "link": "https://www.ithome.com/0/913/544.htm",
+    "abstract": "IT之家 1 月 15 日消息，今日，星动纪元与顺丰科技正式签约，达成深度合作。双方将聚焦快递、仓储等物流场景，联合开展具身智能机器人技术方案的研发与应用推广。 据介绍，当前物流行业面临人力短缺、自动化设备柔性不足等痛点。本次合作，双方将以“联合开发、落地推广”的模式，推动具身智能机器人在顺丰供应链业务中规模化落地，并持续在仓储、快递中转等环节挖掘具身智能技...",
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "08",
+    "trend": "up"
+  },
+  {
+    "title": "RISC-V架构AI芯片公司进迭时空再获数亿元融资，新一代RISC-V AI芯片即将发布｜硬氪首发",
+    "source": "36Kr",
+    "link": "https://36kr.com/p/3639229542780294?f=rss",
+    "abstract": "硬氪获悉，基于RISC-V架构研发和销售下一代AI芯片的企业「进迭时空」已完成数亿元B轮融资。我们总结了本轮融资信息和该公司几大亮点： 1. 融资金额及投资机构 融资轮次：B轮 融资规模：数亿元人民币 投资方：包括中国互联网投资基金、农业银行AIC、北京市人工智能产业投资基金、北京国管顺禧基金、华夏恒天、光远资本等，老股东持续追投 资金用途：公司将继续投入于...",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -86,38 +96,18 @@
     "abstract": "大公司： 百世软件进军拉美市场 36氪获悉，近日，百世集团旗下百世软件正式宣布进军拉美市场，首站墨西哥已于2025年12月成功落地，并将逐步推进巴西、阿根廷等核心市场布局。 亚马逊或将继续对意大利反垄断罚款提起上诉 据报道，在意大利法院减少该国反垄断监管机构对美国电商巨头亚马逊处以的罚款金额后，亚马逊仍将就这一裁决提出上诉，因为该公司认为意大利反垄断监管机构...",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
-  },
-  {
-    "title": "前小鹏高管创业，给美国家庭造了台户外陪伴机器人",
-    "source": "36Kr",
-    "link": "https://36kr.com/p/3638686789454983?f=rss",
-    "abstract": "文｜邱晓芬 编辑｜苏建勋 CES 2026上，一家中国机器人公司的展台外挤满了人。大家围观的，不是CES上司空见惯的人形机器人或四足狗，而是一台双轮足、身躯四四方方、带有显示屏的机器人——只有15公斤重，40厘米高。 它在草皮上时不时抱着皮球行进，稳稳穿越不同状态的地面。看到有观众拍摄它时， 它会停下来与人互动，左右轻轻摇晃，并在屏幕上切换不同表情。仔细看，...",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "up"
+    "trend": "down"
   },
   {
-    "title": "复旦教授联手前英特尔首席科学家创业，获天使轮追加投资，已与小米、宇树科技合作｜36氪首发",
+    "title": "铜价连创新高",
     "source": "36Kr",
-    "link": "https://36kr.com/p/3638639464385924?f=rss",
-    "abstract": "作者丨欧雪 编辑丨袁斯来 硬氪获悉，近日，全球首个生成式通用具身大脑公司——上海眸深智能科技有限公司（下称“眸深智能”）完成超千万人民币天使轮追加投资，投资方为徐汇资本。 本轮融资资金主要用于算力采购、工程化团队扩建及机器人实验平台搭建。同时，公司正式入驻徐汇区人工智能产业核心载体“模速空间”。 眸深智能成立于2025年，专注于生成式跨本体通用具身大脑研发，...",
+    "link": "https://36kr.com/newsflashes/3640618973400705?f=rss",
+    "abstract": "今年以来，铜价连创历史新高，1月14日，伦敦金属交易所期铜一度创出每吨13407美元的历史新高；国内铜期货也飙升至每吨10万元以上。某加工企业负责人介绍，AI算力需求呈爆发式增长，单个芯片功耗从几百瓦飙升至几千瓦，对散热和导电性能提出了严苛要求，因此一个机柜的线材和散热器用铜量需要数百公斤。分析认为，此次铜价快速上涨，既有供需失衡的影响，也有情绪溢价与资金炒...",
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "11",
     "trend": "up"
-  },
-  {
-    "title": "早报｜雷军：小米将会在今年推出一款重磅产品/「全球首款」可量产全固态电池遭质疑/Google逆袭成功，母公司市值超苹果",
-    "source": "ifanr",
-    "link": "https://www.ifanr.com/1651347?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "abstract": "· 何小鹏：今年规模量产人形机器人\r · 贾跃亭携新车亮相 CES：很快回国\r · 荣耀 Magic8 Pro Air 曝光 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。 \r 爱范儿 |\r 原文链接 ·\r 查看评论 ·\r 新浪微博...",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
   },
   {
     "title": "KDE Plasma 6.6 Enters Public Testing With Swathe of Performance and Usability Updates",
@@ -126,8 +116,28 @@
     "abstract": "KDE Plasma, one of the current top Linux desktop environments, has officially released version 6.6 into public beta. The new DE update features a number of user-facing and behind-t...",
     "pscore": 94,
     "category": "CHIP_FRONT",
+    "rank": "12",
+    "trend": "down"
+  },
+  {
+    "title": "蔚来李斌开年内部讲话：预计 2025 年第四季度盈利目标可实现，推动 AI 在全业务链条落地",
+    "source": "ITHome",
+    "link": "https://www.ithome.com/0/913/584.htm",
+    "abstract": "IT之家 1 月 15 日消息，据界面新闻报道，1 月 14 日，蔚来汽车 CEO 李斌发表新年首次内部讲话。他表示，蔚来在去年第四季度交付 4 万辆全新 ES8，每辆车均有稳健毛利，预计 2025 年第四季度盈利目标可以实现。李斌希望，接下来 3 至 5 年，蔚来汽车能够实现年均 40% 至 50% 的稳定增长。 在内部讲话中，李斌明确了蔚来汽车今年的三项...",
+    "pscore": 94,
+    "category": "CHIP_FRONT",
     "rank": "13",
     "trend": "down"
+  },
+  {
+    "title": "AI时代的全球创作消费平台，出现了一家来自中国的“隐形冠军”",
+    "source": "36Kr",
+    "link": "https://36kr.com/p/3638895618739335?f=rss",
+    "abstract": "在AIGC狂飙突进的第三年，行业弥漫着一种“去伪存真”的集体焦虑。 一边是曾经喧嚣一时的底层“千模大战”格局基本固化，参数的边际效应递减；另一边是应用层的迷茫，大量调用基模的效率工具在短暂的流量爆发后，又迅速归于沉寂。 投资人看过了太多像烟花一样绚烂的产品，也开始回归商业的本质。大家都在寻找同一个答案：除了卖算力和卖效率，2026年的AI到底还有没有第三条商...",
+    "pscore": 94,
+    "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "up"
   },
   {
     "title": "8点1氪丨携程回应因涉嫌垄断行为被立案调查；茶颜悦色没喝就“消失”半杯，内部人士回应；老干妈回应“味道变了”",
@@ -136,17 +146,7 @@
     "abstract": "今日热点导览 知情人士：可口可乐公司已放弃出售Costa Coffee的计划 2025年汽车产销量再创历史新高，连续17年稳居全球第一 鸭鸭羽绒服品牌方回应“双标双码”争议 特斯拉超充站调整超时占用费 特朗普暗示：苹果已投资英特尔 TOP3大新闻 携程：将积极配合监管部门调查，全面落实监管要求 36氪获悉，1月14日，据携程黑板报消息，近日，携程接到国家市场...",
     "pscore": 94,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
-  },
-  {
-    "title": "Shipping Document Lists Unreleased Dell 16 Premium Laptop with NVIDIA \"N1X ES2\" SoC",
-    "source": "TechPowerUp",
-    "link": "https://www.techpowerup.com/345198/shipping-document-lists-unreleased-dell-16-premium-laptop-with-nvidia-n1x-es2-soc",
-    "abstract": "Many portable PC enthusiasts welcomed Dell's very recent restoration of familiar XPS model naming convention; replacing generically confusing \"Premium\" monikers. Unfortunately, bac...",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "up"
+    "trend": "down"
   }
 ]
