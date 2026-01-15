@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "(PR) Cadence Unveils LPDDR5X Memory IP Supporting 9600 Mbps",
@@ -17,7 +17,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "AMD Ryzen AI PRO 400 AM5 Desktop APU Shown During Lenovo Presentation",
@@ -37,7 +37,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Innosilicon Ships 14.4 Gbps LPDDR6 Modules to Customers",
@@ -50,13 +50,43 @@
     "trend": "up"
   },
   {
+    "title": "台积电 2025 年第四季度营收突破万亿新台币，净利润 5057.4 亿新台币同比增长 35%",
+    "source": "ITHome",
+    "link": "https://www.ithome.com/0/913/447.htm",
+    "abstract": "IT之家 1 月 15 日消息，台积电今日公布 2025 年第四季财务报告： 合并营收约 10460.9 亿元新台币（IT之家注：现汇率约合 2306.63 亿元人民币），同比增长 20.5%，环比增长 5.7%； 净利润约 5057.4 亿元新台币（现汇率约合 1115.16 亿元人民币），每股盈余为 19.50 元新台币（现汇率约合 4.3 元人民币），...",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "06",
+    "trend": "down"
+  },
+  {
+    "title": "中国电信新 AI 技术把视频“压缩”到 0.02% 大小，画面依然清晰可看",
+    "source": "ITHome",
+    "link": "https://www.ithome.com/0/913/420.htm",
+    "abstract": "感谢 AI！原生 1 个 G 的视频，现在只需要传 200K 数据就能看了 —— 视频数据的压缩率干到了 0.02%，但依旧能保持画面的高清、连贯和画面细节。 或许你会问，这又有什么用呢？ 想象一下，你身处于太平洋的一艘远洋货轮中，卫星信号只有一两格，刷个朋友圈，加载内容的圈圈都要转好久。 但正是因为有了这项 AI 技术，现在在如此极端的环境之下，你甚至可以...",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "07",
+    "trend": "down"
+  },
+  {
+    "title": "AMD Ryzen AI MAX+ 392 笔记本处理器曝光，多核跑分超桌面级 7900X",
+    "source": "ITHome",
+    "link": "https://www.ithome.com/0/913/397.htm",
+    "abstract": "IT之家 1 月 15 日消息，科技媒体 Wccftech 昨日（1 月 14 日）发布博文，基于 GeekBench 跑分库数据，在华硕 TUF Gaming A14（型号 TX Air FA401EA）游戏本上，发现了 AMD Ryzen AI MAX+ 392 处理器的踪迹。 IT之家援引博文介绍，AMD Ryzen AI MAX+ 392 处理器采用...",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "08",
+    "trend": "up"
+  },
+  {
     "title": "氪星晚报｜诺和诺德寻求收购交易强化肥胖症产品组合；OpenAI或正在开发一款对标苹果AirPods的人工智能设备",
     "source": "36Kr",
     "link": "https://36kr.com/p/3639073169673608?f=rss",
     "abstract": "大公司： 百世软件进军拉美市场 36氪获悉，近日，百世集团旗下百世软件正式宣布进军拉美市场，首站墨西哥已于2025年12月成功落地，并将逐步推进巴西、阿根廷等核心市场布局。 亚马逊或将继续对意大利反垄断罚款提起上诉 据报道，在意大利法院减少该国反垄断监管机构对美国电商巨头亚马逊处以的罚款金额后，亚马逊仍将就这一裁决提出上诉，因为该公司认为意大利反垄断监管机构...",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -66,7 +96,7 @@
     "abstract": "文｜邱晓芬 编辑｜苏建勋 CES 2026上，一家中国机器人公司的展台外挤满了人。大家围观的，不是CES上司空见惯的人形机器人或四足狗，而是一台双轮足、身躯四四方方、带有显示屏的机器人——只有15公斤重，40厘米高。 它在草皮上时不时抱着皮球行进，稳稳穿越不同状态的地面。看到有观众拍摄它时， 它会停下来与人互动，左右轻轻摇晃，并在屏幕上切换不同表情。仔细看，...",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -76,8 +106,8 @@
     "abstract": "作者丨欧雪 编辑丨袁斯来 硬氪获悉，近日，全球首个生成式通用具身大脑公司——上海眸深智能科技有限公司（下称“眸深智能”）完成超千万人民币天使轮追加投资，投资方为徐汇资本。 本轮融资资金主要用于算力采购、工程化团队扩建及机器人实验平台搭建。同时，公司正式入驻徐汇区人工智能产业核心载体“模速空间”。 眸深智能成立于2025年，专注于生成式跨本体通用具身大脑研发，...",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   },
   {
     "title": "早报｜雷军：小米将会在今年推出一款重磅产品/「全球首款」可量产全固态电池遭质疑/Google逆袭成功，母公司市值超苹果",
@@ -86,8 +116,8 @@
     "abstract": "· 何小鹏：今年规模量产人形机器人\r · 贾跃亭携新车亮相 CES：很快回国\r · 荣耀 Magic8 Pro Air 曝光 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。 \r 爱范儿 |\r 原文链接 ·\r 查看评论 ·\r 新浪微博...",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "KDE Plasma 6.6 Enters Public Testing With Swathe of Performance and Usability Updates",
@@ -96,18 +126,8 @@
     "abstract": "KDE Plasma, one of the current top Linux desktop environments, has officially released version 6.6 into public beta. The new DE update features a number of user-facing and behind-t...",
     "pscore": 94,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "13",
     "trend": "down"
-  },
-  {
-    "title": "遏制 AI 幻觉：苹果 DeepMMSearch-R1 论文揭秘“图像裁剪”搜索术",
-    "source": "ITHome",
-    "link": "https://www.ithome.com/0/913/333.htm",
-    "abstract": "IT之家 1 月 15 日消息，科技媒体 Appleinsider 今天（1 月 15 日）发布博文，报道称苹果发表重磅研究论文，详细介绍名为 DeepMMSearch-R1 的 AI 模型，重点优化 AI 在复杂视觉场景下的搜索逻辑，用“裁剪”治愈 AI 幻觉。  针对现有 AI 模型在处理复杂视觉信息时常出现的“答非所问”或“漏看”问题，苹果推出了 De...",
-    "pscore": 94,
-    "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
   },
   {
     "title": "8点1氪丨携程回应因涉嫌垄断行为被立案调查；茶颜悦色没喝就“消失”半杯，内部人士回应；老干妈回应“味道变了”",
@@ -116,18 +136,8 @@
     "abstract": "今日热点导览 知情人士：可口可乐公司已放弃出售Costa Coffee的计划 2025年汽车产销量再创历史新高，连续17年稳居全球第一 鸭鸭羽绒服品牌方回应“双标双码”争议 特斯拉超充站调整超时占用费 特朗普暗示：苹果已投资英特尔 TOP3大新闻 携程：将积极配合监管部门调查，全面落实监管要求 36氪获悉，1月14日，据携程黑板报消息，近日，携程接到国家市场...",
     "pscore": 94,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "14",
     "trend": "down"
-  },
-  {
-    "title": "小鹏联创何涛人生的下半场，他要接住下一场智能化出行的洪流｜36氪专访",
-    "source": "36Kr",
-    "link": "https://36kr.com/p/3637880831773828?f=rss",
-    "abstract": "作者 | 张子怡 编辑 | 袁斯来 离开小鹏汽车第一年，何涛把能玩的东西都玩了一遍。去欧洲、去美国、去东南亚，“拼命地玩”，去爬山、冲浪、开帆船，什么刺激他做什么。 玩到后来，何涛感到空虚。在美国豪宅区闲逛时，他看到那些退休的公司老板，沉迷于打理自家花园，搞搞自动浇水系统，他仿佛看到自己的未来。“感觉这太可怕了。” 何涛说自己闲不住。经历过商战的大起大落，他...",
-    "pscore": 94,
-    "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
   },
   {
     "title": "Shipping Document Lists Unreleased Dell 16 Premium Laptop with NVIDIA \"N1X ES2\" SoC",
@@ -136,17 +146,7 @@
     "abstract": "Many portable PC enthusiasts welcomed Dell's very recent restoration of familiar XPS model naming convention; replacing generically confusing \"Premium\" monikers. Unfortunately, bac...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
-  },
-  {
-    "title": "CTX Shows 540 Hz QHD OLED Gaming Monitor at CES 2026",
-    "source": "TechPowerUp",
-    "link": "https://www.techpowerup.com/345090/ctx-shows-540-hz-qhd-oled-gaming-monitor-at-ces-2026",
-    "abstract": "CTX, a Taiwanese monitor maker, has used its CES 2026 booth to display some amazing gaming monitors at various resolutions and refresh rates. One of the most notable models is the ...",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "down"
+    "trend": "up"
   }
 ]
