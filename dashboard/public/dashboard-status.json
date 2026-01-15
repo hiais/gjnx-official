@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-01-15 23:50:37",
+  "timestamp": "2026-01-16 00:07:46",
   "health": {
     "score": 30,
     "status": "critical",
     "issues": [
       "WARN_QUEUE_BACKUP",
-      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (11655m ago))"
+      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (11672m ago))"
     ],
     "daemon_status": {
       "alive": false,
-      "last_heartbeat": "2026-01-07 21:35:33 (11655m ago)"
+      "last_heartbeat": "2026-01-07 21:35:33 (11672m ago)"
     }
   },
   "tasks": {
@@ -19,7 +19,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-06 00:25:07",
-        "age_minutes": 14365.5,
+        "age_minutes": 14382.6,
         "trace_id": "trc-0106002507"
       },
       {
@@ -27,7 +27,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-07 01:23:43",
-        "age_minutes": 12866.9,
+        "age_minutes": 12884.0,
         "trace_id": "trc-0107012343"
       },
       {
@@ -35,7 +35,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-08 01:31:22",
-        "age_minutes": 11419.3,
+        "age_minutes": 11436.4,
         "trace_id": "trc-0108013122"
       },
       {
@@ -43,7 +43,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-09 20:18:32",
-        "age_minutes": 8852.1,
+        "age_minutes": 8869.2,
         "trace_id": "trc-0109201832"
       },
       {
@@ -51,7 +51,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 20591.9,
+        "age_minutes": 20609.0,
         "trace_id": "trc-0101163845"
       },
       {
@@ -59,7 +59,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 19129.2,
+        "age_minutes": 19146.3,
         "trace_id": "trc-0102170126"
       },
       {
@@ -67,7 +67,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-03 18:01:22",
-        "age_minutes": 17629.3,
+        "age_minutes": 17646.4,
         "trace_id": "trc-0103180122"
       },
       {
@@ -75,7 +75,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-04 20:01:35",
-        "age_minutes": 16069.1,
+        "age_minutes": 16086.2,
         "trace_id": "trc-0104200135"
       },
       {
@@ -83,7 +83,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-05 22:01:18",
-        "age_minutes": 14509.3,
+        "age_minutes": 14526.5,
         "trace_id": "trc-0105220118"
       },
       {
@@ -91,7 +91,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-06 23:01:30",
-        "age_minutes": 13009.1,
+        "age_minutes": 13026.3,
         "trace_id": "trc-0106230130"
       },
       {
@@ -99,7 +99,7 @@
         "priority": "P2",
         "workflow": "verify-test",
         "created": "2026-01-05 23:51:51",
-        "age_minutes": 14398.8,
+        "age_minutes": 14415.9,
         "trace_id": "trc-0105235151"
       }
     ],
@@ -107,32 +107,68 @@
       {
         "id": "P2_save_all_trc-0102203030.processing",
         "created": "2026-01-03 00:30:30",
-        "age_minutes": 18680.1
+        "age_minutes": 18697.3
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 1,
+    "total": 5,
     "by_level": {
-      "INFO": 1,
+      "INFO": 3,
       "WARN": 0,
-      "ERROR": 0,
+      "ERROR": 1,
       "FATAL": 0,
-      "SUCCESS": 0,
+      "SUCCESS": 1,
       "SYSTEM": 0
     },
     "by_workflow": {
-      "system": 1
+      "system": 5
     },
-    "recent_errors": [],
+    "recent_errors": [
+      {
+        "time": "2026-01-16T00:06:38",
+        "level": "ERROR",
+        "workflow": "system",
+        "message": "[save-all] Content Sync error: 由于出现以下错误，无法运行此命令: %1 不是有效的 Win32 应用程序。。",
+        "trace_id": ""
+      }
+    ],
     "recent_activities": [
       {
-        "time": "2026-01-15T23:50:37",
+        "time": "2026-01-16T00:07:46",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Content sync completed successfully",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-16T00:07:46",
         "level": "INFO",
         "workflow": "system",
         "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-16T00:07:43",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] running 'npm run sync:all'...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-16T00:06:38",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] running 'npm run sync:all'...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-16T00:06:38",
+        "level": "ERROR",
+        "workflow": "system",
+        "message": "[save-all] Content Sync error: 由于出现以下错误，无法运行此命令: %1 不是有效的 Win32 应用程序。。",
         "trace_id": ""
       }
     ]
@@ -141,7 +177,7 @@
     "avg_duration_by_workflow": {},
     "duration_percentiles": {},
     "token_usage_today": 0,
-    "token_usage_week": 1099650,
+    "token_usage_week": 992650,
     "success_count": 0,
     "fail_count": 0,
     "success_rate": 0
@@ -152,21 +188,21 @@
     "token_price_per_k": 0.1,
     "today_total_cost": 0,
     "today_token_usage": 0,
-    "week_total_cost": 109.97,
-    "week_token_usage": 1099650,
+    "week_total_cost": 99.27,
+    "week_token_usage": 992650,
     "budget_usage_percent": 0.0,
     "budget_status": "normal",
     "by_workflow_today": {},
     "by_workflow_week": {
       "scout": {
-        "tokens": 75000,
-        "cost": 7.5,
-        "count": 45
+        "tokens": 60000,
+        "cost": 6.0,
+        "count": 32
       },
       "plan": {
-        "tokens": 20000,
-        "cost": 1.9999999999999998,
-        "count": 35
+        "tokens": 18000,
+        "cost": 1.7999999999999998,
+        "count": 33
       },
       "validate-config": {
         "tokens": 0,
@@ -174,9 +210,9 @@
         "count": 31
       },
       "write-article": {
-        "tokens": 999650,
-        "cost": 99.965,
-        "count": 143
+        "tokens": 909650,
+        "cost": 90.965,
+        "count": 137
       },
       "verify-data": {
         "tokens": 0,
@@ -248,23 +284,23 @@
     "by_workflow_week_formatted": [
       {
         "workflow": "write-article",
-        "tokens": 999650,
-        "cost": 99.97,
-        "count": 143,
-        "percentage": 90.9
+        "tokens": 909650,
+        "cost": 90.97,
+        "count": 137,
+        "percentage": 91.6
       },
       {
         "workflow": "scout",
-        "tokens": 75000,
-        "cost": 7.5,
-        "count": 45,
-        "percentage": 6.8
+        "tokens": 60000,
+        "cost": 6.0,
+        "count": 32,
+        "percentage": 6.0
       },
       {
         "workflow": "plan",
-        "tokens": 20000,
-        "cost": 2.0,
-        "count": 35,
+        "tokens": 18000,
+        "cost": 1.8,
+        "count": 33,
         "percentage": 1.8
       },
       {
@@ -645,8 +681,7 @@
       "2026-01-12": 4,
       "2026-01-11": 7,
       "2026-01-10": 3,
-      "2026-01-09": 3,
-      "2026-01-08": 1
+      "2026-01-09": 3
     }
   },
   "alert_rules": {
@@ -708,20 +743,16 @@
   },
   "alerts": [
     {
-      "time": "23:50",
+      "time": "00:07",
       "level": "🔴 P0",
       "rule_id": "SYS-001",
-      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (11655m ago)",
+      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (11672m ago)",
       "action": "请运行 start-dashboard-full.bat (推荐)",
       "status": "Active"
     }
   ],
   "history": {
     "token_trend_7d": [
-      {
-        "date": "2026-01-09",
-        "value": 107000
-      },
       {
         "date": "2026-01-10",
         "value": 565650
@@ -745,14 +776,14 @@
       {
         "date": "2026-01-15",
         "value": 0
+      },
+      {
+        "date": "2026-01-16",
+        "value": 0
       }
     ],
     "multi_metric_trend": {
       "token_usage": [
-        {
-          "date": "2026-01-09",
-          "value": 107000
-        },
         {
           "date": "2026-01-10",
           "value": 565650
@@ -776,13 +807,13 @@
         {
           "date": "2026-01-15",
           "value": 0
+        },
+        {
+          "date": "2026-01-16",
+          "value": 0
         }
       ],
       "success_rate": [
-        {
-          "date": "2026-01-09",
-          "value": 0
-        },
         {
           "date": "2026-01-10",
           "value": 100.0
@@ -805,15 +836,15 @@
         },
         {
           "date": "2026-01-15",
+          "value": 0
+        },
+        {
+          "date": "2026-01-16",
           "value": 0
         }
       ],
       "error_rate": [
         {
-          "date": "2026-01-09",
-          "value": 0.0
-        },
-        {
           "date": "2026-01-10",
           "value": 0.0
         },
@@ -835,15 +866,15 @@
         },
         {
           "date": "2026-01-15",
+          "value": 0
+        },
+        {
+          "date": "2026-01-16",
           "value": 0
         }
       ],
       "queue_length": [
         {
-          "date": "2026-01-09",
-          "value": 0
-        },
-        {
           "date": "2026-01-10",
           "value": 0
         },
@@ -865,15 +896,15 @@
         },
         {
           "date": "2026-01-15",
+          "value": 0
+        },
+        {
+          "date": "2026-01-16",
           "value": 0
         }
       ],
       "avg_duration": [
         {
-          "date": "2026-01-09",
-          "value": 0
-        },
-        {
           "date": "2026-01-10",
           "value": 0
         },
@@ -895,6 +926,10 @@
         },
         {
           "date": "2026-01-15",
+          "value": 0
+        },
+        {
+          "date": "2026-01-16",
           "value": 0
         }
       ]
@@ -914,19 +949,19 @@
       "delta_percent": 0
     },
     "error_count": {
-      "today": 0,
+      "today": 1,
       "yesterday": 0,
-      "delta": 0,
-      "delta_percent": 0.0
+      "delta": 1,
+      "delta_percent": 100.0
     }
   },
   "system": {
-    "last_update": "2026-01-15 23:50:38",
+    "last_update": "2026-01-16 00:07:46",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.59,
+    "duration_seconds": 0.06,
     "has_token_trend": true,
     "errors": []
   }

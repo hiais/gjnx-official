@@ -1,6 +1,6 @@
 ---
 title: Rare (罕见)
-date: 2026-01-15T15:43:57.707Z
+date: 2026-01-15T16:07:45.898Z
 category: Auto-Mined
 tags:
   - Auto-Gen

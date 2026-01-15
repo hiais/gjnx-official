@@ -50,6 +50,15 @@ function generateCode(filename) {
 
 async function sync() {
     console.log(`🚀 Resource Sync Activated`);
+
+    // PURGE: Clear destination to remove stale/future files
+    if (fs.existsSync(DEST_DIR)) {
+        fs.readdirSync(DEST_DIR).forEach(file => {
+            if (file.endsWith('.md')) fs.unlinkSync(path.join(DEST_DIR, file));
+        });
+        console.log(`🧹 Purged existing resource files.`);
+    }
+
     const allFiles = getFiles(SOURCE_DIR);
 
     for (const filePath of allFiles) {
@@ -62,11 +71,14 @@ async function sync() {
         // Skip hidden or system files
         if (filename.startsWith('.')) continue;
 
-        let dateStr = new Date().toISOString().split('T')[0];
-        const dateMatch = filename.match(/^(\d{4}-?\d{2}-?\d{2})/);
-        if (dateMatch) {
-            dateStr = dateMatch[1].replace(/(\d{4})(\d{2})(\d{2})/, '$1-$2-$3');
-        }
+        // STRATEGY CHANGE (User Request): Use File Creation Time (Lead Gen Priority)
+        // Instead of strict filename parsing which blocks future content, we use the actual "Upload Time".
+        const stats = fs.statSync(filePath);
+        const dateStr = stats.birthtime.toISOString().split('T')[0];
+
+        // Remove Time Lock check since birthtime is always past/present
+        // We still log it just for info
+        // console.log(`📄 Resource Time: ${dateStr} (File Creation)`);
 
         const title = filename.replace(ext, '').replace(/^\d{8}-?/, '').replace(/_/g, ' ');
         const slug = generateSlug(title, dateStr);
