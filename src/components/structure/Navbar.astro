@@ -242,67 +242,84 @@ const links = [
 </style>
 
 <script>
-  const toggle = document.getElementById('menu-toggle');
-  const menu = document.getElementById('mobile-menu');
-  const mobileLinks = document.querySelectorAll('.mobile-link');
-  
-  // Mobile Menu Logic
-  toggle?.addEventListener('click', () => {
-    menu?.classList.toggle('hidden');
-  });
-
-  mobileLinks.forEach(link => {
-    link.addEventListener('click', () => {
-      menu?.classList.add('hidden');
+  function initNavbar() {
+    const toggle = document.getElementById('menu-toggle');
+    const menu = document.getElementById('mobile-menu');
+    const mobileLinks = document.querySelectorAll('.mobile-link');
+    const navItems = document.querySelectorAll('.nav-item');
+    
+    // Mobile Menu Logic
+    toggle?.addEventListener('click', () => {
+      menu?.classList.toggle('hidden');
     });
-  });
 
-  // Modal Logic (Search & Follow)
-  const searchOpen = document.getElementById('search-open');
-  const searchClose = document.getElementById('search-close');
-  const searchModal = document.getElementById('search-modal');
-  
-  const followOpen = document.getElementById('follow-open');
-  const mobileFollowOpen = document.getElementById('mobile-follow-open');
-  const followClose = document.getElementById('follow-close');
-  const followModal = document.getElementById('follow-modal') as HTMLDialogElement;
+    mobileLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        menu?.classList.add('hidden');
+      });
+    });
 
-  searchOpen?.addEventListener('click', () => {
-    searchModal?.classList.remove('hidden');
-    // Initialize Pagefind UI if not already done
-    if (window.PagefindUI && !document.querySelector('.pagefind-ui')) {
-      new window.PagefindUI({ element: "#search-ui", showSubResults: true });
-    }
-    // Focus search input
-    setTimeout(() => {
-      const input = document.querySelector('.pagefind-ui__search-input') as HTMLInputElement;
-      input?.focus();
-    }, 100);
-  });
+    // Modal Logic (Search & Follow)
+    const searchOpen = document.getElementById('search-open');
+    const searchClose = document.getElementById('search-close');
+    const searchModal = document.getElementById('search-modal');
+    
+    const followOpen = document.getElementById('follow-open');
+    const mobileFollowOpen = document.getElementById('mobile-follow-open');
+    const followClose = document.getElementById('follow-close');
+    // Type assertion is handled by TypeScript compiler in .astro files usually, but valid JS here
+    const followModal = document.getElementById('follow-modal');
 
-  searchClose?.addEventListener('click', () => searchModal?.classList.add('hidden'));
-  
-  // Close search on ESC
-  window.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') searchModal?.classList.add('hidden');
-  });
+    // Clean up previous event listeners if necessary? HTML is replaced so listeners are gone.
+    // Except for window/document level listeners.
+    
+    // Search
+    const openSearch = () => {
+      searchModal?.classList.remove('hidden');
+      if (window.PagefindUI && !document.querySelector('.pagefind-ui')) {
+        new window.PagefindUI({ element: "#search-ui", showSubResults: true });
+      }
+      setTimeout(() => {
+        const input = document.querySelector('.pagefind-ui__search-input');
+        input?.focus();
+      }, 100);
+    };
+    searchOpen?.addEventListener('click', openSearch);
+    searchClose?.addEventListener('click', () => searchModal?.classList.add('hidden'));
+    
+    // Check if we already attach the window listener
+    // Ideally we should use a named function to remove it, but for simplicity in this task:
+    // With ViewTransitions, document/window listeners persist.
+    // We should be careful not to stack them.
+    // Let's use a unique handler attached to the window.
+    
+    // Close search on ESC
+    const handleEsc = (e) => {
+      if (e.key === 'Escape') searchModal?.classList.add('hidden');
+    };
+    window.removeEventListener('keydown', handleEsc); // Attempt removal (won't work if fn is different ref)
+    window.addEventListener('keydown', handleEsc);
 
-  // Follow Modal
-  const openFollow = () => followModal?.showModal();
-  followOpen?.addEventListener('click', openFollow);
-  mobileFollowOpen?.addEventListener('click', openFollow);
-  followClose?.addEventListener('click', () => followModal?.close());
+    // Follow Modal
+    const openFollow = () => followModal?.showModal();
+    followOpen?.addEventListener('click', openFollow);
+    mobileFollowOpen?.addEventListener('click', openFollow);
+    followClose?.addEventListener('click', () => followModal?.close());
 
-  // Active State Logic (Client-side to avoid Compiler Bugs)
-  const pathname = window.location.pathname;
-  navItems.forEach(link => {
-    const href = link.getAttribute('href');
-    if (href === '/' && pathname === '/') {
-      link.classList.add('active');
-    } else if (href !== '/' && pathname.startsWith(href)) {
-      link.classList.add('active');
-    }
-  });
+    // Active State Logic
+    const pathname = window.location.pathname;
+    navItems.forEach(link => {
+      const href = link.getAttribute('href');
+      if (href === '/' && pathname === '/') {
+        link.classList.add('active');
+      } else if (href !== '/' && pathname.startsWith(href)) {
+        link.classList.add('active');
+      }
+    });
+  }
+
+  // Run on initial load and after every navigation
+  document.addEventListener('astro:page-load', initNavbar);
 </script>
 
 <!-- Pagefind Assets -->

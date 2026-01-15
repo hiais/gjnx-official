@@ -1,290 +1,444 @@
 [
-    {
-        "title": "DVFS (动态电压频率调整)",
-        "category": "能效优化",
-        "tags": [
-            "功耗管理",
-            "SoC",
-            "能效比",
-            "内核调度"
-        ],
-        "description": "Dynamic Voltage and Frequency Scaling，通过实时调整处理器运行电压和频率来降低功耗的核心技术。",
-        "explanation": "DVFS 是现代高性能处理器（CPU/GPU/SoC）功耗管理的核心。其物理基础是 CMOS 电路的动态功耗公式：$P \\propto C \\cdot V^2 \\cdot f$。通过监测系统负载，调度器（如 Linux 的 Schedutil）会在毫秒级内升降电压和频率。关键点在于电压与频率的配对关系（V/F Curve），因为功耗与电压的平方成正比，降低电压带来的节能收益远高于单纯降低频率。",
-        "metrics": [
-            "V/F Curve: 电压与频率的非线性对应关系",
-            "Transition Latency: 状态切换带来的时延惩罚",
-            "Voltage Guardband: 为保证稳定预留的电压裕度"
-        ],
-        "context": "在 2026 年的 AI 手机中，DVFS 已与 AI 负载预测深度融合。通过提前预测 NPU 的突发任务，系统可以在零点几毫秒内‘预热’频率，从而在不发热的前提下保持 UI 的丝滑感。"
-    },
-    {
-        "title": "NPU (神经网络处理单元)",
-        "category": "芯片架构",
-        "tags": [
-            "AI芯片",
-            "算力架构",
-            "硬件加速",
-            "边缘侧AI"
-        ],
-        "description": "专门为加速神经网络矩阵运算设计的专用处理器，是移动设备 AI 能力的基示。",
-        "explanation": "不同于通用 CPU 的串行逻辑或 GPU 的大规模并行图形渲染，NPU 的核心架构是乘累加（MAC）单元阵列。它通过高度优化的‘数据流’架构减少了对内存的频繁访问。现代 NPU 普遍引入了‘稀疏化加速’（Sparse Acceleration）技术，能够自动跳过神经网络中权重为零的运算，从而将实测功耗降低 30% 以上。",
-        "metrics": [
-            "TOPS/W: 每瓦算力回报，移动端 NPU 的核心考核点",
-            "MAC Utilization: 矩阵运算单元的利用率",
-            "Bit-width: 支持的精度（如 INT4/INT8/FP16）"
-        ],
-        "context": "NPU 的出现标志着通用计算时代的终结。在硅基能效视角下，NPU 实际上是通过‘牺牲通用性’来换取‘极致能效’，是摩尔定律失效后的必然选择。"
-    },
-    {
-        "title": "LLM (大语言模型)",
-        "category": "AI 模型",
-        "tags": [
-            "大模型",
-            "Transformer",
-            "自然语言处理",
-            "存算博弈"
-        ],
-        "description": "基于 Transformer 架构的超大规模深度学习模型，推动了认知智能的质变。",
-        "explanation": "LLM 在边缘侧（手机/端侧）的挑战主要在于‘内存墙’。一个 7B 参数的模型即使经过 INT4 量化，也需要占用近 4GB 的显存带宽。推理过程中的 KV Cache 增长更是会导致内存占用呈平方级上升。因此，端侧 LLM 的性能往往不取决于 NPU 算力，而取决于 LPDDR 内存的带宽和延迟。",
-        "metrics": [
-            "Tokens/s: 每一秒模型能生成的词数",
-            "Prefill Latency: 首次响应时间",
-            "Context Window: 上下文窗口容量"
-        ],
-        "context": "2026 年的趋势是驱动‘模型蒸馏’与‘硬件协同’。当模型知道 NPU 的底层 Cache 长度时，生成的代码效率会提高一个量级。这正是苹果 A 系列芯片保持霸主地位的阳谋。"
-    },
-    {
-        "title": "SOH (电池健康状态)",
-        "category": "电池技术",
-        "tags": [
-            "锂电池",
-            "能源管理",
-            "全周期寿命",
-            "安全监控"
-        ],
-        "description": "State of Health，衡量电池相对于新状态时的性能退化程度。",
-        "explanation": "SOH 不仅仅是电量的缩放。它反映了电池内部活性物质的减少、SEI 膜的增厚以及欧姆内阻的上升。传统算法通过库仑计（Current Integration）估算，而现代硅基能效系统利用 AI 电化学阻抗谱分析，能够识别锂枝晶的具体生长阶段，实现真正的‘主动安全’。",
-        "metrics": [
-            "Capacity Fade: 容量衰减百分比",
-            "Resistance Increase: 内阻增长倍率",
-            "Cycle Life: 循环寿命极限"
-        ],
-        "context": "电池不再是黑盒。2026 年的能源管理系统将 SOH 视为动态变量。当 SOH 降至 85% 以下，系统的峰值功耗限制策略（DVFS 阈值）会联动调整，以防大电流瞬间触发电池欠压保护导致关机。"
-    },
-    {
-        "title": "PUE (电源使用效率)",
-        "category": "算力基础设施",
-        "tags": [
-            "数据中心",
-            "液冷散热",
-            "绿色计算",
-            "基础设施"
-        ],
-        "description": "衡量数据中心电源利用效率的标准指标，越接近 1.0 代表效率越高。",
-        "explanation": "计算公式为：PUE = 数据中心总能耗 / IT 设备能耗。在 AI 总功耗飙升的背景下，PUE 的 0.1 级降低意味着数亿元的电费节省。现代智算中心已普遍采用‘全液冷’架构，通过取消风扇和提升进水温度，目标将 PUE 压制在 1.1 甚至更低。",
-        "metrics": [
-            "WUE: 水利用效率（耗水量）",
-            "CUE: 碳利用效率",
-            "pPUE: 局部电源利用效率"
-        ],
-        "context": "PUE 已从单纯的工程指标演变为政策红线。在 2026 年，不达标的 PUE 意味着无法获取新增算力指标。这就是为什么即便在极端环境，顶级厂商也要强推浸没式液冷（Immersion Cooling）的原因。"
-    },
-    {
-        "title": "TCO (总拥有成本)",
-        "category": "商业指标",
-        "tags": [
-            "算力经济",
-            "投资回报",
-            "运维成本",
-            "芯片选型"
-        ],
-        "description": "Total Cost of Ownership，硬件生命周期内的总购入与运行成本。",
-        "explanation": "在硅基时代，TCO 的重心已从 CapEx（固定资产投入）转向 OpEx（运维/电费支出）。一张顶级显卡的购入成本可能仅占其 3 年电费支出的 40%。计算高能效芯片的 TCO 必须加入‘折旧保护’和‘碳税因子’，因为低能效设备注定会在更短的时间内被市场淘汰。",
-        "metrics": [
-            "ROI: 投资回报率",
-            "Payback Period: 成本回收期",
-            "Power Density: 单机柜功率密度"
-        ],
-        "context": "很多高性价比硬件往往是 TCO 的陷阱。硅基能效的核心逻辑，就是用昂贵的初期投资换取指数级降低的运行能耗，从而在生命周期末端获得最大利润。"
-    },
-    {
-        "title": "PIM (存内计算)",
-        "category": "前沿架构",
-        "tags": [
-            "新型芯片",
-            "存储墙",
-            "HBM",
-            "存算一体"
-        ],
-        "description": "Processing In Memory，将计算单元直接内置于存储器，彻底打破冯·诺依曼瓶颈。",
-        "explanation": "传统架构中，90% 的能量损耗发生在数据从内存‘搬运’到处理器的过程中（冯·诺依曼墙）。PIM 将计算（如向量乘法）放在 HBM 或 SRAM 的感测放大器层级完成，让数据‘原地计算’。这对于大规模矩阵运算具有降维打击级的能效提升。",
-        "metrics": [
-            "Energy-Delay Product: 能耗延迟乘积",
-            "Data Movement Penalty: 数据搬运功耗占比",
-            "Bandwidth Density: 存储带宽密度"
-        ],
-        "context": "PIM 是硅基文明的‘空间折叠’技术。当存储即计算时，主频将不再重要。未来的 AI 芯片将不再以 GHz 论英雄，而是看它能‘少搬动多少字节’。"
-    },
-    {
-        "title": "PWM (脉冲宽度调制)",
-        "category": "显示技术",
-        "tags": [
-            "护眼策略",
-            "OLED",
-            "屏显驱动",
-            "节能技术"
-        ],
-        "description": "通过高频开关光源来调节屏幕亮度，是现代护眼与能效平衡的关键技术。",
-        "explanation": "不同于模拟调光（DC Dimming），PWM 始终让像素点以最大功率工作，但通过控制每一秒内‘亮起’的百分比来欺骗人眼的占空比。其核心难点在于‘频闪’（Flicker）与能耗。极高频（如 3840Hz 或 4320Hz）PWM 会增加显示驱动电路的功耗，但能大幅减轻用户的视疲劳。",
-        "metrics": [
-            "Duty Cycle: 占空比",
-            "Flicker Frequency: 频闪频率",
-            "SVM: 频闪效应可见性指标"
-        ],
-        "context": "PWM 既是护眼技术，也是节能诡计。在 OLED 低亮度下，DC 调光会导致偏色（Mura 现象），而 PWM 利用数字精确性完美解决了这个问题。2026 年，‘全局高频 PWM’已成为旗舰手机的能效标配。"
-    },
-    {
-        "title": "Intel 18A",
-        "category": "半导体工艺",
-        "tags": [
-            "英特尔",
-            "背面供电",
-            "制程节点",
-            "RibbonFET"
-        ],
-        "description": "英特尔埃米级代工制程，引入了背面供电（PowerVia）与全环绕栅极（RibbonFET）。",
-        "explanation": "18A 标志着摩尔定律重回物理层。背面供电（BSPDN）将复杂的供电线路从芯片正面剥离，移至晶圆背面，这解决了高密度下的信号干扰和功率跌落（IR Drop）问题。而 RibbonFET 则提供了更强的电流控制能力，相比 FinFET 极大地压制了漏电流产生的无效热功耗。",
-        "metrics": [
-            "A (Angstrom): 埃米，十亿分之一米",
-            "CPP: 接触栅极间距",
-            "Drive Current: 驱动电流强度"
-        ],
-        "context": "如果说 CPU 是城市，PowerVia 就是把地面的层层高架桥移入了地下隧道。Intel 18A 之所以被视为英特尔的‘翻身仗’，正是因为它在工艺层面回归了对能效最本质的掌控。"
-    },
-    {
-        "title": "SRAM (静态随机存取存储器)",
-        "category": "存储技术",
-        "tags": [
-            "缓存Cache",
-            "存储架构",
-            "漏电功耗",
-            "芯片面积"
-        ],
-        "description": "作为 CPU/GPU 的高速缓存，存储速度极快，是寄存器之后的第一道缓冲区。",
-        "explanation": "SRAM 依赖六管（6T）结构，不需要像 DRAM 那样频繁刷新电荷，因此响应速度快且不需要动态刷新功耗。然而，其代价是物理体积巨大且极其昂贵。随着制程进入 2nm 时代，SRAM 的缩放已经停滞（Silicon Scaling Limit），这导致了现代芯片中 L3 缓存占据了极大的面积百分比。",
-        "metrics": [
-            "L1/L2/L3 Cache Size: 缓存定级容量",
-            "Static Leakage: 静态漏电流状态",
-            "Latency: 周期感应时延"
-        ],
-        "context": "未来的高性能 SoC 实际上就是一堆 SRAM 包裹着几个核心。在硅基能效博弈中，如何用尽可能少的 SRAM 实现最高的命中率（Hit Rate），是架构师每日的‘修辞学’。"
-    },
-    {
-        "title": "DRAM (动态随机存取存储器)",
-        "category": "存储技术",
-        "tags": [
-            "主内存",
-            "LPDDR5X",
-            "HBM",
-            "刷新周期"
-        ],
-        "description": "计算系统的主内存，利用电容存储电荷，是现代大规模异构计算的枢纽。",
-        "explanation": "DRAM 的核心是 1T1C（一管一电容）结构。因为电荷会自然流失，它必须每隔几十毫秒‘充电’一次（Refresh）。这部分刷新功耗占据了待机漏电的极大比例。在 LPDDR5X/6 标准中，厂商引入了部分刷新延迟（Partial Refresh）和 AI 预充取逻辑，以最大化压榨能效。",
-        "metrics": [
-            "Bandwidth: 吞吐带宽",
-            "CAS Latency: 列选通潜伏期",
-            "Voltage Level: 工作电压等级 (VDD2/VDDQ)"
-        ],
-        "context": "在 AI 爆发的今天，DRAM 已经不是配件，而是主菜。HBM 实质上就是把 DRAM 像摩天大楼一样叠起来并拉近与处理器的物理距离，目标只有一个：在每一焦耳能量耗尽前，搬运更多的数据。"
-    },
-    {
-        "title": "TDP (热设计功耗)",
-        "category": "硬件参数",
-        "tags": [
-            "散热性能",
-            "功率包络",
-            "性能调度",
-            "PL限制"
-        ],
-        "description": "硬件在最重负载下能产生的最大热量指标，并不是其真实实时功耗。",
-        "explanation": "TDP 的真实职能是给散热工程师的‘说明书’。现代处理器具备 PL1（稳态）/PL2（瞬间加速）/PL3 等多级功率状态。一个标称 TDP 35W 的芯片，在瞬间爆发时可能飙升至 80W 以上。盲目追求低 TDP 往往意味着丧失了瞬发响应能力。",
-        "metrics": [
-            "PL1/PL2: 稳态/爆发功耗界限",
-            "Tau: 爆发维持时间常数",
-            "T-junction: 核心允许最高温度"
-        ],
-        "context": "TDP 是最容易引起误解的商业标签。硅基能效视角下，优秀的系统设计应该允许‘瞬间超频’后迅速落回‘高能效甜点区’，而不是永远死守一个固定的功率值。"
-    },
-    {
-        "title": "TOPS (万亿次运算每秒)",
-        "category": "算力指标",
-        "description": "Tera Operations Per Second，衡量 AI 算力峰值的粗暴指标。",
-        "tags": [
-            "算力峰值",
-            "AI规格",
-            "MAC单元",
-            "性能虚标"
-        ],
-        "explanation": "它是‘并行计算单元数量’与‘时钟频率’的乘积。然而，单纯的 TOPS 毫无意义，因为它没考虑到内存访问效率。一个标称 45 TOPS 但显存带宽受限的 NPU，在运行 LLM 时可能还不如一个 10 TOPS 但具备高位宽总线的旧显卡。真正决定 AI 使用体验的是‘落地的利用率’。",
-        "metrics": [
-            "Effective TOPS: 真实有效算力",
-            "Quantized Performance: 定点运算性能对比",
-            "MAC Density: 计算单元密度"
-        ],
-        "context": "如果你只看 TOPS 买电脑，那你正中厂商下怀。真正的硬核指标应该是每瓦能跑多少个 Token。记住：堆算力易，省电力难。"
-    },
-    {
-        "title": "ISP (图像信号处理器)",
-        "category": "芯片架构",
-        "tags": [
-            "图像计算",
-            "影像旗舰",
-            "ISP-NPU融合",
-            "低功耗影像"
-        ],
-        "description": "负责处理相机原始信号的硬件模组，是手机‘计算摄影’的核心灵魂。",
-        "explanation": "现代 ISP 已不再是单纯的‘调色盘’。它负责 3D 去噪、多帧合成（HDR）以及复杂的肤色映射。在 AI 手机中，ISP 正与 NPU 深度绑定（AI-ISP），通过在图像流水线的前端引入 AI 模型，在 raw 域就完成噪点压制，从而在夜景拍摄时减少 50% 的画面纯净度损失。",
-        "metrics": [
-            "Throughput (GP/s): 每秒千兆像素处理量",
-            "Pipeline Latency: 快门响应时延",
-            "Supported Stream: 多摄同步处理能力"
-        ],
-        "context": "拍照时的‘发热感’主要来自 ISP。优秀的能效设计能在每秒处理亿级像素的同时，通过硬件级闭环算法控制电压，让你的手指感觉不到传感器在‘疯狂吞噬’光子过程中产生的热能。"
-    },
-    {
-        "title": "PMIC (电源管理集成电路)",
-        "category": "硬件组件",
-        "tags": [
-            "供电系统",
-            "转换效率",
-            "电压调节",
-            "待机功耗"
-        ],
-        "description": "负责整机电压转换、电流分配与电池监测的‘心脏分流器’。",
-        "explanation": "PMIC 的职责是将电池的高压降压（Buck）或升压（Boost）给精准的负载。比如 CPU 需要 0.825V，如果偏离 0.01V，稳定性或功耗就会失衡。先进的分布式 PMIC (dPMIC) 将调节器离芯片核心更近，极大地减少了线路损耗，转换效率可提升至 90% 以上。",
-        "metrics": [
-            "Conversion Efficiency: 电压转换效率",
-            "Static Current: 自身待机静态电流",
-            "Response Speed: 瞬态负载响应（Load Transient）"
-        ],
-        "context": "如果主控是‘大脑’，PMIC 就是‘造血系统’。在 2026 年，屏幕、5G 基带和 SOC 都有各自独立的 AI-PMIC。它们能通过感知应用场景预判电流突发，提前收紧电压‘水龙头’，这是系统级节能的最大隐形冠军。"
-    },
-    {
-        "title": "PPW (每瓦性能回报)",
-        "category": "能效评价",
-        "tags": [
-            "能效黄金准则",
-            "性能分析",
-            "散热限制",
-            "续航博弈"
-        ],
-        "description": "Performance Per Watt，硅基能效时代的至高法则，决定了移动设备的生产力上限。",
-        "explanation": "单纯追求性能是暴力美学，追求 PPW 才是精密工程。它反映了一个架构是否优雅地利用了晶体管资源。在同等电池容量下，更高 PPW 的设备意味着更长的续航、更低的工作温度和更高频率的突发性能维持力。它是评价一切芯片（尤其是 Arm vs x86）的基石指标。",
-        "metrics": [
-            "Energy Efficiency Index: 能效系数",
-            "Performance Envelope: 性能包络线",
-            "Thermal Constraint Score: 散热受限下的得分"
-        ],
-        "context": "在 2026 年，如果你还不懂 PPW，你将无法理解为什么苹果敢推出没有风扇的笔记本，更无法理解为什么电竞手机要背一个笨重的冷夹。一切架构战争的终点，皆是 PPW。"
-    }
+  {
+    "title": "DVFS (动态电压频率调整)",
+    "category": "能效优化",
+    "tags": [
+      "功耗管理",
+      "SoC",
+      "能效比",
+      "内核调度"
+    ],
+    "description": "Dynamic Voltage and Frequency Scaling，通过实时调整处理器运行电压和频率来降低功耗的核心技术。",
+    "explanation": "DVFS 是现代高性能处理器（CPU/GPU/SoC）功耗管理的核心。其物理基础是 CMOS 电路的动态功耗公式：$P \\propto C \\cdot V^2 \\cdot f$。通过监测系统负载，调度器（如 Linux 的 Schedutil）会在毫秒级内升降电压和频率。关键点在于电压与频率的配对关系（V/F Curve），因为功耗与电压的平方成正比，降低电压带来的节能收益远高于单纯降低频率。",
+    "metrics": [
+      "V/F Curve: 电压与频率的非线性对应关系",
+      "Transition Latency: 状态切换带来的时延惩罚",
+      "Voltage Guardband: 为保证稳定预留的电压裕度"
+    ],
+    "context": "在 2026 年的 AI 手机中，DVFS 已与 AI 负载预测深度融合。通过提前预测 NPU 的突发任务，系统可以在零点几毫秒内‘预热’频率，从而在不发热的前提下保持 UI 的丝滑感。"
+  },
+  {
+    "title": "NPU (神经网络处理单元)",
+    "category": "芯片架构",
+    "tags": [
+      "AI芯片",
+      "算力架构",
+      "硬件加速",
+      "边缘侧AI"
+    ],
+    "description": "专门为加速神经网络矩阵运算设计的专用处理器，是移动设备 AI 能力的基示。",
+    "explanation": "不同于通用 CPU 的串行逻辑或 GPU 的大规模并行图形渲染，NPU 的核心架构是乘累加（MAC）单元阵列。它通过高度优化的‘数据流’架构减少了对内存的频繁访问。现代 NPU 普遍引入了‘稀疏化加速’（Sparse Acceleration）技术，能够自动跳过神经网络中权重为零的运算，从而将实测功耗降低 30% 以上。",
+    "metrics": [
+      "TOPS/W: 每瓦算力回报，移动端 NPU 的核心考核点",
+      "MAC Utilization: 矩阵运算单元的利用率",
+      "Bit-width: 支持的精度（如 INT4/INT8/FP16）"
+    ],
+    "context": "NPU 的出现标志着通用计算时代的终结。在硅基能效视角下，NPU 实际上是通过‘牺牲通用性’来换取‘极致能效’，是摩尔定律失效后的必然选择。"
+  },
+  {
+    "title": "LLM (大语言模型)",
+    "category": "AI 模型",
+    "tags": [
+      "大模型",
+      "Transformer",
+      "自然语言处理",
+      "存算博弈"
+    ],
+    "description": "基于 Transformer 架构的超大规模深度学习模型，推动了认知智能的质变。",
+    "explanation": "LLM 在边缘侧（手机/端侧）的挑战主要在于‘内存墙’。一个 7B 参数的模型即使经过 INT4 量化，也需要占用近 4GB 的显存带宽。推理过程中的 KV Cache 增长更是会导致内存占用呈平方级上升。因此，端侧 LLM 的性能往往不取决于 NPU 算力，而取决于 LPDDR 内存的带宽和延迟。",
+    "metrics": [
+      "Tokens/s: 每一秒模型能生成的词数",
+      "Prefill Latency: 首次响应时间",
+      "Context Window: 上下文窗口容量"
+    ],
+    "context": "2026 年的趋势是驱动‘模型蒸馏’与‘硬件协同’。当模型知道 NPU 的底层 Cache 长度时，生成的代码效率会提高一个量级。这正是苹果 A 系列芯片保持霸主地位的阳谋。"
+  },
+  {
+    "title": "SOH (电池健康状态)",
+    "category": "电池技术",
+    "tags": [
+      "锂电池",
+      "能源管理",
+      "全周期寿命",
+      "安全监控"
+    ],
+    "description": "State of Health，衡量电池相对于新状态时的性能退化程度。",
+    "explanation": "SOH 不仅仅是电量的缩放。它反映了电池内部活性物质的减少、SEI 膜的增厚以及欧姆内阻的上升。传统算法通过库仑计（Current Integration）估算，而现代硅基能效系统利用 AI 电化学阻抗谱分析，能够识别锂枝晶的具体生长阶段，实现真正的‘主动安全’。",
+    "metrics": [
+      "Capacity Fade: 容量衰减百分比",
+      "Resistance Increase: 内阻增长倍率",
+      "Cycle Life: 循环寿命极限"
+    ],
+    "context": "电池不再是黑盒。2026 年的能源管理系统将 SOH 视为动态变量。当 SOH 降至 85% 以下，系统的峰值功耗限制策略（DVFS 阈值）会联动调整，以防大电流瞬间触发电池欠压保护导致关机。"
+  },
+  {
+    "title": "PUE (电源使用效率)",
+    "category": "算力基础设施",
+    "tags": [
+      "数据中心",
+      "液冷散热",
+      "绿色计算",
+      "基础设施"
+    ],
+    "description": "衡量数据中心电源利用效率的标准指标，越接近 1.0 代表效率越高。",
+    "explanation": "计算公式为：PUE = 数据中心总能耗 / IT 设备能耗。在 AI 总功耗飙升的背景下，PUE 的 0.1 级降低意味着数亿元的电费节省。现代智算中心已普遍采用‘全液冷’架构，通过取消风扇和提升进水温度，目标将 PUE 压制在 1.1 甚至更低。",
+    "metrics": [
+      "WUE: 水利用效率（耗水量）",
+      "CUE: 碳利用效率",
+      "pPUE: 局部电源利用效率"
+    ],
+    "context": "PUE 已从单纯的工程指标演变为政策红线。在 2026 年，不达标的 PUE 意味着无法获取新增算力指标。这就是为什么即便在极端环境，顶级厂商也要强推浸没式液冷（Immersion Cooling）的原因。"
+  },
+  {
+    "title": "TCO (总拥有成本)",
+    "category": "商业指标",
+    "tags": [
+      "算力经济",
+      "投资回报",
+      "运维成本",
+      "芯片选型"
+    ],
+    "description": "Total Cost of Ownership，硬件生命周期内的总购入与运行成本。",
+    "explanation": "在硅基时代，TCO 的重心已从 CapEx（固定资产投入）转向 OpEx（运维/电费支出）。一张顶级显卡的购入成本可能仅占其 3 年电费支出的 40%。计算高能效芯片的 TCO 必须加入‘折旧保护’和‘碳税因子’，因为低能效设备注定会在更短的时间内被市场淘汰。",
+    "metrics": [
+      "ROI: 投资回报率",
+      "Payback Period: 成本回收期",
+      "Power Density: 单机柜功率密度"
+    ],
+    "context": "很多高性价比硬件往往是 TCO 的陷阱。硅基能效的核心逻辑，就是用昂贵的初期投资换取指数级降低的运行能耗，从而在生命周期末端获得最大利润。"
+  },
+  {
+    "title": "PIM (存内计算)",
+    "category": "前沿架构",
+    "tags": [
+      "新型芯片",
+      "存储墙",
+      "HBM",
+      "存算一体"
+    ],
+    "description": "Processing In Memory，将计算单元直接内置于存储器，彻底打破冯·诺依曼瓶颈。",
+    "explanation": "传统架构中，90% 的能量损耗发生在数据从内存‘搬运’到处理器的过程中（冯·诺依曼墙）。PIM 将计算（如向量乘法）放在 HBM 或 SRAM 的感测放大器层级完成，让数据‘原地计算’。这对于大规模矩阵运算具有降维打击级的能效提升。",
+    "metrics": [
+      "Energy-Delay Product: 能耗延迟乘积",
+      "Data Movement Penalty: 数据搬运功耗占比",
+      "Bandwidth Density: 存储带宽密度"
+    ],
+    "context": "PIM 是硅基文明的‘空间折叠’技术。当存储即计算时，主频将不再重要。未来的 AI 芯片将不再以 GHz 论英雄，而是看它能‘少搬动多少字节’。"
+  },
+  {
+    "title": "PWM (脉冲宽度调制)",
+    "category": "显示技术",
+    "tags": [
+      "护眼策略",
+      "OLED",
+      "屏显驱动",
+      "节能技术"
+    ],
+    "description": "通过高频开关光源来调节屏幕亮度，是现代护眼与能效平衡的关键技术。",
+    "explanation": "不同于模拟调光（DC Dimming），PWM 始终让像素点以最大功率工作，但通过控制每一秒内‘亮起’的百分比来欺骗人眼的占空比。其核心难点在于‘频闪’（Flicker）与能耗。极高频（如 3840Hz 或 4320Hz）PWM 会增加显示驱动电路的功耗，但能大幅减轻用户的视疲劳。",
+    "metrics": [
+      "Duty Cycle: 占空比",
+      "Flicker Frequency: 频闪频率",
+      "SVM: 频闪效应可见性指标"
+    ],
+    "context": "PWM 既是护眼技术，也是节能诡计。在 OLED 低亮度下，DC 调光会导致偏色（Mura 现象），而 PWM 利用数字精确性完美解决了这个问题。2026 年，‘全局高频 PWM’已成为旗舰手机的能效标配。"
+  },
+  {
+    "title": "Intel 18A",
+    "category": "半导体工艺",
+    "tags": [
+      "英特尔",
+      "背面供电",
+      "制程节点",
+      "RibbonFET"
+    ],
+    "description": "英特尔埃米级代工制程，引入了背面供电（PowerVia）与全环绕栅极（RibbonFET）。",
+    "explanation": "18A 标志着摩尔定律重回物理层。背面供电（BSPDN）将复杂的供电线路从芯片正面剥离，移至晶圆背面，这解决了高密度下的信号干扰和功率跌落（IR Drop）问题。而 RibbonFET 则提供了更强的电流控制能力，相比 FinFET 极大地压制了漏电流产生的无效热功耗。",
+    "metrics": [
+      "A (Angstrom): 埃米，十亿分之一米",
+      "CPP: 接触栅极间距",
+      "Drive Current: 驱动电流强度"
+    ],
+    "context": "如果说 CPU 是城市，PowerVia 就是把地面的层层高架桥移入了地下隧道。Intel 18A 之所以被视为英特尔的‘翻身仗’，正是因为它在工艺层面回归了对能效最本质的掌控。"
+  },
+  {
+    "title": "SRAM (静态随机存取存储器)",
+    "category": "存储技术",
+    "tags": [
+      "缓存Cache",
+      "存储架构",
+      "漏电功耗",
+      "芯片面积"
+    ],
+    "description": "作为 CPU/GPU 的高速缓存，存储速度极快，是寄存器之后的第一道缓冲区。",
+    "explanation": "SRAM 依赖六管（6T）结构，不需要像 DRAM 那样频繁刷新电荷，因此响应速度快且不需要动态刷新功耗。然而，其代价是物理体积巨大且极其昂贵。随着制程进入 2nm 时代，SRAM 的缩放已经停滞（Silicon Scaling Limit），这导致了现代芯片中 L3 缓存占据了极大的面积百分比。",
+    "metrics": [
+      "L1/L2/L3 Cache Size: 缓存定级容量",
+      "Static Leakage: 静态漏电流状态",
+      "Latency: 周期感应时延"
+    ],
+    "context": "未来的高性能 SoC 实际上就是一堆 SRAM 包裹着几个核心。在硅基能效博弈中，如何用尽可能少的 SRAM 实现最高的命中率（Hit Rate），是架构师每日的‘修辞学’。"
+  },
+  {
+    "title": "DRAM (动态随机存取存储器)",
+    "category": "存储技术",
+    "tags": [
+      "主内存",
+      "LPDDR5X",
+      "HBM",
+      "刷新周期"
+    ],
+    "description": "计算系统的主内存，利用电容存储电荷，是现代大规模异构计算的枢纽。",
+    "explanation": "DRAM 的核心是 1T1C（一管一电容）结构。因为电荷会自然流失，它必须每隔几十毫秒‘充电’一次（Refresh）。这部分刷新功耗占据了待机漏电的极大比例。在 LPDDR5X/6 标准中，厂商引入了部分刷新延迟（Partial Refresh）和 AI 预充取逻辑，以最大化压榨能效。",
+    "metrics": [
+      "Bandwidth: 吞吐带宽",
+      "CAS Latency: 列选通潜伏期",
+      "Voltage Level: 工作电压等级 (VDD2/VDDQ)"
+    ],
+    "context": "在 AI 爆发的今天，DRAM 已经不是配件，而是主菜。HBM 实质上就是把 DRAM 像摩天大楼一样叠起来并拉近与处理器的物理距离，目标只有一个：在每一焦耳能量耗尽前，搬运更多的数据。"
+  },
+  {
+    "title": "TDP (热设计功耗)",
+    "category": "硬件参数",
+    "tags": [
+      "散热性能",
+      "功率包络",
+      "性能调度",
+      "PL限制"
+    ],
+    "description": "硬件在最重负载下能产生的最大热量指标，并不是其真实实时功耗。",
+    "explanation": "TDP 的真实职能是给散热工程师的‘说明书’。现代处理器具备 PL1（稳态）/PL2（瞬间加速）/PL3 等多级功率状态。一个标称 TDP 35W 的芯片，在瞬间爆发时可能飙升至 80W 以上。盲目追求低 TDP 往往意味着丧失了瞬发响应能力。",
+    "metrics": [
+      "PL1/PL2: 稳态/爆发功耗界限",
+      "Tau: 爆发维持时间常数",
+      "T-junction: 核心允许最高温度"
+    ],
+    "context": "TDP 是最容易引起误解的商业标签。硅基能效视角下，优秀的系统设计应该允许‘瞬间超频’后迅速落回‘高能效甜点区’，而不是永远死守一个固定的功率值。"
+  },
+  {
+    "title": "TOPS (万亿次运算每秒)",
+    "category": "算力指标",
+    "description": "Tera Operations Per Second，衡量 AI 算力峰值的粗暴指标。",
+    "tags": [
+      "算力峰值",
+      "AI规格",
+      "MAC单元",
+      "性能虚标"
+    ],
+    "explanation": "它是‘并行计算单元数量’与‘时钟频率’的乘积。然而，单纯的 TOPS 毫无意义，因为它没考虑到内存访问效率。一个标称 45 TOPS 但显存带宽受限的 NPU，在运行 LLM 时可能还不如一个 10 TOPS 但具备高位宽总线的旧显卡。真正决定 AI 使用体验的是‘落地的利用率’。",
+    "metrics": [
+      "Effective TOPS: 真实有效算力",
+      "Quantized Performance: 定点运算性能对比",
+      "MAC Density: 计算单元密度"
+    ],
+    "context": "如果你只看 TOPS 买电脑，那你正中厂商下怀。真正的硬核指标应该是每瓦能跑多少个 Token。记住：堆算力易，省电力难。"
+  },
+  {
+    "title": "ISP (图像信号处理器)",
+    "category": "芯片架构",
+    "tags": [
+      "图像计算",
+      "影像旗舰",
+      "ISP-NPU融合",
+      "低功耗影像"
+    ],
+    "description": "负责处理相机原始信号的硬件模组，是手机‘计算摄影’的核心灵魂。",
+    "explanation": "现代 ISP 已不再是单纯的‘调色盘’。它负责 3D 去噪、多帧合成（HDR）以及复杂的肤色映射。在 AI 手机中，ISP 正与 NPU 深度绑定（AI-ISP），通过在图像流水线的前端引入 AI 模型，在 raw 域就完成噪点压制，从而在夜景拍摄时减少 50% 的画面纯净度损失。",
+    "metrics": [
+      "Throughput (GP/s): 每秒千兆像素处理量",
+      "Pipeline Latency: 快门响应时延",
+      "Supported Stream: 多摄同步处理能力"
+    ],
+    "context": "拍照时的‘发热感’主要来自 ISP。优秀的能效设计能在每秒处理亿级像素的同时，通过硬件级闭环算法控制电压，让你的手指感觉不到传感器在‘疯狂吞噬’光子过程中产生的热能。"
+  },
+  {
+    "title": "PMIC (电源管理集成电路)",
+    "category": "硬件组件",
+    "tags": [
+      "供电系统",
+      "转换效率",
+      "电压调节",
+      "待机功耗"
+    ],
+    "description": "负责整机电压转换、电流分配与电池监测的‘心脏分流器’。",
+    "explanation": "PMIC 的职责是将电池的高压降压（Buck）或升压（Boost）给精准的负载。比如 CPU 需要 0.825V，如果偏离 0.01V，稳定性或功耗就会失衡。先进的分布式 PMIC (dPMIC) 将调节器离芯片核心更近，极大地减少了线路损耗，转换效率可提升至 90% 以上。",
+    "metrics": [
+      "Conversion Efficiency: 电压转换效率",
+      "Static Current: 自身待机静态电流",
+      "Response Speed: 瞬态负载响应（Load Transient）"
+    ],
+    "context": "如果主控是‘大脑’，PMIC 就是‘造血系统’。在 2026 年，屏幕、5G 基带和 SOC 都有各自独立的 AI-PMIC。它们能通过感知应用场景预判电流突发，提前收紧电压‘水龙头’，这是系统级节能的最大隐形冠军。"
+  },
+  {
+    "title": "PPW (每瓦性能回报)",
+    "category": "能效评价",
+    "tags": [
+      "能效黄金准则",
+      "性能分析",
+      "散热限制",
+      "续航博弈"
+    ],
+    "description": "Performance Per Watt，硅基能效时代的至高法则，决定了移动设备的生产力上限。",
+    "explanation": "单纯追求性能是暴力美学，追求 PPW 才是精密工程。它反映了一个架构是否优雅地利用了晶体管资源。在同等电池容量下，更高 PPW 的设备意味着更长的续航、更低的工作温度和更高频率的突发性能维持力。它是评价一切芯片（尤其是 Arm vs x86）的基石指标。",
+    "metrics": [
+      "Energy Efficiency Index: 能效系数",
+      "Performance Envelope: 性能包络线",
+      "Thermal Constraint Score: 散热受限下的得分"
+    ],
+    "context": "在 2026 年，如果你还不懂 PPW，你将无法理解为什么苹果敢推出没有风扇的笔记本，更无法理解为什么电竞手机要背一个笨重的冷夹。一切架构战争的终点，皆是 PPW。"
+  },
+  {
+    "title": "SOC (剩余电量)",
+    "category": "Auto-Mined",
+    "description": "全称：SOC，中文释义：剩余电量。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...stem) 算法在面对现代锂离子电池时的无力感。目前的手机 BMS 主要依赖两大核心算法来估算 SOC (剩余电量) 和 SOH (健康状态)：\r \r 1.  安时积分法 (Coulomb Counting)：\r     这是最基础的逻辑——计算流进多少电流，流出多少电流。\r     $...",
+    "tags": [
+      "Auto-Gen",
+      "SOC"
+    ]
+  },
+  {
+    "title": "CNN (卷积神经网络)",
+    "category": "Auto-Mined",
+    "description": "全称：CNN，中文释义：卷积神经网络。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...络模型的介入\r 提取出 ICA/DVA 特征序列后，我们就可以将其喂给深度学习模型：\r \r  CNN (卷积神经网络)： 不要以为 CNN 只能做图像识别。如果我们把充电过程中的电压、电流、温度曲线看作一张“图片”，CNN 可以极快地识别出其中的衰退特征模式。\r  LSTM / GR...",
+    "tags": [
+      "Auto-Gen",
+      "CNN"
+    ]
+  },
+  {
+    "title": "GRU (循环神经网络)",
+    "category": "Auto-Mined",
+    "description": "全称：GRU，中文释义：循环神经网络。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...流、温度曲线看作一张“图片”，CNN 可以极快地识别出其中的衰退特征模式。\r  LSTM / GRU (循环神经网络)： 电池的老化是一个时间序列过程。今天的 SOH 状态受过去 500 次循环历史的影响。LSTM 能够通过“记忆门”机制，捕捉长周期的老化依赖关系。\r \r 模型...",
+    "tags": [
+      "Auto-Gen",
+      "GRU"
+    ]
+  },
+  {
+    "title": "SVR (支持向量回归)",
+    "category": "Auto-Mined",
+    "description": "全称：SVR，中文释义：支持向量回归。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...。利用手机 SoC 强大的 NPU 能力，接管 BMS 的数据。\r \r  技术路径： 将 SVR (支持向量回归) 或 剪枝后的 MLP (多层感知机) 量化为 INT8 格式。\r  优势： 隐私安全，无需上传用户数据；实时性强，断网也能保护电池。\r  挑战...",
+    "tags": [
+      "Auto-Gen",
+      "SVR"
+    ]
+  },
+  {
+    "title": "MLP (多层感知机)",
+    "category": "Auto-Mined",
+    "description": "全称：MLP，中文释义：多层感知机。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...，接管 BMS 的数据。\r \r  技术路径： 将 SVR (支持向量回归) 或 剪枝后的 MLP (多层感知机) 量化为 INT8 格式。\r  优势： 隐私安全，无需上传用户数据；实时性强，断网也能保护电池。\r  挑战： 需要打通 BMS 芯片到主 So...",
+    "tags": [
+      "Auto-Gen",
+      "MLP"
+    ]
+  },
+  {
+    "title": "BNN (二值化网络)",
+    "category": "Auto-Mined",
+    "description": "全称：BNN，中文释义：二值化网络。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...：神经网络中对精度敏感的层保留 INT8 甚至 FP16，而大量的冗余层将被压缩到 INT4 甚至 BNN (二值化网络)。\r \r ---\r \r  六、 结语 (Conclusion)\r \r 在 AI 的学术界，大家刷榜比拼的是 Accuracy (准确率)；但在移动端的工程界，我们信奉...",
+    "tags": [
+      "Auto-Gen",
+      "BNN"
+    ]
+  },
+  {
+    "title": "UDC (统一数据中心)",
+    "category": "Auto-Mined",
+    "description": "全称：UDC，中文释义：统一数据中心。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...效飞跃，需要 SoC 厂商和 OS 厂商的深度融合。\r \r 1. 高通的“统一调度”策略\r 高通的 UDC (统一数据中心) 架构在此发挥了关键作用。由于 CPU、NPU 和 GPU 共享内存，Agent Router 在执行 Function Call 时，能够更精确地在系统空闲期调度任务，并保证...",
+    "tags": [
+      "Auto-Gen",
+      "UDC"
+    ]
+  },
+  {
+    "title": "DAG (有向无环图)",
+    "category": "Auto-Mined",
+    "description": "全称：DAG，中文释义：有向无环图。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...Data-Dependency) 的并行编程模型。调度器不再是盲目分配时间片，而是维护一张 DAG (有向无环图)。\r \r > 工程实例：\r > 任务 A (CPU 解码) $\\rightarrow$ 任务 B (NPU 推理) $\\rightarrow$ 任务 C (GPU 渲...",
+    "tags": [
+      "Auto-Gen",
+      "DAG"
+    ]
+  },
+  {
+    "title": "HAL (硬件抽象层)",
+    "category": "Auto-Mined",
+    "description": "全称：HAL，中文释义：硬件抽象层。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...  割裂的硬件： Android OS 与 高通/联发科 芯片之间的配合，永远隔着一层 HAL (硬件抽象层)。而鸿蒙与麒麟（以及深度适配的芯片）实现了 软硬一体化 的垂直整合，调度器可以直接读取芯片寄存器的热点信息。\r \r \r 鸿蒙的护城河，不是 UI 上的动效，而是 ...",
+    "tags": [
+      "Auto-Gen",
+      "HAL"
+    ]
+  },
+  {
+    "title": "FIFO (先进先出)",
+    "category": "Auto-Mined",
+    "description": "全称：FIFO，中文释义：先进先出。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...策略\r \r 当显存彻底耗尽时，系统必须执行 驱逐（Eviction） 策略：\r 1.  FIFO (先进先出): 扔掉最早的对话。这就是为什么 AI 记得你刚才说的话，却忘了开头设定的“你是一个物理学家”。\r 2.  Attention Sink (注意力汇聚点): 这是一个...",
+    "tags": [
+      "Auto-Gen",
+      "FIFO"
+    ]
+  },
+  {
+    "title": "CPU (通用计算)",
+    "category": "Auto-Mined",
+    "description": "全称：CPU，中文释义：通用计算。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...术喜欢堆砌 TOPS (万亿次运算/秒)，但这不仅片面，甚至具有误导性。\r \r \r  CPU (通用计算)：擅长复杂的逻辑控制，像是“法拉利拉砖”，虽然快但极度费油。\r  GPU (图形处理)：虽然并行能力强，但其架构针对图形渲染设计，对于单纯的矩阵乘法而言，功耗依然过高...",
+    "tags": [
+      "Auto-Gen",
+      "CPU"
+    ]
+  },
+  {
+    "title": "GPU (图形处理)",
+    "category": "Auto-Mined",
+    "description": "全称：GPU，中文释义：图形处理。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...CPU (通用计算)：擅长复杂的逻辑控制，像是“法拉利拉砖”，虽然快但极度费油。\r  GPU (图形处理)：虽然并行能力强，但其架构针对图形渲染设计，对于单纯的矩阵乘法而言，功耗依然过高。\r \r \r 真正的救世主是 NPU (神经网络处理器)。它的核心逻辑是大规模削减通用的...",
+    "tags": [
+      "Auto-Gen",
+      "GPU"
+    ]
+  },
+  {
+    "title": "MAC (乘累加运算单元)",
+    "category": "Auto-Mined",
+    "description": "全称：MAC，中文释义：乘累加运算单元。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...救世主是 NPU (神经网络处理器)。它的核心逻辑是大规模削减通用的控制单元，极致堆叠 MAC (乘累加运算单元)。\r  关键指标：我们不应看峰值 TOPS，而应关注 TOPS/W (每瓦算力)。\r  数据真相：目前主流旗舰 SoC 的 NPU 能效比大约...",
+    "tags": [
+      "Auto-Gen",
+      "MAC"
+    ]
+  },
+  {
+    "title": "SNN (脉冲神经网络)",
+    "category": "Auto-Mined",
+    "description": "全称：SNN，中文释义：脉冲神经网络。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...人，且大部分动力都浪费在了红绿灯起步上。\r \r 而最新的 <5W \"边缘大脑\"，采用了一种名为 SNN (脉冲神经网络) + 存算一体 的异构架构。它不再像 GPU 那样暴力吞吐数据，而是像人脑一样，只有在神经元被激活（即有数据输入）时才消耗能量。\r \r \r \r | 维度 | NVIDIA ...",
+    "tags": [
+      "Auto-Gen",
+      "SNN"
+    ]
+  }
 ]

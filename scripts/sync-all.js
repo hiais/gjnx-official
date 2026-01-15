@@ -4,8 +4,8 @@ import path from 'node:path';
 const scripts = [
     'scripts/sync-content.js',
     'scripts/sync-resources.js',
-    'scripts/generate-wiki.js',
-    'scripts/sync-news.js'
+    'scripts/analyze-terms.js',
+    'scripts/generate-wiki.js'
 ];
 
 async function runAll() {

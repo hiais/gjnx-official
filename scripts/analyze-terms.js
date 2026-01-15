@@ -4,21 +4,17 @@ import path from 'node:path';
 import matter from 'gray-matter';
 
 const ARTICLES_DIR = path.resolve('src/content/articles');
-const OUTPUT_FILE = path.resolve('scripts/term-candidates.json');
+const GLOSSARY_FILE = path.resolve('src/data/glossary.json');
 
-// Blacklist of common acronyms/words that are NOT technical terms
+// Blacklist to prevent noise
 const BLACKLIST = new Set([
-    'THE', 'AND', 'FOR', 'BUT', 'NOT', 'YES', 'NO', 'CAN', 'WHO', 'WHY', 'HOW',
     'CEO', 'CTO', 'CFO', 'COO', 'VP', 'HR', 'PR', 'PM',
-    'PDF', 'JPG', 'PNG', 'GIF', 'SVG', 'MP4',
-    'HTTP', 'HTTPS', 'COM', 'NET', 'ORG', 'WWW', 'URL', 'API', 'SDK', 'APP',
-    'JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC',
+    'PDF', 'JPG', 'PNG', 'GIF', 'SVG',
+    'HTTP', 'HTTPS', 'COM', 'NET', 'ORG', 'WWW',
     'USA', 'UK', 'CN', 'EU', 'US',
-    'CES', 'MWC', 'IFA', // Events
+    'CES', 'MWC', 'IFA',
     'LOG', 'DOC', 'TXT', 'MD',
-    'THIS', 'THAT', 'WITH', 'FROM',
-    // Common visual prompt keywords
-    'VIBE', 'VIEW', 'LENS', 'FILM', 'LIGHT', 'COLOR', 'STYLE', 'RATIO', 'SEED'
+    'THIS', 'THAT', 'WITH'
 ]);
 
 // Helper to get all markdown files
@@ -31,56 +27,68 @@ function getFiles(dir) {
     });
 }
 
-async function analyze() {
-    console.log(`🔍 Scanning articles for technical terms...`);
-    const files = getFiles(ARTICLES_DIR);
+async function mine() {
+    console.log(`⛏️  Auto-Mining Terms from Articles...`);
 
-    const termCounts = new Map();
+    // 1. Load Existing Glossary
+    let glossary = [];
+    if (fs.existsSync(GLOSSARY_FILE)) {
+        glossary = JSON.parse(fs.readFileSync(GLOSSARY_FILE, 'utf-8'));
+    }
+    const existingTerms = new Set(glossary.map(g => g.title.toUpperCase().split('(')[0].trim()));
+
+    // 2. Scan Articles
+    const files = getFiles(ARTICLES_DIR);
+    const newEntries = [];
 
     files.forEach(file => {
         const raw = fs.readFileSync(file, 'utf-8');
         const { content } = matter(raw);
 
-        // Strategy 1: Match English Acronyms (2-6 chars, e.g., NPU, LLM, DVFS)
-        const acronymMatches = content.match(/\b[A-Z]{2,6}\b/g) || [];
+        // Strict Pattern: "NPU (神经处理单元)" OR "HBM3 (高带宽内存)"
+        // Captures Tech Term (Group 1) and Chinese Definition (Group 2)
+        // Improved Regex: Allows Numbers, Lowercase (PCIe), Hyphens (Wi-Fi), Dots (Web 3.0)
+        // AND Chinese Parentheses Support: ( or （
+        const regex = /\b([a-zA-Z0-9\-\.]{2,15})\s*[\(\（]([\u4e00-\u9fa5]{2,30})[\)\）]/g;
+        let match;
 
-        acronymMatches.forEach(term => {
-            if (BLACKLIST.has(term)) return;
-            // Filter out numbers like "2024" which match [A-Z] if regex was lax, but strict [A-Z] handles it.
-            // Wait, \b[A-Z]{2,6}\b only matches letters.
+        while ((match = regex.exec(content)) !== null) {
+            const term = match[1].trim();
+            const definition = match[2].trim();
 
-            const count = termCounts.get(term) || 0;
-            termCounts.set(term, count + 1);
-        });
+            if (BLACKLIST.has(term)) continue;
+            if (existingTerms.has(term)) continue;
 
-        // Strategy 2: Match "English (Chinese)" pattern common in definitions
-        // e.g. "NPU (神经处理单元)"
-        const definitionMatches = content.match(/\b([A-Z]{2,10})\s*\(([\u4e00-\u9fa5]+)\)/g) || [];
-        definitionMatches.forEach(match => {
-            // Extract just the acronym to boost its score
-            const acronym = match.split('(')[0].trim();
-            if (BLACKLIST.has(acronym)) return;
-            // Bonus weight for explicit definitions
-            const count = termCounts.get(acronym) || 0;
-            termCounts.set(acronym, count + 5);
-        });
+            // Context Extraction (Sentence around the term)
+            const index = match.index;
+            const contextStart = Math.max(0, index - 50);
+            const contextEnd = Math.min(content.length, index + 100);
+            const rawContext = content.slice(contextStart, contextEnd);
+            // Clean up context (remove partial markdown)
+            const cleanContext = '...' + rawContext.replace(/\n/g, ' ').replace(/[#*]/g, '') + '...';
+
+            // Add to new entries
+            existingTerms.add(term); // Prevent dupes in same run
+            newEntries.push({
+                title: `${term} (${definition})`, // Always normalize to English ()
+                category: 'Auto-Mined',
+                description: `全称：${term}，中文释义：${definition}。`,
+                explanation: `该术语自动提取自深度专栏文章。`,
+                context: cleanContext,
+                tags: ['Auto-Gen', term]
+            });
+            console.log(`💎 Discovered: ${term} = ${definition}`);
+        }
     });
 
-    // Sort by frequency
-    const sortedTerms = Array.from(termCounts.entries())
-        .map(([term, count]) => ({ term, count }))
-        .sort((a, b) => b.count - a.count)
-        .filter(item => item.count >= 3); // Minimum occurence threshold
-
-    console.log(`📊 Found ${sortedTerms.length} potential terms.`);
-
-    // Save to JSON for "AI" (Agent) to review
-    fs.writeFileSync(OUTPUT_FILE, JSON.stringify(sortedTerms, null, 2));
-    console.log(`💾 Saved candidates to ${OUTPUT_FILE}`);
-
-    // Preview top 20
-    console.log('--- Top 20 Candidates ---');
-    console.table(sortedTerms.slice(0, 20));
+    // 3. Save if new found
+    if (newEntries.length > 0) {
+        const updatedGlossary = [...glossary, ...newEntries];
+        fs.writeFileSync(GLOSSARY_FILE, JSON.stringify(updatedGlossary, null, 2));
+        console.log(`✅ Automatically enriched Glossary with ${newEntries.length} new terms.`);
+    } else {
+        console.log(`✨ No new qualified terms found.`);
+    }
 }
 
-analyze();
+mine();

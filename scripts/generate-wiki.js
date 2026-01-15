@@ -1,6 +1,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import matter from 'gray-matter';
+import _pinyin from 'pinyin';
+const pinyin = _pinyin.pinyin || _pinyin.default || _pinyin;
 
 const DEST_DIR = path.resolve('src/content/knowledge');
 
@@ -20,7 +22,26 @@ async function generate() {
     console.log(`📚 Loaded ${glossaryData.length} terms from glossary library.`);
 
     for (const entry of glossaryData) {
-        const slug = entry.title.split('(')[0].trim().toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-');
+        // ROBUST SLUG GENERATION (Support Chinese + English)
+        const rawTitle = entry.title.split('(')[0].trim();
+        let slug = '';
+
+        // Strategy: If mostly English, use simple lowercase. If Chinese, use Pinyin.
+        if (/^[a-zA-Z0-9\s-]+$/.test(rawTitle)) {
+            slug = rawTitle.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-');
+        } else {
+            const py = pinyin(rawTitle, { style: pinyin.STYLE_NORMAL, segment: true }).flat().join('-');
+            slug = py.replace(/[^a-zA-Z0-9-]/g, '').toLowerCase().replace(/-+/g, '-');
+        }
+
+        // Remove trailing dashes
+        slug = slug.replace(/^-+|-+$/g, '');
+
+        if (!slug || slug.length < 1) {
+            console.warn(`⚠️ Skipped invalid slug for: ${entry.title}`);
+            continue;
+        }
+
         const filePath = path.join(DEST_DIR, `${slug}.md`);
 
         const frontmatter = {
@@ -53,6 +74,13 @@ async function generate() {
         content += `---\n*本条目由 GJNX AI 引擎自动挖掘并生成，旨在构建《硅基能效通识》知识体系。*`;
 
         const fileContent = matter.stringify(content, frontmatter);
+
+        // PROTECTION: Do not overwrite existing Deep Dive articles (synced by sync-content.js)
+        if (fs.existsSync(filePath)) {
+            console.log(`⏩ Skipped (Deep Dive exists): ${entry.title}`);
+            continue;
+        }
+
         fs.writeFileSync(filePath, fileContent);
         console.log(`✅ Wiki Entry Created: ${entry.title}`);
     }

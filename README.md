@@ -16,7 +16,7 @@ Its primary role is **NOT** to replace the WeChat account, but to:
 *   **Framework**: [Astro](https://astro.build) (Zero-JS default, extreme performance).
 *   **Styling**: Plain CSS Variables (`src/styles/global.css`). No heavy frameworks.
 *   **Deployment**: Vercel (Auto-deploy via GitHub).
-*   **Content Source**: Local Markdown files synced from `../03_Content_Factory`.
+*   **Content Source**: Local Markdown files synced from `../03_Content_Factory` (See [CONTENT_SYNC_MANUAL.md](./CONTENT_SYNC_MANUAL.md)).
 
 ## 📂 Directory Structure Rules
 
