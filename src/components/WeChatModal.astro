@@ -120,33 +120,36 @@ const { triggerId, title = "INITIATING_HANDSHAKE", keyword = "报告" } = Astro.
 </style>
 
 <script>
-  const modal = document.getElementById('wechat-modal') as HTMLDialogElement;
-  const triggerBtns = document.querySelectorAll('.wechat-trigger');
-  const closeBtn = document.getElementById('close-modal');
-  const keywordDisplay = document.getElementById('modal-keyword');
+  document.addEventListener('astro:page-load', () => {
+    const modal = document.getElementById('wechat-modal') as HTMLDialogElement;
+    const triggerBtns = document.querySelectorAll('.wechat-trigger');
+    const closeBtn = document.getElementById('close-modal');
+    const keywordDisplay = document.getElementById('modal-keyword');
 
-  if (modal && closeBtn) {
-    triggerBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        const keyword = btn.getAttribute('data-keyword') || '报告';
-        if (keywordDisplay) keywordDisplay.textContent = keyword;
-        modal.showModal();
+    if (modal && closeBtn) {
+      triggerBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.preventDefault(); // Prevent jump
+          const keyword = btn.getAttribute('data-keyword') || '报告';
+          if (keywordDisplay) keywordDisplay.textContent = keyword;
+          modal.showModal();
+        });
       });
-    });
 
-    closeBtn.addEventListener('click', () => {
-      modal.close();
-    });
-
-    modal.addEventListener('click', (e) => {
-      const rect = modal.getBoundingClientRect();
-      const isInDialog = (
-        rect.top <= e.clientY && e.clientY <= rect.top + rect.height &&
-        rect.left <= e.clientX && e.clientX <= rect.left + rect.width
-      );
-      if (!isInDialog) {
+      closeBtn.addEventListener('click', () => {
         modal.close();
-      }
-    });
-  }
+      });
+
+      modal.addEventListener('click', (e) => {
+        const rect = modal.getBoundingClientRect();
+        const isInDialog = (
+          rect.top <= e.clientY && e.clientY <= rect.top + rect.height &&
+          rect.left <= e.clientX && e.clientX <= rect.left + rect.width
+        );
+        if (!isInDialog) {
+          modal.close();
+        }
+      });
+    }
+  });
 </script>

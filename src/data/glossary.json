@@ -2805,5 +2805,654 @@
       "Auto-Gen",
       "G2q"
     ]
+  },
+  {
+    "title": "Semiconductor (金刚石半导体)",
+    "category": "Auto-Mined",
+    "description": "全称：Semiconductor，中文释义：金刚石半导体。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...君知识卡片 🗂️\r \r > 未来词典 · 提前预习\r >  🛡️ Diamond Semiconductor (金刚石半导体)\r > 被誉为“终极半导体”，具有极宽带隙、极高击穿场强和极高热导率。\r >  🛡️ Rad-Hard (抗辐照加固)\r > 专门针对极端辐...",
+    "tags": [
+      "Auto-Gen",
+      "Semiconductor"
+    ]
+  },
+  {
+    "title": "Rad-Hard (抗辐照加固)",
+    "category": "Auto-Mined",
+    "description": "全称：Rad-Hard，中文释义：抗辐照加固。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...)\r > 被誉为“终极半导体”，具有极宽带隙、极高击穿场强和极高热导率。\r >  🛡️ Rad-Hard (抗辐照加固)\r > 专门针对极端辐射环境设计的电子元器件加固技术。\r >  🛡️ Thermal Conductivity (热导率)\r > 衡量材料导热能力的参数...",
+    "tags": [
+      "Auto-Gen",
+      "Rad-Hard"
+    ]
+  },
+  {
+    "title": "Conductivity (热导率)",
+    "category": "Auto-Mined",
+    "description": "全称：Conductivity，中文释义：热导率。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...)\r > 专门针对极端辐射环境设计的电子元器件加固技术。\r >  🛡️ Thermal Conductivity (热导率)\r > 衡量材料导热能力的参数。金刚石是目前已知热导率最高的材料。\r > \r >...",
+    "tags": [
+      "Auto-Gen",
+      "Conductivity"
+    ]
+  },
+  {
+    "title": "Density (算力密度)",
+    "category": "Auto-Mined",
+    "description": "全称：Density，中文释义：算力密度。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...精度的数值格式。在 AI 推理中能显著提升速度并降低内存占用。\r >  🧮 Compute Density (算力密度)  \r > 单位空间或单位功率下能输出的运算能力。它是 2026 年数据中心最重要的考核指标。\r >  🧮 Blackwell Ultra  \r > 英伟达...",
+    "tags": [
+      "Auto-Gen",
+      "Density"
+    ]
+  },
+  {
+    "title": "Clevo (蓝天)",
+    "category": "Auto-Mined",
+    "description": "全称：Clevo，中文释义：蓝天。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...官方发布为准。\r \r \r \r  ⚡ 硅基速报 (Flash)\r \r  情报：Clevo（蓝天）年度规划信息显示，RTX 5090 Laptop 核心规模大幅调整，确认搭载次旗舰 GB203 核心，而非桌面版 GB202。\r  影响：受限于笔记本散热物理极...",
+    "tags": [
+      "Auto-Gen",
+      "Clevo"
+    ]
+  },
+  {
+    "title": "Laptop (现状)",
+    "category": "Auto-Mined",
+    "description": "全称：Laptop，中文释义：现状。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...kwell 架构能比 Ada Lovelace 强多少？\r \r | 关键指标 | RTX 4090 Laptop (现状) | RTX 5090 Laptop (前瞻推演) | 硅基能效判定 |\r | --- | --- | --- | --- |\r | 核心架构 | AD103 | G...",
+    "tags": [
+      "Auto-Gen",
+      "Laptop"
+    ]
+  },
+  {
+    "title": "RibbonFET (全环绕栅极)",
+    "category": "Auto-Mined",
+    "description": "全称：RibbonFET，中文释义：全环绕栅极。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...x86 架构唯一能把能效比（PPW）拉回同一水平线的物理救赎。\r  良率赌局： 同时引入 RibbonFET（全环绕栅极）和 PowerVia 两大激进技术，让 18A 的量产难度呈指数级上升。这是一场不成功便成仁的工程冒险。\r \r \r \r \r \r  01. 🚨 困局：被“电线”勒死...",
+    "tags": [
+      "Auto-Gen",
+      "RibbonFET"
+    ]
+  },
+  {
+    "title": "FinFET (鳍式场效应管)",
+    "category": "Auto-Mined",
+    "description": "全称：FinFET，中文释义：鳍式场效应管。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...FET（即 GAA 全环绕栅极）。\r \r  告别 FinFET： 统治了 10 年的 FinFET（鳍式场效应管）漏电控制已达极限。\r  纳米片 (Nanosheet)： RibbonFET 像叠加的“床单”一样，让栅极 360 度包裹住电流通道。\r  能效意义： ...",
+    "tags": [
+      "Auto-Gen",
+      "FinFET"
+    ]
+  },
+  {
+    "title": "Trees (决策树)",
+    "category": "Auto-Mined",
+    "description": "全称：Trees，中文释义：决策树。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...能是庞大的深度神经网络，通常采用 轻量级 Transformer 或 Decision Trees (决策树) 的变体。\r  量化： 必须使用 INT8 甚至 INT4 量化，利用 NPU 的低精度推理能力。\r  频率： 推理不需要每毫秒都做，可以采用事件触发...",
+    "tags": [
+      "Auto-Gen",
+      "Trees"
+    ]
+  },
+  {
+    "title": "Qualcomm (高通)",
+    "category": "Auto-Mined",
+    "description": "全称：Qualcomm，中文释义：高通。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...ndustry & Trends)\r \r 这场微观战争，正在重塑芯片巨头的竞争格局。\r \r  Qualcomm (高通)： 正在推行其 AI Stack 统一工具链，试图让开发者只需写一次代码，就能自动把模型量化并部署到 Hexagon NPU 上。其最新的骁龙芯片已原生支持 IN...",
+    "tags": [
+      "Auto-Gen",
+      "Qualcomm"
+    ]
+  },
+  {
+    "title": "MediaTek (联发科)",
+    "category": "Auto-Mined",
+    "description": "全称：MediaTek，中文释义：联发科。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...gon NPU 上。其最新的骁龙芯片已原生支持 INT4 解压，这是硬件层面的巨大优势。\r  MediaTek (联发科)： 在天玑系列中极其激进。他们专注于生成式 AI (GenAI) 的端侧落地，宣称能在手机上流畅运行 70 亿参数的大模型，靠的就是极致的内存压缩技术。\r  ...",
+    "tags": [
+      "Auto-Gen",
+      "MediaTek"
+    ]
+  },
+  {
+    "title": "Apple (苹果)",
+    "category": "Auto-Mined",
+    "description": "全称：Apple，中文释义：苹果。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "... 的端侧落地，宣称能在手机上流畅运行 70 亿参数的大模型，靠的就是极致的内存压缩技术。\r  Apple (苹果)： 它是最早的布局者。其 ANE (Apple Neural Engine) 深度介入 iOS 的系统级调度。FaceID 之所以能瞬间解锁且不费电，正是因为其 NPU 处于一...",
+    "tags": [
+      "Auto-Gen",
+      "Apple"
+    ]
+  },
+  {
+    "title": "Accuracy (准确率)",
+    "category": "Auto-Mined",
+    "description": "全称：Accuracy，中文释义：准确率。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...\r \r  六、 结语 (Conclusion)\r \r 在 AI 的学术界，大家刷榜比拼的是 Accuracy (准确率)；但在移动端的工程界，我们信奉的是 Accuracy per Watt (每瓦准确率)。\r \r 不管是量化、剪枝，还是 NPU 架构的演进，核心逻辑只有一个：...",
+    "tags": [
+      "Auto-Gen",
+      "Accuracy"
+    ]
+  },
+  {
+    "title": "Watt (每瓦准确率)",
+    "category": "Auto-Mined",
+    "description": "全称：Watt，中文释义：每瓦准确率。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...Accuracy (准确率)；但在移动端的工程界，我们信奉的是 Accuracy per Watt (每瓦准确率)。\r \r 不管是量化、剪枝，还是 NPU 架构的演进，核心逻辑只有一个：在算力通胀的时代，捍卫移动设备的续航底线。\r \r 下一代智能手机的竞争，不再是看谁的 CPU...",
+    "tags": [
+      "Auto-Gen",
+      "Watt"
+    ]
+  },
+  {
+    "title": "Agent (智能体)",
+    "category": "Auto-Mined",
+    "description": "全称：Agent，中文释义：智能体。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...了 120 TOPS 的恐怖量级，但算力的堆砌已不再是胜负手。\r \r 现在的核心冲突在于：AI Agent（智能体） 带来的 MoE 架构碎片化访存 与 长上下文 KV Cache 爆炸，正在击穿传统 SoC 的功耗防线。本文将立足当下的全新视角，深度拆解两大巨头如何通过...",
+    "tags": [
+      "Auto-Gen",
+      "Agent"
+    ]
+  },
+  {
+    "title": "Window (上下文窗口)",
+    "category": "Auto-Mined",
+    "description": "全称：Window，中文释义：上下文窗口。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "... Cache 爆炸”\r 要让 Agent 记住你上个月的聊天记录并订今天的餐厅，Context Window (上下文窗口) 必须从 8k 扩展到 32k 甚至 128k。\r  物理瓶颈： 在 Transformer 架构中，KV Cache（键值缓存）的大小与上下文长度成线性正比...",
+    "tags": [
+      "Auto-Gen",
+      "Window"
+    ]
+  },
+  {
+    "title": "Cache (键值缓存)",
+    "category": "Auto-Mined",
+    "description": "全称：Cache，中文释义：键值缓存。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...展到 32k 甚至 128k。\r  物理瓶颈： 在 Transformer 架构中，KV Cache（键值缓存）的大小与上下文长度成线性正比。处理 32k 上下文，仅 KV Cache 就需要占用 4GB - 6GB 的显存。\r  后果： 加上系统占用和 App 占用，手...",
+    "tags": [
+      "Auto-Gen",
+      "Cache"
+    ]
+  },
+  {
+    "title": "Network (门控网络)",
+    "category": "Auto-Mined",
+    "description": "全称：Network，中文释义：门控网络。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...   高通利用第二代 Oryon CPU 的超强单核性能，专门负责 MoE 模型的Gating Network (门控网络) —— 即决定“派哪个专家干活”。CPU 算得快，就能更快地预取数据，掩盖 NPU 的等待时间。\r \r  UDC (Universal Data Center) ...",
+    "tags": [
+      "Auto-Gen",
+      "Network"
+    ]
+  },
+  {
+    "title": "Zero-Copy (零拷贝)",
+    "category": "Auto-Mined",
+    "description": "全称：Zero-Copy，中文释义：零拷贝。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...5 最大的杀手锏。高通彻底打通了 CPU、GPU 和 NPU 的虚拟地址空间，实现了物理层面的 Zero-Copy (零拷贝)。\r     > 技术细节： 以前 CPU 处理完数据传给 NPU，需要拷贝一份到 NPU 专用内存。现在，三者共享同一块物理 KV Cache。这使得 32...",
+    "tags": [
+      "Auto-Gen",
+      "Zero-Copy"
+    ]
+  },
+  {
+    "title": "Decoding (投机采样)",
+    "category": "Auto-Mined",
+    "description": "全称：Decoding，中文释义：投机采样。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...访问外部内存，能效比提升了惊人的 300%。\r \r  硬件级 Speculative Decoding (投机采样)：\r     天玑 9500 的 APU 790 固化了投机采样算法。它用一个小模型“猜”接下来的 5 个词，大模型只负责“验”。如果猜对了，生成速度直接翻 5 倍。...",
+    "tags": [
+      "Auto-Gen",
+      "Decoding"
+    ]
+  },
+  {
+    "title": "Calling (函数调用)",
+    "category": "Auto-Mined",
+    "description": "全称：Calling，中文释义：函数调用。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...\r 用户的需求是：“帮我把微信里的会议纪要整理发邮件”。这涉及到跨 App 的Function Calling (函数调用)。\r \r  高通的“Agent SDK”：\r     高通延续了其 PC 端的优势，联合微软推出了标准的 Agent Interface。只要 App...",
+    "tags": [
+      "Auto-Gen",
+      "Calling"
+    ]
+  },
+  {
+    "title": "Buffer (代理共享缓存)",
+    "category": "Auto-Mined",
+    "description": "全称：Buffer，中文释义：代理共享缓存。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...ing（投机采样） 技术，提前生成 JSON 结构，并将其放入一个特殊的 Agent Shared Buffer (代理共享缓存)，而不是传统的 NPU Output Buffer。\r \r 2. 路由加速（Router Bypass）\r 优化： NPU 绕过复杂的 Android Service M...",
+    "tags": [
+      "Auto-Gen",
+      "Buffer"
+    ]
+  },
+  {
+    "title": "Microkernel (微内核)",
+    "category": "Auto-Mined",
+    "description": "全称：Microkernel，中文释义：微内核。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...让 App 在接收到 Function Call 时，只唤醒一个与 NPU 紧密耦合的 Agent Microkernel（微内核），它只负责执行特定的 API Action。\r \r 四、 落地实战：芯片与 OS 的协同挑战 (Engineering Challenges)\r 要实现 Functio...",
+    "tags": [
+      "Auto-Gen",
+      "Microkernel"
+    ]
+  },
+  {
+    "title": "Environment (可重构执行环境)",
+    "category": "Auto-Mined",
+    "description": "全称：Environment，中文释义：可重构执行环境。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "... 未来 SoC 的竞争，将不再是堆硬件，而是看谁能提供更灵活的 Rethink Execution Environment（可重构执行环境），允许 Agent Router 动态调整 CPU/NPU/GPU 的资源分配，以最小的能耗完成 Function Call。\r \r 六、 结语 (Conclu...",
+    "tags": [
+      "Auto-Gen",
+      "Environment"
+    ]
+  },
+  {
+    "title": "Daemon (服务)",
+    "category": "Auto-Mined",
+    "description": "全称：Daemon，中文释义：服务。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...。真正的“能效黑盒”在于手机厂商在 Android 系统 Kernel 之上，植入的定制化 Daemon（服务）。\r \r  核心原理：三层调度体系与 Vendor Daemon\r \r 一个 App 的性能请求到达 CPU 执行，需要穿透三层调度体系：\r \r 1.  硬件层 (P...",
+    "tags": [
+      "Auto-Gen",
+      "Daemon"
+    ]
+  },
+  {
+    "title": "P-State (性能状态)",
+    "category": "Auto-Mined",
+    "description": "全称：P-State，中文释义：性能状态。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...。\r \r  1. P-State 精细化与“性能预算”管理\r \r CPU 核心通常有几十个 P-State（性能状态）。温和的厂商会根据应用类型和用户习惯，对 P-State 进行更保守的定义。例如，在社交应用或轻游戏场景：\r \r  激进厂商： 倾向于将频率拉到 P...",
+    "tags": [
+      "Auto-Gen",
+      "P-State"
+    ]
+  },
+  {
+    "title": "C-State (深度休眠)",
+    "category": "Auto-Mined",
+    "description": "全称：C-State，中文释义：深度休眠。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "... 博弈焦点：C-State 的深度\r \r 工程师的杀手锏是让 CPU/NPU 尽可能深地进入 C-State (深度休眠)。\r \r > 真实对话还原：\r >  PM: “这个‘灵动胶囊’的动画必须 120 帧，不能掉！”\r >  SW工程师: “那 CPU 就没...",
+    "tags": [
+      "Auto-Gen",
+      "C-State"
+    ]
+  },
+  {
+    "title": "Doze (休眠)",
+    "category": "Auto-Mined",
+    "description": "全称：Doze，中文释义：休眠。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...。\r \r 核心痛点： 微信这类应用需要持续的后台连接以确保消息实时推送。当你的手机进入深度 Doze（休眠）模式时，如果 AI 错误判断了你的使用意图，就会强行切断或高度限制微信的网络和 CPU 资源，导致消息延迟，甚至完全“失联”。我们不能再把所有延迟都归咎于网络了。\r \r \r \r \r ...",
+    "tags": [
+      "Auto-Gen",
+      "Doze"
+    ]
+  },
+  {
+    "title": "Buckets (应用待机分组)",
+    "category": "Auto-Mined",
+    "description": "全称：Buckets，中文释义：应用待机分组。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...微信能否实时运行的机制，是 Android 9.0 (Pie) 引入的 App Standby Buckets（应用待机分组） 和后续版本不断强化的 Doze 模式。\r \r  核心机制：五大待机分组的 AI 决策\r \r AI/ML 模型会持续监控 App 的使用频率、通知互动、...",
+    "tags": [
+      "Auto-Gen",
+      "Buckets"
+    ]
+  },
+  {
+    "title": "Active (活跃)",
+    "category": "Auto-Mined",
+    "description": "全称：Active，中文释义：活跃。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...场景 | 消息延迟风险 |\r | :--- | :--- | :--- | :--- |\r | Active (活跃) | 极低（高优先级） | 当前正在使用的 App | 极低 |\r | Working Set (工作集) | 低 | 每天使用，但在后台 | 低 |\r | Fr...",
+    "tags": [
+      "Auto-Gen",
+      "Active"
+    ]
+  },
+  {
+    "title": "Set (工作集)",
+    "category": "Auto-Mined",
+    "description": "全称：Set，中文释义：工作集。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...跃) | 极低（高优先级） | 当前正在使用的 App | 极低 |\r | Working Set (工作集) | 低 | 每天使用，但在后台 | 低 |\r | Frequent (频繁) | 中 | 每几天使用一次 | 中 |\r | Rare (罕见) | 高 | 每月...",
+    "tags": [
+      "Auto-Gen",
+      "Set"
+    ]
+  },
+  {
+    "title": "Frequent (频繁)",
+    "category": "Auto-Mined",
+    "description": "全称：Frequent，中文释义：频繁。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "... Working Set (工作集) | 低 | 每天使用，但在后台 | 低 |\r | Frequent (频繁) | 中 | 每几天使用一次 | 中 |\r | Rare (罕见) | 高 | 每月使用，深度休眠 | 高 |\r | Restricted (限制) | ...",
+    "tags": [
+      "Auto-Gen",
+      "Frequent"
+    ]
+  },
+  {
+    "title": "Rare (罕见)",
+    "category": "Auto-Mined",
+    "description": "全称：Rare，中文释义：罕见。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...低 |\r | Frequent (频繁) | 中 | 每几天使用一次 | 中 |\r | Rare (罕见) | 高 | 每月使用，深度休眠 | 高 |\r | Restricted (限制) | 极高（AI 强制冻结） | 几乎不用，或被系统惩罚 | 极高 |\r \r > 关...",
+    "tags": [
+      "Auto-Gen",
+      "Rare"
+    ]
+  },
+  {
+    "title": "Restricted (限制)",
+    "category": "Auto-Mined",
+    "description": "全称：Restricted，中文释义：限制。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...| 中 |\r | Rare (罕见) | 高 | 每月使用，深度休眠 | 高 |\r | Restricted (限制) | 极高（AI 强制冻结） | 几乎不用，或被系统惩罚 | 极高 |\r \r > 关键问题：\r > 延迟发生的原因在于 AI 的误判：它可能会将你不常打开...",
+    "tags": [
+      "Auto-Gen",
+      "Restricted"
+    ]
+  },
+  {
+    "title": "Transformer (大语言模型)",
+    "category": "Auto-Mined",
+    "description": "全称：Transformer，中文释义：大语言模型。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "... 要理解 A18 Pro 的挣扎，必须看懂 NPU 在处理 CNN（卷积神经网络） 和 Transformer（大语言模型） 时的本质区别。\r \r  核心差异：计算密集 vs. 访存密集\r \r A18 Pro 的 NPU 设计之初，很大程度上继承了为计算摄影（Computa...",
+    "tags": [
+      "Auto-Gen",
+      "Transformer"
+    ]
+  },
+  {
+    "title": "Bi-map (双向映射)",
+    "category": "Auto-Mined",
+    "description": "全称：Bi-map，中文释义：双向映射。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...共享。ArkTS 对象（应用层）与 Native C++ 对象（底层框架）在物理内存中通过 Bi-map（双向映射） 指向同一块物理地址。\r \r $$\\text{Copy}_{Harmony} \\approx 0$$\r \r 这意味着，当 App 请求 AI 修图时，系统只需传递一个 ...",
+    "tags": [
+      "Auto-Gen",
+      "Bi-map"
+    ]
+  },
+  {
+    "title": "Rollback (回滚)",
+    "category": "Auto-Mined",
+    "description": "全称：Rollback，中文释义：回滚。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...部变量、网络状态等）序列化并存储在低功耗的持久化内存中（如 LPDDR 内存的保留区）。\r  Rollback（回滚）： 如果任务在第 $k$ 步失败，系统只需恢复到最近的成功检查点 $k-1$，并重新尝试执行第 $k$ 步，或者执行预先定义的 容错分支，而不是从头开始。\r \r $...",
+    "tags": [
+      "Auto-Gen",
+      "Rollback"
+    ]
+  },
+  {
+    "title": "Sleep (深度休眠)",
+    "category": "Auto-Mined",
+    "description": "全称：Sleep，中文释义：深度休眠。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...战\r \r 要理解掉电，必须理解 Android/iOS 的电源状态机。最关键的状态是 Deep Sleep（深度休眠）。\r \r  2.1 理想的休眠：C-State\r \r 在理想状态下，当屏幕关闭 5 分钟后，系统应进入 Suspend-to-RAM 模式。\r 此时，应用处理器...",
+    "tags": [
+      "Auto-Gen",
+      "Sleep"
+    ]
+  },
+  {
+    "title": "Wakelock (唤醒锁)",
+    "category": "Auto-Mined",
+    "description": "全称：Wakelock，中文释义：唤醒锁。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...。\r \r  2.2 现实的噩梦：Wakelock 风暴\r \r 然而，现实中存在一种机制叫 Wakelock（唤醒锁）。任何一个进程只要持有了 Wakelock，就能阻止 CPU 进入 Deep Sleep。\r \r $$P_{night} = \\int_{T_{sleep}}^{T_{w...",
+    "tags": [
+      "Auto-Gen",
+      "Wakelock"
+    ]
+  },
+  {
+    "title": "Engine (显示引擎)",
+    "category": "Auto-Mined",
+    "description": "全称：Engine，中文释义：显示引擎。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...着\r \r 全天候显示（AOD）不仅是屏幕耗电（OLED 像素点发光），更意味着 Display Engine（显示引擎） 和 Sensor Hub 必须保持活跃，以每秒 1 次的频率刷新时间、检测口袋遮挡。\r 仅这一项，每小时就消耗 0.5% - 1% 的电量。一晚 8 小时...",
+    "tags": [
+      "Auto-Gen",
+      "Engine"
+    ]
+  },
+  {
+    "title": "MoE (混合专家模型)",
+    "category": "Auto-Mined",
+    "description": "全称：MoE，中文释义：混合专家模型。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...\r \r  3. 稀疏化计算 (Sparsity)\r GPT-5.2 不再是全脑激活。通过 MoE (混合专家模型) 架构，每次推理只有 1/10 的神经元“通电”工作。这就像大脑只有在思考数学时才激活数学区域，极大地降低了无效能耗。\r \r > 💡 硅基洞察 (Silicon In...",
+    "tags": [
+      "Auto-Gen",
+      "MoE"
+    ]
+  },
+  {
+    "title": "Limit (内存红线)",
+    "category": "Auto-Mined",
+    "description": "全称：Limit，中文释义：内存红线。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...。当对话变长，KV Cache 会像滚雪球一样指数级吞噬内存。一旦达到系统设定的 Memory Limit（内存红线），OS 会毫不留情地介入，强制回收内存。AI 的“失忆”，其实是系统为了防止手机死机而执行的 OOM (Out of Memory) 保护机制。\r \r \r \r ---...",
+    "tags": [
+      "Auto-Gen",
+      "Limit"
+    ]
+  },
+  {
+    "title": "Block (页面)",
+    "category": "Auto-Mined",
+    "description": "全称：Block，中文释义：页面。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...不进去）。\r PagedAttention 技术将 KV Cache 切分成一个个小的 Block（页面），分散存储在物理内存的各个角落。\r  优势： 内存利用率接近 100%。\r  风险： 当所有 Block 都用完时，必须进行 Swap (换页)。如果...",
+    "tags": [
+      "Auto-Gen",
+      "Block"
+    ]
+  },
+  {
+    "title": "Swap (换页)",
+    "category": "Auto-Mined",
+    "description": "全称：Swap，中文释义：换页。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "... 内存利用率接近 100%。\r  风险： 当所有 Block 都用完时，必须进行 Swap (换页)。如果手机的闪存（Swap 分区）读写速度跟不上 NPU 的计算速度，AI 就会像断电一样突然卡住。\r \r  3.2 滑动窗口 (Sliding Window) 与驱逐策略...",
+    "tags": [
+      "Auto-Gen",
+      "Swap"
+    ]
+  },
+  {
+    "title": "Sink (注意力汇聚点)",
+    "category": "Auto-Mined",
+    "description": "全称：Sink，中文释义：注意力汇聚点。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "... AI 记得你刚才说的话，却忘了开头设定的“你是一个物理学家”。\r 2.  Attention Sink (注意力汇聚点): 这是一个反直觉的发现。只要保留开头的前几个 Token（通常是 Prompt）和最近的 Token，AI 就能保持基本的逻辑连贯性。系统会“手术刀式”地切除中间的对话...",
+    "tags": [
+      "Auto-Gen",
+      "Sink"
+    ]
+  },
+  {
+    "title": "Connected (连接态)",
+    "category": "Auto-Mined",
+    "description": "全称：Connected，中文释义：连接态。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...阱： 5G 通信并不是“发完即停”。为了保证响应速度，在数据传输结束后，基带仍会在 RRC Connected（连接态） 维持 10-20 秒，此时功耗依然高达数百毫瓦。如果你频繁地与 AI 对话，基带就永远无法进入深度休眠。\r  信号强度的乘数效应： 在弱信号环境下（如电梯、...",
+    "tags": [
+      "Auto-Gen",
+      "Connected"
+    ]
+  },
+  {
+    "title": "eVTOL (电动垂直起降飞行器)",
+    "category": "Auto-Mined",
+    "description": "全称：eVTOL，中文释义：电动垂直起降飞行器。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...MPV 也能轻松跑长途。\r 2. 载具革命： 这种能量密度不仅改变了汽车，还解锁了 eVTOL（电动垂直起降飞行器）。飞行汽车终于有了能撑起商业飞行的动力源。\r 3. 成本倒挂： 虽然初期昂贵，但随着良率提升，减少的材料用量（隔膜、电解液）最终会让 kWh 成本低于液态电...",
+    "tags": [
+      "Auto-Gen",
+      "eVTOL"
+    ]
+  },
+  {
+    "title": "Trap (陷阱)",
+    "category": "Auto-Mined",
+    "description": "全称：Trap，中文释义：陷阱。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...指令（例如 `IN/OUT` 指令），CPU 硬件会立即发现 Guest 的权限不足，触发一个 Trap（陷阱）。\r \r $$E_{Trap} \\propto N_{Privileged\\_Ins} \\times C_{context\\_switch}$$\r \r  $N_{Privil...",
+    "tags": [
+      "Auto-Gen",
+      "Trap"
+    ]
+  },
+  {
+    "title": "Transparency (透明度)",
+    "category": "Auto-Mined",
+    "description": "全称：Transparency，中文释义：透明度。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...灾难。\r \r \r \r  03. ⚙️ 核心架构：强制性的“碳审计”\r \r 法案的核心要求是 Transparency（透明度）。这意味着 AI 架构必须内置一套精密的“碳审计”机制。\r \r  1. 模型能效标签 (Model Energy Labeling)\r \r 就像冰箱上的能效...",
+    "tags": [
+      "Auto-Gen",
+      "Transparency"
+    ]
+  },
+  {
+    "title": "Neumann (非冯架构)",
+    "category": "Auto-Mined",
+    "description": "全称：Neumann，中文释义：非冯架构。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...基君知识卡片 🗂️\r \r > 未来词典 · 提前预习\r >  🧠 Non-von Neumann (非冯架构)\r > 打破存储与计算分离的传统架构，致力于解决“内存墙”带来的能效瓶颈。\r >  🧠 Neuromorphic Computing (类脑计算)\r > 模...",
+    "tags": [
+      "Auto-Gen",
+      "Neumann"
+    ]
+  },
+  {
+    "title": "Computing (类脑计算)",
+    "category": "Auto-Mined",
+    "description": "全称：Computing，中文释义：类脑计算。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...分离的传统架构，致力于解决“内存墙”带来的能效瓶颈。\r >  🧠 Neuromorphic Computing (类脑计算)\r > 模仿生物大脑神经系统结构和工作方式的计算模式。\r >  🧠 Photonic Computing (光子计算)\r > 利用光信号（光子）而非电信...",
+    "tags": [
+      "Auto-Gen",
+      "Computing"
+    ]
+  },
+  {
+    "title": "Drop (电压压降)",
+    "category": "Auto-Mined",
+    "description": "全称：Drop，中文释义：电压压降。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...流的电源线。它们在狭窄的空间里“打架”，带来了两个致命的物理惩罚：\r \r 1.  IR Drop（电压压降）噩梦： 电流要想流进底层的晶体管，必须穿过十几层细如发丝的导线，“过五关斩六将”。电阻随着线宽变窄而指数级上升，导致大量电能在线路上白白变成了废热。\r 2.  信号干扰：...",
+    "tags": [
+      "Auto-Gen",
+      "Drop"
+    ]
+  },
+  {
+    "title": "Nano-TSV (纳米硅通孔)",
+    "category": "Auto-Mined",
+    "description": "全称：Nano-TSV，中文释义：纳米硅通孔。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "... (Super Power Rail)\r 在裸露的背面，工程师直接刻蚀出粗壮的电源线路。\r  Nano-TSV（纳米硅通孔）： 如果说以前的供电是“走楼梯”，现在的 BSPDN 就是“直达电梯”。电源直接通过硅通孔连接到晶体管的源极（Source）和漏极（Drain）。\r \r  3....",
+    "tags": [
+      "Auto-Gen",
+      "Nano-TSV"
+    ]
+  },
+  {
+    "title": "Throttling (温控)",
+    "category": "Auto-Mined",
+    "description": "全称：Throttling，中文释义：温控。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...IR Drop（电压跌落） 极度敏感。为了防止关机，系统往往设定了极严格的 Thermal Throttling（温控）。一旦检测到大电流，立即降低画质以保全系统。这就是为什么 Android 抓拍虽然快，但有时“算法痕迹”很重或画质不稳定的物理原因。\r \r  2.2 iOS：优雅的 ...",
+    "tags": [
+      "Auto-Gen",
+      "Throttling"
+    ]
+  },
+  {
+    "title": "Fusion (深度融合)",
+    "category": "Auto-Mined",
+    "description": "全称：Fusion，中文释义：深度融合。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...快，但有时“算法痕迹”很重或画质不稳定的物理原因。\r \r  2.2 iOS：优雅的 Deep Fusion (深度融合)\r \r 从 iPhone 11 开始，Apple 引入了 Deep Fusion，这本质上是一个 异步调度（Asynchronous Scheduling） ...",
+    "tags": [
+      "Auto-Gen",
+      "Fusion"
+    ]
+  },
+  {
+    "title": "QoS (服务质量)",
+    "category": "Auto-Mined",
+    "description": "全称：QoS，中文释义：服务质量。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...roid 以前不怎么做“后台慢算”？因为这需要极其昂贵的 RAM（内存） 资源和强大的 QoS（服务质量） 管理。\r \r  3.1 内存池的压力\r \r “后台慢算”意味着你需要把几百 MB 的 RAW 数据暂存在 RAM 里，排队等待 NPU 处理。\r  iOS 优势：...",
+    "tags": [
+      "Auto-Gen",
+      "QoS"
+    ]
+  },
+  {
+    "title": "E-Core (能效核)",
+    "category": "Auto-Mined",
+    "description": "全称：E-Core，中文释义：能效核。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...脑”分工。像 Intel 的 Lunar Lake 和高通的 X Elite 2，都极度强化了 E-Core（能效核）和 NPU 的地位。你在打字、看网页时，P-Core（性能核）直接休眠，只有在你启动 3A 大作或渲染视频的那一刻，大脑才会真正醒来。\r \r 第二，屏幕本身的“自律”。2...",
+    "tags": [
+      "Auto-Gen",
+      "E-Core"
+    ]
+  },
+  {
+    "title": "P-Core (性能核)",
+    "category": "Auto-Mined",
+    "description": "全称：P-Core，中文释义：性能核。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...的 X Elite 2，都极度强化了 E-Core（能效核）和 NPU 的地位。你在打字、看网页时，P-Core（性能核）直接休眠，只有在你启动 3A 大作或渲染视频的那一刻，大脑才会真正醒来。\r \r 第二，屏幕本身的“自律”。2026 年的旗舰本标配了 Tandem OLED 甚至 Mic...",
+    "tags": [
+      "Auto-Gen",
+      "P-Core"
+    ]
+  },
+  {
+    "title": "G2q (全能王)",
+    "category": "Auto-Mined",
+    "description": "全称：G2q，中文释义：全能王。",
+    "explanation": "该术语自动提取自深度专栏文章。",
+    "context": "...存能减少频繁的数据搬运，反而是省电的关键。\r \r 特别推荐: HP EliteBook X G2q（全能王）、MacBook Air 15 M5（生态王）、Acer Swift Go 16（性价比）。\r \r ---\r \r \r \r > ❝\r > 真正的科技，是让你在一个星期里，都完全想不起“充...",
+    "tags": [
+      "Auto-Gen",
+      "G2q"
+    ]
   }
 ]

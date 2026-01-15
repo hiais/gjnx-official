@@ -5,6 +5,7 @@ import Card from '../components/ui/Card.astro';
 import Tag from '../components/ui/Tag.astro';
 import { getCollection } from 'astro:content';
 import hotspotsData from '../data/hotspots.json';
+import WeChatModal from '../components/WeChatModal.astro';
 
 // Fetch recent articles (Mock data or real)
 const allArticles = await getCollection('articles');
@@ -17,7 +18,10 @@ const recentArticles = allArticles
 const topHotspots = hotspotsData.slice(0, 3);
 ---
 
-<MainLayout title="首页">
+<MainLayout 
+  title="首页"
+  description="硅基能效 (GJNX.TECH) 是专注 AI 算力与芯片能效的深度技术媒体。我们解构每一瓦特的算力价值，提供最新的 NVIDIA/AMD 芯片测评、LLM 算力地图与硬核能效技术报告。"
+>
   <!-- Hero Section: Intelligence Command Center -->
   <section class="hero-command-center">
     <div class="hero-bg-grid">
@@ -57,7 +61,7 @@ const topHotspots = hotspotsData.slice(0, 3);
               </div>
               <div class="mini-radar-list">
                 {topHotspots.map((item, index) => (
-                  <a href={item.link} target="_blank" class="mini-radar-item">
+                  <div class="mini-radar-item wechat-trigger" data-keyword="情报">
                     <div class="mini-rank mono">0{index + 1}</div>
                     <div class="mini-content">
                        <div class="mini-title">{item.title}</div>
@@ -66,16 +70,17 @@ const topHotspots = hotspotsData.slice(0, 3);
                          <span class="mini-score">PSCORE: {item.pscore}</span>
                        </div>
                     </div>
-                  </a>
+                  </div>
                 ))}
               </div>
               <div class="hud-footer mono">
-                 <a href="/news" class="view-poll">> VIEW_FULL_LEADERBOARD</a>
+                 <a href="javascript:void(0)" class="view-poll wechat-trigger" data-keyword="情报">> VIEW_FULL_LEADERBOARD</a>
               </div>
            </div>
         </div>
       </div>
     </div>
+    <WeChatModal triggerId="dynamic" title="ACCESS_DENIED" keyword="情报" />
   </section>
 
   <!-- Recent Updates -->

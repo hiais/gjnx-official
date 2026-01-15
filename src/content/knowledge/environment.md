@@ -1,6 +1,6 @@
 ---
 title: Environment (可重构执行环境)
-date: 2026-01-15T16:07:45.883Z
+date: 2026-01-15T17:20:15.802Z
 category: Auto-Mined
 tags:
   - Auto-Gen

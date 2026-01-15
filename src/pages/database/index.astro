@@ -312,9 +312,6 @@ const categories = [...new Set(products.map(p => p.data.category))];
     });
   }
 
-  // Initialize on load
-  setupFilters();
-
-  // Re-init on Astro page transitions if using ViewTransitions
-  document.addEventListener('astro:after-swap', setupFilters);
+  // Initialize on every page navigation (and initial load)
+  document.addEventListener('astro:page-load', setupFilters);
 </script>

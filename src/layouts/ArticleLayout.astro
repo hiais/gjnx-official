@@ -109,7 +109,7 @@ const keywords = frontmatter?.tags?.join(', ') || "Silicon Efficiency, AI, Chip"
       <button id="close-modal" class="close-btn">×</button>
       <h3 class="mono">> INITIATING_HANDSHAKE</h3>
       <div class="qr-wrapper">
-        <img src="/assets/qrcode.jpg" alt="Silicon Efficiency WeChat QR" width="200" height="200" />
+        <img src="/assets/qrcode.jpg" alt="Silicon Efficiency WeChat QR" width="200" height="200" loading="lazy" />
         <div class="scan-line"></div>
       </div>
       <p class="instruction">
@@ -524,37 +524,51 @@ const keywords = frontmatter?.tags?.join(', ') || "Silicon Efficiency, AI, Chip"
 </style>
 
 <script>
-  // Reading Progress Logic
-  window.addEventListener('scroll', () => {
+  function handleScroll() {
     const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
     const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    const scrolled = (winScroll / height) * 100;
+    // Prevent divide by zero
+    const scrolled = height > 0 ? (winScroll / height) * 100 : 0;
     const bar = document.getElementById('progress-bar');
     if (bar) bar.style.width = scrolled + "%";
-  });
-
-  // Modal Logic
-  const modal = document.getElementById('wechat-modal') as HTMLDialogElement;
-  const openBtn = document.getElementById('open-modal');
-  const closeBtn = document.getElementById('close-modal');
-
-  if (modal && openBtn && closeBtn) {
-    openBtn.addEventListener('click', () => {
-      modal.showModal();
-    });
-
-    closeBtn.addEventListener('click', () => {
-      modal.close();
-    });
-
-    // Close on backdrop click
-    modal.addEventListener('click', (e) => {
-      const rect = modal.getBoundingClientRect();
-      const isInDialog = (rect.top <= e.clientY && e.clientY <= rect.top + rect.height &&
-        rect.left <= e.clientX && e.clientX <= rect.left + rect.width);
-      if (!isInDialog) {
-        modal.close();
-      }
-    });
   }
+
+  function initArticle() {
+    // Scroll Logic
+    window.removeEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll);
+
+    // Modal Logic
+    const modal = document.getElementById('wechat-modal') as HTMLDialogElement;
+    const openBtn = document.getElementById('open-modal');
+    const closeBtn = document.getElementById('close-modal');
+
+    if (modal && openBtn && closeBtn) {
+      // Clone to remove old listeners
+      const newOpen = openBtn.cloneNode(true);
+      openBtn.parentNode?.replaceChild(newOpen, openBtn);
+      
+      const newClose = closeBtn.cloneNode(true);
+      closeBtn.parentNode?.replaceChild(newClose, closeBtn);
+
+      newOpen.addEventListener('click', () => modal.showModal());
+      newClose.addEventListener('click', () => modal.close());
+
+      // Backdrop click (attached to modal itself, which is fresh on page load usually if re-rendered, 
+      // but in Astro ViewTransitions, if Layout persists, it persists. 
+      // Layout usually persists? No, Component is re-rendered.
+      // So simple addEventListener is fine.)
+      
+      modal.onclick = (e) => {
+         const rect = modal.getBoundingClientRect();
+         const isInDialog = (rect.top <= e.clientY && e.clientY <= rect.top + rect.height &&
+           rect.left <= e.clientX && e.clientX <= rect.left + rect.width);
+         if (!isInDialog) {
+           modal.close();
+         }
+      };
+    }
+  }
+
+  document.addEventListener('astro:page-load', initArticle);
 </script>

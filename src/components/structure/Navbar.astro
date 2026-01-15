@@ -211,6 +211,8 @@ const links = [
     display: flex;
     flex-direction: column;
     gap: var(--space-4);
+    max-height: calc(100vh - 60px);
+    overflow-y: auto;
   }
   .mobile-menu.hidden { display: none; }
   
@@ -242,6 +244,8 @@ const links = [
 </style>
 
 <script>
+  let isInitialized = false;
+
   function initNavbar() {
     const toggle = document.getElementById('menu-toggle');
     const menu = document.getElementById('mobile-menu');
@@ -249,6 +253,9 @@ const links = [
     const navItems = document.querySelectorAll('.nav-item');
     
     // Mobile Menu Logic
+    // Clone node to strip old listeners if elements are reused (ViewTransitions swaps body, so elements are new usually)
+    // But strictly speaking, just adding is fine as elements are fresh.
+    
     toggle?.addEventListener('click', () => {
       menu?.classList.toggle('hidden');
     });
@@ -267,12 +274,8 @@ const links = [
     const followOpen = document.getElementById('follow-open');
     const mobileFollowOpen = document.getElementById('mobile-follow-open');
     const followClose = document.getElementById('follow-close');
-    // Type assertion is handled by TypeScript compiler in .astro files usually, but valid JS here
-    const followModal = document.getElementById('follow-modal');
+    const followModal = document.getElementById('follow-modal') as HTMLDialogElement;
 
-    // Clean up previous event listeners if necessary? HTML is replaced so listeners are gone.
-    // Except for window/document level listeners.
-    
     // Search
     const openSearch = () => {
       searchModal?.classList.remove('hidden');
@@ -280,35 +283,55 @@ const links = [
         new window.PagefindUI({ element: "#search-ui", showSubResults: true });
       }
       setTimeout(() => {
-        const input = document.querySelector('.pagefind-ui__search-input');
+        const input = document.querySelector('.pagefind-ui__search-input') as HTMLInputElement;
         input?.focus();
       }, 100);
     };
+    
     searchOpen?.addEventListener('click', openSearch);
     searchClose?.addEventListener('click', () => searchModal?.classList.add('hidden'));
     
-    // Check if we already attach the window listener
-    // Ideally we should use a named function to remove it, but for simplicity in this task:
-    // With ViewTransitions, document/window listeners persist.
-    // We should be careful not to stack them.
-    // Let's use a unique handler attached to the window.
-    
-    // Close search on ESC
-    const handleEsc = (e) => {
-      if (e.key === 'Escape') searchModal?.classList.add('hidden');
-    };
-    window.removeEventListener('keydown', handleEsc); // Attempt removal (won't work if fn is different ref)
-    window.addEventListener('keydown', handleEsc);
+    // Global ESC Handler - defined once per cleanup cycle could be tricky. 
+    // Best way with ViewTransitions: attached to document, but we need to ensure we don't duplicate.
+    // We will use a named function to allow removal, but we need to remove PREVIOUS one.
+    // However, function reference changes if defined inside initNavbar.
+    // So we define it OUTSIDE.
+  }
 
-    // Follow Modal
+  // Define handler at module scope (stable reference)
+  const handleGlobalEsc = (e: KeyboardEvent) => {
+    if (e.key === 'Escape') {
+      const searchModal = document.getElementById('search-modal');
+      const followModal = document.getElementById('follow-modal') as HTMLDialogElement;
+      
+      if (searchModal && !searchModal.classList.contains('hidden')) {
+        searchModal.classList.add('hidden');
+      }
+      if (followModal && followModal.open) {
+        followModal.close();
+      }
+    }
+  };
+
+  // Follow Modal logic needs to be re-bound to new elements
+  function initBindFollow() {
+    const followOpen = document.getElementById('follow-open');
+    const mobileFollowOpen = document.getElementById('mobile-follow-open');
+    const footerFollowOpen = document.getElementById('footer-follow-open');
+    const followClose = document.getElementById('follow-close');
+    const followModal = document.getElementById('follow-modal') as HTMLDialogElement;
+    
     const openFollow = () => followModal?.showModal();
     followOpen?.addEventListener('click', openFollow);
     mobileFollowOpen?.addEventListener('click', openFollow);
+    footerFollowOpen?.addEventListener('click', openFollow);
     followClose?.addEventListener('click', () => followModal?.close());
+  }
 
-    // Active State Logic
-    const pathname = window.location.pathname;
-    navItems.forEach(link => {
+  function initActiveState() {
+     const navItems = document.querySelectorAll('.nav-item');
+     const pathname = window.location.pathname;
+     navItems.forEach(link => {
       const href = link.getAttribute('href');
       if (href === '/' && pathname === '/') {
         link.classList.add('active');
@@ -318,8 +341,16 @@ const links = [
     });
   }
 
-  // Run on initial load and after every navigation
-  document.addEventListener('astro:page-load', initNavbar);
+  // Main Entry
+  document.addEventListener('astro:page-load', () => {
+    initNavbar();
+    initBindFollow();
+    initActiveState();
+
+    // Event Listener Cleanliness for Window
+    window.removeEventListener('keydown', handleGlobalEsc);
+    window.addEventListener('keydown', handleGlobalEsc);
+  });
 </script>
 
 <!-- Pagefind Assets -->
