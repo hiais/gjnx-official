@@ -2,17 +2,27 @@
 interface Props {
   href?: string;
   class?: string;
+  variant?: 'default' | 'hero' | 'compact';
 }
 
-const { href, class: className } = Astro.props;
+const { href, class: className, variant = 'default' } = Astro.props;
 const Element = href ? 'a' : 'div';
 ---
 
-<Element href={href} class:list={['card', className, { 'card-link': !!href }]}>
+<Element href={href} class:list={['card', className, `variant-${variant}`, { 'card-link': !!href }]}>
   <div class="card-inner">
     <slot />
   </div>
   <div class="card-glow"></div>
+  {/* Tech Decorations */}
+  <div class="tech-corner top-left"></div>
+  <div class="tech-corner bottom-right"></div>
+  {variant === 'hero' && (
+    <>
+      <div class="hero-grid-bg"></div>
+      <div class="scanline"></div>
+    </>
+  )}
 </Element>
 
 <style>
@@ -25,12 +35,50 @@ const Element = href ? 'a' : 'div';
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     text-decoration: none;
     color: inherit;
+    display: flex;
+    flex-direction: column;
   }
 
   .card-inner {
     padding: var(--space-6);
     position: relative;
     z-index: 2;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Variant: Hero */
+  .variant-hero {
+    min-height: 460px; /* Slightly reduced to match 3 compact cards + gaps */
+    height: 100%;      /* fill the grid height */
+    background: linear-gradient(135deg, rgba(20, 20, 20, 0.9), rgba(5, 5, 5, 1));
+    border-color: rgba(0, 240, 255, 0.15);
+  }
+  .variant-hero .card-inner {
+    justify-content: flex-end; /* Text at bottom */
+    padding: var(--space-8);
+  }
+  .hero-grid-bg {
+    position: absolute;
+    inset: 0;
+    background-image: 
+      linear-gradient(rgba(0, 240, 255, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 240, 255, 0.05) 1px, transparent 1px);
+    background-size: 40px 40px;
+    z-index: 0;
+    mask-image: radial-gradient(circle at 70% 30%, black, transparent 70%);
+    pointer-events: none;
+  }
+
+  /* Variant: Compact */
+  .variant-compact {
+    min-height: 110px; /* Tighter vertical rhythm */
+    background: rgba(10, 10, 10, 0.4);
+  }
+  .variant-compact .card-inner {
+    padding: 1rem 1.25rem; /* Reduced padding */
+    justify-content: center;
   }
 
   .card-glow {
@@ -47,19 +95,60 @@ const Element = href ? 'a' : 'div';
     border-color: var(--c-accent-cyan);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 240, 255, 0.1);
   }
+  .variant-hero.card-link:hover {
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7), 0 0 30px rgba(0, 240, 255, 0.15);
+  }
 
   .card-link:hover .card-glow {
     opacity: 1;
   }
 
-  /* Cyberpunk Corner Detail */
-  .card::after {
-    content: '';
+  /* Tech Decorations */
+  .tech-corner {
     position: absolute;
-    bottom: -5px; right: -5px;
-    width: 20px; height: 20px;
-    background: var(--c-accent-cyan);
-    transform: rotate(45deg);
-    opacity: 0.2;
+    width: 6px;
+    height: 6px;
+    border-color: rgba(255, 255, 255, 0.15); /* Subtle Grey/White */
+    transition: all 0.3s ease;
+    pointer-events: none;
+    z-index: 3;
+    opacity: 0.6;
   }
+  .tech-corner.top-left {
+    top: 0; left: 0;
+    border-top: 1px solid;
+    border-left: 1px solid;
+  }
+  .tech-corner.bottom-right {
+    bottom: 0; right: 0;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+  }
+
+  .card-link:hover .tech-corner {
+    width: 10px; height: 10px;
+    border-color: var(--c-accent-cyan);
+    box-shadow: 0 0 5px rgba(0, 240, 255, 0.5); /* Soft Glow */
+    opacity: 1;
+  }
+
+  /* Scanline for Hero */
+  .scanline {
+    position: absolute;
+    top: -20%;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(to bottom, transparent, rgba(0, 240, 255, 0.05), transparent); /* Very subtle */
+    animation: cardScan 5s linear infinite; /* Slow scan */
+    pointer-events: none;
+    z-index: 1;
+  }
+  @keyframes cardScan {
+    0% { top: -20%; opacity: 0; }
+    50% { opacity: 1; }
+    100% { top: 120%; opacity: 0; }
+  }
+
+
 </style>

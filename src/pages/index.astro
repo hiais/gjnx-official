@@ -74,7 +74,7 @@ const topHotspots = hotspotsData.slice(0, 3);
                 ))}
               </div>
               <div class="hud-footer mono">
-                 <a href="javascript:void(0)" class="view-poll wechat-trigger" data-keyword="情报">> VIEW_FULL_LEADERBOARD</a>
+                 <a href="/news" class="view-poll">> VIEW_FULL_LEADERBOARD</a>
               </div>
            </div>
         </div>
@@ -84,29 +84,62 @@ const topHotspots = hotspotsData.slice(0, 3);
   </section>
 
   <!-- Recent Updates -->
-  <section class="section">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="mono-heading">LATEST_TRANSMISSION</h2>
+  <section class="section latest-section">
+    <div class="section-grid-bg"></div>
+    <div class="container relative z-10">
+      <div class="section-header cyberpunk-header">
+        <div class="header-content">
+          <h2 class="mono-heading">LATEST_TRANSMISSION</h2>
+          <div class="header-status mono">
+            <span class="status-dot"></span>
+            <span class="status-text">SECURE_LINK_ESTABLISHED</span>
+          </div>
+        </div>
         <Button href="/articles" variant="secondary" size="sm">VIEW_ALL</Button>
       </div>
       
       {recentArticles.length > 0 ? (
-        <div class="grid">
-          {recentArticles.map(article => (
-            <Card href={`/articles/${article.id}`} class="article-card">
-              <div class="card-meta">
-                <span class="date mono">{article.data.date ? article.data.date.toISOString().split('T')[0] : 'N/A'}</span>
-                {article.data.tags?.slice(0, 1).map((tag: any) => (
-                  <Tag variant="outline">{tag}</Tag>
-                ))}
-              </div>
-              <h3 class="card-title">{article.data.title}</h3>
-              <p class="card-desc">
-                {article.data.description?.replace(/<[^>]*>?/gm, '')}
-              </p>
-            </Card>
+        <div class="magazine-grid">
+          {/* Hero Article (1st) */}
+          {recentArticles.slice(0, 1).map(article => (
+            <div class="hero-slot">
+              <Card href={`/articles/${article.id}`} variant="hero" class="hero-card-instance">
+                <div class="card-meta">
+                  <span class="date mono text-accent">&gt; LOG // {article.data.date ? article.data.date.toISOString().split('T')[0].replace(/-/g, '.') : 'N/A'}</span>
+                  {article.data.tags?.slice(0, 1).map((tag: string) => (
+                    <Tag variant="outline">{tag}</Tag>
+                  ))}
+                </div>
+                <h3 class="card-title magazine-hero-title">{article.data.title}</h3>
+                <p class="card-desc hero-desc">
+                  {article.data.description?.replace(/<[^>]*>?/gm, '')}
+                </p>
+                <div class="hero-footer-action mono">
+                  <span class="action-text">[READ_DATA]</span>
+                  <span class="action-line"></span>
+                </div>
+              </Card>
+            </div>
           ))}
+
+          {/* Side Articles (2nd - 4th) */}
+          <div class="side-slot">
+            {recentArticles.slice(1, 4).map((article, index) => (
+              <Card href={`/articles/${article.id}`} variant="compact" class="side-card-instance">
+                {index === 0 && (
+                  <div class="rec-badge mono">
+                    <span class="pulse-dot"></span> RECOMMENDED
+                  </div>
+                )}
+                <div class="side-content">
+                    <h3 class="card-title side-title">{article.data.title}</h3>
+                    <div class="card-meta side-meta">
+                        <span class="date mono">{article.data.date ? article.data.date.toISOString().split('T')[0].replace(/-/g, '.') : 'N/A'}</span>
+                    </div>
+                </div>
+              </Card>
+            ))}
+          </div>
         </div>
       ) : (
         <div class="empty-state mono">
@@ -119,7 +152,141 @@ const topHotspots = hotspotsData.slice(0, 3);
 </MainLayout>
 
 <style>
-  /* Command Center Hero */
+  /* Magazine Grid Layout */
+  .magazine-grid {
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+    gap: 2rem;
+    /* Removed min-height to prevent layout shift */
+  }
+
+  .hero-slot {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    border-left: 1px solid rgba(0, 240, 255, 0.1); /* Decorative anchor line */
+    padding-left: 1rem;
+    margin-left: -1rem;
+  }
+
+  /* Cyberpunk Header Styles */
+  .cyberpunk-header {
+    align-items: center;
+  }
+  .header-content {
+    display: flex;
+    align-items: baseline;
+    gap: 1.5rem;
+  }
+  .header-status {
+    font-size: 0.75rem;
+    color: var(--c-accent-cyan);
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .header-status .status-dot {
+    width: 6px; height: 6px;
+    background: var(--c-accent-cyan);
+    border-radius: 50%;
+    box-shadow: 0 0 5px var(--c-accent-cyan);
+    animation: blink 2s infinite;
+  }
+
+  @media (max-width: 640px) {
+    .header-status { display: none; } /* Hide on mobile to save space */
+  }
+
+  .side-slot {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem; /* Tighter gap for compact look */
+    /* Removed justify-content: space-between to allow natural stacking */
+  }
+
+  /* Typography Overrides */
+  .magazine-hero-title {
+    font-size: clamp(2rem, 3.5vw, 3rem);
+    line-height: 1.1;
+    margin-top: auto; /* Push to bottom */
+    margin-bottom: 1rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: #fff;
+    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    transition: color 0.3s ease;
+  }
+  
+  .hero-card-instance:hover .magazine-hero-title {
+    color: var(--c-accent-cyan);
+  }
+
+  .hero-desc {
+    font-size: 1.1rem;
+    max-width: 90%;
+    color: rgba(255, 255, 255, 0.7);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .side-meta {
+    margin-bottom: 0;
+    opacity: 0.5;
+  }
+
+  .rec-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 0.6rem;
+    color: var(--c-accent-amber);
+    border: 1px solid rgba(255, 174, 0, 0.3);
+    padding: 2px 6px;
+    border-radius: 4px;
+    background: rgba(255, 174, 0, 0.05);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    letter-spacing: 0.05em;
+    z-index: 10;
+  }
+  .rec-badge .pulse-dot {
+    width: 4px; height: 4px;
+    background: var(--c-accent-amber);
+    border-radius: 50%;
+    animation: blink 1s infinite;
+  }
+
+  /* RESTORED: Glitch Animation for Top Hero */
+  @keyframes glitch {
+    0% { text-shadow: 0.05em 0 0 rgba(255,0,0,0.75), -0.05em -0.025em 0 rgba(0,255,0,0.75), -0.025em 0.05em 0 rgba(0,0,255,0.75); }
+    14% { text-shadow: 0.05em 0 0 rgba(255,0,0,0.75), -0.05em -0.025em 0 rgba(0,255,0,0.75), -0.025em 0.05em 0 rgba(0,0,255,0.75); }
+    15% { text-shadow: -0.05em -0.025em 0 rgba(255,0,0,0.75), 0.025em 0.025em 0 rgba(0,255,0,0.75), -0.05em -0.05em 0 rgba(0,0,255,0.75); }
+    49% { text-shadow: -0.05em -0.025em 0 rgba(255,0,0,0.75), 0.025em 0.025em 0 rgba(0,255,0,0.75), -0.05em -0.05em 0 rgba(0,0,255,0.75); }
+    50% { text-shadow: 0.025em 0.05em 0 rgba(255,0,0,0.75), 0.05em 0 0 rgba(0,255,0,0.75), 0 -0.05em 0 rgba(0,0,255,0.75); }
+    99% { text-shadow: 0.025em 0.05em 0 rgba(255,0,0,0.75), 0.05em 0 0 rgba(0,255,0,0.75), 0 -0.05em 0 rgba(0,0,255,0.75); }
+    100% { text-shadow: -0.025em 0 0 rgba(255,0,0,0.75), -0.025em -0.025em 0 rgba(0,255,0,0.75), -0.025em -0.05em 0 rgba(0,0,255,0.75); }
+  }
+
+  /* Responsive Mobile */
+  @media (max-width: 768px) {
+    .magazine-grid {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+    .hero-title {
+      font-size: 2rem;
+    }
+    .side-slot {
+      gap: 1rem;
+    }
+  }
+
+  /* Command Center Hero (Existing Styles) */
   .hero-command-center {
     position: relative;
     min-height: 85vh;
@@ -400,5 +567,62 @@ const topHotspots = hotspotsData.slice(0, 3);
     .command-grid { grid-template-columns: 1fr; gap: 3rem; }
     .hero-command-center { min-height: auto; padding: 6rem 0; }
     .hero-title { font-size: 3.5rem; }
+  }
+  /* Latest Section Specifics */
+  .latest-section {
+    position: relative;
+    overflow: hidden;
+  }
+  .section-grid-bg {
+    position: absolute;
+    inset: 0;
+    background-image: 
+      linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 60px 60px;
+    mask-image: radial-gradient(circle at 50% 50%, black, transparent 80%);
+    pointer-events: none;
+    z-index: 0;
+  }
+  
+  .text-accent { color: var(--c-accent-cyan); opacity: 1; font-weight: bold; } /* Enhanced Contrast */
+
+  /* Cyberpunk Header Styles (Minimal - Aligned with HUD) */
+  .cyberpunk-header {
+    background: transparent;
+    border: none;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.2); /* Dashed line like Intel Feed */
+    padding: 0 0 1rem 0;
+    border-radius: 0;
+    backdrop-filter: none;
+    margin-bottom: 2rem;
+  }
+
+  /* Hero Footer Action (Read Indicator) */
+  .hero-footer-action {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.85rem;
+    color: var(--c-accent-cyan);
+    opacity: 0.6;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+  }
+  .action-line {
+    height: 1px;
+    flex: 1;
+    background: linear-gradient(90deg, var(--c-accent-cyan), transparent);
+    opacity: 0.5;
+  }
+  
+  .hero-card-instance:hover .hero-footer-action {
+    opacity: 1;
+    letter-spacing: 0.05em;
+  }
+  .hero-card-instance:hover .action-line {
+    opacity: 1;
+    box-shadow: 0 0 10px var(--c-accent-cyan);
   }
 </style>

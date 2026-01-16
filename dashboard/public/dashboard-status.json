@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-01-16 01:20:16",
+  "timestamp": "2026-01-17 01:16:04",
   "health": {
     "score": 30,
     "status": "critical",
     "issues": [
       "WARN_QUEUE_BACKUP",
-      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (11744m ago))"
+      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (13180m ago))"
     ],
     "daemon_status": {
       "alive": false,
-      "last_heartbeat": "2026-01-07 21:35:33 (11744m ago)"
+      "last_heartbeat": "2026-01-07 21:35:33 (13180m ago)"
     }
   },
   "tasks": {
@@ -19,7 +19,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-06 00:25:07",
-        "age_minutes": 14455.1,
+        "age_minutes": 15891.0,
         "trace_id": "trc-0106002507"
       },
       {
@@ -27,7 +27,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-07 01:23:43",
-        "age_minutes": 12956.5,
+        "age_minutes": 14392.4,
         "trace_id": "trc-0107012343"
       },
       {
@@ -35,7 +35,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-08 01:31:22",
-        "age_minutes": 11508.9,
+        "age_minutes": 12944.7,
         "trace_id": "trc-0108013122"
       },
       {
@@ -43,7 +43,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-09 20:18:32",
-        "age_minutes": 8941.7,
+        "age_minutes": 10377.5,
         "trace_id": "trc-0109201832"
       },
       {
@@ -51,7 +51,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-01 16:38:45",
-        "age_minutes": 20681.5,
+        "age_minutes": 22117.3,
         "trace_id": "trc-0101163845"
       },
       {
@@ -59,7 +59,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-02 17:01:26",
-        "age_minutes": 19218.8,
+        "age_minutes": 20654.7,
         "trace_id": "trc-0102170126"
       },
       {
@@ -67,7 +67,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-03 18:01:22",
-        "age_minutes": 17718.9,
+        "age_minutes": 19154.7,
         "trace_id": "trc-0103180122"
       },
       {
@@ -75,7 +75,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-04 20:01:35",
-        "age_minutes": 16158.7,
+        "age_minutes": 17594.5,
         "trace_id": "trc-0104200135"
       },
       {
@@ -83,7 +83,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-05 22:01:18",
-        "age_minutes": 14599.0,
+        "age_minutes": 16034.8,
         "trace_id": "trc-0105220118"
       },
       {
@@ -91,7 +91,7 @@
         "priority": "P2",
         "workflow": "process-tasks",
         "created": "2026-01-06 23:01:30",
-        "age_minutes": 13098.8,
+        "age_minutes": 14534.6,
         "trace_id": "trc-0106230130"
       },
       {
@@ -99,7 +99,7 @@
         "priority": "P2",
         "workflow": "verify-test",
         "created": "2026-01-05 23:51:51",
-        "age_minutes": 14488.4,
+        "age_minutes": 15924.2,
         "trace_id": "trc-0105235151"
       }
     ],
@@ -107,154 +107,46 @@
       {
         "id": "P2_save_all_trc-0102203030.processing",
         "created": "2026-01-03 00:30:30",
-        "age_minutes": 18769.8
+        "age_minutes": 20205.6
       }
     ],
     "failed": [],
     "alerts": []
   },
   "logs": {
-    "total": 17,
+    "total": 3,
     "by_level": {
-      "INFO": 10,
-      "WARN": 1,
-      "ERROR": 1,
+      "INFO": 2,
+      "WARN": 0,
+      "ERROR": 0,
       "FATAL": 0,
-      "SUCCESS": 5,
+      "SUCCESS": 1,
       "SYSTEM": 0
     },
     "by_workflow": {
-      "system": 14,
-      "plan": 2,
-      "write-article": 1
+      "system": 3
     },
-    "recent_errors": [
-      {
-        "time": "2026-01-16T00:06:38",
-        "level": "ERROR",
-        "workflow": "system",
-        "message": "[save-all] Content Sync error: 由于出现以下错误，无法运行此命令: %1 不是有效的 Win32 应用程序。。",
-        "trace_id": ""
-      }
-    ],
+    "recent_errors": [],
     "recent_activities": [
       {
-        "time": "2026-01-16T01:20:16",
+        "time": "2026-01-17T01:16:04",
         "level": "OK",
         "workflow": "system",
         "message": "[save-all] Content sync completed successfully",
         "trace_id": ""
       },
       {
-        "time": "2026-01-16T01:20:16",
+        "time": "2026-01-17T01:16:04",
         "level": "INFO",
         "workflow": "system",
         "message": "[save-all] Generating dashboard data...",
         "trace_id": ""
       },
       {
-        "time": "2026-01-16T01:19:53",
+        "time": "2026-01-17T01:15:58",
         "level": "INFO",
         "workflow": "system",
         "message": "[save-all] running 'npm run sync:all'...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-16T01:18:08.882021",
-        "level": "INFO",
-        "workflow": "plan",
-        "message": "workflow_end",
-        "trace_id": "trace-20260116-011704-plan"
-      },
-      {
-        "time": "2026-01-16T01:17:49.590057",
-        "level": "INFO",
-        "workflow": "plan",
-        "message": "workflow_start",
-        "trace_id": "trace-20260116-011704-plan"
-      },
-      {
-        "time": "2026-01-16T01:01:57.597771",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "workflow_end",
-        "trace_id": "trace-20260116-005853-0bacdf87"
-      },
-      {
-        "time": "2026-01-16T00:07:55",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Core: Committed locally: chore(auto): deep sync [Scripts] (1 modified, 0 added, 0 deleted) @00:07:54",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-16T00:07:54",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Website: Committed locally (Push delayed): feat(auto): sync website [Scripts] (130 modified, 1 added, 44 deleted) @00:07:53",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-16T00:07:54",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Core repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-16T00:07:53",
-        "level": "WARN",
-        "workflow": "system",
-        "message": "[save-all] Push cooldown active (17.1m < 30.0m). Push skipped.",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-16T00:07:46",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Content sync completed successfully",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-16T00:07:46",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Generating dashboard data...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-16T00:07:46",
-        "level": "OK",
-        "workflow": "system",
-        "message": "[save-all] Dashboard generated successfully",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-16T00:07:46",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] Processing Website repository...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-16T00:07:43",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] running 'npm run sync:all'...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-16T00:06:38",
-        "level": "INFO",
-        "workflow": "system",
-        "message": "[save-all] running 'npm run sync:all'...",
-        "trace_id": ""
-      },
-      {
-        "time": "2026-01-16T00:06:38",
-        "level": "ERROR",
-        "workflow": "system",
-        "message": "[save-all] Content Sync error: 由于出现以下错误，无法运行此命令: %1 不是有效的 Win32 应用程序。。",
         "trace_id": ""
       }
     ]
@@ -262,8 +154,8 @@
   "performance": {
     "avg_duration_by_workflow": {},
     "duration_percentiles": {},
-    "token_usage_today": 32000,
-    "token_usage_week": 1024650,
+    "token_usage_today": 0,
+    "token_usage_week": 459000,
     "success_count": 0,
     "fail_count": 0,
     "success_rate": 0
@@ -272,54 +164,43 @@
     "daily_budget": 100.0,
     "daily_token_budget": 500000,
     "token_price_per_k": 0.1,
-    "today_total_cost": 3.2,
-    "today_token_usage": 32000,
-    "week_total_cost": 102.47,
-    "week_token_usage": 1024650,
-    "budget_usage_percent": 3.2,
+    "today_total_cost": 0,
+    "today_token_usage": 0,
+    "week_total_cost": 45.9,
+    "week_token_usage": 459000,
+    "budget_usage_percent": 0.0,
     "budget_status": "normal",
-    "by_workflow_today": {
-      "write-article": {
-        "tokens": 30000,
-        "cost": 3.0,
-        "count": 1
-      },
-      "plan": {
-        "tokens": 2000,
-        "cost": 0.2,
-        "count": 2
-      }
-    },
+    "by_workflow_today": {},
     "by_workflow_week": {
       "write-article": {
-        "tokens": 939650,
-        "cost": 93.965,
-        "count": 138
+        "tokens": 450000,
+        "cost": 45.0,
+        "count": 48
       },
       "plan": {
-        "tokens": 20000,
-        "cost": 1.9999999999999998,
-        "count": 35
+        "tokens": 4000,
+        "cost": 0.4,
+        "count": 5
       },
       "scout": {
-        "tokens": 60000,
-        "cost": 6.0,
-        "count": 32
+        "tokens": 5000,
+        "cost": 0.5,
+        "count": 3
       },
       "validate-config": {
         "tokens": 0,
         "cost": 0.0,
-        "count": 31
+        "count": 12
       },
       "verify-data": {
         "tokens": 0,
         "cost": 0.0,
-        "count": 4
+        "count": 2
       },
       "qc-check": {
-        "tokens": 5000,
-        "cost": 0.5,
-        "count": 3
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 1
       },
       "system_audit": {
         "tokens": 0,
@@ -330,110 +211,50 @@
         "tokens": 0,
         "cost": 0.0,
         "count": 1
-      },
-      "factory": {
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 1
-      },
-      "system": {
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 2
-      },
-      "system_update": {
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 1
-      },
-      "system_sentinel": {
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 1
-      },
-      "daily-config-check": {
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 1
-      },
-      "update-config": {
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 3
-      },
-      "write": {
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 4
-      },
-      "unknown": {
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 1
-      },
-      "write_article": {
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 2
       }
     },
-    "by_workflow_today_formatted": [
-      {
-        "workflow": "write-article",
-        "tokens": 30000,
-        "cost": 3.0,
-        "count": 1,
-        "percentage": 93.8
-      },
-      {
-        "workflow": "plan",
-        "tokens": 2000,
-        "cost": 0.2,
-        "count": 2,
-        "percentage": 6.2
-      }
-    ],
+    "by_workflow_today_formatted": [],
     "by_workflow_week_formatted": [
       {
         "workflow": "write-article",
-        "tokens": 939650,
-        "cost": 93.97,
-        "count": 138,
-        "percentage": 91.7
+        "tokens": 450000,
+        "cost": 45.0,
+        "count": 48,
+        "percentage": 98.0
       },
       {
         "workflow": "scout",
-        "tokens": 60000,
-        "cost": 6.0,
-        "count": 32,
-        "percentage": 5.9
-      },
-      {
-        "workflow": "plan",
-        "tokens": 20000,
-        "cost": 2.0,
-        "count": 35,
-        "percentage": 2.0
-      },
-      {
-        "workflow": "qc-check",
         "tokens": 5000,
         "cost": 0.5,
         "count": 3,
-        "percentage": 0.5
+        "percentage": 1.1
+      },
+      {
+        "workflow": "plan",
+        "tokens": 4000,
+        "cost": 0.4,
+        "count": 5,
+        "percentage": 0.9
       },
       {
         "workflow": "validate-config",
         "tokens": 0,
         "cost": 0.0,
-        "count": 31,
+        "count": 12,
         "percentage": 0.0
       },
       {
         "workflow": "verify-data",
         "tokens": 0,
         "cost": 0.0,
-        "count": 4,
+        "count": 2,
+        "percentage": 0.0
+      },
+      {
+        "workflow": "qc-check",
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 1,
         "percentage": 0.0
       },
       {
@@ -448,69 +269,6 @@
         "tokens": 0,
         "cost": 0.0,
         "count": 1,
-        "percentage": 0.0
-      },
-      {
-        "workflow": "factory",
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 1,
-        "percentage": 0.0
-      },
-      {
-        "workflow": "system",
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 2,
-        "percentage": 0.0
-      },
-      {
-        "workflow": "system_update",
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 1,
-        "percentage": 0.0
-      },
-      {
-        "workflow": "system_sentinel",
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 1,
-        "percentage": 0.0
-      },
-      {
-        "workflow": "daily-config-check",
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 1,
-        "percentage": 0.0
-      },
-      {
-        "workflow": "update-config",
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 3,
-        "percentage": 0.0
-      },
-      {
-        "workflow": "write",
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 4,
-        "percentage": 0.0
-      },
-      {
-        "workflow": "unknown",
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 1,
-        "percentage": 0.0
-      },
-      {
-        "workflow": "write_article",
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 2,
         "percentage": 0.0
       }
     ]
@@ -843,8 +601,7 @@
       "2026-01-13": 4,
       "2026-01-12": 4,
       "2026-01-11": 3,
-      "2026-01-10": 3,
-      "2026-01-09": 3
+      "2026-01-10": 3
     }
   },
   "alert_rules": {
@@ -899,27 +656,23 @@
   "scheduled_tasks": [],
   "business": {
     "articles_today": 0,
-    "articles_week": 77,
-    "qc_pass_rate": 33.3,
+    "articles_week": 13,
+    "qc_pass_rate": 0.0,
     "avg_duration": 0,
     "efficiency": 0
   },
   "alerts": [
     {
-      "time": "01:20",
+      "time": "01:16",
       "level": "🔴 P0",
       "rule_id": "SYS-001",
-      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (11744m ago)",
+      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (13180m ago)",
       "action": "请运行 start-dashboard-full.bat (推荐)",
       "status": "Active"
     }
   ],
   "history": {
     "token_trend_7d": [
-      {
-        "date": "2026-01-10",
-        "value": 565650
-      },
       {
         "date": "2026-01-11",
         "value": 300000
@@ -943,14 +696,14 @@
       {
         "date": "2026-01-16",
         "value": 32000
+      },
+      {
+        "date": "2026-01-17",
+        "value": 0
       }
     ],
     "multi_metric_trend": {
       "token_usage": [
-        {
-          "date": "2026-01-10",
-          "value": 565650
-        },
         {
           "date": "2026-01-11",
           "value": 300000
@@ -974,13 +727,13 @@
         {
           "date": "2026-01-16",
           "value": 32000
+        },
+        {
+          "date": "2026-01-17",
+          "value": 0
         }
       ],
       "success_rate": [
-        {
-          "date": "2026-01-10",
-          "value": 100.0
-        },
         {
           "date": "2026-01-11",
           "value": 100.0
@@ -1003,15 +756,15 @@
         },
         {
           "date": "2026-01-16",
+          "value": 0
+        },
+        {
+          "date": "2026-01-17",
           "value": 0
         }
       ],
       "error_rate": [
         {
-          "date": "2026-01-10",
-          "value": 0.0
-        },
-        {
           "date": "2026-01-11",
           "value": 0.0
         },
@@ -1034,14 +787,14 @@
         {
           "date": "2026-01-16",
           "value": 0.0
+        },
+        {
+          "date": "2026-01-17",
+          "value": 0
         }
       ],
       "queue_length": [
         {
-          "date": "2026-01-10",
-          "value": 0
-        },
-        {
           "date": "2026-01-11",
           "value": 0
         },
@@ -1063,15 +816,15 @@
         },
         {
           "date": "2026-01-16",
+          "value": 0
+        },
+        {
+          "date": "2026-01-17",
           "value": 0
         }
       ],
       "avg_duration": [
         {
-          "date": "2026-01-10",
-          "value": 0
-        },
-        {
           "date": "2026-01-11",
           "value": 0
         },
@@ -1093,6 +846,10 @@
         },
         {
           "date": "2026-01-16",
+          "value": 0
+        },
+        {
+          "date": "2026-01-17",
           "value": 0
         }
       ]
@@ -1100,10 +857,10 @@
   },
   "comparison": {
     "token_usage": {
-      "today": 32000,
-      "yesterday": 0,
-      "delta": 32000,
-      "delta_percent": 100.0
+      "today": 0,
+      "yesterday": 32000,
+      "delta": -32000,
+      "delta_percent": -100.0
     },
     "success_rate": {
       "today": 0,
@@ -1112,19 +869,19 @@
       "delta_percent": 0
     },
     "error_count": {
-      "today": 1,
+      "today": 0,
       "yesterday": 0,
-      "delta": 1,
-      "delta_percent": 100.0
+      "delta": 0,
+      "delta_percent": 0.0
     }
   },
   "system": {
-    "last_update": "2026-01-16 01:20:16",
+    "last_update": "2026-01-17 01:16:05",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.07,
+    "duration_seconds": 0.45,
     "has_token_trend": true,
     "errors": []
   }

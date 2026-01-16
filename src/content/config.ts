@@ -1,13 +1,8 @@
 import { defineCollection, z } from 'astro:content';
-import { glob } from 'astro/loaders';
 
 // Define the "articles" collection
 const articles = defineCollection({
-    // Use the glob loader to pull files from the Content Factory
-    loader: glob({
-        pattern: "**/*.md",
-        base: "./src/content/articles"
-    }),
+    type: 'content',
     schema: z.object({
         title: z.string(),
         date: z.coerce.date().optional(),
@@ -20,10 +15,7 @@ const articles = defineCollection({
 
 // Define the "knowledge" collection
 const knowledge = defineCollection({
-    loader: glob({
-        pattern: "**/*.md",
-        base: "./src/content/knowledge"
-    }),
+    type: 'content',
     schema: z.object({
         title: z.string(),
         date: z.date().optional(),
@@ -35,10 +27,7 @@ const knowledge = defineCollection({
 
 // Define the "database" collection (Product/Chip Database)
 const database = defineCollection({
-    loader: glob({
-        pattern: "**/*.md",
-        base: "./src/content/database"
-    }),
+    type: 'content',
     schema: z.object({
         title: z.string(),
         subtitle: z.string().optional(),
@@ -67,10 +56,7 @@ const database = defineCollection({
 
 // Define the "resources" collection (Whitepapers, Reports)
 const resources = defineCollection({
-    loader: glob({
-        pattern: "**/*.md",
-        base: "./src/content/resources"
-    }),
+    type: 'content',
     schema: z.object({
         title: z.string(),
         date: z.date().optional(),
@@ -82,19 +68,4 @@ const resources = defineCollection({
     })
 });
 
-// Define the "news" collection (Observation Station / News)
-const news = defineCollection({
-    loader: glob({
-        pattern: "**/*.md",
-        base: "./src/content/news"
-    }),
-    schema: z.object({
-        title: z.string(),
-        date: z.date(),
-        author: z.string().optional().default("Agent O"),
-        summary: z.string().optional(),
-        tags: z.array(z.string()).optional(),
-    })
-});
-
-export const collections = { articles, knowledge, database, resources, news };
+export const collections = { articles, knowledge, database, resources };

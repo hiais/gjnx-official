@@ -39,12 +39,21 @@
   --space-4: 1rem;
   --space-6: 1.5rem;
   --space-8: 2rem;
+  --space-10: 2.5rem;
   --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
   
   /* Borders */
   --radius-sm: 4px;
   --radius-md: 8px;
   --border-light: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Global Animations */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
 }
 
 html {

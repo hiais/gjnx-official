@@ -127,10 +127,14 @@ const categories = [...new Set(products.map(p => p.data.category))];
     background: transparent;
     border: 1px solid rgba(255, 255, 255, 0.1);
     color: #999;
-    padding: 0.3rem 1rem;
-    font-size: 0.75rem;
+    padding: 0.6rem 1.2rem;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 0.85rem;
     cursor: pointer;
     transition: all 0.2s;
+    margin-bottom: 0.25rem;
   }
 
   .filter-btn:hover {
