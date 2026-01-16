@@ -5,6 +5,9 @@ import { getCollection } from 'astro:content';
 import SectionHeader from '../../components/ui/SectionHeader.astro';
 
 const allKnowledge = await getCollection('knowledge');
+
+// Extract unique categories for filter
+const categories = [...new Set(allKnowledge.map(k => k.data.category))].sort();
 ---
 
 <MainLayout title="通识 | Lexicon">
@@ -16,14 +19,32 @@ const allKnowledge = await getCollection('knowledge');
 
   <div class="container section">
 
-    <div class="grid">
+    {/* Category Filter Bar */}
+    <div class="filter-bar mono">
+      <span class="filter-label">> CATEGORY_FILTER:</span>
+      <div class="filter-options">
+        <button class="filter-btn active" data-category="all">ALL</button>
+        {categories.map(cat => (
+          <button class="filter-btn" data-category={cat}>{cat}</button>
+        ))}
+      </div>
+    </div>
+
+    <div class="grid" id="knowledge-grid">
       {allKnowledge.map(item => (
-        <Card href={`/knowledge/${item.id}`} class="item-card">
-          <div class="category mono">{item.data.category.toUpperCase()}</div>
-          <h3>{item.data.title}</h3>
-          <p>{item.data.description}</p>
-        </Card>
+        <div class="knowledge-item" data-category={item.data.category}>
+          <Card href={`/knowledge/${item.id}`} class="item-card">
+            <div class="category mono">{item.data.category.toUpperCase()}</div>
+            <h3>{item.data.title}</h3>
+            <p>{item.data.description}</p>
+          </Card>
+        </div>
       ))}
+    </div>
+
+    <div id="no-results" class="empty-state mono hidden">
+      > NO_MATCHING_ENTRIES_FOUND<br>
+      > ADJUST_FILTER_CRITERIA
     </div>
   </div>
 </MainLayout>
@@ -31,6 +52,131 @@ const allKnowledge = await getCollection('knowledge');
 <style>
   .section { padding: var(--space-12) 0 var(--space-20); }
 
+  /* Filter Bar */
+  .filter-bar {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 1rem 1.5rem;
+    background: rgba(10, 10, 10, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+    flex-wrap: wrap;
+  }
+
+  .filter-label {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .filter-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .filter-btn {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: var(--font-mono);
+  }
+
+  .filter-btn:hover {
+    border-color: var(--c-accent-cyan);
+    color: var(--c-text-primary);
+  }
+
+  .filter-btn.active {
+    background: var(--c-accent-cyan);
+    color: #000;
+    border-color: var(--c-accent-cyan);
+    font-weight: bold;
+  }
+
+  /* Grid */
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--space-6); }
+  
+  .knowledge-item {
+    display: flex; /* Make wrapper a flex container */
+  }
+  
+  .knowledge-item :global(.item-card) {
+    flex: 1; /* Card fills full height of row */
+    min-height: 160px;
+  }
+  
   .category { color: var(--c-accent-cyan); font-size: 0.75rem; display: block; margin-bottom: var(--space-2); letter-spacing: 0.05em; }
+  
+  .knowledge-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: var(--space-2);
+    line-height: 1.4;
+  }
+  
+  .knowledge-item p {
+    font-size: 0.9rem;
+    color: var(--c-text-secondary);
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  /* Empty State */
+  .empty-state {
+    text-align: center;
+    padding: 4rem;
+    color: rgba(255, 255, 255, 0.3);
+    border: 1px dashed rgba(255, 255, 255, 0.1);
+  }
+
+  .hidden {
+    display: none !important;
+  }
 </style>
+
+<script>
+  function setupKnowledgeFilter() {
+    const buttons = document.querySelectorAll('.filter-btn');
+    const items = document.querySelectorAll('.knowledge-item');
+    const noResults = document.getElementById('no-results');
+
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const category = btn.getAttribute('data-category');
+
+        // Update button states
+        buttons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        // Filter items
+        let visibleCount = 0;
+        items.forEach(item => {
+          const itemCategory = item.getAttribute('data-category');
+          if (category === 'all' || itemCategory === category) {
+            item.classList.remove('hidden');
+            visibleCount++;
+          } else {
+            item.classList.add('hidden');
+          }
+        });
+
+        // Toggle empty state
+        if (noResults) {
+          if (visibleCount === 0) {
+            noResults.classList.remove('hidden');
+          } else {
+            noResults.classList.add('hidden');
+          }
+        }
+      });
+    });
+  }
+
+  // Initialize on page load (including ViewTransitions)
+  document.addEventListener('astro:page-load', setupKnowledgeFilter);
+</script>
