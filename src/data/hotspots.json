@@ -1,12 +1,22 @@
 [
   {
+    "title": "AMD EPYC 8004 \"Siena\" Shows Some Nice Linux Performance Gains Over The Past Two Years",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/review/amd-epyc-8534p-2year-linux",
+    "abstract": "As part of my various end-of-year benchmarks, recently I looked at the Linux LTS kernel performance on AMD EPYC 9005 over the past year, the AMD EPYC Milan-X performance over the p...",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "up"
+  },
+  {
     "title": "Lenovo ThinkPad P1 Gen 8: A High-End, Intel + NVIDIA Mobile Workstation Great For Linux Use",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/review/lenovo-thinkpad-p1-gen8",
     "abstract": "For those shopping for an AI-ready mobile workstation with NVIDIA RTX PRO Blackwell graphics, the Lenovo ThinkPad P1 Gen 8 offers a lot of potential for developers, AI researchers,...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "01",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -16,8 +26,18 @@
     "abstract": "Zoom 的人工智能系统近日在被誉为“人类最后的考试”（Humanity's Last Exam， HLE）的顶级基准测试中，以 48.1% 的成绩刷新了世界纪录，超越了此前由谷歌 Gemini3Pro 保持的45.8%。 面对“一家非底层模型厂商如何反超模型巨头”的质疑，Zoom 首席技术官、前微软 AI 大将黄学东（Xuedong Huang）表示，Zo...",
     "pscore": 89,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
+    "rank": "03",
+    "trend": "down"
+  },
+  {
+    "title": "How to wrangle non-deterministic AI outputs into conventional software? (2025)",
+    "source": "HackerNews",
+    "link": "https://www.domainlanguage.com/articles/ai-components-deterministic-system/",
+    "abstract": "Comments...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -26,8 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -36,8 +56,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "OpenAI 开放最强编程模型 GPT-5.2-Codex API",
@@ -46,8 +66,8 @@
     "abstract": "OpenAI 于 2026 年 1 月 14 日正式通过 Responses API 向开发者开放了 GPT-5.2-Codex 模型，此前该模型已在 Codex 环境内部运行。 定价方面，输入每百万 token 1.75 美元，输出为 14 美元；缓存输入费用为 0.175 美元。该模型暂不支持微调，但提供快照（snapshot）功能以锁定行为一致性，并已...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -56,8 +76,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -66,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -76,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -86,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -96,8 +116,8 @@
     "abstract": "Tomeu Vizoso as the open-source developer behind the \"Rocket\" driver for reverse-engineered Rockchip NPU support, Teflon as a Mesa framework for TensorFlow Lite and NPU uses, and v...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "国内首个可复现！萝博派对公开人形机器人 “从 0 到跑” 全开源方案",
@@ -106,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "13",
     "trend": "up"
   },
   {
@@ -116,7 +136,7 @@
     "abstract": "There still are several months to go until the official Ubuntu 26.04 LTS release -- including one month until the feature freeze and the future Linux 6.20~7.0 kernel is expected to...",
     "pscore": 66,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "14",
     "trend": "up"
   }
 ]
