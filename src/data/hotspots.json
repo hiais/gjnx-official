@@ -10,14 +10,24 @@
     "trend": "down"
   },
   {
+    "title": "Lenovo ThinkPad P1 Gen 8: A High-End, Intel + NVIDIA Mobile Workstation Great For Linux Use",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/review/lenovo-thinkpad-p1-gen8",
+    "abstract": "For those shopping for an AI-ready mobile workstation with NVIDIA RTX PRO Blackwell graphics, the Lenovo ThinkPad P1 Gen 8 offers a lot of potential for developers, AI researchers,...",
+    "pscore": 92,
+    "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "up"
+  },
+  {
     "title": "OpenAI 联手 Cerebras 打造全球最大 AI 推理平台",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/396887",
     "abstract": "OpenAI与美国AI芯片独角兽Cerebras联合宣布，将部署总计 750 兆瓦的Cerebras晶圆级系统，构建全球规模最大的高速AI推理平台。 该合作自 2026 年起分阶段实施，预计 2028 年前全面投产，交易价值超 100 亿美元（约合人民币 697 亿元），标志着大模型厂商正加速摆脱对传统GPU架构的依赖。 Cerebras的芯片以“巨无霸”著...",
     "pscore": 89,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "GPT-5.2 长程自动化编程任务中表现优于 Claude Opus 4.5",
@@ -26,7 +36,7 @@
     "abstract": "AI 编程辅助工具 Cursor 近日分享了一项内部测试发现：在处理超长程、自主性的编程任务时，OpenAI 最新的GPT-5.2模型表现出比 Anthropic 的Claude Opus4.5更高的可靠性。 为了验证模型能力，Cursor 团队尝试从零开始构建一个功能完备的Web 浏览器，涵盖了 HTML 解析、CSS 布局及自定义 JavaScript ...",
     "pscore": 89,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -36,8 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -46,8 +56,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -56,7 +66,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -66,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -76,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -86,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "New \"Thames\" Linux Accelerator Driver Posted Along With Companion Gallium3D Driver",
@@ -96,8 +106,8 @@
     "abstract": "Tomeu Vizoso as the open-source developer behind the \"Rocket\" driver for reverse-engineered Rockchip NPU support, Teflon as a Mesa framework for TensorFlow Lite and NPU uses, and v...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "国内首个可复现！萝博派对公开人形机器人 “从 0 到跑” 全开源方案",
@@ -106,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "百度文心大模型 ERNIE-5.0-0110 发布",
@@ -116,8 +126,8 @@
     "abstract": "百度文心大模型 ERNIE-5.0-0110 已正式发布并上线。 据介绍，ERNIE-5.0-0110 以 1460 分登上 LMArena 文本排行榜第八，也是唯一进入全球前十的国内大模型。 在数学能力上冲到全球第二，仅次于 GPT-5.2-High。 ERNIE-5.0-0110 其他亮点 顶尖数学处理能力 强大的专家知识与编程能力 在创意写作和指令执行...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
   },
   {
     "title": "An Early Run With Ubuntu 26.04 On AMD EPYC Turin - The Current Performance Gains Over Ubuntu 24.04 LTS",
@@ -126,7 +136,7 @@
     "abstract": "There still are several months to go until the official Ubuntu 26.04 LTS release -- including one month until the feature freeze and the future Linux 6.20~7.0 kernel is expected to...",
     "pscore": 66,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "14",
     "trend": "down"
   }
 ]
