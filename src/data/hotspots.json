@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Zoom 凭借联邦 AI 刷新全球最难 AI 考试纪录",
@@ -27,7 +27,7 @@
     "pscore": 89,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "OpenAI 开放最强编程模型 GPT-5.2-Codex API",
@@ -67,7 +67,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "LLM Structured Outputs Handbook",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "An Early Run With Ubuntu 26.04 On AMD EPYC Turin - The Current Performance Gains Over Ubuntu 24.04 LTS",
@@ -117,6 +117,6 @@
     "pscore": 66,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "down"
+    "trend": "up"
   }
 ]
