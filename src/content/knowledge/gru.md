@@ -1,6 +1,6 @@
 ---
 title: GRU (循环神经网络)
-date: 2026-01-18T12:51:43.345Z
+date: 2026-01-18T17:06:08.673Z
 category: Auto-Mined
 tags:
   - Auto-Gen
