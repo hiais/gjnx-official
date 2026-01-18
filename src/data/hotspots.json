@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Zoom 凭借联邦 AI 刷新全球最难 AI 考试纪录",
@@ -27,7 +27,7 @@
     "pscore": 89,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "OpenAI 开放最强编程模型 GPT-5.2-Codex API",
@@ -57,7 +57,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -67,7 +67,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -77,7 +77,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -100,21 +100,21 @@
     "trend": "down"
   },
   {
+    "title": "机器人终于能用明白洗碗机了｜UC伯克利新研究",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/01/370136.html",
+    "abstract": "低门槛教学+智能选动作，为人形机器人实用化铺平道路...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "11",
+    "trend": "up"
+  },
+  {
     "title": "马斯克最大算力中心建成了：全球首个GW级超算集群，再创世界纪录",
     "source": "QbitAI",
     "link": "https://www.qbitai.com/2026/01/370077.html",
     "abstract": "Colossus 2正式投运...",
     "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
-  },
-  {
-    "title": "An Early Run With Ubuntu 26.04 On AMD EPYC Turin - The Current Performance Gains Over Ubuntu 24.04 LTS",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/ubuntu-2604-jan-amd-epyc",
-    "abstract": "There still are several months to go until the official Ubuntu 26.04 LTS release -- including one month until the feature freeze and the future Linux 6.20~7.0 kernel is expected to...",
-    "pscore": 66,
     "category": "CHIP_FRONT",
     "rank": "12",
     "trend": "up"
