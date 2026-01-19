@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-01-19 01:06:09",
+  "timestamp": "2026-01-19 23:58:26",
   "health": {
     "score": 30,
     "status": "critical",
     "issues": [
-      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (16050m ago))"
+      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (17422m ago))"
     ],
     "daemon_status": {
       "alive": false,
-      "last_heartbeat": "2026-01-07 21:35:33 (16050m ago)"
+      "last_heartbeat": "2026-01-07 21:35:33 (17422m ago)"
     }
   },
   "tasks": {
@@ -18,7 +18,7 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-18 21:16:04",
-        "age_minutes": 230.1,
+        "age_minutes": 1602.4,
         "trace_id": "trc-0108013122"
       },
       {
@@ -26,8 +26,16 @@
         "priority": "P1",
         "workflow": "task-watchdog",
         "created": "2026-01-18 21:16:04",
-        "age_minutes": 230.1,
+        "age_minutes": 1602.4,
         "trace_id": "trc-0109201832"
+      },
+      {
+        "id": "pending_config_val.lock",
+        "priority": "Unknown",
+        "workflow": "validate-config",
+        "created": "2026-01-19 01:06:24",
+        "age_minutes": 1372.0,
+        "trace_id": null
       }
     ],
     "processing": [],
@@ -36,22 +44,24 @@
       {
         "id": "ALERT_P0_NONE.lock",
         "created": "2026-01-18 21:16:04",
-        "age_hours": 3.8
+        "age_hours": 26.7
       }
     ]
   },
   "logs": {
-    "total": 20,
+    "total": 35,
     "by_level": {
-      "INFO": 19,
+      "INFO": 30,
       "WARN": 0,
       "ERROR": 0,
       "FATAL": 0,
-      "SUCCESS": 1,
+      "SUCCESS": 5,
       "SYSTEM": 0
     },
     "by_workflow": {
-      "system": 3,
+      "system": 13,
+      "plan": 3,
+      "scout": 2,
       "validate-config": 10,
       "write-article": 5,
       "qc-check": 1,
@@ -59,6 +69,97 @@
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-01-19T23:58:26",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Content sync completed successfully",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-19T23:58:26",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-19T23:58:17",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] running 'npm run sync:all'...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-19T23:58:05.876270",
+        "level": "INFO",
+        "workflow": "plan",
+        "message": "workflow_end",
+        "trace_id": "trace-20260119-235529-90929fb5"
+      },
+      {
+        "time": "2026-01-19T23:56:43.863159",
+        "level": "INFO",
+        "workflow": "plan",
+        "message": "workflow_autopilot_bypass",
+        "trace_id": "trace-20260119-235529-90929fb5"
+      },
+      {
+        "time": "2026-01-19T23:56:07.764333",
+        "level": "INFO",
+        "workflow": "plan",
+        "message": "workflow_start",
+        "trace_id": "trace-20260119-235529-90929fb5"
+      },
+      {
+        "time": "2026-01-19T23:55:34.281748",
+        "level": "INFO",
+        "workflow": "scout",
+        "message": "workflow_end",
+        "trace_id": "trace-20260119-235200-80e64239"
+      },
+      {
+        "time": "2026-01-19T23:53:07.469451",
+        "level": "INFO",
+        "workflow": "scout",
+        "message": "workflow_start",
+        "trace_id": "trace-20260119-235200-80e64239"
+      },
+      {
+        "time": "2026-01-19T01:06:24",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Core: Committed locally: chore(auto): deep sync [Content/System/Scripts/Tasks] (8 modified, 5 added, 15 deleted) @01:06:24",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-19T01:06:23",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Website: Pushed with message: feat(auto): sync website (136 modified, 0 added, 1 deleted) @01:06:19",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-19T01:06:23",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Core repository...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-19T01:06:19",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Pushing to GitHub...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-19T01:06:19",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Auto-Rebasing remote changes...",
+        "trace_id": ""
+      },
       {
         "time": "2026-01-19T01:06:09",
         "level": "OK",
@@ -71,6 +172,20 @@
         "level": "INFO",
         "workflow": "system",
         "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-19T01:06:09",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Dashboard generated successfully",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-01-19T01:06:09",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Website repository...",
         "trace_id": ""
       },
       {
@@ -204,9 +319,9 @@
   "performance": {
     "avg_duration_by_workflow": {},
     "duration_percentiles": {},
-    "token_usage_today": 35000,
-    "token_usage_week": 422000,
-    "success_count": 11,
+    "token_usage_today": 42000,
+    "token_usage_week": 429000,
+    "success_count": 12,
     "fail_count": 0,
     "success_rate": 100.0
   },
@@ -214,11 +329,11 @@
     "daily_budget": 100.0,
     "daily_token_budget": 500000,
     "token_price_per_k": 0.1,
-    "today_total_cost": 3.5,
-    "today_token_usage": 35000,
-    "week_total_cost": 42.2,
-    "week_token_usage": 422000,
-    "budget_usage_percent": 3.5,
+    "today_total_cost": 4.2,
+    "today_token_usage": 42000,
+    "week_total_cost": 42.9,
+    "week_token_usage": 429000,
+    "budget_usage_percent": 4.2,
     "budget_status": "normal",
     "by_workflow_today": {
       "write-article": {
@@ -240,6 +355,16 @@
         "tokens": 0,
         "cost": 0.0,
         "count": 10
+      },
+      "scout": {
+        "tokens": 5000,
+        "cost": 0.5,
+        "count": 2
+      },
+      "plan": {
+        "tokens": 2000,
+        "cost": 0.2,
+        "count": 3
       }
     },
     "by_workflow_week": {
@@ -264,14 +389,14 @@
         "count": 13
       },
       "scout": {
-        "tokens": 15000,
-        "cost": 1.5,
-        "count": 8
+        "tokens": 20000,
+        "cost": 2.0,
+        "count": 10
       },
       "plan": {
-        "tokens": 12000,
-        "cost": 1.2,
-        "count": 11
+        "tokens": 14000,
+        "cost": 1.4,
+        "count": 14
       },
       "manual_rewrite": {
         "tokens": 0,
@@ -300,14 +425,28 @@
         "tokens": 30000,
         "cost": 3.0,
         "count": 5,
-        "percentage": 85.7
+        "percentage": 71.4
       },
       {
         "workflow": "qc-check",
         "tokens": 5000,
         "cost": 0.5,
         "count": 1,
-        "percentage": 14.3
+        "percentage": 11.9
+      },
+      {
+        "workflow": "scout",
+        "tokens": 5000,
+        "cost": 0.5,
+        "count": 2,
+        "percentage": 11.9
+      },
+      {
+        "workflow": "plan",
+        "tokens": 2000,
+        "cost": 0.2,
+        "count": 3,
+        "percentage": 4.8
       },
       {
         "workflow": "verify-data",
@@ -330,21 +469,21 @@
         "tokens": 390000,
         "cost": 39.0,
         "count": 59,
-        "percentage": 92.4
+        "percentage": 90.9
       },
       {
         "workflow": "scout",
-        "tokens": 15000,
-        "cost": 1.5,
-        "count": 8,
-        "percentage": 3.6
+        "tokens": 20000,
+        "cost": 2.0,
+        "count": 10,
+        "percentage": 4.7
       },
       {
         "workflow": "plan",
-        "tokens": 12000,
-        "cost": 1.2,
-        "count": 11,
-        "percentage": 2.8
+        "tokens": 14000,
+        "cost": 1.4,
+        "count": 14,
+        "percentage": 3.3
       },
       {
         "workflow": "qc-check",
@@ -399,10 +538,10 @@
   },
   "content_factory": {
     "pipeline": {
-      "inbox": 10,
-      "scheduled": 11,
+      "inbox": 11,
+      "scheduled": 14,
       "wip": 0,
-      "published": 112
+      "published": 113
     },
     "pipeline_details": {
       "inbox": [],
@@ -494,14 +633,48 @@
           "date": "Writer C",
           "agent": "05-端侧异变",
           "goal": "📱 安卓生态治理"
+        },
+        {
+          "priority": "🎯 Planned ( P0)",
+          "title": "2026-01-31",
+          "topic": "**《iPhone 17 还在一天一充？国产硅碳电池狂飙 34 小时，这才是 226 的旗舰标准》**",
+          "date": "Writer A",
+          "agent": "05-端侧异变",
+          "goal": "🔋 手机续航代差"
+        },
+        {
+          "priority": "🎯 Planned ( P1)",
+          "title": "2026-02-01",
+          "topic": "**《每用一次 ChatGPT，电网就颤抖一次：数据中心正在\"吸干\"你的钱包》**",
+          "date": "Writer C",
+          "agent": "06-星际硅基",
+          "goal": "📉 碳账单算账"
+        },
+        {
+          "priority": "🎯 Planned ( P1)",
+          "title": "2026-02-02",
+          "topic": "**《MacBook 续航神话破灭？Intel Core Ultra 3 实测 27 小时，x86 终于学会了省电》**",
+          "date": "Writer B",
+          "agent": "02-算力跃迁",
+          "goal": "💻 芯片能效逆袭"
         }
       ],
       "wip": [],
       "published": [
         {
+          "date": "2026-01-19",
+          "title": "2026年了，8G内存终于滚出地球，但32G起步的“AI税”你交得心甘情愿？",
+          "topic": "05-端侧异变"
+        },
+        {
+          "date": "2026-01-19",
+          "title": "跌落神坛！Model Y 冬测续航仅剩 35%，排名倒数第一，硅基车主破防了",
+          "topic": "04-电力之冠"
+        },
+        {
           "date": "2026-01-18",
           "title": "腰斩！67款电动车极寒实测：2026年了，谁还在拿\"续航\"骗人？",
-          "topic": "00-待分类"
+          "topic": "04-电力之冠"
         },
         {
           "date": "2026-01-18",
@@ -546,12 +719,12 @@
         {
           "date": "2026-01-17",
           "title": "别被 PPT 骗了：2026 年你买到的\"固态电池\"，可能全是半成品",
-          "topic": "00-待分类"
+          "topic": "05-端侧异变"
         },
         {
           "date": "2026-01-16",
           "title": "别再怪你的眼镜度数了！屏幕 PUE 骗局：为什么 4K 护眼屏反而让你\"眼干、心累\"？",
-          "topic": "00-待分类"
+          "topic": "05-端侧异变"
         },
         {
           "date": "2026-01-16",
@@ -561,7 +734,7 @@
         {
           "date": "2026-01-16",
           "title": "“一更毁所有”？揭秘 iOS/安卓更新里的能耗陷阱：旧设备是如何被新算法“锁死”的",
-          "topic": "00-待分类"
+          "topic": "05-端侧异变"
         },
         {
           "date": "2026-01-16",
@@ -569,42 +742,42 @@
           "topic": "00-待分类"
         },
         {
-          "date": "2026-01-16",
-          "title": "跌落神坛！Model Y 冬测续航仅剩 35%，排名倒数第一，硅基车主破防了",
-          "topic": "00-待分类"
-        },
-        {
           "date": "2026-01-15",
           "title": "防不胜防！RTX 5090 接口再现\"融化门\"，600W 实测竟成物理终局？",
-          "topic": "00-待分类"
+          "topic": "02-算力跃迁"
         },
         {
           "date": "2026-01-15",
           "title": "充电 10 分钟，电池废一半？超充时代的\"隐形杀手\"终于被曝光了",
-          "topic": "00-待分类"
+          "topic": "04-电力之冠"
         },
         {
           "date": "2026-01-14",
           "title": "你的 AI 聊天正在关掉我的空调？2026 电网危机背后的残酷真相",
-          "topic": "00-待分类"
+          "topic": "06-星际硅基"
         },
         {
           "date": "2026-01-14",
           "title": "别再盯着固态电池了！CES 2026 曝出\"纸质电池\"：一张薄纸竟然让手机续航翻倍？",
-          "topic": "00-待分类"
-        },
-        {
-          "date": "2026-01-13",
-          "title": "27 小时续航骗局？实测 AI PC 电池崩盘真相：所谓的 NPU 只是营销噱头？",
           "topic": "00-待分类"
         }
       ]
     },
     "recent_published": [
       {
+        "date": "2026-01-19",
+        "title": "2026年了，8G内存终于滚出地球，但32G起步的“AI税”你交得心甘情愿？",
+        "topic": "05-端侧异变"
+      },
+      {
+        "date": "2026-01-19",
+        "title": "跌落神坛！Model Y 冬测续航仅剩 35%，排名倒数第一，硅基车主破防了",
+        "topic": "04-电力之冠"
+      },
+      {
         "date": "2026-01-18",
         "title": "腰斩！67款电动车极寒实测：2026年了，谁还在拿\"续航\"骗人？",
-        "topic": "00-待分类"
+        "topic": "04-电力之冠"
       },
       {
         "date": "2026-01-18",
@@ -615,33 +788,24 @@
         "date": "2026-01-18",
         "title": "你的 ChatGPT 正在喝光这一代人的救命水：2026 数据中心旱灾警告",
         "topic": "00-待分类"
-      },
-      {
-        "date": "2026-01-18",
-        "title": "9万9的机器人买回家，每个月还要交 2999 的“机油费”？揭秘具身智能的 TCO 陷阱",
-        "topic": "00-待分类"
-      },
-      {
-        "date": "2026-01-18",
-        "title": "你的手机并不是“变聪明”了，而是“发烧”了：揭秘端侧大模型的 500ms 延迟骗局",
-        "topic": "00-待分类"
       }
     ],
     "topic_distribution": {
-      "00-待分类": 32,
-      "04-电力之冠": 22,
-      "05-端侧异变": 19,
+      "05-端侧异变": 23,
+      "04-电力之冠": 25,
+      "00-待分类": 24,
+      "02-算力跃迁": 16,
+      "06-星际硅基": 4,
       "03-具身革命": 4,
-      "02-算力跃迁": 15,
-      "06-星际硅基": 3,
       "01-硬件终局": 10,
       "07-模拟觉醒": 5,
       "00-系统综述": 2
     },
     "weekly_output": {
+      "2026-01-19": 2,
       "2026-01-18": 9,
       "2026-01-17": 1,
-      "2026-01-16": 5,
+      "2026-01-16": 4,
       "2026-01-15": 2,
       "2026-01-14": 2,
       "2026-01-13": 3,
@@ -707,10 +871,10 @@
   },
   "alerts": [
     {
-      "time": "01:06",
+      "time": "23:58",
       "level": "🔴 P0",
       "rule_id": "SYS-001",
-      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (16050m ago)",
+      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (17422m ago)",
       "action": "请运行 start-dashboard-full.bat (推荐)",
       "status": "Active"
     }
@@ -743,7 +907,7 @@
       },
       {
         "date": "2026-01-19",
-        "value": 35000
+        "value": 42000
       }
     ],
     "multi_metric_trend": {
@@ -774,7 +938,7 @@
         },
         {
           "date": "2026-01-19",
-          "value": 35000
+          "value": 42000
         }
       ],
       "success_rate": [
@@ -901,10 +1065,10 @@
   },
   "comparison": {
     "token_usage": {
-      "today": 35000,
+      "today": 42000,
       "yesterday": 318000,
-      "delta": -283000,
-      "delta_percent": -89.0
+      "delta": -276000,
+      "delta_percent": -86.8
     },
     "success_rate": {
       "today": 100.0,
@@ -920,12 +1084,12 @@
     }
   },
   "system": {
-    "last_update": "2026-01-19 01:06:09",
+    "last_update": "2026-01-19 23:58:27",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.45,
+    "duration_seconds": 0.36,
     "has_token_trend": true,
     "errors": []
   }

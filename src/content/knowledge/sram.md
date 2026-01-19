@@ -1,6 +1,6 @@
 ---
 title: SRAM (静态随机存取存储器)
-date: 2026-01-18T17:06:08.654Z
+date: 2026-01-19T15:58:26.322Z
 category: 存储技术
 tags:
   - 缓存Cache
