@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Lenovo ThinkPad P1 Gen 8: A High-End, Intel + NVIDIA Mobile Workstation Great For Linux Use",
@@ -20,23 +20,13 @@
     "trend": "down"
   },
   {
-    "title": "Zoom 凭借联邦 AI 刷新全球最难 AI 考试纪录",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/397087",
-    "abstract": "Zoom 的人工智能系统近日在被誉为“人类最后的考试”（Humanity's Last Exam， HLE）的顶级基准测试中，以 48.1% 的成绩刷新了世界纪录，超越了此前由谷歌 Gemini3Pro 保持的45.8%。 面对“一家非底层模型厂商如何反超模型巨头”的质疑，Zoom 首席技术官、前微软 AI 大将黄学东（Xuedong Huang）表示，Zo...",
-    "pscore": 89,
-    "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
-  },
-  {
     "title": "李飞飞的World Labs联手光轮智能，具身智能进入评测驱动时代！",
     "source": "QbitAI",
     "link": "https://www.qbitai.com/2026/01/370217.html",
     "abstract": "剑指具身智能「北极星」...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -46,7 +36,7 @@
     "abstract": "具身智能正式买入工业级重载时代...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -56,8 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -66,8 +56,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "CES 2026趋势照进现实：算力引擎RK182X重塑千行百业，瑞芯微AI生态大会共建落地生态",
@@ -76,18 +66,18 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
-    "title": "OpenAI 开放最强编程模型 GPT-5.2-Codex API",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/397065",
-    "abstract": "OpenAI 于 2026 年 1 月 14 日正式通过 Responses API 向开发者开放了 GPT-5.2-Codex 模型，此前该模型已在 Codex 环境内部运行。 定价方面，输入每百万 token 1.75 美元，输出为 14 美元；缓存输入费用为 0.175 美元。该模型暂不支持微调，但提供快照（snapshot）功能以锁定行为一致性，并已...",
+    "title": "45年数论猜想被GPT-5.2 Pro独立完成证明，陶哲轩：没犯任何错误",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/01/370328.html",
+    "abstract": "评估AI工具真实成功率时，最大的统计偏差来自强烈的报告偏差...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -96,7 +86,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -106,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -116,14 +106,24 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/pytorch-xla",
     "abstract": "",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "12",
+    "trend": "down"
+  },
+  {
+    "title": "哈工大系闯出人形机器人黑马：成立不到一年，全栈开源3m/s原型机，小米商汤都投了",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/01/370355.html",
+    "abstract": "硬件图纸+算法+避坑指南都有...",
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "13",
@@ -137,14 +137,14 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "14",
-    "trend": "down"
+    "trend": "up"
   },
   {
-    "title": "马斯克最大算力中心建成了：全球首个GW级超算集群，再创世界纪录",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/01/370077.html",
-    "abstract": "Colossus 2正式投运...",
-    "pscore": 75,
+    "title": "“开源 Windows” ReactOS 实现异步 TCP 连接支持",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/397862",
+    "abstract": "ReactOS 是一个长期开发的开源操作系统项目，以兼容 Windows NT 二进制程序为目标——在最新版开发进度中迎来了关键性改进：系统终于实现了异步（非阻塞）TCP 连接的支持，这将显著提升网络应用的性能表现。 传统的网络连接操作通常是同步阻塞 模式：应用在发起连接时会一直等待，直到连接完成或超时才能继续执行其他逻辑......",
+    "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "15",
     "trend": "up"
