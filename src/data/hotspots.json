@@ -7,17 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
-  },
-  {
-    "title": "Lenovo ThinkPad P1 Gen 8: A High-End, Intel + NVIDIA Mobile Workstation Great For Linux Use",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/lenovo-thinkpad-p1-gen8",
-    "abstract": "For those shopping for an AI-ready mobile workstation with NVIDIA RTX PRO Blackwell graphics, the Lenovo ThinkPad P1 Gen 8 offers a lot of potential for developers, AI researchers,...",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "李飞飞的World Labs联手光轮智能，具身智能进入评测驱动时代！",
@@ -26,7 +16,7 @@
     "abstract": "剑指具身智能「北极星」...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -36,7 +26,7 @@
     "abstract": "具身智能正式买入工业级重载时代...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -46,7 +36,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -56,7 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -66,7 +56,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -76,8 +66,8 @@
     "abstract": "评估AI工具真实成功率时，最大的统计偏差来自强烈的报告偏差...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -86,8 +76,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -96,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -106,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -116,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -126,7 +116,7 @@
     "abstract": "硬件图纸+算法+避坑指南都有...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "12",
     "trend": "down"
   },
   {
@@ -136,8 +126,18 @@
     "abstract": "低门槛教学+智能选动作，为人形机器人实用化铺平道路...",
     "pscore": 75,
     "category": "CHIP_FRONT",
+    "rank": "13",
+    "trend": "down"
+  },
+  {
+    "title": "How NVIDIA GB10 Performance With the Dell Pro Max GB10 Compares To The GH200",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/review/nvidia-gb10-gh200",
+    "abstract": "Earlier this month we looked at the Dell Pro Max GB10 performance up against AMD's Ryzen AI Max+ \"Strix Halo\" with the superior performance for the green team for performance and p...",
+    "pscore": 71,
+    "category": "CHIP_FRONT",
     "rank": "14",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "“开源 Windows” ReactOS 实现异步 TCP 连接支持",
@@ -147,6 +147,6 @@
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "up"
+    "trend": "down"
   }
 ]
