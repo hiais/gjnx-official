@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Lenovo ThinkPad P1 Gen 8: A High-End, Intel + NVIDIA Mobile Workstation Great For Linux Use",
@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Zoom 凭借联邦 AI 刷新全球最难 AI 考试纪录",
@@ -30,13 +30,33 @@
     "trend": "up"
   },
   {
+    "title": "李飞飞的World Labs联手光轮智能，具身智能进入评测驱动时代！",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/01/370217.html",
+    "abstract": "剑指具身智能「北极星」...",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "04",
+    "trend": "down"
+  },
+  {
+    "title": "全球首个负载100斤的真实持续干活机器人，来自银河通用",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/01/370169.html",
+    "abstract": "具身智能正式买入工业级重载时代...",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "05",
+    "trend": "down"
+  },
+  {
     "title": "Google Cloud TPUs made available to Hugging Face users",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -46,7 +66,17 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "07",
+    "trend": "down"
+  },
+  {
+    "title": "CES 2026趋势照进现实：算力引擎RK182X重塑千行百业，瑞芯微AI生态大会共建落地生态",
+    "source": "MachineHeart",
+    "link": "https://www.jiqizhixin.com/articles/2026-01-19-2",
+    "abstract": "",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -56,8 +86,8 @@
     "abstract": "OpenAI 于 2026 年 1 月 14 日正式通过 Responses API 向开发者开放了 GPT-5.2-Codex 模型，此前该模型已在 Codex 环境内部运行。 定价方面，输入每百万 token 1.75 美元，输出为 14 美元；缓存输入费用为 0.175 美元。该模型暂不支持微调，但提供快照（snapshot）功能以锁定行为一致性，并已...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -66,7 +96,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -76,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -86,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -96,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "13",
     "trend": "down"
   },
   {
@@ -106,8 +136,8 @@
     "abstract": "低门槛教学+智能选动作，为人形机器人实用化铺平道路...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "14",
+    "trend": "down"
   },
   {
     "title": "马斯克最大算力中心建成了：全球首个GW级超算集群，再创世界纪录",
@@ -116,7 +146,7 @@
     "abstract": "Colossus 2正式投运...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "15",
+    "trend": "up"
   }
 ]
