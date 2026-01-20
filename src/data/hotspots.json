@@ -17,7 +17,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "全球首个负载100斤的真实持续干活机器人，来自银河通用",
@@ -27,7 +27,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "CES 2026趋势照进现实：算力引擎RK182X重塑千行百业，瑞芯微AI生态大会共建落地生态",
@@ -67,7 +67,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "哈工大系闯出人形机器人黑马：成立不到一年，全栈开源3m/s原型机，小米商汤都投了",
@@ -147,6 +147,6 @@
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "down"
+    "trend": "up"
   }
 ]
