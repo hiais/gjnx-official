@@ -7,6 +7,16 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
+    "trend": "down"
+  },
+  {
+    "title": "vivo 微服务架构实践之 Dubbo 性能优化",
+    "source": "OSChina",
+    "link": "https://my.oschina.net/vivotech/blog/19203869",
+    "abstract": "在 Java 技术栈场景，vivo 主要基于 Apache Dubbo 框架来作为微服务之间的通信桥梁，在内部业务的大规模实践过程中，我们碰到了质量、性能和容量等方面的挑战，通过一系列的扩展与优化，较好的解决了相关问题，助力业务更好保障质量，节省算力成本，提升研发效率。...",
+    "pscore": 94,
+    "category": "CHIP_FRONT",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -16,18 +26,8 @@
     "abstract": "剑指具身智能「北极星」...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
-  },
-  {
-    "title": "全球首个负载100斤的真实持续干活机器人，来自银河通用",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/01/370169.html",
-    "abstract": "具身智能正式买入工业级重载时代...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -50,14 +50,14 @@
     "trend": "down"
   },
   {
-    "title": "CES 2026趋势照进现实：算力引擎RK182X重塑千行百业，瑞芯微AI生态大会共建落地生态",
-    "source": "MachineHeart",
-    "link": "https://www.jiqizhixin.com/articles/2026-01-19-2",
-    "abstract": "",
+    "title": "算力越高收入越多！OpenAI率先验证AI商业Scaling Law",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/01/370375.html",
+    "abstract": "最新收入200亿美元...",
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "45年数论猜想被GPT-5.2 Pro独立完成证明，陶哲轩：没犯任何错误",
@@ -67,7 +67,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -80,14 +80,24 @@
     "trend": "up"
   },
   {
+    "title": "ShareX 19.0.1 发布，截图与屏幕录制工具",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/398051/sharex-19-0-1-released",
+    "abstract": "ShareX 是一个开源截图工具，可捕获或记录屏幕的任何区域，并一键共享。 它还允许将图像、文本或其他类型的文件上传到超过 80 个支持的存储服务上。 ShareX 19.0.1 正式发布，更新内容如下： 新安装的系统默认禁用自动上传功能。 新增“Analyze image”AI工具。 AI 服务商： OpenAI ChatGPT Google Gemini...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "09",
+    "trend": "down"
+  },
+  {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/keras-chatbot-arena",
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -96,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -106,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -116,18 +126,18 @@
     "abstract": "硬件图纸+算法+避坑指南都有...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
   },
   {
-    "title": "机器人终于能用明白洗碗机了｜UC伯克利新研究",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/01/370136.html",
-    "abstract": "低门槛教学+智能选动作，为人形机器人实用化铺平道路...",
+    "title": "avue v3.8.0 已经发布，基于 Element 的前端框架",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/397982",
+    "abstract": "avue v3.8.0 已经发布，基于 Element 的前端框架。 v3.8.0 2026-01-19 新增 新增Upload组件directory属性，是否可以选中文件夹 修复 修复Crud组件二级表头筛选失效问题 gitee_IDKQ5M 修复Crud组件数据过滤表头逻辑 gitee_IDFZ12 修复InputTable组件选中值后赋值错误 itee...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "14",
+    "trend": "up"
   },
   {
     "title": "How NVIDIA GB10 Performance With the Dell Pro Max GB10 Compares To The GH200",
@@ -135,16 +145,6 @@
     "link": "https://www.phoronix.com/review/nvidia-gb10-gh200",
     "abstract": "Earlier this month we looked at the Dell Pro Max GB10 performance up against AMD's Ryzen AI Max+ \"Strix Halo\" with the superior performance for the green team for performance and p...",
     "pscore": 71,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
-  },
-  {
-    "title": "“开源 Windows” ReactOS 实现异步 TCP 连接支持",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/397862",
-    "abstract": "ReactOS 是一个长期开发的开源操作系统项目，以兼容 Windows NT 二进制程序为目标——在最新版开发进度中迎来了关键性改进：系统终于实现了异步（非阻塞）TCP 连接的支持，这将显著提升网络应用的性能表现。 传统的网络连接操作通常是同步阻塞 模式：应用在发起连接时会一直等待，直到连接完成或超时才能继续执行其他逻辑......",
-    "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "15",
     "trend": "up"
