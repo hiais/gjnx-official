@@ -7,7 +7,17 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
+  },
+  {
+    "title": "技术协同新标杆！openKylin 适配具身智能人形机器人计划正式启动",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/398173",
+    "abstract": "近年来，随着AI大模型、传感器技术和机器人硬件的进步，具身智能（Embodied AI）逐步从理论探索迈向实际部署。2025年后，行业进入“生态构建”关键期，企业与政府开始联合推进标准化、平台化和开放化发展 。2026年被视为具身智能实现多场景渗透与产业闭环验证的重要节点。OpenAtom openKylin（简称“openKylin”）社区作......",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "up"
   },
   {
     "title": "vivo 微服务架构实践之 Dubbo 性能优化",
@@ -16,18 +26,28 @@
     "abstract": "在 Java 技术栈场景，vivo 主要基于 Apache Dubbo 框架来作为微服务之间的通信桥梁，在内部业务的大规模实践过程中，我们碰到了质量、性能和容量等方面的挑战，通过一系列的扩展与优化，较好的解决了相关问题，助力业务更好保障质量，节省算力成本，提升研发效率。...",
     "pscore": 94,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
-  },
-  {
-    "title": "李飞飞的World Labs联手光轮智能，具身智能进入评测驱动时代！",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/01/370217.html",
-    "abstract": "剑指具身智能「北极星」...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
     "rank": "03",
     "trend": "down"
+  },
+  {
+    "title": "EmbodiChain开源，用100%生成式数据自动训练具身智能模型",
+    "source": "MachineHeart",
+    "link": "https://www.jiqizhixin.com/articles/2026-01-20-8",
+    "abstract": "",
+    "pscore": 92,
+    "category": "CHIP_FRONT",
+    "rank": "04",
+    "trend": "down"
+  },
+  {
+    "title": "美团卡姐接管无人车，MIT博士离职创业具身智能",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/01/370599.html",
+    "abstract": "",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -36,8 +56,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -46,8 +66,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "算力越高收入越多！OpenAI率先验证AI商业Scaling Law",
@@ -56,18 +76,8 @@
     "abstract": "最新收入200亿美元...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "08",
     "trend": "up"
-  },
-  {
-    "title": "45年数论猜想被GPT-5.2 Pro独立完成证明，陶哲轩：没犯任何错误",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/01/370328.html",
-    "abstract": "评估AI工具真实成功率时，最大的统计偏差来自强烈的报告偏差...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -76,7 +86,17 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
+    "trend": "up"
+  },
+  {
+    "title": "谷歌 AI 大模型 Gemini 商业化爆发：API 调用量暴涨、企业客户快速增长",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/398191",
+    "abstract": "根据 The Information 的最新报道，谷歌旗下 AI 大模型 Gemini 在商业端的销售表现出现显著增长，这表明谷歌 AI 产品在企业市场的吸引力正在持续提升。 谷歌通过 Google Cloud 向开发者提供 Gemini 模型的访问权限，开发者发送给 Gemini 的 API 调用量在短短五个月内实现大幅增长。数据显示，在推出 Gemini...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -86,8 +106,8 @@
     "abstract": "ShareX 是一个开源截图工具，可捕获或记录屏幕的任何区域，并一键共享。 它还允许将图像、文本或其他类型的文件上传到超过 80 个支持的存储服务上。 ShareX 19.0.1 正式发布，更新内容如下： 新安装的系统默认禁用自动上传功能。 新增“Analyze image”AI工具。 AI 服务商： OpenAI ChatGPT Google Gemini...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -96,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "12",
     "trend": "down"
   },
   {
@@ -106,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "13",
     "trend": "down"
   },
   {
@@ -116,18 +136,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
-  },
-  {
-    "title": "哈工大系闯出人形机器人黑马：成立不到一年，全栈开源3m/s原型机，小米商汤都投了",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/01/370355.html",
-    "abstract": "硬件图纸+算法+避坑指南都有...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "14",
+    "trend": "down"
   },
   {
     "title": "avue v3.8.0 已经发布，基于 Element 的前端框架",
@@ -135,16 +145,6 @@
     "link": "https://www.oschina.net/news/397982",
     "abstract": "avue v3.8.0 已经发布，基于 Element 的前端框架。 v3.8.0 2026-01-19 新增 新增Upload组件directory属性，是否可以选中文件夹 修复 修复Crud组件二级表头筛选失效问题 gitee_IDKQ5M 修复Crud组件数据过滤表头逻辑 gitee_IDFZ12 修复InputTable组件选中值后赋值错误 itee...",
     "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
-  },
-  {
-    "title": "How NVIDIA GB10 Performance With the Dell Pro Max GB10 Compares To The GH200",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/nvidia-gb10-gh200",
-    "abstract": "Earlier this month we looked at the Dell Pro Max GB10 performance up against AMD's Ryzen AI Max+ \"Strix Halo\" with the superior performance for the green team for performance and p...",
-    "pscore": 71,
     "category": "CHIP_FRONT",
     "rank": "15",
     "trend": "up"
