@@ -10,43 +10,33 @@
     "trend": "up"
   },
   {
-    "title": "技术协同新标杆！openKylin 适配具身智能人形机器人计划正式启动",
+    "title": "软银发布 AI 数据中心操作系统 \"Infrinia AI Cloud OS\"",
     "source": "OSChina",
-    "link": "https://www.oschina.net/news/398173",
-    "abstract": "近年来，随着AI大模型、传感器技术和机器人硬件的进步，具身智能（Embodied AI）逐步从理论探索迈向实际部署。2025年后，行业进入“生态构建”关键期，企业与政府开始联合推进标准化、平台化和开放化发展 。2026年被视为具身智能实现多场景渗透与产业闭环验证的重要节点。OpenAtom openKylin（简称“openKylin”）社区作......",
+    "link": "https://www.oschina.net/news/398396",
+    "abstract": "软银公司旗下Infrinia团队已开发完成面向未来AI数据中心的软件平台“Infrinia AI Cloud OS”。该平台通过自动化手段，统一管理从硬件到应用层的整个GPU算力技术栈，以应对生成式AI、自动化机器人等领域对GPU算力快速增长且日趋复杂的多样化需求。 Infrinia AI Cloud OS提供了完整的Kubernetes即服务能力，能在包括...",
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "02",
     "trend": "down"
   },
   {
-    "title": "vivo 微服务架构实践之 Dubbo 性能优化",
+    "title": "2025 年我国发布人形机器人产品超 330 款",
     "source": "OSChina",
-    "link": "https://my.oschina.net/vivotech/blog/19203869",
-    "abstract": "在 Java 技术栈场景，vivo 主要基于 Apache Dubbo 框架来作为微服务之间的通信桥梁，在内部业务的大规模实践过程中，我们碰到了质量、性能和容量等方面的挑战，通过一系列的扩展与优化，较好的解决了相关问题，助力业务更好保障质量，节省算力成本，提升研发效率。...",
-    "pscore": 94,
+    "link": "https://www.oschina.net/news/398381",
+    "abstract": "国务院新闻办公室举行新闻发布会，介绍 2025 年工业和信息化发展成效有关情况。发布会上介绍： 2025年我国人工智能核心产业规模预计突破1.2万亿元 国内企业发布多款人工智能芯片产品，智能算力规模达1590EFLOPS，行业高质量数据集加速涌现，国内大模型引领全球开源生态。据有关机构测算，2025年我国人工智能企业数量超过......",
+    "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "03",
     "trend": "down"
   },
   {
-    "title": "EmbodiChain开源，用100%生成式数据自动训练具身智能模型",
-    "source": "MachineHeart",
-    "link": "https://www.jiqizhixin.com/articles/2026-01-20-8",
-    "abstract": "",
-    "pscore": 92,
+    "title": "技术协同新标杆！openKylin 适配具身智能人形机器人计划正式启动",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/398173",
+    "abstract": "近年来，随着AI大模型、传感器技术和机器人硬件的进步，具身智能（Embodied AI）逐步从理论探索迈向实际部署。2025年后，行业进入“生态构建”关键期，企业与政府开始联合推进标准化、平台化和开放化发展 。2026年被视为具身智能实现多场景渗透与产业闭环验证的重要节点。OpenAtom openKylin（简称“openKylin”）社区作......",
+    "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
-  },
-  {
-    "title": "美团卡姐接管无人车，MIT博士离职创业具身智能",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/01/370599.html",
-    "abstract": "",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "05",
     "trend": "down"
   },
   {
@@ -56,8 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -66,8 +56,18 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "down"
+  },
+  {
+    "title": "2026年OpenAI最看好的3个方向",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/01/370936.html",
+    "abstract": "算力与收入之间存在明显正相关...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "2025 年我国 AI 企业数量超 6000 家、AI 核心产业规模预计突破 1.2 万亿元",
@@ -87,7 +87,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "谷歌 AI 大模型 Gemini 商业化爆发：API 调用量暴涨、企业客户快速增长",
@@ -97,7 +97,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -137,7 +137,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "14",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How NVIDIA GB10 Performance With the Dell Pro Max GB10 Compares To The GH200",
