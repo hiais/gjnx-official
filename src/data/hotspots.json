@@ -1,9 +1,9 @@
 [
   {
-    "title": "AMD EPYC 8004 \"Siena\" Shows Some Nice Linux Performance Gains Over The Past Two Years",
+    "title": "The CPU Performance Of The NVIDIA GB10 With The Dell Pro Max vs. AMD Ryzen AI Max+ \"Strix Halo\"",
     "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/amd-epyc-8534p-2year-linux",
-    "abstract": "As part of my various end-of-year benchmarks, recently I looked at the Linux LTS kernel performance on AMD EPYC 9005 over the past year, the AMD EPYC Milan-X performance over the p...",
+    "link": "https://www.phoronix.com/review/nvidia-gb10-cpu",
+    "abstract": "With the Dell Pro Max GB10 testing at Phoronix we have been focused on the AI performance with its Blackwell GPU as the GB10 superchip was designed for meeting the needs of AI. Man...",
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
@@ -37,7 +37,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -67,7 +67,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "2025 年我国 AI 企业数量超 6000 家、AI 核心产业规模预计突破 1.2 万亿元",
@@ -87,7 +87,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "谷歌 AI 大模型 Gemini 商业化爆发：API 调用量暴涨、企业客户快速增长",
@@ -137,7 +137,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "14",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How NVIDIA GB10 Performance With the Dell Pro Max GB10 Compares To The GH200",
