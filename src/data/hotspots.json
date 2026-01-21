@@ -17,7 +17,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "vivo 微服务架构实践之 Dubbo 性能优化",
@@ -67,17 +67,17 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
-    "title": "算力越高收入越多！OpenAI率先验证AI商业Scaling Law",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/01/370375.html",
-    "abstract": "最新收入200亿美元...",
+    "title": "2025 年我国 AI 企业数量超 6000 家、AI 核心产业规模预计突破 1.2 万亿元",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/398328",
+    "abstract": "据央视新闻报道，国务院新闻办公室今日（1 月 21 日）举行新闻发布会。 相关负责人介绍，国内企业发布多款人工智能芯片产品，智能算力规模达 1590EFLOPS，行业高质量数据集加速涌现，国内大模型引领全球开源生态。据有关机构测算，2025 年我国人工智能企业数量超 6000 家，核心产业规模预计突破 1.2 万亿元。 此外，我国......",
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -100,24 +100,14 @@
     "trend": "down"
   },
   {
-    "title": "ShareX 19.0.1 发布，截图与屏幕录制工具",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/398051/sharex-19-0-1-released",
-    "abstract": "ShareX 是一个开源截图工具，可捕获或记录屏幕的任何区域，并一键共享。 它还允许将图像、文本或其他类型的文件上传到超过 80 个支持的存储服务上。 ShareX 19.0.1 正式发布，更新内容如下： 新安装的系统默认禁用自动上传功能。 新增“Analyze image”AI工具。 AI 服务商： OpenAI ChatGPT Google Gemini...",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
-  },
-  {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/keras-chatbot-arena",
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -126,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -136,15 +126,25 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
+    "rank": "13",
+    "trend": "down"
+  },
+  {
+    "title": "智谱发布 GLM Coding Plan 限售公告",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/398363",
+    "abstract": "智谱官方发文称，随着 GLM-4.7 上线，GLM Coding Plan 用户数迎来高速增长，使得其算力资源出现阶段性紧张问题。导致近期部分用户在模型调用高峰期（工作日15:00-18:00）遇到了不同程度的并发限流报错、模型速度变慢等问题。 针对此问题，团队已经第一时间启动扩容。但保险起见，同时决定采取以下措施： 暂时限量发售GLM......",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
     "rank": "14",
     "trend": "up"
   },
   {
-    "title": "avue v3.8.0 已经发布，基于 Element 的前端框架",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/397982",
-    "abstract": "avue v3.8.0 已经发布，基于 Element 的前端框架。 v3.8.0 2026-01-19 新增 新增Upload组件directory属性，是否可以选中文件夹 修复 修复Crud组件二级表头筛选失效问题 gitee_IDKQ5M 修复Crud组件数据过滤表头逻辑 gitee_IDFZ12 修复InputTable组件选中值后赋值错误 itee...",
-    "pscore": 75,
+    "title": "How NVIDIA GB10 Performance With the Dell Pro Max GB10 Compares To The GH200",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/review/nvidia-gb10-gh200",
+    "abstract": "Earlier this month we looked at the Dell Pro Max GB10 performance up against AMD's Ryzen AI Max+ \"Strix Halo\" with the superior performance for the green team for performance and p...",
+    "pscore": 71,
     "category": "CHIP_FRONT",
     "rank": "15",
     "trend": "down"
