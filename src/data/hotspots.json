@@ -27,16 +27,6 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
-  },
-  {
-    "title": "技术协同新标杆！openKylin 适配具身智能人形机器人计划正式启动",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/398173",
-    "abstract": "近年来，随着AI大模型、传感器技术和机器人硬件的进步，具身智能（Embodied AI）逐步从理论探索迈向实际部署。2025年后，行业进入“生态构建”关键期，企业与政府开始联合推进标准化、平台化和开放化发展 。2026年被视为具身智能实现多场景渗透与产业闭环验证的重要节点。OpenAtom openKylin（简称“openKylin”）社区作......",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "04",
     "trend": "down"
   },
   {
@@ -46,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -56,8 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "2026年OpenAI最看好的3个方向",
@@ -66,8 +56,8 @@
     "abstract": "算力与收入之间存在明显正相关...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "2025 年我国 AI 企业数量超 6000 家、AI 核心产业规模预计突破 1.2 万亿元",
@@ -76,7 +66,7 @@
     "abstract": "据央视新闻报道，国务院新闻办公室今日（1 月 21 日）举行新闻发布会。 相关负责人介绍，国内企业发布多款人工智能芯片产品，智能算力规模达 1590EFLOPS，行业高质量数据集加速涌现，国内大模型引领全球开源生态。据有关机构测算，2025 年我国人工智能企业数量超 6000 家，核心产业规模预计突破 1.2 万亿元。 此外，我国......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -86,7 +76,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -96,7 +86,7 @@
     "abstract": "根据 The Information 的最新报道，谷歌旗下 AI 大模型 Gemini 在商业端的销售表现出现显著增长，这表明谷歌 AI 产品在企业市场的吸引力正在持续提升。 谷歌通过 Google Cloud 向开发者提供 Gemini 模型的访问权限，开发者发送给 Gemini 的 API 调用量在短短五个月内实现大幅增长。数据显示，在推出 Gemini...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -106,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -116,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -126,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -136,8 +126,8 @@
     "abstract": "智谱官方发文称，随着 GLM-4.7 上线，GLM Coding Plan 用户数迎来高速增长，使得其算力资源出现阶段性紧张问题。导致近期部分用户在模型调用高峰期（工作日15:00-18:00）遇到了不同程度的并发限流报错、模型速度变慢等问题。 针对此问题，团队已经第一时间启动扩容。但保险起见，同时决定采取以下措施： 暂时限量发售GLM......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
   },
   {
     "title": "How NVIDIA GB10 Performance With the Dell Pro Max GB10 Compares To The GH200",
@@ -146,7 +136,7 @@
     "abstract": "Earlier this month we looked at the Dell Pro Max GB10 performance up against AMD's Ryzen AI Max+ \"Strix Halo\" with the superior performance for the green team for performance and p...",
     "pscore": 71,
     "category": "CHIP_FRONT",
-    "rank": "15",
-    "trend": "up"
+    "rank": "14",
+    "trend": "down"
   }
 ]
