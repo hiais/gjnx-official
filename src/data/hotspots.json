@@ -17,7 +17,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -87,6 +87,16 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
+    "trend": "down"
+  },
+  {
+    "title": "Meta开年猛投算力，小扎亲征筹建数十GW",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/01/372282.html",
+    "abstract": "超级实验室首个模型已内部交付...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -96,7 +106,7 @@
     "abstract": "宇树科技发布《关于宇树 2025 年销量数据的澄清》，就近期网络上流传的相关出货量信息作出回应。官方表示，过去一个月外界出现多项关于去年出货数量的不实信息，而公司此前从未对外披露过 2025 年销售数据。 宇树科技表示，去年全年纯人形机器人实际出货量已超过 5500 台，所指为实际出售并发货给终端客户的数量，并非订......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   }
 ]
