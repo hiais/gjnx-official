@@ -1,12 +1,22 @@
 [
   {
+    "title": "GNOME's AI Assistant Newelle Adds Llama.cpp Support, Command Execution Tool",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/GNOME-AI-Newelle-1.2",
+    "abstract": "Newlle as a virtual AI assistant for the GNOME desktop with API integration for Google Gemini, OpenAI, Groq, and also local LLMs is out with a new release. Newelle has been steadil...",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "down"
+  },
+  {
     "title": "The CPU Performance Of The NVIDIA GB10 With The Dell Pro Max vs. AMD Ryzen AI Max+ \"Strix Halo\"",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/review/nvidia-gb10-cpu",
     "abstract": "With the Dell Pro Max GB10 testing at Phoronix we have been focused on the AI performance with its Blackwell GPU as the GB10 superchip was designed for meeting the needs of AI. Man...",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "01",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -16,8 +26,8 @@
     "abstract": "",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -26,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -36,7 +46,17 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
+    "trend": "down"
+  },
+  {
+    "title": "AMD Releases MLIR-AIE 1.2 Compiler Toolchain For Targeting Ryzen AI NPUs",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/AMD-MLIR-AIE-1.2",
+    "abstract": "In addition to AMD releasing the Ryzen AI Software 1.7 release on Friday, they also published a new version of their MLIR-AIE compiler toolchain for targeting AMD Ryzen AI NPU devi...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -46,8 +66,8 @@
     "abstract": "AMD today released a new version of Ryzen AI Software, the user-space packages for Microsoft Windows and Linux for making use of the Ryzen AI NPUs for various AI software tasks lik...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -56,8 +76,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -66,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -76,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -86,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -96,7 +116,7 @@
     "abstract": "超级实验室首个模型已内部交付...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -106,7 +126,7 @@
     "abstract": "宇树科技发布《关于宇树 2025 年销量数据的澄清》，就近期网络上流传的相关出货量信息作出回应。官方表示，过去一个月外界出现多项关于去年出货数量的不实信息，而公司此前从未对外披露过 2025 年销售数据。 宇树科技表示，去年全年纯人形机器人实际出货量已超过 5500 台，所指为实际出售并发货给终端客户的数量，并非订......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
   }
 ]
