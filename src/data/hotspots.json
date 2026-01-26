@@ -17,7 +17,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "AAAI 2026杰出论文奖 | ReconVLA：具身智能研究首次获得AI顶级会议最佳论文奖",
@@ -30,14 +30,14 @@
     "trend": "up"
   },
   {
-    "title": "达沃斯聚焦技术新前沿，梅卡曼德创始人邵天兰受邀分享具身智能落地实践",
+    "title": "具身智能迎来“统考卷”：上海交通大学发布大规模开源测评集GM-100，致力推动行业标准化",
     "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/01/372351.html",
-    "abstract": "",
+    "link": "https://www.qbitai.com/2026/01/372589.html",
+    "abstract": "100个具体任务，总计13,000条操作轨迹数据...",
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -80,13 +80,33 @@
     "trend": "up"
   },
   {
+    "title": "GPT-5大战DeepSeek？国内首个科创板AI Agent实盘竞技场来了！",
+    "source": "MachineHeart",
+    "link": "https://www.jiqizhixin.com/articles/2026-01-26-12",
+    "abstract": "",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "09",
+    "trend": "up"
+  },
+  {
     "title": "Groq on Hugging Face Inference Providers 🔥",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/inference-providers-groq",
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
+    "trend": "down"
+  },
+  {
+    "title": "最强大模型的视觉能力不如 6 岁小孩",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/399651",
+    "abstract": "多家研究机构最新发布的 BabyVision 视觉推理基准结果显示，当前最强多模态模型在视觉推理方面的表现，仍显著落后于人类儿童水平。 即便是表现最好的 Gemini 3 Pro Preview，其得分也仅略高于 3 岁儿童，与 6 岁儿童仍存在约 20% 的差距，与成年人 94.1% 的水平更是相去甚远。 研究来自 UniPat AI、xbench、阿里、...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -96,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -106,8 +126,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -116,27 +136,17 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "14",
     "trend": "up"
   },
   {
-    "title": "Meta开年猛投算力，小扎亲征筹建数十GW",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/01/372282.html",
-    "abstract": "超级实验室首个模型已内部交付...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
-  },
-  {
-    "title": "宇树澄清去年销量传闻：人形机器人出货量超 5500 台",
+    "title": "通义千问 Qwen3 大模型成功完成太空在轨部署",
     "source": "OSChina",
-    "link": "https://www.oschina.net/news/398923",
-    "abstract": "宇树科技发布《关于宇树 2025 年销量数据的澄清》，就近期网络上流传的相关出货量信息作出回应。官方表示，过去一个月外界出现多项关于去年出货数量的不实信息，而公司此前从未对外披露过 2025 年销售数据。 宇树科技表示，去年全年纯人形机器人实际出货量已超过 5500 台，所指为实际出售并发货给终端客户的数量，并非订......",
+    "link": "https://www.oschina.net/news/399648",
+    "abstract": "根据财联社的报道，在2026年1月26日由中国信通院组织的“星算·智联”太空算力研讨会上，国星宇航执行副总裁王亚波披露，2025年11月，国星宇航成功将通义千问Qwen3大模型部署至“星算”计划01组太空计算中心，这是全球首次将通用大模型从地面上注至在轨运行的卫星，实现在轨部署。 随后，千问大模型在太空中成功执行多次......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "15",
     "trend": "down"
   }
 ]
