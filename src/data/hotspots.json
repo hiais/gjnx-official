@@ -10,24 +10,14 @@
     "trend": "down"
   },
   {
-    "title": "The CPU Performance Of The NVIDIA GB10 With The Dell Pro Max vs. AMD Ryzen AI Max+ \"Strix Halo\"",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/nvidia-gb10-cpu",
-    "abstract": "With the Dell Pro Max GB10 testing at Phoronix we have been focused on the AI performance with its Blackwell GPU as the GB10 superchip was designed for meeting the needs of AI. Man...",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
-  },
-  {
     "title": "AAAI 2026杰出论文奖 | ReconVLA：具身智能研究首次获得AI顶级会议最佳论文奖",
     "source": "MachineHeart",
     "link": "https://www.jiqizhixin.com/articles/2026-01-26-2",
     "abstract": "",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "02",
+    "trend": "down"
   },
   {
     "title": "具身智能迎来“统考卷”：上海交通大学发布大规模开源测评集GM-100，致力推动行业标准化",
@@ -36,8 +26,8 @@
     "abstract": "100个具体任务，总计13,000条操作轨迹数据...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
+    "rank": "03",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -46,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -56,8 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "AMD Releases MLIR-AIE 1.2 Compiler Toolchain For Targeting Ryzen AI NPUs",
@@ -66,18 +56,8 @@
     "abstract": "In addition to AMD releasing the Ryzen AI Software 1.7 release on Friday, they also published a new version of their MLIR-AIE compiler toolchain for targeting AMD Ryzen AI NPU devi...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "down"
-  },
-  {
-    "title": "AMD Ryzen AI Software 1.7 Released For Improved Performance On NPUs, New Model Support",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/AMD-Ryzen-AI-Software-1.7",
-    "abstract": "AMD today released a new version of Ryzen AI Software, the user-space packages for Microsoft Windows and Linux for making use of the Ryzen AI NPUs for various AI software tasks lik...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
   },
   {
     "title": "GPT-5大战DeepSeek？国内首个科创板AI Agent实盘竞技场来了！",
@@ -86,8 +66,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -96,7 +76,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -106,8 +86,8 @@
     "abstract": "多家研究机构最新发布的 BabyVision 视觉推理基准结果显示，当前最强多模态模型在视觉推理方面的表现，仍显著落后于人类儿童水平。 即便是表现最好的 Gemini 3 Pro Preview，其得分也仅略高于 3 岁儿童，与 6 岁儿童仍存在约 20% 的差距，与成年人 94.1% 的水平更是相去甚远。 研究来自 UniPat AI、xbench、阿里、...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -116,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -126,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -136,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "通义千问 Qwen3 大模型成功完成太空在轨部署",
@@ -146,7 +126,17 @@
     "abstract": "根据财联社的报道，在2026年1月26日由中国信通院组织的“星算·智联”太空算力研讨会上，国星宇航执行副总裁王亚波披露，2025年11月，国星宇航成功将通义千问Qwen3大模型部署至“星算”计划01组太空计算中心，这是全球首次将通用大模型从地面上注至在轨运行的卫星，实现在轨部署。 随后，千问大模型在太空中成功执行多次......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "15",
+    "rank": "13",
+    "trend": "down"
+  },
+  {
+    "title": "OSS ChatGPT WebUI – 530 Models, MCP, Tools, Gemini RAG, Image/Audio Gen",
+    "source": "HackerNews",
+    "link": "https://llmspy.org/docs/v3",
+    "abstract": "Comments...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "14",
     "trend": "down"
   }
 ]
