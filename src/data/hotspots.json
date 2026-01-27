@@ -1,12 +1,22 @@
 [
   {
+    "title": "Hierarchical Device Planning as an Enabler of System Technology Co-Optimization",
+    "source": "SemiWiki",
+    "link": "https://semiwiki.com/3dic/366001-hierarchical-device-planning-as-an-enabler-of-system-technology-co-optimization/",
+    "abstract": "AI, hyperscale data centers, and data-intensive workloads are driving unprecedented demands for performance, bandwidth, and energy efficiency. As the economic returns of traditiona...",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "up"
+  },
+  {
     "title": "微软发布自研 AI 加速器芯片 Maia 200",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/399886",
     "abstract": "微软正式推出第二代自研 AI 加速器芯片 Maia 200，称其为目前公有云厂商中性能最强的 AI 处理器。 该芯片基于超 1000 亿晶体管设计，采用台积电三纳米制程，在 4 位精度下算力超 10 petaFLOPS，8 位精度下达 5 petaFLOPS，带有原生 FP8/FP4 张量核心，7 TB/s 带宽的 216GB HBM3e 内存系统，与 27...",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "01",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -16,7 +26,7 @@
     "abstract": "蚂蚁集团旗下具身智能公司灵波科技正式开源高精度空间感知模型 LingBot-Depth。 据介绍，LingBot-Depth 是一种面向真实场景的深度补全模型，依托奥比中光 Gemini 330 系列双目 3D 相机进行 RGB-Depth 数据采集与效果验证，并基于深度引擎芯片直出的深度数据进行训练与优化，旨在将不完整且受噪声干扰的深度传感器数据转化......",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -26,7 +36,7 @@
     "abstract": "智源研究院已正式发布新一代具身智能大脑基础模型 RoboBrain2.5，直面具身智能 “空间不准” 和 “过程不稳” 的两大长期短板，通过大规模、高质量的时空监督训练，实现了两项面向真实物理世界的关键升级： 精确 3D 空间推理：将 2D 视觉理解转化为真实尺度下的可执行轨迹，让机器人 “抓得准、放得稳”。 稠密时序价值预......",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -36,8 +46,8 @@
     "abstract": "AMD's RadeonSI Gallium3D driver for next quarter's Mesa 26.1 release is introducing a new low-latency video decode mode. This lower-latency video decoding comes with a trade-off of...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -46,7 +56,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -56,7 +66,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -66,8 +76,8 @@
     "abstract": "AI发展”奇点“已至，以AI coding为代表的突破标志着关键拐点的到来...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -76,7 +86,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -86,7 +96,7 @@
     "abstract": "",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -96,8 +106,8 @@
     "abstract": "多家研究机构最新发布的 BabyVision 视觉推理基准结果显示，当前最强多模态模型在视觉推理方面的表现，仍显著落后于人类儿童水平。 即便是表现最好的 Gemini 3 Pro Preview，其得分也仅略高于 3 岁儿童，与 6 岁儿童仍存在约 20% 的差距，与成年人 94.1% 的水平更是相去甚远。 研究来自 UniPat AI、xbench、阿里、...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -106,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -116,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "down"
   },
   {
@@ -126,7 +136,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "14",
     "trend": "down"
   },
   {
@@ -135,16 +145,6 @@
     "link": "https://www.oschina.net/news/399648",
     "abstract": "根据财联社的报道，在2026年1月26日由中国信通院组织的“星算·智联”太空算力研讨会上，国星宇航执行副总裁王亚波披露，2025年11月，国星宇航成功将通义千问Qwen3大模型部署至“星算”计划01组太空计算中心，这是全球首次将通用大模型从地面上注至在轨运行的卫星，实现在轨部署。 随后，千问大模型在太空中成功执行多次......",
     "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
-  },
-  {
-    "title": "性能比肩Gemini 3 Pro！昨晚，阿里千问最强模型来了",
-    "source": "MachineHeart",
-    "link": "https://www.jiqizhixin.com/articles/2026-01-27-4",
-    "abstract": "",
-    "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "15",
     "trend": "down"
