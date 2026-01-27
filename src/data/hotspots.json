@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "AAAI 2026杰出论文奖 | ReconVLA：具身智能研究首次获得AI顶级会议最佳论文奖",
@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "具身智能迎来“统考卷”：上海交通大学发布大规模开源测评集GM-100，致力推动行业标准化",
@@ -27,7 +27,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -67,7 +67,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -77,6 +77,16 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "08",
+    "trend": "up"
+  },
+  {
+    "title": "Show HN: TetrisBench – Gemini Flash reaches 66% win rate on Tetris against Opus",
+    "source": "HackerNews",
+    "link": "https://tetrisbench.com/tetrisbench/",
+    "abstract": "Comments...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -86,7 +96,7 @@
     "abstract": "多家研究机构最新发布的 BabyVision 视觉推理基准结果显示，当前最强多模态模型在视觉推理方面的表现，仍显著落后于人类儿童水平。 即便是表现最好的 Gemini 3 Pro Preview，其得分也仅略高于 3 岁儿童，与 6 岁儿童仍存在约 20% 的差距，与成年人 94.1% 的水平更是相去甚远。 研究来自 UniPat AI、xbench、阿里、...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -96,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -106,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -116,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "down"
   },
   {
@@ -126,17 +136,7 @@
     "abstract": "根据财联社的报道，在2026年1月26日由中国信通院组织的“星算·智联”太空算力研讨会上，国星宇航执行副总裁王亚波披露，2025年11月，国星宇航成功将通义千问Qwen3大模型部署至“星算”计划01组太空计算中心，这是全球首次将通用大模型从地面上注至在轨运行的卫星，实现在轨部署。 随后，千问大模型在太空中成功执行多次......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
-  },
-  {
-    "title": "OSS ChatGPT WebUI – 530 Models, MCP, Tools, Gemini RAG, Image/Audio Gen",
-    "source": "HackerNews",
-    "link": "https://llmspy.org/docs/v3",
-    "abstract": "Comments...",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
     "rank": "14",
-    "trend": "down"
+    "trend": "up"
   }
 ]
