@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "微软发布自研 AI 加速器芯片 Maia 200",
@@ -40,13 +40,33 @@
     "trend": "down"
   },
   {
+    "title": "​美国交通部拟引入 Gemini 快速起草安全法规",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/400060",
+    "abstract": "据 ProPublica 调查报道，美国交通部（DoT）正计划利用 Google 的 Gemini AI 来辅助起草涉及航空、汽车、铁路和海事安全的约束性法规。这一举措旨在通过技术手段大幅缩减政策制定周期，实现“闪电式”发布监管条令。 在内部沟通中，DoT 律师 Daniel Cohen 向员工展示了 AI “革命性”的制订效率。尽管传统的法规起草通常......",
+    "pscore": 89,
+    "category": "CHIP_FRONT",
+    "rank": "05",
+    "trend": "up"
+  },
+  {
     "title": "AMD Radeon Linux Driver Introduces Low-Latency Video Decode Option",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/news/RadeonSI-Low-Latency-Decode",
     "abstract": "AMD's RadeonSI Gallium3D driver for next quarter's Mesa 26.1 release is introducing a new low-latency video decode mode. This lower-latency video decoding comes with a trade-off of...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "06",
+    "trend": "down"
+  },
+  {
+    "title": "蚂蚁灵波具身大模型 LingBot-VLA 正式开源，后训练代码全面开放",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/400031",
+    "abstract": "蚂蚁集团旗下具身智能公司灵波科技正式开源具身大模型 LingBot-VLA。 据介绍，在上海交通大学开源的具身评测基准 GM-100（包含 100 项真实操作任务）测试中，LingBot-VLA 在 3 个不同的真实机器人平台上，跨本体泛化平均成功率相较于 Pi0.5 的 13.0% 提升至 15.7%（w/o Depth）。引入深度信息（w/ Depth）...",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -56,7 +76,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -66,17 +86,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
-  },
-  {
-    "title": "姚欣获聘“光谷全球产业合伙人”，PPIO以普惠算力助力武汉AI创新",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/01/373101.html",
-    "abstract": "AI发展”奇点“已至，以AI coding为代表的突破标志着关键拐点的到来...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -86,27 +96,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
-  },
-  {
-    "title": "跨境电商版Sora发布：全球首个AI原生电商视频Multi-Agent来了",
-    "source": "MachineHeart",
-    "link": "https://www.jiqizhixin.com/articles/2026-01-27-3",
-    "abstract": "",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
-  },
-  {
-    "title": "最强大模型的视觉能力不如 6 岁小孩",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/399651",
-    "abstract": "多家研究机构最新发布的 BabyVision 视觉推理基准结果显示，当前最强多模态模型在视觉推理方面的表现，仍显著落后于人类儿童水平。 即便是表现最好的 Gemini 3 Pro Preview，其得分也仅略高于 3 岁儿童，与 6 岁儿童仍存在约 20% 的差距，与成年人 94.1% 的水平更是相去甚远。 研究来自 UniPat AI、xbench、阿里、...",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
-    "rank": "11",
     "trend": "up"
   },
   {
@@ -116,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -126,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "12",
     "trend": "down"
   },
   {
@@ -136,15 +126,25 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
+    "rank": "13",
+    "trend": "down"
   },
   {
-    "title": "通义千问 Qwen3 大模型成功完成太空在轨部署",
+    "title": "JeeSite V5.15.1 发布，CMS Vue管理、BPM、DBM 增强",
     "source": "OSChina",
-    "link": "https://www.oschina.net/news/399648",
-    "abstract": "根据财联社的报道，在2026年1月26日由中国信通院组织的“星算·智联”太空算力研讨会上，国星宇航执行副总裁王亚波披露，2025年11月，国星宇航成功将通义千问Qwen3大模型部署至“星算”计划01组太空计算中心，这是全球首次将通用大模型从地面上注至在轨运行的卫星，实现在轨部署。 随后，千问大模型在太空中成功执行多次......",
+    "link": "https://www.oschina.net/news/399970/jeesite-5-15-1-released",
+    "abstract": "升级内容 Vue 分离端版本 新增 Menu 菜单管理 “批量排序保存” 功能 新增 CMS 内容管理 Vue 页面，站点管理、栏目管理、文章管理、文章审核等 新增 WangEditor 富文本编辑器，文件上传、视频上传 等功能 新增 DictData 复制字典选项功能 优化 BizCategory 业务分类树显示图标 优化 BasicTable 编辑表格样...",
     "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "down"
+  },
+  {
+    "title": "阿里通义发布最新旗舰推理模型 Qwen3-Max-Thinking",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/399752",
+    "abstract": "阿里通义正式推出最新旗舰推理模型 Qwen3-Max-Thinking。 Qwen3-Max-Thinking 引入了两项核心创新： 自适应工具调用能力，可按需调用搜索引擎和代码解释器，现已上线 Qwen Chat； 测试时扩展技术（Test-Time Scaling），显著提升推理性能，在关键推理基准上超越 Gemini 3 Pro。 据介绍，通过大幅增加...",
+    "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "15",
     "trend": "up"
