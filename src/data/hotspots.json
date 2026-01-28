@@ -1,23 +1,13 @@
 [
   {
-    "title": "Hierarchical Device Planning as an Enabler of System Technology Co-Optimization",
-    "source": "SemiWiki",
-    "link": "https://semiwiki.com/3dic/366001-hierarchical-device-planning-as-an-enabler-of-system-technology-co-optimization/",
-    "abstract": "AI, hyperscale data centers, and data-intensive workloads are driving unprecedented demands for performance, bandwidth, and energy efficiency. As the economic returns of traditiona...",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "down"
-  },
-  {
     "title": "微软发布自研 AI 加速器芯片 Maia 200",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/399886",
     "abstract": "微软正式推出第二代自研 AI 加速器芯片 Maia 200，称其为目前公有云厂商中性能最强的 AI 处理器。 该芯片基于超 1000 亿晶体管设计，采用台积电三纳米制程，在 4 位精度下算力超 10 petaFLOPS，8 位精度下达 5 petaFLOPS，带有原生 FP8/FP4 张量核心，7 TB/s 带宽的 216GB HBM3e 内存系统，与 27...",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
+    "rank": "01",
+    "trend": "down"
   },
   {
     "title": "智源研究院正式发布新一代具身智能大脑基础模型 RoboBrain 2.5",
@@ -25,6 +15,16 @@
     "link": "https://www.oschina.net/news/399823",
     "abstract": "智源研究院已正式发布新一代具身智能大脑基础模型 RoboBrain2.5，直面具身智能 “空间不准” 和 “过程不稳” 的两大长期短板，通过大规模、高质量的时空监督训练，实现了两项面向真实物理世界的关键升级： 精确 3D 空间推理：将 2D 视觉理解转化为真实尺度下的可执行轨迹，让机器人 “抓得准、放得稳”。 稠密时序价值预......",
     "pscore": 92,
+    "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "up"
+  },
+  {
+    "title": "中国团队引领太空算力：首次太空在轨部署通用大模型，发2800颗卫星服务数亿硅基智能体",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/01/373666.html",
+    "abstract": "全球AI竞争新高地...",
+    "pscore": 89,
     "category": "CHIP_FRONT",
     "rank": "03",
     "trend": "down"
@@ -37,7 +37,7 @@
     "pscore": 89,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "AMD Radeon Linux Driver Introduces Low-Latency Video Decode Option",
@@ -57,7 +57,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "蚂蚁灵波具身大模型 LingBot-VLA 正式开源，后训练代码全面开放",
@@ -77,7 +77,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -87,7 +87,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -97,7 +97,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "​欧盟要求谷歌向竞争对手 AI 开放 Android 权限",
@@ -107,7 +107,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "谷歌 Gemini 3 Flash 新增“Agentic Vision”功能：将视觉推理与代码执行相结合",
@@ -137,7 +137,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "14",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -147,6 +147,6 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "up"
+    "trend": "down"
   }
 ]
