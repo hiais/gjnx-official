@@ -1,22 +1,12 @@
 [
   {
-    "title": "微软发布自研 AI 加速器芯片 Maia 200",
+    "title": "Figure AI 发布最新一代 AI 大脑系统 Helix 02",
     "source": "OSChina",
-    "link": "https://www.oschina.net/news/399886",
-    "abstract": "微软正式推出第二代自研 AI 加速器芯片 Maia 200，称其为目前公有云厂商中性能最强的 AI 处理器。 该芯片基于超 1000 亿晶体管设计，采用台积电三纳米制程，在 4 位精度下算力超 10 petaFLOPS，8 位精度下达 5 petaFLOPS，带有原生 FP8/FP4 张量核心，7 TB/s 带宽的 216GB HBM3e 内存系统，与 27...",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "down"
-  },
-  {
-    "title": "智源研究院正式发布新一代具身智能大脑基础模型 RoboBrain 2.5",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/399823",
-    "abstract": "智源研究院已正式发布新一代具身智能大脑基础模型 RoboBrain2.5，直面具身智能 “空间不准” 和 “过程不稳” 的两大长期短板，通过大规模、高质量的时空监督训练，实现了两项面向真实物理世界的关键升级： 精确 3D 空间推理：将 2D 视觉理解转化为真实尺度下的可执行轨迹，让机器人 “抓得准、放得稳”。 稠密时序价值预......",
+    "link": "https://www.oschina.net/news/400337/figure-ai-helix-02",
+    "abstract": "美国具身智能公司Figure AI宣布其最新一代AI大脑系统Helix 02已全面部署于Figure 02机器人平台。 据介绍，Helix 02在2025年发布的初代Helix基础之上实现了多维度跃升，主要技术亮点包括： 单一大神经网络统一控制所有行为，无需任务特定微调即可同时完成物体抓取、抽屉/冰箱操作、多机协作、家务执行等复杂序列动作； 超......",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "01",
     "trend": "down"
   },
   {
@@ -26,8 +16,8 @@
     "abstract": "全球AI竞争新高地...",
     "pscore": 89,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "02",
+    "trend": "down"
   },
   {
     "title": "​美国交通部拟引入 Gemini 快速起草安全法规",
@@ -36,7 +26,7 @@
     "abstract": "据 ProPublica 调查报道，美国交通部（DoT）正计划利用 Google 的 Gemini AI 来辅助起草涉及航空、汽车、铁路和海事安全的约束性法规。这一举措旨在通过技术手段大幅缩减政策制定周期，实现“闪电式”发布监管条令。 在内部沟通中，DoT 律师 Daniel Cohen 向员工展示了 AI “革命性”的制订效率。尽管传统的法规起草通常......",
     "pscore": 89,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -46,7 +36,7 @@
     "abstract": "AMD's RadeonSI Gallium3D driver for next quarter's Mesa 26.1 release is introducing a new low-latency video decode mode. This lower-latency video decoding comes with a trade-off of...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -56,8 +46,8 @@
     "abstract": "首次在真实世界验证VLA的Scaling Law...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "蚂蚁灵波具身大模型 LingBot-VLA 正式开源，后训练代码全面开放",
@@ -66,7 +56,7 @@
     "abstract": "蚂蚁集团旗下具身智能公司灵波科技正式开源具身大模型 LingBot-VLA。 据介绍，在上海交通大学开源的具身评测基准 GM-100（包含 100 项真实操作任务）测试中，LingBot-VLA 在 3 个不同的真实机器人平台上，跨本体泛化平均成功率相较于 Pi0.5 的 13.0% 提升至 15.7%（w/o Depth）。引入深度信息（w/ Depth）...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -76,8 +66,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -86,7 +76,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -96,8 +86,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "​欧盟要求谷歌向竞争对手 AI 开放 Android 权限",
@@ -106,8 +96,8 @@
     "abstract": "外媒消息称，欧盟委员会已根据《数字市场法》启动规范程序，要求谷歌向第三方 AI 助手提供与 Gemini 同等的 Android 功能访问权限。 除了对 Android 的访问权限外，谷歌还面临着以公平、合理和非歧视性条款，向第三方在线搜索引擎供应商提供谷歌搜索所持有的匿名排名、查询、点击和浏览数据的要求，以及 AI 聊天机器人提......",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "谷歌 Gemini 3 Flash 新增“Agentic Vision”功能：将视觉推理与代码执行相结合",
@@ -116,7 +106,7 @@
     "abstract": "谷歌宣布其 AI 模型 Gemini 3 Flash 增加了一个全新的视觉能力模块 Agentic Vision，旨在让模型在处理图像时更像人类专家，而不是静态“看一眼就猜”。 过去的大多数 AI 视觉模型都是“静态看图”：它们接收一张图片，试着一次性理解内容。但这样做，若遇到细节极小、信息密集的视觉任务（比如识别微小字符、远处标志等）......",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -126,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "12",
     "trend": "down"
   },
   {
@@ -136,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "13",
     "trend": "up"
   },
   {
@@ -146,7 +136,17 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "down"
+  },
+  {
+    "title": "JeeSite V5.15.1 发布，CMS Vue管理、BPM、DBM 增强",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/399970/jeesite-5-15-1-released",
+    "abstract": "升级内容 Vue 分离端版本 新增 Menu 菜单管理 “批量排序保存” 功能 新增 CMS 内容管理 Vue 页面，站点管理、栏目管理、文章管理、文章审核等 新增 WangEditor 富文本编辑器，文件上传、视频上传 等功能 新增 DictData 复制字典选项功能 优化 BizCategory 业务分类树显示图标 优化 BasicTable 编辑表格样...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "up"
+    "trend": "down"
   }
 ]
