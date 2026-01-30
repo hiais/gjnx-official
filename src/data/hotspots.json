@@ -1,13 +1,23 @@
 [
   {
+    "title": "商汤开源 SenseNova-MARS：突破多模态搜索推理天花板",
+    "source": "OSChina",
+    "link": "https://my.oschina.net/u/4806939/blog/19205884",
+    "abstract": "商汤正式开源多模态自主推理模型SenseNova-MARS（8B/32B双版本），其在多模态搜索与推理的核心基准测试中以69.74分超越Gemini-3-Pro（69.06分）、GPT-5.2（67.64分）。SenseNova-MARS是首个支持动态视觉推理和图文搜索深度融合的Agentic VLM模型，它能自己规划步骤、调用工具，轻松搞定各种复杂任务，让...",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "down"
+  },
+  {
     "title": "性能超越 DeepSeek-OCR2，百度发布并开源新一代 SOTA OCR 模型",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/400516/paddleocr-vl-1-5-news",
     "abstract": "1月29日，百度正式发布并开源新一代文档解析模型PaddleOCR-VL-1.5。该模型以仅0.9B参数的轻量架构，在全球权威文档解析评测榜单OmniDocBench V1.5中取得全球综合性能第一成绩，整体精度达到94.5%，超过Gemini-3-Pro、DeepSeek-OCR2、Qwen3-VL-235B-A22B、GPT-5.2等模型。 值得关注的是...",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "up"
+    "rank": "02",
+    "trend": "down"
   },
   {
     "title": "2025年度“十大科技热词”正式发布，智能体、AI 治理、具身智能等入选",
@@ -16,8 +26,8 @@
     "abstract": "中国科技新闻学会今日在国家科技传播中心召开新闻发布会，会上发布了2025年度“十大科技新闻事件”“十大科技热词”。 评选活动由中国科技新闻学会主办，中国科技新闻学会科技传播力促进工作委员会、《科学中国人》杂志社共同承办，以大数据筛选与广泛征集相结合的形式形成候选名单，经院士、科技专家、媒体负责人、科普......",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "Figure AI 发布最新一代 AI 大脑系统 Helix 02",
@@ -26,8 +36,8 @@
     "abstract": "美国具身智能公司Figure AI宣布其最新一代AI大脑系统Helix 02已全面部署于Figure 02机器人平台。 据介绍，Helix 02在2025年发布的初代Helix基础之上实现了多维度跃升，主要技术亮点包括： 单一大神经网络统一控制所有行为，无需任务特定微调即可同时完成物体抓取、抽屉/冰箱操作、多机协作、家务执行等复杂序列动作； 超......",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "蚂蚁正式开源 LingBot-Depth，基于掩码深度建模的新一代空间感知模型",
@@ -36,7 +46,7 @@
     "abstract": "1月27日，我们正式开源了 LingBot-Depth 空间感知模型。 不同于数字世界，具身智能的落地高度依赖物理空间信息，空间智能是其在现实场景落地应用的核心关键，而视觉维度下支撑空间智能的重要桥梁正是距离与尺度（Metric Depth）。基于这一核心需求，空间感知模型 LingBot-Depth 应运而生。 LingBot-Depth 是一种面向真实....",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -46,8 +56,8 @@
     "abstract": "蚂蚁集团旗下具身智能公司灵波科技正正式开源世界模型 LingBot-World。 LingBot-World 是一个专为交互式世界模型设计的开源框架。其核心 LingBot-World-Base 致力于提供高保真、可控制且逻辑一致的模拟环境。该模型由一个可扩展数据引擎（Scalable Data Engine）驱动，通过从大规模游戏环境中学习物理规律与因果关...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -56,8 +66,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -66,8 +76,18 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "up"
+  },
+  {
+    "title": "OpenAI 将于 2 月 13 日 下线 GPT-4o 等旧版模型",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/400611/openai-retiring-gpt-4o-and-older-models",
+    "abstract": "OpenAI宣布将于2026年2月13日正式从ChatGPT中移除GPT-4o、GPT-4.1、GPT-4.1 mini及o4-mini等旧版模型，此前已预告同期退役GPT-5（Instant与Thinking）版本。API用户暂不受影响。 其中，GPT-4o因部分Plus与Pro用户反馈其在创意构思和对话风格上的独特优势，曾在GPT-5发布后短暂恢复访问。...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -76,7 +96,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -86,28 +106,8 @@
     "abstract": "谷歌宣布为 Chrome 浏览器带来一系列基于最新 AI 模型 Gemini 3 的功能升级，标志着浏览器进入更加智能的时代。 Gemini 3 驱动的智能侧边栏 Chrome 新增了一个 侧边栏界面，用户可以在浏览任何网页时保持 AI 助手常驻屏幕右侧，不需切换标签页即可执行任务。无论是比较多个购物选项、汇总产品评论，还是查找会议时间，这......",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
-  },
-  {
-    "title": "​欧盟要求谷歌向竞争对手 AI 开放 Android 权限",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/400136",
-    "abstract": "外媒消息称，欧盟委员会已根据《数字市场法》启动规范程序，要求谷歌向第三方 AI 助手提供与 Gemini 同等的 Android 功能访问权限。 除了对 Android 的访问权限外，谷歌还面临着以公平、合理和非歧视性条款，向第三方在线搜索引擎供应商提供谷歌搜索所持有的匿名排名、查询、点击和浏览数据的要求，以及 AI 聊天机器人提......",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
-  },
-  {
-    "title": "谷歌 Gemini 3 Flash 新增“Agentic Vision”功能：将视觉推理与代码执行相结合",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/400080/google-gemini-3-flash-agentic-vision",
-    "abstract": "谷歌宣布其 AI 模型 Gemini 3 Flash 增加了一个全新的视觉能力模块 Agentic Vision，旨在让模型在处理图像时更像人类专家，而不是静态“看一眼就猜”。 过去的大多数 AI 视觉模型都是“静态看图”：它们接收一张图片，试着一次性理解内容。但这样做，若遇到细节极小、信息密集的视觉任务（比如识别微小字符、远处标志等）......",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -137,13 +137,13 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "14",
-    "trend": "down"
+    "trend": "up"
   },
   {
-    "title": "马斯克：特斯拉在人形机器人领域的最大竞争对手将来自中国",
+    "title": "宇树开源 UnifoLM-VLA-0，面向通用人形机器人操作的 VLA 大模型",
     "source": "OSChina",
-    "link": "https://www.oschina.net/news/400458",
-    "abstract": "特斯拉 CEO 马斯克在财报会上表示，特斯拉在人形机器人领域最大的竞争对手将来自中国。“中国在人工智能和制造领域都具备很强的实力，无疑将成为特斯拉最强大的竞争对手。据我们所知，除中国之外，目前没有其他值得关注的重大竞争对手。” 我认为人形机器人领域最大的竞争肯定来自中国。中国非常擅长扩大生产规模。而且正......",
+    "link": "https://www.oschina.net/news/400600/unifolm-vla",
+    "abstract": "宇树科技宣布开源面向通用人形机器人操作的视觉-语言-动作（VLA）大模型 UnifoLM-VLA-0，旨在通过强化空间推理与物理交互能力，推动机器人从“图文理解”向“具身大脑”升级。 据介绍，该模型通过在机器人操作数据上的继续预训练，实现了从通用“图文理解”向具备物理常识的“具身大脑”的进化，旨在突破传统 VLM 在物理......",
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "15",
