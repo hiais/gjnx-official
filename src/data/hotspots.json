@@ -27,7 +27,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "2025年度“十大科技热词”正式发布，智能体、AI 治理、具身智能等入选",
@@ -37,7 +37,17 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
+  },
+  {
+    "title": "RoboChallenge 年度报告发布，具身智能迈向标准化时代",
+    "source": "MachineHeart",
+    "link": "https://www.jiqizhixin.com/articles/2026-01-30-12",
+    "abstract": "",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "中国信通院发布《具身智能发展报告（2025年）》",
@@ -46,7 +56,7 @@
     "abstract": "中国信息通信研究院（简称“中国信通院”）联合清华大学电子工程系近日正式发布《具身智能发展报告（2025年）》。 报告聚焦过去一年来具身智能产业的新发展新变化新挑战，总结梳理国内外具身智能产业、技术、应用等方面的发展特点，聚焦“数据-模型-本体”三个关键环节，研判分析技术发展路径及问题，围绕机器人、智能运......",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -56,7 +66,7 @@
     "abstract": "1月27日，我们正式开源了 LingBot-Depth 空间感知模型。 不同于数字世界，具身智能的落地高度依赖物理空间信息，空间智能是其在现实场景落地应用的核心关键，而视觉维度下支撑空间智能的重要桥梁正是距离与尺度（Metric Depth）。基于这一核心需求，空间感知模型 LingBot-Depth 应运而生。 LingBot-Depth 是一种面向真实....",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -66,7 +76,7 @@
     "abstract": "蚂蚁集团旗下具身智能公司灵波科技正正式开源世界模型 LingBot-World。 LingBot-World 是一个专为交互式世界模型设计的开源框架。其核心 LingBot-World-Base 致力于提供高保真、可控制且逻辑一致的模拟环境。该模型由一个可扩展数据引擎（Scalable Data Engine）驱动，通过从大规模游戏环境中学习物理规律与因果关...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -76,8 +86,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -86,8 +96,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "OpenAI 将于 2 月 13 日 下线 GPT-4o 等旧版模型",
@@ -96,8 +106,8 @@
     "abstract": "OpenAI宣布将于2026年2月13日正式从ChatGPT中移除GPT-4o、GPT-4.1、GPT-4.1 mini及o4-mini等旧版模型，此前已预告同期退役GPT-5（Instant与Thinking）版本。API用户暂不受影响。 其中，GPT-4o因部分Plus与Pro用户反馈其在创意构思和对话风格上的独特优势，曾在GPT-5发布后短暂恢复访问。...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -106,8 +116,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "Chrome 重大 AI 更新：Gemini 3 &amp; 自动浏览（Auto Browse）登场",
@@ -116,8 +126,8 @@
     "abstract": "谷歌宣布为 Chrome 浏览器带来一系列基于最新 AI 模型 Gemini 3 的功能升级，标志着浏览器进入更加智能的时代。 Gemini 3 驱动的智能侧边栏 Chrome 新增了一个 侧边栏界面，用户可以在浏览任何网页时保持 AI 助手常驻屏幕右侧，不需切换标签页即可执行任务。无论是比较多个购物选项、汇总产品评论，还是查找会议时间，这......",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "13",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -126,8 +136,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "14",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -136,17 +146,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
-  },
-  {
-    "title": "Hugging Face on PyTorch / XLA TPUs",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/pytorch-xla",
-    "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "down"
+    "trend": "up"
   }
 ]
