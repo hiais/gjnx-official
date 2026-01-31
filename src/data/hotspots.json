@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "商汤开源 SenseNova-MARS：突破多模态搜索推理天花板",
@@ -17,7 +17,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "性能超越 DeepSeek-OCR2，百度发布并开源新一代 SOTA OCR 模型",
@@ -67,7 +67,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "蚂蚁发布可交互的开源世界模型：LingBot-World",
@@ -87,7 +87,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -97,7 +97,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "OpenAI 将于 2 月 13 日 下线 GPT-4o 等旧版模型",
@@ -127,7 +127,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -137,7 +137,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "14",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -147,6 +147,6 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "up"
+    "trend": "down"
   }
 ]
