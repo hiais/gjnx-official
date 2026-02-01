@@ -27,7 +27,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "2025年度“十大科技热词”正式发布，智能体、AI 治理、具身智能等入选",
@@ -47,7 +47,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "中国信通院发布《具身智能发展报告（2025年）》",
@@ -67,7 +67,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -77,7 +77,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -90,13 +90,23 @@
     "trend": "down"
   },
   {
+    "title": "GNOME Resources 1.10 Adds Monitoring Support For AMD Ryzen AI NPUs",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/GNOME-Resources-1.10",
+    "abstract": "GNOME Resources 1.10 was christened today as the newest version of this modern system monitoring app for the GNOME desktop that is now used by default on the likes of the upcoming ...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "10",
+    "trend": "down"
+  },
+  {
     "title": "OpenAI 将于 2 月 13 日 下线 GPT-4o 等旧版模型",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/400611/openai-retiring-gpt-4o-and-older-models",
     "abstract": "OpenAI宣布将于2026年2月13日正式从ChatGPT中移除GPT-4o、GPT-4.1、GPT-4.1 mini及o4-mini等旧版模型，此前已预告同期退役GPT-5（Instant与Thinking）版本。API用户暂不受影响。 其中，GPT-4o因部分Plus与Pro用户反馈其在创意构思和对话风格上的独特优势，曾在GPT-5发布后短暂恢复访问。...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -106,8 +116,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "Chrome 重大 AI 更新：Gemini 3 &amp; 自动浏览（Auto Browse）登场",
@@ -116,7 +126,7 @@
     "abstract": "谷歌宣布为 Chrome 浏览器带来一系列基于最新 AI 模型 Gemini 3 的功能升级，标志着浏览器进入更加智能的时代。 Gemini 3 驱动的智能侧边栏 Chrome 新增了一个 侧边栏界面，用户可以在浏览任何网页时保持 AI 助手常驻屏幕右侧，不需切换标签页即可执行任务。无论是比较多个购物选项、汇总产品评论，还是查找会议时间，这......",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "down"
   },
   {
@@ -126,7 +136,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "14",
     "trend": "down"
   },
   {
@@ -136,17 +146,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
-  },
-  {
-    "title": "Hugging Face on PyTorch / XLA TPUs",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/pytorch-xla",
-    "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "down"
+    "trend": "up"
   }
 ]
