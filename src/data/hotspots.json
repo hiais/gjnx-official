@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "商汤开源 SenseNova-MARS：突破多模态搜索推理天花板",
@@ -27,7 +27,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "2025年度“十大科技热词”正式发布，智能体、AI 治理、具身智能等入选",
@@ -47,7 +47,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "中国信通院发布《具身智能发展报告（2025年）》",
@@ -57,7 +57,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "蚂蚁正式开源 LingBot-Depth，基于掩码深度建模的新一代空间感知模型",
@@ -67,16 +67,6 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
-  },
-  {
-    "title": "蚂蚁发布可交互的开源世界模型：LingBot-World",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/400390",
-    "abstract": "蚂蚁集团旗下具身智能公司灵波科技正正式开源世界模型 LingBot-World。 LingBot-World 是一个专为交互式世界模型设计的开源框架。其核心 LingBot-World-Base 致力于提供高保真、可控制且逻辑一致的模拟环境。该模型由一个可扩展数据引擎（Scalable Data Engine）驱动，通过从大规模游戏环境中学习物理规律与因果关...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "08",
     "trend": "down"
   },
   {
@@ -86,7 +76,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -96,8 +86,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "OpenAI 将于 2 月 13 日 下线 GPT-4o 等旧版模型",
@@ -106,8 +96,8 @@
     "abstract": "OpenAI宣布将于2026年2月13日正式从ChatGPT中移除GPT-4o、GPT-4.1、GPT-4.1 mini及o4-mini等旧版模型，此前已预告同期退役GPT-5（Instant与Thinking）版本。API用户暂不受影响。 其中，GPT-4o因部分Plus与Pro用户反馈其在创意构思和对话风格上的独特优势，曾在GPT-5发布后短暂恢复访问。...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -116,7 +106,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -126,8 +116,8 @@
     "abstract": "谷歌宣布为 Chrome 浏览器带来一系列基于最新 AI 模型 Gemini 3 的功能升级，标志着浏览器进入更加智能的时代。 Gemini 3 驱动的智能侧边栏 Chrome 新增了一个 侧边栏界面，用户可以在浏览任何网页时保持 AI 助手常驻屏幕右侧，不需切换标签页即可执行任务。无论是比较多个购物选项、汇总产品评论，还是查找会议时间，这......",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -136,13 +126,23 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
+    "rank": "13",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/sdxl_jax",
+    "abstract": "",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "down"
+  },
+  {
+    "title": "Hugging Face on PyTorch / XLA TPUs",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/pytorch-xla",
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
