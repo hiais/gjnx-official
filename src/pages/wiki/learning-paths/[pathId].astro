@@ -1,0 +1,240 @@
+---
+import MainLayout from '../../../layouts/MainLayout.astro';
+import SectionHeader from '../../../components/ui/SectionHeader.astro';
+import Card from '../../../components/ui/Card.astro';
+import Button from '../../../components/ui/Button.astro';
+import LearningPathProgress from '../../../components/wiki/LearningPathProgress.astro';
+import { getCollection } from 'astro:content';
+import taxonomyData from '../../../data/wiki-taxonomy.json';
+
+export async function getStaticPaths() {
+  return taxonomyData.learningPaths.map(path => ({
+    params: { pathId: path.id },
+    props: { path }
+  }));
+}
+
+const { path } = Astro.props;
+const { pathId } = Astro.params;
+const allKnowledge = await getCollection('knowledge');
+
+// 获取路径中的所有概念
+const pathConcepts = [];
+path.modules.forEach(module => {
+  if (module.concepts) {
+    module.concepts.forEach(conceptId => {
+      const concept = allKnowledge.find(k => k.id === conceptId);
+      if (concept) {
+        pathConcepts.push({ ...concept, moduleOrder: module.order });
+      }
+    });
+  }
+});
+---
+
+<MainLayout 
+  title={`${path.name} - 学习路径`}
+  description={path.description}
+>
+  <SectionHeader 
+    title={path.name}
+    ghostTitle="学习路径"
+    subtitle={path.description}
+  />
+
+  <div class="container section">
+    <div class="path-info">
+      <div class="info-grid">
+        <div class="info-item">
+          <span class="info-label mono">难度等级:</span>
+          <span class="info-value">{path.level === 'beginner' ? '初级' : path.level === 'intermediate' ? '中级' : '高级'}</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label mono">预计时间:</span>
+          <span class="info-value">{path.estimatedTime}</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label mono">模块数量:</span>
+          <span class="info-value">{path.modules.length}个</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 学习进度 -->
+    <LearningPathProgress 
+      pathId={pathId || ''}
+      modules={path.modules.map(m => ({
+        moduleId: m.moduleId,
+        order: m.order,
+        title: m.title
+      }))}
+    />
+
+    <div class="path-timeline">
+      {path.modules.map((module, moduleIndex) => {
+        const moduleConcepts = pathConcepts.filter(c => c.moduleOrder === module.order);
+        return (
+          <div class="timeline-item">
+            <div class="timeline-marker">{moduleIndex + 1}</div>
+            <div class="timeline-content">
+              <h3 class="module-title">{module.title}</h3>
+              <div class="module-concepts">
+                {moduleConcepts.length > 0 ? (
+                  moduleConcepts.map(concept => (
+                    <Card href={`/wiki/concept/${concept.id}`} class="concept-card" variant="compact">
+                      <h4>{concept.data.title}</h4>
+                      <p>{concept.data.description || ''}</p>
+                    </Card>
+                  ))
+                ) : (
+                  <p class="empty-module mono">该模块暂无词条</p>
+                )}
+              </div>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+
+    <div class="path-actions">
+      <Button href="/wiki/learning-paths" variant="secondary" size="md">
+        ← 返回学习路径列表
+      </Button>
+    </div>
+  </div>
+</MainLayout>
+
+<style>
+  .section {
+    padding: var(--space-12) 0 var(--space-20);
+  }
+
+  .path-info {
+    margin-bottom: var(--space-12);
+  }
+
+  .info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--space-6);
+  }
+
+  .info-item {
+    background: rgba(10, 10, 10, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    padding: var(--space-4);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+
+  .info-label {
+    color: var(--c-text-secondary);
+    font-size: 0.85rem;
+  }
+
+  .info-value {
+    color: var(--c-text-primary);
+    font-size: 1rem;
+    font-weight: var(--weight-semibold);
+  }
+
+  .path-timeline {
+    position: relative;
+    padding-left: var(--space-8);
+  }
+
+  .path-timeline::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: rgba(0, 240, 255, 0.2);
+  }
+
+  .timeline-item {
+    position: relative;
+    margin-bottom: var(--space-12);
+  }
+
+  .timeline-marker {
+    position: absolute;
+    left: -32px;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    background: var(--c-accent-cyan);
+    color: #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: var(--weight-bold);
+    font-family: var(--font-mono);
+    z-index: 1;
+  }
+
+  .timeline-content {
+    background: rgba(10, 10, 10, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    padding: var(--space-6);
+  }
+
+  .module-title {
+    font-size: 1.3rem;
+    color: var(--c-text-primary);
+    margin-bottom: var(--space-6);
+  }
+
+  .module-concepts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: var(--space-4);
+  }
+
+  .concept-card h4 {
+    font-size: 1rem;
+    margin-bottom: var(--space-2);
+    color: var(--c-text-primary);
+  }
+
+  .concept-card p {
+    font-size: 0.85rem;
+    color: var(--c-text-secondary);
+    margin: 0;
+  }
+
+  .empty-module {
+    color: var(--c-text-secondary);
+    font-size: 0.9rem;
+    padding: var(--space-4);
+    text-align: center;
+  }
+
+  .path-actions {
+    margin-top: var(--space-12);
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .path-timeline {
+      padding-left: var(--space-6);
+    }
+
+    .timeline-marker {
+      left: -24px;
+      width: 32px;
+      height: 32px;
+      font-size: 0.9rem;
+    }
+
+    .module-concepts {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+

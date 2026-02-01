@@ -1,0 +1,34 @@
+---
+interface Props {
+  techPointId?: number;
+  dimensionCode?: string;
+}
+
+const { techPointId, dimensionCode } = Astro.props;
+---
+
+<span class="core64-badge">
+  ⭐ 64核心技术点
+  {techPointId && dimensionCode && (
+    <span class="tech-point-id mono">({dimensionCode}-{techPointId})</span>
+  )}
+</span>
+
+<style>
+  .core64-badge {
+    display: inline-flex;
+    align-items: center;
+    background: rgba(255, 174, 0, 0.1);
+    border: 1px solid var(--c-accent-amber);
+    color: var(--c-accent-amber);
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+  }
+
+  .tech-point-id {
+    margin-left: var(--space-2);
+    opacity: 0.7;
+  }
+</style>
+

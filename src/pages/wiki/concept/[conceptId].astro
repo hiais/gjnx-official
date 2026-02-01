@@ -1,0 +1,555 @@
+---
+import { getCollection, render } from 'astro:content';
+import MainLayout from '../../../layouts/MainLayout.astro';
+import SectionHeader from '../../../components/ui/SectionHeader.astro';
+import Card from '../../../components/ui/Card.astro';
+import Button from '../../../components/ui/Button.astro';
+import KnowledgeGraph from '../../../components/wiki/KnowledgeGraph.astro';
+import KnowledgeSchema from '../../../components/wiki/KnowledgeSchema.astro';
+import ProgressTracker from '../../../components/wiki/ProgressTracker.astro';
+import ShareButtons from '../../../components/wiki/ShareButtons.astro';
+import taxonomyData from '../../../data/wiki-taxonomy.json';
+
+export async function getStaticPaths() {
+  const items = await getCollection('knowledge');
+  return items.map(item => {
+    return {
+      params: { conceptId: item.slug || item.id },
+      props: { item },
+    };
+  });
+}
+
+const { item: entry } = Astro.props;
+const { Content } = await render(entry);
+const allKnowledge = await getCollection('knowledge');
+
+// 查找词条所属的维度和模块
+let currentDimension = null;
+let currentModule = null;
+let techPoint = null;
+
+if (entry.data.dimension) {
+  currentDimension = taxonomyData.dimensions.find(d => d.code === entry.data.dimension);
+  if (currentDimension && entry.data.techPointId) {
+    techPoint = currentDimension.techPoints.find(tp => tp.id === entry.data.techPointId);
+  }
+  if (currentDimension && entry.data.module) {
+    currentModule = currentDimension.modules.find(m => m.id === entry.data.module);
+  }
+}
+
+// 获取前置知识和后续知识
+const prerequisites = (entry.data.prerequisites || []).map(id => 
+  allKnowledge.find(k => k.id === id)
+).filter(Boolean);
+
+const nextSteps = (entry.data.nextSteps || []).map(id => 
+  allKnowledge.find(k => k.id === id)
+).filter(Boolean);
+
+// 获取相关概念（同模块或同维度）
+const relatedConcepts = allKnowledge.filter(k => {
+  if (k.id === entry.id) return false;
+  if (entry.data.module && k.data.module === entry.data.module) return true;
+  if (entry.data.dimension && k.data.dimension === entry.data.dimension) return true;
+  return false;
+}).slice(0, 6);
+
+// Generate OG Image URL
+const ogImage = new URL(`/og/knowledge/${entry.id}.png`, Astro.site);
+---
+
+<MainLayout 
+  title={`${entry.data.title} - 知识体系`}
+  description={entry.data.description || ''}
+  image={ogImage}
+>
+  <!-- Wiki词条专用Schema.org结构化数据 -->
+  <KnowledgeSchema 
+    concept={entry}
+    dimension={currentDimension}
+    module={currentModule}
+    techPoint={techPoint}
+    prerequisites={prerequisites}
+    nextSteps={nextSteps}
+  />
+  <SectionHeader 
+    title={entry.data.title}
+    ghostTitle="知识词条"
+    subtitle={entry.data.description || ''}
+  />
+
+  <div class="container section">
+    <div class="wiki-content-layout">
+      <!-- 主内容区 -->
+      <main class="wiki-main">
+        <!-- 词条元信息 -->
+        <div class="concept-meta">
+          <div class="meta-tags">
+            {entry.data.isCore64 && (
+              <span class="meta-tag core64-tag">
+                ⭐ 64核心技术点
+                {techPoint && (
+                  <span class="tech-point-id mono">({currentDimension?.code}-{techPoint.id})</span>
+                )}
+              </span>
+            )}
+            {entry.data.category && (
+              <span class="meta-tag category-tag">{entry.data.category}</span>
+            )}
+            {entry.data.level && (
+              <span class="meta-tag level-tag" data-pagefind-filter="level">
+                {entry.data.level === 'beginner' ? '初级' : entry.data.level === 'intermediate' ? '中级' : '高级'}
+              </span>
+            )}
+            {currentDimension && (
+              <a href={`/wiki/domain/${currentDimension.id}`} class="meta-tag dimension-tag" data-pagefind-filter="dimension">
+                {currentDimension.name}
+              </a>
+            )}
+            {currentModule && (
+              <span class="meta-tag module-tag">
+                {currentModule.name}
+              </span>
+            )}
+          </div>
+        </div>
+
+        <!-- 分享按钮 -->
+        <div class="share-section">
+          <ShareButtons 
+            title={entry.data.title}
+            url={Astro.url.pathname}
+            description={entry.data.description || ''}
+          />
+        </div>
+
+        <!-- 知识网络图谱 -->
+        <div class="graph-section">
+           <KnowledgeGraph 
+             conceptId={entry.id} 
+             concepts={allKnowledge}
+             currentDimension={entry.data.dimension}
+           />
+        </div>
+
+        <!-- 词条内容 -->
+        <article class="concept-content">
+          <Content />
+        </article>
+
+        <!-- 知识网络 -->
+        <div class="knowledge-network">
+          {prerequisites.length > 0 && (
+            <div class="network-section prerequisites-section">
+              <h3 class="network-title mono">📚 前置知识</h3>
+              <div class="network-items">
+                {prerequisites.map(prereq => (
+                  <Card href={`/wiki/concept/${prereq.id}`} class="network-card" variant="compact">
+                    <h4>{prereq.data.title}</h4>
+                    <p>{prereq.data.description || ''}</p>
+                  </Card>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {nextSteps.length > 0 && (
+            <div class="network-section next-steps-section">
+              <h3 class="network-title mono">➡️ 后续学习</h3>
+              <div class="network-items">
+                {nextSteps.map(next => (
+                  <Card href={`/wiki/concept/${next.id}`} class="network-card" variant="compact">
+                    <h4>{next.data.title}</h4>
+                    <p>{next.data.description || ''}</p>
+                  </Card>
+                ))}
+              </div>
+            </div>
+          )}
+
+
+        </div>
+      </main>
+
+      <!-- 侧边栏 -->
+      <aside class="wiki-sidebar">
+        {currentDimension && (
+          <div class="sidebar-section datapad-panel">
+            <h4 class="sidebar-title mono">SECTOR CONTEXT</h4>
+            <a href={`/wiki/domain/${currentDimension.id}`} class="sidebar-link">
+              Sector: {currentDimension.name}
+            </a>
+            <p class="sidebar-desc">{currentDimension.description}</p>
+            
+            {currentModule && (
+               <div class="module-context">
+                 <span class="context-label mono">> ACTIVE PIPELINE:</span>
+                 <span class="context-value">{currentModule.name}</span>
+               </div>
+            )}
+          </div>
+        )}
+
+        <!-- 学习进度 -->
+        <ProgressTracker conceptId={entry.id} />
+
+        <div class="sidebar-section datapad-panel">
+          <h4 class="sidebar-title mono">TACTICAL NAV</h4>
+          <div class="sidebar-nav">
+            <a href="/wiki" class="sidebar-nav-item">
+               <span class="nav-icon">▤</span> MISSION CONTROL
+            </a>
+            {currentDimension && (
+              <a href={`/wiki/domain/${currentDimension.id}`} class="sidebar-nav-item active">
+                <span class="nav-icon">↳</span> SECTOR: {currentDimension.code}
+              </a>
+            )}
+            <a href="/wiki/core-64" class="sidebar-nav-item">
+               <span class="nav-icon">◈</span> TECH INVENTORY
+            </a>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <!-- 返回链接 -->
+    <div class="wiki-footer">
+      <a href="/wiki" class="back-link mono">
+        <span class="symbol">←</span> 返回知识体系
+      </a>
+      {currentDimension && (
+        <a href={`/wiki/domain/${currentDimension.id}`} class="back-link mono">
+          <span class="symbol">←</span> 返回 {currentDimension.name}
+        </a>
+      )}
+    </div>
+  </div>
+</MainLayout>
+
+<style>
+  .section {
+    padding: var(--space-12) 0 var(--space-20);
+  }
+
+  .wiki-content-layout {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: var(--space-12);
+    margin-bottom: var(--space-12);
+  }
+
+  /* 主内容区 */
+  .wiki-main {
+    min-width: 0;
+  }
+
+  .concept-meta {
+    margin-bottom: var(--space-8);
+    padding-bottom: var(--space-4);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .meta-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3);
+    align-items: center;
+    font-family: var(--font-mono);
+  }
+
+  .meta-tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 8px;
+    border-radius: 2px;
+    font-size: 0.75rem;
+    text-decoration: none;
+    transition: all 0.2s;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+  }
+  
+  .meta-tag:hover {
+     box-shadow: 0 0 10px rgba(0,240,255,0.2);
+  }
+
+  .core64-tag {
+    background: rgba(255, 174, 0, 0.1);
+    border-color: var(--c-accent-amber);
+    color: var(--c-accent-amber);
+    box-shadow: 0 0 8px rgba(255, 174, 0, 0.1);
+  }
+
+  .category-tag {
+    background: transparent;
+    border-color: var(--c-accent-cyan);
+    color: var(--c-accent-cyan);
+  }
+
+  .level-tag {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.2);
+    color: var(--c-text-secondary);
+  }
+
+  .dimension-tag,
+  .module-tag {
+    background: rgba(0, 0, 0, 0.3);
+    border-color: rgba(255, 255, 255, 0.2);
+    color: var(--c-text-secondary);
+  }
+  
+  .dimension-tag::before {
+     content: 'SECTOR :: ';
+     opacity: 0.5;
+     margin-right: 4px;
+     font-size: 0.7em;
+  }
+  
+  .module-tag::before {
+     content: 'PIPELINE :: ';
+     opacity: 0.5;
+     margin-right: 4px;
+     font-size: 0.7em;
+  }
+
+  .tech-point-id {
+    margin-left: var(--space-2);
+    opacity: 0.7;
+    border-left: 1px solid rgba(255, 174, 0, 0.4);
+    padding-left: 6px;
+  }
+
+  /* 词条内容 */
+  /* 分享区域 */
+  .share-section {
+    margin-bottom: var(--space-8);
+  }
+
+  /* 词条内容 */
+  .concept-content {
+    color: var(--c-text-primary);
+    line-height: 1.8;
+  }
+
+  .concept-content :global(h2) {
+    font-size: 1.8rem;
+    margin-top: var(--space-10);
+    margin-bottom: var(--space-6);
+    color: var(--c-text-primary);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: var(--space-2);
+  }
+
+  .concept-content :global(h3) {
+    font-size: 1.4rem;
+    margin-top: var(--space-8);
+    margin-bottom: var(--space-4);
+    color: var(--c-text-primary);
+  }
+
+  .concept-content :global(p) {
+    margin-bottom: var(--space-4);
+  }
+
+  .concept-content :global(ul),
+  .concept-content :global(ol) {
+    margin-bottom: var(--space-4);
+    padding-left: var(--space-6);
+  }
+
+  .concept-content :global(li) {
+    margin-bottom: var(--space-2);
+  }
+
+  .concept-content :global(code) {
+    background: rgba(0, 240, 255, 0.1);
+    color: var(--c-accent-cyan);
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-family: var(--font-mono);
+    font-size: 0.9em;
+  }
+
+  .concept-content :global(pre) {
+    background: rgba(10, 10, 10, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    padding: var(--space-4);
+    overflow-x: auto;
+    margin-bottom: var(--space-4);
+  }
+
+  /* 知识网络 */
+  .knowledge-network {
+    margin-top: var(--space-12);
+    padding-top: var(--space-8);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .network-section {
+    margin-bottom: var(--space-8);
+  }
+
+  .network-title {
+    font-size: 1.2rem;
+    color: var(--c-accent-cyan);
+    margin-bottom: var(--space-6);
+  }
+
+  .network-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: var(--space-4);
+  }
+
+  .network-card h4 {
+    font-size: 1rem;
+    margin-bottom: var(--space-2);
+    color: var(--c-text-primary);
+  }
+
+  .network-card p {
+    font-size: 0.85rem;
+    color: var(--c-text-secondary);
+    margin: 0;
+  }
+
+  /* 侧边栏 */
+  .wiki-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-6);
+  }
+
+  .sidebar-section {
+    background: rgba(10, 10, 10, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    padding: var(--space-6);
+  }
+  
+  /* Datapad Style */
+  .datapad-panel {
+    border-left: 2px solid var(--c-accent-cyan);
+    background: linear-gradient(90deg, rgba(0, 240, 255, 0.05), transparent);
+  }
+
+  .sidebar-title {
+    font-size: 0.75rem;
+    color: var(--c-text-secondary);
+    margin-bottom: var(--space-4);
+    letter-spacing: 0.1em;
+    opacity: 0.8;
+  }
+
+  .sidebar-link {
+    display: block;
+    color: var(--c-accent-cyan);
+    font-weight: var(--weight-semibold);
+    text-decoration: none;
+    margin-bottom: var(--space-2);
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-family: var(--font-mono);
+  }
+  
+  .module-context {
+    margin-top: var(--space-4);
+    padding-top: var(--space-4);
+    border-top: 1px dashed rgba(255, 255, 255, 0.1);
+    font-size: 0.8rem;
+  }
+  
+  .context-value {
+    color: #fff;
+    display: block;
+    margin-top: 2px;
+  }
+
+  .sidebar-desc {
+    font-size: 0.85rem;
+    color: var(--c-text-secondary);
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  .sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .sidebar-nav-item {
+    color: var(--c-text-secondary);
+    text-decoration: none;
+    font-size: 0.85rem;
+    padding: 6px 8px;
+    transition: all 0.2s;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--font-mono);
+  }
+
+  .sidebar-nav-item:hover, .sidebar-nav-item.active {
+    color: var(--c-accent-cyan);
+    background: rgba(0, 240, 255, 0.05);
+    border-color: rgba(0, 240, 255, 0.2);
+  }
+  
+  .nav-icon {
+    font-size: 1rem;
+    opacity: 0.7;
+  }
+
+  /* 返回链接 */
+  .wiki-footer {
+    display: flex;
+    gap: var(--space-6);
+    padding-top: var(--space-8);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .back-link {
+    color: var(--c-accent-cyan);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+    opacity: 0.8;
+  }
+
+  .back-link:hover {
+    opacity: 1;
+    text-shadow: 0 0 10px var(--c-accent-cyan);
+  }
+
+  .symbol {
+    margin-right: var(--space-2);
+  }
+
+  /* 响应式 */
+  @media (max-width: 1024px) {
+    .wiki-content-layout {
+      grid-template-columns: 1fr;
+    }
+
+    .wiki-sidebar {
+      order: -1;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .network-items {
+      grid-template-columns: 1fr;
+    }
+
+    .wiki-footer {
+      flex-direction: column;
+    }
+  }
+</style>
+

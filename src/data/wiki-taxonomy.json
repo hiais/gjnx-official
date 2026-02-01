@@ -1,0 +1,773 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-01-21",
+  "description": "硅基能效知识体系：7大维度 × 64技术点 × 知识模块",
+  
+  "dimensions": [
+    {
+      "id": "hw",
+      "code": "HW",
+      "name": "硬件终局",
+      "fullName": "硬件终局 (Hardware Endgame)",
+      "description": "物理极限的焦虑：制程、EUV、晶体管、封装",
+      "keywords": ["制程", "EUV", "晶体管", "封装"],
+      "techPoints": [
+        {
+          "id": 1,
+          "name": "2nm / 1.8nm (Angstrom Era)",
+          "slug": "2nm-angstrom",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 2,
+          "name": "High-NA EUV",
+          "slug": "high-na-euv",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 3,
+          "name": "GAA (围栅晶体管)",
+          "slug": "gaa",
+          "conceptId": "gaafet",
+          "status": "needs-verification"
+        },
+        {
+          "id": 4,
+          "name": "Backside Power (背面供电)",
+          "slug": "backside-power",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 5,
+          "name": "CoWoS / Advanced Packaging",
+          "slug": "cowos-packaging",
+          "conceptId": "wmcm",
+          "status": "related"
+        },
+        {
+          "id": 6,
+          "name": "TSV (硅通孔)",
+          "slug": "tsv",
+          "conceptId": "tsv",
+          "status": "mapped"
+        },
+        {
+          "id": 7,
+          "name": "Chiplet (小芯片)",
+          "slug": "chiplet",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 8,
+          "name": "Glass Substrate (玻璃基板)",
+          "slug": "glass-substrate",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 9,
+          "name": "Quantum Tunneling (量子隧穿)",
+          "slug": "quantum-tunneling",
+          "conceptId": null,
+          "status": "missing"
+        }
+      ],
+      "modules": [
+        {
+          "id": "hw-process",
+          "name": "制程工艺",
+          "description": "从7nm到2nm，制程技术的演进与物理极限",
+          "concepts": ["intel-18a", "finfet", "gaafet", "ribbonfet", "nano-tsv", "tsv"],
+          "estimatedTime": "1.5小时",
+          "level": "intermediate"
+        },
+        {
+          "id": "hw-packaging",
+          "name": "先进封装",
+          "description": "CoWoS、Chiplet等先进封装技术",
+          "concepts": ["wmcm", "tsv", "chiplet"],
+          "estimatedTime": "1小时",
+          "level": "intermediate"
+        },
+        {
+          "id": "hw-transistor",
+          "name": "晶体管技术",
+          "description": "FinFET、GAA、RibbonFET等晶体管架构",
+          "concepts": ["gaafet", "finfet", "ribbonfet"],
+          "estimatedTime": "1小时",
+          "level": "advanced"
+        }
+      ]
+    },
+    {
+      "id": "cmp",
+      "code": "CMP",
+      "name": "算力跃迁",
+      "fullName": "算力跃迁 (Compute Leap)",
+      "description": "商业门槛的焦虑：GPU、HBM、互连、TCO",
+      "keywords": ["GPU", "HBM", "互连", "TCO"],
+      "techPoints": [
+        {
+          "id": 10,
+          "name": "H100 / B200 / Rubin",
+          "slug": "h100-b200-rubin",
+          "conceptId": null,
+          "status": "product-reference"
+        },
+        {
+          "id": 11,
+          "name": "CUDA Moat (护城河)",
+          "slug": "cuda-moat",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 12,
+          "name": "NVLink",
+          "slug": "nvlink",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 13,
+          "name": "Memory Wall (内存墙)",
+          "slug": "memory-wall",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 14,
+          "name": "HBM (高带宽内存)",
+          "slug": "hbm",
+          "conceptId": "hbm",
+          "status": "mapped"
+        },
+        {
+          "id": 15,
+          "name": "TCO (总拥有成本)",
+          "slug": "tco",
+          "conceptId": "tco",
+          "status": "mapped"
+        },
+        {
+          "id": 16,
+          "name": "Inference Cost (推理成本)",
+          "slug": "inference-cost",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 17,
+          "name": "PUE (能源利用率)",
+          "slug": "pue",
+          "conceptId": "pue",
+          "status": "mapped"
+        },
+        {
+          "id": 18,
+          "name": "Sparse Calculation (稀疏计算)",
+          "slug": "sparse-calculation",
+          "conceptId": null,
+          "status": "missing"
+        }
+      ],
+      "modules": [
+        {
+          "id": "cmp-gpu",
+          "name": "GPU架构",
+          "description": "NVIDIA GPU架构、CUDA生态、NVLink互连",
+          "concepts": ["gpu", "cuda", "nvlink"],
+          "estimatedTime": "2小时",
+          "level": "intermediate"
+        },
+        {
+          "id": "cmp-memory",
+          "name": "内存技术",
+          "description": "HBM、DRAM、SRAM等内存技术",
+          "concepts": ["hbm", "dram", "sram", "memory-wall"],
+          "estimatedTime": "1.5小时",
+          "level": "intermediate"
+        },
+        {
+          "id": "cmp-efficiency",
+          "name": "能效评价",
+          "description": "PPW、TDP、TCO、PUE等能效评价指标",
+          "concepts": ["ppw", "tdp", "tco", "pue", "tops"],
+          "estimatedTime": "2小时",
+          "level": "beginner"
+        },
+        {
+          "id": "cmp-infrastructure",
+          "name": "算力基础设施",
+          "description": "数据中心、PUE、UDC等基础设施",
+          "concepts": ["pue", "udc", "datacenter"],
+          "estimatedTime": "1小时",
+          "level": "intermediate"
+        }
+      ]
+    },
+    {
+      "id": "edge",
+      "code": "EDGE",
+      "name": "端侧异变",
+      "fullName": "端侧异变 (Edge Intelligence)",
+      "description": "你手机里的私有大脑：NPU、端侧AI",
+      "keywords": ["NPU", "端侧AI", "隐私计算"],
+      "techPoints": [
+        {
+          "id": 37,
+          "name": "NPU (神经网络处理器)",
+          "slug": "npu",
+          "conceptId": "npu",
+          "status": "mapped"
+        },
+        {
+          "id": 38,
+          "name": "On-Device AI (端侧 AI)",
+          "slug": "on-device-ai",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 39,
+          "name": "Privacy Computing (隐私计算)",
+          "slug": "privacy-computing",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 40,
+          "name": "Heterogeneous Computing (异构计算)",
+          "slug": "heterogeneous-computing",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 41,
+          "name": "Unified Memory (统一内存)",
+          "slug": "unified-memory",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 42,
+          "name": "Always-on Sensing",
+          "slug": "always-on-sensing",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 43,
+          "name": "LoRA (微调技术)",
+          "slug": "lora",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 44,
+          "name": "Small Language Model (SLM)",
+          "slug": "slm",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 45,
+          "name": "Edge Training",
+          "slug": "edge-training",
+          "conceptId": null,
+          "status": "missing"
+        }
+      ],
+      "modules": [
+        {
+          "id": "edge-npu",
+          "name": "NPU架构",
+          "description": "神经网络处理单元架构与优化",
+          "concepts": ["npu", "ai-isp", "neural-network"],
+          "estimatedTime": "1.5小时",
+          "level": "intermediate"
+        },
+        {
+          "id": "edge-ai",
+          "name": "端侧AI",
+          "description": "端侧AI模型、LLM、VLM等",
+          "concepts": ["llm", "vlm", "transformer", "small-model"],
+          "estimatedTime": "2小时",
+          "level": "intermediate"
+        },
+        {
+          "id": "edge-computing",
+          "name": "异构计算",
+          "description": "CPU、GPU、NPU、DSP协同计算",
+          "concepts": ["cpu", "gpu", "dsp", "heterogeneous"],
+          "estimatedTime": "1.5小时",
+          "level": "beginner"
+        }
+      ]
+    },
+    {
+      "id": "pwr",
+      "code": "PWR",
+      "name": "电力之冠",
+      "fullName": "电力之冠 (Energy Crown)",
+      "description": "第三代半导体的暴力美学：电池、充电",
+      "keywords": ["电池", "充电", "能量密度"],
+      "techPoints": [
+        {
+          "id": 28,
+          "name": "Solid-State Battery (固态电池)",
+          "slug": "solid-state-battery",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 29,
+          "name": "800V Architecture",
+          "slug": "800v-architecture",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 30,
+          "name": "SiC (碳化硅)",
+          "slug": "sic",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 31,
+          "name": "GaN (氮化镓)",
+          "slug": "gan",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 32,
+          "name": "Energy Density (能量密度)",
+          "slug": "energy-density",
+          "conceptId": "density",
+          "status": "needs-verification"
+        },
+        {
+          "id": 33,
+          "name": "4C/5C Charging",
+          "slug": "4c-5c-charging",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 34,
+          "name": "BMS (电池管理系统)",
+          "slug": "bms",
+          "conceptId": "bms",
+          "status": "mapped"
+        },
+        {
+          "id": 35,
+          "name": "Wireless Charging",
+          "slug": "wireless-charging",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 36,
+          "name": "V2G (车网互动)",
+          "slug": "v2g",
+          "conceptId": null,
+          "status": "missing"
+        }
+      ],
+      "modules": [
+        {
+          "id": "pwr-battery",
+          "name": "电池技术",
+          "description": "电池管理系统、健康状态、能量密度",
+          "concepts": ["bms", "soh", "battery-density", "solid-state"],
+          "estimatedTime": "1.5小时",
+          "level": "intermediate"
+        },
+        {
+          "id": "pwr-charging",
+          "name": "充电技术",
+          "description": "快充、无线充电、4C/5C充电",
+          "concepts": ["fast-charging", "wireless-charging", "4c-5c"],
+          "estimatedTime": "1小时",
+          "level": "beginner"
+        },
+        {
+          "id": "pwr-semiconductor",
+          "name": "功率半导体",
+          "description": "SiC、GaN等功率半导体技术",
+          "concepts": ["sic", "gan", "power-semiconductor"],
+          "estimatedTime": "1小时",
+          "level": "intermediate"
+        }
+      ]
+    },
+    {
+      "id": "emb",
+      "code": "EMB",
+      "name": "具身革命",
+      "fullName": "具身革命 (Embodied AI)",
+      "description": "文明形态的焦虑：机器人、传感器",
+      "keywords": ["机器人", "传感器", "执行器"],
+      "techPoints": [
+        {
+          "id": 19,
+          "name": "End-to-End (端到端)",
+          "slug": "end-to-end",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 20,
+          "name": "Harmonic Drive (谐波减速器)",
+          "slug": "harmonic-drive",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 21,
+          "name": "Linear Actuator (线性执行器)",
+          "slug": "linear-actuator",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 22,
+          "name": "DoF (自由度)",
+          "slug": "dof",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 23,
+          "name": "Tactile Sensor (触觉传感器)",
+          "slug": "tactile-sensor",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 24,
+          "name": "Imitation Learning (模仿学习)",
+          "slug": "imitation-learning",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 25,
+          "name": "Sim2Real (虚实迁移)",
+          "slug": "sim2real",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 26,
+          "name": "4680 Battery",
+          "slug": "4680-battery",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 27,
+          "name": "Visual SLAM",
+          "slug": "visual-slam",
+          "conceptId": null,
+          "status": "missing"
+        }
+      ],
+      "modules": [
+        {
+          "id": "emb-robotics",
+          "name": "机器人技术",
+          "description": "机器人执行器、传感器、自由度",
+          "concepts": ["robot", "actuator", "sensor", "dof"],
+          "estimatedTime": "2小时",
+          "level": "intermediate"
+        },
+        {
+          "id": "emb-ai",
+          "name": "具身AI",
+          "description": "端到端学习、模仿学习、虚实迁移",
+          "concepts": ["embodied-ai", "imitation-learning", "sim2real"],
+          "estimatedTime": "1.5小时",
+          "level": "advanced"
+        }
+      ]
+    },
+    {
+      "id": "space",
+      "code": "SPACE",
+      "name": "星际硅基",
+      "fullName": "星际硅基 (Interstellar Silicon)",
+      "description": "极限环境下的芯片生存：卫星、抗辐射",
+      "keywords": ["卫星", "抗辐射", "星链"],
+      "techPoints": [
+        {
+          "id": 46,
+          "name": "Rad-Hard (抗辐射加固)",
+          "slug": "rad-hard",
+          "conceptId": "rad-hard",
+          "status": "mapped"
+        },
+        {
+          "id": 47,
+          "name": "Starlink (星链)",
+          "slug": "starlink",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 48,
+          "name": "Laser Link (星间激光链路)",
+          "slug": "laser-link",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 49,
+          "name": "Hall Thruster (霍尔推进器)",
+          "slug": "hall-thruster",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 50,
+          "name": "Solar Sail (太阳帆)",
+          "slug": "solar-sail",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 51,
+          "name": "Redundancy Design (冗余设计)",
+          "slug": "redundancy-design",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 52,
+          "name": "Wide Temperature Range (宽温域)",
+          "slug": "wide-temperature",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 53,
+          "name": "Delay-Tolerant Network (DTN)",
+          "slug": "dtn",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 54,
+          "name": "GSO vs LEO",
+          "slug": "gso-vs-leo",
+          "conceptId": null,
+          "status": "missing"
+        }
+      ],
+      "modules": [
+        {
+          "id": "space-radiation",
+          "name": "抗辐射技术",
+          "description": "抗辐射加固、冗余设计、宽温域",
+          "concepts": ["rad-hard", "radiation-hardening", "redundancy"],
+          "estimatedTime": "1.5小时",
+          "level": "advanced"
+        },
+        {
+          "id": "space-communication",
+          "name": "星间通信",
+          "description": "星链、激光链路、延迟容忍网络",
+          "concepts": ["starlink", "laser-link", "satellite", "dtn"],
+          "estimatedTime": "1.5小时",
+          "level": "intermediate"
+        }
+      ]
+    },
+    {
+      "id": "analog",
+      "code": "ANALOG",
+      "name": "模拟觉醒",
+      "fullName": "模拟觉醒 (Analog Awakening)",
+      "description": "后摩尔时代的类脑逆袭：存算一体、光子",
+      "keywords": ["类脑", "光子", "存算一体"],
+      "techPoints": [
+        {
+          "id": 55,
+          "name": "Compute-in-Memory (存算一体)",
+          "slug": "compute-in-memory",
+          "conceptId": "pim",
+          "status": "mapped"
+        },
+        {
+          "id": 56,
+          "name": "Photonics Computing (光子计算)",
+          "slug": "photonics-computing",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 57,
+          "name": "Neuromorphic (类脑芯片)",
+          "slug": "neuromorphic",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 58,
+          "name": "SNN (脉冲神经网络)",
+          "slug": "snn",
+          "conceptId": "snn",
+          "status": "mapped"
+        },
+        {
+          "id": 59,
+          "name": "Memristor (忆阻器)",
+          "slug": "memristor",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 60,
+          "name": "Analog Signal (模拟信号)",
+          "slug": "analog-signal",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 61,
+          "name": "Low-Power Inference",
+          "slug": "low-power-inference",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 62,
+          "name": "Wetware (湿件)",
+          "slug": "wetware",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 63,
+          "name": "DNA Storage",
+          "slug": "dna-storage",
+          "conceptId": null,
+          "status": "missing"
+        },
+        {
+          "id": 64,
+          "name": "Quantum Edge",
+          "slug": "quantum-edge",
+          "conceptId": null,
+          "status": "missing"
+        }
+      ],
+      "modules": [
+        {
+          "id": "analog-computing",
+          "name": "存算一体",
+          "description": "PIM、忆阻器、存算一体架构",
+          "concepts": ["pim", "compute-in-memory", "memristor"],
+          "estimatedTime": "1.5小时",
+          "level": "advanced"
+        },
+        {
+          "id": "analog-neuromorphic",
+          "name": "类脑计算",
+          "description": "SNN、类脑芯片、神经形态计算",
+          "concepts": ["snn", "neuromorphic", "brain-inspired"],
+          "estimatedTime": "1.5小时",
+          "level": "advanced"
+        },
+        {
+          "id": "analog-photonics",
+          "name": "光子计算",
+          "description": "光子计算、光互连技术",
+          "concepts": ["photonics", "optical-computing"],
+          "estimatedTime": "1小时",
+          "level": "advanced"
+        }
+      ]
+    }
+  ],
+
+  "learningPaths": [
+    {
+      "id": "chip-efficiency",
+      "name": "芯片能效完整指南",
+      "description": "从零开始理解芯片能效，掌握评价指标和优化方法",
+      "level": "beginner",
+      "estimatedTime": "2小时",
+      "modules": [
+        {
+          "moduleId": "cmp-efficiency",
+          "order": 1,
+          "title": "能效评价指标",
+          "concepts": ["ppw", "tdp", "tco", "pue"]
+        },
+        {
+          "moduleId": "cmp-optimization",
+          "order": 2,
+          "title": "能效优化技术",
+          "concepts": ["dvfs", "c-state", "throttling"]
+        }
+      ]
+    },
+    {
+      "id": "npu-architecture",
+      "name": "NPU架构深度解析",
+      "description": "深入理解神经网络处理单元的设计与优化",
+      "level": "intermediate",
+      "estimatedTime": "2.5小时",
+      "modules": [
+        {
+          "moduleId": "edge-npu",
+          "order": 1,
+          "title": "NPU基础架构",
+          "concepts": ["npu", "neural-network"]
+        },
+        {
+          "moduleId": "edge-ai",
+          "order": 2,
+          "title": "端侧AI应用",
+          "concepts": ["llm", "vlm", "transformer"]
+        }
+      ]
+    }
+  ],
+
+  "commonModules": [
+    {
+      "id": "fundamentals",
+      "name": "基础概念",
+      "description": "CPU、GPU、SOC等基础概念",
+      "concepts": ["cpu", "gpu", "soc", "cache", "memory", "power", "watt", "efficiency"],
+      "estimatedTime": "1小时",
+      "level": "beginner"
+    },
+    {
+      "id": "optimization",
+      "name": "能效优化",
+      "description": "DVFS、C-State、P-State等能效优化技术",
+      "concepts": ["dvfs", "c-state", "p-state", "throttling", "doze", "sleep", "wakelock"],
+      "estimatedTime": "1.5小时",
+      "level": "intermediate"
+    },
+    {
+      "id": "display",
+      "name": "显示技术",
+      "description": "PWM、LTPO、AOD等显示技术",
+      "concepts": ["pwm", "ltpo", "aod", "display"],
+      "estimatedTime": "1小时",
+      "level": "beginner"
+    }
+  ]
+}
+

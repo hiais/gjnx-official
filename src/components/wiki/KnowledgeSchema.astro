@@ -1,0 +1,160 @@
+---
+/**
+ * Wiki词条专用Schema.org结构化数据
+ * 包含DefinedTerm和TechArticle Schema
+ */
+
+import type { CollectionEntry } from 'astro:content';
+import taxonomyData from '../../data/wiki-taxonomy.json';
+
+interface Props {
+  concept: CollectionEntry<'knowledge'>;
+  dimension?: any;
+  module?: any;
+  techPoint?: any;
+  prerequisites?: CollectionEntry<'knowledge'>[];
+  nextSteps?: CollectionEntry<'knowledge'>[];
+}
+
+const { concept, dimension, module, techPoint, prerequisites = [], nextSteps = [] } = Astro.props;
+
+const siteUrl = Astro.site ? Astro.site.toString().replace(/\/$/, '') : 'https://gjnx.cc';
+const canonicalURL = new URL(`/wiki/concept/${concept.id}`, siteUrl);
+
+// DefinedTerm Schema (用于词典/术语)
+const definedTerm = {
+  "@type": "DefinedTerm",
+  "@id": canonicalURL.toString() + "#term",
+  "name": concept.data.title,
+  "description": concept.data.description || concept.data.title,
+  "url": canonicalURL.toString(),
+  "inDefinedTermSet": {
+    "@type": "DefinedTermSet",
+    "name": "硅基能效知识体系",
+    "description": "硅基能效知识体系的系统化术语定义",
+    "url": `${siteUrl}/wiki`
+  }
+};
+
+// 添加分类信息
+if (concept.data.category) {
+  definedTerm.termCode = concept.data.category;
+}
+
+// 添加所属维度
+if (dimension) {
+  definedTerm.additionalType = dimension.fullName || dimension.name;
+}
+
+// TechArticle Schema (用于技术文章)
+const techArticle = {
+  "@type": "TechArticle",
+  "@id": canonicalURL.toString() + "#article",
+  "headline": concept.data.title,
+  "description": concept.data.description || concept.data.title,
+  "url": canonicalURL.toString(),
+  "datePublished": concept.data.date?.toISOString() || new Date().toISOString(),
+  "author": {
+    "@type": "Person",
+    "name": "Silicon Operator",
+    "url": siteUrl
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "硅基能效 | Silicon Efficiency",
+    "logo": {
+      "@type": "ImageObject",
+      "url": `${siteUrl}/favicon.svg`
+    }
+  },
+  "keywords": concept.data.tags?.join(', ') || concept.data.category || '',
+  "articleSection": dimension?.name || concept.data.category || '知识体系',
+  "inLanguage": "zh-CN"
+};
+
+// 添加技术点信息
+if (techPoint && dimension) {
+  techArticle.about = {
+    "@type": "Thing",
+    "name": techPoint.name,
+    "identifier": `${dimension.code}-${techPoint.id}`
+  };
+}
+
+// 添加学习路径关系
+const aboutItems: any[] = [];
+if (prerequisites.length > 0) {
+  aboutItems.push({
+    "@type": "Thing",
+    "name": "前置知识",
+    "description": prerequisites.map(p => p.data.title).join(', ')
+  });
+}
+if (nextSteps.length > 0) {
+  aboutItems.push({
+    "@type": "Thing",
+    "name": "后续学习",
+    "description": nextSteps.map(n => n.data.title).join(', ')
+  });
+}
+if (aboutItems.length > 0) {
+  techArticle.about = aboutItems;
+}
+
+// Breadcrumb Schema
+const pathMap: Record<string, string> = {
+  'wiki': '知识体系',
+  'domain': '维度',
+  'module': '模块',
+  'concept': '词条'
+};
+
+const pathSegments = canonicalURL.pathname.split('/').filter(Boolean);
+const breadcrumbItems = [
+  { name: '首页', item: siteUrl },
+  { name: '知识体系', item: `${siteUrl}/wiki` }
+];
+
+if (dimension) {
+  breadcrumbItems.push({
+    name: dimension.name,
+    item: `${siteUrl}/wiki/domain/${dimension.id}`
+  });
+}
+
+// Module breadcrumb removed as part of 3-layer architecture flattening
+// if (module) { ... }
+
+breadcrumbItems.push({
+  name: concept.data.title,
+  item: canonicalURL.toString()
+});
+
+const breadcrumbSchema = {
+  "@type": "BreadcrumbList",
+  "@id": canonicalURL.toString() + "#breadcrumb",
+  "itemListElement": breadcrumbItems.map((bread, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "name": bread.name,
+    "item": {
+      "@id": bread.item,
+      "name": bread.name
+    }
+  }))
+};
+
+// 组合所有Schema
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    definedTerm,
+    techArticle,
+    breadcrumbSchema
+  ]
+};
+---
+
+<!-- Wiki词条专用Schema.org结构化数据 -->
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+

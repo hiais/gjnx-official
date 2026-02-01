@@ -1,0 +1,74 @@
+---
+/**
+ * Wiki搜索框组件
+ * 集成Pagefind搜索功能
+ */
+
+interface Props {
+  placeholder?: string;
+}
+
+const { placeholder = "搜索知识体系..." } = Astro.props;
+---
+
+<div class="wiki-search-box">
+  <div id="wiki-search-container" data-placeholder={placeholder}>
+    <!-- Fallback for Dev Mode / No JS -->
+    <div class="search-fallback">
+      <input type="text" placeholder={placeholder} disabled class="pagefind-ui__search-input" style="width: 100%; opacity: 0.5; cursor: not-allowed;" />
+    </div>
+  </div>
+</div>
+
+<script>
+  function initWikiSearch() {
+    const container = document.getElementById('wiki-search-container');
+    if (!container) return;
+
+    const placeholderText = container.dataset.placeholder || "Search...";
+
+    // Ensure Pagefind is loaded (it should be in Layout)
+    if (window.PagefindUI && !container.querySelector('.pagefind-ui')) {
+      new window.PagefindUI({
+        element: "#wiki-search-container",
+        showSubResults: true,
+        showImages: false,
+        resetStyles: false,
+        translations: {
+          placeholder: placeholderText
+        }
+      });
+    }
+  }
+
+  // Handle Astro view transitions and initial load
+  document.addEventListener('astro:page-load', initWikiSearch);
+  
+</script>
+
+<style>
+  .wiki-search-box {
+    margin: var(--space-6) 0;
+  }
+
+  :global(#wiki-search-container .pagefind-ui) {
+    --pagefind-ui-primary: var(--c-accent-cyan);
+    --pagefind-ui-text: var(--c-text-primary);
+    --pagefind-ui-background: var(--c-bg-dark);
+    --pagefind-ui-border: rgba(255, 255, 255, 0.1);
+    --pagefind-ui-tag: rgba(0, 240, 255, 0.1);
+  }
+
+  :global(#wiki-search-container .pagefind-ui__search-input) {
+    background: rgba(10, 10, 10, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--c-text-primary);
+    font-family: var(--font-mono);
+  }
+
+  :global(#wiki-search-container .pagefind-ui__search-input:focus) {
+    border-color: var(--c-accent-cyan);
+    box-shadow: 0 0 10px rgba(0, 240, 255, 0.2);
+  }
+</style>
+

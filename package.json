@@ -16,6 +16,7 @@
     "sync:all": "node scripts/sync-all.js",
     "push-seo": "npm run build && node scripts/baidu-push.js",
     "validate:data": "node scripts/validate-data.js",
+    "map:tech-points": "node scripts/map-64-tech-points.js",
     "type-check": "astro check",
     "format": "prettier --write .",
     "gen:component": "node scripts/scaffold/generate.js component",
@@ -31,7 +32,8 @@
     "pagefind": "^1.4.0",
     "pinyin": "^4.0.0",
     "rss-parser": "^3.13.0",
-    "satori": "^0.18.3"
+    "satori": "^0.18.3",
+    "vis-network": "^10.0.2"
   },
   "devDependencies": {
     "@playwright/test": "^1.40.0",

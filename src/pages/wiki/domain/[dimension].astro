@@ -1,0 +1,585 @@
+---
+import MainLayout from '../../../layouts/MainLayout.astro';
+import SectionHeader from '../../../components/ui/SectionHeader.astro';
+import Card from '../../../components/ui/Card.astro';
+import TechBadge from '../../../components/ui/TechBadge.astro';
+import { getCollection } from 'astro:content';
+import taxonomyData from '../../../data/wiki-taxonomy.json';
+
+export async function getStaticPaths() {
+  return taxonomyData.dimensions.map(dim => ({
+    params: { dimension: dim.id }
+  }));
+}
+
+const { dimension } = Astro.params;
+const allKnowledge = await getCollection('knowledge');
+
+// 查找当前维度
+const currentDimension = taxonomyData.dimensions.find(d => d.id === dimension);
+if (!currentDimension) {
+  return Astro.redirect('/wiki');
+}
+
+// 获取该维度下的词条
+const dimensionConcepts = allKnowledge.filter(k => 
+  k.data.dimension === currentDimension.code
+);
+
+// 获取64技术点状态
+const techPointsWithStatus = currentDimension.techPoints.map(tp => {
+  const concept = dimensionConcepts.find(c => c.id === tp.conceptId);
+  // Also check if mapped by slug
+  const mappedBySlug = !concept && tp.slug ? dimensionConcepts.find(c => c.id === tp.slug) : null;
+  
+  const finalConcept = concept || mappedBySlug;
+  
+  return {
+    ...tp,
+    conceptExists: !!finalConcept,
+    conceptId: finalConcept?.id || null,
+  };
+});
+
+// 构建模块化视图数据
+const modulesView = currentDimension.modules.map(mod => {
+  // 获取该模块下的所有词条
+  const rawConcepts = dimensionConcepts.filter(k => k.data.module === mod.id);
+  
+  // 简易排序逻辑：如果有prerequisites，简单的排一下序（这里做简化处理，尽量把没依赖的放前面）
+  // 理想情况下应该是一个拓扑排序，但对于少量数据，简单的按前置数量排序通常足够
+  const concepts = rawConcepts.sort((a, b) => {
+    return (a.data.prerequisites?.length || 0) - (b.data.prerequisites?.length || 0);
+  });
+
+  return {
+    ...mod,
+    concepts
+  };
+});
+---
+
+<MainLayout 
+  title={`${currentDimension.name} [SECTOR: ${currentDimension.code}]`}
+  description={currentDimension.description}
+>
+  <div class="sector-container">
+    
+    <!-- SECTOR HEADER (Level 2 HUD) -->
+    <header class="sector-header">
+      <div class="header-decoration">
+        <div class="header-scan-line"></div>
+      </div>
+      <div class="header-content">
+        <div class="sector-badge mono">SECTOR // {currentDimension.code}</div>
+        <h1 class="sector-title">{currentDimension.name} <span class="dim-fullname mono">{currentDimension.fullName}</span></h1>
+        <p class="sector-desc">{currentDimension.description}</p>
+      </div>
+      
+      <!-- Quick Stats HUD -->
+      <div class="sector-stats-hud">
+        <div class="hud-item">
+          <span class="hud-label mono">TECH POINTS</span>
+          <span class="hud-value">{currentDimension.techPoints.length}</span>
+        </div>
+        <div class="hud-item">
+          <span class="hud-label mono">MODULES</span>
+          <span class="hud-value">{currentDimension.modules.length}</span>
+        </div>
+        <div class="hud-item warning">
+           <span class="hud-label mono">COVERAGE</span>
+           <span class="hud-value">
+             {Math.round((techPointsWithStatus.filter(t => t.conceptExists).length / currentDimension.techPoints.length) * 100)}%
+           </span>
+        </div>
+      </div>
+    </header>
+
+    <div class="blueprint-layout">
+      <!-- LEFT: STRATEGIC MODULES (The Pipeline) -->
+      <div class="blueprint-main">
+        <h2 class="blueprint-section-title mono">> STRATEGIC PIPELINE (知识流水线)</h2>
+        
+        <div class="pipeline-container">
+           {modulesView.map((module, mIndex) => (
+             <section class="module-sector-panel">
+               <!-- Module Header -->
+               <div class="module-sector-header">
+                 <div class="sector-id-hex mono">{String(mIndex + 1).padStart(2, '0')}</div>
+                 <div class="sector-info">
+                   <h3 class="sector-name">
+                     {module.name}
+                     <span class="sector-meta mono">[{module.level === 'beginner' ? 'L1: BASIC' : module.level === 'intermediate' ? 'L2: CORE' : 'L3: ADVANCED'}]</span>
+                   </h3>
+                   <p class="sector-brief">{module.description}</p>
+                 </div>
+                 <div class="sector-time mono">{module.estimatedTime}</div>
+               </div>
+
+               <!-- The Circuit Path (Concepts) -->
+               <div class="circuit-grid">
+                 {/* Paving the "Circuit Content" */}
+                 {module.concepts.length > 0 ? (
+                   module.concepts.map((concept, cIndex) => (
+                     <div class="circuit-node">
+                        {/* Connecting Line (Logic) */}
+                        {cIndex < module.concepts.length - 1 && <div class="circuit-link-line"></div>}
+                        
+                        <a href={`/wiki/concept/${concept.slug || concept.id.replace(/\.[^/.]+$/, "")}`} class="circuit-card">
+                          <div class="circuit-card-header">
+                            <span class="node-id mono">NODE.{cIndex + 1}</span>
+                            {concept.data.isCore64 && <span class="core-star">⭐</span>}
+                          </div>
+                          <h4>{concept.data.title}</h4>
+                          {/* Brief tags */}
+                          <div class="node-tags">
+                            {concept.data.category && <span class="tiny-tag mono">{concept.data.category}</span>}
+                          </div>
+                        </a>
+                     </div>
+                   ))
+                 ) : (
+                   <div class="empty-circuit mono">
+                      [DATA MISSING] // 待补充...
+                   </div>
+                 )}
+               </div>
+             </section>
+           ))}
+        </div>
+        
+        <!-- OTHER CONCEPTS (Not in explicit module list but in this dim) -->
+        {/* Can be improved later, for now focused on core structure */}
+      </div>
+
+      <!-- RIGHT: TACTICAL SIDEBAR (Tech Points Grid) -->
+      <aside class="blueprint-sidebar">
+        <div class="sidebar-panel">
+           <h3 class="panel-title mono">:: TECH INVENTORY ::</h3>
+           <div class="tech-inventory-grid">
+             {techPointsWithStatus.map(tp => (
+               <a 
+                 href={tp.conceptExists ? `/wiki/concept/${tp.conceptId}` : '#'}
+                 class={`inventory-item ${tp.conceptExists ? 'active' : 'missing'}`}
+               >
+                 <div class="item-status-dot"></div>
+                 <div class="item-content">
+                    <span class="item-code mono">{currentDimension.code}-{tp.id}</span>
+                    <span class="item-name">{tp.name}</span>
+                 </div>
+               </a>
+             ))}
+           </div>
+        </div>
+      </aside>
+
+    </div>
+
+  </div>
+</MainLayout>
+
+<style>
+  /* --- PAGE LAYOUT --- */
+  .sector-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: var(--space-8) var(--space-4) var(--space-20);
+  }
+
+  /* --- HEADER: SECTOR SCAN STYLE --- */
+  .sector-header {
+    margin-bottom: var(--space-12);
+    position: relative;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: var(--space-8);
+  }
+
+  .header-decoration {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.05);
+    overflow: hidden;
+  }
+
+  .header-scan-line {
+    width: 20%;
+    height: 100%;
+    background: var(--c-accent-cyan);
+    box-shadow: 0 0 10px var(--c-accent-cyan);
+    animation: scan-once 2s ease-out forwards;
+    opacity: 0.8;
+  }
+  @keyframes scan-once {
+    0% { width: 0; opacity: 1; }
+    100% { width: 100%; opacity: 0; }
+  }
+
+  .sector-badge {
+    background: rgba(0, 240, 255, 0.1);
+    color: var(--c-accent-cyan);
+    display: inline-block;
+    padding: 2px 8px;
+    margin-bottom: var(--space-4);
+    font-size: 0.8rem;
+    border: 1px solid rgba(0, 240, 255, 0.2);
+    box-shadow: 0 0 5px rgba(0, 240, 255, 0.1);
+  }
+
+  .sector-title {
+    font-size: 3rem;
+    color: #fff;
+    margin: 0 0 var(--space-4) 0;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    display: flex;
+    align-items: baseline;
+    gap: var(--space-6);
+  }
+  
+  .dim-fullname {
+    font-size: 1.2rem;
+    color: var(--c-text-secondary);
+    font-weight: normal;
+    letter-spacing: 0;
+  }
+
+  .sector-desc {
+    font-size: 1.1rem;
+    color: var(--c-text-secondary);
+    max-width: 800px;
+    line-height: 1.6;
+  }
+
+  /* HUD STATS */
+  .sector-stats-hud {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    gap: var(--space-8);
+  }
+
+  .hud-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .hud-label {
+    font-size: 0.75rem;
+    color: var(--c-text-secondary);
+    margin-bottom: 2px;
+  }
+
+  .hud-value {
+    font-size: 1.5rem;
+    color: var(--c-accent-cyan);
+    font-weight: bold;
+    font-family: var(--font-mono);
+  }
+  
+  .hud-item.warning .hud-value {
+     color: var(--c-accent-amber);
+  }
+
+  /* --- BLUEPRINT GRID --- */
+  .blueprint-layout {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: var(--space-12);
+  }
+
+  /* MAIN COLUMN (Pipeline) */
+  .blueprint-section-title {
+    font-size: 1rem;
+    color: var(--c-accent-cyan);
+    margin-bottom: var(--space-8);
+    opacity: 0.8;
+  }
+
+  .pipeline-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-10);
+  }
+
+  .module-sector-panel {
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: var(--space-6);
+    position: relative;
+  }
+  
+  /* Decorative corner */
+  .module-sector-panel::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid var(--c-accent-cyan);
+    border-left: 2px solid var(--c-accent-cyan);
+  }
+
+  /* Header inside Module Panel */
+  .module-sector-header {
+    display: flex;
+    gap: var(--space-6);
+    margin-bottom: var(--space-8);
+    padding-bottom: var(--space-6);
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+  }
+
+  .sector-id-hex {
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.1);
+    font-weight: bold;
+    line-height: 1;
+  }
+
+  .sector-info {
+    flex: 1;
+  }
+
+  .sector-name {
+    font-size: 1.4rem;
+    color: var(--c-text-primary);
+    margin: 0 0 var(--space-2) 0;
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+  }
+
+  .sector-meta {
+    font-size: 0.75rem;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 2px 6px;
+    border-radius: 2px;
+    color: var(--c-text-secondary);
+    font-weight: normal;
+  }
+
+  .sector-brief {
+    margin: 0;
+    color: var(--c-text-secondary);
+    font-size: 0.9rem;
+  }
+  
+  .sector-time {
+    font-size: 0.9rem;
+    color: var(--c-text-secondary);
+    opacity: 0.6;
+    align-self: flex-start;
+  }
+
+  /* Circuit Logic Grid */
+  .circuit-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-6);
+    align-items: flex-start;
+  }
+
+  .circuit-node {
+    position: relative;
+    flex: 1;
+    min-width: 200px;
+    max-width: 280px;
+  }
+  
+  /* The connectors */
+  .circuit-link-line {
+    position: absolute;
+    top: 50%;
+    right: -24px; /* Half gap size */
+    width: 24px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.1);
+    z-index: 0;
+  }
+  
+  /* On mobile or wrap, hide line */
+  @media (max-width: 1000px) {
+    .circuit-link-line { display: none; }
+  }
+
+  .circuit-card {
+    display: block;
+    background: rgba(25, 25, 25, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: var(--space-4);
+    text-decoration: none;
+    transition: all 0.2s;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .circuit-card:hover {
+     border-color: var(--c-accent-cyan);
+     transform: translateY(-2px);
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+     background: rgba(30, 35, 40, 0.8);
+  }
+
+  .circuit-card-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--space-2);
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .circuit-card h4 {
+    color: #fff;
+    font-size: 1rem;
+    margin: 0 0 var(--space-3) 0;
+    line-height: 1.4;
+  }
+
+  .tiny-tag {
+    font-size: 0.65rem;
+    color: var(--c-accent-cyan);
+    border: 1px solid rgba(0, 240, 255, 0.2);
+    padding: 0 4px;
+    border-radius: 2px;
+  }
+
+  .empty-circuit {
+    width: 100%;
+    padding: var(--space-6);
+    text-align: center;
+    border: 1px dashed rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 0.9rem;
+  }
+
+  /* SIDEBAR: TECH INVENTORY */
+  .sidebar-panel {
+    background: rgba(0, 0, 0, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    padding-left: var(--space-8);
+  }
+
+  .panel-title {
+    font-size: 0.9rem;
+    color: var(--c-text-secondary);
+    margin-bottom: var(--space-6);
+    letter-spacing: 0.1em;
+  }
+
+  .tech-inventory-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .inventory-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    padding: 8px;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid transparent;
+    transition: all 0.2s;
+  }
+
+  .inventory-item:hover {
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  .inventory-item.active:hover {
+    border-color: var(--c-accent-cyan);
+    box-shadow: 0 0 10px rgba(0, 240, 255, 0.1);
+  }
+
+  .item-status-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+  .inventory-item.active .item-status-dot {
+    background: var(--c-accent-cyan);
+    box-shadow: 0 0 5px var(--c-accent-cyan);
+  }
+
+  .item-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .item-code {
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.4);
+  }
+  
+  .inventory-item.active .item-code {
+     color: var(--c-accent-cyan);
+  }
+
+  .item-name {
+    font-size: 0.85rem;
+    color: var(--c-text-secondary);
+  }
+  
+  .inventory-item.active .item-name {
+    color: #fff;
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 1024px) {
+    .blueprint-layout {
+      grid-template-columns: 1fr;
+    }
+    
+    .sidebar-panel {
+      border-left: none;
+      padding-left: 0;
+      margin-top: var(--space-12);
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding-top: var(--space-8);
+    }
+    
+    .tech-inventory-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+  }
+
+  @media (max-width: 768px) {
+    .sector-title {
+      font-size: 2rem;
+      flex-direction: column;
+      gap: var(--space-2);
+    }
+    
+    .sector-stats-hud {
+      position: relative;
+      margin-top: var(--space-6);
+      justify-content: flex-start;
+      gap: var(--space-6);
+    }
+    
+    .hud-item {
+      align-items: flex-start;
+    }
+    
+    .circuit-grid {
+      flex-direction: column;
+    }
+    
+    .circuit-node {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+</style>
+

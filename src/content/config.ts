@@ -22,6 +22,14 @@ const knowledge = defineCollection({
         category: z.string(),
         tags: z.array(z.string()).optional(),
         description: z.string().optional(),
+        // Wiki system fields (all optional for backward compatibility)
+        dimension: z.enum(['HW', 'CMP', 'EDGE', 'PWR', 'EMB', 'SPACE', 'ANALOG']).optional(),
+        techPointId: z.number().optional(), // ID from 64 tech points (1-64)
+        module: z.string().optional(), // Knowledge module ID
+        level: z.enum(['beginner', 'intermediate', 'advanced']).optional(),
+        prerequisites: z.array(z.string()).optional(), // Array of concept IDs
+        nextSteps: z.array(z.string()).optional(), // Array of concept IDs
+        isCore64: z.boolean().optional().default(false), // Whether this is one of the 64 core tech points
     })
 });
 

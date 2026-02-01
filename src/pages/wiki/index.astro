@@ -1,0 +1,503 @@
+---
+import MainLayout from '../../layouts/MainLayout.astro';
+import Card from '../../components/ui/Card.astro';
+import SearchBox from '../../components/wiki/SearchBox.astro';
+import TechBadge from '../../components/ui/TechBadge.astro';
+import { getCollection } from 'astro:content';
+import taxonomyData from '../../data/wiki-taxonomy.json';
+
+const allKnowledge = await getCollection('knowledge');
+
+
+// 识别64技术点词条（基于isCore64字段或taxonomy中的conceptId映射）
+// Logic simplified: We only need to check existence for the matrix status.
+---
+
+<MainLayout 
+  title="知识体系"
+  description="硅基能效知识体系：7大维度 × 64技术点，系统化学习芯片能效与AI算力"
+>
+  <div class="container section">
+
+    <!-- COMMAND HEADER (Title + Search) -->
+    <header class="command-header">
+      <div class="header-branding">
+        <h1 class="main-title mono">GJNX<span class="highlight">.WIKI</span></h1>
+        <div class="sub-title">SILICON EFFICIENCY KNOWLEDGE BASE</div>
+      </div>
+      <div class="header-actions">
+        <SearchBox placeholder="SEARCH INTEL..." />
+      </div>
+    </header>
+
+    <!-- 2. The PCB Matrix (7 Dimensions x N Tech Points) -->
+    <section class="pcb-matrix-section">
+      <div class="matrix-header-bar">
+        <!-- Text removed, only scan line remains (via CSS ::after) -->
+      </div>
+      
+      <div class="pcb-grid-container">
+        {taxonomyData.dimensions.map(domain => {
+          // Prepared Tech Points
+          const activePoints = domain.techPoints.map(tp => {
+             let status = 'locked';
+             let href = undefined;
+             
+             if (tp.conceptId && allKnowledge.some(k => k.id === tp.conceptId || k.id === `${tp.conceptId}.md`)) {
+                status = 'active';
+                href = `/wiki/concept/${tp.conceptId}`;
+             } else if (tp.slug && allKnowledge.some(k => k.id === tp.slug || k.id === `${tp.slug}.md`)) {
+                status = 'active';
+                href = `/wiki/concept/${tp.slug}`;
+             }
+             return { ...tp, status, href };
+          });
+
+          // Fill empty slots to ensure alignment (Max 12 slots for visual balance)
+          const MAX_SLOTS = 12;
+          const emptySlots = Array(Math.max(0, MAX_SLOTS - activePoints.length)).fill(null);
+
+          return (
+            <div class="pcb-column">
+              {/* PCB Trace Line (Background) */}
+              <div class="pcb-trace"></div>
+
+              {/* HEADER NODE */}
+              <a href={`/wiki/domain/${domain.id}`} class="pcb-header-node">
+                <div class="node-hex">
+                  <span class="node-code">{domain.code}</span>
+                </div>
+                <h3 class="node-title">{domain.name}</h3>
+                <div class="node-connector"></div>
+              </a>
+
+              {/* TECH STACK */}
+              <div class="pcb-stack">
+                {activePoints.map(tp => (
+                  <div class="stack-item-wrapper">
+                    <div class="trace-connector"></div>
+                    <TechBadge 
+                      name={tp.name} 
+                      status={tp.status} 
+                      href={tp.href} 
+                      class="pcb-badge" 
+                    />
+                  </div>
+                ))}
+
+                {/* GHOST SLOTS (For Alignment) */}
+                {emptySlots.map(() => (
+                  <div class="stack-item-wrapper ghost">
+                    <div class="trace-connector ghost"></div>
+                    <div class="ghost-slot"></div>
+                  </div>
+                ))}
+              </div>
+
+              {/* FOOTER TERMINATOR */}
+              <div class="pcb-terminator">
+                <div class="term-dot"></div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </section>
+
+    <!-- 3. Tactical Dock (Functional Links) -->
+    <div class="tactical-dock">
+        <a href="/wiki/core-64" class="dock-item">
+            <span class="icon">⭐</span>
+            <span class="label">CORE 64</span>
+            <span class="meta mono">PRIORITY</span>
+        </a>
+        <a href="/wiki/learning-paths" class="dock-item">
+            <span class="icon">🗺️</span>
+            <span class="label">MISSIONS</span>
+            <span class="meta mono">PATHS</span>
+        </a>
+        <a href="/knowledge" class="dock-item">
+            <span class="icon">📂</span>
+            <span class="label">ARCHIVES</span>
+            <span class="meta mono">ALL DOCS</span>
+        </a>
+    </div>
+
+
+
+  </div>
+</MainLayout>
+
+<style>
+  /* --- SCHEME A: COMMAND CENTER STYLES --- */
+
+  .section {
+    padding: var(--space-8) 0 var(--space-20);
+    max-width: 1400px; /* Wider canvas for the map */
+  }
+
+  /* Compact Command Header */
+  .command-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    /* Border removed to avoid double-line with matrix scanner */
+    border-bottom: none; 
+    margin-bottom: var(--space-4); /* Reduced margin to bring scanner closer */
+    padding-bottom: 0;
+  }
+
+  .main-title {
+    font-size: 2.5rem;
+    color: #fff;
+    margin: 0;
+    line-height: 1;
+    letter-spacing: -0.05em;
+  }
+
+  .main-title .highlight {
+    color: var(--c-accent-cyan);
+  }
+
+  .sub-title {
+    font-size: 0.8rem;
+    color: var(--c-text-secondary);
+    letter-spacing: 0.15em;
+    margin-top: var(--space-2);
+    font-family: var(--font-mono);
+  }
+
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+  }
+
+  /* --- LAYOUT G: HOLOGRAPHIC QUANTUM MATRIX --- */
+
+  .pcb-matrix-section {
+    margin-bottom: var(--space-20);
+    position: relative;
+    padding-top: var(--space-8);
+  }
+
+  .matrix-header-bar {
+    position: relative;
+    height: 2px; /* Just a thin line container */
+    margin-bottom: var(--space-8);
+    background: rgba(255, 255, 255, 0.05); /* Faint guide track */
+    overflow: hidden; /* Keep scan line inside */
+    border: none;
+    box-shadow: none;
+    padding: 0;
+  }
+  
+  /* Decorative scanning line - The Main Feature */
+  .matrix-header-bar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%; /* Longer active pulse */
+    height: 100%;
+    background: linear-gradient(90deg, transparent, var(--c-accent-cyan), transparent);
+    box-shadow: 0 0 15px var(--c-accent-cyan);
+    animation: scan-line 3s ease-in-out infinite;
+  }
+  @keyframes scan-line {
+    0% { left: -30%; opacity: 0; }
+    50% { opacity: 1; }
+    100% { left: 100%; opacity: 0; }
+  }
+
+  .pcb-grid-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 12px; /* Tighter gap for unified feel */
+    position: relative;
+    min-height: 550px;
+    /* Deep background grid hint */
+    background-image: 
+      linear-gradient(rgba(0, 240, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 240, 255, 0.03) 1px, transparent 1px);
+    background-size: 30px 30px;
+    padding: var(--space-4) 0;
+  }
+
+  /* Column Container */
+  .pcb-column {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--space-4) 4px var(--space-8);
+    transition: all 0.4s ease;
+    border: 1px solid transparent;
+    border-radius: 8px;
+  }
+  
+  /* Column Hover Effect: Light up the whole channel */
+  .pcb-column:hover {
+    background: linear-gradient(to bottom, rgba(0, 240, 255, 0.03), transparent);
+    border-color: rgba(0, 240, 255, 0.1);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  }
+
+  /* THE LASER BUS (Spine) */
+  .pcb-trace {
+    position: absolute;
+    top: 65px; 
+    bottom: 20px;
+    left: 50%;
+    width: 1px; /* Super thin laser */
+    background: linear-gradient(to bottom, 
+      rgba(0, 240, 255, 0.8) 0%, 
+      rgba(0, 240, 255, 0.1) 80%,
+      transparent 100%
+    );
+    z-index: 0;
+    box-shadow: 0 0 8px rgba(0, 240, 255, 0.2);
+    opacity: 0.4;
+    transition: opacity 0.3s;
+  }
+  
+  .pcb-column:hover .pcb-trace {
+    opacity: 1;
+    box-shadow: 0 0 12px rgba(0, 240, 255, 0.6);
+  }
+
+  /* HEADER NODE (Floating Hologram) */
+  .pcb-header-node {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: var(--space-8);
+    width: 100%;
+    transform: translateY(0);
+    transition: transform 0.3s;
+  }
+
+  .pcb-column:hover .pcb-header-node {
+    transform: translateY(-4px);
+  }
+
+  .node-hex {
+    width: 42px;
+    height: 42px;
+    background: rgba(0, 10, 20, 0.8);
+    border: 1px solid rgba(0, 240, 255, 0.3);
+    border-radius: 50%; /* Circle looks more 'core' */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--space-3);
+    box-shadow: 0 0 15px rgba(0, 240, 255, 0.05);
+    backdrop-filter: blur(4px);
+  }
+
+  .node-code {
+    color: var(--c-accent-cyan);
+    font-size: 0.75rem;
+    font-weight: bold;
+    font-family: var(--font-mono);
+    text-shadow: 0 0 5px rgba(0, 240, 255, 0.5);
+  }
+
+  .node-title {
+    color: var(--c-text-primary);
+    font-size: 0.85rem;
+    margin: 0;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .pcb-header-node:hover .node-hex {
+    border-color: var(--c-accent-cyan);
+    box-shadow: 0 0 20px rgba(0, 240, 255, 0.4), inset 0 0 10px rgba(0, 240, 255, 0.2);
+    background: rgba(0, 20, 30, 0.9);
+  }
+
+  /* TECH STACK (Glass Chips) */
+  .pcb-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    padding: 0 4px; /* Gutters */
+  }
+
+  .stack-item-wrapper {
+    position: relative;
+    width: 100%;
+    height: 32px; /* Slim stack */
+    display: flex;
+    align-items: center;
+  }
+
+  /* Connector Line */
+  .trace-connector {
+    /* Not needed in this laser style, using left-border instead */
+    display: none; 
+  }
+
+  /* --- BADGE STYLING OVERRIDE --- */
+  .pcb-badge {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: auto !important;
+    background: rgba(255, 255, 255, 0.02); /* Glassy base */
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-left: 2px solid rgba(255, 255, 255, 0.15); /* Accent on left */
+    transition: all 0.2s ease-out;
+    border-radius: 0 4px 4px 0; /* Tech shape */
+  }
+
+  :global(.pcb-badge .badge-content) {
+    clip-path: none !important;
+    padding: 0 6px;
+    justify-content: flex-start; /* Align text left */
+    background: transparent;
+    border: none;
+    box-shadow: none;
+  }
+
+  :global(.pcb-badge .badge-text) {
+    font-size: 0.65rem; /* Precise font size */
+    color: rgba(255, 255, 255, 0.7);
+    font-family: var(--font-mono);
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    letter-spacing: 0.02em;
+  }
+
+  /* Active Badge Style */
+  :global(.pcb-badge.status-active) {
+    border-left-color: var(--c-accent-cyan);
+    background: linear-gradient(90deg, rgba(0, 240, 255, 0.05), transparent);
+  }
+  :global(.pcb-badge.status-active .badge-text) {
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 240, 255, 0.3);
+  }
+
+  /* Hover on Badge */
+  .pcb-badge:hover {
+    transform: translateX(4px);
+    background: rgba(0, 240, 255, 0.15);
+    border-color: var(--c-accent-cyan);
+    box-shadow: 0 0 15px rgba(0, 240, 255, 0.2);
+    z-index: 10;
+  }
+  
+  :global(.pcb-badge:hover .badge-text) {
+    color: #fff;
+  }
+
+  /* Ghost Slot Styling (Empty) */
+  .ghost-slot {
+    width: 100%;
+    height: 100%;
+    /* Subtle placeholder pattern */
+    background-image: repeating-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.02) 0px,
+      rgba(255, 255, 255, 0.02) 2px,
+      transparent 2px,
+      transparent 8px
+    );
+    border: 1px solid rgba(255, 255, 255, 0.02);
+    border-radius: 2px;
+    opacity: 0.5;
+  }
+
+  /* Footer Terminator */
+  .pcb-terminator {
+    margin-top: auto;
+    padding-top: var(--space-4);
+    opacity: 0.3;
+  }
+  .term-dot {
+    width: 4px;
+    height: 2px;
+    background: var(--c-accent-cyan);
+    box-shadow: 0 0 5px var(--c-accent-cyan);
+  }
+
+  /* --- RESPONSIVE --- */
+  @media (max-width: 1200px) {
+     .pcb-grid-container {
+        grid-template-columns: repeat(4, 1fr); 
+     }
+  }
+  @media (max-width: 768px) {
+    .pcb-grid-container {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+
+  /* 3. Tactical Dock */
+  .tactical-dock {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-4);
+    margin-bottom: var(--space-16);
+    padding: var(--space-4);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .dock-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-6);
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid transparent;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+
+  .dock-item:hover {
+    background: rgba(0, 240, 255, 0.05);
+    border-color: var(--c-accent-cyan);
+  }
+
+  .dock-item .icon { font-size: 1.5rem; margin-bottom: var(--space-2); }
+  .dock-item .label { color: #fff; font-weight: bold; font-family: var(--font-mono); letter-spacing: 0.1em; }
+  .dock-item .meta { font-size: 0.7rem; color: var(--c-accent-cyan); margin-top: var(--space-1); opacity: 0.7; }
+
+  /* --- RESPONSIVE --- */
+  @media (max-width: 768px) {
+    .command-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: var(--space-4);
+    }
+    
+    .header-actions {
+      width: 100%;
+    }
+
+    .tactical-dock {
+      grid-template-columns: 1fr;
+    }
+
+    .dock-item {
+      flex-direction: row;
+      justify-content: flex-start;
+      gap: var(--space-4);
+      padding: var(--space-4);
+    }
+  }
+</style>
+

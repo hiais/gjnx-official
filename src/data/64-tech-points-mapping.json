@@ -1,0 +1,2124 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-01-22T14:04:34.988Z",
+  "mappings": [
+    {
+      "conceptId": "10",
+      "techPointId": 10,
+      "techPointName": "H100 / B200 / Rubin",
+      "dimension": "cmp",
+      "dimensionCode": "CMP",
+      "matchScore": 75,
+      "matchReason": "slug-match",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "1000",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "100w",
+      "techPointId": 26,
+      "techPointName": "4680 Battery",
+      "dimension": "emb",
+      "dimensionCode": "EMB",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "15x",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "16",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "17",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "19",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "1c",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "2027-2028",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "2027",
+      "techPointId": 64,
+      "techPointName": "Quantum Edge",
+      "dimension": "analog",
+      "dimensionCode": "ANALOG",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "3c",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "400w",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "45h",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "4a",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "5090",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "51w",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "5c",
+      "techPointId": 33,
+      "techPointName": "4C/5C Charging",
+      "dimension": "pwr",
+      "dimensionCode": "PWR",
+      "matchScore": 75,
+      "matchReason": "slug-match",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "5ms",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "72",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "accuracy",
+      "techPointId": 37,
+      "techPointName": "NPU (神经网络处理器)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "active",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "agent",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "ai-isp",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "ai",
+      "techPointId": 38,
+      "techPointName": "On-Device AI (端侧 AI)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 75,
+      "matchReason": "slug-match",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "anti-rollback",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "aod",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "apple",
+      "techPointId": 37,
+      "techPointName": "NPU (神经网络处理器)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "bi-map",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "block",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "bms",
+      "techPointId": 34,
+      "techPointName": "BMS (电池管理系统)",
+      "dimension": "pwr",
+      "dimensionCode": "PWR",
+      "matchScore": 100,
+      "matchReason": "exact-concept-id",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "bnn",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "buckets",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "buffer",
+      "techPointId": 37,
+      "techPointName": "NPU (神经网络处理器)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "c-state",
+      "techPointId": 37,
+      "techPointName": "NPU (神经网络处理器)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "cache",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "calling",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "clevo",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "cnn",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "computing",
+      "techPointId": 39,
+      "techPointName": "Privacy Computing (隐私计算)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 75,
+      "matchReason": "slug-match",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "conductivity",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "connected",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "cpl",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "cpu",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "csi",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "daemon",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "dag",
+      "techPointId": 37,
+      "techPointName": "NPU (神经网络处理器)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "dc",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "decoding",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "density",
+      "techPointId": 32,
+      "techPointName": "Energy Density (能量密度)",
+      "dimension": "pwr",
+      "dimensionCode": "PWR",
+      "matchScore": 100,
+      "matchReason": "exact-concept-id",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "doze",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "dram",
+      "techPointId": 14,
+      "techPointName": "HBM (高带宽内存)",
+      "dimension": "cmp",
+      "dimensionCode": "CMP",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "drop",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "dsp",
+      "techPointId": 37,
+      "techPointName": "NPU (神经网络处理器)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "dvfs",
+      "techPointId": 37,
+      "techPointName": "NPU (神经网络处理器)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "e-core",
+      "techPointId": 37,
+      "techPointName": "NPU (神经网络处理器)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "ecc",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "edc",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "elaa",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "engine",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "environment",
+      "techPointId": 37,
+      "techPointName": "NPU (神经网络处理器)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "evtol",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "fifo",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "finfet",
+      "techPointId": 3,
+      "techPointName": "GAA (围栅晶体管)",
+      "dimension": "hw",
+      "dimensionCode": "HW",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "frequent",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "ftl",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "fusion",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "g2q",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "gaafet",
+      "techPointId": 3,
+      "techPointName": "GAA (围栅晶体管)",
+      "dimension": "hw",
+      "dimensionCode": "HW",
+      "matchScore": 100,
+      "matchReason": "exact-concept-id",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "gc",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "gpu",
+      "techPointId": 37,
+      "techPointName": "NPU (神经网络处理器)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "gru",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "gui",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "hal",
+      "techPointId": 49,
+      "techPointName": "Hall Thruster (霍尔推进器)",
+      "dimension": "space",
+      "dimensionCode": "SPACE",
+      "matchScore": 75,
+      "matchReason": "slug-match",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "hbm",
+      "techPointId": 14,
+      "techPointName": "HBM (高带宽内存)",
+      "dimension": "cmp",
+      "dimensionCode": "CMP",
+      "matchScore": 100,
+      "matchReason": "exact-concept-id",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "intel-18a",
+      "techPointId": 4,
+      "techPointName": "Backside Power (背面供电)",
+      "dimension": "hw",
+      "dimensionCode": "HW",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "ipc",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "isp",
+      "techPointId": 37,
+      "techPointName": "NPU (神经网络处理器)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "isscc",
+      "techPointId": 45,
+      "techPointName": "Edge Training",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "laptop",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "ldpc",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "limit",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "llm",
+      "techPointId": 37,
+      "techPointName": "NPU (神经网络处理器)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "ltpo",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "m5",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "mac",
+      "techPointId": 37,
+      "techPointName": "NPU (神经网络处理器)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "mdp",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "mediatek",
+      "techPointId": 37,
+      "techPointName": "NPU (神经网络处理器)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "microkernel",
+      "techPointId": 37,
+      "techPointName": "NPU (神经网络处理器)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "mlp",
+      "techPointId": 34,
+      "techPointName": "BMS (电池管理系统)",
+      "dimension": "pwr",
+      "dimensionCode": "PWR",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "moe",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "nano-tsv",
+      "techPointId": 6,
+      "techPointName": "TSV (硅通孔)",
+      "dimension": "hw",
+      "dimensionCode": "HW",
+      "matchScore": 75,
+      "matchReason": "slug-match",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "network",
+      "techPointId": 37,
+      "techPointName": "NPU (神经网络处理器)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "neumann",
+      "techPointId": 57,
+      "techPointName": "Neuromorphic (类脑芯片)",
+      "dimension": "analog",
+      "dimensionCode": "ANALOG",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "npu",
+      "techPointId": 37,
+      "techPointName": "NPU (神经网络处理器)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 100,
+      "matchReason": "exact-concept-id",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "p-core",
+      "techPointId": 37,
+      "techPointName": "NPU (神经网络处理器)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "p-state",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "pcc",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "pim",
+      "techPointId": 55,
+      "techPointName": "Compute-in-Memory (存算一体)",
+      "dimension": "analog",
+      "dimensionCode": "ANALOG",
+      "matchScore": 100,
+      "matchReason": "exact-concept-id",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "pmic",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "ppw",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "pue",
+      "techPointId": 17,
+      "techPointName": "PUE (能源利用率)",
+      "dimension": "cmp",
+      "dimensionCode": "CMP",
+      "matchScore": 100,
+      "matchReason": "exact-concept-id",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "pwm",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "qos",
+      "techPointId": 37,
+      "techPointName": "NPU (神经网络处理器)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "qualcomm",
+      "techPointId": 37,
+      "techPointName": "NPU (神经网络处理器)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "r744",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "rad-hard",
+      "techPointId": 46,
+      "techPointName": "Rad-Hard (抗辐射加固)",
+      "dimension": "space",
+      "dimensionCode": "SPACE",
+      "matchScore": 100,
+      "matchReason": "exact-concept-id",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "ram",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "rare",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "rcc",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "restricted",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "ribbonfet",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "rollback",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "s26",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "saas",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "se4",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "semiconductor",
+      "techPointId": 46,
+      "techPointName": "Rad-Hard (抗辐射加固)",
+      "dimension": "space",
+      "dimensionCode": "SPACE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "set",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "sink",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "sleep",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "smr",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "snn",
+      "techPointId": 58,
+      "techPointName": "SNN (脉冲神经网络)",
+      "dimension": "analog",
+      "dimensionCode": "ANALOG",
+      "matchScore": 100,
+      "matchReason": "exact-concept-id",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "soc",
+      "techPointId": 34,
+      "techPointName": "BMS (电池管理系统)",
+      "dimension": "pwr",
+      "dimensionCode": "PWR",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "soh",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "sop",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "sram",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "svr",
+      "techPointId": 37,
+      "techPointName": "NPU (神经网络处理器)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "swap",
+      "techPointId": 37,
+      "techPointName": "NPU (神经网络处理器)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "tbw",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "tco",
+      "techPointId": 15,
+      "techPointName": "TCO (总拥有成本)",
+      "dimension": "cmp",
+      "dimensionCode": "CMP",
+      "matchScore": 100,
+      "matchReason": "exact-concept-id",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "tdp",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "throttling",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "tipb",
+      "techPointId": 34,
+      "techPointName": "BMS (电池管理系统)",
+      "dimension": "pwr",
+      "dimensionCode": "PWR",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "tlb",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "tops",
+      "techPointId": 37,
+      "techPointName": "NPU (神经网络处理器)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "transformer",
+      "techPointId": 37,
+      "techPointName": "NPU (神经网络处理器)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "transparency",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "trap",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "trees",
+      "techPointId": 37,
+      "techPointName": "NPU (神经网络处理器)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "tsv",
+      "techPointId": 6,
+      "techPointName": "TSV (硅通孔)",
+      "dimension": "hw",
+      "dimensionCode": "HW",
+      "matchScore": 100,
+      "matchReason": "exact-concept-id",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "udc",
+      "techPointId": 37,
+      "techPointName": "NPU (神经网络处理器)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "vlm",
+      "techPointId": 37,
+      "techPointName": "NPU (神经网络处理器)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "wakelock",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "watt",
+      "techPointId": 37,
+      "techPointName": "NPU (神经网络处理器)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "window",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "wmcm",
+      "techPointId": 5,
+      "techPointName": "CoWoS / Advanced Packaging",
+      "dimension": "hw",
+      "dimensionCode": "HW",
+      "matchScore": 100,
+      "matchReason": "exact-concept-id",
+      "status": "mapped"
+    },
+    {
+      "conceptId": "xr",
+      "techPointId": null,
+      "techPointName": null,
+      "dimension": null,
+      "dimensionCode": null,
+      "matchScore": 0,
+      "matchReason": null,
+      "status": "unmapped"
+    },
+    {
+      "conceptId": "zero-copy",
+      "techPointId": 37,
+      "techPointName": "NPU (神经网络处理器)",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "matchScore": 50,
+      "matchReason": "content-keywords",
+      "status": "mapped"
+    }
+  ],
+  "statistics": {
+    "totalConcepts": 147,
+    "mappedConcepts": 57,
+    "unmappedConcepts": 90,
+    "core64Count": 57
+  },
+  "techPointsStatus": [
+    {
+      "id": 1,
+      "name": "2nm / 1.8nm (Angstrom Era)",
+      "slug": "2nm-angstrom",
+      "dimension": "hw",
+      "dimensionCode": "HW",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 2,
+      "name": "High-NA EUV",
+      "slug": "high-na-euv",
+      "dimension": "hw",
+      "dimensionCode": "HW",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 3,
+      "name": "GAA (围栅晶体管)",
+      "slug": "gaa",
+      "dimension": "hw",
+      "dimensionCode": "HW",
+      "conceptId": "finfet",
+      "status": "mapped",
+      "matchScore": 50
+    },
+    {
+      "id": 4,
+      "name": "Backside Power (背面供电)",
+      "slug": "backside-power",
+      "dimension": "hw",
+      "dimensionCode": "HW",
+      "conceptId": "intel-18a",
+      "status": "mapped",
+      "matchScore": 50
+    },
+    {
+      "id": 5,
+      "name": "CoWoS / Advanced Packaging",
+      "slug": "cowos-packaging",
+      "dimension": "hw",
+      "dimensionCode": "HW",
+      "conceptId": "wmcm",
+      "status": "mapped",
+      "matchScore": 100
+    },
+    {
+      "id": 6,
+      "name": "TSV (硅通孔)",
+      "slug": "tsv",
+      "dimension": "hw",
+      "dimensionCode": "HW",
+      "conceptId": "nano-tsv",
+      "status": "mapped",
+      "matchScore": 75
+    },
+    {
+      "id": 7,
+      "name": "Chiplet (小芯片)",
+      "slug": "chiplet",
+      "dimension": "hw",
+      "dimensionCode": "HW",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 8,
+      "name": "Glass Substrate (玻璃基板)",
+      "slug": "glass-substrate",
+      "dimension": "hw",
+      "dimensionCode": "HW",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 9,
+      "name": "Quantum Tunneling (量子隧穿)",
+      "slug": "quantum-tunneling",
+      "dimension": "hw",
+      "dimensionCode": "HW",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 10,
+      "name": "H100 / B200 / Rubin",
+      "slug": "h100-b200-rubin",
+      "dimension": "cmp",
+      "dimensionCode": "CMP",
+      "conceptId": "10",
+      "status": "mapped",
+      "matchScore": 75
+    },
+    {
+      "id": 11,
+      "name": "CUDA Moat (护城河)",
+      "slug": "cuda-moat",
+      "dimension": "cmp",
+      "dimensionCode": "CMP",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 12,
+      "name": "NVLink",
+      "slug": "nvlink",
+      "dimension": "cmp",
+      "dimensionCode": "CMP",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 13,
+      "name": "Memory Wall (内存墙)",
+      "slug": "memory-wall",
+      "dimension": "cmp",
+      "dimensionCode": "CMP",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 14,
+      "name": "HBM (高带宽内存)",
+      "slug": "hbm",
+      "dimension": "cmp",
+      "dimensionCode": "CMP",
+      "conceptId": "dram",
+      "status": "mapped",
+      "matchScore": 50
+    },
+    {
+      "id": 15,
+      "name": "TCO (总拥有成本)",
+      "slug": "tco",
+      "dimension": "cmp",
+      "dimensionCode": "CMP",
+      "conceptId": "tco",
+      "status": "mapped",
+      "matchScore": 100
+    },
+    {
+      "id": 16,
+      "name": "Inference Cost (推理成本)",
+      "slug": "inference-cost",
+      "dimension": "cmp",
+      "dimensionCode": "CMP",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 17,
+      "name": "PUE (能源利用率)",
+      "slug": "pue",
+      "dimension": "cmp",
+      "dimensionCode": "CMP",
+      "conceptId": "pue",
+      "status": "mapped",
+      "matchScore": 100
+    },
+    {
+      "id": 18,
+      "name": "Sparse Calculation (稀疏计算)",
+      "slug": "sparse-calculation",
+      "dimension": "cmp",
+      "dimensionCode": "CMP",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 37,
+      "name": "NPU (神经网络处理器)",
+      "slug": "npu",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "conceptId": "accuracy",
+      "status": "mapped",
+      "matchScore": 50
+    },
+    {
+      "id": 38,
+      "name": "On-Device AI (端侧 AI)",
+      "slug": "on-device-ai",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "conceptId": "ai",
+      "status": "mapped",
+      "matchScore": 75
+    },
+    {
+      "id": 39,
+      "name": "Privacy Computing (隐私计算)",
+      "slug": "privacy-computing",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "conceptId": "computing",
+      "status": "mapped",
+      "matchScore": 75
+    },
+    {
+      "id": 40,
+      "name": "Heterogeneous Computing (异构计算)",
+      "slug": "heterogeneous-computing",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 41,
+      "name": "Unified Memory (统一内存)",
+      "slug": "unified-memory",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 42,
+      "name": "Always-on Sensing",
+      "slug": "always-on-sensing",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 43,
+      "name": "LoRA (微调技术)",
+      "slug": "lora",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 44,
+      "name": "Small Language Model (SLM)",
+      "slug": "slm",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 45,
+      "name": "Edge Training",
+      "slug": "edge-training",
+      "dimension": "edge",
+      "dimensionCode": "EDGE",
+      "conceptId": "isscc",
+      "status": "mapped",
+      "matchScore": 50
+    },
+    {
+      "id": 28,
+      "name": "Solid-State Battery (固态电池)",
+      "slug": "solid-state-battery",
+      "dimension": "pwr",
+      "dimensionCode": "PWR",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 29,
+      "name": "800V Architecture",
+      "slug": "800v-architecture",
+      "dimension": "pwr",
+      "dimensionCode": "PWR",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 30,
+      "name": "SiC (碳化硅)",
+      "slug": "sic",
+      "dimension": "pwr",
+      "dimensionCode": "PWR",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 31,
+      "name": "GaN (氮化镓)",
+      "slug": "gan",
+      "dimension": "pwr",
+      "dimensionCode": "PWR",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 32,
+      "name": "Energy Density (能量密度)",
+      "slug": "energy-density",
+      "dimension": "pwr",
+      "dimensionCode": "PWR",
+      "conceptId": "density",
+      "status": "mapped",
+      "matchScore": 100
+    },
+    {
+      "id": 33,
+      "name": "4C/5C Charging",
+      "slug": "4c-5c-charging",
+      "dimension": "pwr",
+      "dimensionCode": "PWR",
+      "conceptId": "5c",
+      "status": "mapped",
+      "matchScore": 75
+    },
+    {
+      "id": 34,
+      "name": "BMS (电池管理系统)",
+      "slug": "bms",
+      "dimension": "pwr",
+      "dimensionCode": "PWR",
+      "conceptId": "bms",
+      "status": "mapped",
+      "matchScore": 100
+    },
+    {
+      "id": 35,
+      "name": "Wireless Charging",
+      "slug": "wireless-charging",
+      "dimension": "pwr",
+      "dimensionCode": "PWR",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 36,
+      "name": "V2G (车网互动)",
+      "slug": "v2g",
+      "dimension": "pwr",
+      "dimensionCode": "PWR",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 19,
+      "name": "End-to-End (端到端)",
+      "slug": "end-to-end",
+      "dimension": "emb",
+      "dimensionCode": "EMB",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 20,
+      "name": "Harmonic Drive (谐波减速器)",
+      "slug": "harmonic-drive",
+      "dimension": "emb",
+      "dimensionCode": "EMB",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 21,
+      "name": "Linear Actuator (线性执行器)",
+      "slug": "linear-actuator",
+      "dimension": "emb",
+      "dimensionCode": "EMB",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 22,
+      "name": "DoF (自由度)",
+      "slug": "dof",
+      "dimension": "emb",
+      "dimensionCode": "EMB",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 23,
+      "name": "Tactile Sensor (触觉传感器)",
+      "slug": "tactile-sensor",
+      "dimension": "emb",
+      "dimensionCode": "EMB",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 24,
+      "name": "Imitation Learning (模仿学习)",
+      "slug": "imitation-learning",
+      "dimension": "emb",
+      "dimensionCode": "EMB",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 25,
+      "name": "Sim2Real (虚实迁移)",
+      "slug": "sim2real",
+      "dimension": "emb",
+      "dimensionCode": "EMB",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 26,
+      "name": "4680 Battery",
+      "slug": "4680-battery",
+      "dimension": "emb",
+      "dimensionCode": "EMB",
+      "conceptId": "100w",
+      "status": "mapped",
+      "matchScore": 50
+    },
+    {
+      "id": 27,
+      "name": "Visual SLAM",
+      "slug": "visual-slam",
+      "dimension": "emb",
+      "dimensionCode": "EMB",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 46,
+      "name": "Rad-Hard (抗辐射加固)",
+      "slug": "rad-hard",
+      "dimension": "space",
+      "dimensionCode": "SPACE",
+      "conceptId": "rad-hard",
+      "status": "mapped",
+      "matchScore": 100
+    },
+    {
+      "id": 47,
+      "name": "Starlink (星链)",
+      "slug": "starlink",
+      "dimension": "space",
+      "dimensionCode": "SPACE",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 48,
+      "name": "Laser Link (星间激光链路)",
+      "slug": "laser-link",
+      "dimension": "space",
+      "dimensionCode": "SPACE",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 49,
+      "name": "Hall Thruster (霍尔推进器)",
+      "slug": "hall-thruster",
+      "dimension": "space",
+      "dimensionCode": "SPACE",
+      "conceptId": "hal",
+      "status": "mapped",
+      "matchScore": 75
+    },
+    {
+      "id": 50,
+      "name": "Solar Sail (太阳帆)",
+      "slug": "solar-sail",
+      "dimension": "space",
+      "dimensionCode": "SPACE",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 51,
+      "name": "Redundancy Design (冗余设计)",
+      "slug": "redundancy-design",
+      "dimension": "space",
+      "dimensionCode": "SPACE",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 52,
+      "name": "Wide Temperature Range (宽温域)",
+      "slug": "wide-temperature",
+      "dimension": "space",
+      "dimensionCode": "SPACE",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 53,
+      "name": "Delay-Tolerant Network (DTN)",
+      "slug": "dtn",
+      "dimension": "space",
+      "dimensionCode": "SPACE",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 54,
+      "name": "GSO vs LEO",
+      "slug": "gso-vs-leo",
+      "dimension": "space",
+      "dimensionCode": "SPACE",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 55,
+      "name": "Compute-in-Memory (存算一体)",
+      "slug": "compute-in-memory",
+      "dimension": "analog",
+      "dimensionCode": "ANALOG",
+      "conceptId": "pim",
+      "status": "mapped",
+      "matchScore": 100
+    },
+    {
+      "id": 56,
+      "name": "Photonics Computing (光子计算)",
+      "slug": "photonics-computing",
+      "dimension": "analog",
+      "dimensionCode": "ANALOG",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 57,
+      "name": "Neuromorphic (类脑芯片)",
+      "slug": "neuromorphic",
+      "dimension": "analog",
+      "dimensionCode": "ANALOG",
+      "conceptId": "neumann",
+      "status": "mapped",
+      "matchScore": 50
+    },
+    {
+      "id": 58,
+      "name": "SNN (脉冲神经网络)",
+      "slug": "snn",
+      "dimension": "analog",
+      "dimensionCode": "ANALOG",
+      "conceptId": "snn",
+      "status": "mapped",
+      "matchScore": 100
+    },
+    {
+      "id": 59,
+      "name": "Memristor (忆阻器)",
+      "slug": "memristor",
+      "dimension": "analog",
+      "dimensionCode": "ANALOG",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 60,
+      "name": "Analog Signal (模拟信号)",
+      "slug": "analog-signal",
+      "dimension": "analog",
+      "dimensionCode": "ANALOG",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 61,
+      "name": "Low-Power Inference",
+      "slug": "low-power-inference",
+      "dimension": "analog",
+      "dimensionCode": "ANALOG",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 62,
+      "name": "Wetware (湿件)",
+      "slug": "wetware",
+      "dimension": "analog",
+      "dimensionCode": "ANALOG",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 63,
+      "name": "DNA Storage",
+      "slug": "dna-storage",
+      "dimension": "analog",
+      "dimensionCode": "ANALOG",
+      "conceptId": null,
+      "status": "missing",
+      "matchScore": 0
+    },
+    {
+      "id": 64,
+      "name": "Quantum Edge",
+      "slug": "quantum-edge",
+      "dimension": "analog",
+      "dimensionCode": "ANALOG",
+      "conceptId": "2027",
+      "status": "mapped",
+      "matchScore": 50
+    }
+  ]
+}

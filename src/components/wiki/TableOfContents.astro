@@ -1,0 +1,165 @@
+---
+/**
+ * 目录组件
+ * 自动生成文章目录（TOC）
+ */
+
+interface Props {
+  headings: Array<{
+    id: string;
+    text: string;
+    level: number;
+  }>;
+}
+
+const { headings } = Astro.props;
+---
+
+{headings.length > 0 && (
+  <nav class="table-of-contents">
+    <h4 class="toc-title mono">目录</h4>
+    <ul class="toc-list">
+      {headings.map(heading => (
+        <li class:list={['toc-item', `toc-level-${heading.level}`]}>
+          <a href={`#${heading.id}`} class="toc-link">
+            {heading.text}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+)}
+
+<script>
+  function initTOC() {
+    const tocLinks = document.querySelectorAll('.toc-link');
+    
+    tocLinks.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetId = link.getAttribute('href')?.substring(1);
+        if (!targetId) return;
+
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+          targetElement.scrollIntoView({ 
+            behavior: 'smooth',
+            block: 'start'
+          });
+          
+          // 更新URL（不刷新页面）
+          history.pushState(null, '', `#${targetId}`);
+        }
+      });
+    });
+
+    // 高亮当前章节
+    function highlightCurrentSection() {
+      const sections = Array.from(tocLinks).map(link => {
+        const id = link.getAttribute('href')?.substring(1);
+        return { link, id, element: id ? document.getElementById(id) : null };
+      }).filter(s => s.element);
+
+      const scrollPosition = window.scrollY + 100;
+
+      for (let i = sections.length - 1; i >= 0; i--) {
+        const section = sections[i];
+        if (section.element && section.element.offsetTop <= scrollPosition) {
+          tocLinks.forEach(l => l.classList.remove('active'));
+          section.link.classList.add('active');
+          break;
+        }
+      }
+    }
+
+    window.addEventListener('scroll', highlightCurrentSection);
+    highlightCurrentSection();
+  }
+
+  document.addEventListener('astro:page-load', initTOC);
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initTOC);
+  } else {
+    initTOC();
+  }
+</script>
+
+<style>
+  .table-of-contents {
+    background: rgba(10, 10, 10, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    padding: var(--space-6);
+    position: sticky;
+    top: 80px;
+    max-height: calc(100vh - 120px);
+    overflow-y: auto;
+  }
+
+  .toc-title {
+    font-size: 0.9rem;
+    color: var(--c-accent-cyan);
+    margin-bottom: var(--space-4);
+    letter-spacing: 0.05em;
+  }
+
+  .toc-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .toc-item {
+    margin-bottom: var(--space-2);
+  }
+
+  .toc-link {
+    display: block;
+    color: var(--c-text-secondary);
+    text-decoration: none;
+    font-size: 0.85rem;
+    padding: var(--space-1) 0;
+    transition: all 0.2s;
+    border-left: 2px solid transparent;
+    padding-left: var(--space-2);
+  }
+
+  .toc-link:hover {
+    color: var(--c-accent-cyan);
+    border-left-color: var(--c-accent-cyan);
+    padding-left: var(--space-3);
+  }
+
+  .toc-link.active {
+    color: var(--c-accent-cyan);
+    border-left-color: var(--c-accent-cyan);
+    font-weight: var(--weight-semibold);
+  }
+
+  .toc-level-1 { padding-left: 0; }
+  .toc-level-2 { padding-left: var(--space-4); }
+  .toc-level-3 { padding-left: var(--space-8); }
+  .toc-level-4 { padding-left: var(--space-12); }
+
+  /* 滚动条样式 */
+  .table-of-contents::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .table-of-contents::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  .table-of-contents::-webkit-scrollbar-thumb {
+    background: var(--c-accent-cyan);
+    border-radius: 2px;
+  }
+
+  @media (max-width: 1024px) {
+    .table-of-contents {
+      position: static;
+      max-height: none;
+    }
+  }
+</style>
+

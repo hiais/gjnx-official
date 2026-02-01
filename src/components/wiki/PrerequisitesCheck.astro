@@ -1,0 +1,103 @@
+---
+/**
+ * 前置知识检查组件
+ * 显示前置知识是否已学习，并提供学习链接
+ */
+
+import { getCollection } from 'astro:content';
+
+interface Props {
+  prerequisites: string[];
+  currentId: string;
+}
+
+const { prerequisites, currentId } = Astro.props;
+const allKnowledge = await getCollection('knowledge');
+
+// 获取前置知识详情
+const prereqConcepts = prerequisites
+  .map(id => allKnowledge.find(k => k.id === id))
+  .filter(Boolean);
+---
+
+{prereqConcepts.length > 0 && (
+  <div class="prerequisites-check">
+    <h4 class="prereq-title mono">📚 前置知识检查</h4>
+    <div class="prereq-list">
+      {prereqConcepts.map(concept => (
+        <a href={`/wiki/concept/${concept.id}`} class="prereq-item">
+          <span class="prereq-icon">✓</span>
+          <span class="prereq-name">{concept.data.title}</span>
+          <span class="prereq-arrow">→</span>
+        </a>
+      ))}
+    </div>
+    <p class="prereq-hint">
+      建议先学习以上前置知识，以便更好地理解当前概念
+    </p>
+  </div>
+)}
+
+<style>
+  .prerequisites-check {
+    background: rgba(0, 240, 255, 0.05);
+    border: 1px solid rgba(0, 240, 255, 0.2);
+    border-radius: 4px;
+    padding: var(--space-6);
+    margin: var(--space-6) 0;
+  }
+
+  .prereq-title {
+    font-size: 0.9rem;
+    color: var(--c-accent-cyan);
+    margin-bottom: var(--space-4);
+    letter-spacing: 0.05em;
+  }
+
+  .prereq-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    margin-bottom: var(--space-4);
+  }
+
+  .prereq-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    padding: var(--space-3);
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    text-decoration: none;
+    color: var(--c-text-primary);
+    transition: all 0.2s;
+  }
+
+  .prereq-item:hover {
+    background: rgba(0, 240, 255, 0.1);
+    border-color: var(--c-accent-cyan);
+    transform: translateX(4px);
+  }
+
+  .prereq-icon {
+    color: var(--c-accent-cyan);
+    font-weight: bold;
+  }
+
+  .prereq-name {
+    flex: 1;
+  }
+
+  .prereq-arrow {
+    color: var(--c-text-secondary);
+    opacity: 0.5;
+  }
+
+  .prereq-hint {
+    font-size: 0.85rem;
+    color: var(--c-text-secondary);
+    margin: 0;
+    font-style: italic;
+  }
+</style>
+

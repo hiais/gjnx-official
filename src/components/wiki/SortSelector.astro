@@ -1,0 +1,133 @@
+---
+/**
+ * 排序选择器组件
+ */
+
+interface Props {
+  options: Array<{
+    value: string;
+    label: string;
+  }>;
+  defaultSort?: string;
+}
+
+const { options, defaultSort = 'title' } = Astro.props;
+---
+
+<div class="sort-selector mono">
+  <span class="sort-label">> SORT:</span>
+  <select class="sort-select" id="sort-selector">
+    {options.map(option => (
+      <option value={option.value} selected={option.value === defaultSort}>
+        {option.label}
+      </option>
+    ))}
+  </select>
+</div>
+
+<script>
+  function initSortSelector() {
+    const selector = document.getElementById('sort-selector') as HTMLSelectElement;
+    if (!selector) return;
+
+    const container = selector.closest('[data-sortable]');
+    if (!container) return;
+
+    selector.addEventListener('change', () => {
+      const sortBy = selector.value;
+      const items = Array.from(container.querySelectorAll('[data-sort-item]'));
+
+      items.sort((a, b) => {
+        let aValue: string | number = '';
+        let bValue: string | number = '';
+
+        switch (sortBy) {
+          case 'title':
+            aValue = a.getAttribute('data-title') || '';
+            bValue = b.getAttribute('data-title') || '';
+            return aValue.localeCompare(bValue);
+          
+          case 'title-desc':
+            aValue = a.getAttribute('data-title') || '';
+            bValue = b.getAttribute('data-title') || '';
+            return bValue.localeCompare(aValue);
+          
+          case 'date':
+            aValue = new Date(a.getAttribute('data-date') || 0).getTime();
+            bValue = new Date(b.getAttribute('data-date') || 0).getTime();
+            return (bValue as number) - (aValue as number);
+          
+          case 'date-asc':
+            aValue = new Date(a.getAttribute('data-date') || 0).getTime();
+            bValue = new Date(b.getAttribute('data-date') || 0).getTime();
+            return (aValue as number) - (bValue as number);
+          
+          default:
+            return 0;
+        }
+      });
+
+      // Re-append sorted items
+      items.forEach(item => container.appendChild(item));
+
+      // Update URL
+      const url = new URL(window.location.href);
+      url.searchParams.set('sort', sortBy);
+      window.history.pushState({}, '', url);
+    });
+
+    // Read sort from URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const urlSort = urlParams.get('sort');
+    if (urlSort && selector.querySelector(`option[value="${urlSort}"]`)) {
+      selector.value = urlSort;
+      selector.dispatchEvent(new Event('change'));
+    }
+  }
+
+  document.addEventListener('astro:page-load', initSortSelector);
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initSortSelector);
+  } else {
+    initSortSelector();
+  }
+</script>
+
+<style>
+  .sort-selector {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    padding: var(--space-2) 0;
+  }
+
+  .sort-label {
+    font-size: 0.85rem;
+    color: var(--c-text-secondary);
+    letter-spacing: 0.05em;
+  }
+
+  .sort-select {
+    background: rgba(10, 10, 10, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--c-text-primary);
+    padding: var(--space-2) var(--space-4);
+    font-size: 0.85rem;
+    font-family: var(--font-mono);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .sort-select:hover {
+    border-color: var(--c-accent-cyan);
+    background: rgba(0, 240, 255, 0.05);
+  }
+
+  .sort-select:focus {
+    outline: none;
+    border-color: var(--c-accent-cyan);
+    box-shadow: 0 0 10px rgba(0, 240, 255, 0.2);
+  }
+</style>
+

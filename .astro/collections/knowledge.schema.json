@@ -35,6 +35,48 @@
         "description": {
           "type": "string"
         },
+        "dimension": {
+          "type": "string",
+          "enum": [
+            "HW",
+            "CMP",
+            "EDGE",
+            "PWR",
+            "EMB",
+            "SPACE",
+            "ANALOG"
+          ]
+        },
+        "techPointId": {
+          "type": "number"
+        },
+        "module": {
+          "type": "string"
+        },
+        "level": {
+          "type": "string",
+          "enum": [
+            "beginner",
+            "intermediate",
+            "advanced"
+          ]
+        },
+        "prerequisites": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "nextSteps": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "isCore64": {
+          "type": "boolean",
+          "default": false
+        },
         "$schema": {
           "type": "string"
         }

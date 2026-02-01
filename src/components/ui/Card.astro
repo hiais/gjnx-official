@@ -2,14 +2,14 @@
 interface Props {
   href?: string;
   class?: string;
-  variant?: 'default' | 'hero' | 'compact';
+  variant?: 'default' | 'hero' | 'compact' | 'matrix';
 }
 
 const { href, class: className, variant = 'default' } = Astro.props;
-const Element = href ? 'a' : 'div';
 ---
 
-<Element href={href} class:list={['card', className, `variant-${variant}`, { 'card-link': !!href }]}>
+<div class:list={['card', className, `variant-${variant}`, { 'card-link': !!href }]}>
+  {href && <a href={href} class="card-full-link" aria-label="View details"></a>}
   <div class="card-inner">
     <slot />
   </div>
@@ -23,7 +23,7 @@ const Element = href ? 'a' : 'div';
       <div class="scanline"></div>
     </>
   )}
-</Element>
+</div>
 
 <style>
   .card {
@@ -88,6 +88,7 @@ const Element = href ? 'a' : 'div';
     opacity: 0;
     transition: opacity 0.3s;
     z-index: 1;
+    pointer-events: none;
   }
 
   .card-link:hover {
@@ -150,5 +151,32 @@ const Element = href ? 'a' : 'div';
     100% { top: 120%; opacity: 0; }
   }
 
+  /* Variant: Matrix (for Dimensions) */
+  .variant-matrix {
+    min-height: 280px;
+    background: rgba(10, 10, 10, 0.6);
+    border-color: rgba(0, 240, 255, 0.15);
+  }
+  .variant-matrix .card-inner {
+    padding: var(--space-6);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+  }
 
+  /* Overlay Link for whole-card clickability */
+  .card-full-link {
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+    cursor: pointer;
+  }
+
+  /* Ensure interactive elements inside card are clickable above the overlay */
+  .card-inner :global(a), 
+  .card-inner :global(button),
+  .card-inner :global(.tech-badge) {
+    position: relative;
+    z-index: 4;
+  }
 </style>

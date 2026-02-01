@@ -1,0 +1,52 @@
+---
+interface Props {
+  items: Array<{ label: string; href?: string }>;
+}
+
+const { items } = Astro.props;
+---
+
+<nav class="breadcrumb mono">
+  {items.map((item, index) => (
+    <>
+      {item.href ? (
+        <a href={item.href} class="breadcrumb-link">{item.label}</a>
+      ) : (
+        <span class="breadcrumb-current">{item.label}</span>
+      )}
+      {index < items.length - 1 && <span class="breadcrumb-sep">›</span>}
+    </>
+  ))}
+</nav>
+
+<style>
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: 0.85rem;
+    color: var(--c-text-secondary);
+    margin-bottom: var(--space-6);
+  }
+
+  .breadcrumb-link {
+    color: var(--c-accent-cyan);
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .breadcrumb-link:hover {
+    color: var(--c-text-primary);
+    text-shadow: 0 0 10px var(--c-accent-cyan);
+  }
+
+  .breadcrumb-current {
+    color: var(--c-text-primary);
+  }
+
+  .breadcrumb-sep {
+    color: var(--c-text-secondary);
+    opacity: 0.5;
+  }
+</style>
+

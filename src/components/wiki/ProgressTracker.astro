@@ -1,0 +1,238 @@
+---
+/**
+ * 学习进度追踪组件
+ * 使用localStorage记录用户的学习进度
+ */
+
+interface Props {
+  pathId?: string;
+  moduleId?: string;
+  conceptId?: string;
+}
+
+const { pathId, moduleId, conceptId } = Astro.props;
+---
+
+<div class="progress-tracker" id="progress-tracker" data-concept-id={conceptId}>
+  <div class="progress-actions">
+    <label class="mark-learned-toggle">
+      <input type="checkbox" id="mark-learned-checkbox" />
+      <span class="toggle-label">标记为已学习</span>
+    </label>
+    <button class="progress-reset" id="progress-reset">重置全部</button>
+  </div>
+  <div class="progress-stats">
+    <div class="stat-item">
+      <span class="stat-label">已学习</span>
+      <span class="stat-value" id="learned-count">0</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-label">总词条</span>
+      <span class="stat-value" id="total-count">0</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-label">完成度</span>
+      <span class="stat-value" id="completion-percent">0%</span>
+    </div>
+  </div>
+  <div class="progress-bar">
+    <div class="progress-fill" id="progress-fill"></div>
+  </div>
+</div>
+
+<script>
+  function initProgressTracker() {
+    const tracker = document.getElementById('progress-tracker');
+    if (!tracker) return;
+
+    const STORAGE_KEY = 'wiki-progress';
+    const resetBtn = document.getElementById('progress-reset');
+    const learnedCountEl = document.getElementById('learned-count');
+    const totalCountEl = document.getElementById('total-count');
+    const completionPercentEl = document.getElementById('completion-percent');
+    const progressFillEl = document.getElementById('progress-fill');
+
+    // 获取学习进度
+    function getProgress() {
+      try {
+        const stored = localStorage.getItem(STORAGE_KEY);
+        return stored ? JSON.parse(stored) : {};
+      } catch {
+        return {};
+      }
+    }
+
+    // 保存学习进度
+    function saveProgress(progress: Record<string, boolean>) {
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+      } catch (e) {
+        console.error('Failed to save progress:', e);
+      }
+    }
+
+    const toggleCheckbox = document.getElementById('mark-learned-checkbox');
+    const conceptId = tracker.getAttribute('data-concept-id');
+    
+    // Init checkbox state
+    if (conceptId && toggleCheckbox) {
+        const progress = getProgress();
+        toggleCheckbox.checked = !!progress[conceptId];
+        
+        toggleCheckbox.addEventListener('change', (e) => {
+            const currentProgress = getProgress();
+            if (e.target.checked) {
+                currentProgress[conceptId] = true;
+            } else {
+                delete currentProgress[conceptId];
+            }
+            saveProgress(currentProgress);
+            updateProgress();
+        });
+    }
+
+    // 更新进度显示
+    function updateProgress() {
+      const progress = getProgress();
+      const learned = Object.keys(progress).filter(k => progress[k]).length;
+      
+      // 动态获取由脚本生成的词条总数可能不准，但暂且保持
+      const total = 200; // Updated estimate
+      
+      const percent = total > 0 ? Math.round((learned / total) * 100) : 0;
+
+      if (learnedCountEl) learnedCountEl.textContent = learned.toString();
+      if (totalCountEl) totalCountEl.textContent = total.toString();
+      if (completionPercentEl) completionPercentEl.textContent = `${percent}%`;
+      if (progressFillEl) {
+        progressFillEl.style.width = `${percent}%`;
+      }
+    }
+
+    // 重置进度
+    if (resetBtn) {
+      resetBtn.addEventListener('click', () => {
+        if (confirm('确定要重置所有学习进度吗？')) {
+          localStorage.removeItem(STORAGE_KEY);
+          if (toggleCheckbox) toggleCheckbox.checked = false;
+          updateProgress();
+        }
+      });
+    }
+
+    updateProgress();
+  }
+
+  document.addEventListener('astro:page-load', initProgressTracker);
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initProgressTracker);
+  } else {
+    initProgressTracker();
+  }
+</script>
+
+<style>
+  .progress-tracker {
+    background: rgba(10, 10, 10, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    padding: var(--space-6);
+    margin-bottom: var(--space-6);
+  }
+
+  .progress-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--space-4);
+  }
+
+  .progress-title {
+    font-size: 0.9rem;
+    color: var(--c-accent-cyan);
+    margin: 0;
+    letter-spacing: 0.05em;
+  }
+
+  .progress-reset {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: var(--c-text-secondary);
+    padding: 0.3rem 0.6rem;
+    border-radius: 3px;
+    font-size: 0.75rem;
+    font-family: var(--font-mono);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .progress-reset:hover {
+    border-color: var(--c-accent-cyan);
+    color: var(--c-accent-cyan);
+  }
+
+  .progress-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-4);
+    margin-bottom: var(--space-4);
+  }
+
+  .stat-item {
+    text-align: center;
+  }
+
+  .stat-label {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--c-text-secondary);
+    margin-bottom: var(--space-1);
+  }
+
+  .stat-value {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: var(--weight-bold);
+    color: var(--c-accent-cyan);
+    font-family: var(--font-mono);
+  }
+
+  .progress-bar {
+    width: 100%;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--c-accent-cyan), #00d4ff);
+    transition: width 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+  }
+
+  /* Actions */
+  .progress-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--space-4);
+  }
+
+  .mark-learned-toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    color: var(--c-text-primary);
+  }
+
+  .mark-learned-toggle input {
+    accent-color: var(--c-accent-cyan);
+    width: 16px;
+    height: 16px;
+  }
+</style>
+

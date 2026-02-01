@@ -1,0 +1,157 @@
+---
+import MainLayout from '../../../layouts/MainLayout.astro';
+import SectionHeader from '../../../components/ui/SectionHeader.astro';
+import Card from '../../../components/ui/Card.astro';
+import Button from '../../../components/ui/Button.astro';
+import taxonomyData from '../../../data/wiki-taxonomy.json';
+---
+
+<MainLayout 
+  title="学习路径 - 知识体系"
+  description="系统化学习路径，从零开始掌握芯片能效与AI算力"
+>
+  <SectionHeader 
+    title="学习路径"
+    ghostTitle="Learning Paths"
+    subtitle="系统化学习路径，从零开始掌握芯片能效与AI算力"
+  />
+
+  <div class="container section">
+    <div class="paths-grid">
+      {taxonomyData.learningPaths.map(path => (
+        <Card href={`/wiki/learning-paths/${path.id}`} class="path-card" variant="default">
+          <div class="path-header">
+            <span class="path-level mono">{path.level === 'beginner' ? '初级' : path.level === 'intermediate' ? '中级' : '高级'}</span>
+            <h3>{path.name}</h3>
+          </div>
+          <p class="path-desc">{path.description}</p>
+          <div class="path-steps">
+            {path.modules.map((module, index) => (
+              <div class="step-item">
+                <span class="step-number">{index + 1}</span>
+                <span class="step-title">{module.title}</span>
+              </div>
+            ))}
+          </div>
+          <div class="path-meta">
+            <span class="meta-item">⏱️ {path.estimatedTime}</span>
+            <span class="meta-item">📚 {path.modules.length}个模块</span>
+          </div>
+          <div class="start-btn-wrapper">
+            <Button href={`/wiki/learning-paths/${path.id}`} variant="primary" size="sm">
+              开始学习 →
+            </Button>
+          </div>
+        </Card>
+      ))}
+    </div>
+  </div>
+</MainLayout>
+
+<style>
+  .section {
+    padding: var(--space-12) 0 var(--space-20);
+  }
+
+  .paths-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: var(--space-6);
+  }
+
+  .path-card {
+    min-height: 300px;
+  }
+
+  .path-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    margin-bottom: var(--space-4);
+  }
+
+  .path-level {
+    background: rgba(0, 240, 255, 0.1);
+    border: 1px solid var(--c-accent-cyan);
+    color: var(--c-accent-cyan);
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.75rem;
+  }
+
+  .path-header h3 {
+    font-size: 1.3rem;
+    color: var(--c-text-primary);
+    margin: 0;
+  }
+
+  .path-desc {
+    color: var(--c-text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: var(--space-6);
+  }
+
+  .path-steps {
+    margin-bottom: var(--space-6);
+    padding: var(--space-4);
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+  }
+
+  .step-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    margin-bottom: var(--space-2);
+  }
+
+  .step-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .step-number {
+    background: var(--c-accent-cyan);
+    color: #000;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    font-weight: var(--weight-bold);
+    font-family: var(--font-mono);
+    flex-shrink: 0;
+  }
+
+  .step-title {
+    color: var(--c-text-primary);
+    font-size: 0.9rem;
+  }
+
+  .path-meta {
+    display: flex;
+    gap: var(--space-4);
+    margin-bottom: var(--space-6);
+    font-size: 0.85rem;
+    color: var(--c-text-secondary);
+  }
+
+  .meta-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-1);
+  }
+
+  .start-btn-wrapper {
+    margin-top: auto;
+  }
+
+  @media (max-width: 768px) {
+    .paths-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+

@@ -1,0 +1,163 @@
+---
+/**
+ * 筛选栏组件
+ * 用于筛选和排序词条
+ */
+
+interface Props {
+  filters: Array<{
+    id: string;
+    label: string;
+    count?: number;
+  }>;
+  activeFilter?: string;
+  onFilterChange?: string; // JavaScript function name
+}
+
+const { filters, activeFilter = 'all', onFilterChange } = Astro.props;
+---
+
+<div class="filter-bar mono">
+  <span class="filter-label">> FILTER:</span>
+  <div class="filter-options">
+    {filters.map(filter => (
+      <button 
+        class:list={['filter-btn', { 'active': activeFilter === filter.id }]}
+        data-filter={filter.id}
+        data-count={filter.count}
+      >
+        {filter.label}
+        {filter.count !== undefined && (
+          <span class="filter-count">({filter.count})</span>
+        )}
+      </button>
+    ))}
+  </div>
+</div>
+
+<script>
+  function initFilterBar() {
+    const filterBar = document.querySelector('.filter-bar');
+    if (!filterBar) return;
+
+    const buttons = filterBar.querySelectorAll('.filter-btn');
+    const items = document.querySelectorAll('[data-filterable]');
+
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const filterId = btn.getAttribute('data-filter');
+        if (!filterId) return;
+
+        // Update button states
+        buttons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        // Filter items
+        let visibleCount = 0;
+        items.forEach(item => {
+          const itemFilters = item.getAttribute('data-filterable')?.split(' ') || [];
+          if (filterId === 'all' || itemFilters.includes(filterId)) {
+            item.classList.remove('hidden');
+            visibleCount++;
+          } else {
+            item.classList.add('hidden');
+          }
+        });
+
+        // Update URL (optional)
+        if (filterId !== 'all') {
+          const url = new URL(window.location.href);
+          url.searchParams.set('filter', filterId);
+          window.history.pushState({}, '', url);
+        } else {
+          const url = new URL(window.location.href);
+          url.searchParams.delete('filter');
+          window.history.pushState({}, '', url);
+        }
+      });
+    });
+
+    // Read filter from URL on load
+    const urlParams = new URLSearchParams(window.location.search);
+    const urlFilter = urlParams.get('filter');
+    if (urlFilter) {
+      const btn = filterBar.querySelector(`[data-filter="${urlFilter}"]`) as HTMLButtonElement;
+      btn?.click();
+    }
+  }
+
+  document.addEventListener('astro:page-load', initFilterBar);
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initFilterBar);
+  } else {
+    initFilterBar();
+  }
+</script>
+
+<style>
+  .filter-bar {
+    display: flex;
+    align-items: center;
+    gap: var(--space-6);
+    margin-bottom: var(--space-6);
+    padding: var(--space-4) var(--space-6);
+    background: rgba(10, 10, 10, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    flex-wrap: wrap;
+  }
+
+  .filter-label {
+    font-size: 0.85rem;
+    color: var(--c-text-secondary);
+    letter-spacing: 0.05em;
+  }
+
+  .filter-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+  }
+
+  .filter-btn {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--c-text-secondary);
+    padding: var(--space-2) var(--space-4);
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: var(--font-mono);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+  }
+
+  .filter-btn:hover {
+    border-color: var(--c-accent-cyan);
+    color: var(--c-text-primary);
+    background: rgba(0, 240, 255, 0.05);
+  }
+
+  .filter-btn.active {
+    background: var(--c-accent-cyan);
+    color: #000;
+    border-color: var(--c-accent-cyan);
+    font-weight: var(--weight-semibold);
+  }
+
+  .filter-count {
+    font-size: 0.75rem;
+    opacity: 0.8;
+  }
+
+  .filter-btn.active .filter-count {
+    opacity: 1;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+</style>
+

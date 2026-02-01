@@ -1,0 +1,328 @@
+---
+import MainLayout from '../../../layouts/MainLayout.astro';
+import SectionHeader from '../../../components/ui/SectionHeader.astro';
+import Card from '../../../components/ui/Card.astro';
+import Button from '../../../components/ui/Button.astro';
+import { getCollection } from 'astro:content';
+import taxonomyData from '../../../data/wiki-taxonomy.json';
+
+export async function getStaticPaths() {
+  const modules = [];
+  taxonomyData.dimensions.forEach(dim => {
+    dim.modules.forEach(module => {
+      modules.push({
+        params: { moduleId: module.id },
+        props: { module, dimension: dim }
+      });
+    });
+  });
+  // 添加通用模块
+  taxonomyData.commonModules.forEach(module => {
+    modules.push({
+      params: { moduleId: module.id },
+      props: { module, dimension: null }
+    });
+  });
+  return modules;
+}
+
+const { module, dimension } = Astro.props;
+const { moduleId } = Astro.params;
+const allKnowledge = await getCollection('knowledge');
+
+// 获取模块下的概念
+const moduleConcepts = allKnowledge.filter(k => 
+  k.data.module === moduleId
+);
+
+// 按学习顺序排序（如果有prerequisites）
+const sortedConcepts = [...moduleConcepts].sort((a, b) => {
+  const aPrereq = a.data.prerequisites?.length || 0;
+  const bPrereq = b.data.prerequisites?.length || 0;
+  return aPrereq - bPrereq;
+});
+---
+
+<MainLayout 
+  title={`${module.name} - 知识模块`}
+  description={module.description}
+>
+  <SectionHeader 
+    title={module.name}
+    ghostTitle="知识模块"
+    subtitle={module.description}
+  />
+
+  <div class="container section">
+    <!-- 模块信息 -->
+    <div class="module-info">
+      <div class="info-grid">
+        <div class="info-item">
+          <span class="info-label mono">难度等级:</span>
+          <span class="info-value">{module.level === 'beginner' ? '初级' : module.level === 'intermediate' ? '中级' : '高级'}</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label mono">预计时间:</span>
+          <span class="info-value">{module.estimatedTime}</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label mono">概念数量:</span>
+          <span class="info-value">{moduleConcepts.length}个</span>
+        </div>
+        {dimension && (
+          <div class="info-item">
+            <span class="info-label mono">所属维度:</span>
+            <a href={`/wiki/domain/${dimension.id}`} class="info-value link">
+              {dimension.name}
+            </a>
+          </div>
+        )}
+      </div>
+    </div>
+
+    <!-- 学习顺序 -->
+    <section class="learning-order-section">
+      <h2 class="section-title mono">📚 学习顺序</h2>
+      <div class="concepts-list">
+        {sortedConcepts.map((concept, index) => {
+          const prerequisites = concept.data.prerequisites || [];
+          const nextSteps = concept.data.nextSteps || [];
+          
+          return (
+            <div class="concept-item">
+              <div class="concept-order">{index + 1}</div>
+              <Card href={`/wiki/concept/${concept.id}`} class="concept-card" variant="default">
+                <div class="concept-header">
+                  <h3>{concept.data.title}</h3>
+                  {concept.data.isCore64 && <span class="core-badge">⭐</span>}
+                </div>
+                <p class="concept-desc">{concept.data.description || ''}</p>
+                {prerequisites.length > 0 && (
+                  <div class="prerequisites">
+                    <span class="prereq-label mono">前置知识:</span>
+                    <div class="prereq-tags">
+                      {prerequisites.map(prereqId => {
+                        const prereq = allKnowledge.find(k => k.id === prereqId);
+                        return prereq ? (
+                          <a href={`/wiki/concept/${prereq.id}`} class="prereq-tag" onclick="event.stopPropagation()">
+                            {prereq.data.title}
+                          </a>
+                        ) : null;
+                      })}
+                    </div>
+                  </div>
+                )}
+                {nextSteps.length > 0 && (
+                  <div class="next-steps">
+                    <span class="next-label mono">后续学习:</span>
+                    <div class="next-tags">
+                      {nextSteps.map(nextId => {
+                        const next = allKnowledge.find(k => k.id === nextId);
+                        return next ? (
+                          <a href={`/wiki/concept/${next.id}`} class="next-tag" onclick="event.stopPropagation()">
+                            {next.data.title}
+                          </a>
+                        ) : null;
+                      })}
+                    </div>
+                  </div>
+                )}
+              </Card>
+            </div>
+          );
+        })}
+      </div>
+      {moduleConcepts.length === 0 && (
+        <div class="empty-state">
+          <p class="mono">> 该模块暂无词条</p>
+          <p class="empty-desc">词条内容正在补充中...</p>
+        </div>
+      )}
+    </section>
+  </div>
+</MainLayout>
+
+<style>
+  .section {
+    padding: var(--space-12) 0 var(--space-20);
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    color: var(--c-accent-cyan);
+    margin-bottom: var(--space-8);
+    letter-spacing: 0.05em;
+  }
+
+  /* 模块信息 */
+  .module-info {
+    margin-bottom: var(--space-12);
+  }
+
+  .info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--space-6);
+  }
+
+  .info-item {
+    background: rgba(10, 10, 10, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    padding: var(--space-4);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+
+  .info-label {
+    color: var(--c-text-secondary);
+    font-size: 0.85rem;
+  }
+
+  .info-value {
+    color: var(--c-text-primary);
+    font-size: 1rem;
+    font-weight: var(--weight-semibold);
+  }
+
+  .info-value.link {
+    color: var(--c-accent-cyan);
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .info-value.link:hover {
+    text-decoration: underline;
+  }
+
+  /* 学习顺序 */
+  .learning-order-section {
+    margin-top: var(--space-12);
+  }
+
+  .concepts-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-6);
+  }
+
+  .concept-item {
+    display: flex;
+    gap: var(--space-6);
+    align-items: flex-start;
+  }
+
+  .concept-order {
+    background: var(--c-accent-cyan);
+    color: #000;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: var(--weight-bold);
+    font-family: var(--font-mono);
+    flex-shrink: 0;
+  }
+
+  .concept-card {
+    flex: 1;
+    min-height: 120px;
+  }
+
+  .concept-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--space-2);
+  }
+
+  .concept-header h3 {
+    font-size: 1.2rem;
+    color: var(--c-text-primary);
+    margin: 0;
+  }
+
+  .core-badge {
+    color: var(--c-accent-amber);
+    font-size: 1.2rem;
+  }
+
+  .concept-desc {
+    color: var(--c-text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: var(--space-4);
+  }
+
+  .prerequisites,
+  .next-steps {
+    margin-top: var(--space-4);
+    padding-top: var(--space-4);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .prereq-label,
+  .next-label {
+    color: var(--c-text-secondary);
+    font-size: 0.85rem;
+    display: block;
+    margin-bottom: var(--space-2);
+  }
+
+  .prereq-tags,
+  .next-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+  }
+
+  .prereq-tag,
+  .next-tag {
+    background: rgba(0, 240, 255, 0.05);
+    border: 1px solid rgba(0, 240, 255, 0.2);
+    color: var(--c-accent-cyan);
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.85rem;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .prereq-tag:hover,
+  .next-tag:hover {
+    background: rgba(0, 240, 255, 0.15);
+    border-color: var(--c-accent-cyan);
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: var(--space-16);
+    color: var(--c-text-secondary);
+    border: 1px dashed rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+  }
+
+  .empty-desc {
+    margin-top: var(--space-4);
+    font-size: 0.9rem;
+  }
+
+  /* 响应式 */
+  @media (max-width: 768px) {
+    .concept-item {
+      flex-direction: column;
+    }
+
+    .concept-order {
+      align-self: flex-start;
+    }
+
+    .info-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+

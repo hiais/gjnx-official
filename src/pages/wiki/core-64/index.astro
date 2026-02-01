@@ -1,0 +1,268 @@
+---
+import MainLayout from '../../../layouts/MainLayout.astro';
+import SectionHeader from '../../../components/ui/SectionHeader.astro';
+import Card from '../../../components/ui/Card.astro';
+import { getCollection } from 'astro:content';
+import taxonomyData from '../../../data/wiki-taxonomy.json';
+
+const allKnowledge = await getCollection('knowledge');
+
+// 统计64技术点状态
+let totalTechPoints = 0;
+let mappedTechPoints = 0;
+const techPointsByDimension = taxonomyData.dimensions.map(dim => {
+  const techPoints = dim.techPoints.map(tp => {
+    totalTechPoints++;
+    // 优先使用conceptId，如果没有则尝试通过isCore64和techPointId匹配
+    let concept = tp.conceptId ? allKnowledge.find(k => k.id === tp.conceptId) : null;
+    if (!concept && tp.slug) {
+      // 尝试通过slug匹配
+      concept = allKnowledge.find(k => k.id === tp.slug);
+    }
+    if (!concept) {
+      // 尝试通过techPointId匹配
+      concept = allKnowledge.find(k => 
+        k.data.isCore64 === true && k.data.techPointId === tp.id
+      );
+    }
+    if (concept) {
+      mappedTechPoints++;
+      return { ...tp, concept, status: 'mapped' };
+    }
+    return { ...tp, concept: null, status: 'missing' };
+  });
+  return {
+    dimension: dim,
+    techPoints
+  };
+});
+
+const coveragePercent = ((mappedTechPoints / totalTechPoints) * 100).toFixed(1);
+---
+
+<MainLayout 
+  title="64核心技术点 - 知识体系"
+  description="硅基能效知识体系的64个核心技术点，系统化掌握芯片能效与AI算力"
+>
+  <SectionHeader 
+    title="64核心技术点"
+    ghostTitle="Core Tech Vocabulary"
+    subtitle="硅基能效知识体系的64个核心技术点，系统化掌握芯片能效与AI算力"
+  />
+
+  <div class="container section">
+    <!-- 统计概览 -->
+    <div class="stats-overview">
+      <div class="stat-card">
+        <div class="stat-value">{mappedTechPoints}</div>
+        <div class="stat-label mono">已创建</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">{totalTechPoints - mappedTechPoints}</div>
+        <div class="stat-label mono">待创建</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">{coveragePercent}%</div>
+        <div class="stat-label mono">覆盖率</div>
+      </div>
+    </div>
+
+    <!-- 按维度展示 -->
+    {techPointsByDimension.map(({ dimension, techPoints }) => (
+      <section class="dimension-section">
+        <div class="dimension-header">
+          <h2 class="dimension-title">
+            <span class="dimension-code mono">{dimension.code}</span>
+            {dimension.name}
+          </h2>
+          <div class="dimension-stats">
+            <span class="stat-badge">
+              已创建: {techPoints.filter(tp => tp.status === 'mapped').length} / {techPoints.length}
+            </span>
+          </div>
+        </div>
+        <div class="tech-points-grid">
+          {techPoints.map(tp => (
+            <Card 
+              href={tp.concept ? `/wiki/concept/${tp.concept.id}` : '#'}
+              class="tech-point-card"
+              variant={tp.concept ? 'default' : 'compact'}
+            >
+              <div class="tech-point-header">
+                <span class="tech-point-id mono">{dimension.code}-{tp.id}</span>
+                {tp.concept && <span class="status-badge mapped">✓</span>}
+                {!tp.concept && <span class="status-badge missing">待创建</span>}
+              </div>
+              <h4>{tp.name}</h4>
+              {tp.concept && (
+                <p class="tech-point-desc">{tp.concept.data.description || ''}</p>
+              )}
+              {!tp.concept && (
+                <p class="tech-point-desc missing-text">词条待补充</p>
+              )}
+            </Card>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+</MainLayout>
+
+<style>
+  .section {
+    padding: var(--space-12) 0 var(--space-20);
+  }
+
+  /* 统计概览 */
+  .stats-overview {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--space-6);
+    margin-bottom: var(--space-12);
+  }
+
+  .stat-card {
+    background: rgba(10, 10, 10, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    padding: var(--space-6);
+    text-align: center;
+  }
+
+  .stat-value {
+    font-size: 2.5rem;
+    font-weight: var(--weight-bold);
+    color: var(--c-accent-cyan);
+    margin-bottom: var(--space-2);
+  }
+
+  .stat-label {
+    color: var(--c-text-secondary);
+    font-size: 0.85rem;
+  }
+
+  /* 维度区块 */
+  .dimension-section {
+    margin-bottom: var(--space-16);
+  }
+
+  .dimension-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--space-8);
+    padding-bottom: var(--space-4);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .dimension-title {
+    font-size: 1.8rem;
+    color: var(--c-text-primary);
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    margin: 0;
+  }
+
+  .dimension-code {
+    background: var(--c-accent-cyan);
+    color: #000;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .dimension-stats {
+    display: flex;
+    gap: var(--space-4);
+  }
+
+  .stat-badge {
+    background: rgba(0, 240, 255, 0.1);
+    border: 1px solid var(--c-accent-cyan);
+    color: var(--c-accent-cyan);
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-family: var(--font-mono);
+  }
+
+  /* 技术点网格 */
+  .tech-points-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--space-6);
+  }
+
+  .tech-point-card {
+    min-height: 120px;
+  }
+
+  .tech-point-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--space-2);
+  }
+
+  .tech-point-id {
+    color: var(--c-accent-cyan);
+    font-size: 0.85rem;
+  }
+
+  .status-badge {
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.75rem;
+    font-family: var(--font-mono);
+  }
+
+  .status-badge.mapped {
+    background: rgba(0, 240, 255, 0.1);
+    border: 1px solid var(--c-accent-cyan);
+    color: var(--c-accent-cyan);
+  }
+
+  .status-badge.missing {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: var(--c-text-secondary);
+  }
+
+  .tech-point-card h4 {
+    font-size: 1.1rem;
+    color: var(--c-text-primary);
+    margin: var(--space-2) 0;
+  }
+
+  .tech-point-desc {
+    font-size: 0.85rem;
+    color: var(--c-text-secondary);
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  .missing-text {
+    color: var(--c-text-secondary);
+    opacity: 0.6;
+  }
+
+  /* 响应式 */
+  @media (max-width: 768px) {
+    .stats-overview {
+      grid-template-columns: 1fr;
+    }
+
+    .tech-points-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .dimension-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: var(--space-4);
+    }
+  }
+</style>
+

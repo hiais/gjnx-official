@@ -1,0 +1,112 @@
+---
+/**
+ * 统计卡片组件
+ * 显示各种统计数据
+ */
+
+interface Props {
+  label: string;
+  value: string | number;
+  unit?: string;
+  icon?: string;
+  trend?: 'up' | 'down' | 'neutral';
+  color?: 'cyan' | 'amber' | 'rose' | 'default';
+}
+
+const { label, value, unit, icon, trend, color = 'cyan' } = Astro.props;
+
+const colorMap = {
+  cyan: 'var(--c-accent-cyan)',
+  amber: 'var(--c-accent-amber)',
+  rose: 'var(--c-accent-rose)',
+  default: 'var(--c-text-primary)'
+};
+---
+
+<div class="stats-card">
+  {icon && (
+    <div class="stats-icon">{icon}</div>
+  )}
+  <div class="stats-content">
+    <div class="stats-value" style={`color: ${colorMap[color]}`}>
+      {value}
+      {unit && <span class="stats-unit">{unit}</span>}
+      {trend && (
+        <span class:list={['stats-trend', `trend-${trend}`]}>
+          {trend === 'up' ? '↑' : trend === 'down' ? '↓' : '→'}
+        </span>
+      )}
+    </div>
+    <div class="stats-label mono">{label}</div>
+  </div>
+</div>
+
+<style>
+  .stats-card {
+    background: rgba(10, 10, 10, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    padding: var(--space-6);
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-4);
+    transition: all 0.3s;
+  }
+
+  .stats-card:hover {
+    border-color: var(--c-accent-cyan);
+    background: rgba(0, 240, 255, 0.05);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  .stats-icon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+  }
+
+  .stats-content {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .stats-value {
+    font-size: 2rem;
+    font-weight: var(--weight-bold);
+    line-height: 1.2;
+    margin-bottom: var(--space-2);
+    display: flex;
+    align-items: baseline;
+    gap: var(--space-2);
+  }
+
+  .stats-unit {
+    font-size: 1rem;
+    opacity: 0.7;
+    font-weight: var(--weight-regular);
+  }
+
+  .stats-trend {
+    font-size: 1rem;
+    margin-left: var(--space-1);
+  }
+
+  .trend-up {
+    color: var(--c-accent-cyan);
+  }
+
+  .trend-down {
+    color: var(--c-accent-rose);
+  }
+
+  .trend-neutral {
+    color: var(--c-text-secondary);
+  }
+
+  .stats-label {
+    font-size: 0.85rem;
+    color: var(--c-text-secondary);
+    letter-spacing: 0.05em;
+  }
+</style>
+

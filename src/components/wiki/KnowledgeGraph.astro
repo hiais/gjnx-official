@@ -1,0 +1,149 @@
+---
+interface Props {
+  conceptId: string;
+  concepts: any[]; // List of all concept data to build the graph
+  currentDimension?: string;
+}
+
+const { conceptId, concepts, currentDimension } = Astro.props;
+---
+
+<div id="knowledge-graph" class="knowledge-graph-container"></div>
+
+<script>
+  import { Network } from "vis-network/peer";
+  import { DataSet } from "vis-data/peer";
+
+  // Data passed from server-side
+  const conceptId = document.getElementById('knowledge-graph-data').dataset.conceptId;
+  const rawConcepts = JSON.parse(document.getElementById('knowledge-graph-data').dataset.concepts);
+  const currentDimension = document.getElementById('knowledge-graph-data').dataset.dimension;
+
+  // 1. Build Nodes & Edges
+  // Logic: 
+  // - Central Node: Current Concept
+  // - Level 1 Neighbors: Prerequisites, Next Steps, Same Module/Category
+  // - Edges: 'depends_on', 'relates_to'
+  
+  const nodes = new DataSet();
+  const edges = new DataSet();
+  const addedNodeIds = new Set();
+
+  function addNode(concept, type = 'normal') {
+      if (addedNodeIds.has(concept.id)) return;
+      
+      let color = { background: '#1a1a1a', border: '#333' };
+      let size = 20;
+      let label = concept.data.title;
+      
+      if (concept.id === conceptId) {
+          color = { background: 'rgba(0, 240, 255, 0.2)', border: '#00f0ff' };
+          size = 30;
+      } else if (type === 'prerequisite') {
+          color = { background: 'rgba(255, 174, 0, 0.2)', border: '#ffae00' };
+      } else if (type === 'nextStep') {
+          color = { background: 'rgba(0, 255, 0, 0.2)', border: '#00ff00' };
+      }
+
+      nodes.add({
+          id: concept.id,
+          label: label,
+          shape: 'dot',
+          size: size,
+          color: color,
+          font: { color: '#ccc', face: 'monospace' }
+      });
+      addedNodeIds.add(concept.id);
+  }
+
+  // Find current concept
+  const current = rawConcepts.find(c => c.id === conceptId);
+  if (current) {
+      addNode(current, 'current');
+
+      // Add Prerequisites
+      (current.data.prerequisites || []).forEach(pid => {
+          const p = rawConcepts.find(c => c.id === pid);
+          if (p) {
+              addNode(p, 'prerequisite');
+              edges.add({ from: pid, to: conceptId, arrows: 'to', color: { color: '#ffae00', opacity: 0.5 } });
+          }
+      });
+
+      // Add Next Steps
+      (current.data.nextSteps || []).forEach(nid => {
+          const n = rawConcepts.find(c => c.id === nid);
+          if (n) {
+              addNode(n, 'nextStep');
+              edges.add({ from: conceptId, to: nid, arrows: 'to', color: { color: '#00ff00', opacity: 0.5 } });
+          }
+      });
+      
+      // Add Related (Same Module) - up to 5
+      if (current.data.module) {
+        const related = rawConcepts.filter(c => c.data.module === current.data.module && c.id !== conceptId).slice(0, 5);
+        related.forEach(r => {
+            addNode(r, 'related');
+            edges.add({ from: conceptId, to: r.id, color: { color: '#333', opacity: 0.3, dashes: true } });
+        });
+      }
+  }
+
+  // 2. Initialize Network
+  const container = document.getElementById('knowledge-graph');
+  const data = { nodes, edges };
+  const options = {
+    nodes: {
+        borderWidth: 1,
+        borderWidthSelected: 2,
+    },
+    physics: {
+        stabilization: false,
+        barnesHut: {
+            gravitationalConstant: -2000,
+            springConstant: 0.04,
+            springLength: 95
+        }
+    },
+    interaction: {
+        hover: true,
+        tooltipDelay: 200,
+        dragView: true,
+        zoomView: true 
+    }
+  };
+
+  const network = new Network(container, data, options);
+
+  // Click handler
+  network.on("click", function (params) {
+      if (params.nodes.length > 0) {
+          const clickedId = params.nodes[0];
+          // Strip extension for URL (e.g. .md) to match getStaticPaths slug
+          const slug = clickedId.replace(/\.[^/.]+$/, "");
+          
+          if (clickedId !== conceptId) {
+             window.location.href = `/wiki/concept/${slug}`;
+          }
+      }
+  });
+
+</script>
+
+<!-- Hidden data container for passing server-side data to client-side script -->
+<div id="knowledge-graph-data" 
+  data-concept-id={conceptId}
+  data-concepts={JSON.stringify(concepts)}
+  data-dimension={currentDimension}
+  style="display: none;"
+></div>
+
+<style>
+  .knowledge-graph-container {
+    width: 100%;
+    height: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.3);
+  }
+</style>
