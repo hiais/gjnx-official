@@ -1,13 +1,23 @@
 [
   {
+    "title": "优必选全面开源 Thinker 大模型",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/401251",
+    "abstract": "优必选宣布对其具身智能大模型Thinker进行了架构升级。本次升级聚焦“小参数、高性能、全开源”，旨在打造一个能为工业人形机器人提供快速反应与精准空间感知的下一代具身智能大脑，以应对动态工业场景的挑战。 公告称，Thinker将作为智能基座，为优必选的群脑网络和协作智能体Co-Agent提供认知与决策支持，进而驱动单机......",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "down"
+  },
+  {
     "title": "树莓派将推出“智能显示模块（Smart Display Module）”",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/400701/raspberry-pi-smart-display-module-coming-soon",
     "abstract": "树莓派宣布正在与夏普合作开发树莓派智能显示模块（Raspberry Pi Smart Display Module）：一款适用于树莓派 Compute Module 5 的适配器板，预计将在 2026 年晚些时候发布，并将于下周在 ISE 2026 展会（巴塞罗那，2 月 3–6 日） 首次公开亮相。 据介绍，这款智能显示模块可将 CM5 的算力与能效直接集...",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "up"
+    "rank": "02",
+    "trend": "down"
   },
   {
     "title": "商汤开源 SenseNova-MARS：突破多模态搜索推理天花板",
@@ -16,37 +26,17 @@
     "abstract": "商汤正式开源多模态自主推理模型SenseNova-MARS（8B/32B双版本），其在多模态搜索与推理的核心基准测试中以69.74分超越Gemini-3-Pro（69.06分）、GPT-5.2（67.64分）。SenseNova-MARS是首个支持动态视觉推理和图文搜索深度融合的Agentic VLM模型，它能自己规划步骤、调用工具，轻松搞定各种复杂任务，让...",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
-  },
-  {
-    "title": "性能超越 DeepSeek-OCR2，百度发布并开源新一代 SOTA OCR 模型",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/400516/paddleocr-vl-1-5-news",
-    "abstract": "1月29日，百度正式发布并开源新一代文档解析模型PaddleOCR-VL-1.5。该模型以仅0.9B参数的轻量架构，在全球权威文档解析评测榜单OmniDocBench V1.5中取得全球综合性能第一成绩，整体精度达到94.5%，超过Gemini-3-Pro、DeepSeek-OCR2、Qwen3-VL-235B-A22B、GPT-5.2等模型。 值得关注的是...",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
-    "title": "2025年度“十大科技热词”正式发布，智能体、AI 治理、具身智能等入选",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/400435",
-    "abstract": "中国科技新闻学会今日在国家科技传播中心召开新闻发布会，会上发布了2025年度“十大科技新闻事件”“十大科技热词”。 评选活动由中国科技新闻学会主办，中国科技新闻学会科技传播力促进工作委员会、《科学中国人》杂志社共同承办，以大数据筛选与广泛征集相结合的形式形成候选名单，经院士、科技专家、媒体负责人、科普......",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
-  },
-  {
-    "title": "RoboChallenge 年度报告发布，具身智能迈向标准化时代",
-    "source": "MachineHeart",
-    "link": "https://www.jiqizhixin.com/articles/2026-01-30-12",
+    "title": "开源炸场！优必选具身智能大模型Thinker再次狂揽9项全球第一！",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/02/375344.html",
     "abstract": "",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -56,18 +46,8 @@
     "abstract": "中国信息通信研究院（简称“中国信通院”）联合清华大学电子工程系近日正式发布《具身智能发展报告（2025年）》。 报告聚焦过去一年来具身智能产业的新发展新变化新挑战，总结梳理国内外具身智能产业、技术、应用等方面的发展特点，聚焦“数据-模型-本体”三个关键环节，研判分析技术发展路径及问题，围绕机器人、智能运......",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
-  },
-  {
-    "title": "蚂蚁正式开源 LingBot-Depth，基于掩码深度建模的新一代空间感知模型",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/400402",
-    "abstract": "1月27日，我们正式开源了 LingBot-Depth 空间感知模型。 不同于数字世界，具身智能的落地高度依赖物理空间信息，空间智能是其在现实场景落地应用的核心关键，而视觉维度下支撑空间智能的重要桥梁正是距离与尺度（Metric Depth）。基于这一核心需求，空间感知模型 LingBot-Depth 应运而生。 LingBot-Depth 是一种面向真实....",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -76,7 +56,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -86,7 +66,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -96,7 +76,7 @@
     "abstract": "GNOME Resources 1.10 was christened today as the newest version of this modern system monitoring app for the GNOME desktop that is now used by default on the likes of the upcoming ...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -106,7 +86,7 @@
     "abstract": "OpenAI宣布将于2026年2月13日正式从ChatGPT中移除GPT-4o、GPT-4.1、GPT-4.1 mini及o4-mini等旧版模型，此前已预告同期退役GPT-5（Instant与Thinking）版本。API用户暂不受影响。 其中，GPT-4o因部分Plus与Pro用户反馈其在创意构思和对话风格上的独特优势，曾在GPT-5发布后短暂恢复访问。...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -116,17 +96,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
-  },
-  {
-    "title": "Chrome 重大 AI 更新：Gemini 3 &amp; 自动浏览（Auto Browse）登场",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/400424/chrome-gemini-3-auto-browse",
-    "abstract": "谷歌宣布为 Chrome 浏览器带来一系列基于最新 AI 模型 Gemini 3 的功能升级，标志着浏览器进入更加智能的时代。 Gemini 3 驱动的智能侧边栏 Chrome 新增了一个 侧边栏界面，用户可以在浏览任何网页时保持 AI 助手常驻屏幕右侧，不需切换标签页即可执行任务。无论是比较多个购物选项、汇总产品评论，还是查找会议时间，这......",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -136,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -146,7 +116,37 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "15",
+    "rank": "12",
+    "trend": "down"
+  },
+  {
+    "title": "Hugging Face on PyTorch / XLA TPUs",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/pytorch-xla",
+    "abstract": "",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "13",
+    "trend": "down"
+  },
+  {
+    "title": "宇树开源 UnifoLM-VLA-0，面向通用人形机器人操作的 VLA 大模型",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/400600/unifolm-vla",
+    "abstract": "宇树科技宣布开源面向通用人形机器人操作的视觉-语言-动作（VLA）大模型 UnifoLM-VLA-0，旨在通过强化空间推理与物理交互能力，推动机器人从“图文理解”向“具身大脑”升级。 据介绍，该模型通过在机器人操作数据上的继续预训练，实现了从通用“图文理解”向具备物理常识的“具身大脑”的进化，旨在突破传统 VLM 在物理......",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "14",
     "trend": "up"
+  },
+  {
+    "title": "OpenMOSS 团队发布高性能开源音视频生成模型：MOVA",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/400715",
+    "abstract": "上海创智学院 OpenMOSS 团队联合初创公司模思智能（MOSI）正式发布并开源 MOVA（MOSS-Video-and-Audio），这是一个功能强大的多模态基础模型，专为高保真、同步的视频音频合成而设计。 据介绍，MOVA 是中国首个高性能开源音视频模型，实现端到端音画同出，打破 Sora2、Veo3 等闭源技术垄断。MOVA 可生成长 8 秒、最高 ...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "15",
+    "trend": "down"
   }
 ]
