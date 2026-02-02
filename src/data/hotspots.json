@@ -17,27 +17,27 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "02",
+    "trend": "up"
+  },
+  {
+    "title": "Nature | 清北合作研发全球首个全柔性存算一体AI芯片",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/02/375362.html",
+    "abstract": "薄如纸片、能卷在手指上...",
+    "pscore": 87,
+    "category": "CHIP_FRONT",
+    "rank": "03",
     "trend": "down"
   },
   {
-    "title": "商汤开源 SenseNova-MARS：突破多模态搜索推理天花板",
+    "title": "中国信通院发布《人工智能产业发展研究报告（2025 年）》",
     "source": "OSChina",
-    "link": "https://my.oschina.net/u/4806939/blog/19205884",
-    "abstract": "商汤正式开源多模态自主推理模型SenseNova-MARS（8B/32B双版本），其在多模态搜索与推理的核心基准测试中以69.74分超越Gemini-3-Pro（69.06分）、GPT-5.2（67.64分）。SenseNova-MARS是首个支持动态视觉推理和图文搜索深度融合的Agentic VLM模型，它能自己规划步骤、调用工具，轻松搞定各种复杂任务，让...",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
-  },
-  {
-    "title": "开源炸场！优必选具身智能大模型Thinker再次狂揽9项全球第一！",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/02/375344.html",
-    "abstract": "",
+    "link": "https://www.oschina.net/news/401277",
+    "abstract": "中国信息通信研究院（简称“中国信通院”）近日在深入调研和量化评测的基础上，发布了《人工智能产业发展研究报告（2025年）》。 报告全面探讨了基础模型演进、具身智能突破、智算基础设施升级、智能原生应用涌现、安全治理实践及全球合作进展等，并对迈向通用人工智能（AGI）的路径进行了前瞻展望，以期与业界分享，共同......",
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "中国信通院发布《具身智能发展报告（2025年）》",
@@ -47,7 +47,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -67,7 +67,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "GNOME Resources 1.10 Adds Monitoring Support For AMD Ryzen AI NPUs",
@@ -80,24 +80,24 @@
     "trend": "down"
   },
   {
-    "title": "OpenAI 将于 2 月 13 日 下线 GPT-4o 等旧版模型",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/400611/openai-retiring-gpt-4o-and-older-models",
-    "abstract": "OpenAI宣布将于2026年2月13日正式从ChatGPT中移除GPT-4o、GPT-4.1、GPT-4.1 mini及o4-mini等旧版模型，此前已预告同期退役GPT-5（Instant与Thinking）版本。API用户暂不受影响。 其中，GPT-4o因部分Plus与Pro用户反馈其在创意构思和对话风格上的独特优势，曾在GPT-5发布后短暂恢复访问。...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
-  },
-  {
     "title": "Groq on Hugging Face Inference Providers 🔥",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/inference-providers-groq",
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
+    "rank": "09",
+    "trend": "down"
+  },
+  {
+    "title": "My iPhone 16 Pro Max produces garbage output when running MLX LLMs",
+    "source": "HackerNews",
+    "link": "https://journal.rafaelcosta.me/my-thousand-dollar-iphone-cant-do-math/",
+    "abstract": "Comments...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -117,7 +117,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -127,17 +127,17 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "down"
+    "trend": "up"
   },
   {
-    "title": "宇树开源 UnifoLM-VLA-0，面向通用人形机器人操作的 VLA 大模型",
+    "title": "月之暗面 Kimi 海外收入首次超越国内，K2.5 推动全球用户激增",
     "source": "OSChina",
-    "link": "https://www.oschina.net/news/400600/unifolm-vla",
-    "abstract": "宇树科技宣布开源面向通用人形机器人操作的视觉-语言-动作（VLA）大模型 UnifoLM-VLA-0，旨在通过强化空间推理与物理交互能力，推动机器人从“图文理解”向“具身大脑”升级。 据介绍，该模型通过在机器人操作数据上的继续预训练，实现了从通用“图文理解”向具备物理常识的“具身大脑”的进化，旨在突破传统 VLM 在物理......",
-    "pscore": 75,
+    "link": "https://www.oschina.net/news/401376",
+    "abstract": "根据智能涌现的独家报道，Kimi 在发布新模型 K2.5 后，海外市场表现出现显著跃升，公司的海外收入已超过国内收入，全球付费用户数在模型更新后的短短几天内实现 4 倍增长。与此同时，K2.5 在 Openrouter 上的热度快速攀升，排名已升至第三位，仅次于 Claude Sonnet 4.5 和 Gemini 3 Flash。 Kimi 的商业化进程始...",
+    "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "14",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "OpenMOSS 团队发布高性能开源音视频生成模型：MOVA",
