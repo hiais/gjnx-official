@@ -7,17 +7,17 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
-    "title": "Nature | 清北合作研发全球首个全柔性存算一体AI芯片",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/02/375362.html",
-    "abstract": "薄如纸片、能卷在手指上...",
-    "pscore": 87,
+    "title": "摩尔线程推出 AI Coding Plan 智能编程服务，首月免费",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/401640",
+    "abstract": "摩尔线程宣布正式推出 AI Coding Plan 智能编程服务。 根据介绍，全新推出的AI Coding Plan依托摩尔线程MTT S5000的全精度计算能力，通过软硬件协同架构实现了算力效能的倍增。摩尔线程与硅基流动联合开发，通过高效算子融合及框架极致优化，在确保代码生成质量的同时显著降低了响应延迟。 在核心模型层面上，系统选用了......",
+    "pscore": 96,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "中国信通院发布《人工智能产业发展研究报告（2025 年）》",
@@ -27,7 +27,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -100,13 +100,23 @@
     "trend": "down"
   },
   {
+    "title": "10 米/秒，全球最快人形机器人 Bolt 发布",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/401567",
+    "abstract": "浙江大学杭州国际科创中心（简称科创中心）人形机器人创新研究院宣布正式发布全尺寸人形机器人Bolt。 由科创中心联合镜识科技、凯尔达共同研发完成，该机器人以10米/秒的奔跑时速，成为目前全球跑得最快的人形机器人。“标志着三方在机器人运动控制、动态平衡与高爆发驱动等关键技术领域取得重要突破。” 根据介绍，Bol......",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "11",
+    "trend": "down"
+  },
+  {
     "title": "月之暗面 Kimi 海外收入首次超越国内，K2.5 推动全球用户激增",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/401376",
     "abstract": "根据智能涌现的独家报道，Kimi 在发布新模型 K2.5 后，海外市场表现出现显著跃升，公司的海外收入已超过国内收入，全球付费用户数在模型更新后的短短几天内实现 4 倍增长。与此同时，K2.5 在 Openrouter 上的热度快速攀升，排名已升至第三位，仅次于 Claude Sonnet 4.5 和 Gemini 3 Flash。 Kimi 的商业化进程始...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   }
 ]
