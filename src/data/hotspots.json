@@ -37,7 +37,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "中国信通院发布《具身智能发展报告（2025年）》",
@@ -47,7 +47,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -57,7 +57,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -67,7 +67,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "GNOME Resources 1.10 Adds Monitoring Support For AMD Ryzen AI NPUs",
@@ -90,24 +90,14 @@
     "trend": "down"
   },
   {
-    "title": "My iPhone 16 Pro Max produces garbage output when running MLX LLMs",
-    "source": "HackerNews",
-    "link": "https://journal.rafaelcosta.me/my-thousand-dollar-iphone-cant-do-math/",
-    "abstract": "Comments...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
-  },
-  {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/keras-chatbot-arena",
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -116,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -126,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -136,8 +126,8 @@
     "abstract": "根据智能涌现的独家报道，Kimi 在发布新模型 K2.5 后，海外市场表现出现显著跃升，公司的海外收入已超过国内收入，全球付费用户数在模型更新后的短短几天内实现 4 倍增长。与此同时，K2.5 在 Openrouter 上的热度快速攀升，排名已升至第三位，仅次于 Claude Sonnet 4.5 和 Gemini 3 Flash。 Kimi 的商业化进程始...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
   },
   {
     "title": "OpenMOSS 团队发布高性能开源音视频生成模型：MOVA",
@@ -146,7 +136,7 @@
     "abstract": "上海创智学院 OpenMOSS 团队联合初创公司模思智能（MOSI）正式发布并开源 MOVA（MOSS-Video-and-Audio），这是一个功能强大的多模态基础模型，专为高保真、同步的视频音频合成而设计。 据介绍，MOVA 是中国首个高性能开源音视频模型，实现端到端音画同出，打破 Sora2、Veo3 等闭源技术垄断。MOVA 可生成长 8 秒、最高 ...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "15",
-    "trend": "down"
+    "rank": "14",
+    "trend": "up"
   }
 ]
