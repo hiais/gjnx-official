@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "摩尔线程推出 AI Coding Plan 智能编程服务，首月免费",
@@ -17,7 +17,7 @@
     "pscore": 96,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "中国信通院发布《人工智能产业发展研究报告（2025 年）》",
@@ -27,7 +27,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "GNOME Resources 1.10 Adds Monitoring Support For AMD Ryzen AI NPUs",
@@ -57,7 +57,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -67,7 +67,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -107,7 +107,17 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "down"
+    "trend": "up"
+  },
+  {
+    "title": "Intel Panther Lake Shows Strong Linux CPU Performance & Power Efficiency With Core Ultra X7 358H Benchmarks",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/review/intel-core-ultra-x7-358h-linux",
+    "abstract": "For those that have been very eager to hear about the Intel Core Ultra Series 3 \"Panther Lake\" performance on Linux, today's the day! Last Thursday the MSI Prestige 14 Flip AI+ Evo...",
+    "pscore": 71,
+    "category": "CHIP_FRONT",
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "月之暗面 Kimi 海外收入首次超越国内，K2.5 推动全球用户激增",
@@ -116,7 +126,7 @@
     "abstract": "根据智能涌现的独家报道，Kimi 在发布新模型 K2.5 后，海外市场表现出现显著跃升，公司的海外收入已超过国内收入，全球付费用户数在模型更新后的短短几天内实现 4 倍增长。与此同时，K2.5 在 Openrouter 上的热度快速攀升，排名已升至第三位，仅次于 Claude Sonnet 4.5 和 Gemini 3 Flash。 Kimi 的商业化进程始...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
   }
 ]
