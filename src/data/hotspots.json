@@ -10,23 +10,13 @@
     "trend": "up"
   },
   {
-    "title": "树莓派将推出“智能显示模块（Smart Display Module）”",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/400701/raspberry-pi-smart-display-module-coming-soon",
-    "abstract": "树莓派宣布正在与夏普合作开发树莓派智能显示模块（Raspberry Pi Smart Display Module）：一款适用于树莓派 Compute Module 5 的适配器板，预计将在 2026 年晚些时候发布，并将于下周在 ISE 2026 展会（巴塞罗那，2 月 3–6 日） 首次公开亮相。 据介绍，这款智能显示模块可将 CM5 的算力与能效直接集...",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
-  },
-  {
     "title": "Nature | 清北合作研发全球首个全柔性存算一体AI芯片",
     "source": "QbitAI",
     "link": "https://www.qbitai.com/2026/02/375362.html",
     "abstract": "薄如纸片、能卷在手指上...",
     "pscore": 87,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -36,18 +26,8 @@
     "abstract": "中国信息通信研究院（简称“中国信通院”）近日在深入调研和量化评测的基础上，发布了《人工智能产业发展研究报告（2025年）》。 报告全面探讨了基础模型演进、具身智能突破、智算基础设施升级、智能原生应用涌现、安全治理实践及全球合作进展等，并对迈向通用人工智能（AGI）的路径进行了前瞻展望，以期与业界分享，共同......",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
-  },
-  {
-    "title": "中国信通院发布《具身智能发展报告（2025年）》",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/400711",
-    "abstract": "中国信息通信研究院（简称“中国信通院”）联合清华大学电子工程系近日正式发布《具身智能发展报告（2025年）》。 报告聚焦过去一年来具身智能产业的新发展新变化新挑战，总结梳理国内外具身智能产业、技术、应用等方面的发展特点，聚焦“数据-模型-本体”三个关键环节，研判分析技术发展路径及问题，围绕机器人、智能运......",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "03",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -56,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -66,7 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -76,8 +56,8 @@
     "abstract": "GNOME Resources 1.10 was christened today as the newest version of this modern system monitoring app for the GNOME desktop that is now used by default on the likes of the upcoming ...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -86,8 +66,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -96,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -106,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -116,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "月之暗面 Kimi 海外收入首次超越国内，K2.5 推动全球用户激增",
@@ -126,17 +106,7 @@
     "abstract": "根据智能涌现的独家报道，Kimi 在发布新模型 K2.5 后，海外市场表现出现显著跃升，公司的海外收入已超过国内收入，全球付费用户数在模型更新后的短短几天内实现 4 倍增长。与此同时，K2.5 在 Openrouter 上的热度快速攀升，排名已升至第三位，仅次于 Claude Sonnet 4.5 和 Gemini 3 Flash。 Kimi 的商业化进程始...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
-  },
-  {
-    "title": "OpenMOSS 团队发布高性能开源音视频生成模型：MOVA",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/400715",
-    "abstract": "上海创智学院 OpenMOSS 团队联合初创公司模思智能（MOSI）正式发布并开源 MOVA（MOSS-Video-and-Audio），这是一个功能强大的多模态基础模型，专为高保真、同步的视频音频合成而设计。 据介绍，MOVA 是中国首个高性能开源音视频模型，实现端到端音画同出，打破 Sora2、Veo3 等闭源技术垄断。MOVA 可生成长 8 秒、最高 ...",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "11",
     "trend": "up"
   }
 ]
