@@ -10,13 +10,23 @@
     "trend": "down"
   },
   {
+    "title": "OpenAI：GPT-5.2/Codex 模型速度提升 40%",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/401931",
+    "abstract": "OpenAI 宣布对其最新旗舰 AI 模型进行了显著性能提升，GPT-5.2和 GPT-5.2-Codex 现已为所有 API 客户提供40% 的推理速度提升。 此次更新源于对公司推理堆栈的优化，该堆栈负责处理模型查询。重要的是，这些改进保持了相同的模型架构和权重，意味着底层能力和训练数据没有变化——只是降低延迟以加快响应时间。 “同型号。......",
+    "pscore": 89,
+    "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "down"
+  },
+  {
     "title": "Google Cloud TPUs made available to Hugging Face users",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -26,8 +36,18 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "04",
     "trend": "up"
+  },
+  {
+    "title": "libinput 1.31 Bringing Support For Fast Three-Finger Swipes",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/libinput-1.31-rc1",
+    "abstract": "Linux input expert Peter Hutterer of Red Hat announced today the first release candidate of libinput 1.31, the input handling library used by both modern X.Org Server and Wayland d...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "GNOME Resources 1.10 Adds Monitoring Support For AMD Ryzen AI NPUs",
@@ -36,8 +56,18 @@
     "abstract": "GNOME Resources 1.10 was christened today as the newest version of this modern system monitoring app for the GNOME desktop that is now used by default on the likes of the upcoming ...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
+  },
+  {
+    "title": "OpenAI 与 Snowflake 签署 2 亿美元的模型集成合作协议",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/401871/openai-snowflake-partnership",
+    "abstract": "OpenAI 与数据云平台巨头 Snowflake 宣布达成一项价值约 2 亿美元的多年度战略合作，旨在将 OpenAI 的先进 AI 模型原生嵌入 Snowflake 企业数据生态系统。这意味着企业可以直接在 Snowflake 平台上调用 OpenAI 的 AI 模型（如 GPT-5.2），在安全、受控的环境中进行商业数据分析、自动化流程和智能应用开发，...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -46,7 +76,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -56,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -66,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -76,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "10 米/秒，全球最快人形机器人 Bolt 发布",
@@ -86,8 +116,8 @@
     "abstract": "浙江大学杭州国际科创中心（简称科创中心）人形机器人创新研究院宣布正式发布全尺寸人形机器人Bolt。 由科创中心联合镜识科技、凯尔达共同研发完成，该机器人以10米/秒的奔跑时速，成为目前全球跑得最快的人形机器人。“标志着三方在机器人运动控制、动态平衡与高爆发驱动等关键技术领域取得重要突破。” 根据介绍，Bol......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "Intel Panther Lake Shows Strong Linux CPU Performance & Power Efficiency With Core Ultra X7 358H Benchmarks",
@@ -96,17 +126,7 @@
     "abstract": "For those that have been very eager to hear about the Intel Core Ultra Series 3 \"Panther Lake\" performance on Linux, today's the day! Last Thursday the MSI Prestige 14 Flip AI+ Evo...",
     "pscore": 71,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
-  },
-  {
-    "title": "月之暗面 Kimi 海外收入首次超越国内，K2.5 推动全球用户激增",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/401376",
-    "abstract": "根据智能涌现的独家报道，Kimi 在发布新模型 K2.5 后，海外市场表现出现显著跃升，公司的海外收入已超过国内收入，全球付费用户数在模型更新后的短短几天内实现 4 倍增长。与此同时，K2.5 在 Openrouter 上的热度快速攀升，排名已升至第三位，仅次于 Claude Sonnet 4.5 和 Gemini 3 Flash。 Kimi 的商业化进程始...",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
   }
 ]
