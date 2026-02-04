@@ -17,7 +17,7 @@
     "pscore": 96,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "中国信通院发布《人工智能产业发展研究报告（2025 年）》",
@@ -27,7 +27,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -67,7 +67,17 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
+  },
+  {
+    "title": "GPT-5.2 and GPT-5.2-Codex are now 40% faster",
+    "source": "HackerNews",
+    "link": "https://twitter.com/OpenAIDevs/status/2018838297221726482",
+    "abstract": "Comments...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -76,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -86,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -96,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -106,7 +116,7 @@
     "abstract": "浙江大学杭州国际科创中心（简称科创中心）人形机器人创新研究院宣布正式发布全尺寸人形机器人Bolt。 由科创中心联合镜识科技、凯尔达共同研发完成，该机器人以10米/秒的奔跑时速，成为目前全球跑得最快的人形机器人。“标志着三方在机器人运动控制、动态平衡与高爆发驱动等关键技术领域取得重要突破。” 根据介绍，Bol......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -116,7 +126,7 @@
     "abstract": "For those that have been very eager to hear about the Intel Core Ultra Series 3 \"Panther Lake\" performance on Linux, today's the day! Last Thursday the MSI Prestige 14 Flip AI+ Evo...",
     "pscore": 71,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "up"
   },
   {
@@ -126,7 +136,7 @@
     "abstract": "根据智能涌现的独家报道，Kimi 在发布新模型 K2.5 后，海外市场表现出现显著跃升，公司的海外收入已超过国内收入，全球付费用户数在模型更新后的短短几天内实现 4 倍增长。与此同时，K2.5 在 Openrouter 上的热度快速攀升，排名已升至第三位，仅次于 Claude Sonnet 4.5 和 Gemini 3 Flash。 Kimi 的商业化进程始...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "14",
+    "trend": "down"
   }
 ]
