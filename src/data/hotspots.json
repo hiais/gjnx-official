@@ -1,33 +1,13 @@
 [
   {
-    "title": "优必选全面开源 Thinker 大模型",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/401251",
-    "abstract": "优必选宣布对其具身智能大模型Thinker进行了架构升级。本次升级聚焦“小参数、高性能、全开源”，旨在打造一个能为工业人形机器人提供快速反应与精准空间感知的下一代具身智能大脑，以应对动态工业场景的挑战。 公告称，Thinker将作为智能基座，为优必选的群脑网络和协作智能体Co-Agent提供认知与决策支持，进而驱动单机......",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "up"
-  },
-  {
     "title": "摩尔线程推出 AI Coding Plan 智能编程服务，首月免费",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/401640",
     "abstract": "摩尔线程宣布正式推出 AI Coding Plan 智能编程服务。 根据介绍，全新推出的AI Coding Plan依托摩尔线程MTT S5000的全精度计算能力，通过软硬件协同架构实现了算力效能的倍增。摩尔线程与硅基流动联合开发，通过高效算子融合及框架极致优化，在确保代码生成质量的同时显著降低了响应延迟。 在核心模型层面上，系统选用了......",
     "pscore": 96,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
-  },
-  {
-    "title": "中国信通院发布《人工智能产业发展研究报告（2025 年）》",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/401277",
-    "abstract": "中国信息通信研究院（简称“中国信通院”）近日在深入调研和量化评测的基础上，发布了《人工智能产业发展研究报告（2025年）》。 报告全面探讨了基础模型演进、具身智能突破、智算基础设施升级、智能原生应用涌现、安全治理实践及全球合作进展等，并对迈向通用人工智能（AGI）的路径进行了前瞻展望，以期与业界分享，共同......",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "01",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -36,7 +16,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -46,8 +26,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "GNOME Resources 1.10 Adds Monitoring Support For AMD Ryzen AI NPUs",
@@ -56,7 +36,7 @@
     "abstract": "GNOME Resources 1.10 was christened today as the newest version of this modern system monitoring app for the GNOME desktop that is now used by default on the likes of the upcoming ...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -66,17 +46,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
-  },
-  {
-    "title": "GPT-5.2 and GPT-5.2-Codex are now 40% faster",
-    "source": "HackerNews",
-    "link": "https://twitter.com/OpenAIDevs/status/2018838297221726482",
-    "abstract": "Comments...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -86,7 +56,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -96,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -106,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "10 米/秒，全球最快人形机器人 Bolt 发布",
@@ -116,8 +86,8 @@
     "abstract": "浙江大学杭州国际科创中心（简称科创中心）人形机器人创新研究院宣布正式发布全尺寸人形机器人Bolt。 由科创中心联合镜识科技、凯尔达共同研发完成，该机器人以10米/秒的奔跑时速，成为目前全球跑得最快的人形机器人。“标志着三方在机器人运动控制、动态平衡与高爆发驱动等关键技术领域取得重要突破。” 根据介绍，Bol......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "Intel Panther Lake Shows Strong Linux CPU Performance & Power Efficiency With Core Ultra X7 358H Benchmarks",
@@ -126,8 +96,8 @@
     "abstract": "For those that have been very eager to hear about the Intel Core Ultra Series 3 \"Panther Lake\" performance on Linux, today's the day! Last Thursday the MSI Prestige 14 Flip AI+ Evo...",
     "pscore": 71,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "月之暗面 Kimi 海外收入首次超越国内，K2.5 推动全球用户激增",
@@ -136,7 +106,7 @@
     "abstract": "根据智能涌现的独家报道，Kimi 在发布新模型 K2.5 后，海外市场表现出现显著跃升，公司的海外收入已超过国内收入，全球付费用户数在模型更新后的短短几天内实现 4 倍增长。与此同时，K2.5 在 Openrouter 上的热度快速攀升，排名已升至第三位，仅次于 Claude Sonnet 4.5 和 Gemini 3 Flash。 Kimi 的商业化进程始...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "11",
     "trend": "down"
   }
 ]
