@@ -17,7 +17,7 @@
     "pscore": 89,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -47,16 +47,6 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
-  },
-  {
-    "title": "GNOME Resources 1.10 Adds Monitoring Support For AMD Ryzen AI NPUs",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/GNOME-Resources-1.10",
-    "abstract": "GNOME Resources 1.10 was christened today as the newest version of this modern system monitoring app for the GNOME desktop that is now used by default on the likes of the upcoming ...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "06",
     "trend": "down"
   },
   {
@@ -66,8 +56,8 @@
     "abstract": "OpenAI 与数据云平台巨头 Snowflake 宣布达成一项价值约 2 亿美元的多年度战略合作，旨在将 OpenAI 的先进 AI 模型原生嵌入 Snowflake 企业数据生态系统。这意味着企业可以直接在 Snowflake 平台上调用 OpenAI 的 AI 模型（如 GPT-5.2），在安全、受控的环境中进行商业数据分析、自动化流程和智能应用开发，...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -76,7 +66,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -86,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -96,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -106,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -116,7 +106,7 @@
     "abstract": "浙江大学杭州国际科创中心（简称科创中心）人形机器人创新研究院宣布正式发布全尺寸人形机器人Bolt。 由科创中心联合镜识科技、凯尔达共同研发完成，该机器人以10米/秒的奔跑时速，成为目前全球跑得最快的人形机器人。“标志着三方在机器人运动控制、动态平衡与高爆发驱动等关键技术领域取得重要突破。” 根据介绍，Bol......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -126,7 +116,7 @@
     "abstract": "For those that have been very eager to hear about the Intel Core Ultra Series 3 \"Panther Lake\" performance on Linux, today's the day! Last Thursday the MSI Prestige 14 Flip AI+ Evo...",
     "pscore": 71,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   }
 ]
