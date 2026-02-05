@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "算力融合新突破：openKylin 基于超睿 DP1000 芯片与 KVM，将 OpenStack 全栈移植 RISC-V 平台",
@@ -57,7 +57,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "甲骨文今年计划筹资最高 500 亿美元加码云基础设施建设",
@@ -67,7 +67,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "OpenAI 与 Snowflake 签署 2 亿美元的模型集成合作协议",
@@ -77,7 +77,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -90,14 +90,24 @@
     "trend": "up"
   },
   {
+    "title": "GPT-5.3-Codex",
+    "source": "HackerNews",
+    "link": "https://openai.com/index/introducing-gpt-5-3-codex/",
+    "abstract": "Comments...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "10",
+    "trend": "up"
+  },
+  {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/keras-chatbot-arena",
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -106,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -116,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "down"
   },
   {
@@ -126,8 +136,8 @@
     "abstract": "西北工业大学音频语音与语言处理研究组（ASLP@NPU）联合希尔贝壳、中国电信人工智能研究院、南京大学和 Wenet 开源社区，提出了 WenetSpeech-Chuan，首个大规模多维标注的川渝方言语音语料库，涵盖 10000 小时、9 大领域的川渝方言语音数据，并包含 ASR 转录、文本置信度、说话人情感、年龄、性别、语音质量评分等多种标......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "14",
+    "trend": "up"
   },
   {
     "title": "Intel Panther Lake Shows Strong Linux CPU Performance & Power Efficiency With Core Ultra X7 358H Benchmarks",
@@ -136,7 +146,7 @@
     "abstract": "For those that have been very eager to hear about the Intel Core Ultra Series 3 \"Panther Lake\" performance on Linux, today's the day! Last Thursday the MSI Prestige 14 Flip AI+ Evo...",
     "pscore": 71,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
+    "rank": "15",
+    "trend": "up"
   }
 ]
