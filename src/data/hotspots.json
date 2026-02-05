@@ -1,13 +1,23 @@
 [
   {
+    "title": "贾跃亭发布人形机器人",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/402048",
+    "abstract": "据财经网科技，北京时间2月5日早上7:30，FF在拉斯维加斯举办美国国家汽车经销商大会活动上，举行FF首批具身智能（Embodied AI）机器人产品发布会。 法法创始人、合伙人、首席产品及用户生态官，LeEco乐视创始人贾跃亭在平台发文表示：FF发布三大系列EAI机器人，Futurist系列是全尺寸职业型具身智能人形机器人，全能专业的......",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "up"
+  },
+  {
     "title": "摩尔线程推出 AI Coding Plan 智能编程服务，首月免费",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/401640",
     "abstract": "摩尔线程宣布正式推出 AI Coding Plan 智能编程服务。 根据介绍，全新推出的AI Coding Plan依托摩尔线程MTT S5000的全精度计算能力，通过软硬件协同架构实现了算力效能的倍增。摩尔线程与硅基流动联合开发，通过高效算子融合及框架极致优化，在确保代码生成质量的同时显著降低了响应延迟。 在核心模型层面上，系统选用了......",
     "pscore": 96,
     "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "down"
+    "rank": "02",
+    "trend": "up"
   },
   {
     "title": "OpenAI：GPT-5.2/Codex 模型速度提升 40%",
@@ -16,7 +26,7 @@
     "abstract": "OpenAI 宣布对其最新旗舰 AI 模型进行了显著性能提升，GPT-5.2和 GPT-5.2-Codex 现已为所有 API 客户提供40% 的推理速度提升。 此次更新源于对公司推理堆栈的优化，该堆栈负责处理模型查询。重要的是，这些改进保持了相同的模型架构和权重，意味着底层能力和训练数据没有变化——只是降低延迟以加快响应时间。 “同型号。......",
     "pscore": 89,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -26,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -36,7 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -46,8 +56,8 @@
     "abstract": "Linux input expert Peter Hutterer of Red Hat announced today the first release candidate of libinput 1.31, the input handling library used by both modern X.Org Server and Wayland d...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "OpenAI 与 Snowflake 签署 2 亿美元的模型集成合作协议",
@@ -56,8 +66,8 @@
     "abstract": "OpenAI 与数据云平台巨头 Snowflake 宣布达成一项价值约 2 亿美元的多年度战略合作，旨在将 OpenAI 的先进 AI 模型原生嵌入 Snowflake 企业数据生态系统。这意味着企业可以直接在 Snowflake 平台上调用 OpenAI 的 AI 模型（如 GPT-5.2），在安全、受控的环境中进行商业数据分析、自动化流程和智能应用开发，...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -66,7 +76,17 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
+    "trend": "down"
+  },
+  {
+    "title": "ICE seeks industry input on ad tech location data for investigative use",
+    "source": "HackerNews",
+    "link": "https://www.biometricupdate.com/202602/ice-seeks-industry-input-on-ad-tech-location-data-for-investigative-use",
+    "abstract": "Comments...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -76,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -86,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -96,18 +116,18 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "12",
     "trend": "down"
   },
   {
-    "title": "10 米/秒，全球最快人形机器人 Bolt 发布",
+    "title": "WenetSpeech-Chuan：多维标注大规模四川话语音语料库开源",
     "source": "OSChina",
-    "link": "https://www.oschina.net/news/401567",
-    "abstract": "浙江大学杭州国际科创中心（简称科创中心）人形机器人创新研究院宣布正式发布全尺寸人形机器人Bolt。 由科创中心联合镜识科技、凯尔达共同研发完成，该机器人以10米/秒的奔跑时速，成为目前全球跑得最快的人形机器人。“标志着三方在机器人运动控制、动态平衡与高爆发驱动等关键技术领域取得重要突破。” 根据介绍，Bol......",
+    "link": "https://www.oschina.net/news/402043",
+    "abstract": "西北工业大学音频语音与语言处理研究组（ASLP@NPU）联合希尔贝壳、中国电信人工智能研究院、南京大学和 Wenet 开源社区，提出了 WenetSpeech-Chuan，首个大规模多维标注的川渝方言语音语料库，涵盖 10000 小时、9 大领域的川渝方言语音数据，并包含 ASR 转录、文本置信度、说话人情感、年龄、性别、语音质量评分等多种标......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "13",
+    "trend": "down"
   },
   {
     "title": "Intel Panther Lake Shows Strong Linux CPU Performance & Power Efficiency With Core Ultra X7 358H Benchmarks",
@@ -116,7 +136,7 @@
     "abstract": "For those that have been very eager to hear about the Intel Core Ultra Series 3 \"Panther Lake\" performance on Linux, today's the day! Last Thursday the MSI Prestige 14 Flip AI+ Evo...",
     "pscore": 71,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "14",
     "trend": "down"
   }
 ]
