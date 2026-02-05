@@ -10,14 +10,14 @@
     "trend": "up"
   },
   {
-    "title": "摩尔线程推出 AI Coding Plan 智能编程服务，首月免费",
+    "title": "算力融合新突破：openKylin 基于超睿 DP1000 芯片与 KVM，将 OpenStack 全栈移植 RISC-V 平台",
     "source": "OSChina",
-    "link": "https://www.oschina.net/news/401640",
-    "abstract": "摩尔线程宣布正式推出 AI Coding Plan 智能编程服务。 根据介绍，全新推出的AI Coding Plan依托摩尔线程MTT S5000的全精度计算能力，通过软硬件协同架构实现了算力效能的倍增。摩尔线程与硅基流动联合开发，通过高效算子融合及框架极致优化，在确保代码生成质量的同时显著降低了响应延迟。 在核心模型层面上，系统选用了......",
-    "pscore": 96,
+    "link": "https://www.oschina.net/news/402185",
+    "abstract": "近日，OpenAtom openKylin（简称\"openKylin\"）RISC-V SIG（特别兴趣小组）完成一项重要适配验证工作，依托超睿科技UR-DP1000 RISC-V芯片，结合KVM虚拟化技术，成功将开源云计算管理平台OpenStack完整移植至RISC-V架构。此次适配仅完成基础运行验证，实现了Ubuntu、Debian、openKylin等主...",
+    "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "OpenAI：GPT-5.2/Codex 模型速度提升 40%",
@@ -27,7 +27,7 @@
     "pscore": 89,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "libinput 1.31 Bringing Support For Fast Three-Finger Swipes",
@@ -57,6 +57,16 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
+    "trend": "down"
+  },
+  {
+    "title": "甲骨文今年计划筹资最高 500 亿美元加码云基础设施建设",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/402193",
+    "abstract": "根据彭博社的报道，甲骨文 Oracle 计划今年通过债务与股权融资筹集 450 亿至 500 亿美元，用于扩建云基础设施，以满足来自大型客户（包括 AMD、Meta、英伟达、OpenAI、TikTok 与 xAI 等）的已签约算力需求。 公司表示，此轮融资规模反映了在 AI 推动下云计算基础设施建设的资金压力。报道指出，甲骨文将通过两类方式筹集......",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -66,8 +76,8 @@
     "abstract": "OpenAI 与数据云平台巨头 Snowflake 宣布达成一项价值约 2 亿美元的多年度战略合作，旨在将 OpenAI 的先进 AI 模型原生嵌入 Snowflake 企业数据生态系统。这意味着企业可以直接在 Snowflake 平台上调用 OpenAI 的 AI 模型（如 GPT-5.2），在安全、受控的环境中进行商业数据分析、自动化流程和智能应用开发，...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -76,18 +86,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
-  },
-  {
-    "title": "ICE seeks industry input on ad tech location data for investigative use",
-    "source": "HackerNews",
-    "link": "https://www.biometricupdate.com/202602/ice-seeks-industry-input-on-ad-tech-location-data-for-investigative-use",
-    "abstract": "Comments...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
