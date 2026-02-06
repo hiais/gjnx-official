@@ -10,13 +10,33 @@
     "trend": "down"
   },
   {
+    "title": "OpenAI 发布 GPT-5.3-Codex：面向开发者的最强 Agentic Coding 模型",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/402329/openai-gpt-5-3-codex",
+    "abstract": "OpenAI 宣布推出 GPT-5.3-Codex，官方称其是迄今为止最强大的 agentic coding 模型，旨在将 AI 编程能力扩展到完整的专业工作流程中。 核心亮点：更快、更强、更全面 性能全方位升级：GPT-5.3-Codex 在多个行业标准基准测试中取得领先，包括 SWE-Bench Pro、Terminal-Bench 和 OSWorld ...",
+    "pscore": 94,
+    "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "down"
+  },
+  {
+    "title": "面壁智能官宣“松果派”：首款 AI 原生硬件、端侧智能开发板",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/402372",
+    "abstract": "面壁智能宣布将于2026年年中推出首款AI原生端侧智能开发板“松果派（Pinea Pi）”。 据介绍，“松果派”通过面壁智能在多模态模型技术积累、主流芯片适配、智能硬件商业化应用等方面优势，可帮助开发者快速开发端侧智能硬件，即使无技术背景，也可快速上手开发。“松果派”将率先支持离线多模态个人知识助理、具身智能、......",
+    "pscore": 92,
+    "category": "CHIP_FRONT",
+    "rank": "03",
+    "trend": "up"
+  },
+  {
     "title": "算力融合新突破：openKylin 基于超睿 DP1000 芯片与 KVM，将 OpenStack 全栈移植 RISC-V 平台",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/402185",
     "abstract": "近日，OpenAtom openKylin（简称\"openKylin\"）RISC-V SIG（特别兴趣小组）完成一项重要适配验证工作，依托超睿科技UR-DP1000 RISC-V芯片，结合KVM虚拟化技术，成功将开源云计算管理平台OpenStack完整移植至RISC-V架构。此次适配仅完成基础运行验证，实现了Ubuntu、Debian、openKylin等主...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -26,8 +46,8 @@
     "abstract": "OpenAI 宣布对其最新旗舰 AI 模型进行了显著性能提升，GPT-5.2和 GPT-5.2-Codex 现已为所有 API 客户提供40% 的推理速度提升。 此次更新源于对公司推理堆栈的优化，该堆栈负责处理模型查询。重要的是，这些改进保持了相同的模型架构和权重，意味着底层能力和训练数据没有变化——只是降低延迟以加快响应时间。 “同型号。......",
     "pscore": 89,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -36,7 +56,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -46,7 +66,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -56,7 +76,27 @@
     "abstract": "Linux input expert Peter Hutterer of Red Hat announced today the first release candidate of libinput 1.31, the input handling library used by both modern X.Org Server and Wayland d...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "08",
+    "trend": "up"
+  },
+  {
+    "title": "如何降低蛋白质合成成本？OpenAI创建的GPT-5驱动自主实验室将成本降低40%",
+    "source": "MachineHeart",
+    "link": "https://www.jiqizhixin.com/articles/2026-02-06-8",
+    "abstract": "",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "09",
+    "trend": "down"
+  },
+  {
+    "title": "GPT-5.3上线Codex！OpenAI回应Claude新模型只用了15分钟",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/02/377292.html",
+    "abstract": "火星撞地球...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -66,17 +106,7 @@
     "abstract": "根据彭博社的报道，甲骨文 Oracle 计划今年通过债务与股权融资筹集 450 亿至 500 亿美元，用于扩建云基础设施，以满足来自大型客户（包括 AMD、Meta、英伟达、OpenAI、TikTok 与 xAI 等）的已签约算力需求。 公司表示，此轮融资规模反映了在 AI 推动下云计算基础设施建设的资金压力。报道指出，甲骨文将通过两类方式筹集......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
-  },
-  {
-    "title": "OpenAI 与 Snowflake 签署 2 亿美元的模型集成合作协议",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/401871/openai-snowflake-partnership",
-    "abstract": "OpenAI 与数据云平台巨头 Snowflake 宣布达成一项价值约 2 亿美元的多年度战略合作，旨在将 OpenAI 的先进 AI 模型原生嵌入 Snowflake 企业数据生态系统。这意味着企业可以直接在 Snowflake 平台上调用 OpenAI 的 AI 模型（如 GPT-5.2），在安全、受控的环境中进行商业数据分析、自动化流程和智能应用开发，...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -86,8 +116,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "GPT-5.3-Codex",
@@ -96,8 +126,8 @@
     "abstract": "Comments...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "13",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -106,8 +136,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "14",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -115,36 +145,6 @@
     "link": "https://huggingface.co/blog/sdxl_jax",
     "abstract": "",
     "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
-  },
-  {
-    "title": "Hugging Face on PyTorch / XLA TPUs",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/pytorch-xla",
-    "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
-  },
-  {
-    "title": "WenetSpeech-Chuan：多维标注大规模四川话语音语料库开源",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/402043",
-    "abstract": "西北工业大学音频语音与语言处理研究组（ASLP@NPU）联合希尔贝壳、中国电信人工智能研究院、南京大学和 Wenet 开源社区，提出了 WenetSpeech-Chuan，首个大规模多维标注的川渝方言语音语料库，涵盖 10000 小时、9 大领域的川渝方言语音数据，并包含 ASR 转录、文本置信度、说话人情感、年龄、性别、语音质量评分等多种标......",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
-  },
-  {
-    "title": "Intel Panther Lake Shows Strong Linux CPU Performance & Power Efficiency With Core Ultra X7 358H Benchmarks",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/intel-core-ultra-x7-358h-linux",
-    "abstract": "For those that have been very eager to hear about the Intel Core Ultra Series 3 \"Panther Lake\" performance on Linux, today's the day! Last Thursday the MSI Prestige 14 Flip AI+ Evo...",
-    "pscore": 71,
     "category": "CHIP_FRONT",
     "rank": "15",
     "trend": "up"
