@@ -1,23 +1,13 @@
 [
   {
-    "title": "贾跃亭发布人形机器人",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/402048",
-    "abstract": "据财经网科技，北京时间2月5日早上7:30，FF在拉斯维加斯举办美国国家汽车经销商大会活动上，举行FF首批具身智能（Embodied AI）机器人产品发布会。 法法创始人、合伙人、首席产品及用户生态官，LeEco乐视创始人贾跃亭在平台发文表示：FF发布三大系列EAI机器人，Futurist系列是全尺寸职业型具身智能人形机器人，全能专业的......",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "up"
-  },
-  {
     "title": "OpenAI 发布 GPT-5.3-Codex：面向开发者的最强 Agentic Coding 模型",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/402329/openai-gpt-5-3-codex",
     "abstract": "OpenAI 宣布推出 GPT-5.3-Codex，官方称其是迄今为止最强大的 agentic coding 模型，旨在将 AI 编程能力扩展到完整的专业工作流程中。 核心亮点：更快、更强、更全面 性能全方位升级：GPT-5.3-Codex 在多个行业标准基准测试中取得领先，包括 SWE-Bench Pro、Terminal-Bench 和 OSWorld ...",
     "pscore": 94,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
+    "rank": "01",
+    "trend": "down"
   },
   {
     "title": "摩尔线程与小马智行达成战略合作，国产全功能 GPU 进入自动驾驶核心领域",
@@ -26,8 +16,8 @@
     "abstract": "国产GPU企业摩尔线程与自动驾驶公司小马智行正式达成战略合作。双方将聚焦L4级自动驾驶技术的落地与规模化应用，围绕世界模型及虚拟司机系统的训练优化展开深度协同。 此次合作是中国人工智能领域产业链协同创新的重要示范——小马智行首次在关键训练与仿真环节规模化应用国产AI算力，也标志着摩尔线程国产全功能GPU正式......",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "02",
+    "trend": "down"
   },
   {
     "title": "面壁智能官宣“松果派”：首款 AI 原生硬件、端侧智能开发板",
@@ -36,8 +26,8 @@
     "abstract": "面壁智能宣布将于2026年年中推出首款AI原生端侧智能开发板“松果派（Pinea Pi）”。 据介绍，“松果派”通过面壁智能在多模态模型技术积累、主流芯片适配、智能硬件商业化应用等方面优势，可帮助开发者快速开发端侧智能硬件，即使无技术背景，也可快速上手开发。“松果派”将率先支持离线多模态个人知识助理、具身智能、......",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "算力融合新突破：openKylin 基于超睿 DP1000 芯片与 KVM，将 OpenStack 全栈移植 RISC-V 平台",
@@ -46,8 +36,8 @@
     "abstract": "近日，OpenAtom openKylin（简称\"openKylin\"）RISC-V SIG（特别兴趣小组）完成一项重要适配验证工作，依托超睿科技UR-DP1000 RISC-V芯片，结合KVM虚拟化技术，成功将开源云计算管理平台OpenStack完整移植至RISC-V架构。此次适配仅完成基础运行验证，实现了Ubuntu、Debian、openKylin等主...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -56,8 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -66,8 +56,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "如何降低蛋白质合成成本？OpenAI创建的GPT-5驱动自主实验室将成本降低40%",
@@ -76,8 +66,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "全国最大国产AI算力池来了：部署超3万卡，上千款应用接入",
@@ -86,17 +76,7 @@
     "abstract": "步入硬核落地周期，开始走向千行百业了...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
-  },
-  {
-    "title": "GPT-5.3上线Codex！OpenAI回应Claude新模型只用了15分钟",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/02/377292.html",
-    "abstract": "火星撞地球...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -106,8 +86,8 @@
     "abstract": "苹果公司最新一项研究表明，通过一种创新的微调方法——让专业设计师直接参与反馈，AI 模型在“界面设计生成”任务上的表现显著提升，使得小参数版本 Qwen3-Coder 模型的 UI 设计能力超越了当前领先的 GPT-5。 生成式 AI 在代码编写和基础 UI 生成方面已有广泛应用，但纯算法自动生成的界面通常“能用但不好看”，尤其缺......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "甲骨文今年计划筹资最高 500 亿美元加码云基础设施建设",
@@ -116,8 +96,8 @@
     "abstract": "根据彭博社的报道，甲骨文 Oracle 计划今年通过债务与股权融资筹集 450 亿至 500 亿美元，用于扩建云基础设施，以满足来自大型客户（包括 AMD、Meta、英伟达、OpenAI、TikTok 与 xAI 等）的已签约算力需求。 公司表示，此轮融资规模反映了在 AI 推动下云计算基础设施建设的资金压力。报道指出，甲骨文将通过两类方式筹集......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -126,8 +106,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -136,13 +116,33 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "12",
     "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/sdxl_jax",
+    "abstract": "",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "13",
+    "trend": "down"
+  },
+  {
+    "title": "Hugging Face on PyTorch / XLA TPUs",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/pytorch-xla",
+    "abstract": "",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "down"
+  },
+  {
+    "title": "硬碰硬！刚刚，Claude Opus 4.6与GPT-5.3-Codex同时发布",
+    "source": "MachineHeart",
+    "link": "https://www.jiqizhixin.com/articles/2026-02-06",
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
