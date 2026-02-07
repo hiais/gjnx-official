@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "OpenAI 发布 GPT-5.3-Codex：面向开发者的最强 Agentic Coding 模型",
@@ -17,7 +17,7 @@
     "pscore": 94,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "摩尔线程与小马智行达成战略合作，国产全功能 GPU 进入自动驾驶核心领域",
@@ -37,7 +37,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "算力融合新突破：openKylin 基于超睿 DP1000 芯片与 KVM，将 OpenStack 全栈移植 RISC-V 平台",
@@ -47,7 +47,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -67,7 +67,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "如何降低蛋白质合成成本？OpenAI创建的GPT-5驱动自主实验室将成本降低40%",
@@ -97,7 +97,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "苹果发布新 AI 研究：创新的微调方法让生成式模型“学会设计更好 UI”",
@@ -117,7 +117,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -127,7 +127,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -147,6 +147,6 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "up"
+    "trend": "down"
   }
 ]
