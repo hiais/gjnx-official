@@ -7,7 +7,7 @@
     "pscore": 94,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "摩尔线程与小马智行达成战略合作，国产全功能 GPU 进入自动驾驶核心领域",
@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "面壁智能官宣“松果派”：首款 AI 原生硬件、端侧智能开发板",
@@ -27,17 +27,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
-  },
-  {
-    "title": "算力融合新突破：openKylin 基于超睿 DP1000 芯片与 KVM，将 OpenStack 全栈移植 RISC-V 平台",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/402185",
-    "abstract": "近日，OpenAtom openKylin（简称\"openKylin\"）RISC-V SIG（特别兴趣小组）完成一项重要适配验证工作，依托超睿科技UR-DP1000 RISC-V芯片，结合KVM虚拟化技术，成功将开源云计算管理平台OpenStack完整移植至RISC-V架构。此次适配仅完成基础运行验证，实现了Ubuntu、Debian、openKylin等主...",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -46,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -56,17 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
-  },
-  {
-    "title": "如何降低蛋白质合成成本？OpenAI创建的GPT-5驱动自主实验室将成本降低40%",
-    "source": "MachineHeart",
-    "link": "https://www.jiqizhixin.com/articles/2026-02-06-8",
-    "abstract": "",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -76,17 +56,7 @@
     "abstract": "苹果公司最新一项研究表明，通过一种创新的微调方法——让专业设计师直接参与反馈，AI 模型在“界面设计生成”任务上的表现显著提升，使得小参数版本 Qwen3-Coder 模型的 UI 设计能力超越了当前领先的 GPT-5。 生成式 AI 在代码编写和基础 UI 生成方面已有广泛应用，但纯算法自动生成的界面通常“能用但不好看”，尤其缺......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
-  },
-  {
-    "title": "甲骨文今年计划筹资最高 500 亿美元加码云基础设施建设",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/402193",
-    "abstract": "根据彭博社的报道，甲骨文 Oracle 计划今年通过债务与股权融资筹集 450 亿至 500 亿美元，用于扩建云基础设施，以满足来自大型客户（包括 AMD、Meta、英伟达、OpenAI、TikTok 与 xAI 等）的已签约算力需求。 公司表示，此轮融资规模反映了在 AI 推动下云计算基础设施建设的资金压力。报道指出，甲骨文将通过两类方式筹集......",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -96,8 +66,18 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "07",
     "trend": "down"
+  },
+  {
+    "title": "Subtitle Edit 4.0.15 发布，字幕编辑工具",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/402939/subtitle-edit-4-0-15-released",
+    "abstract": "Subtitle Edit 是一款针对文本格式类字幕的编辑工具，支持多种字符编码和字幕格式（Sub Station Alpha、Advanced Sub Station Alpha、SubRip、MicroDVD、MPL2、MPsub (MPlayer subtitle)、SubViewer 2.0、Plain-Text、Adobe Encore DVD）。...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -106,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -116,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -126,27 +106,27 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
+    "rank": "11",
+    "trend": "down"
+  },
+  {
+    "title": "Calibre 9.2 发布，功能强大的开源电子书工具",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/402380/calibre-9-2-released",
+    "abstract": "Calibre 开源项目是 Calibre 官方出的电子书管理工具。它可以查看，转换，编辑和分类所有主流格式的电子书。Calibre 是个跨平台软件，可以在 Linux、Windows 和 macOS 上运行。 Calibre 9.2 现已正式发布，此次更新内容如下： 新功能 ZIP Output：将用于 HTML 模板的模板引擎从 Templite 更改为...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "12",
+    "trend": "up"
+  },
+  {
+    "title": "商汤开源空间智能模型：日日新SenseNova-SI-1.3",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/402419",
+    "abstract": "商汤科技正式开源空间智能模型日日新SenseNova-SI-1.3，在空间测量、视角转换、综合推理等核心任务中展现出显著提升，另外对比之前的版本增强了回答简答题的能力。 在集成多项权威空间智能榜单的综合评测平台EASI上，SenseNova-SI-1.3综合性能超越Gemini-3-Pro，均分斩获EASI-8（八个权威空间智能榜单的混合评测）标准第......",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "up"
-  },
-  {
-    "title": "人形机器人的真机强化学习! ICLR 2026 通研院提出人形机器人预训练与真机微调新范式",
-    "source": "MachineHeart",
-    "link": "https://www.jiqizhixin.com/articles/2026-02-07-4",
-    "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
-  },
-  {
-    "title": "像挖币一样挖激活函数？DeepMind搭建「算力矿场」，暴力搜出下一代ReLU",
-    "source": "MachineHeart",
-    "link": "https://www.jiqizhixin.com/articles/2026-02-07-2",
-    "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "15",
     "trend": "up"
   }
 ]
