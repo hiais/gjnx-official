@@ -7,7 +7,7 @@
     "pscore": 94,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "摩尔线程与小马智行达成战略合作，国产全功能 GPU 进入自动驾驶核心领域",
@@ -27,7 +27,17 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
+  },
+  {
+    "title": "VSORA Board Chair Sandra Rivera on Solutions for AI Inference and LLM Processing",
+    "source": "SemiWiki",
+    "link": "https://semiwiki.com/ceo-interviews/366249-vsora-board-chair-sandra-rivera-on-solutions-for-ai-inference-and-llm-processing/",
+    "abstract": "Sandra Rivera, a Silicon Valley veteran who is the former CEO of Altera, an Intel FPGA spinout, and long-time Intel executive, recently became Chair of the Board of Directors of Pa...",
+    "pscore": 84,
+    "category": "CHIP_FRONT",
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -36,8 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -46,8 +56,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "苹果发布新 AI 研究：创新的微调方法让生成式模型“学会设计更好 UI”",
@@ -56,7 +66,7 @@
     "abstract": "苹果公司最新一项研究表明，通过一种创新的微调方法——让专业设计师直接参与反馈，AI 模型在“界面设计生成”任务上的表现显著提升，使得小参数版本 Qwen3-Coder 模型的 UI 设计能力超越了当前领先的 GPT-5。 生成式 AI 在代码编写和基础 UI 生成方面已有广泛应用，但纯算法自动生成的界面通常“能用但不好看”，尤其缺......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -66,7 +76,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -76,7 +86,7 @@
     "abstract": "Subtitle Edit 是一款针对文本格式类字幕的编辑工具，支持多种字符编码和字幕格式（Sub Station Alpha、Advanced Sub Station Alpha、SubRip、MicroDVD、MPL2、MPsub (MPlayer subtitle)、SubViewer 2.0、Plain-Text、Adobe Encore DVD）。...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -86,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -96,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -106,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "Calibre 9.2 发布，功能强大的开源电子书工具",
@@ -116,7 +126,7 @@
     "abstract": "Calibre 开源项目是 Calibre 官方出的电子书管理工具。它可以查看，转换，编辑和分类所有主流格式的电子书。Calibre 是个跨平台软件，可以在 Linux、Windows 和 macOS 上运行。 Calibre 9.2 现已正式发布，此次更新内容如下： 新功能 ZIP Output：将用于 HTML 模板的模板引擎从 Templite 更改为...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "up"
   },
   {
@@ -126,7 +136,7 @@
     "abstract": "商汤科技正式开源空间智能模型日日新SenseNova-SI-1.3，在空间测量、视角转换、综合推理等核心任务中展现出显著提升，另外对比之前的版本增强了回答简答题的能力。 在集成多项权威空间智能榜单的综合评测平台EASI上，SenseNova-SI-1.3综合性能超越Gemini-3-Pro，均分斩获EASI-8（八个权威空间智能榜单的混合评测）标准第......",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "14",
     "trend": "up"
   }
 ]
