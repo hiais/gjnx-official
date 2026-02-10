@@ -1,22 +1,42 @@
 [
   {
+    "title": "北京人形发布具身天工 3.0",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/403291",
+    "abstract": "北京人形机器人创新中心正式发布新一代通用机器人平台具身天工3.0。以“更开放、更好用”为核心目标，依托自研“慧思开物”通用具身智能平台，在本体稳定性、运动控制、具身大小脑协同、全自主作业等方面有了显著提升，也是行业内首个实现触物交互式全身高动态运动控制的全尺寸人形机器人。 同时，针对具身智能行业在开发......",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "down"
+  },
+  {
     "title": "阿里达摩院开源具身大脑基模 RynnBrain",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/403238",
     "abstract": "阿里巴巴达摩院发布具身智能大脑基础模型 RynnBrain，并一次性开源了包括30B MoE在内的7个全系列模型。同时还开源了全新评测基准 RynnBrain-Bench，用于评测时空细粒度具身任务。 根据介绍，RynnBrain 模型引入了机器人与环境互动所需的两项基本能力：时空记忆和物理世界推理。其中，时空记忆能力可让机器人在其完整的历......",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "01",
+    "rank": "02",
+    "trend": "up"
+  },
+  {
+    "title": "「具身原生」元年！专访原力灵机汪天才，解析具身智能的「PyTorch时刻」",
+    "source": "MachineHeart",
+    "link": "https://www.jiqizhixin.com/articles/2026-02-10-9",
+    "abstract": "",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "03",
     "trend": "down"
   },
   {
-    "title": "摩尔线程与小马智行达成战略合作，国产全功能 GPU 进入自动驾驶核心领域",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/402454",
-    "abstract": "国产GPU企业摩尔线程与自动驾驶公司小马智行正式达成战略合作。双方将聚焦L4级自动驾驶技术的落地与规模化应用，围绕世界模型及虚拟司机系统的训练优化展开深度协同。 此次合作是中国人工智能领域产业链协同创新的重要示范——小马智行首次在关键训练与仿真环节规模化应用国产AI算力，也标志着摩尔线程国产全功能GPU正式......",
-    "pscore": 92,
+    "title": "蚂蚁投了一家上海具身智能公司",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/02/378305.html",
+    "abstract": "“蚂”不停蹄...",
+    "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -26,7 +46,7 @@
     "abstract": "Sandra Rivera, a Silicon Valley veteran who is the former CEO of Altera, an Intel FPGA spinout, and long-time Intel executive, recently became Chair of the Board of Directors of Pa...",
     "pscore": 84,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -36,8 +56,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -46,18 +66,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "07",
     "trend": "up"
-  },
-  {
-    "title": "苹果发布新 AI 研究：创新的微调方法让生成式模型“学会设计更好 UI”",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/402403",
-    "abstract": "苹果公司最新一项研究表明，通过一种创新的微调方法——让专业设计师直接参与反馈，AI 模型在“界面设计生成”任务上的表现显著提升，使得小参数版本 Qwen3-Coder 模型的 UI 设计能力超越了当前领先的 GPT-5。 生成式 AI 在代码编写和基础 UI 生成方面已有广泛应用，但纯算法自动生成的界面通常“能用但不好看”，尤其缺......",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -66,7 +76,17 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
+    "trend": "up"
+  },
+  {
+    "title": "Vidu Q3 全球屠榜， 击败马斯克xAI Grok、 OpenAI Sora、Google Veo 3，登顶 Artificial Analysis 榜首",
+    "source": "MachineHeart",
+    "link": "https://www.jiqizhixin.com/articles/2026-02-10-7",
+    "abstract": "",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -76,7 +96,7 @@
     "abstract": "Subtitle Edit 是一款针对文本格式类字幕的编辑工具，支持多种字符编码和字幕格式（Sub Station Alpha、Advanced Sub Station Alpha、SubRip、MicroDVD、MPL2、MPsub (MPlayer subtitle)、SubViewer 2.0、Plain-Text、Adobe Encore DVD）。...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -86,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -96,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -106,17 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
-  },
-  {
-    "title": "商汤开源空间智能模型：日日新SenseNova-SI-1.3",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/402419",
-    "abstract": "商汤科技正式开源空间智能模型日日新SenseNova-SI-1.3，在空间测量、视角转换、综合推理等核心任务中展现出显著提升，另外对比之前的版本增强了回答简答题的能力。 在集成多项权威空间智能榜单的综合评测平台EASI上，SenseNova-SI-1.3综合性能超越Gemini-3-Pro，均分斩获EASI-8（八个权威空间智能榜单的混合评测）标准第......",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "up"
   }
 ]
