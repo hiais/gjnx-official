@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "阿里达摩院开源具身大脑基模 RynnBrain",
@@ -17,17 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
-  },
-  {
-    "title": "「具身原生」元年！专访原力灵机汪天才，解析具身智能的「PyTorch时刻」",
-    "source": "MachineHeart",
-    "link": "https://www.jiqizhixin.com/articles/2026-02-10-9",
-    "abstract": "",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "模型、框架、应用量产工作流，原力灵机三箭齐发，开启具身智能”原生时刻”",
@@ -36,8 +26,8 @@
     "abstract": "“2026 年不是具身智能的元年，而是具身原生的元年。”...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "蚂蚁投了一家上海具身智能公司",
@@ -46,7 +36,7 @@
     "abstract": "“蚂”不停蹄...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -56,8 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -66,7 +56,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -76,18 +66,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
-  },
-  {
-    "title": "Vidu Q3 全球屠榜， 击败马斯克xAI Grok、 OpenAI Sora、Google Veo 3，登顶 Artificial Analysis 榜首",
-    "source": "MachineHeart",
-    "link": "https://www.jiqizhixin.com/articles/2026-02-10-7",
-    "abstract": "",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "Subtitle Edit 4.0.15 发布，字幕编辑工具",
@@ -96,7 +76,7 @@
     "abstract": "Subtitle Edit 是一款针对文本格式类字幕的编辑工具，支持多种字符编码和字幕格式（Sub Station Alpha、Advanced Sub Station Alpha、SubRip、MicroDVD、MPL2、MPsub (MPlayer subtitle)、SubViewer 2.0、Plain-Text、Adobe Encore DVD）。...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -106,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -116,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -126,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "Ceva Wi-Fi 6 and Bluetooth IPs Power Renesas’ First Combo MCUs for IoT and Connected Home",
@@ -136,7 +116,7 @@
     "abstract": "The rapid expansion of IoT, smart home, and industrial automation markets is reshaping how connectivity is designed into embedded systems. Developers increasingly require highly in...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "12",
     "trend": "down"
   },
   {
@@ -146,7 +126,17 @@
     "abstract": "",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "15",
+    "rank": "13",
+    "trend": "down"
+  },
+  {
+    "title": "Intel Xeon 6780E Sierra Forest vs. AMD EPYC 9965 On Linux 6.18 Performance",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/review/sierra-forest-epyc-turin-2026",
+    "abstract": "With recently having carried out benchmarks and finding the Intel Xeon 6780E \"Sierra Forest\" performance has improved ~14% since launch day thanks to open-source/Linux software imp...",
+    "pscore": 66,
+    "category": "CHIP_FRONT",
+    "rank": "14",
     "trend": "up"
   }
 ]
