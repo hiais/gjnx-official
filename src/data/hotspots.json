@@ -17,6 +17,16 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
+    "trend": "down"
+  },
+  {
+    "title": "2025具身智能创投全景：554亿热钱，4大估值梯队，10亿元现金流门槛｜量子位智库报告",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/02/378674.html",
+    "abstract": "",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -24,16 +34,6 @@
     "source": "QbitAI",
     "link": "https://www.qbitai.com/2026/02/378450.html",
     "abstract": "“2026 年不是具身智能的元年，而是具身原生的元年。”...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
-  },
-  {
-    "title": "蚂蚁投了一家上海具身智能公司",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/02/378305.html",
-    "abstract": "“蚂”不停蹄...",
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "04",
@@ -57,7 +57,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -67,7 +67,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Subtitle Edit 4.0.15 发布，字幕编辑工具",
@@ -77,7 +77,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -97,7 +97,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -120,13 +120,23 @@
     "trend": "down"
   },
   {
+    "title": "Intel Arc B390 Panther Lake Generational Performance Since The Gen9 Graphics Era",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/review/intel-gen9-xe3-b390-graphics",
+    "abstract": "Last week on Phoronix we provided initial Linux graphics benchmarks for the new Xe3-based Arc B390 graphics found with the higher-end Panther Lake SoCs with 12 Xe cores. Those benc...",
+    "pscore": 71,
+    "category": "CHIP_FRONT",
+    "rank": "13",
+    "trend": "down"
+  },
+  {
     "title": "对标 Gemini 2.5 Pro，蚂蚁集团开源全模态大模型Ming-Flash-Omni 2.0",
     "source": "MachineHeart",
     "link": "https://www.jiqizhixin.com/articles/2026-02-11-4",
     "abstract": "",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "14",
     "trend": "down"
   },
   {
@@ -136,7 +146,7 @@
     "abstract": "With recently having carried out benchmarks and finding the Intel Xeon 6780E \"Sierra Forest\" performance has improved ~14% since launch day thanks to open-source/Linux software imp...",
     "pscore": 66,
     "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "15",
     "trend": "up"
   }
 ]
