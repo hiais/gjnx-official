@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "阿里达摩院开源具身大脑基模 RynnBrain",
@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "2025具身智能创投全景：554亿热钱，4大估值梯队，10亿元现金流门槛｜量子位智库报告",
@@ -27,7 +27,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "模型、框架、应用量产工作流，原力灵机三箭齐发，开启具身智能”原生时刻”",
@@ -37,7 +37,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -67,6 +67,26 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "07",
+    "trend": "up"
+  },
+  {
+    "title": "当AI应用都在「撒钱」时，谁来扛住千亿交互背后的算力大考？",
+    "source": "MachineHeart",
+    "link": "https://www.jiqizhixin.com/articles/2026-02-12-3",
+    "abstract": "",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "08",
+    "trend": "down"
+  },
+  {
+    "title": "让机器人「秒懂人话」！中国电信TeleAI发布首个实时文本驱动人形机器人控制框架TextOp",
+    "source": "MachineHeart",
+    "link": "https://www.jiqizhixin.com/articles/2026-02-12-2",
+    "abstract": "",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -76,7 +96,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -86,17 +106,17 @@
     "abstract": "Subtitle Edit 是一款针对文本格式类字幕的编辑工具，支持多种字符编码和字幕格式（Sub Station Alpha、Advanced Sub Station Alpha、SubRip、MicroDVD、MPL2、MPsub (MPlayer subtitle)、SubViewer 2.0、Plain-Text、Adobe Encore DVD）。...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "11",
     "trend": "down"
   },
   {
-    "title": "GPT-5 outperforms federal judges 100% to 52% in legal reasoning experiment",
+    "title": "GPT-5 outperforms federal judges in legal reasoning experiment",
     "source": "HackerNews",
     "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6155012",
     "abstract": "Comments...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -106,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "13",
     "trend": "up"
   },
   {
@@ -116,8 +136,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "14",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -125,26 +145,6 @@
     "link": "https://huggingface.co/blog/pytorch-xla",
     "abstract": "",
     "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
-  },
-  {
-    "title": "Ceva Wi-Fi 6 and Bluetooth IPs Power Renesas’ First Combo MCUs for IoT and Connected Home",
-    "source": "SemiWiki",
-    "link": "https://semiwiki.com/ip/ceva/366552-ceva-wi-fi-6-and-bluetooth-ips-power-renesas-first-combo-mcus-for-iot-and-connected-home/",
-    "abstract": "The rapid expansion of IoT, smart home, and industrial automation markets is reshaping how connectivity is designed into embedded systems. Developers increasingly require highly in...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
-  },
-  {
-    "title": "Intel Arc B390 Panther Lake Generational Performance Since The Gen9 Graphics Era",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/intel-gen9-xe3-b390-graphics",
-    "abstract": "Last week on Phoronix we provided initial Linux graphics benchmarks for the new Xe3-based Arc B390 graphics found with the higher-end Panther Lake SoCs with 12 Xe cores. Those benc...",
-    "pscore": 71,
     "category": "CHIP_FRONT",
     "rank": "15",
     "trend": "down"
