@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "阿里达摩院开源具身大脑基模 RynnBrain",
@@ -27,7 +27,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "模型、框架、应用量产工作流，原力灵机三箭齐发，开启具身智能”原生时刻”",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -60,14 +60,24 @@
     "trend": "down"
   },
   {
+    "title": "Linux 7.0 Graphics Drivers See New AMD Hardware, Intel Xe SR-IOV + Multi-Device SVM",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Linux-7.0-Graphics-Drivers",
+    "abstract": "The massive set of Linux kernel graphics/display driver Direct Rendering Manager (DRM) updates were sent out and merged today for the Linux 7.0 kernel. This also includes the growi...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "07",
+    "trend": "down"
+  },
+  {
     "title": "Groq on Hugging Face Inference Providers 🔥",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/inference-providers-groq",
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "Subtitle Edit 4.0.15 发布，字幕编辑工具",
@@ -76,7 +86,17 @@
     "abstract": "Subtitle Edit 是一款针对文本格式类字幕的编辑工具，支持多种字符编码和字幕格式（Sub Station Alpha、Advanced Sub Station Alpha、SubRip、MicroDVD、MPL2、MPsub (MPlayer subtitle)、SubViewer 2.0、Plain-Text、Adobe Encore DVD）。...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
+    "trend": "down"
+  },
+  {
+    "title": "GPT-5 outperforms federal judges 100% to 52% in legal reasoning experiment",
+    "source": "HackerNews",
+    "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6155012",
+    "abstract": "Comments...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -86,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -96,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -106,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "13",
     "trend": "down"
   },
   {
@@ -116,7 +136,7 @@
     "abstract": "The rapid expansion of IoT, smart home, and industrial automation markets is reshaping how connectivity is designed into embedded systems. Developers increasingly require highly in...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "14",
     "trend": "down"
   },
   {
@@ -126,27 +146,7 @@
     "abstract": "Last week on Phoronix we provided initial Linux graphics benchmarks for the new Xe3-based Arc B390 graphics found with the higher-end Panther Lake SoCs with 12 Xe cores. Those benc...",
     "pscore": 71,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
-  },
-  {
-    "title": "对标 Gemini 2.5 Pro，蚂蚁集团开源全模态大模型Ming-Flash-Omni 2.0",
-    "source": "MachineHeart",
-    "link": "https://www.jiqizhixin.com/articles/2026-02-11-4",
-    "abstract": "",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
-  },
-  {
-    "title": "Intel Xeon 6780E Sierra Forest vs. AMD EPYC 9965 On Linux 6.18 Performance",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/sierra-forest-epyc-turin-2026",
-    "abstract": "With recently having carried out benchmarks and finding the Intel Xeon 6780E \"Sierra Forest\" performance has improved ~14% since launch day thanks to open-source/Linux software imp...",
-    "pscore": 66,
-    "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "up"
+    "trend": "down"
   }
 ]
