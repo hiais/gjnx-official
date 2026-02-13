@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "阿里达摩院开源具身大脑基模 RynnBrain",
@@ -37,7 +37,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -57,7 +57,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Linux 7.0 Graphics Drivers See New AMD Hardware, Intel Xe SR-IOV + Multi-Device SVM",
@@ -107,7 +107,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -117,7 +117,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -127,7 +127,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
