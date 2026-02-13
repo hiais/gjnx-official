@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "阿里达摩院开源具身大脑基模 RynnBrain",
@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "具身智能的「GPT时刻」？高德连发两个全面SOTA的ABot具身基座模型",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -57,26 +57,6 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
-  },
-  {
-    "title": "当AI应用都在「撒钱」时，谁来扛住千亿交互背后的算力大考？",
-    "source": "MachineHeart",
-    "link": "https://www.jiqizhixin.com/articles/2026-02-12-3",
-    "abstract": "",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
-  },
-  {
-    "title": "让机器人「秒懂人话」！中国电信TeleAI发布首个实时文本驱动人形机器人控制框架TextOp",
-    "source": "MachineHeart",
-    "link": "https://www.jiqizhixin.com/articles/2026-02-12-2",
-    "abstract": "",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "08",
     "trend": "down"
   },
   {
@@ -86,8 +66,18 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "07",
     "trend": "down"
+  },
+  {
+    "title": "蚂蚁集团开源Ring-2.5-1T，全球首个混合线性架构万亿参数思考模型来了",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/02/379431.html",
+    "abstract": "全模态大模型Ming-Flash-Omni 2.0，性能对标 Gemini 2.5 Pro...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "Subtitle Edit 4.0.15 发布，字幕编辑工具",
@@ -96,7 +86,7 @@
     "abstract": "Subtitle Edit 是一款针对文本格式类字幕的编辑工具，支持多种字符编码和字幕格式（Sub Station Alpha、Advanced Sub Station Alpha、SubRip、MicroDVD、MPL2、MPsub (MPlayer subtitle)、SubViewer 2.0、Plain-Text、Adobe Encore DVD）。...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -106,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -116,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -126,8 +116,18 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
+    "rank": "12",
+    "trend": "up"
+  },
+  {
+    "title": "Libinput 1.31 Released With Configurable Timeouts, Fast 3-Finger Swipes",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Libinput-1.31",
+    "abstract": "Red Hat's leading input expert Peter Hutterer announced the release overnight of libinput 1.31, the input handling library used by the Linux desktop on both X.Org and Wayland deskt...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Intel Arc B390 Panther Lake Generational Performance Since The Gen9 Graphics Era",
@@ -147,6 +147,6 @@
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "down"
+    "trend": "up"
   }
 ]
