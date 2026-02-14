@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "阿里达摩院开源具身大脑基模 RynnBrain",
@@ -20,23 +20,13 @@
     "trend": "up"
   },
   {
-    "title": "具身智能的「GPT时刻」？高德连发两个全面SOTA的ABot具身基座模型",
-    "source": "MachineHeart",
-    "link": "https://www.jiqizhixin.com/articles/2026-02-12-11",
-    "abstract": "",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
-  },
-  {
     "title": "Google Cloud TPUs made available to Hugging Face users",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -46,7 +36,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -54,6 +44,16 @@
     "source": "Phoronix",
     "link": "https://www.phoronix.com/news/Linux-7.0-Graphics-Drivers",
     "abstract": "The massive set of Linux kernel graphics/display driver Direct Rendering Manager (DRM) updates were sent out and merged today for the Linux 7.0 kernel. This also includes the growi...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "05",
+    "trend": "up"
+  },
+  {
+    "title": "GPT-5.2改写粒子物理教科书！人类手算32项算不出，AI一行公式搞定",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/02/380154.html",
+    "abstract": "关键公式由GPT-5.2 Pro猜出，随后被一个OpenAI内部模型连续思考超过12小时证明成立...",
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
@@ -67,7 +67,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "蚂蚁集团开源Ring-2.5-1T，全球首个混合线性架构万亿参数思考模型来了",
@@ -80,24 +80,14 @@
     "trend": "down"
   },
   {
-    "title": "Subtitle Edit 4.0.15 发布，字幕编辑工具",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/402939/subtitle-edit-4-0-15-released",
-    "abstract": "Subtitle Edit 是一款针对文本格式类字幕的编辑工具，支持多种字符编码和字幕格式（Sub Station Alpha、Advanced Sub Station Alpha、SubRip、MicroDVD、MPL2、MPsub (MPlayer subtitle)、SubViewer 2.0、Plain-Text、Adobe Encore DVD）。...",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
-  },
-  {
     "title": "GPT-5.2 derives a new result in theoretical physics",
     "source": "HackerNews",
     "link": "https://openai.com/index/new-result-theoretical-physics/",
     "abstract": "Comments...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -106,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -116,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -126,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "12",
     "trend": "down"
   },
   {
@@ -136,8 +126,8 @@
     "abstract": "Red Hat's leading input expert Peter Hutterer announced the release overnight of libinput 1.31, the input handling library used by the Linux desktop on both X.Org and Wayland deskt...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
   },
   {
     "title": "Attackers prompted Gemini over 100,000 times while trying to clone it, Google says",
@@ -146,7 +136,17 @@
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "down"
+  },
+  {
+    "title": "刚刚Gemini上新模型，全球只有7人比它会编程，谷歌姚顺宇参与",
+    "source": "MachineHeart",
+    "link": "https://www.jiqizhixin.com/articles/2026-02-13-2",
+    "abstract": "",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "up"
+    "trend": "down"
   }
 ]
