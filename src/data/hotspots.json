@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "阿里达摩院开源具身大脑基模 RynnBrain",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Linux 7.0 Graphics Drivers See New AMD Hardware, Intel Xe SR-IOV + Multi-Device SVM",
@@ -77,7 +77,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Subtitle Edit 4.0.15 发布，字幕编辑工具",
@@ -87,7 +87,17 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
+  },
+  {
+    "title": "GPT-5.2 derives a new result in theoretical physics",
+    "source": "HackerNews",
+    "link": "https://openai.com/index/new-result-theoretical-physics/",
+    "abstract": "Comments...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -96,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -106,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -116,8 +126,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "13",
+    "trend": "down"
   },
   {
     "title": "Libinput 1.31 Released With Configurable Timeouts, Fast 3-Finger Swipes",
@@ -126,27 +136,17 @@
     "abstract": "Red Hat's leading input expert Peter Hutterer announced the release overnight of libinput 1.31, the input handling library used by the Linux desktop on both X.Org and Wayland deskt...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
-  },
-  {
-    "title": "Intel Arc B390 Panther Lake Generational Performance Since The Gen9 Graphics Era",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/intel-gen9-xe3-b390-graphics",
-    "abstract": "Last week on Phoronix we provided initial Linux graphics benchmarks for the new Xe3-based Arc B390 graphics found with the higher-end Panther Lake SoCs with 12 Xe cores. Those benc...",
-    "pscore": 71,
-    "category": "CHIP_FRONT",
     "rank": "14",
     "trend": "down"
   },
   {
-    "title": "Gemini 3 Deep Think",
-    "source": "HackerNews",
-    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/",
-    "abstract": "Comments...",
+    "title": "Attackers prompted Gemini over 100,000 times while trying to clone it, Google says",
+    "source": "ArsTechnica",
+    "link": "https://arstechnica.com/ai/2026/02/attackers-prompted-gemini-over-100000-times-while-trying-to-clone-it-google-says/",
+    "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "down"
+    "trend": "up"
   }
 ]
