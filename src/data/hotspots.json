@@ -1,22 +1,12 @@
 [
   {
-    "title": "人形机器人放无人机，还能上天入海！有点过于赛博了吧",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/02/380236.html",
-    "abstract": "中国电信 TeleAI 不一样的具身智能路线...",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "down"
-  },
-  {
     "title": "北京人形发布具身天工 3.0",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/403291",
     "abstract": "北京人形机器人创新中心正式发布新一代通用机器人平台具身天工3.0。以“更开放、更好用”为核心目标，依托自研“慧思开物”通用具身智能平台，在本体稳定性、运动控制、具身大小脑协同、全自主作业等方面有了显著提升，也是行业内首个实现触物交互式全身高动态运动控制的全尺寸人形机器人。 同时，针对具身智能行业在开发......",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "01",
     "trend": "down"
   },
   {
@@ -26,7 +16,7 @@
     "abstract": "阿里巴巴达摩院发布具身智能大脑基础模型 RynnBrain，并一次性开源了包括30B MoE在内的7个全系列模型。同时还开源了全新评测基准 RynnBrain-Bench，用于评测时空细粒度具身任务。 根据介绍，RynnBrain 模型引入了机器人与环境互动所需的两项基本能力：时空记忆和物理世界推理。其中，时空记忆能力可让机器人在其完整的历......",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -36,7 +26,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -46,18 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "down"
-  },
-  {
-    "title": "GPT-5.2改写粒子物理教科书！人类手算32项算不出，AI一行公式搞定",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/02/380154.html",
-    "abstract": "关键公式由GPT-5.2 Pro猜出，随后被一个OpenAI内部模型连续思考超过12小时证明成立...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -66,8 +46,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -76,8 +56,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -86,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -96,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -106,8 +86,8 @@
     "abstract": "Red Hat's leading input expert Peter Hutterer announced the release overnight of libinput 1.31, the input handling library used by the Linux desktop on both X.Org and Wayland deskt...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "Attackers prompted Gemini over 100,000 times while trying to clone it, Google says",
@@ -116,7 +96,7 @@
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "10",
     "trend": "down"
   }
 ]
