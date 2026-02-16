@@ -17,7 +17,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "阿里达摩院开源具身大脑基模 RynnBrain",
@@ -37,7 +37,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -87,7 +87,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "还在玩AI 3D手办？Gemini 3 Deep Think已能直出STL，可打印实物",
@@ -117,7 +117,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -127,16 +127,6 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "down"
-  },
-  {
-    "title": "Libinput 1.31 Released With Configurable Timeouts, Fast 3-Finger Swipes",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Libinput-1.31",
-    "abstract": "Red Hat's leading input expert Peter Hutterer announced the release overnight of libinput 1.31, the input handling library used by the Linux desktop on both X.Org and Wayland deskt...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "14",
     "trend": "up"
   },
   {
@@ -145,6 +135,16 @@
     "link": "https://www.jiqizhixin.com/articles/2026-02-15-4",
     "abstract": "",
     "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "up"
+  },
+  {
+    "title": "Attackers prompted Gemini over 100,000 times while trying to clone it, Google says",
+    "source": "ArsTechnica",
+    "link": "https://arstechnica.com/ai/2026/02/attackers-prompted-gemini-over-100000-times-while-trying-to-clone-it-google-says/",
+    "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
+    "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "15",
     "trend": "up"
