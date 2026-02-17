@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "阿里达摩院开源具身大脑基模 RynnBrain",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -67,7 +67,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -87,7 +87,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -97,7 +97,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -120,23 +120,13 @@
     "trend": "down"
   },
   {
-    "title": "ICLR 2026 | 7B小模型干翻GPT-5？AdaResoner实现Agentic Vision的主动「视觉工具思考」",
-    "source": "MachineHeart",
-    "link": "https://www.jiqizhixin.com/articles/2026-02-15-4",
-    "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
-  },
-  {
     "title": "Show HN: Jemini – Gemini for the Epstein Files",
     "source": "HackerNews",
     "link": "https://jmail.world/jemini",
     "abstract": "Comments...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "13",
     "trend": "down"
   },
   {
@@ -146,7 +136,17 @@
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "down"
+  },
+  {
+    "title": "最强开源大模型除夕登场！397B参数千问3.5超越Gemini 3，百万Tokens低至8毛",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/02/380433.html",
+    "abstract": "这还只是阿里春节档第一弹...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "up"
+    "trend": "down"
   }
 ]
