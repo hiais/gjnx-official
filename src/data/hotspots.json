@@ -27,7 +27,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "捅破具身智能天花板！极佳视界新VLA大模型登场，复杂长时程任务近100%成功率",
@@ -90,23 +90,13 @@
     "trend": "up"
   },
   {
-    "title": "还在玩AI 3D手办？Gemini 3 Deep Think已能直出STL，可打印实物",
-    "source": "MachineHeart",
-    "link": "https://www.jiqizhixin.com/articles/2026-02-15-6",
-    "abstract": "",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
-  },
-  {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/keras-chatbot-arena",
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -116,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -126,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -136,7 +126,7 @@
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "13",
     "trend": "up"
   },
   {
@@ -146,7 +136,17 @@
     "abstract": "这还只是阿里春节档第一弹...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "15",
+    "rank": "14",
     "trend": "up"
+  },
+  {
+    "title": "Arc B390 Graphics With Panther Lake Performing Great On Open-Source Intel Compute Runtime",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/review/intel-arc-b390-compute",
+    "abstract": "This month I have been doing a lot of Panther Lake benchmarking under Linux with the Core Ultra X7 358H. One of the areas of much interest has been the Arc B390 Xe3 graphics that h...",
+    "pscore": 69,
+    "category": "CHIP_FRONT",
+    "rank": "15",
+    "trend": "down"
   }
 ]
