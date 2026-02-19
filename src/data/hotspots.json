@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "阿里达摩院开源具身大脑基模 RynnBrain",
@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "15 years of FP64 segmentation, and why the Blackwell Ultra breaks the pattern",
@@ -27,7 +27,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "春晚揭秘！蔡明的「大孙子们」，背地里竟在干这些",
@@ -60,24 +60,14 @@
     "trend": "down"
   },
   {
-    "title": "鲁棒RL赋能AI编程！破局企业数据噪声难题，同等算力训出更好模型",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/02/380742.html",
-    "abstract": "让噪声从「包袱」变「燃料」...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
-  },
-  {
     "title": "Groq on Hugging Face Inference Providers 🔥",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/inference-providers-groq",
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -86,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -96,13 +86,23 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/pytorch-xla",
+    "abstract": "",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "10",
+    "trend": "down"
+  },
+  {
+    "title": "太初元碁：40+大模型即发即适配，上线即可用，国产算力高效落地",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/02/381415.html",
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
@@ -127,7 +127,7 @@
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Arc B390 Graphics With Panther Lake Performing Great On Open-Source Intel Compute Runtime",
