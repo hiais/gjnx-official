@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "阿里达摩院开源具身大脑基模 RynnBrain",
@@ -17,16 +17,6 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
-  },
-  {
-    "title": "15 years of FP64 segmentation, and why the Blackwell Ultra breaks the pattern",
-    "source": "HackerNews",
-    "link": "https://nicolasdickenmann.com/blog/the-great-fp64-divide.html",
-    "abstract": "Comments...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "03",
     "trend": "down"
   },
   {
@@ -36,7 +26,7 @@
     "abstract": "具身智能正在走进消费级...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -46,7 +36,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -56,7 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -66,8 +56,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -76,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -86,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -96,8 +86,18 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "down"
+  },
+  {
+    "title": "春晚宇树四分半：全球人形机器人一哥的功夫梦",
+    "source": "MachineHeart",
+    "link": "https://www.jiqizhixin.com/articles/2026-02-19-5",
+    "abstract": "",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "太初元碁：40+大模型即发即适配，上线即可用，国产算力高效落地",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "SiFive’s AI’s Next Chapter: RISC-V and Custom Silicon",
@@ -120,23 +120,33 @@
     "trend": "down"
   },
   {
-    "title": "Attackers prompted Gemini over 100,000 times while trying to clone it, Google says",
-    "source": "ArsTechnica",
-    "link": "https://arstechnica.com/ai/2026/02/attackers-prompted-gemini-over-100000-times-while-trying-to-clone-it-google-says/",
-    "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
+    "title": "Gemini 3.1 Pro",
+    "source": "HackerNews",
+    "link": "https://deepmind.google/models/model-cards/gemini-3-1-pro/",
+    "abstract": "Comments...",
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "13",
     "trend": "down"
   },
   {
-    "title": "Arc B390 Graphics With Panther Lake Performing Great On Open-Source Intel Compute Runtime",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/intel-arc-b390-compute",
-    "abstract": "This month I have been doing a lot of Panther Lake benchmarking under Linux with the Core Ultra X7 358H. One of the areas of much interest has been the Arc B390 Xe3 graphics that h...",
-    "pscore": 69,
+    "title": "Gemini 3.1 Pro Preview",
+    "source": "HackerNews",
+    "link": "https://console.cloud.google.com/vertex-ai/publishers/google/model-garden/gemini-3.1-pro-preview?pli=1",
+    "abstract": "Comments...",
+    "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "14",
-    "trend": "up"
+    "trend": "down"
+  },
+  {
+    "title": "Attackers prompted Gemini over 100,000 times while trying to clone it, Google says",
+    "source": "ArsTechnica",
+    "link": "https://arstechnica.com/ai/2026/02/attackers-prompted-gemini-over-100000-times-while-trying-to-clone-it-google-says/",
+    "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "15",
+    "trend": "down"
   }
 ]
