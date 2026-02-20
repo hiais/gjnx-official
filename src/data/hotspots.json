@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "太初元碁：40+大模型即发即适配，上线即可用，国产算力高效落地",
@@ -97,26 +97,6 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "up"
-  },
-  {
-    "title": "SiFive’s AI’s Next Chapter: RISC-V and Custom Silicon",
-    "source": "SemiWiki",
-    "link": "https://semiwiki.com/ip/sifive/366818-sifives-ais-next-chapter-risc-v-and-custom-silicon/",
-    "abstract": "In the rapidly evolving world of artificial intelligence and semiconductor design, open-standard processor architectures are gaining unprecedented traction. At the center of this s...",
-    "pscore": 71,
-    "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
-  },
-  {
-    "title": "Gemini 3.1 Pro",
-    "source": "HackerNews",
-    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
-    "abstract": "Comments...",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "12",
     "trend": "down"
   },
   {
@@ -126,7 +106,7 @@
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -136,7 +116,7 @@
     "abstract": "",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -146,7 +126,27 @@
     "abstract": "",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "15",
+    "rank": "13",
     "trend": "up"
+  },
+  {
+    "title": "Intelligent Networks: Power, Reliability, and Maintenance in Telecom — Webinar Preview",
+    "source": "SemiWiki",
+    "link": "https://semiwiki.com/analytics/proteantecs/366596-intelligent-networks-power-reliability-and-maintenance-in-telecom-webinar-preview/",
+    "abstract": "The upcoming webinar “Intelligent Networks: Power, Reliability, and Maintenance in Telecom” will focus on how telecommunications networks are adapting to growing demands for effici...",
+    "pscore": 66,
+    "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "up"
+  },
+  {
+    "title": "Linux 7.0 Shows Significant PostgreSQL Performance Gains On AMD EPYC",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/review/linux-70-amd-epyc-turin",
+    "abstract": "When beginning some early Linux 7.0 kernel benchmarking this week for looking at its performance in its early development state, I started off testing on Core Ultra X7 \"Panther Lak...",
+    "pscore": 66,
+    "category": "CHIP_FRONT",
+    "rank": "15",
+    "trend": "down"
   }
 ]
