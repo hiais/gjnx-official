@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -77,7 +77,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "春晚宇树四分半：全球人形机器人一哥的功夫梦",
@@ -107,7 +107,7 @@
     "pscore": 71,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Gemini 3.1 Pro",
@@ -137,7 +137,7 @@
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "14",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "谷歌突发Gemini 3.1 Pro！首次采用「.1」版本号，推理性能×2的那种",
