@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "阿里达摩院开源具身大脑基模 RynnBrain",
@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "春晚揭秘！蔡明的「大孙子们」，背地里竟在干这些",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "SiFive’s AI’s Next Chapter: RISC-V and Custom Silicon",
@@ -117,33 +117,33 @@
     "pscore": 71,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Gemini 3.1 Pro",
     "source": "HackerNews",
-    "link": "https://deepmind.google/models/model-cards/gemini-3-1-pro/",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
     "abstract": "Comments...",
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "down"
-  },
-  {
-    "title": "Gemini 3.1 Pro Preview",
-    "source": "HackerNews",
-    "link": "https://console.cloud.google.com/vertex-ai/publishers/google/model-garden/gemini-3.1-pro-preview?pli=1",
-    "abstract": "Comments...",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Attackers prompted Gemini over 100,000 times while trying to clone it, Google says",
     "source": "ArsTechnica",
     "link": "https://arstechnica.com/ai/2026/02/attackers-prompted-gemini-over-100000-times-while-trying-to-clone-it-google-says/",
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "down"
+  },
+  {
+    "title": "谷歌夺回王座：Gemini 3.1 Pro来了！姚顺宇：后面还有更好的",
+    "source": "MachineHeart",
+    "link": "https://www.jiqizhixin.com/articles/2026-02-20",
+    "abstract": "",
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "15",
