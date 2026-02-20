@@ -20,24 +20,14 @@
     "trend": "up"
   },
   {
-    "title": "春晚揭秘！蔡明的「大孙子们」，背地里竟在干这些",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/02/380804.html",
-    "abstract": "具身智能正在走进消费级...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
-  },
-  {
     "title": "Google Cloud TPUs made available to Hugging Face users",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
+    "rank": "03",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -46,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -56,7 +46,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -66,7 +56,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -76,8 +66,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -86,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "春晚宇树四分半：全球人形机器人一哥的功夫梦",
@@ -96,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -106,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -116,8 +106,8 @@
     "abstract": "In the rapidly evolving world of artificial intelligence and semiconductor design, open-standard processor architectures are gaining unprecedented traction. At the center of this s...",
     "pscore": 71,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "Gemini 3.1 Pro",
@@ -126,8 +116,8 @@
     "abstract": "Comments...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "Attackers prompted Gemini over 100,000 times while trying to clone it, Google says",
@@ -136,8 +126,8 @@
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
   },
   {
     "title": "谷歌夺回王座：Gemini 3.1 Pro来了！姚顺宇：后面还有更好的",
@@ -146,7 +136,17 @@
     "abstract": "",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "15",
+    "rank": "14",
     "trend": "down"
+  },
+  {
+    "title": "谷歌突发Gemini 3.1 Pro！首次采用「.1」版本号，推理性能×2的那种",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/02/381460.html",
+    "abstract": "",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "15",
+    "trend": "up"
   }
 ]
