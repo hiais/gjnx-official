@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -67,7 +67,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -77,7 +77,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "春晚宇树四分半：全球人形机器人一哥的功夫梦",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "太初元碁：40+大模型即发即适配，上线即可用，国产算力高效落地",
@@ -97,7 +97,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Attackers prompted Gemini over 100,000 times while trying to clone it, Google says",
@@ -127,7 +127,7 @@
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Intelligent Networks: Power, Reliability, and Maintenance in Telecom — Webinar Preview",
@@ -147,6 +147,6 @@
     "pscore": 66,
     "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "down"
+    "trend": "up"
   }
 ]
