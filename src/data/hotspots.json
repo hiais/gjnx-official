@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -47,7 +47,17 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
+  },
+  {
+    "title": "Inputlag.science – Repository of knowledge about input lag in gaming",
+    "source": "HackerNews",
+    "link": "https://inputlag.science",
+    "abstract": "Comments...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -56,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -66,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -76,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -86,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "太初元碁：40+大模型即发即适配，上线即可用，国产算力高效落地",
@@ -96,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -106,7 +116,7 @@
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -116,8 +126,8 @@
     "abstract": "",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
   },
   {
     "title": "谷歌突发Gemini 3.1 Pro！首次采用「.1」版本号，推理性能×2的那种",
@@ -126,7 +136,7 @@
     "abstract": "",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "14",
     "trend": "down"
   },
   {
@@ -134,16 +144,6 @@
     "source": "SemiWiki",
     "link": "https://semiwiki.com/analytics/proteantecs/366596-intelligent-networks-power-reliability-and-maintenance-in-telecom-webinar-preview/",
     "abstract": "The upcoming webinar “Intelligent Networks: Power, Reliability, and Maintenance in Telecom” will focus on how telecommunications networks are adapting to growing demands for effici...",
-    "pscore": 66,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
-  },
-  {
-    "title": "Linux 7.0 Shows Significant PostgreSQL Performance Gains On AMD EPYC",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/linux-70-amd-epyc-turin",
-    "abstract": "When beginning some early Linux 7.0 kernel benchmarking this week for looking at its performance in its early development state, I started off testing on Core Ultra X7 \"Panther Lak...",
     "pscore": 66,
     "category": "CHIP_FRONT",
     "rank": "15",
