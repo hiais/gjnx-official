@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "阿里达摩院开源具身大脑基模 RynnBrain",
@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -47,16 +47,6 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
-  },
-  {
-    "title": "Inputlag.science – Repository of knowledge about input lag in gaming",
-    "source": "HackerNews",
-    "link": "https://inputlag.science",
-    "abstract": "Comments...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "06",
     "trend": "down"
   },
   {
@@ -66,7 +56,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -76,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -86,18 +76,18 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "down"
   },
   {
-    "title": "春晚宇树四分半：全球人形机器人一哥的功夫梦",
+    "title": "ICLR 2026｜把LLM Embedding Model算力瓶颈，从Query侧彻底移走，LightRetriever来了",
     "source": "MachineHeart",
-    "link": "https://www.jiqizhixin.com/articles/2026-02-19-5",
+    "link": "https://www.jiqizhixin.com/articles/2026-02-22-4",
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "太初元碁：40+大模型即发即适配，上线即可用，国产算力高效落地",
@@ -106,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "Attackers prompted Gemini over 100,000 times while trying to clone it, Google says",
@@ -116,17 +106,7 @@
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
-  },
-  {
-    "title": "谷歌夺回王座：Gemini 3.1 Pro来了！姚顺宇：后面还有更好的",
-    "source": "MachineHeart",
-    "link": "https://www.jiqizhixin.com/articles/2026-02-20",
-    "abstract": "",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -136,8 +116,8 @@
     "abstract": "",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "Intelligent Networks: Power, Reliability, and Maintenance in Telecom — Webinar Preview",
@@ -146,7 +126,17 @@
     "abstract": "The upcoming webinar “Intelligent Networks: Power, Reliability, and Maintenance in Telecom” will focus on how telecommunications networks are adapting to growing demands for effici...",
     "pscore": 66,
     "category": "CHIP_FRONT",
-    "rank": "15",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
+  },
+  {
+    "title": "Linux 7.0 Shows Significant PostgreSQL Performance Gains On AMD EPYC",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/review/linux-70-amd-epyc-turin",
+    "abstract": "When beginning some early Linux 7.0 kernel benchmarking this week for looking at its performance in its early development state, I started off testing on Core Ultra X7 \"Panther Lak...",
+    "pscore": 66,
+    "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "up"
   }
 ]
