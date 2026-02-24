@@ -1,13 +1,23 @@
 [
   {
-    "title": "北京人形发布具身天工 3.0",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/403291",
-    "abstract": "北京人形机器人创新中心正式发布新一代通用机器人平台具身天工3.0。以“更开放、更好用”为核心目标，依托自研“慧思开物”通用具身智能平台，在本体稳定性、运动控制、具身大小脑协同、全自主作业等方面有了显著提升，也是行业内首个实现触物交互式全身高动态运动控制的全尺寸人形机器人。 同时，针对具身智能行业在开发......",
+    "title": "锚定“连接+算力”，中兴通讯助力具身智能行业创新发展",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/02/381820.html",
+    "abstract": "",
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
     "trend": "up"
+  },
+  {
+    "title": "谷歌发布 Gemini 3.1 Pro，推理能力实现重大突破",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/405360",
+    "abstract": "谷歌正式推出新一代大模型Gemini 3.1 Pro。该模型在严苛的ARC-AGI-2测试中取得77.1%的高分，推理性能较上一代3 Pro提升逾两倍；在“人类最后考试”（HLE）中以44.4%的成绩超越GPT-5.2（34.5%）与Claude Opus 4.6（40.0%）。 据了解，这是谷歌首次以\".1\"作为版本增量发布Gemini模型——此前的版本迭...",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "down"
   },
   {
     "title": "Intel Releases OpenVINO 2026 With Improved NPU Handling, Expanded LLM Support",
@@ -16,18 +26,18 @@
     "abstract": "Intel's open-source OpenVINO AI toolkit is out with its first major release of 2026. With today's OpenVINO 2026.0 release there is expanded large language model (LLM) support, impr...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "03",
     "trend": "up"
   },
   {
-    "title": "阿里达摩院开源具身大脑基模 RynnBrain",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/403238",
-    "abstract": "阿里巴巴达摩院发布具身智能大脑基础模型 RynnBrain，并一次性开源了包括30B MoE在内的7个全系列模型。同时还开源了全新评测基准 RynnBrain-Bench，用于评测时空细粒度具身任务。 根据介绍，RynnBrain 模型引入了机器人与环境互动所需的两项基本能力：时空记忆和物理世界推理。其中，时空记忆能力可让机器人在其完整的历......",
-    "pscore": 92,
+    "title": "ICRA 2026｜中兴开源RealMirror平台，以端到端仿真基座推动具身智能研发普惠化",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/02/381926.html",
+    "abstract": "",
+    "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "20亿融资，百亿估值加冕！千寻智能开年引爆具身智能赛道",
@@ -36,8 +46,8 @@
     "abstract": "联手宁德时代&京东落地...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -46,7 +56,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -56,8 +66,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -66,8 +76,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -76,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -86,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -96,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "项目陷入停滞、算力明争暗斗，5000亿美元的「星际之门」何去何从？",
@@ -106,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -116,7 +126,7 @@
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "down"
   },
   {
@@ -126,7 +136,7 @@
     "abstract": "When beginning some early Linux 7.0 kernel benchmarking this week for looking at its performance in its early development state, I started off testing on Core Ultra X7 \"Panther Lak...",
     "pscore": 66,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "14",
     "trend": "up"
   }
 ]
