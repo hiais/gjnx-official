@@ -17,7 +17,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Intel Releases OpenVINO 2026 With Improved NPU Handling, Expanded LLM Support",
@@ -27,7 +27,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "ICRA 2026｜中兴开源RealMirror平台，以端到端仿真基座推动具身智能研发普惠化",
@@ -37,7 +37,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "20亿融资，百亿估值加冕！千寻智能开年引爆具身智能赛道",
@@ -67,7 +67,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -117,7 +117,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Attackers prompted Gemini over 100,000 times while trying to clone it, Google says",
@@ -128,15 +128,5 @@
     "category": "CHIP_FRONT",
     "rank": "13",
     "trend": "down"
-  },
-  {
-    "title": "Linux 7.0 Shows Significant PostgreSQL Performance Gains On AMD EPYC",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/linux-70-amd-epyc-turin",
-    "abstract": "When beginning some early Linux 7.0 kernel benchmarking this week for looking at its performance in its early development state, I started off testing on Core Ultra X7 \"Panther Lak...",
-    "pscore": 66,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
   }
 ]
