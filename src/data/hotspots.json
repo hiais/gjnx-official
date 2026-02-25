@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Intel Releases OpenVINO 2026 With Improved NPU Handling, Expanded LLM Support",
@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "ICRA 2026｜中兴开源RealMirror平台，以端到端仿真基座推动具身智能研发普惠化",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -70,24 +70,14 @@
     "trend": "up"
   },
   {
-    "title": "Show HN: Context Mode – 315 KB of MCP output becomes 5.4 KB in Claude Code",
-    "source": "HackerNews",
-    "link": "https://github.com/mksglu/claude-context-mode",
-    "abstract": "Comments...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
-  },
-  {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/keras-chatbot-arena",
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -96,14 +86,24 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/pytorch-xla",
     "abstract": "",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "10",
+    "trend": "down"
+  },
+  {
+    "title": "融资34亿！谷歌前TPU员工创业新型芯片，卡帕西也投了",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/02/382058.html",
+    "abstract": "预计2027年出货...",
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
@@ -117,6 +117,16 @@
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "12",
+    "trend": "down"
+  },
+  {
+    "title": "“本源司南”正式开放下载，中国首款自主研发量子计算机操作系统",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/405722",
+    "abstract": "2月24日，安徽省量子计算工程研究中心宣布，本源量子自主研发的量子计算机操作系统“本源司南”正式面向全球开放线上下载。这是全球首个开放下载的量子计算机操作系统，将有效降低开发门槛，加速我国量子计算生态自主化建设。 目前，用户只需要通过本源量子官方网站完成下载，借助一键式自动化脚本即可快速完成本地部署，......",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "13",
     "trend": "down"
   }
 ]
