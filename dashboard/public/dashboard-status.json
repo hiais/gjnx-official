@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-02-25 18:53:25",
+  "timestamp": "2026-02-25 19:13:39",
   "health": {
     "score": 30,
     "status": "critical",
     "issues": [
-      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (70397m ago))"
+      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (70418m ago))"
     ],
     "daemon_status": {
       "alive": false,
-      "last_heartbeat": "2026-01-07 21:35:33 (70397m ago)"
+      "last_heartbeat": "2026-01-07 21:35:33 (70418m ago)"
     }
   },
   "tasks": {
@@ -19,14 +19,14 @@
       {
         "id": "ALERT_P0_NONE.lock",
         "created": "2026-01-18 21:16:04",
-        "age_hours": 909.6
+        "age_hours": 910.0
       }
     ]
   },
   "logs": {
-    "total": 5,
+    "total": 11,
     "by_level": {
-      "INFO": 5,
+      "INFO": 11,
       "WARN": 0,
       "ERROR": 0,
       "FATAL": 0,
@@ -34,10 +34,52 @@
       "SYSTEM": 0
     },
     "by_workflow": {
-      "write-article": 5
+      "write-article": 11
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-02-25T19:13:23.940066",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "asset_generated",
+        "trace_id": "17"
+      },
+      {
+        "time": "2026-02-25T19:11:50.844469",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "workflow_end",
+        "trace_id": "trace-20260225-190304-62a2c559"
+      },
+      {
+        "time": "2026-02-25T19:11:47.128694",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "qc_passed",
+        "trace_id": "trace-20260225-190304-62a2c559"
+      },
+      {
+        "time": "2026-02-25T19:09:55.378949",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "lead_magnet_sourced",
+        "trace_id": "17"
+      },
+      {
+        "time": "2026-02-25T19:06:20.518529",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "config_synced",
+        "trace_id": "trace-20260225-190304-62a2c559"
+      },
+      {
+        "time": "2026-02-25T19:05:58.437005",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "workflow_start",
+        "trace_id": "17"
+      },
       {
         "time": "2026-02-25T18:53:03.799114",
         "level": "INFO",
@@ -78,9 +120,9 @@
   "performance": {
     "avg_duration_by_workflow": {},
     "duration_percentiles": {},
-    "token_usage_today": 30000,
-    "token_usage_week": 135000,
-    "success_count": 3,
+    "token_usage_today": 60000,
+    "token_usage_week": 165000,
+    "success_count": 7,
     "fail_count": 0,
     "success_rate": 100.0
   },
@@ -88,24 +130,24 @@
     "daily_budget": 100.0,
     "daily_token_budget": 500000,
     "token_price_per_k": 0.1,
-    "today_total_cost": 3.0,
-    "today_token_usage": 30000,
-    "week_total_cost": 13.5,
-    "week_token_usage": 135000,
-    "budget_usage_percent": 3.0,
+    "today_total_cost": 6.0,
+    "today_token_usage": 60000,
+    "week_total_cost": 16.5,
+    "week_token_usage": 165000,
+    "budget_usage_percent": 6.0,
     "budget_status": "normal",
     "by_workflow_today": {
       "write-article": {
-        "tokens": 30000,
-        "cost": 3.0,
-        "count": 5
+        "tokens": 60000,
+        "cost": 6.0,
+        "count": 11
       }
     },
     "by_workflow_week": {
       "write-article": {
-        "tokens": 120000,
-        "cost": 12.0,
-        "count": 22
+        "tokens": 150000,
+        "cost": 15.0,
+        "count": 28
       },
       "scout": {
         "tokens": 10000,
@@ -131,40 +173,40 @@
     "by_workflow_today_formatted": [
       {
         "workflow": "write-article",
-        "tokens": 30000,
-        "cost": 3.0,
-        "count": 5,
+        "tokens": 60000,
+        "cost": 6.0,
+        "count": 11,
         "percentage": 100.0
       }
     ],
     "by_workflow_week_formatted": [
       {
         "workflow": "write-article",
-        "tokens": 120000,
-        "cost": 12.0,
-        "count": 22,
-        "percentage": 88.9
+        "tokens": 150000,
+        "cost": 15.0,
+        "count": 28,
+        "percentage": 90.9
       },
       {
         "workflow": "scout",
         "tokens": 10000,
         "cost": 1.0,
         "count": 7,
-        "percentage": 7.4
+        "percentage": 6.1
       },
       {
         "workflow": "plan",
         "tokens": 4000,
         "cost": 0.4,
         "count": 6,
-        "percentage": 3.0
+        "percentage": 2.4
       },
       {
         "workflow": "process-tasks",
         "tokens": 1000,
         "cost": 0.1,
         "count": 2,
-        "percentage": 0.7
+        "percentage": 0.6
       },
       {
         "workflow": "system-sentinel",
@@ -180,7 +222,7 @@
       "inbox": 23,
       "scheduled": 65,
       "wip": 0,
-      "published": 146
+      "published": 147
     },
     "pipeline_details": {
       "inbox": [],
@@ -402,7 +444,7 @@
           "goal": "⚡ 民生痛点"
         },
         {
-          "priority": "✍️ Drafting ( P0)",
+          "priority": "✅ Published ( P0)",
           "title": "2026-02-28",
           "topic": "**《 瞒着EPA烧甲烷？马斯克不敢提的xAI算力软肋，彻底撕开了AI极简的伪善面具》**",
           "date": "Writer C",
@@ -418,7 +460,7 @@
           "goal": "💸 金融安全"
         },
         {
-          "priority": "🎯 Planned ( P0)",
+          "priority": "✍️ Drafting ( P0)",
           "title": "2026-03-02",
           "topic": "**《 Android 17 首个预览版实测：Min Mode 开启后，微信后台终于“死透”了》**",
           "date": "Writer A",
@@ -709,6 +751,11 @@
       "wip": [],
       "published": [
         {
+          "date": "2026-02-25",
+          "title": "瞒着EPA烧甲烷？马斯克不敢提的xAI算力软肋，彻底撕开了AI极简的伪善面具",
+          "topic": "星际硅基"
+        },
+        {
           "date": "2026-02-24",
           "title": "4-bit 即正义：DeepSeek V4 如何用 336G 显存跑通“满血”推理？",
           "topic": "02-算力跃迁"
@@ -802,15 +849,15 @@
           "date": "2026-02-08",
           "title": "Clawdbot 被迫改名 OpenClaw：全网第一款“病毒式” AI Agent，到底是不是安全噩梦？",
           "topic": "05-端侧异变"
-        },
-        {
-          "date": "2026-02-08",
-          "title": "安卓的“续航监狱”：Android 17 底层锁死后台，APP 还能怎么“活”下去？",
-          "topic": "05-端侧异变"
         }
       ]
     },
     "recent_published": [
+      {
+        "date": "2026-02-25",
+        "title": "瞒着EPA烧甲烷？马斯克不敢提的xAI算力软肋，彻底撕开了AI极简的伪善面具",
+        "topic": "星际硅基"
+      },
       {
         "date": "2026-02-24",
         "title": "4-bit 即正义：DeepSeek V4 如何用 336G 显存跑通“满血”推理？",
@@ -828,12 +875,12 @@
       }
     ],
     "topic_distribution": {
+      "星际硅基": 2,
       "02-算力跃迁": 28,
       "04-电力之冠": 28,
       "07-前沿交付": 1,
       "06-星际硅基": 8,
       "05-端侧异变": 37,
-      "星际硅基": 1,
       "端侧异变": 3,
       "03-具身革命": 5,
       "00-待分类": 18,
@@ -842,6 +889,7 @@
       "00-系统综述": 2
     },
     "weekly_output": {
+      "2026-02-25": 1,
       "2026-02-24": 3
     }
   },
@@ -896,18 +944,18 @@
   },
   "scheduled_tasks": [],
   "business": {
-    "articles_today": 3,
-    "articles_week": 17,
+    "articles_today": 7,
+    "articles_week": 21,
     "qc_pass_rate": 100.0,
     "avg_duration": 0,
     "efficiency": 0
   },
   "alerts": [
     {
-      "time": "18:53",
+      "time": "19:13",
       "level": "🔴 P0",
       "rule_id": "SYS-001",
-      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (70397m ago)",
+      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (70418m ago)",
       "action": "请运行 start-dashboard-full.bat (推荐)",
       "status": "Active"
     }
@@ -940,7 +988,7 @@
       },
       {
         "date": "2026-02-25",
-        "value": 30000
+        "value": 60000
       }
     ],
     "multi_metric_trend": {
@@ -971,7 +1019,7 @@
         },
         {
           "date": "2026-02-25",
-          "value": 30000
+          "value": 60000
         }
       ],
       "success_rate": [
@@ -1098,10 +1146,10 @@
   },
   "comparison": {
     "token_usage": {
-      "today": 30000,
+      "today": 60000,
       "yesterday": 105000,
-      "delta": -75000,
-      "delta_percent": -71.4
+      "delta": -45000,
+      "delta_percent": -42.9
     },
     "success_rate": {
       "today": 100.0,
@@ -1117,12 +1165,12 @@
     }
   },
   "system": {
-    "last_update": "2026-02-25 18:53:26",
+    "last_update": "2026-02-25 19:13:39",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.51,
+    "duration_seconds": 0.06,
     "has_token_trend": true,
     "errors": []
   }
