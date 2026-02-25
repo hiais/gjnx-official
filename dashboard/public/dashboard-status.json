@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-02-25 19:13:39",
+  "timestamp": "2026-02-25 20:13:04",
   "health": {
     "score": 30,
     "status": "critical",
     "issues": [
-      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (70418m ago))"
+      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (70477m ago))"
     ],
     "daemon_status": {
       "alive": false,
-      "last_heartbeat": "2026-01-07 21:35:33 (70418m ago)"
+      "last_heartbeat": "2026-01-07 21:35:33 (70477m ago)"
     }
   },
   "tasks": {
@@ -19,25 +19,295 @@
       {
         "id": "ALERT_P0_NONE.lock",
         "created": "2026-01-18 21:16:04",
-        "age_hours": 910.0
+        "age_hours": 910.9
       }
     ]
   },
   "logs": {
-    "total": 11,
+    "total": 49,
     "by_level": {
-      "INFO": 11,
+      "INFO": 48,
       "WARN": 0,
       "ERROR": 0,
       "FATAL": 0,
-      "SUCCESS": 0,
+      "SUCCESS": 1,
       "SYSTEM": 0
     },
     "by_workflow": {
-      "write-article": 11
+      "system": 3,
+      "write-article": 35,
+      "sentinel": 6,
+      "qc-check": 3,
+      "verify-data": 2
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-02-25T20:13:04",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Content sync completed successfully",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-02-25T20:13:04",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-02-25T20:12:53",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] running 'npm run sync:all'...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-02-25T19:52:03.407070",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "qc_passed",
+        "trace_id": "check"
+      },
+      {
+        "time": "2026-02-25T19:51:36.963769",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "qc_passed",
+        "trace_id": "check"
+      },
+      {
+        "time": "2026-02-25T19:51:28.976374",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "qc_passed",
+        "trace_id": "check"
+      },
+      {
+        "time": "2026-02-25T19:51:21.117440",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "qc_passed",
+        "trace_id": "check"
+      },
+      {
+        "time": "2026-02-25T19:51:10.971709",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "qc_passed",
+        "trace_id": "check"
+      },
+      {
+        "time": "2026-02-25T19:51:01.044545",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "qc_passed",
+        "trace_id": "check"
+      },
+      {
+        "time": "2026-02-25T19:50:44.610344",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "qc_passed",
+        "trace_id": "check"
+      },
+      {
+        "time": "2026-02-25T19:50:32.623291",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "qc_passed",
+        "trace_id": "check"
+      },
+      {
+        "time": "2026-02-25T19:50:22.814460",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "qc_passed",
+        "trace_id": "check"
+      },
+      {
+        "time": "2026-02-25T19:50:13.186096",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "qc_passed",
+        "trace_id": "check"
+      },
+      {
+        "time": "2026-02-25T19:50:01.609299",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "qc_passed",
+        "trace_id": "check"
+      },
+      {
+        "time": "2026-02-25T19:49:52.021182",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "qc_passed",
+        "trace_id": "check"
+      },
+      {
+        "time": "2026-02-25T19:49:44.517634",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "qc_passed",
+        "trace_id": "check"
+      },
+      {
+        "time": "2026-02-25T19:49:23.115930",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "qc_passed",
+        "trace_id": "check"
+      },
+      {
+        "time": "2026-02-25T19:49:05.670581",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "qc_passed",
+        "trace_id": "trace-20260225-193209-df3eb3eb"
+      },
+      {
+        "time": "2026-02-25T19:48:37.989491",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "asset_generated",
+        "trace_id": "trace-20260225-193209-df3eb3eb"
+      },
+      {
+        "time": "2026-02-25T19:48:22.641466",
+        "level": "INFO",
+        "workflow": "sentinel",
+        "message": "workflow_finished",
+        "trace_id": "trace-20260225-193209-df3eb3eb"
+      },
+      {
+        "time": "2026-02-25T19:48:11.500175",
+        "level": "INFO",
+        "workflow": "sentinel",
+        "message": "workflow_waiting_resolved",
+        "trace_id": "trace-20260225-193209-df3eb3eb"
+      },
+      {
+        "time": "2026-02-25T19:48:02.467393",
+        "level": "INFO",
+        "workflow": "sentinel",
+        "message": "workflow_waiting",
+        "trace_id": "trace-20260225-193209-df3eb3eb"
+      },
+      {
+        "time": "2026-02-25T19:47:50.735539",
+        "level": "INFO",
+        "workflow": "sentinel",
+        "message": "workflow_end",
+        "trace_id": "trace-20260225-193209-df3eb3eb"
+      },
+      {
+        "time": "2026-02-25T19:47:06.171406",
+        "level": "INFO",
+        "workflow": "sentinel",
+        "message": "workflow_start",
+        "trace_id": "trace-20260225-193209-df3eb3eb"
+      },
+      {
+        "time": "2026-02-25T19:46:42.156633",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "workflow_end",
+        "trace_id": "trace-20260225-193209-df3eb3eb"
+      },
+      {
+        "time": "2026-02-25T19:46:30.690208",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "qc_passed",
+        "trace_id": "Core"
+      },
+      {
+        "time": "2026-02-25T19:42:39.042053",
+        "level": "INFO",
+        "workflow": "sentinel",
+        "message": "workflow_start",
+        "trace_id": "trace-20260225-193209-df3eb3eb"
+      },
+      {
+        "time": "2026-02-25T19:42:19.557190",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "workflow_end",
+        "trace_id": "trace-20260225-193209-df3eb3eb"
+      },
+      {
+        "time": "2026-02-25T19:41:36.719825",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "asset_generated",
+        "trace_id": "trace-20260225-193209-df3eb3eb"
+      },
+      {
+        "time": "2026-02-25T19:40:29.503275",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "qc_passed",
+        "trace_id": "trace-20260225-193209-df3eb3eb"
+      },
+      {
+        "time": "2026-02-25T19:40:24.787907",
+        "level": "INFO",
+        "workflow": "qc-check",
+        "message": "qc_final_passed",
+        "trace_id": "trace-20260225-193209-df3eb3eb"
+      },
+      {
+        "time": "2026-02-25T19:40:20.152856",
+        "level": "INFO",
+        "workflow": "qc-check",
+        "message": "workflow_start",
+        "trace_id": "trace-20260225-193209-df3eb3eb"
+      },
+      {
+        "time": "2026-02-25T19:40:05.709522",
+        "level": "INFO",
+        "workflow": "verify-data",
+        "message": "workflow_end",
+        "trace_id": "trace-20260225-193209-df3eb3eb"
+      },
+      {
+        "time": "2026-02-25T19:40:01.280102",
+        "level": "INFO",
+        "workflow": "verify-data",
+        "message": "workflow_start",
+        "trace_id": "trace-20260225-193209-df3eb3eb"
+      },
+      {
+        "time": "2026-02-25T19:39:05.038654",
+        "level": "INFO",
+        "workflow": "qc-check",
+        "message": "qc_check_passed",
+        "trace_id": "trace-20260225-193209-df3eb3eb"
+      },
+      {
+        "time": "2026-02-25T19:36:42.279415",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "lead_magnet_sourced",
+        "trace_id": "你的电费单不是变贵了，而是替AI交了保护费：揭秘算力霸权下的全民电费税》\", \"source_found\": true}\""
+      },
+      {
+        "time": "2026-02-25T19:35:44.049498",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "config_synced",
+        "trace_id": "trace-20260225-193209-df3eb3eb"
+      },
+      {
+        "time": "2026-02-25T19:34:40.682421",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "workflow_start",
+        "trace_id": "你的电费单不是变贵了，而是替AI交了保护费：揭秘算力霸权下的全民电费税》\"}\""
+      },
       {
         "time": "2026-02-25T19:13:23.940066",
         "level": "INFO",
@@ -120,9 +390,9 @@
   "performance": {
     "avg_duration_by_workflow": {},
     "duration_percentiles": {},
-    "token_usage_today": 60000,
-    "token_usage_week": 165000,
-    "success_count": 7,
+    "token_usage_today": 120000,
+    "token_usage_week": 225000,
+    "success_count": 34,
     "fail_count": 0,
     "success_rate": 100.0
   },
@@ -130,24 +400,54 @@
     "daily_budget": 100.0,
     "daily_token_budget": 500000,
     "token_price_per_k": 0.1,
-    "today_total_cost": 6.0,
-    "today_token_usage": 60000,
-    "week_total_cost": 16.5,
-    "week_token_usage": 165000,
-    "budget_usage_percent": 6.0,
+    "today_total_cost": 12.0,
+    "today_token_usage": 120000,
+    "week_total_cost": 22.5,
+    "week_token_usage": 225000,
+    "budget_usage_percent": 12.0,
     "budget_status": "normal",
     "by_workflow_today": {
       "write-article": {
-        "tokens": 60000,
-        "cost": 6.0,
-        "count": 11
+        "tokens": 120000,
+        "cost": 12.0,
+        "count": 35
+      },
+      "qc-check": {
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 3
+      },
+      "verify-data": {
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 2
+      },
+      "sentinel": {
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 6
       }
     },
     "by_workflow_week": {
       "write-article": {
-        "tokens": 150000,
-        "cost": 15.0,
-        "count": 28
+        "tokens": 210000,
+        "cost": 21.0,
+        "count": 52
+      },
+      "qc-check": {
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 3
+      },
+      "verify-data": {
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 2
+      },
+      "sentinel": {
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 6
       },
       "scout": {
         "tokens": 10000,
@@ -173,40 +473,82 @@
     "by_workflow_today_formatted": [
       {
         "workflow": "write-article",
-        "tokens": 60000,
-        "cost": 6.0,
-        "count": 11,
+        "tokens": 120000,
+        "cost": 12.0,
+        "count": 35,
         "percentage": 100.0
+      },
+      {
+        "workflow": "qc-check",
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 3,
+        "percentage": 0.0
+      },
+      {
+        "workflow": "verify-data",
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 2,
+        "percentage": 0.0
+      },
+      {
+        "workflow": "sentinel",
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 6,
+        "percentage": 0.0
       }
     ],
     "by_workflow_week_formatted": [
       {
         "workflow": "write-article",
-        "tokens": 150000,
-        "cost": 15.0,
-        "count": 28,
-        "percentage": 90.9
+        "tokens": 210000,
+        "cost": 21.0,
+        "count": 52,
+        "percentage": 93.3
       },
       {
         "workflow": "scout",
         "tokens": 10000,
         "cost": 1.0,
         "count": 7,
-        "percentage": 6.1
+        "percentage": 4.4
       },
       {
         "workflow": "plan",
         "tokens": 4000,
         "cost": 0.4,
         "count": 6,
-        "percentage": 2.4
+        "percentage": 1.8
       },
       {
         "workflow": "process-tasks",
         "tokens": 1000,
         "cost": 0.1,
         "count": 2,
-        "percentage": 0.6
+        "percentage": 0.4
+      },
+      {
+        "workflow": "qc-check",
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 3,
+        "percentage": 0.0
+      },
+      {
+        "workflow": "verify-data",
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 2,
+        "percentage": 0.0
+      },
+      {
+        "workflow": "sentinel",
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 6,
+        "percentage": 0.0
       },
       {
         "workflow": "system-sentinel",
@@ -222,7 +564,7 @@
       "inbox": 23,
       "scheduled": 65,
       "wip": 0,
-      "published": 147
+      "published": 149
     },
     "pipeline_details": {
       "inbox": [],
@@ -436,7 +778,7 @@
           "goal": "🧠 极限优化"
         },
         {
-          "priority": "✍️ Drafting ( P0)",
+          "priority": "✅ Published ( P0)",
           "title": "2026-02-27",
           "topic": "**《 你的电费单不是变贵了，而是替AI交了“保护费”：揭秘算力霸权下的全民电费税》**",
           "date": "Writer A",
@@ -460,7 +802,7 @@
           "goal": "💸 金融安全"
         },
         {
-          "priority": "✍️ Drafting ( P0)",
+          "priority": "✅ Published ( P0)",
           "title": "2026-03-02",
           "topic": "**《 Android 17 首个预览版实测：Min Mode 开启后，微信后台终于“死透”了》**",
           "date": "Writer A",
@@ -752,6 +1094,16 @@
       "published": [
         {
           "date": "2026-02-25",
+          "title": "你的电费单不是变贵了，而是替AI交了“保护费”：揭秘算力霸权下的全民电费税",
+          "topic": "04-电力之冠"
+        },
+        {
+          "date": "2026-02-25",
+          "title": "Android 17 首个预览版实测：Min Mode 开启后，微信后台终于“死透”了",
+          "topic": "端侧异变"
+        },
+        {
+          "date": "2026-02-25",
           "title": "瞒着EPA烧甲烷？马斯克不敢提的xAI算力软肋，彻底撕开了AI极简的伪善面具",
           "topic": "星际硅基"
         },
@@ -839,20 +1191,20 @@
           "date": "2026-02-10",
           "title": "你的手机不是“系统占用多”，是“影子文件”：揭秘 App 自动更新后的垃圾堆积",
           "topic": "端侧异变"
-        },
-        {
-          "date": "2026-02-08",
-          "title": "你的手机不是“自动亮度”傻，是“传感器降采样”：揭秘环境光感知里的省电猫腻",
-          "topic": "端侧异变"
-        },
-        {
-          "date": "2026-02-08",
-          "title": "Clawdbot 被迫改名 OpenClaw：全网第一款“病毒式” AI Agent，到底是不是安全噩梦？",
-          "topic": "05-端侧异变"
         }
       ]
     },
     "recent_published": [
+      {
+        "date": "2026-02-25",
+        "title": "你的电费单不是变贵了，而是替AI交了“保护费”：揭秘算力霸权下的全民电费税",
+        "topic": "04-电力之冠"
+      },
+      {
+        "date": "2026-02-25",
+        "title": "Android 17 首个预览版实测：Min Mode 开启后，微信后台终于“死透”了",
+        "topic": "端侧异变"
+      },
       {
         "date": "2026-02-25",
         "title": "瞒着EPA烧甲烷？马斯克不敢提的xAI算力软肋，彻底撕开了AI极简的伪善面具",
@@ -867,21 +1219,16 @@
         "date": "2026-02-24",
         "title": "硫化物固态电池量产倒计时：宝马 i7 原型车如何解决“寿命魔咒”？",
         "topic": "04-电力之冠"
-      },
-      {
-        "date": "2026-02-24",
-        "title": "1400W 单卡预警！Nvidia B300 正式宣告“风冷时代”死亡",
-        "topic": "02-算力跃迁"
       }
     ],
     "topic_distribution": {
+      "04-电力之冠": 29,
+      "端侧异变": 4,
       "星际硅基": 2,
       "02-算力跃迁": 28,
-      "04-电力之冠": 28,
       "07-前沿交付": 1,
       "06-星际硅基": 8,
       "05-端侧异变": 37,
-      "端侧异变": 3,
       "03-具身革命": 5,
       "00-待分类": 18,
       "01-硬件终局": 10,
@@ -889,7 +1236,7 @@
       "00-系统综述": 2
     },
     "weekly_output": {
-      "2026-02-25": 1,
+      "2026-02-25": 3,
       "2026-02-24": 3
     }
   },
@@ -944,18 +1291,18 @@
   },
   "scheduled_tasks": [],
   "business": {
-    "articles_today": 7,
-    "articles_week": 21,
-    "qc_pass_rate": 100.0,
+    "articles_today": 30,
+    "articles_week": 44,
+    "qc_pass_rate": 33.3,
     "avg_duration": 0,
     "efficiency": 0
   },
   "alerts": [
     {
-      "time": "19:13",
+      "time": "20:13",
       "level": "🔴 P0",
       "rule_id": "SYS-001",
-      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (70418m ago)",
+      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (70477m ago)",
       "action": "请运行 start-dashboard-full.bat (推荐)",
       "status": "Active"
     }
@@ -988,7 +1335,7 @@
       },
       {
         "date": "2026-02-25",
-        "value": 60000
+        "value": 120000
       }
     ],
     "multi_metric_trend": {
@@ -1019,7 +1366,7 @@
         },
         {
           "date": "2026-02-25",
-          "value": 60000
+          "value": 120000
         }
       ],
       "success_rate": [
@@ -1146,10 +1493,10 @@
   },
   "comparison": {
     "token_usage": {
-      "today": 60000,
+      "today": 120000,
       "yesterday": 105000,
-      "delta": -45000,
-      "delta_percent": -42.9
+      "delta": 15000,
+      "delta_percent": 14.3
     },
     "success_rate": {
       "today": 100.0,
@@ -1165,7 +1512,7 @@
     }
   },
   "system": {
-    "last_update": "2026-02-25 19:13:39",
+    "last_update": "2026-02-25 20:13:04",
     "timezone": "China Standard Time"
   },
   "metadata": {
