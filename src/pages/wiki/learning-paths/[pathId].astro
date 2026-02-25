@@ -3,7 +3,7 @@ import MainLayout from '../../../layouts/MainLayout.astro';
 import SectionHeader from '../../../components/ui/SectionHeader.astro';
 import Card from '../../../components/ui/Card.astro';
 import Button from '../../../components/ui/Button.astro';
-import LearningPathProgress from '../../../components/wiki/LearningPathProgress.astro';
+import ProgressTracker from '../../../components/wiki/ProgressTracker.astro';
 import { getCollection } from 'astro:content';
 import taxonomyData from '../../../data/wiki-taxonomy.json';
 
@@ -61,13 +61,8 @@ path.modules.forEach(module => {
     </div>
 
     <!-- 学习进度 -->
-    <LearningPathProgress 
+    <ProgressTracker 
       pathId={pathId || ''}
-      modules={path.modules.map(m => ({
-        moduleId: m.moduleId,
-        order: m.order,
-        title: m.title
-      }))}
     />
 
     <div class="path-timeline">
