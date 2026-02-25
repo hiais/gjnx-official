@@ -17,14 +17,14 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
-    "title": "ICRA 2026｜中兴开源RealMirror平台，以端到端仿真基座推动具身智能研发普惠化",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/02/381926.html",
-    "abstract": "",
-    "pscore": 85,
+    "title": "AMD Announces The EPYC 8005 \"Sorano\" Series",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/AMD-EPYC-8005-Series",
+    "abstract": "The EPYC 9005 series for high-end Zen 5 server processors is a year and a half old and then at the lower-end of the spectrum is the EPYC 4005 series AM5 server processors that laun...",
+    "pscore": 84,
     "category": "CHIP_FRONT",
     "rank": "03",
     "trend": "up"
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -97,7 +97,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "融资34亿！谷歌前TPU员工创业新型芯片，卡帕西也投了",
@@ -127,6 +127,6 @@
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "down"
+    "trend": "up"
   }
 ]
