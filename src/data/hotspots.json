@@ -1,22 +1,12 @@
 [
   {
-    "title": "锚定“连接+算力”，中兴通讯助力具身智能行业创新发展",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/02/381820.html",
-    "abstract": "",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "down"
-  },
-  {
     "title": "谷歌发布 Gemini 3.1 Pro，推理能力实现重大突破",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/405360",
     "abstract": "谷歌正式推出新一代大模型Gemini 3.1 Pro。该模型在严苛的ARC-AGI-2测试中取得77.1%的高分，推理性能较上一代3 Pro提升逾两倍；在“人类最后考试”（HLE）中以44.4%的成绩超越GPT-5.2（34.5%）与Claude Opus 4.6（40.0%）。 据了解，这是谷歌首次以\".1\"作为版本增量发布Gemini模型——此前的版本迭...",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "01",
     "trend": "down"
   },
   {
@@ -26,8 +16,8 @@
     "abstract": "Intel's open-source OpenVINO AI toolkit is out with its first major release of 2026. With today's OpenVINO 2026.0 release there is expanded large language model (LLM) support, impr...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "02",
+    "trend": "down"
   },
   {
     "title": "ICRA 2026｜中兴开源RealMirror平台，以端到端仿真基座推动具身智能研发普惠化",
@@ -36,18 +26,8 @@
     "abstract": "",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
-  },
-  {
-    "title": "20亿融资，百亿估值加冕！千寻智能开年引爆具身智能赛道",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/02/381766.html",
-    "abstract": "联手宁德时代&京东落地...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -56,7 +36,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -66,8 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -75,6 +55,26 @@
     "link": "https://huggingface.co/blog/inference-providers-groq",
     "abstract": "",
     "pscore": 80,
+    "category": "CHIP_FRONT",
+    "rank": "06",
+    "trend": "up"
+  },
+  {
+    "title": "清华数学系大神跳槽OpenAI！曾主导SAM与Llama开发，Sora负责人：欢迎加入",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/02/382015.html",
+    "abstract": "",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "07",
+    "trend": "up"
+  },
+  {
+    "title": "Show HN: Context Mode – 315 KB of MCP output becomes 5.4 KB in Claude Code",
+    "source": "HackerNews",
+    "link": "https://github.com/mksglu/claude-context-mode",
+    "abstract": "Comments...",
+    "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "08",
     "trend": "down"
@@ -107,16 +107,6 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "down"
-  },
-  {
-    "title": "项目陷入停滞、算力明争暗斗，5000亿美元的「星际之门」何去何从？",
-    "source": "MachineHeart",
-    "link": "https://www.jiqizhixin.com/articles/2026-02-23-6",
-    "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "12",
     "trend": "up"
   },
   {
@@ -126,7 +116,7 @@
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   }
 ]
