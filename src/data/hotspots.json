@@ -1,23 +1,23 @@
 [
   {
+    "title": "How Customized Foundation IP Is Redefining Power Efficiency and Semiconductor ROI",
+    "source": "SemiWiki",
+    "link": "https://semiwiki.com/artificial-intelligence/366991-how-customized-foundation-ip-is-redefining-power-efficiency-and-semiconductor-roi/",
+    "abstract": "As computing expands from data centers to edge devices, semiconductor designers face increasing pressure to optimize both performance and energy efficiency. Advanced process nodes ...",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "up"
+  },
+  {
     "title": "谷歌发布 Gemini 3.1 Pro，推理能力实现重大突破",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/405360",
     "abstract": "谷歌正式推出新一代大模型Gemini 3.1 Pro。该模型在严苛的ARC-AGI-2测试中取得77.1%的高分，推理性能较上一代3 Pro提升逾两倍；在“人类最后考试”（HLE）中以44.4%的成绩超越GPT-5.2（34.5%）与Claude Opus 4.6（40.0%）。 据了解，这是谷歌首次以\".1\"作为版本增量发布Gemini模型——此前的版本迭...",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "down"
-  },
-  {
-    "title": "Intel Releases OpenVINO 2026 With Improved NPU Handling, Expanded LLM Support",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Intel-OpenVINO-2026.0-Released",
-    "abstract": "Intel's open-source OpenVINO AI toolkit is out with its first major release of 2026. With today's OpenVINO 2026.0 release there is expanded large language model (LLM) support, impr...",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Alluxio AI 3.8 发布：带来两项突破性新功能——加速对象存储写入与模型加载",
@@ -27,7 +27,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "AMD Announces The EPYC 8005 \"Sorano\" Series",
@@ -37,7 +37,7 @@
     "pscore": 84,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -57,7 +57,17 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "down"
+    "trend": "up"
+  },
+  {
+    "title": "NXP Posts New Linux Accelerator Driver For Their Neutron NPU",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/NXP-Neutron-Linux-Accel-Driver",
+    "abstract": "The Linux kernel continues seeing more open-source kernel drivers emerge for supporting different AI accelerators / NPUs. The newest open-source driver breaking cover today is from...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -66,8 +76,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -76,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -86,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -96,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "融资34亿！谷歌前TPU员工创业新型芯片，卡帕西也投了",
@@ -106,8 +116,18 @@
     "abstract": "预计2027年出货...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
+  },
+  {
+    "title": "An AI-Native Architecture That Eliminates GPU Inefficiencies",
+    "source": "SemiWiki",
+    "link": "https://semiwiki.com/artificial-intelligence/366785-an-ai-native-architecture-that-eliminates-gpu-inefficiencies/",
+    "abstract": "A recent analysis highlighted by MIT Technology Review puts the energy cost of generative AI into stark perspective. Generating a simple text response from Llama 3.1-405B—a model w...",
+    "pscore": 74,
+    "category": "CHIP_FRONT",
+    "rank": "13",
+    "trend": "down"
   },
   {
     "title": "Google API keys weren't secrets, but then Gemini changed the rules",
@@ -116,8 +136,8 @@
     "abstract": "Comments...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "14",
+    "trend": "up"
   },
   {
     "title": "Attackers prompted Gemini over 100,000 times while trying to clone it, Google says",
@@ -126,17 +146,7 @@
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
-  },
-  {
-    "title": "“本源司南”正式开放下载，中国首款自主研发量子计算机操作系统",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/405722",
-    "abstract": "2月24日，安徽省量子计算工程研究中心宣布，本源量子自主研发的量子计算机操作系统“本源司南”正式面向全球开放线上下载。这是全球首个开放下载的量子计算机操作系统，将有效降低开发门槛，加速我国量子计算生态自主化建设。 目前，用户只需要通过本源量子官方网站完成下载，借助一键式自动化脚本即可快速完成本地部署，......",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
+    "rank": "15",
+    "trend": "up"
   }
 ]
