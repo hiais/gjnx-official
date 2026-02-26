@@ -17,7 +17,17 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
+  },
+  {
+    "title": "Alluxio AI 3.8 发布：带来两项突破性新功能——加速对象存储写入与模型加载",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/405851",
+    "abstract": "人工智能基础设施团队正面临全新的挑战：性能瓶颈早已不再局限于 GPU 算力。如今，更常见的限制因素，往往是数据和模型在存储系统中的传输速度——尤其是在以对象存储为主的云环境中。 无论是加载数十亿参数的推理模型，还是运行需要处理海量中间数据的工作流，存储访问一旦变慢，GPU 算力浪费、训练时间拉长、任务性能不......",
+    "pscore": 92,
+    "category": "CHIP_FRONT",
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "AMD Announces The EPYC 8005 \"Sorano\" Series",
@@ -26,8 +36,8 @@
     "abstract": "The EPYC 9005 series for high-end Zen 5 server processors is a year and a half old and then at the lower-end of the spectrum is the EPYC 4005 series AM5 server processors that laun...",
     "pscore": 84,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -36,8 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -46,8 +56,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -55,16 +65,6 @@
     "link": "https://huggingface.co/blog/inference-providers-groq",
     "abstract": "",
     "pscore": 80,
-    "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
-  },
-  {
-    "title": "清华数学系大神跳槽OpenAI！曾主导SAM与Llama开发，Sora负责人：欢迎加入",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/02/382015.html",
-    "abstract": "",
-    "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "07",
     "trend": "up"
@@ -77,7 +77,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -107,6 +107,16 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
+    "trend": "up"
+  },
+  {
+    "title": "Google API keys weren't secrets, but then Gemini changed the rules",
+    "source": "HackerNews",
+    "link": "https://trufflesecurity.com/blog/google-api-keys-werent-secrets-but-then-gemini-changed-the-rules",
+    "abstract": "Comments...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "12",
     "trend": "down"
   },
   {
@@ -116,7 +126,7 @@
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "up"
   },
   {
@@ -126,7 +136,7 @@
     "abstract": "2月24日，安徽省量子计算工程研究中心宣布，本源量子自主研发的量子计算机操作系统“本源司南”正式面向全球开放线上下载。这是全球首个开放下载的量子计算机操作系统，将有效降低开发门槛，加速我国量子计算生态自主化建设。 目前，用户只需要通过本源量子官方网站完成下载，借助一键式自动化脚本即可快速完成本地部署，......",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "14",
     "trend": "up"
   }
 ]
