@@ -7,17 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
-  },
-  {
-    "title": "谷歌发布 Gemini 3.1 Pro，推理能力实现重大突破",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/405360",
-    "abstract": "谷歌正式推出新一代大模型Gemini 3.1 Pro。该模型在严苛的ARC-AGI-2测试中取得77.1%的高分，推理性能较上一代3 Pro提升逾两倍；在“人类最后考试”（HLE）中以44.4%的成绩超越GPT-5.2（34.5%）与Claude Opus 4.6（40.0%）。 据了解，这是谷歌首次以\".1\"作为版本增量发布Gemini模型——此前的版本迭...",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Alluxio AI 3.8 发布：带来两项突破性新功能——加速对象存储写入与模型加载",
@@ -26,8 +16,8 @@
     "abstract": "人工智能基础设施团队正面临全新的挑战：性能瓶颈早已不再局限于 GPU 算力。如今，更常见的限制因素，往往是数据和模型在存储系统中的传输速度——尤其是在以对象存储为主的云环境中。 无论是加载数十亿参数的推理模型，还是运行需要处理海量中间数据的工作流，存储访问一旦变慢，GPU 算力浪费、训练时间拉长、任务性能不......",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "rank": "02",
+    "trend": "up"
   },
   {
     "title": "AMD Announces The EPYC 8005 \"Sorano\" Series",
@@ -36,7 +26,7 @@
     "abstract": "The EPYC 9005 series for high-end Zen 5 server processors is a year and a half old and then at the lower-end of the spectrum is the EPYC 4005 series AM5 server processors that laun...",
     "pscore": 84,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -46,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -56,7 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -66,8 +56,18 @@
     "abstract": "The Linux kernel continues seeing more open-source kernel drivers emerge for supporting different AI accelerators / NPUs. The newest open-source driver breaking cover today is from...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "up"
+  },
+  {
+    "title": "以小身材融入场景，用大算力赢战 AI！联想 PGX 工作站，做 AI 时代的小巨人",
+    "source": "OSChina",
+    "link": "https://my.oschina.net/u/4806939/blog/19208036",
+    "abstract": "AI 时代的开发者需要怎样的设备来提质增效呢？在算力为王的背景下，过往那种一台电脑、一杯咖啡就能 “改变世界” 的开发场景还能复现吗？...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "sudo-rs Breaks Historical Norms With Now Enabling Password Feedback By Default",
@@ -117,17 +117,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "up"
-  },
-  {
-    "title": "融资34亿！谷歌前TPU员工创业新型芯片，卡帕西也投了",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/02/382058.html",
-    "abstract": "预计2027年出货...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "An AI-Native Architecture That Eliminates GPU Inefficiencies",
@@ -136,8 +126,8 @@
     "abstract": "A recent analysis highlighted by MIT Technology Review puts the energy cost of generative AI into stark perspective. Generating a simple text response from Llama 3.1-405B—a model w...",
     "pscore": 74,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
   },
   {
     "title": "Attackers prompted Gemini over 100,000 times while trying to clone it, Google says",
@@ -146,7 +136,17 @@
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "15",
+    "rank": "14",
     "trend": "down"
+  },
+  {
+    "title": "谷歌发布新一代图像生成模型 Nano Banana 2",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/406062/google-nano-banana-2",
+    "abstract": "谷歌今日正式推出Nano Banana 2（即 Gemini 3.1 Flash Image），融合 Nano Banana Pro 的高阶智能与 Flash 系列的高速性能。新模型支持基于实时网络信息的精准图像生成，可准确渲染文本、翻译图内文字，并提升视觉保真度，包括光影、纹理与细节表现。 该模型强化了角色与物体一致性（最多 5 个角色、14 个对象）、复...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "15",
+    "trend": "up"
   }
 ]
