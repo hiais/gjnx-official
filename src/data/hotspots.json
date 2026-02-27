@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "谷歌发布 Gemini 3.1 Pro，推理能力实现重大突破",
@@ -17,7 +17,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Alluxio AI 3.8 发布：带来两项突破性新功能——加速对象存储写入与模型加载",
@@ -27,7 +27,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "AMD Announces The EPYC 8005 \"Sorano\" Series",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -77,7 +77,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -97,7 +97,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -107,7 +107,17 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "down"
+    "trend": "up"
+  },
+  {
+    "title": "sudo-rs Breaks Historical Norms With Now Enabling Password Feedback By Default",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/sudo-rs-password-feedback",
+    "abstract": "On recent builds of Ubuntu 26.04 when being prompted by sudo for the password, password feedback is now enabled by default to show asterisk (*) characters when inputting your passw...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "融资34亿！谷歌前TPU员工创业新型芯片，卡帕西也投了",
@@ -116,8 +126,8 @@
     "abstract": "预计2027年出货...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
   },
   {
     "title": "An AI-Native Architecture That Eliminates GPU Inefficiencies",
@@ -126,18 +136,8 @@
     "abstract": "A recent analysis highlighted by MIT Technology Review puts the energy cost of generative AI into stark perspective. Generating a simple text response from Llama 3.1-405B—a model w...",
     "pscore": 74,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
-  },
-  {
-    "title": "Google API keys weren't secrets, but then Gemini changed the rules",
-    "source": "HackerNews",
-    "link": "https://trufflesecurity.com/blog/google-api-keys-werent-secrets-but-then-gemini-changed-the-rules",
-    "abstract": "Comments...",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
     "rank": "14",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Attackers prompted Gemini over 100,000 times while trying to clone it, Google says",
@@ -147,6 +147,6 @@
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "up"
+    "trend": "down"
   }
 ]
