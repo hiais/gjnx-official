@@ -1,32 +1,26 @@
 {
-  "timestamp": "2026-02-25 20:13:04",
+  "timestamp": "2026-02-28 01:23:19",
   "health": {
     "score": 30,
     "status": "critical",
     "issues": [
-      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (70477m ago))"
+      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (73667m ago))"
     ],
     "daemon_status": {
       "alive": false,
-      "last_heartbeat": "2026-01-07 21:35:33 (70477m ago)"
+      "last_heartbeat": "2026-01-07 21:35:33 (73667m ago)"
     }
   },
   "tasks": {
     "pending": [],
     "processing": [],
     "failed": [],
-    "alerts": [
-      {
-        "id": "ALERT_P0_NONE.lock",
-        "created": "2026-01-18 21:16:04",
-        "age_hours": 910.9
-      }
-    ]
+    "alerts": []
   },
   "logs": {
-    "total": 49,
+    "total": 3,
     "by_level": {
-      "INFO": 48,
+      "INFO": 2,
       "WARN": 0,
       "ERROR": 0,
       "FATAL": 0,
@@ -34,429 +28,87 @@
       "SYSTEM": 0
     },
     "by_workflow": {
-      "system": 3,
-      "write-article": 35,
-      "sentinel": 6,
-      "qc-check": 3,
-      "verify-data": 2
+      "system": 3
     },
     "recent_errors": [],
     "recent_activities": [
       {
-        "time": "2026-02-25T20:13:04",
+        "time": "2026-02-28T01:23:18",
         "level": "OK",
         "workflow": "system",
         "message": "[save-all] Content sync completed successfully",
         "trace_id": ""
       },
       {
-        "time": "2026-02-25T20:13:04",
+        "time": "2026-02-28T01:23:18",
         "level": "INFO",
         "workflow": "system",
         "message": "[save-all] Generating dashboard data...",
         "trace_id": ""
       },
       {
-        "time": "2026-02-25T20:12:53",
+        "time": "2026-02-28T01:23:08",
         "level": "INFO",
         "workflow": "system",
         "message": "[save-all] running 'npm run sync:all'...",
         "trace_id": ""
-      },
-      {
-        "time": "2026-02-25T19:52:03.407070",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "qc_passed",
-        "trace_id": "check"
-      },
-      {
-        "time": "2026-02-25T19:51:36.963769",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "qc_passed",
-        "trace_id": "check"
-      },
-      {
-        "time": "2026-02-25T19:51:28.976374",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "qc_passed",
-        "trace_id": "check"
-      },
-      {
-        "time": "2026-02-25T19:51:21.117440",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "qc_passed",
-        "trace_id": "check"
-      },
-      {
-        "time": "2026-02-25T19:51:10.971709",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "qc_passed",
-        "trace_id": "check"
-      },
-      {
-        "time": "2026-02-25T19:51:01.044545",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "qc_passed",
-        "trace_id": "check"
-      },
-      {
-        "time": "2026-02-25T19:50:44.610344",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "qc_passed",
-        "trace_id": "check"
-      },
-      {
-        "time": "2026-02-25T19:50:32.623291",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "qc_passed",
-        "trace_id": "check"
-      },
-      {
-        "time": "2026-02-25T19:50:22.814460",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "qc_passed",
-        "trace_id": "check"
-      },
-      {
-        "time": "2026-02-25T19:50:13.186096",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "qc_passed",
-        "trace_id": "check"
-      },
-      {
-        "time": "2026-02-25T19:50:01.609299",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "qc_passed",
-        "trace_id": "check"
-      },
-      {
-        "time": "2026-02-25T19:49:52.021182",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "qc_passed",
-        "trace_id": "check"
-      },
-      {
-        "time": "2026-02-25T19:49:44.517634",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "qc_passed",
-        "trace_id": "check"
-      },
-      {
-        "time": "2026-02-25T19:49:23.115930",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "qc_passed",
-        "trace_id": "check"
-      },
-      {
-        "time": "2026-02-25T19:49:05.670581",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "qc_passed",
-        "trace_id": "trace-20260225-193209-df3eb3eb"
-      },
-      {
-        "time": "2026-02-25T19:48:37.989491",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "asset_generated",
-        "trace_id": "trace-20260225-193209-df3eb3eb"
-      },
-      {
-        "time": "2026-02-25T19:48:22.641466",
-        "level": "INFO",
-        "workflow": "sentinel",
-        "message": "workflow_finished",
-        "trace_id": "trace-20260225-193209-df3eb3eb"
-      },
-      {
-        "time": "2026-02-25T19:48:11.500175",
-        "level": "INFO",
-        "workflow": "sentinel",
-        "message": "workflow_waiting_resolved",
-        "trace_id": "trace-20260225-193209-df3eb3eb"
-      },
-      {
-        "time": "2026-02-25T19:48:02.467393",
-        "level": "INFO",
-        "workflow": "sentinel",
-        "message": "workflow_waiting",
-        "trace_id": "trace-20260225-193209-df3eb3eb"
-      },
-      {
-        "time": "2026-02-25T19:47:50.735539",
-        "level": "INFO",
-        "workflow": "sentinel",
-        "message": "workflow_end",
-        "trace_id": "trace-20260225-193209-df3eb3eb"
-      },
-      {
-        "time": "2026-02-25T19:47:06.171406",
-        "level": "INFO",
-        "workflow": "sentinel",
-        "message": "workflow_start",
-        "trace_id": "trace-20260225-193209-df3eb3eb"
-      },
-      {
-        "time": "2026-02-25T19:46:42.156633",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "workflow_end",
-        "trace_id": "trace-20260225-193209-df3eb3eb"
-      },
-      {
-        "time": "2026-02-25T19:46:30.690208",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "qc_passed",
-        "trace_id": "Core"
-      },
-      {
-        "time": "2026-02-25T19:42:39.042053",
-        "level": "INFO",
-        "workflow": "sentinel",
-        "message": "workflow_start",
-        "trace_id": "trace-20260225-193209-df3eb3eb"
-      },
-      {
-        "time": "2026-02-25T19:42:19.557190",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "workflow_end",
-        "trace_id": "trace-20260225-193209-df3eb3eb"
-      },
-      {
-        "time": "2026-02-25T19:41:36.719825",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "asset_generated",
-        "trace_id": "trace-20260225-193209-df3eb3eb"
-      },
-      {
-        "time": "2026-02-25T19:40:29.503275",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "qc_passed",
-        "trace_id": "trace-20260225-193209-df3eb3eb"
-      },
-      {
-        "time": "2026-02-25T19:40:24.787907",
-        "level": "INFO",
-        "workflow": "qc-check",
-        "message": "qc_final_passed",
-        "trace_id": "trace-20260225-193209-df3eb3eb"
-      },
-      {
-        "time": "2026-02-25T19:40:20.152856",
-        "level": "INFO",
-        "workflow": "qc-check",
-        "message": "workflow_start",
-        "trace_id": "trace-20260225-193209-df3eb3eb"
-      },
-      {
-        "time": "2026-02-25T19:40:05.709522",
-        "level": "INFO",
-        "workflow": "verify-data",
-        "message": "workflow_end",
-        "trace_id": "trace-20260225-193209-df3eb3eb"
-      },
-      {
-        "time": "2026-02-25T19:40:01.280102",
-        "level": "INFO",
-        "workflow": "verify-data",
-        "message": "workflow_start",
-        "trace_id": "trace-20260225-193209-df3eb3eb"
-      },
-      {
-        "time": "2026-02-25T19:39:05.038654",
-        "level": "INFO",
-        "workflow": "qc-check",
-        "message": "qc_check_passed",
-        "trace_id": "trace-20260225-193209-df3eb3eb"
-      },
-      {
-        "time": "2026-02-25T19:36:42.279415",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "lead_magnet_sourced",
-        "trace_id": "你的电费单不是变贵了，而是替AI交了保护费：揭秘算力霸权下的全民电费税》\", \"source_found\": true}\""
-      },
-      {
-        "time": "2026-02-25T19:35:44.049498",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "config_synced",
-        "trace_id": "trace-20260225-193209-df3eb3eb"
-      },
-      {
-        "time": "2026-02-25T19:34:40.682421",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "workflow_start",
-        "trace_id": "你的电费单不是变贵了，而是替AI交了保护费：揭秘算力霸权下的全民电费税》\"}\""
-      },
-      {
-        "time": "2026-02-25T19:13:23.940066",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "asset_generated",
-        "trace_id": "17"
-      },
-      {
-        "time": "2026-02-25T19:11:50.844469",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "workflow_end",
-        "trace_id": "trace-20260225-190304-62a2c559"
-      },
-      {
-        "time": "2026-02-25T19:11:47.128694",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "qc_passed",
-        "trace_id": "trace-20260225-190304-62a2c559"
-      },
-      {
-        "time": "2026-02-25T19:09:55.378949",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "lead_magnet_sourced",
-        "trace_id": "17"
-      },
-      {
-        "time": "2026-02-25T19:06:20.518529",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "config_synced",
-        "trace_id": "trace-20260225-190304-62a2c559"
-      },
-      {
-        "time": "2026-02-25T19:05:58.437005",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "workflow_start",
-        "trace_id": "17"
-      },
-      {
-        "time": "2026-02-25T18:53:03.799114",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "asset_generated",
-        "trace_id": "xAI"
-      },
-      {
-        "time": "2026-02-25T18:52:27.643203",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "workflow_end",
-        "trace_id": "trace-20260225-184517-49e41885"
-      },
-      {
-        "time": "2026-02-25T18:52:22.579672",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "qc_passed",
-        "trace_id": "trace-20260225-184517-49e41885"
-      },
-      {
-        "time": "2026-02-25T18:50:53.895185",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "lead_magnet_sourced",
-        "trace_id": "trace-20260225-184517-49e41885"
-      },
-      {
-        "time": "2026-02-25T00:14:13.138215",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "workflow_start",
-        "trace_id": "agent\\: \\Writer\\, \\topic\\: \\你的电费单不是变贵了，而是替AI交了保护费：揭秘算力霸权下的全民电费税\\}"
       }
     ]
   },
   "performance": {
     "avg_duration_by_workflow": {},
     "duration_percentiles": {},
-    "token_usage_today": 120000,
-    "token_usage_week": 225000,
-    "success_count": 34,
+    "token_usage_today": 0,
+    "token_usage_week": 375000,
+    "success_count": 0,
     "fail_count": 0,
-    "success_rate": 100.0
+    "success_rate": 0
   },
   "cost_analysis": {
     "daily_budget": 100.0,
     "daily_token_budget": 500000,
     "token_price_per_k": 0.1,
-    "today_total_cost": 12.0,
-    "today_token_usage": 120000,
-    "week_total_cost": 22.5,
-    "week_token_usage": 225000,
-    "budget_usage_percent": 12.0,
+    "today_total_cost": 0,
+    "today_token_usage": 0,
+    "week_total_cost": 37.5,
+    "week_token_usage": 375000,
+    "budget_usage_percent": 0.0,
     "budget_status": "normal",
-    "by_workflow_today": {
-      "write-article": {
-        "tokens": 120000,
-        "cost": 12.0,
-        "count": 35
-      },
-      "qc-check": {
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 3
-      },
-      "verify-data": {
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 2
-      },
-      "sentinel": {
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 6
-      }
-    },
+    "by_workflow_today": {},
     "by_workflow_week": {
-      "write-article": {
-        "tokens": 210000,
-        "cost": 21.0,
-        "count": 52
-      },
-      "qc-check": {
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 3
-      },
-      "verify-data": {
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 2
-      },
-      "sentinel": {
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 6
+      "plan": {
+        "tokens": 14000,
+        "cost": 1.4,
+        "count": 19
       },
       "scout": {
-        "tokens": 10000,
-        "cost": 1.0,
-        "count": 7
+        "tokens": 30000,
+        "cost": 3.0,
+        "count": 20
       },
-      "plan": {
-        "tokens": 4000,
-        "cost": 0.4,
+      "daily-config-check": {
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 2
+      },
+      "write-article": {
+        "tokens": 330000,
+        "cost": 33.0,
+        "count": 64
+      },
+      "qc-check": {
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 3
+      },
+      "verify-data": {
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 2
+      },
+      "sentinel": {
+        "tokens": 0,
+        "cost": 0.0,
         "count": 6
       },
       "process-tasks": {
@@ -470,64 +122,42 @@
         "count": 1
       }
     },
-    "by_workflow_today_formatted": [
-      {
-        "workflow": "write-article",
-        "tokens": 120000,
-        "cost": 12.0,
-        "count": 35,
-        "percentage": 100.0
-      },
-      {
-        "workflow": "qc-check",
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 3,
-        "percentage": 0.0
-      },
-      {
-        "workflow": "verify-data",
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 2,
-        "percentage": 0.0
-      },
-      {
-        "workflow": "sentinel",
-        "tokens": 0,
-        "cost": 0.0,
-        "count": 6,
-        "percentage": 0.0
-      }
-    ],
+    "by_workflow_today_formatted": [],
     "by_workflow_week_formatted": [
       {
         "workflow": "write-article",
-        "tokens": 210000,
-        "cost": 21.0,
-        "count": 52,
-        "percentage": 93.3
+        "tokens": 330000,
+        "cost": 33.0,
+        "count": 64,
+        "percentage": 88.0
       },
       {
         "workflow": "scout",
-        "tokens": 10000,
-        "cost": 1.0,
-        "count": 7,
-        "percentage": 4.4
+        "tokens": 30000,
+        "cost": 3.0,
+        "count": 20,
+        "percentage": 8.0
       },
       {
         "workflow": "plan",
-        "tokens": 4000,
-        "cost": 0.4,
-        "count": 6,
-        "percentage": 1.8
+        "tokens": 14000,
+        "cost": 1.4,
+        "count": 19,
+        "percentage": 3.7
       },
       {
         "workflow": "process-tasks",
         "tokens": 1000,
         "cost": 0.1,
         "count": 2,
-        "percentage": 0.4
+        "percentage": 0.3
+      },
+      {
+        "workflow": "daily-config-check",
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 2,
+        "percentage": 0.0
       },
       {
         "workflow": "qc-check",
@@ -561,10 +191,10 @@
   },
   "content_factory": {
     "pipeline": {
-      "inbox": 23,
-      "scheduled": 65,
+      "inbox": 25,
+      "scheduled": 77,
       "wip": 0,
-      "published": 149
+      "published": 154
     },
     "pipeline_details": {
       "inbox": [],
@@ -834,7 +464,7 @@
           "goal": "🤖 AI Coding"
         },
         {
-          "priority": "🎯 Planned ( P0)",
+          "priority": "✅ Published ( P0)",
           "title": "2026-03-06",
           "topic": "**《 告别充电宝：1,mAh 硅碳负极电池如何让手机续航突破“三天大关”？》**",
           "date": "Writer A",
@@ -842,7 +472,7 @@
           "goal": "🔋 电池革命"
         },
         {
-          "priority": "🎯 Planned ( P0)",
+          "priority": "✅ Published ( P0)",
           "title": "2026-03-07",
           "topic": "**《 .167 fJ的降维打击！ISSCC 226存算一体破局，不再让AI处理器“满身大汉”》**",
           "date": "Writer B",
@@ -866,7 +496,7 @@
           "goal": "👓 视觉突破"
         },
         {
-          "priority": "🎯 Planned ( P0)",
+          "priority": "✅ Published ( P0)",
           "title": "2026-03-10",
           "topic": "**《 GPU 的终结者？Intel Loihi 3 神经拟态芯片首测：1.2W 功耗如何吊打 1x 算力？》**",
           "date": "Writer C",
@@ -914,7 +544,7 @@
           "goal": "🏗️ 工程效能"
         },
         {
-          "priority": "🎯 Planned ( P0)",
+          "priority": "✅ Published ( P0)",
           "title": "2026-03-16",
           "topic": "**《 Python 的“速度枷锁”粉碎：3.14 No-GIL 版本实测 3x 性能暴涨，AI 训练不再卡脖子？》**",
           "date": "Writer A",
@@ -964,18 +594,18 @@
         {
           "priority": "🎯 Planned ( P1)",
           "title": "2026-03-22",
-          "topic": "**《 (TBD - Saturday) 》**",
-          "date": "Agent",
-          "agent": "00-待分类",
-          "goal": "⚡ 虚位以待"
+          "topic": "**《 你的旗舰机不是“发热正常”，是“散热摆烂”：为什么 VC 均热板只是厂商的安慰剂？ 》**",
+          "date": "Writer A",
+          "agent": "05-端侧异变",
+          "goal": "📱 散热真相"
         },
         {
           "priority": "🎯 Planned ( P1)",
           "title": "2026-03-23",
-          "topic": "**《 (TBD - Sunday) 》**",
-          "date": "Agent",
-          "agent": "00-待分类",
-          "goal": "⚡ 虚位以待"
+          "topic": "**《 你的手机不是“Wi-Fi 不稳”，是“异构计算”在打架：揭秘蓝牙与 Wi-Fi 的频段争夺战 》**",
+          "date": "Writer A",
+          "agent": "05-端侧异变",
+          "goal": "📡 通信冲突"
         },
         {
           "priority": "🎯 Planned ( P0)",
@@ -1088,10 +718,136 @@
           "date": "Writer A",
           "agent": "04-电力之冠",
           "goal": "⚡ 能源安全"
+        },
+        {
+          "priority": "🎯 Planned ( P0)",
+          "title": "2026-04-07",
+          "topic": "**《 $1,, 的豪赌！一家意大利厂撕开了热泵行业的遮羞布：所谓的“高能效”竟是物理学骗局？》**",
+          "date": "Writer B",
+          "agent": "04-电力之冠",
+          "goal": "揭秘/维权"
+        },
+        {
+          "priority": "🎯 Planned ( P1)",
+          "title": "2026-04-08",
+          "topic": "**《 别买只会“吃灰”的家用蓄电池了！这是 1.5 万元的“智商税”，还是 226 年电费刺客的终结者？》**",
+          "date": "Writer A",
+          "agent": "05-端侧异变",
+          "goal": "消费避坑"
+        },
+        {
+          "priority": "🎯 Planned ( P1)",
+          "title": "2026-04-09",
+          "topic": "**《 芯片也玩“叠罗汉”？博通揭秘 226 算力突围战：垂直堆叠技术正在拯救快要被“烧开”的数据中心》**",
+          "date": "Writer B",
+          "agent": "02-算力跃迁",
+          "goal": "硬核前瞻"
+        },
+        {
+          "priority": "🎯 Planned ( P1)",
+          "title": "2026-04-10",
+          "topic": "**《 98.5% 的极限！Navitas 氮化镓破局 1kW AI 电源：为了省下这点“损耗”，人类已经卷到了原子尺度 》**",
+          "date": "Writer A",
+          "agent": "02-算力跃迁",
+          "goal": "技术补位"
+        },
+        {
+          "priority": "🎯 Planned ( P1)",
+          "title": "2026-04-11",
+          "topic": "**《 你的工厂在“喷钱”？揭秘 226 电能回收神技：这台黑盒子能把机器“刹车”的废电再喂回电网，省下 2% 电费 》**",
+          "date": "Writer C",
+          "agent": "04-电力之冠",
+          "goal": "工业能效"
+        },
+        {
+          "priority": "🎯 Planned ( P0)",
+          "title": "2026-04-12",
+          "topic": "**《 23W 的单卡梦魇：Nvidia Rubin 实测数据曝光，我们离“算力停电”还有多远？ 》**",
+          "date": "Writer B",
+          "agent": "02-算力跃迁",
+          "goal": "能源安全"
+        },
+        {
+          "priority": "🎯 Planned ( P1)",
+          "title": "2026-04-13",
+          "topic": "**《 12.4 Tbps 背后：思科 Silicon One G3 如何用液冷“暴力”帮 AI 省下 7% 电费？ 》**",
+          "date": "Writer A",
+          "agent": "02-算力跃迁",
+          "goal": "极速网络"
+        },
+        {
+          "priority": "🎯 Planned ( P1)",
+          "title": "2026-04-14",
+          "topic": "**《 -32℃ 的极寒生存：226 挪威冬测榜单揭秘，谁在续航“卸妆镜”前现了原形？ 》**",
+          "date": "Writer A",
+          "agent": "05-端侧异变",
+          "goal": "真实评测"
+        },
+        {
+          "priority": "🎯 Planned ( P0)",
+          "title": "2026-04-15",
+          "topic": "**《 告别“里程焦虑”！干电极量产元年实测：为何这 2% 的续航提升，足以终结电车的下半场？ 》**",
+          "date": "Writer B",
+          "agent": "05-端侧异变",
+          "goal": "电池底座"
+        },
+        {
+          "priority": "🎯 Planned ( P0)",
+          "title": "2026-04-16",
+          "topic": "**《 让芯片直接“长”出钻石！Rice 大学攻克金刚石散热，算力“热力学墙”被彻底打穿？ 》**",
+          "date": "Writer B",
+          "agent": "02-算力跃迁",
+          "goal": "硬件散热"
+        },
+        {
+          "priority": "🎯 Planned ( P1)",
+          "title": "2026-04-17",
+          "topic": "**《 把GPT-5塞进“光”里：1倍能效暴涨，光子神经网络如何“赐死”硅基算力？ 》**",
+          "date": "Writer C",
+          "agent": "02-算力跃迁",
+          "goal": "光子计算"
+        },
+        {
+          "priority": "🎯 Planned ( P0)",
+          "title": "2026-04-18",
+          "topic": "**《 348.5 Wh/kg！钠电池逆袭超越三元锂，终于可以把“昂贵”的锂矿踢下牌桌了？ 》**",
+          "date": "Writer A",
+          "agent": "04-电力之冠",
+          "goal": "新能源技术"
         }
       ],
       "wip": [],
       "published": [
+        {
+          "date": "2026-02-26",
+          "title": "硫化物固态电池量产倒计时：宝马 i7 原型车如何解决“寿命魔咒”？",
+          "topic": "04-电力之冠"
+        },
+        {
+          "date": "2026-02-25",
+          "title": "1400W 单卡预警！Nvidia B300 正式宣告“风冷时代”死亡",
+          "topic": "02-算力跃迁"
+        },
+        {
+          "date": "2026-02-25",
+          "title": "告别充电宝：10,000mAh 硅碳负极电池如何让手机续航突破“三天大关”？",
+          "topic": "端侧异变"
+        },
+        {
+          "date": "2026-02-25",
+          "title": "0.167 fJ的降维打击！ISSCC 2026存算一体破局，不再让AI处理器“满身大汉”",
+          "topic": "算力跃迁"
+        },
+        {
+          "date": "2026-02-25",
+          "title": "Python 的“速度枷锁”粉碎：3.14 No-GIL 版本实测 3x 性能暴涨，AI 训练不再卡脖子？",
+          "topic": "代码重构"
+        },
+        {
+          "date": "2026-02-25",
+          "title": "GPU 的终结者？Intel Loihi 3 神经拟态芯片首测：1.2W 功耗如何吊打 1000x 算力？",
+          "topic": "星际硅基"
+        },
         {
           "date": "2026-02-25",
           "title": "你的电费单不是变贵了，而是替AI交了“保护费”：揭秘算力霸权下的全民电费税",
@@ -1109,51 +865,46 @@
         },
         {
           "date": "2026-02-24",
-          "title": "4-bit 即正义：DeepSeek V4 如何用 336G 显存跑通“满血”推理？",
-          "topic": "02-算力跃迁"
-        },
-        {
-          "date": "2026-02-24",
-          "title": "硫化物固态电池量产倒计时：宝马 i7 原型车如何解决“寿命魔咒”？",
-          "topic": "04-电力之冠"
-        },
-        {
-          "date": "2026-02-24",
-          "title": "1400W 单卡预警！Nvidia B300 正式宣告“风冷时代”死亡",
-          "topic": "02-算力跃迁"
-        },
-        {
-          "date": "2026-02-09",
-          "title": "万亿级停摆？2026 GPS 欺骗(Spoofing) 危机爆发：当民航与海运失去航向",
-          "topic": "07-前沿交付"
-        },
-        {
-          "date": "2026-02-09",
-          "title": "HBM4 量产发令枪响：Samsung/SK Hynix 2月全面开工，16层堆叠 48GB 只是起步？",
-          "topic": "02-算力跃迁"
-        },
-        {
-          "date": "2026-02-09",
-          "title": "6G 并不是更快的 5G，而是把基站建在你的眼镜里：揭秘 2026 星地一体通讯的真面目",
-          "topic": "06-星际硅基"
-        },
-        {
-          "date": "2026-02-09",
           "title": "你的耳机不是“底噪大”，是“蓝牙解码”太累了：揭秘高码率背后的能耗代价",
           "topic": "05-端侧异变"
         },
         {
-          "date": "2026-02-09",
+          "date": "2026-02-24",
+          "title": "4-bit 即正义：DeepSeek V4 如何用 336G 显存跑通“满血”推理？",
+          "topic": "02-算力跃迁"
+        },
+        {
+          "date": "2026-02-23",
+          "title": "6G 并不是更快的 5G，而是把基站建在你的眼镜里：揭秘 2026 星地一体通讯的真面目",
+          "topic": "06-星际硅基"
+        },
+        {
+          "date": "2026-02-22",
+          "title": "#旅行中的小确幸 #乡村田园风光 #治愈系风",
+          "topic": "00-待分类"
+        },
+        {
+          "date": "2026-02-22",
+          "title": "HBM4 量产发令枪响：Samsung/SK Hynix 2月全面开工，16层堆叠 48GB 只是起步？",
+          "topic": "02-算力跃迁"
+        },
+        {
+          "date": "2026-02-21",
+          "title": "万亿级停摆？2026 GPS 欺骗(Spoofing) 危机爆发：当民航与海运失去航向",
+          "topic": "07-前沿交付"
+        },
+        {
+          "date": "2026-02-20",
           "title": "7500mAh 还是 7.9mm？硅碳负极 (Si-C) 电池量产元年：谁在重新定义“一天一充”？",
           "topic": "05-端侧异变"
         },
         {
-          "date": "2026-02-09",
+          "date": "2026-02-19",
           "title": "你的手机不是“变聪明了”，是“变笨了”：揭秘 SLM 模型如何通过“阉割认知”换取续航",
           "topic": "05-端侧异变"
         },
         {
-          "date": "2026-02-17",
+          "date": "2026-02-18",
           "title": "你的指纹识别不是“不灵”，是“电压不稳”：揭秘屏下超声波背后的能效权衡",
           "topic": "05-端侧异变"
         },
@@ -1166,78 +917,59 @@
           "date": "2026-02-15",
           "title": "你的手机不是“搜星慢”，是“金属边框”在挡路：揭秘天线布局的物理博弈",
           "topic": "05-端侧异变"
-        },
-        {
-          "date": "2026-02-14",
-          "title": "你的旗舰机不是“信号不好”，是“天线避让”：揭秘超薄设计下的射频效能骗局",
-          "topic": "05-端侧异变"
-        },
-        {
-          "date": "2026-02-13",
-          "title": "你的折叠屏不是“折痕深”，是“铰链能效”不足：为什么机械结构也是电老虎？",
-          "topic": "05-端侧异变"
-        },
-        {
-          "date": "2026-02-12",
-          "title": "不用电池的物联网？2026 “零功耗通信”商用元年：揭秘 6G 下的电磁能量采集真相",
-          "topic": "星际硅基"
-        },
-        {
-          "date": "2026-02-11",
-          "title": "你的手机不是“后台不够”，是“内存压缩”太狠了：揭秘统一内存背后的能效阳谋",
-          "topic": "端侧异变"
-        },
-        {
-          "date": "2026-02-10",
-          "title": "你的手机不是“系统占用多”，是“影子文件”：揭秘 App 自动更新后的垃圾堆积",
-          "topic": "端侧异变"
         }
       ]
     },
     "recent_published": [
       {
-        "date": "2026-02-25",
-        "title": "你的电费单不是变贵了，而是替AI交了“保护费”：揭秘算力霸权下的全民电费税",
+        "date": "2026-02-26",
+        "title": "硫化物固态电池量产倒计时：宝马 i7 原型车如何解决“寿命魔咒”？",
         "topic": "04-电力之冠"
       },
       {
         "date": "2026-02-25",
-        "title": "Android 17 首个预览版实测：Min Mode 开启后，微信后台终于“死透”了",
+        "title": "1400W 单卡预警！Nvidia B300 正式宣告“风冷时代”死亡",
+        "topic": "02-算力跃迁"
+      },
+      {
+        "date": "2026-02-25",
+        "title": "告别充电宝：10,000mAh 硅碳负极电池如何让手机续航突破“三天大关”？",
         "topic": "端侧异变"
       },
       {
         "date": "2026-02-25",
-        "title": "瞒着EPA烧甲烷？马斯克不敢提的xAI算力软肋，彻底撕开了AI极简的伪善面具",
-        "topic": "星际硅基"
+        "title": "0.167 fJ的降维打击！ISSCC 2026存算一体破局，不再让AI处理器“满身大汉”",
+        "topic": "算力跃迁"
       },
       {
-        "date": "2026-02-24",
-        "title": "4-bit 即正义：DeepSeek V4 如何用 336G 显存跑通“满血”推理？",
-        "topic": "02-算力跃迁"
-      },
-      {
-        "date": "2026-02-24",
-        "title": "硫化物固态电池量产倒计时：宝马 i7 原型车如何解决“寿命魔咒”？",
-        "topic": "04-电力之冠"
+        "date": "2026-02-25",
+        "title": "Python 的“速度枷锁”粉碎：3.14 No-GIL 版本实测 3x 性能暴涨，AI 训练不再卡脖子？",
+        "topic": "代码重构"
       }
     ],
     "topic_distribution": {
       "04-电力之冠": 29,
-      "端侧异变": 4,
-      "星际硅基": 2,
       "02-算力跃迁": 28,
-      "07-前沿交付": 1,
-      "06-星际硅基": 8,
+      "端侧异变": 5,
+      "算力跃迁": 1,
+      "代码重构": 1,
+      "星际硅基": 3,
       "05-端侧异变": 37,
+      "06-星际硅基": 8,
+      "00-待分类": 19,
+      "07-前沿交付": 1,
       "03-具身革命": 5,
-      "00-待分类": 18,
       "01-硬件终局": 10,
       "07-模拟觉醒": 5,
       "00-系统综述": 2
     },
     "weekly_output": {
-      "2026-02-25": 3,
-      "2026-02-24": 3
+      "2026-02-26": 1,
+      "2026-02-25": 8,
+      "2026-02-24": 2,
+      "2026-02-23": 1,
+      "2026-02-22": 2,
+      "2026-02-21": 1
     }
   },
   "alert_rules": {
@@ -1291,36 +1023,24 @@
   },
   "scheduled_tasks": [],
   "business": {
-    "articles_today": 30,
-    "articles_week": 44,
+    "articles_today": 0,
+    "articles_week": 48,
     "qc_pass_rate": 33.3,
     "avg_duration": 0,
     "efficiency": 0
   },
   "alerts": [
     {
-      "time": "20:13",
+      "time": "01:23",
       "level": "🔴 P0",
       "rule_id": "SYS-001",
-      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (70477m ago)",
+      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (73667m ago)",
       "action": "请运行 start-dashboard-full.bat (推荐)",
       "status": "Active"
     }
   ],
   "history": {
     "token_trend_7d": [
-      {
-        "date": "2026-02-19",
-        "value": 0
-      },
-      {
-        "date": "2026-02-20",
-        "value": 0
-      },
-      {
-        "date": "2026-02-21",
-        "value": 0
-      },
       {
         "date": "2026-02-22",
         "value": 0
@@ -1335,23 +1055,23 @@
       },
       {
         "date": "2026-02-25",
-        "value": 120000
+        "value": 240000
+      },
+      {
+        "date": "2026-02-26",
+        "value": 0
+      },
+      {
+        "date": "2026-02-27",
+        "value": 30000
+      },
+      {
+        "date": "2026-02-28",
+        "value": 0
       }
     ],
     "multi_metric_trend": {
       "token_usage": [
-        {
-          "date": "2026-02-19",
-          "value": 0
-        },
-        {
-          "date": "2026-02-20",
-          "value": 0
-        },
-        {
-          "date": "2026-02-21",
-          "value": 0
-        },
         {
           "date": "2026-02-22",
           "value": 0
@@ -1366,23 +1086,23 @@
         },
         {
           "date": "2026-02-25",
-          "value": 120000
+          "value": 240000
+        },
+        {
+          "date": "2026-02-26",
+          "value": 0
+        },
+        {
+          "date": "2026-02-27",
+          "value": 30000
+        },
+        {
+          "date": "2026-02-28",
+          "value": 0
         }
       ],
       "success_rate": [
         {
-          "date": "2026-02-19",
-          "value": 0
-        },
-        {
-          "date": "2026-02-20",
-          "value": 0
-        },
-        {
-          "date": "2026-02-21",
-          "value": 0
-        },
-        {
           "date": "2026-02-22",
           "value": 0
         },
@@ -1397,22 +1117,22 @@
         {
           "date": "2026-02-25",
           "value": 100.0
+        },
+        {
+          "date": "2026-02-26",
+          "value": 0
+        },
+        {
+          "date": "2026-02-27",
+          "value": 100.0
+        },
+        {
+          "date": "2026-02-28",
+          "value": 0
         }
       ],
       "error_rate": [
         {
-          "date": "2026-02-19",
-          "value": 0
-        },
-        {
-          "date": "2026-02-20",
-          "value": 0
-        },
-        {
-          "date": "2026-02-21",
-          "value": 0
-        },
-        {
           "date": "2026-02-22",
           "value": 0
         },
@@ -1427,22 +1147,22 @@
         {
           "date": "2026-02-25",
           "value": 0.0
+        },
+        {
+          "date": "2026-02-26",
+          "value": 0.0
+        },
+        {
+          "date": "2026-02-27",
+          "value": 0.0
+        },
+        {
+          "date": "2026-02-28",
+          "value": 0
         }
       ],
       "queue_length": [
         {
-          "date": "2026-02-19",
-          "value": 0
-        },
-        {
-          "date": "2026-02-20",
-          "value": 0
-        },
-        {
-          "date": "2026-02-21",
-          "value": 0
-        },
-        {
           "date": "2026-02-22",
           "value": 0
         },
@@ -1456,23 +1176,23 @@
         },
         {
           "date": "2026-02-25",
+          "value": 0
+        },
+        {
+          "date": "2026-02-26",
+          "value": 0
+        },
+        {
+          "date": "2026-02-27",
+          "value": 0
+        },
+        {
+          "date": "2026-02-28",
           "value": 0
         }
       ],
       "avg_duration": [
         {
-          "date": "2026-02-19",
-          "value": 0
-        },
-        {
-          "date": "2026-02-20",
-          "value": 0
-        },
-        {
-          "date": "2026-02-21",
-          "value": 0
-        },
-        {
           "date": "2026-02-22",
           "value": 0
         },
@@ -1486,6 +1206,18 @@
         },
         {
           "date": "2026-02-25",
+          "value": 0
+        },
+        {
+          "date": "2026-02-26",
+          "value": 0
+        },
+        {
+          "date": "2026-02-27",
+          "value": 0
+        },
+        {
+          "date": "2026-02-28",
           "value": 0
         }
       ]
@@ -1493,16 +1225,16 @@
   },
   "comparison": {
     "token_usage": {
-      "today": 120000,
-      "yesterday": 105000,
-      "delta": 15000,
-      "delta_percent": 14.3
+      "today": 0,
+      "yesterday": 30000,
+      "delta": -30000,
+      "delta_percent": -100.0
     },
     "success_rate": {
-      "today": 100.0,
+      "today": 0,
       "yesterday": 100.0,
-      "delta": 0.0,
-      "delta_percent": 0.0
+      "delta": -100.0,
+      "delta_percent": -100.0
     },
     "error_count": {
       "today": 0,
@@ -1512,12 +1244,12 @@
     }
   },
   "system": {
-    "last_update": "2026-02-25 20:13:04",
+    "last_update": "2026-02-28 01:23:19",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.06,
+    "duration_seconds": 0.37,
     "has_token_trend": true,
     "errors": []
   }
