@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-02-28 01:23:19",
+  "timestamp": "2026-02-28 23:56:16",
   "health": {
     "score": 30,
     "status": "critical",
     "issues": [
-      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (73667m ago))"
+      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (75020m ago))"
     ],
     "daemon_status": {
       "alive": false,
-      "last_heartbeat": "2026-01-07 21:35:33 (73667m ago)"
+      "last_heartbeat": "2026-01-07 21:35:33 (75020m ago)"
     }
   },
   "tasks": {
@@ -18,20 +18,293 @@
     "alerts": []
   },
   "logs": {
-    "total": 3,
+    "total": 41,
     "by_level": {
-      "INFO": 2,
+      "INFO": 37,
       "WARN": 0,
       "ERROR": 0,
       "FATAL": 0,
-      "SUCCESS": 1,
+      "SUCCESS": 4,
       "SYSTEM": 0
     },
     "by_workflow": {
-      "system": 3
+      "write-article": 14,
+      "qc-check": 2,
+      "verify-data": 3,
+      "verification": 2,
+      "encoding-check": 1,
+      "plan": 6,
+      "scout": 3,
+      "system": 10
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-02-28T23:55:50.001645",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "workflow_end",
+        "trace_id": "trace-20260228-234646-130be36a"
+      },
+      {
+        "time": "2026-02-28T23:54:08.158101",
+        "level": "INFO",
+        "workflow": "qc-check",
+        "message": "workflow_end",
+        "trace_id": "trace-20260228-234646-130be36a"
+      },
+      {
+        "time": "2026-02-28T23:54:08.052365",
+        "level": "INFO",
+        "workflow": "qc-check",
+        "message": "workflow_start",
+        "trace_id": "trace-20260228-234646-130be36a"
+      },
+      {
+        "time": "2026-02-28T23:53:56.014488",
+        "level": "INFO",
+        "workflow": "verify-data",
+        "message": "workflow_end",
+        "trace_id": "trace-20260228-234646-130be36a"
+      },
+      {
+        "time": "2026-02-28T23:53:55.896517",
+        "level": "INFO",
+        "workflow": "verify-data",
+        "message": "workflow_start",
+        "trace_id": "trace-20260228-234646-130be36a"
+      },
+      {
+        "time": "2026-02-28T23:49:09.685003",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "workflow_start",
+        "trace_id": "trace-20260228-234646-130be36a"
+      },
+      {
+        "time": "2026-02-28T23:02:50.365339",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "workflow_end",
+        "trace_id": "trace-20260228-225444-268c4a94"
+      },
+      {
+        "time": "2026-02-28T23:02:22.236958",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "qc_passed",
+        "trace_id": "trace-20260228-225444-268c4a94"
+      },
+      {
+        "time": "2026-02-28T23:02:15.635995",
+        "level": "INFO",
+        "workflow": "verify-data",
+        "message": "workflow_end",
+        "trace_id": "trace-20260228-225444-268c4a94"
+      },
+      {
+        "time": "2026-02-28T23:00:04.845648",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "iter_gen_start",
+        "trace_id": "trace-20260228-225444-268c4a94"
+      },
+      {
+        "time": "2026-02-28T22:58:06.435454",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "workflow_start",
+        "trace_id": "trace-20260228-225444-268c4a94"
+      },
+      {
+        "time": "2026-02-28T22:44:10.488704",
+        "level": "INFO",
+        "workflow": "verification",
+        "message": "Pulse protocol online",
+        "trace_id": "pulse-v6-test"
+      },
+      {
+        "time": "2026-02-28T22:44:02.419336",
+        "level": "INFO",
+        "workflow": "verification",
+        "message": "Pulse protocol online",
+        "trace_id": "pulse-v6-test"
+      },
+      {
+        "time": "2026-02-28T22:28:51.918628",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "workflow_start",
+        "trace_id": "trace-20260228-222818-55329b54"
+      },
+      {
+        "time": "2026-02-28T22:09:02.565497",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "workflow_start",
+        "trace_id": "trace-20260228-220702-fc09e7b9"
+      },
+      {
+        "time": "2026-02-28T22:08:55.306218",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "workflow_end",
+        "trace_id": "trace-20260228-220702-fc09e7b9"
+      },
+      {
+        "time": "2026-02-28T22:05:31.557551",
+        "level": "INFO",
+        "workflow": "encoding-check",
+        "message": "test",
+        "trace_id": "trace-encoding-test-01"
+      },
+      {
+        "time": "2026-02-28T21:37:15.102815",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "workflow_end",
+        "trace_id": "trace-20260228-213314-99c44222"
+      },
+      {
+        "time": "2026-02-28T21:34:01.159103",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "workflow_start",
+        "trace_id": "trace-20260228-213401-generated"
+      },
+      {
+        "time": "2026-02-28T01:53:39.323312",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "workflow_end",
+        "trace_id": "trace-20260228-014955-2f02a910"
+      },
+      {
+        "time": "2026-02-28T01:52:30.587263",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "lead_magnet_sourced",
+        "trace_id": "Storage\", \"source_found\": true}\""
+      },
+      {
+        "time": "2026-02-28T01:50:57.678279",
+        "level": "INFO",
+        "workflow": "write-article",
+        "message": "workflow_start",
+        "trace_id": "Storage\"}\""
+      },
+      {
+        "time": "2026-02-28T01:48:36.427990",
+        "level": "INFO",
+        "workflow": "plan",
+        "message": "workflow_end",
+        "trace_id": "status\\: \\aborted\\, \\reason\\: \\no_leads\\}"
+      },
+      {
+        "time": "2026-02-28T01:47:17.786135",
+        "level": "INFO",
+        "workflow": "plan",
+        "message": "workflow_end",
+        "trace_id": "trace-20260228-014202-7c76fcf8"
+      },
+      {
+        "time": "2026-02-28T01:45:55.106440",
+        "level": "INFO",
+        "workflow": "plan",
+        "message": "workflow_start",
+        "trace_id": "trace-20260228-014202-7c76fcf8"
+      },
+      {
+        "time": "2026-02-28T01:44:26.470182",
+        "level": "INFO",
+        "workflow": "plan",
+        "message": "workflow_end",
+        "trace_id": "status\\: \\finished\\, \\results\\: {\\p0_selected\\: \\2\\, \\p1_selected\\: \\2\\}}"
+      },
+      {
+        "time": "2026-02-28T01:43:01.744015",
+        "level": "INFO",
+        "workflow": "plan",
+        "message": "workflow_autopilot_bypass",
+        "trace_id": "trace-20260228-014109-364ec4e4"
+      },
+      {
+        "time": "2026-02-28T01:42:15.542209",
+        "level": "INFO",
+        "workflow": "plan",
+        "message": "workflow_start",
+        "trace_id": "agent\\: \\Editor\\, \\force\\: \\detected\\}"
+      },
+      {
+        "time": "2026-02-28T01:41:55.258618",
+        "level": "INFO",
+        "workflow": "scout",
+        "message": "workflow_end",
+        "trace_id": "trace-20260228-013821-d0daf1a5"
+      },
+      {
+        "time": "2026-02-28T01:39:10.209324",
+        "level": "INFO",
+        "workflow": "scout",
+        "message": "daily_config_check_executed",
+        "trace_id": "trace-20260228-013821-d0daf1a5"
+      },
+      {
+        "time": "2026-02-28T01:38:56.177103",
+        "level": "INFO",
+        "workflow": "scout",
+        "message": "workflow_start",
+        "trace_id": "trace-20260228-013821-d0daf1a5"
+      },
+      {
+        "time": "2026-02-28T01:23:43",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Core: Committed locally: chore(auto): deep sync [Scripts] (5 modified, 1 added, 5 deleted) @01:23:43",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-02-28T01:23:42",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Website: Pushed with message: feat(auto): sync website (175 modified, 19 added, 0 deleted) @01:23:31",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-02-28T01:23:42",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Core repository...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-02-28T01:23:33",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Pushing to GitHub...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-02-28T01:23:33",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Auto-Rebasing remote changes...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-02-28T01:23:19",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Dashboard generated successfully",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-02-28T01:23:19",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Website repository...",
+        "trace_id": ""
+      },
       {
         "time": "2026-02-28T01:23:18",
         "level": "OK",
@@ -58,50 +331,96 @@
   "performance": {
     "avg_duration_by_workflow": {},
     "duration_percentiles": {},
-    "token_usage_today": 0,
-    "token_usage_week": 375000,
-    "success_count": 0,
+    "token_usage_today": 166000,
+    "token_usage_week": 541000,
+    "success_count": 12,
     "fail_count": 0,
-    "success_rate": 0
+    "success_rate": 100.0
   },
   "cost_analysis": {
     "daily_budget": 100.0,
     "daily_token_budget": 500000,
     "token_price_per_k": 0.1,
-    "today_total_cost": 0,
-    "today_token_usage": 0,
-    "week_total_cost": 37.5,
-    "week_token_usage": 375000,
-    "budget_usage_percent": 0.0,
+    "today_total_cost": 16.6,
+    "today_token_usage": 166000,
+    "week_total_cost": 54.1,
+    "week_token_usage": 541000,
+    "budget_usage_percent": 16.6,
     "budget_status": "normal",
-    "by_workflow_today": {},
-    "by_workflow_week": {
-      "plan": {
-        "tokens": 14000,
-        "cost": 1.4,
-        "count": 19
-      },
+    "by_workflow_today": {
       "scout": {
-        "tokens": 30000,
-        "cost": 3.0,
-        "count": 20
+        "tokens": 5000,
+        "cost": 0.5,
+        "count": 3
       },
-      "daily-config-check": {
+      "plan": {
+        "tokens": 6000,
+        "cost": 0.6000000000000001,
+        "count": 6
+      },
+      "write-article": {
+        "tokens": 150000,
+        "cost": 15.0,
+        "count": 14
+      },
+      "encoding-check": {
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 1
+      },
+      "verification": {
         "tokens": 0,
         "cost": 0.0,
         "count": 2
       },
-      "write-article": {
-        "tokens": 330000,
-        "cost": 33.0,
-        "count": 64
-      },
-      "qc-check": {
+      "verify-data": {
         "tokens": 0,
         "cost": 0.0,
         "count": 3
       },
+      "qc-check": {
+        "tokens": 5000,
+        "cost": 0.5,
+        "count": 2
+      }
+    },
+    "by_workflow_week": {
+      "scout": {
+        "tokens": 35000,
+        "cost": 3.5,
+        "count": 23
+      },
+      "plan": {
+        "tokens": 20000,
+        "cost": 1.9999999999999998,
+        "count": 25
+      },
+      "write-article": {
+        "tokens": 480000,
+        "cost": 48.0,
+        "count": 78
+      },
+      "encoding-check": {
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 1
+      },
+      "verification": {
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 2
+      },
       "verify-data": {
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 5
+      },
+      "qc-check": {
+        "tokens": 5000,
+        "cost": 0.5,
+        "count": 5
+      },
+      "daily-config-check": {
         "tokens": 0,
         "cost": 0.0,
         "count": 2
@@ -122,52 +441,116 @@
         "count": 1
       }
     },
-    "by_workflow_today_formatted": [],
-    "by_workflow_week_formatted": [
+    "by_workflow_today_formatted": [
       {
         "workflow": "write-article",
-        "tokens": 330000,
-        "cost": 33.0,
-        "count": 64,
-        "percentage": 88.0
-      },
-      {
-        "workflow": "scout",
-        "tokens": 30000,
-        "cost": 3.0,
-        "count": 20,
-        "percentage": 8.0
+        "tokens": 150000,
+        "cost": 15.0,
+        "count": 14,
+        "percentage": 90.4
       },
       {
         "workflow": "plan",
-        "tokens": 14000,
-        "cost": 1.4,
-        "count": 19,
+        "tokens": 6000,
+        "cost": 0.6,
+        "count": 6,
+        "percentage": 3.6
+      },
+      {
+        "workflow": "scout",
+        "tokens": 5000,
+        "cost": 0.5,
+        "count": 3,
+        "percentage": 3.0
+      },
+      {
+        "workflow": "qc-check",
+        "tokens": 5000,
+        "cost": 0.5,
+        "count": 2,
+        "percentage": 3.0
+      },
+      {
+        "workflow": "encoding-check",
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 1,
+        "percentage": 0.0
+      },
+      {
+        "workflow": "verification",
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 2,
+        "percentage": 0.0
+      },
+      {
+        "workflow": "verify-data",
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 3,
+        "percentage": 0.0
+      }
+    ],
+    "by_workflow_week_formatted": [
+      {
+        "workflow": "write-article",
+        "tokens": 480000,
+        "cost": 48.0,
+        "count": 78,
+        "percentage": 88.7
+      },
+      {
+        "workflow": "scout",
+        "tokens": 35000,
+        "cost": 3.5,
+        "count": 23,
+        "percentage": 6.5
+      },
+      {
+        "workflow": "plan",
+        "tokens": 20000,
+        "cost": 2.0,
+        "count": 25,
         "percentage": 3.7
+      },
+      {
+        "workflow": "qc-check",
+        "tokens": 5000,
+        "cost": 0.5,
+        "count": 5,
+        "percentage": 0.9
       },
       {
         "workflow": "process-tasks",
         "tokens": 1000,
         "cost": 0.1,
         "count": 2,
-        "percentage": 0.3
+        "percentage": 0.2
       },
       {
-        "workflow": "daily-config-check",
+        "workflow": "encoding-check",
+        "tokens": 0,
+        "cost": 0.0,
+        "count": 1,
+        "percentage": 0.0
+      },
+      {
+        "workflow": "verification",
         "tokens": 0,
         "cost": 0.0,
         "count": 2,
         "percentage": 0.0
       },
       {
-        "workflow": "qc-check",
+        "workflow": "verify-data",
         "tokens": 0,
         "cost": 0.0,
-        "count": 3,
+        "count": 5,
         "percentage": 0.0
       },
       {
-        "workflow": "verify-data",
+        "workflow": "daily-config-check",
         "tokens": 0,
         "cost": 0.0,
         "count": 2,
@@ -191,10 +574,10 @@
   },
   "content_factory": {
     "pipeline": {
-      "inbox": 25,
-      "scheduled": 77,
+      "inbox": 26,
+      "scheduled": 80,
       "wip": 0,
-      "published": 154
+      "published": 158
     },
     "pipeline_details": {
       "inbox": [],
@@ -204,7 +587,7 @@
           "title": "2026-02-01",
           "topic": "**《 226 存储“史诗级大撤退”：为什么 QLC 颗粒正在毁掉你的高端 SSD？》**",
           "date": "Writer A",
-          "agent": "05-端侧异变",
+          "agent": "端侧异变",
           "goal": "💾 硬件避坑"
         },
         {
@@ -212,7 +595,7 @@
           "title": "2026-02-02",
           "topic": "**《 深挖 DeepSeek V4 架构：mHC 与 DSA 是如何让代码生成“降维打击” GPT-5 的？》**",
           "date": "Writer B",
-          "agent": "02-算力跃迁",
+          "agent": "算力跃迁",
           "goal": "🧠 深度技术"
         },
         {
@@ -220,7 +603,7 @@
           "title": "2026-02-03",
           "topic": "**《 Google Play 新政警告：3月1日起，你的 App 如果这样“偷电”将被强制打标！》**",
           "date": "Writer A",
-          "agent": "05-端侧异变",
+          "agent": "端侧异变",
           "goal": "📱 开发者避坑"
         },
         {
@@ -228,7 +611,7 @@
           "title": "2026-02-04",
           "topic": "**《 2.3kW 的“热力学怪物”：Nvidia Rubin 单卡功耗实锤，数据中心供电面临“推倒重来”？》**",
           "date": "Writer B",
-          "agent": "02-算力跃迁",
+          "agent": "算力跃迁",
           "goal": "💻 架构前瞻"
         },
         {
@@ -236,15 +619,15 @@
           "title": "2026-02-05",
           "topic": "**《 6kW 单机柜时代：为什么液冷已经不够用，Rubin Ultra 需要“相变散热”？》**",
           "date": "Writer B",
-          "agent": "02-算力跃迁",
-          "goal": "硬核工程"
+          "agent": "算力跃迁",
+          "goal": "⚙️ 硬核工程"
         },
         {
           "priority": "✅ Published ( P0)",
           "title": "2026-02-06",
           "topic": "**《 三星 HBM4 良率曝光：65% 只是起步，11.7Gbps 带宽如何喂饱未来的 AI 巨兽？》**",
           "date": "Writer B",
-          "agent": "02-算力跃迁",
+          "agent": "算力跃迁",
           "goal": "💾 核心供应链"
         },
         {
@@ -252,7 +635,7 @@
           "title": "2026-02-07",
           "topic": "**《 安卓的“续航监狱”：Android 17 底层锁死后台，APP 还能怎么“活”下去？》**",
           "date": "Writer A",
-          "agent": "05-端侧异变",
+          "agent": "端侧异变",
           "goal": "📱 系统技术"
         },
         {
@@ -260,7 +643,7 @@
           "title": "2026-02-08",
           "topic": "**《 不止是快：DeepSeek V4 9% HumanEval 评分背后的“稀疏化”秘密与成本账本》**",
           "date": "Writer A",
-          "agent": "05-端侧异变",
+          "agent": "端侧异变",
           "goal": "🧠 效能分析"
         },
         {
@@ -268,15 +651,15 @@
           "title": "2026-02-09",
           "topic": "**《 你的手机不是“自动亮度”傻，是“传感器降采样”：揭秘环境光感知里的省电猫腻》**",
           "date": "Writer A",
-          "agent": "05-端侧异变",
-          "goal": "� 痛点揭秘"
+          "agent": "端侧异变",
+          "goal": "📱 痛点揭秘"
         },
         {
           "priority": "✅ Published ( P1)",
           "title": "2026-02-10",
           "topic": "**《 你的手机不是“系统占用多”，是“影子文件”：揭秘 App 自动更新后的垃圾堆积》**",
           "date": "Writer A",
-          "agent": "05-端侧异变",
+          "agent": "端侧异变",
           "goal": "💾 存储焦虑"
         },
         {
@@ -284,7 +667,7 @@
           "title": "2026-02-11",
           "topic": "**《 你的手机不是“后台不够”，是“内存压缩”太狠了：揭秘统一内存背后的能效阳谋》**",
           "date": "Writer A",
-          "agent": "05-端侧异变",
+          "agent": "端侧异变",
           "goal": "📱 痛点揭秘"
         },
         {
@@ -292,15 +675,15 @@
           "title": "2026-02-12",
           "topic": "**《 不用电池的物联网？226 “零功耗通信”商用元年：揭秘 6G 下的电磁能量采集真相》**",
           "date": "Writer C",
-          "agent": "06-星际硅基",
-          "goal": "� 零碳连接"
+          "agent": "星际硅基",
+          "goal": "🔋 零碳连接"
         },
         {
           "priority": "✅ Published ( P0)",
           "title": "2026-02-13",
           "topic": "**《 你的折叠屏不是“折痕深”，是“铰链能效”不足：为什么机械结构也是电老虎？》**",
           "date": "Writer A",
-          "agent": "05-端侧异变",
+          "agent": "端侧异变",
           "goal": "📱 硬件真相"
         },
         {
@@ -308,7 +691,7 @@
           "title": "2026-02-14",
           "topic": "**《 你的旗舰机不是“信号不好”，是“天线避让”：揭秘超薄设计下的射频效能骗局》**",
           "date": "Writer A",
-          "agent": "05-端侧异变",
+          "agent": "端侧异变",
           "goal": "📡 信号痛点"
         },
         {
@@ -316,7 +699,7 @@
           "title": "2026-02-15",
           "topic": "**《 你的手机不是“搜星慢”，是“金属边框”在挡路：揭秘天线布局的物理博弈》**",
           "date": "Writer A",
-          "agent": "05-端侧异变",
+          "agent": "端侧异变",
           "goal": "🗺️ 导航焦虑"
         },
         {
@@ -324,7 +707,7 @@
           "title": "2026-02-16",
           "topic": "**《 你的手机不是“存储坏了”，是“ECC 纠错”太忙：揭秘老旧颗粒的挣扎》**",
           "date": "Writer A",
-          "agent": "05-端侧异变",
+          "agent": "端侧异变",
           "goal": "💾 手机卡顿"
         },
         {
@@ -332,7 +715,7 @@
           "title": "2026-02-17",
           "topic": "**《 你的指纹识别不是“不灵”，是“电压不稳”：揭秘屏下超声波背后的能效权衡》**",
           "date": "Writer A",
-          "agent": "05-端侧异变",
+          "agent": "端侧异变",
           "goal": "📱 体验揭秘"
         },
         {
@@ -340,7 +723,7 @@
           "title": "2026-02-18",
           "topic": "**《 你的手机不是“变聪明了”，是“变笨了”：揭秘 SLM 模型如何通过“阉割认知”换取续航》**",
           "date": "Writer A",
-          "agent": "05-端侧异变",
+          "agent": "端侧异变",
           "goal": "🧠 AI 祛魅"
         },
         {
@@ -348,7 +731,7 @@
           "title": "2026-02-19",
           "topic": "**《 75mAh 还是 7.9mm？硅碳负极 (Si-C) 电池量产元年：谁在重新定义“一天一充”？》**",
           "date": "Writer A",
-          "agent": "05-端侧异变",
+          "agent": "端侧异变",
           "goal": "🔋 硬件测评"
         },
         {
@@ -356,7 +739,7 @@
           "title": "2026-02-20",
           "topic": "**《 你的耳机不是“底噪大”，是“蓝牙解码”太累了：揭秘高码率背后的能耗代价》**",
           "date": "Writer A",
-          "agent": "05-端侧异变",
+          "agent": "端侧异变",
           "goal": "🎧 音频真相"
         },
         {
@@ -364,7 +747,7 @@
           "title": "2026-02-21",
           "topic": "**《 6G 并不是更快的 5G，而是把基站建在你的眼镜里：揭秘 226 星地一体通讯的真面目》**",
           "date": "Writer C",
-          "agent": "06-星际硅基",
+          "agent": "星际硅基",
           "goal": "🛰️ 认知革命"
         },
         {
@@ -372,15 +755,15 @@
           "title": "2026-02-22",
           "topic": "**《 HBM4 量产发令枪响：Samsung/SK Hynix 2月全面开工，16层堆叠 48GB 只是起步？》**",
           "date": "Writer B",
-          "agent": "02-算力跃迁",
-          "goal": "� 核心供应链"
+          "agent": "算力跃迁",
+          "goal": "💾 核心供应链"
         },
         {
           "priority": "✅ Published ( P0)",
           "title": "2026-02-23",
           "topic": "**《 万亿级停摆？226 GPS 欺骗(Spoofing) 危机爆发：当民航与海运失去航向》**",
           "date": "Writer C",
-          "agent": "07-前沿交付",
+          "agent": "星际硅基",
           "goal": "🌍 基础设施"
         },
         {
@@ -388,7 +771,7 @@
           "title": "2026-02-24",
           "topic": "**《 14W 单卡预警！Nvidia B3 正式宣告“风冷时代”死亡》**",
           "date": "Writer B",
-          "agent": "02-算力跃迁",
+          "agent": "算力跃迁",
           "goal": "💻 算力基建"
         },
         {
@@ -396,7 +779,7 @@
           "title": "2026-02-25",
           "topic": "**《 硫化物固态电池量产倒计时：宝马 i7 原型车如何解决“寿命魔咒”？》**",
           "date": "Writer B",
-          "agent": "04-电力之冠",
+          "agent": "电力之冠",
           "goal": "🔋 终极能源"
         },
         {
@@ -404,7 +787,7 @@
           "title": "2026-02-26",
           "topic": "**《 4-bit 即正义：DeepSeek V4 如何用 336G 显存跑通“满血”推理？》**",
           "date": "Writer B",
-          "agent": "02-算力跃迁",
+          "agent": "算力跃迁",
           "goal": "🧠 极限优化"
         },
         {
@@ -412,7 +795,7 @@
           "title": "2026-02-27",
           "topic": "**《 你的电费单不是变贵了，而是替AI交了“保护费”：揭秘算力霸权下的全民电费税》**",
           "date": "Writer A",
-          "agent": "04-电力之冠",
+          "agent": "电力之冠",
           "goal": "⚡ 民生痛点"
         },
         {
@@ -420,15 +803,15 @@
           "title": "2026-02-28",
           "topic": "**《 瞒着EPA烧甲烷？马斯克不敢提的xAI算力软肋，彻底撕开了AI极简的伪善面具》**",
           "date": "Writer C",
-          "agent": "06-星际硅基",
+          "agent": "算力跃迁",
           "goal": "⚡ 能源监管"
         },
         {
-          "priority": "🎯 Planned ( P1)",
+          "priority": "✅ Published ( P1)",
           "title": "2026-03-01",
           "topic": "**《 你的声音背叛了你：AI 语音克隆攻破银行声纹锁，4亿美金诈骗狂潮来袭》**",
           "date": "Writer A",
-          "agent": "05-端侧异变",
+          "agent": "端侧异变",
           "goal": "💸 金融安全"
         },
         {
@@ -436,7 +819,7 @@
           "title": "2026-03-02",
           "topic": "**《 Android 17 首个预览版实测：Min Mode 开启后，微信后台终于“死透”了》**",
           "date": "Writer A",
-          "agent": "05-端侧异变",
+          "agent": "端侧异变",
           "goal": "📱 系统硬控"
         },
         {
@@ -444,23 +827,23 @@
           "title": "2026-03-03",
           "topic": "**《 铜线的葬礼：TSMC与AMD联合博弈，揭秘AI算力集群“以光代电”的最后一块拼图》**",
           "date": "Writer C",
-          "agent": "07-前沿交付",
-          "goal": "� 互连革命"
+          "agent": "模拟觉醒",
+          "goal": "🔗 互连革命"
         },
         {
           "priority": "🎯 Planned ( P1)",
           "title": "2026-03-04",
           "topic": "**《 您家的门锁在“拒绝服务”：Matter 1.4 协议惊现 DeeDoS 漏洞，智能家居秒变砖头》**",
           "date": "Writer A",
-          "agent": "05-端侧异变",
-          "goal": "� 智能家居"
+          "agent": "端侧异变",
+          "goal": "🏠 智能家居"
         },
         {
           "priority": "🎯 Planned ( P1)",
           "title": "2026-03-05",
           "topic": "**《 Copilot 的王座不保？226 年 AI 编程助手混战，Cursor 与 Amazon Q 如何瓜分市场？》**",
           "date": "Writer A",
-          "agent": "03-代码重构",
+          "agent": "算力跃迁",
           "goal": "🤖 AI Coding"
         },
         {
@@ -468,7 +851,7 @@
           "title": "2026-03-06",
           "topic": "**《 告别充电宝：1,mAh 硅碳负极电池如何让手机续航突破“三天大关”？》**",
           "date": "Writer A",
-          "agent": "05-端侧异变",
+          "agent": "端侧异变",
           "goal": "🔋 电池革命"
         },
         {
@@ -476,7 +859,7 @@
           "title": "2026-03-07",
           "topic": "**《 .167 fJ的降维打击！ISSCC 226存算一体破局，不再让AI处理器“满身大汉”》**",
           "date": "Writer B",
-          "agent": "02-算力跃迁",
+          "agent": "算力跃迁",
           "goal": "💻 架构前瞻"
         },
         {
@@ -484,7 +867,7 @@
           "title": "2026-03-08",
           "topic": "**《 2小时续航实锤！Windows 12 on ARM 终于不再是“电子垃圾”》**",
           "date": "Writer A",
-          "agent": "05-端侧异变",
+          "agent": "端侧异变",
           "goal": "💻 平台革命"
         },
         {
@@ -492,7 +875,7 @@
           "title": "2026-03-09",
           "topic": "**《 AR 眼镜的救世主：Lumileds 超构表面 Micro-LED 如何打破“光效物理墙”？》**",
           "date": "Writer A",
-          "agent": "05-端侧异变",
+          "agent": "端侧异变",
           "goal": "👓 视觉突破"
         },
         {
@@ -500,7 +883,7 @@
           "title": "2026-03-10",
           "topic": "**《 GPU 的终结者？Intel Loihi 3 神经拟态芯片首测：1.2W 功耗如何吊打 1x 算力？》**",
           "date": "Writer C",
-          "agent": "06-星际硅基",
+          "agent": "模拟觉醒",
           "goal": "🧠 范式革命"
         },
         {
@@ -508,7 +891,7 @@
           "title": "2026-03-11",
           "topic": "**《 全球光模块的 226：1.6T 以太网商用元年，谁在为十万卡集群铺设“光速高速路”？》**",
           "date": "Writer C",
-          "agent": "07-前沿交付",
+          "agent": "模拟觉醒",
           "goal": "🌐 网络基建"
         },
         {
@@ -516,15 +899,15 @@
           "title": "2026-03-12",
           "topic": "**《 屏幕消失的 AI 时代：为何 Meta 与 Apple 即使“无屏”也要抢占你的鼻梁？》**",
           "date": "Writer A",
-          "agent": "05-端侧异变",
+          "agent": "端侧异变",
           "goal": "👓 可穿戴 AI"
         },
         {
           "priority": "🎯 Planned ( P1)",
           "title": "2026-03-13",
           "topic": "**《 25小时续航基准线：226 AI PC 彻底终结“电量焦虑”的底层逻辑》**",
-          "date": "Writer C",
-          "agent": "06-星际硅基",
+          "date": "Writer A",
+          "agent": "端侧异变",
           "goal": "💻 移动办公"
         },
         {
@@ -532,7 +915,7 @@
           "title": "2026-03-14",
           "topic": "**《 只有 Rust 能救 Linux？内核驱动全面“去 C 化”背后的 5% 安全红利》**",
           "date": "Writer B",
-          "agent": "03-代码重构",
+          "agent": "算力跃迁",
           "goal": "🐧 内核开发"
         },
         {
@@ -540,7 +923,7 @@
           "title": "2026-03-15",
           "topic": "**《 DevOps 已死，平台工程永生：为何 8% 的企业不再让开发者运维？》**",
           "date": "Writer C",
-          "agent": "09-组织通识",
+          "agent": "算力跃迁",
           "goal": "🏗️ 工程效能"
         },
         {
@@ -548,7 +931,7 @@
           "title": "2026-03-16",
           "topic": "**《 Python 的“速度枷锁”粉碎：3.14 No-GIL 版本实测 3x 性能暴涨，AI 训练不再卡脖子？》**",
           "date": "Writer A",
-          "agent": "03-代码重构",
+          "agent": "算力跃迁",
           "goal": "🐍 语言进化"
         },
         {
@@ -556,7 +939,7 @@
           "title": "2026-03-17",
           "topic": "**《 不止 3nm：TSMC N2 2nm 良率突破 7%，GAA 工艺如何终结 FinFET 的十年霸权？》**",
           "date": "Writer B",
-          "agent": "02-算力跃迁",
+          "agent": "算力跃迁",
           "goal": "⚙️ 尖端制程"
         },
         {
@@ -564,7 +947,7 @@
           "title": "2026-03-18",
           "topic": "**《 有机基板的终结：Intel 与 Samsung 为何在 226 集体押注“玻璃基板”？》**",
           "date": "Writer B",
-          "agent": "02-算力跃迁",
+          "agent": "算力跃迁",
           "goal": "🔬 先进封装"
         },
         {
@@ -572,7 +955,7 @@
           "title": "2026-03-19",
           "topic": "**《 RISC-V 的 226 突围战：从 IoT 到数据中心，25% 市场份额背后的“架构去美化”》**",
           "date": "Writer C",
-          "agent": "07-前沿交付",
+          "agent": "模拟觉醒",
           "goal": "🗳️ 架构战争"
         },
         {
@@ -580,23 +963,23 @@
           "title": "2026-03-20",
           "topic": "**《 1-Bit LLM 的绿色革命：BitNet b1.58 如何在普通 CPU 上跑通 1B 模型？》**",
           "date": "Writer B",
-          "agent": "02-算力跃迁",
+          "agent": "算力跃迁",
           "goal": "🌱 Green AI"
         },
         {
-          "priority": "🎯 Planned ( P0)",
+          "priority": "✅ Published ( P0)",
           "title": "2026-03-21",
           "topic": "**《 “无限”硬盘降临：商业化 DNA 存储实测，一滴水如何存下 13TB 数据？》**",
           "date": "Writer C",
-          "agent": "07-前沿交付",
+          "agent": "模拟觉醒",
           "goal": "🧬 生物存储"
         },
         {
-          "priority": "🎯 Planned ( P1)",
+          "priority": "⚙️ Drafting ( P1)",
           "title": "2026-03-22",
           "topic": "**《 你的旗舰机不是“发热正常”，是“散热摆烂”：为什么 VC 均热板只是厂商的安慰剂？ 》**",
           "date": "Writer A",
-          "agent": "05-端侧异变",
+          "agent": "端侧异变",
           "goal": "📱 散热真相"
         },
         {
@@ -604,15 +987,15 @@
           "title": "2026-03-23",
           "topic": "**《 你的手机不是“Wi-Fi 不稳”，是“异构计算”在打架：揭秘蓝牙与 Wi-Fi 的频段争夺战 》**",
           "date": "Writer A",
-          "agent": "05-端侧异变",
+          "agent": "端侧异变",
           "goal": "📡 通信冲突"
         },
         {
-          "priority": "🎯 Planned ( P0)",
+          "priority": "✅ Published ( P0)",
           "title": "2026-03-24",
           "topic": "**《 逃离公有云：226 年“云遣返”潮爆发，8% 的 CIO 为何选择自建 AI 算力？》**",
           "date": "Writer B",
-          "agent": "02-算力跃迁",
+          "agent": "算力跃迁",
           "goal": "📉 Cloud Repatriation"
         },
         {
@@ -620,7 +1003,7 @@
           "title": "2026-03-25",
           "topic": "**《“风冷”已死：百千瓦机柜成标配，液冷如何成为 226 年 AI 数据中心的入场券？》**",
           "date": "Writer A",
-          "agent": "04-绿色计算",
+          "agent": "电力之冠",
           "goal": "💧 浸没式液冷"
         },
         {
@@ -628,7 +1011,7 @@
           "title": "2026-03-26",
           "topic": "**《 AI 时代的操作系统：Kubernetes 在 226 年的进化，如何榨干每一滴 GPU 算力？》**",
           "date": "Writer C",
-          "agent": "03-软件吞噬",
+          "agent": "算力跃迁",
           "goal": "☸️ K8s for AI"
         },
         {
@@ -636,7 +1019,7 @@
           "title": "2026-03-27",
           "topic": "**《 APP 已死？Gartner 预测 226 年 GenAI 手机消灭“主屏幕”，Agent 成为唯一入口》**",
           "date": "Writer A",
-          "agent": "05-端侧异变",
+          "agent": "端侧异变",
           "goal": "📱 GenAI OS"
         },
         {
@@ -644,15 +1027,15 @@
           "title": "2026-03-28",
           "topic": "**《 别买 Wi-Fi 7？Wi-Fi 8 (UHR) 226 首发，为何说“极致稳定”比“极致速度”更重要？》**",
           "date": "Writer B",
-          "agent": "07-前沿交付",
+          "agent": "端侧异变",
           "goal": "📡 Wi-Fi 8"
         },
         {
-          "priority": "🎯 Planned ( P0)",
+          "priority": "✅ Published ( P0)",
           "title": "2026-03-29",
           "topic": "**《 智能戒指的“血糖”骗局：226 年 FDA 依然说不，为何无创监测仍是伪科学？》**",
           "date": "Writer C",
-          "agent": "01-芯片战争",
+          "agent": "硬件终局",
           "goal": "💍 Health Tech"
         },
         {
@@ -660,7 +1043,7 @@
           "title": "2026-03-30",
           "topic": "**《 显卡荒野：RTX 6 系列跳票 227？AI 算力吸干产能后的“玩家末日”》**",
           "date": "Writer C",
-          "agent": "01-芯片战争",
+          "agent": "硬件终局",
           "goal": "🎮 Gaming Crisis"
         },
         {
@@ -668,15 +1051,15 @@
           "title": "2026-03-31",
           "topic": "**《 2nm 的黎明：Apple M6 抢得 TSMC 首发，为何说 NPU 才是这颗芯片的唯一主角？》**",
           "date": "Writer A",
-          "agent": "05-端侧异变",
+          "agent": "端侧异变",
           "goal": "🍏 Apple Silicon"
         },
         {
-          "priority": "🎯 Planned ( P0)",
+          "priority": "✍️ Drafting ( P0)",
           "title": "2026-04-01",
           "topic": "**《 内存大于算力：AMD MI4 (432GB) vs Nvidia Rubin —— 226 年的大模型推理终局之战》**",
           "date": "Writer B",
-          "agent": "02-算力跃迁",
+          "agent": "算力跃迁",
           "goal": "⚔️ Chip War"
         },
         {
@@ -684,7 +1067,7 @@
           "title": "2026-04-02",
           "topic": "**《 后端革命：WebAssembly (WASI 1.) 终于落地，为何 Cloudflare 和 Fastly 都在赌它是 Docker 的终结者？》**",
           "date": "Writer B",
-          "agent": "07-前沿交付",
+          "agent": "模拟觉醒",
           "goal": "🕸️ Wasm Server"
         },
         {
@@ -692,7 +1075,7 @@
           "title": "2026-04-03",
           "topic": "**《 Python 的性能救星？Mojo 语言实测 68 倍提速，解决 AI 开发“双语言死局”的银弹？》**",
           "date": "Writer C",
-          "agent": "02-算力跃迁",
+          "agent": "算力跃迁",
           "goal": "⚡ Mojo Lang"
         },
         {
@@ -700,7 +1083,7 @@
           "title": "2026-04-04",
           "topic": "**《 三星抢跑！HBM4首批出货背后的“4nm阳谋”，揭秘Rubin算力巨兽的能效心脏》**",
           "date": "Writer B",
-          "agent": "02-算力跃迁",
+          "agent": "算力跃迁",
           "goal": "💾 核心供应链"
         },
         {
@@ -708,7 +1091,7 @@
           "title": "2026-04-05",
           "topic": "**《 3万美元一片硅！TSMC 2nm良率破7%，这一代“果粉”又要替苹果交基建税吗？》**",
           "date": "Writer B",
-          "agent": "02-算力跃迁",
+          "agent": "算力跃迁",
           "goal": "⚙️ 尖端制程"
         },
         {
@@ -716,7 +1099,7 @@
           "title": "2026-04-06",
           "topic": "**《 算力即权力：大模型开始“退网”，揭秘AI巨头自建微电网背后的能源圈地运动》**",
           "date": "Writer A",
-          "agent": "04-电力之冠",
+          "agent": "电力之冠",
           "goal": "⚡ 能源安全"
         },
         {
@@ -724,7 +1107,7 @@
           "title": "2026-04-07",
           "topic": "**《 $1,, 的豪赌！一家意大利厂撕开了热泵行业的遮羞布：所谓的“高能效”竟是物理学骗局？》**",
           "date": "Writer B",
-          "agent": "04-电力之冠",
+          "agent": "电力之冠",
           "goal": "揭秘/维权"
         },
         {
@@ -732,7 +1115,7 @@
           "title": "2026-04-08",
           "topic": "**《 别买只会“吃灰”的家用蓄电池了！这是 1.5 万元的“智商税”，还是 226 年电费刺客的终结者？》**",
           "date": "Writer A",
-          "agent": "05-端侧异变",
+          "agent": "端侧异变",
           "goal": "消费避坑"
         },
         {
@@ -740,7 +1123,7 @@
           "title": "2026-04-09",
           "topic": "**《 芯片也玩“叠罗汉”？博通揭秘 226 算力突围战：垂直堆叠技术正在拯救快要被“烧开”的数据中心》**",
           "date": "Writer B",
-          "agent": "02-算力跃迁",
+          "agent": "算力跃迁",
           "goal": "硬核前瞻"
         },
         {
@@ -748,7 +1131,7 @@
           "title": "2026-04-10",
           "topic": "**《 98.5% 的极限！Navitas 氮化镓破局 1kW AI 电源：为了省下这点“损耗”，人类已经卷到了原子尺度 》**",
           "date": "Writer A",
-          "agent": "02-算力跃迁",
+          "agent": "算力跃迁",
           "goal": "技术补位"
         },
         {
@@ -756,7 +1139,7 @@
           "title": "2026-04-11",
           "topic": "**《 你的工厂在“喷钱”？揭秘 226 电能回收神技：这台黑盒子能把机器“刹车”的废电再喂回电网，省下 2% 电费 》**",
           "date": "Writer C",
-          "agent": "04-电力之冠",
+          "agent": "电力之冠",
           "goal": "工业能效"
         },
         {
@@ -764,7 +1147,7 @@
           "title": "2026-04-12",
           "topic": "**《 23W 的单卡梦魇：Nvidia Rubin 实测数据曝光，我们离“算力停电”还有多远？ 》**",
           "date": "Writer B",
-          "agent": "02-算力跃迁",
+          "agent": "算力跃迁",
           "goal": "能源安全"
         },
         {
@@ -772,7 +1155,7 @@
           "title": "2026-04-13",
           "topic": "**《 12.4 Tbps 背后：思科 Silicon One G3 如何用液冷“暴力”帮 AI 省下 7% 电费？ 》**",
           "date": "Writer A",
-          "agent": "02-算力跃迁",
+          "agent": "算力跃迁",
           "goal": "极速网络"
         },
         {
@@ -780,7 +1163,7 @@
           "title": "2026-04-14",
           "topic": "**《 -32℃ 的极寒生存：226 挪威冬测榜单揭秘，谁在续航“卸妆镜”前现了原形？ 》**",
           "date": "Writer A",
-          "agent": "05-端侧异变",
+          "agent": "端侧异变",
           "goal": "真实评测"
         },
         {
@@ -788,7 +1171,7 @@
           "title": "2026-04-15",
           "topic": "**《 告别“里程焦虑”！干电极量产元年实测：为何这 2% 的续航提升，足以终结电车的下半场？ 》**",
           "date": "Writer B",
-          "agent": "05-端侧异变",
+          "agent": "端侧异变",
           "goal": "电池底座"
         },
         {
@@ -796,7 +1179,7 @@
           "title": "2026-04-16",
           "topic": "**《 让芯片直接“长”出钻石！Rice 大学攻克金刚石散热，算力“热力学墙”被彻底打穿？ 》**",
           "date": "Writer B",
-          "agent": "02-算力跃迁",
+          "agent": "算力跃迁",
           "goal": "硬件散热"
         },
         {
@@ -804,20 +1187,64 @@
           "title": "2026-04-17",
           "topic": "**《 把GPT-5塞进“光”里：1倍能效暴涨，光子神经网络如何“赐死”硅基算力？ 》**",
           "date": "Writer C",
-          "agent": "02-算力跃迁",
+          "agent": "模拟觉醒",
           "goal": "光子计算"
         },
         {
           "priority": "🎯 Planned ( P0)",
-          "title": "2026-04-18",
-          "topic": "**《 348.5 Wh/kg！钠电池逆袭超越三元锂，终于可以把“昂贵”的锂矿踢下牌桌了？ 》**",
+          "title": "2026-04-19",
+          "topic": "**《API 价格战打疯了！DeepSeek V4 祭出 9% 降本“核武器”，OpenAI 的护城河还在漏血？》**",
+          "date": "Writer B",
+          "agent": "算力跃迁",
+          "goal": "💸 成本核爆"
+        },
+        {
+          "priority": "🎯 Planned ( P1)",
+          "title": "2026-04-20",
+          "topic": "**《14.4 Gbps 的降维打击：三星 LPDDR6 闪耀 ISSCC，你的下一代 AI 手机不再被“带宽”锁喉？》**",
           "date": "Writer A",
-          "agent": "04-电力之冠",
-          "goal": "新能源技术"
+          "agent": "端侧异变",
+          "goal": "📱 带宽破局"
+        },
+        {
+          "priority": "🎯 Planned ( P1)",
+          "title": "2026-04-21",
+          "topic": "**《1倍能效狂飙！MIT 光子计算系统实测：当“光”代替“电”，数字芯片的棺材板快压不住了？》**",
+          "date": "Writer C",
+          "agent": "模拟觉醒",
+          "goal": "🔬 物理极限"
+        },
+        {
+          "priority": "🎯 Planned ( P0)",
+          "title": "2026-04-22",
+          "topic": "**《退货率 8%？别再为 AI 梦想买单了：Humane AI Pin 与 Rabbit R1 跌落神坛背后的硬件血泪史》**",
+          "date": "Writer A",
+          "agent": "端侧异变",
+          "goal": "🛒 消费审计"
         }
       ],
       "wip": [],
       "published": [
+        {
+          "date": "2026-02-28",
+          "title": "智能戒指的“血糖”骗局：2026 年 FDA 依然说不，为何无创监测仍是伪科学？",
+          "topic": "01-硬件终局"
+        },
+        {
+          "date": "2026-02-28",
+          "title": "逃离公有云：2026 年“云遣返”潮爆发，80% 的 CIO 为何选择自建 AI 算力？",
+          "topic": "02-算力跃迁"
+        },
+        {
+          "date": "2026-02-28",
+          "title": "你的声音背叛了你：AI 语音克隆攻破银行声纹锁，400亿美金诈骗狂潮来袭",
+          "topic": "05-端侧异变"
+        },
+        {
+          "date": "2026-02-28",
+          "title": "“无限”硬盘降临：商业化 DNA 存储实测，一滴水如何存下 13TB 数据？",
+          "topic": "07-模拟觉醒"
+        },
         {
           "date": "2026-02-26",
           "title": "硫化物固态电池量产倒计时：宝马 i7 原型车如何解决“寿命魔咒”？",
@@ -897,73 +1324,54 @@
           "date": "2026-02-20",
           "title": "7500mAh 还是 7.9mm？硅碳负极 (Si-C) 电池量产元年：谁在重新定义“一天一充”？",
           "topic": "05-端侧异变"
-        },
-        {
-          "date": "2026-02-19",
-          "title": "你的手机不是“变聪明了”，是“变笨了”：揭秘 SLM 模型如何通过“阉割认知”换取续航",
-          "topic": "05-端侧异变"
-        },
-        {
-          "date": "2026-02-18",
-          "title": "你的指纹识别不是“不灵”，是“电压不稳”：揭秘屏下超声波背后的能效权衡",
-          "topic": "05-端侧异变"
-        },
-        {
-          "date": "2026-02-16",
-          "title": "你的手机不是“存储坏了”，是“ECC 纠错”太忙：揭秘老旧颗粒的挣扎",
-          "topic": "05-端侧异变"
-        },
-        {
-          "date": "2026-02-15",
-          "title": "你的手机不是“搜星慢”，是“金属边框”在挡路：揭秘天线布局的物理博弈",
-          "topic": "05-端侧异变"
         }
       ]
     },
     "recent_published": [
       {
-        "date": "2026-02-26",
-        "title": "硫化物固态电池量产倒计时：宝马 i7 原型车如何解决“寿命魔咒”？",
-        "topic": "04-电力之冠"
+        "date": "2026-02-28",
+        "title": "智能戒指的“血糖”骗局：2026 年 FDA 依然说不，为何无创监测仍是伪科学？",
+        "topic": "01-硬件终局"
       },
       {
-        "date": "2026-02-25",
-        "title": "1400W 单卡预警！Nvidia B300 正式宣告“风冷时代”死亡",
+        "date": "2026-02-28",
+        "title": "逃离公有云：2026 年“云遣返”潮爆发，80% 的 CIO 为何选择自建 AI 算力？",
         "topic": "02-算力跃迁"
       },
       {
-        "date": "2026-02-25",
-        "title": "告别充电宝：10,000mAh 硅碳负极电池如何让手机续航突破“三天大关”？",
-        "topic": "端侧异变"
+        "date": "2026-02-28",
+        "title": "你的声音背叛了你：AI 语音克隆攻破银行声纹锁，400亿美金诈骗狂潮来袭",
+        "topic": "05-端侧异变"
       },
       {
-        "date": "2026-02-25",
-        "title": "0.167 fJ的降维打击！ISSCC 2026存算一体破局，不再让AI处理器“满身大汉”",
-        "topic": "算力跃迁"
+        "date": "2026-02-28",
+        "title": "“无限”硬盘降临：商业化 DNA 存储实测，一滴水如何存下 13TB 数据？",
+        "topic": "07-模拟觉醒"
       },
       {
-        "date": "2026-02-25",
-        "title": "Python 的“速度枷锁”粉碎：3.14 No-GIL 版本实测 3x 性能暴涨，AI 训练不再卡脖子？",
-        "topic": "代码重构"
+        "date": "2026-02-26",
+        "title": "硫化物固态电池量产倒计时：宝马 i7 原型车如何解决“寿命魔咒”？",
+        "topic": "04-电力之冠"
       }
     ],
     "topic_distribution": {
+      "01-硬件终局": 11,
+      "02-算力跃迁": 29,
+      "05-端侧异变": 38,
+      "07-模拟觉醒": 6,
       "04-电力之冠": 29,
-      "02-算力跃迁": 28,
       "端侧异变": 5,
       "算力跃迁": 1,
       "代码重构": 1,
       "星际硅基": 3,
-      "05-端侧异变": 37,
       "06-星际硅基": 8,
       "00-待分类": 19,
       "07-前沿交付": 1,
       "03-具身革命": 5,
-      "01-硬件终局": 10,
-      "07-模拟觉醒": 5,
       "00-系统综述": 2
     },
     "weekly_output": {
+      "2026-02-28": 4,
       "2026-02-26": 1,
       "2026-02-25": 8,
       "2026-02-24": 2,
@@ -1023,18 +1431,18 @@
   },
   "scheduled_tasks": [],
   "business": {
-    "articles_today": 0,
-    "articles_week": 48,
-    "qc_pass_rate": 33.3,
+    "articles_today": 6,
+    "articles_week": 54,
+    "qc_pass_rate": 20.0,
     "avg_duration": 0,
     "efficiency": 0
   },
   "alerts": [
     {
-      "time": "01:23",
+      "time": "23:56",
       "level": "🔴 P0",
       "rule_id": "SYS-001",
-      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (73667m ago)",
+      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (75020m ago)",
       "action": "请运行 start-dashboard-full.bat (推荐)",
       "status": "Active"
     }
@@ -1067,7 +1475,7 @@
       },
       {
         "date": "2026-02-28",
-        "value": 0
+        "value": 166000
       }
     ],
     "multi_metric_trend": {
@@ -1098,7 +1506,7 @@
         },
         {
           "date": "2026-02-28",
-          "value": 0
+          "value": 166000
         }
       ],
       "success_rate": [
@@ -1128,7 +1536,7 @@
         },
         {
           "date": "2026-02-28",
-          "value": 0
+          "value": 100.0
         }
       ],
       "error_rate": [
@@ -1158,7 +1566,7 @@
         },
         {
           "date": "2026-02-28",
-          "value": 0
+          "value": 0.0
         }
       ],
       "queue_length": [
@@ -1225,16 +1633,16 @@
   },
   "comparison": {
     "token_usage": {
-      "today": 0,
+      "today": 166000,
       "yesterday": 30000,
-      "delta": -30000,
-      "delta_percent": -100.0
+      "delta": 136000,
+      "delta_percent": 453.3
     },
     "success_rate": {
-      "today": 0,
+      "today": 100.0,
       "yesterday": 100.0,
-      "delta": -100.0,
-      "delta_percent": -100.0
+      "delta": 0.0,
+      "delta_percent": 0.0
     },
     "error_count": {
       "today": 0,
@@ -1244,12 +1652,12 @@
     }
   },
   "system": {
-    "last_update": "2026-02-28 01:23:19",
+    "last_update": "2026-02-28 23:56:16",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.37,
+    "duration_seconds": 0.54,
     "has_token_trend": true,
     "errors": []
   }
