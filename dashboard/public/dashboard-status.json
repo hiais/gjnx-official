@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-03-01 00:30:23",
+  "timestamp": "2026-03-01 00:30:46",
   "health": {
     "score": 30,
     "status": "critical",
     "issues": [
-      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (75054m ago))"
+      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (75055m ago))"
     ],
     "daemon_status": {
       "alive": false,
-      "last_heartbeat": "2026-01-07 21:35:33 (75054m ago)"
+      "last_heartbeat": "2026-01-07 21:35:33 (75055m ago)"
     }
   },
   "tasks": {
@@ -18,23 +18,79 @@
     "alerts": []
   },
   "logs": {
-    "total": 26,
+    "total": 34,
     "by_level": {
-      "INFO": 16,
-      "WARN": 2,
+      "INFO": 20,
+      "WARN": 3,
       "ERROR": 0,
       "FATAL": 0,
-      "SUCCESS": 8,
+      "SUCCESS": 11,
       "SYSTEM": 0
     },
     "by_workflow": {
-      "system": 21,
+      "system": 29,
       "write-article": 3,
       "qc-check": 1,
       "verify-data": 1
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-03-01T00:30:46",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Content sync completed successfully",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-03-01T00:30:46",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-03-01T00:30:42",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] running 'npm run sync:all'...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-03-01T00:30:37",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Website: Committed locally (Push delayed): feat(auto): sync website (188 modified, 0 added, 0 deleted) @00:30:36",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-03-01T00:30:37",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Core repository...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-03-01T00:30:37",
+        "level": "WARN",
+        "workflow": "system",
+        "message": "[save-all] Core: No changes to commit",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-03-01T00:30:23",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Dashboard generated successfully",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-03-01T00:30:23",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Website repository...",
+        "trace_id": ""
+      },
       {
         "time": "2026-03-01T00:30:22",
         "level": "OK",
@@ -1284,7 +1340,7 @@
       "time": "00:30",
       "level": "🔴 P0",
       "rule_id": "SYS-001",
-      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (75054m ago)",
+      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (75055m ago)",
       "action": "请运行 start-dashboard-full.bat (推荐)",
       "status": "Active"
     }
@@ -1494,12 +1550,12 @@
     }
   },
   "system": {
-    "last_update": "2026-03-01 00:30:23",
+    "last_update": "2026-03-01 00:30:46",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.06,
+    "duration_seconds": 0.07,
     "has_token_trend": true,
     "errors": []
   }
