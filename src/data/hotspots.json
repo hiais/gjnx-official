@@ -10,24 +10,24 @@
     "trend": "down"
   },
   {
+    "title": "我国首个国家级人形机器人与具身智能标准体系发布",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/406455",
+    "abstract": "作为工业和信息化部人形机器人与具身智能标准化技术委员会（以下简称“标委会”）2025 年 12 月成立后的首届年会，政、企、研、资等多方齐聚，共同探讨产业标准化工作。 会上正式发布《人形机器人与具身智能标准体系（2026 版）》（以下简称“体系”）。这是我国首个覆盖人形机器人全产业链、全生命周期的标准顶层设计，......",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "down"
+  },
+  {
     "title": "OpenAI 完成 1100 亿美元融资",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/406340/openai-110-billion-funding-round",
     "abstract": "OpenAI 宣布完成 1100 亿美元的新一轮融资。本轮融资投前估值达 7300 亿美元，投资方包括软银（300 亿美元）、英伟达（300 亿美元）及亚马逊（500 亿美元）。 与此同时，OpenAI 表示已与亚马逊建立多年期战略合作伙伴关系；并深化与英伟达的长期合作，其中包括在 Vera Rubin 系统上使用 3GW 的专用推理算力和 2GW 的训练....",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
-  },
-  {
-    "title": "Alluxio AI 3.8 发布：带来两项突破性新功能——加速对象存储写入与模型加载",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/405851",
-    "abstract": "人工智能基础设施团队正面临全新的挑战：性能瓶颈早已不再局限于 GPU 算力。如今，更常见的限制因素，往往是数据和模型在存储系统中的传输速度——尤其是在以对象存储为主的云环境中。 无论是加载数十亿参数的推理模型，还是运行需要处理海量中间数据的工作流，存储访问一旦变慢，GPU 算力浪费、训练时间拉长、任务性能不......",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "AMD Announces The EPYC 8005 \"Sorano\" Series",
@@ -57,7 +57,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "NXP Posts New Linux Accelerator Driver For Their Neutron NPU",
@@ -70,13 +70,23 @@
     "trend": "down"
   },
   {
+    "title": "面壁智能获数亿元融资，中国电信领投",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/406506",
+    "abstract": "面壁智能今天宣布完成新一轮数亿元融资，由中国电信战略领投，中信金石、中信私募跟投。此次合作标志着面壁智能正式开启与国家级信息基础设施方的深度协同。中国电信将发挥其在云（算力）、网络与终端方面的优势，面壁智能则依托其在泛司法、汽车、教育等领域的算法落地经验，共同拓展AI在复杂场景中的应用。 自2024年以......",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "08",
+    "trend": "down"
+  },
+  {
     "title": "IntelliJ IDEA 2025.3.3 发布",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/406352/intellij-idea-2025-3-3",
     "abstract": "IntelliJ IDEA 2025.3.3 现已发布，以下是主要更新内容： MCP server output schema 现在可以正确处理 schema 中的默认属性，从而防止在结构化输出期间出现无效 schema errors。[ IJPL-230494 ] 配置代理后，IDE 后端下载功能现已按预期运行。[ IJPL-164318 ] 解决了导致代...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -86,7 +96,7 @@
     "abstract": "AI 时代的开发者需要怎样的设备来提质增效呢？在算力为王的背景下，过往那种一台电脑、一杯咖啡就能 “改变世界” 的开发场景还能复现吗？...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -96,8 +106,18 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
     "trend": "down"
+  },
+  {
+    "title": "DeepSeek 新旗舰模型 V4 即将发布，再次向美国科技巨头发起冲击",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/406494",
+    "abstract": "根据 Financial Times 的最新报道，中国 AI 公司 DeepSeek 将于下周发布旗下最新大模型 V4，距其上一次重磅发布已时隔逾一年。这是继 2025 年 1 月 R1 推理模型引发\"AI 地震\"后，DeepSeek 最受市场期待的一次亮相。 报道指出，V4 将是一款多模态模型，支持图片、视频与文本生成，能力边界大幅拓展，直指 GPT-4o...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "炸裂！VTJ.PRO 一口气接入 Qwen3.5、MiniMax M2.5、GLM 4.7！",
@@ -106,8 +126,8 @@
     "abstract": "还在纠结用哪个大模型写代码？ VTJ.PRO直接甩出一句话：别选了，我全都要！ 就在今天，开源AI低代码平台VTJ.PRO投下一枚重磅炸弹——全面接入Qwen3.5、MiniMax M2.5、GLM 4.7等国产顶尖大模型，加上原有的DeepSeek、Gemini、Claude、GPT阵营，平台可调用的模型数量直接突破两位数！ 消息一出，开发者社群直接沸腾：...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "13",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -116,34 +136,14 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "14",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/sdxl_jax",
     "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
-  },
-  {
-    "title": "Hugging Face on PyTorch / XLA TPUs",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/pytorch-xla",
-    "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
-  },
-  {
-    "title": "sudo-rs Breaks Historical Norms With Now Enabling Password Feedback By Default",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/sudo-rs-password-feedback",
-    "abstract": "On recent builds of Ubuntu 26.04 when being prompted by sudo for the password, password feedback is now enabled by default to show asterisk (*) characters when inputting your passw...",
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "15",
