@@ -17,7 +17,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "OpenAI 完成 1100 亿美元融资",
@@ -27,17 +27,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
-  },
-  {
-    "title": "AMD Announces The EPYC 8005 \"Sorano\" Series",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/AMD-EPYC-8005-Series",
-    "abstract": "The EPYC 9005 series for high-end Zen 5 server processors is a year and a half old and then at the lower-end of the spectrum is the EPYC 4005 series AM5 server processors that laun...",
-    "pscore": 84,
-    "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -46,7 +36,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -56,7 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -66,8 +56,8 @@
     "abstract": "The Linux kernel continues seeing more open-source kernel drivers emerge for supporting different AI accelerators / NPUs. The newest open-source driver breaking cover today is from...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "面壁智能获数亿元融资，中国电信领投",
@@ -76,7 +66,7 @@
     "abstract": "面壁智能今天宣布完成新一轮数亿元融资，由中国电信战略领投，中信金石、中信私募跟投。此次合作标志着面壁智能正式开启与国家级信息基础设施方的深度协同。中国电信将发挥其在云（算力）、网络与终端方面的优势，面壁智能则依托其在泛司法、汽车、教育等领域的算法落地经验，共同拓展AI在复杂场景中的应用。 自2024年以......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -86,7 +76,7 @@
     "abstract": "IntelliJ IDEA 2025.3.3 现已发布，以下是主要更新内容： MCP server output schema 现在可以正确处理 schema 中的默认属性，从而防止在结构化输出期间出现无效 schema errors。[ IJPL-230494 ] 配置代理后，IDE 后端下载功能现已按预期运行。[ IJPL-164318 ] 解决了导致代...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -96,7 +86,7 @@
     "abstract": "AI 时代的开发者需要怎样的设备来提质增效呢？在算力为王的背景下，过往那种一台电脑、一杯咖啡就能 “改变世界” 的开发场景还能复现吗？...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -106,8 +96,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "DeepSeek 新旗舰模型 V4 即将发布，再次向美国科技巨头发起冲击",
@@ -116,8 +106,8 @@
     "abstract": "根据 Financial Times 的最新报道，中国 AI 公司 DeepSeek 将于下周发布旗下最新大模型 V4，距其上一次重磅发布已时隔逾一年。这是继 2025 年 1 月 R1 推理模型引发\"AI 地震\"后，DeepSeek 最受市场期待的一次亮相。 报道指出，V4 将是一款多模态模型，支持图片、视频与文本生成，能力边界大幅拓展，直指 GPT-4o...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "炸裂！VTJ.PRO 一口气接入 Qwen3.5、MiniMax M2.5、GLM 4.7！",
@@ -126,8 +116,18 @@
     "abstract": "还在纠结用哪个大模型写代码？ VTJ.PRO直接甩出一句话：别选了，我全都要！ 就在今天，开源AI低代码平台VTJ.PRO投下一枚重磅炸弹——全面接入Qwen3.5、MiniMax M2.5、GLM 4.7等国产顶尖大模型，加上原有的DeepSeek、Gemini、Claude、GPT阵营，平台可调用的模型数量直接突破两位数！ 消息一出，开发者社群直接沸腾：...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "12",
     "trend": "down"
+  },
+  {
+    "title": "Stop Burning Your Context Window – How We Cut MCP Output by 98% in Claude Code",
+    "source": "HackerNews",
+    "link": "https://mksg.lu/blog/context-mode",
+    "abstract": "Comments...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "13",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -137,7 +137,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "14",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -147,6 +147,6 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "up"
+    "trend": "down"
   }
 ]
