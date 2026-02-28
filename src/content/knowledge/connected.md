@@ -1,6 +1,6 @@
 ---
 title: Connected (连接态)
-date: 2026-02-28T16:29:07.838Z
+date: 2026-02-28T16:30:22.486Z
 category: Auto-Mined
 tags:
   - Auto-Gen
