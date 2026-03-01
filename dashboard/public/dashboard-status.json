@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-03-01 15:06:27",
+  "timestamp": "2026-03-01 15:30:44",
   "health": {
     "score": 15,
     "status": "critical",
     "issues": [
-      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (75930m ago))",
+      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (75955m ago))",
       "ERR_COST_BUDGET_EXCEEDED"
     ],
     "daemon_status": {
       "alive": false,
-      "last_heartbeat": "2026-01-07 21:35:33 (75930m ago)"
+      "last_heartbeat": "2026-01-07 21:35:33 (75955m ago)"
     }
   },
   "tasks": {
@@ -19,17 +19,17 @@
     "alerts": []
   },
   "logs": {
-    "total": 204,
+    "total": 214,
     "by_level": {
-      "INFO": 185,
-      "WARN": 5,
+      "INFO": 191,
+      "WARN": 6,
       "ERROR": 0,
       "FATAL": 0,
-      "SUCCESS": 14,
+      "SUCCESS": 17,
       "SYSTEM": 0
     },
     "by_workflow": {
-      "system": 38,
+      "system": 48,
       "write-article": 160,
       "validate-config": 3,
       "verify-data": 2,
@@ -37,6 +37,76 @@
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-03-01T15:30:44",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Content sync completed successfully",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-03-01T15:30:44",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-03-01T15:30:40",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] running 'npm run sync:all'...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-03-01T15:06:54",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Website: Pushed with message: feat(auto): sync website (188 modified, 40 added, 0 deleted) @15:06:40",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-03-01T15:06:54",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Core repository...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-03-01T15:06:54",
+        "level": "WARN",
+        "workflow": "system",
+        "message": "[save-all] Core: No changes to commit",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-03-01T15:06:41",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Pushing to GitHub...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-03-01T15:06:41",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Auto-Rebasing remote changes...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-03-01T15:06:28",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Dashboard generated successfully",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-03-01T15:06:28",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Website repository...",
+        "trace_id": ""
+      },
       {
         "time": "2026-03-01T15:06:27",
         "level": "OK",
@@ -666,76 +736,6 @@
         "workflow": "write-article",
         "message": "lead_magnet_sourced",
         "trace_id": "trace-20260301-045515-7e9f91b6"
-      },
-      {
-        "time": "2026-03-01T04:55:25.784680",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "workflow_start",
-        "trace_id": "trace-20260301-045515-7e9f91b6"
-      },
-      {
-        "time": "2026-03-01T04:43:57.104600",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "workflow_end",
-        "trace_id": "trace-20260301-044139-bddf5ca4"
-      },
-      {
-        "time": "2026-03-01T04:42:27.903505",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "persona_fused",
-        "trace_id": "trace-20260301-044139-bddf5ca4"
-      },
-      {
-        "time": "2026-03-01T04:42:21.851387",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "lead_magnet_sourced",
-        "trace_id": "trace-20260301-044139-bddf5ca4"
-      },
-      {
-        "time": "2026-03-01T04:41:48.586424",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "workflow_start",
-        "trace_id": "trace-20260301-044139-bddf5ca4"
-      },
-      {
-        "time": "2026-03-01T04:30:33.693278",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "workflow_end",
-        "trace_id": "trace-20260301-042813-56d1028d"
-      },
-      {
-        "time": "2026-03-01T04:29:01.548293",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "persona_fused",
-        "trace_id": "trace-20260301-042813-56d1028d"
-      },
-      {
-        "time": "2026-03-01T04:28:55.360052",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "lead_magnet_sourced",
-        "trace_id": "trace-20260301-042813-56d1028d"
-      },
-      {
-        "time": "2026-03-01T04:28:22.133013",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "workflow_start",
-        "trace_id": "trace-20260301-042813-56d1028d"
-      },
-      {
-        "time": "2026-03-01T04:16:56.179047",
-        "level": "INFO",
-        "workflow": "write-article",
-        "message": "workflow_end",
-        "trace_id": "trace-20260301-041446-f2276b39"
       }
     ]
   },
@@ -1829,10 +1829,10 @@
   },
   "alerts": [
     {
-      "time": "15:06",
+      "time": "15:30",
       "level": "🔴 P0",
       "rule_id": "SYS-001",
-      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (75930m ago)",
+      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (75955m ago)",
       "action": "请运行 start-dashboard-full.bat (推荐)",
       "status": "Active"
     }
@@ -2042,12 +2042,12 @@
     }
   },
   "system": {
-    "last_update": "2026-03-01 15:06:28",
+    "last_update": "2026-03-01 15:30:44",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.92,
+    "duration_seconds": 0.19,
     "has_token_trend": true,
     "errors": []
   }
