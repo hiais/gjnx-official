@@ -17,7 +17,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "OpenAI 完成 1100 亿美元融资",
@@ -27,7 +27,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -67,7 +67,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "IntelliJ IDEA 2025.3.3 发布",
@@ -97,7 +97,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "DeepSeek 新旗舰模型 V4 即将发布，再次向美国科技巨头发起冲击",
@@ -107,7 +107,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "炸裂！VTJ.PRO 一口气接入 Qwen3.5、MiniMax M2.5、GLM 4.7！",
@@ -127,7 +127,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -147,6 +147,6 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "up"
+    "trend": "down"
   }
 ]
