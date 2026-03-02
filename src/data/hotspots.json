@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "我国首个国家级人形机器人与具身智能标准体系发布",
@@ -17,7 +17,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "OpenAI 完成 1100 亿美元融资",
@@ -27,7 +27,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -57,7 +57,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "面壁智能获数亿元融资，中国电信领投",
@@ -67,7 +67,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "IntelliJ IDEA 2025.3.3 发布",
@@ -80,23 +80,13 @@
     "trend": "down"
   },
   {
-    "title": "以小身材融入场景，用大算力赢战 AI！联想 PGX 工作站，做 AI 时代的小巨人",
-    "source": "OSChina",
-    "link": "https://my.oschina.net/u/4806939/blog/19208036",
-    "abstract": "AI 时代的开发者需要怎样的设备来提质增效呢？在算力为王的背景下，过往那种一台电脑、一杯咖啡就能 “改变世界” 的开发场景还能复现吗？...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
-  },
-  {
     "title": "Groq on Hugging Face Inference Providers 🔥",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/inference-providers-groq",
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -106,7 +96,7 @@
     "abstract": "根据 Financial Times 的最新报道，中国 AI 公司 DeepSeek 将于下周发布旗下最新大模型 V4，距其上一次重磅发布已时隔逾一年。这是继 2025 年 1 月 R1 推理模型引发\"AI 地震\"后，DeepSeek 最受市场期待的一次亮相。 报道指出，V4 将是一款多模态模型，支持图片、视频与文本生成，能力边界大幅拓展，直指 GPT-4o...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -116,7 +106,7 @@
     "abstract": "还在纠结用哪个大模型写代码？ VTJ.PRO直接甩出一句话：别选了，我全都要！ 就在今天，开源AI低代码平台VTJ.PRO投下一枚重磅炸弹——全面接入Qwen3.5、MiniMax M2.5、GLM 4.7等国产顶尖大模型，加上原有的DeepSeek、Gemini、Claude、GPT阵营，平台可调用的模型数量直接突破两位数！ 消息一出，开发者社群直接沸腾：...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -126,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "12",
     "trend": "down"
   },
   {
@@ -136,8 +126,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
+    "rank": "13",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -146,7 +136,17 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "up"
+  },
+  {
+    "title": "sudo-rs Breaks Historical Norms With Now Enabling Password Feedback By Default",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/sudo-rs-password-feedback",
+    "abstract": "On recent builds of Ubuntu 26.04 when being prompted by sudo for the password, password feedback is now enabled by default to show asterisk (*) characters when inputting your passw...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "down"
+    "trend": "up"
   }
 ]
