@@ -17,7 +17,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "GPT-5.4意外泄露！OpenAI最新模型瞄准这2大能力突围",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Notion 旗下 AI 工具接入国产开源模型 MiniMax M2.5",
@@ -67,7 +67,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -117,7 +117,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Attackers prompted Gemini over 100,000 times while trying to clone it, Google says",
@@ -130,13 +130,23 @@
     "trend": "up"
   },
   {
+    "title": "Intel Rendering Toolkit & OpenVINO AI GPU Performance On Intel Panther Lake's Xe3 B390",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/review/intel-b390-openvino-render",
+    "abstract": "Over the past month I have been running a lot of Linux benchmarks on Intel's new Panther Lake using the Core Ultra X7 358H and its Xe3-based Arc B390 Graphics. The Arc B390 on Linu...",
+    "pscore": 69,
+    "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "down"
+  },
+  {
     "title": "Linux 7.0 Shows Off Nice Performance Gains For Databases In Small AMD EPYC Servers",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/news/Linux-7.0-AMD-EPYC-4585PX",
     "abstract": "Last week with my ongoing testing of the in-development Linux 7.0 kernel I found nice performance improvements for PostgreSQL and other workloads when testing on a 128-core AMD EPY...",
     "pscore": 66,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
+    "rank": "15",
+    "trend": "down"
   }
 ]
