@@ -1,13 +1,33 @@
 [
   {
+    "title": "英伟达放弃GPU上LPU：新推理芯片被曝Groq即买即用，OpenAI第一个吃螃蟹",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/03/383329.html",
+    "abstract": "",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "down"
+  },
+  {
+    "title": "蚂蚁数科发布具身智能数据采集框架架 AoE",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/407281",
+    "abstract": "蚂蚁数科天玑实验室近日联合中国科学院自动化研究所、浙江大学、北京大学、北京智源人工智能研究院，联合研发出 Always-on Egocentric (AoE) 的数据采集系统，号称仅通过一台手机和一个低于20美元的颈挂式支架，就可以替代动辄数万美元的专业设备，实现具身智能的高质量数据采集。目前这一技术论文已经在Arxiv发布。 根据......",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "up"
+  },
+  {
     "title": "Google Cloud TPUs made available to Hugging Face users",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "down"
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -16,8 +36,18 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "04",
     "trend": "up"
+  },
+  {
+    "title": "GPT-5.4意外泄露！OpenAI最新模型瞄准这2大能力突围",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/03/383592.html",
+    "abstract": "并不是第一次发现GPT-5.4的踪迹了...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "Notion 旗下 AI 工具接入国产开源模型 MiniMax M2.5",
@@ -26,18 +56,8 @@
     "abstract": "Notion联合创始人Akshay Kothari近日宣布，其AI自动化工具Custom Agents正式集成国产开源权重模型MiniMax M2.5，并作为实验性功能向全球超1亿用户开放。 此举使MiniMax M2.5成为Notion模型选择列表中唯一开源权重模型，与Claude Sonnet 4.6、Opus 4.6、Haiku 4.5及GPT-5.2...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "06",
     "trend": "up"
-  },
-  {
-    "title": "面壁智能获数亿元融资，中国电信领投",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/406506",
-    "abstract": "面壁智能今天宣布完成新一轮数亿元融资，由中国电信战略领投，中信金石、中信私募跟投。此次合作标志着面壁智能正式开启与国家级信息基础设施方的深度协同。中国电信将发挥其在云（算力）、网络与终端方面的优势，面壁智能则依托其在泛司法、汽车、教育等领域的算法落地经验，共同拓展AI在复杂场景中的应用。 自2024年以......",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -46,18 +66,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
-  },
-  {
-    "title": "DeepSeek 新旗舰模型 V4 即将发布，再次向美国科技巨头发起冲击",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/406494",
-    "abstract": "根据 Financial Times 的最新报道，中国 AI 公司 DeepSeek 将于下周发布旗下最新大模型 V4，距其上一次重磅发布已时隔逾一年。这是继 2025 年 1 月 R1 推理模型引发\"AI 地震\"后，DeepSeek 最受市场期待的一次亮相。 报道指出，V4 将是一款多模态模型，支持图片、视频与文本生成，能力边界大幅拓展，直指 GPT-4o...",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -66,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -76,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -86,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -96,8 +106,8 @@
     "abstract": "MiniMax 正式发布 2025 年全年财报。数据显示，公司2025 财年收入7900万美元，同比增长158.9%，其中超过70%的收入来自国际市场。 年度亏损18.7亿美元（约合 135 亿元人民币），同比增加302.3%。经调整净亏损为2.5亿美元，亏损率同比大幅收窄。分析指出，巨额亏损主要源于对 算力租赁、全模态模型（文本、视频、语音、音乐......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "全球首个全尺寸重载双轮足机器人开源平台正式亮相",
@@ -106,7 +116,7 @@
     "abstract": "成都人形机器人创新中心自主研发的全球首个全尺寸重载双轮足机器人开源平台正式发布。该平台命名为RW-02OP，此举标志着人形机器人产业从实验室产品向开放生态构建的关键一步。 此次开源内容极为全面，远超代码范畴，是一套完整的开发套装。平台不仅公开了包含整机三维结构模型、硬件系统框图、详细物料清单（BOM）在内的......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -116,7 +126,7 @@
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "up"
   },
   {
@@ -126,7 +136,7 @@
     "abstract": "Last week with my ongoing testing of the in-development Linux 7.0 kernel I found nice performance improvements for PostgreSQL and other workloads when testing on a 128-core AMD EPY...",
     "pscore": 66,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "14",
+    "trend": "up"
   }
 ]
