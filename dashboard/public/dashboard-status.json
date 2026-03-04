@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-03-05 00:50:25",
+  "timestamp": "2026-03-05 01:00:10",
   "health": {
     "score": 30,
     "status": "critical",
     "issues": [
-      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (80834m ago))"
+      "CRITICAL_DAEMON_OFFLINE (Last heartbeat: 2026-01-07 21:35:33 (80844m ago))"
     ],
     "daemon_status": {
       "alive": false,
-      "last_heartbeat": "2026-01-07 21:35:33 (80834m ago)"
+      "last_heartbeat": "2026-01-07 21:35:33 (80844m ago)"
     }
   },
   "tasks": {
@@ -18,7 +18,7 @@
         "priority": "Unknown",
         "workflow": "validate-config",
         "created": "2026-03-04 20:51:32",
-        "age_minutes": 238.9,
+        "age_minutes": 248.6,
         "trace_id": null
       }
     ],
@@ -27,20 +27,90 @@
     "alerts": []
   },
   "logs": {
-    "total": 13,
+    "total": 23,
     "by_level": {
-      "INFO": 8,
-      "WARN": 1,
+      "INFO": 14,
+      "WARN": 2,
       "ERROR": 0,
       "FATAL": 0,
-      "SUCCESS": 4,
+      "SUCCESS": 7,
       "SYSTEM": 0
     },
     "by_workflow": {
-      "system": 13
+      "system": 23
     },
     "recent_errors": [],
     "recent_activities": [
+      {
+        "time": "2026-03-05T01:00:10",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Content sync completed successfully",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-03-05T01:00:10",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Generating dashboard data...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-03-05T01:00:06",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] running 'npm run sync:all'...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-03-05T00:50:53",
+        "level": "WARN",
+        "workflow": "system",
+        "message": "[save-all] Core: No changes to commit",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-03-05T00:50:42",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Website: Pushed with message: feat(auto): sync website (188 modified, 42 added, 0 deleted) @00:50:37",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-03-05T00:50:42",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Core repository...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-03-05T00:50:37",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Pushing to GitHub...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-03-05T00:50:37",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Auto-Rebasing remote changes...",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-03-05T00:50:26",
+        "level": "OK",
+        "workflow": "system",
+        "message": "[save-all] Dashboard generated successfully",
+        "trace_id": ""
+      },
+      {
+        "time": "2026-03-05T00:50:26",
+        "level": "INFO",
+        "workflow": "system",
+        "message": "[save-all] Processing Website repository...",
+        "trace_id": ""
+      },
       {
         "time": "2026-03-05T00:50:25",
         "level": "OK",
@@ -273,7 +343,7 @@
       "inbox": 26,
       "scheduled": 80,
       "wip": 0,
-      "published": 197
+      "published": 195
     },
     "pipeline_details": {
       "inbox": [],
@@ -922,6 +992,26 @@
       "wip": [],
       "published": [
         {
+          "date": "2026-03-04",
+          "title": "Python 的“速度枷锁”粉碎：3.14 No-GIL 版本实测 3x 性能暴涨，AI 训练不再卡脖子？",
+          "topic": "代码重构"
+        },
+        {
+          "date": "2026-03-03",
+          "title": "GPU 的终结者？Intel Loihi 3 神经拟态芯片首测：1.2W 功耗如何吊打 1000x 算力？",
+          "topic": "02-算力跃迁"
+        },
+        {
+          "date": "2026-03-02",
+          "title": "你的电费单不是变贵了，而是替AI交了“保护费”：揭秘算力霸权下的全民电费税",
+          "topic": "04-电力之冠"
+        },
+        {
+          "date": "2026-03-01",
+          "title": "Android 17 首个预览版实测：Min Mode 开启后，微信后台终于“死透”了",
+          "topic": "05-端侧异变"
+        },
+        {
           "date": "2026-03-01",
           "title": "1-Bit LLM 的绿色革命：BitNet b1.58 如何在普通 CPU 上跑通 100B 模型？",
           "topic": "算力跃迁"
@@ -968,11 +1058,6 @@
         },
         {
           "date": "2026-03-01",
-          "title": "GPU 的终结者？Intel Loihi 3 神经拟态芯片首测：1.2W 功耗如何吊打 1000x 算力？",
-          "topic": "算力跃迁"
-        },
-        {
-          "date": "2026-03-01",
           "title": "AR 眼镜的救世主：Lumileds 超构表面 Micro-LED 如何打破“光效物理墙”？",
           "topic": "端侧异变"
         },
@@ -1005,73 +1090,61 @@
           "date": "2026-03-01",
           "title": "后端革命：WebAssembly (WASI 1.0) 终于落地，为何 Cloudflare 和 Fastly 都在赌它是 Docker 的终结者？",
           "topic": "模拟觉醒"
-        },
-        {
-          "date": "2026-03-01",
-          "title": "Python 的性能救星？Mojo 语言实测 68000 倍提速，解决 AI 开发“双语言死局”的银弹？",
-          "topic": "算力跃迁"
-        },
-        {
-          "date": "2026-03-01",
-          "title": "2nm 的黎明：Apple M6 抢得 TSMC 首发，为何说 NPU 才是这颗芯片的唯一主角？",
-          "topic": "端侧异变"
-        },
-        {
-          "date": "2026-03-01",
-          "title": "退货率 80%？别再为 AI 梦想买单了：Humane AI Pin 与 Rabbit R1 跌落神坛背后的硬件血泪史",
-          "topic": "端侧异变"
         }
       ]
     },
     "recent_published": [
       {
+        "date": "2026-03-04",
+        "title": "Python 的“速度枷锁”粉碎：3.14 No-GIL 版本实测 3x 性能暴涨，AI 训练不再卡脖子？",
+        "topic": "代码重构"
+      },
+      {
+        "date": "2026-03-03",
+        "title": "GPU 的终结者？Intel Loihi 3 神经拟态芯片首测：1.2W 功耗如何吊打 1000x 算力？",
+        "topic": "02-算力跃迁"
+      },
+      {
+        "date": "2026-03-02",
+        "title": "你的电费单不是变贵了，而是替AI交了“保护费”：揭秘算力霸权下的全民电费税",
+        "topic": "04-电力之冠"
+      },
+      {
+        "date": "2026-03-01",
+        "title": "Android 17 首个预览版实测：Min Mode 开启后，微信后台终于“死透”了",
+        "topic": "05-端侧异变"
+      },
+      {
         "date": "2026-03-01",
         "title": "1-Bit LLM 的绿色革命：BitNet b1.58 如何在普通 CPU 上跑通 100B 模型？",
-        "topic": "算力跃迁"
-      },
-      {
-        "date": "2026-03-01",
-        "title": "RISC-V 的 2026 突围战：从 IoT 到数据中心，25% 市场份额背后的“架构去美化”",
-        "topic": "模拟觉醒"
-      },
-      {
-        "date": "2026-03-01",
-        "title": "有机基板的终结：Intel 与 Samsung 为何在 2026 集体押注“玻璃基板”？",
-        "topic": "算力跃迁"
-      },
-      {
-        "date": "2026-03-01",
-        "title": "不止 3nm：TSMC N2 2nm 良率突破 70%，GAA 工艺如何终结 FinFET 的十年霸权？",
-        "topic": "算力跃迁"
-      },
-      {
-        "date": "2026-03-01",
-        "title": "DevOps 已死，平台工程永生：为何 80% 的企业不再让开发者运维？",
         "topic": "算力跃迁"
       }
     ],
     "topic_distribution": {
-      "算力跃迁": 21,
+      "代码重构": 1,
+      "02-算力跃迁": 30,
+      "04-电力之冠": 31,
+      "05-端侧异变": 46,
+      "算力跃迁": 19,
       "模拟觉醒": 5,
-      "端侧异变": 15,
+      "端侧异变": 11,
       "硬件终局": 1,
       "电力之冠": 3,
+      "06-星际硅基": 10,
       "01-硬件终局": 11,
-      "02-算力跃迁": 29,
-      "05-端侧异变": 38,
       "07-模拟觉醒": 6,
-      "04-电力之冠": 29,
-      "代码重构": 1,
-      "星际硅基": 3,
-      "06-星际硅基": 8,
-      "00-待分类": 19,
+      "00-待分类": 14,
       "07-前沿交付": 1,
-      "03-具身革命": 5,
+      "03-具身革命": 4,
       "00-系统综述": 2
     },
     "weekly_output": {
-      "2026-03-01": 39,
-      "2026-02-28": 4,
+      "2026-03-04": 1,
+      "2026-03-03": 1,
+      "2026-03-02": 1,
+      "2026-03-01": 38,
+      "2026-02-28": 5,
+      "2026-02-27": 1,
       "2026-02-26": 1
     }
   },
@@ -1134,10 +1207,10 @@
   },
   "alerts": [
     {
-      "time": "00:50",
+      "time": "01:00",
       "level": "🔴 P0",
       "rule_id": "SYS-001",
-      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (80834m ago)",
+      "reason": "核心服务离线 (心跳停止于 2026-01-07 21:35:33 (80844m ago)",
       "action": "请运行 start-dashboard-full.bat (推荐)",
       "status": "Active"
     }
@@ -1347,12 +1420,12 @@
     }
   },
   "system": {
-    "last_update": "2026-03-05 00:50:26",
+    "last_update": "2026-03-05 01:00:10",
     "timezone": "China Standard Time"
   },
   "metadata": {
     "collector_version": "3.2",
-    "duration_seconds": 0.54,
+    "duration_seconds": 0.05,
     "has_token_trend": true,
     "errors": []
   }

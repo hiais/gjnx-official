@@ -1,6 +1,6 @@
 ---
 title: On-Premise (私有化部署)
-date: 2026-03-04T16:50:25.222Z
+date: 2026-03-04T17:00:09.922Z
 category: Auto-Mined
 tags:
   - Auto-Gen

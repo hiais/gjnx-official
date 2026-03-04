@@ -1,6 +1,6 @@
 ---
 title: Throttling (温控)
-date: 2026-03-04T16:50:24.799Z
+date: 2026-03-04T17:00:09.621Z
 category: Auto-Mined
 tags:
   - Auto-Gen
