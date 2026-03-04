@@ -1,23 +1,13 @@
 [
   {
-    "title": "英伟达放弃GPU上LPU：新推理芯片被曝Groq即买即用，OpenAI第一个吃螃蟹",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/03/383329.html",
-    "abstract": "",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "down"
-  },
-  {
     "title": "智元机器人正式开源发布灵渠OS Alpha版本",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/407453",
     "abstract": "智元机器人刚刚官宣：灵渠OS Alpha版本现已正式开源发布。 据介绍，灵渠 OS 立足具身智能机器人的全场景需求，旨在构建 “南向适配具身硬件、北向支撑智能应用” 的生态架构。底层提供稳定、高效的分布式群体实时通信、硬件抽象等基础服务框架；上层开放智能体服务框架，支持交互、作业、运动等智能基座模型的标准化对接......",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
+    "rank": "01",
+    "trend": "down"
   },
   {
     "title": "蚂蚁数科发布具身智能数据采集框架架 AoE",
@@ -26,8 +16,8 @@
     "abstract": "蚂蚁数科天玑实验室近日联合中国科学院自动化研究所、浙江大学、北京大学、北京智源人工智能研究院，联合研发出 Always-on Egocentric (AoE) 的数据采集系统，号称仅通过一台手机和一个低于20美元的颈挂式支架，就可以替代动辄数万美元的专业设备，实现具身智能的高质量数据采集。目前这一技术论文已经在Arxiv发布。 根据......",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "rank": "02",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -36,7 +26,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -46,7 +36,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -56,14 +46,24 @@
     "abstract": "并不是第一次发现GPT-5.4的踪迹了...",
     "pscore": 82,
     "category": "CHIP_FRONT",
+    "rank": "05",
+    "trend": "up"
+  },
+  {
+    "title": "GPT-5.4 意外泄露：200 万上下文窗口与持久状态化特性引关注",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/407648",
+    "abstract": "OpenAI一名工程师在Codex的GitHub公开仓库提交代码时，意外将未发布的“gpt-5.4”写入版本判断条件。随后，带有“alpha-gpt-5.4”标识的模型端点及界面截图在社交平台X上迅速传播。 尽管相关帖文和代码很快被删除并覆盖为“gpt-5.3-codex”，但这一操作反而加深了外界对新版本真实性的判断。 据现有信息，GPT-5.4或将跳过....",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
     "rank": "06",
     "trend": "down"
   },
   {
-    "title": "Notion 旗下 AI 工具接入国产开源模型 MiniMax M2.5",
+    "title": "OpenAI 发布 GPT-5.3 Instant：更顺畅、更实用的日常对话体验",
     "source": "OSChina",
-    "link": "https://www.oschina.net/news/406992",
-    "abstract": "Notion联合创始人Akshay Kothari近日宣布，其AI自动化工具Custom Agents正式集成国产开源权重模型MiniMax M2.5，并作为实验性功能向全球超1亿用户开放。 此举使MiniMax M2.5成为Notion模型选择列表中唯一开源权重模型，与Claude Sonnet 4.6、Opus 4.6、Haiku 4.5及GPT-5.2...",
+    "link": "https://www.oschina.net/news/407572/openai-gpt-5-3-instant",
+    "abstract": "OpenAI宣布推出GPT-5.3 Instant模型，面向所有ChatGPT用户开放。此次更新聚焦提升日常交互的实用性与流畅度，显著减少冗余免责声明、机械化回复及说教式语气，使对话更自然、直接。 新模型大幅优化拒答逻辑，在确保安全的前提下，避免对可回答问题过度回避。同时，联网搜索能力得到增强：整合信息更精准，背景解析更深入......",
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "07",
@@ -77,6 +77,16 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "08",
+    "trend": "down"
+  },
+  {
+    "title": "谷歌发布 Gemini 3.1 Flash-Lite，主推高性价比与高效推理",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/407551",
+    "abstract": "谷歌正式发布Gemini 3.1 Flash-Lite，作为其Gemini系列中最新一代轻量级多模态AI模型。该模型专为高吞吐、低复杂度任务设计，在成本与速度上显著优化：输入价格为每百万token 0.25美元，输出为1.50美元，远低于Gemini 3.1 Pro。 性能方面，Gemini 3.1 Flash-Lite在内部测试中较前代Gemini 2.5...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -86,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -96,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -106,24 +116,14 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "雷军两会建议：推动通用人形机器人在智能制造应用",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/407438",
     "abstract": "作为全国人大代表，小米 CEO 雷军发文阐述了自己今年准备的 5 份建议。其中提到，建议加快推动通用人形机器人在智能制造中应用。 雷军称，人形机器人有望成为继计算机、智能手机、新能源汽车后的颠覆性产品，是未来产业的重要方向之一。从“人形机器人+汽车制造\"的实践来看，人形机器人具有显著的产业价值，能降低生产成......",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
-  },
-  {
-    "title": "MINIMAX：2025 财年收入 7900 万美元",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/407001",
-    "abstract": "MiniMax 正式发布 2025 年全年财报。数据显示，公司2025 财年收入7900万美元，同比增长158.9%，其中超过70%的收入来自国际市场。 年度亏损18.7亿美元（约合 135 亿元人民币），同比增加302.3%。经调整净亏损为2.5亿美元，亏损率同比大幅收窄。分析指出，巨额亏损主要源于对 算力租赁、全模态模型（文本、视频、语音、音乐......",
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "13",
@@ -137,7 +137,7 @@
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "14",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Intel Rendering Toolkit & OpenVINO AI GPU Performance On Intel Panther Lake's Xe3 B390",
