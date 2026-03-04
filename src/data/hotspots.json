@@ -10,13 +10,23 @@
     "trend": "down"
   },
   {
+    "title": "智元机器人正式开源发布灵渠OS Alpha版本",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/407453",
+    "abstract": "智元机器人刚刚官宣：灵渠OS Alpha版本现已正式开源发布。 据介绍，灵渠 OS 立足具身智能机器人的全场景需求，旨在构建 “南向适配具身硬件、北向支撑智能应用” 的生态架构。底层提供稳定、高效的分布式群体实时通信、硬件抽象等基础服务框架；上层开放智能体服务框架，支持交互、作业、运动等智能基座模型的标准化对接......",
+    "pscore": 92,
+    "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "up"
+  },
+  {
     "title": "蚂蚁数科发布具身智能数据采集框架架 AoE",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/407281",
     "abstract": "蚂蚁数科天玑实验室近日联合中国科学院自动化研究所、浙江大学、北京大学、北京智源人工智能研究院，联合研发出 Always-on Egocentric (AoE) 的数据采集系统，号称仅通过一台手机和一个低于20美元的颈挂式支架，就可以替代动辄数万美元的专业设备，实现具身智能的高质量数据采集。目前这一技术论文已经在Arxiv发布。 根据......",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -26,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -36,8 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "GPT-5.4意外泄露！OpenAI最新模型瞄准这2大能力突围",
@@ -46,7 +56,7 @@
     "abstract": "并不是第一次发现GPT-5.4的踪迹了...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -56,8 +66,8 @@
     "abstract": "Notion联合创始人Akshay Kothari近日宣布，其AI自动化工具Custom Agents正式集成国产开源权重模型MiniMax M2.5，并作为实验性功能向全球超1亿用户开放。 此举使MiniMax M2.5成为Notion模型选择列表中唯一开源权重模型，与Claude Sonnet 4.6、Opus 4.6、Haiku 4.5及GPT-5.2...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -66,7 +76,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -76,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -86,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -96,8 +106,18 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
     "trend": "down"
+  },
+  {
+    "title": "雷军两会建议：推动通用人形机器人在智能制造应用",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/407438",
+    "abstract": "作为全国人大代表，小米 CEO 雷军发文阐述了自己今年准备的 5 份建议。其中提到，建议加快推动通用人形机器人在智能制造中应用。 雷军称，人形机器人有望成为继计算机、智能手机、新能源汽车后的颠覆性产品，是未来产业的重要方向之一。从“人形机器人+汽车制造\"的实践来看，人形机器人具有显著的产业价值，能降低生产成......",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "MINIMAX：2025 财年收入 7900 万美元",
@@ -106,18 +126,8 @@
     "abstract": "MiniMax 正式发布 2025 年全年财报。数据显示，公司2025 财年收入7900万美元，同比增长158.9%，其中超过70%的收入来自国际市场。 年度亏损18.7亿美元（约合 135 亿元人民币），同比增加302.3%。经调整净亏损为2.5亿美元，亏损率同比大幅收窄。分析指出，巨额亏损主要源于对 算力租赁、全模态模型（文本、视频、语音、音乐......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "13",
     "trend": "up"
-  },
-  {
-    "title": "全球首个全尺寸重载双轮足机器人开源平台正式亮相",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/406879",
-    "abstract": "成都人形机器人创新中心自主研发的全球首个全尺寸重载双轮足机器人开源平台正式发布。该平台命名为RW-02OP，此举标志着人形机器人产业从实验室产品向开放生态构建的关键一步。 此次开源内容极为全面，远超代码范畴，是一套完整的开发套装。平台不仅公开了包含整机三维结构模型、硬件系统框图、详细物料清单（BOM）在内的......",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
   },
   {
     "title": "Attackers prompted Gemini over 100,000 times while trying to clone it, Google says",
@@ -126,7 +136,7 @@
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "14",
     "trend": "up"
   },
   {
@@ -136,17 +146,7 @@
     "abstract": "Over the past month I have been running a lot of Linux benchmarks on Intel's new Panther Lake using the Core Ultra X7 358H and its Xe3-based Arc B390 Graphics. The Arc B390 on Linu...",
     "pscore": 69,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
-  },
-  {
-    "title": "Linux 7.0 Shows Off Nice Performance Gains For Databases In Small AMD EPYC Servers",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Linux-7.0-AMD-EPYC-4585PX",
-    "abstract": "Last week with my ongoing testing of the in-development Linux 7.0 kernel I found nice performance improvements for PostgreSQL and other workloads when testing on a 128-core AMD EPY...",
-    "pscore": 66,
-    "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "down"
+    "trend": "up"
   }
 ]
