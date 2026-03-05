@@ -10,14 +10,24 @@
     "trend": "up"
   },
   {
+    "title": "企业级OpenClaw最强拍档！万亿参数的国产多模态大模型开源发布",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/03/384330.html",
+    "abstract": "预训练算力效率提升49%...",
+    "pscore": 87,
+    "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "down"
+  },
+  {
     "title": "蚂蚁数科发布具身智能数据采集框架架 AoE",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/407281",
     "abstract": "蚂蚁数科天玑实验室近日联合中国科学院自动化研究所、浙江大学、北京大学、北京智源人工智能研究院，联合研发出 Always-on Egocentric (AoE) 的数据采集系统，号称仅通过一台手机和一个低于20美元的颈挂式支架，就可以替代动辄数万美元的专业设备，实现具身智能的高质量数据采集。目前这一技术论文已经在Arxiv发布。 根据......",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
+    "rank": "03",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -26,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -36,7 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -46,8 +56,8 @@
     "abstract": "根据彭博社的报道，Meta正在推进一项新的基础设施战略：开发用于训练AI模型的自研芯片。这一计划意味着，这家社交媒体巨头希望在AI算力层面进一步摆脱对外部供应商的依赖，并为未来更复杂的AI模型构建定制化硬件体系。 据报道，Meta首席财务官Susan Li在摩根士丹利科技会议上表示，公司正在研发新的定制处理器，目标是能......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "宇树开源 OmniXtreme 人形机器人架构",
@@ -56,8 +66,8 @@
     "abstract": "宇树科技（Unitree）正式发布并开源了名为 OmniXtreme 的人形机器人运动控制架构，同步公开由创始人王兴兴署名的技术论文。 该架构针对人形机器人在春晚等高动态场景下的极限动作表现，系统性地解决了海量动作库追踪时的保真度下降与物理落地难题。 根据介绍，OmniXtreme采用双阶段训练框架：首阶段通过流匹配预训练（S......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "GPT-5.4 意外泄露：200 万上下文窗口与持久状态化特性引关注",
@@ -66,7 +76,7 @@
     "abstract": "OpenAI一名工程师在Codex的GitHub公开仓库提交代码时，意外将未发布的“gpt-5.4”写入版本判断条件。随后，带有“alpha-gpt-5.4”标识的模型端点及界面截图在社交平台X上迅速传播。 尽管相关帖文和代码很快被删除并覆盖为“gpt-5.3-codex”，但这一操作反而加深了外界对新版本真实性的判断。 据现有信息，GPT-5.4或将跳过....",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -76,7 +86,7 @@
     "abstract": "OpenAI宣布推出GPT-5.3 Instant模型，面向所有ChatGPT用户开放。此次更新聚焦提升日常交互的实用性与流畅度，显著减少冗余免责声明、机械化回复及说教式语气，使对话更自然、直接。 新模型大幅优化拒答逻辑，在确保安全的前提下，避免对可回答问题过度回避。同时，联网搜索能力得到增强：整合信息更精准，背景解析更深入......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -86,8 +96,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "用户发现 Chrome 静默安装 Gemini Nano 模型：约 4GB 大小、删除后会再次下载",
@@ -96,7 +106,7 @@
     "abstract": "近日，一则来自 X 平台用户 Zephyrianna 的帖子在开发者和技术社区引发广泛讨论。该用户在排查电脑存储空间异常时，发现自己的 Windows 电脑中出现了一个约 4GB 的 weights.bin 文件，最终追踪到其来源为 Google Chrome 浏览器自动下载的本地 AI 模型。 根据该用户的描述，当其发现 C 盘空间持续减少后，开始逐层排查...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -106,43 +116,33 @@
     "abstract": "谷歌正式发布Gemini 3.1 Flash-Lite，作为其Gemini系列中最新一代轻量级多模态AI模型。该模型专为高吞吐、低复杂度任务设计，在成本与速度上显著优化：输入价格为每百万token 0.25美元，输出为1.50美元，远低于Gemini 3.1 Pro。 性能方面，Gemini 3.1 Flash-Lite在内部测试中较前代Gemini 2.5...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "up"
   },
   {
-    "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/keras-chatbot-arena",
-    "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
-  },
-  {
-    "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/sdxl_jax",
-    "abstract": "",
+    "title": "GPT-5.4 Thinking System Card",
+    "source": "HackerNews",
+    "link": "https://openai.com/index/gpt-5-4-thinking-system-card/",
+    "abstract": "Comments...",
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "up"
+    "trend": "down"
   },
   {
-    "title": "Hugging Face on PyTorch / XLA TPUs",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/pytorch-xla",
-    "abstract": "",
+    "title": "GPT-5.4 Thinking and GPT-5.4 Pro",
+    "source": "HackerNews",
+    "link": "https://twitter.com/i/status/2029620619743219811",
+    "abstract": "Comments...",
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "14",
     "trend": "up"
   },
   {
-    "title": "GPT-5.3 Instant上线：ChatGPT终于不说教了",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/03/383974.html",
+    "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/keras-chatbot-arena",
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
