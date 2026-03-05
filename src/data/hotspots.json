@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "GPT-5.4意外泄露！OpenAI最新模型瞄准这2大能力突围",
@@ -57,7 +57,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "OpenAI 发布 GPT-5.3 Instant：更顺畅、更实用的日常对话体验",
@@ -80,14 +80,24 @@
     "trend": "down"
   },
   {
+    "title": "用户发现 Chrome 静默安装 Gemini Nano 模型：约 4GB 大小、删除后会再次下载",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/407850",
+    "abstract": "近日，一则来自 X 平台用户 Zephyrianna 的帖子在开发者和技术社区引发广泛讨论。该用户在排查电脑存储空间异常时，发现自己的 Windows 电脑中出现了一个约 4GB 的 weights.bin 文件，最终追踪到其来源为 Google Chrome 浏览器自动下载的本地 AI 模型。 根据该用户的描述，当其发现 C 盘空间持续减少后，开始逐层排查...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "09",
+    "trend": "up"
+  },
+  {
     "title": "谷歌发布 Gemini 3.1 Flash-Lite，主推高性价比与高效推理",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/407551",
     "abstract": "谷歌正式发布Gemini 3.1 Flash-Lite，作为其Gemini系列中最新一代轻量级多模态AI模型。该模型专为高吞吐、低复杂度任务设计，在成本与速度上显著优化：输入价格为每百万token 0.25美元，输出为1.50美元，远低于Gemini 3.1 Pro。 性能方面，Gemini 3.1 Flash-Lite在内部测试中较前代Gemini 2.5...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -96,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -106,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -116,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "down"
   },
   {
@@ -126,8 +136,8 @@
     "abstract": "作为全国人大代表，小米 CEO 雷军发文阐述了自己今年准备的 5 份建议。其中提到，建议加快推动通用人形机器人在智能制造中应用。 雷军称，人形机器人有望成为继计算机、智能手机、新能源汽车后的颠覆性产品，是未来产业的重要方向之一。从“人形机器人+汽车制造\"的实践来看，人形机器人具有显著的产业价值，能降低生产成......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "14",
+    "trend": "down"
   },
   {
     "title": "Attackers prompted Gemini over 100,000 times while trying to clone it, Google says",
@@ -135,16 +145,6 @@
     "link": "https://arstechnica.com/ai/2026/02/attackers-prompted-gemini-over-100000-times-while-trying-to-clone-it-google-says/",
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
-  },
-  {
-    "title": "Intel Rendering Toolkit & OpenVINO AI GPU Performance On Intel Panther Lake's Xe3 B390",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/intel-b390-openvino-render",
-    "abstract": "Over the past month I have been running a lot of Linux benchmarks on Intel's new Panther Lake using the Core Ultra X7 358H and its Xe3-based Arc B390 Graphics. The Arc B390 on Linu...",
-    "pscore": 69,
     "category": "CHIP_FRONT",
     "rank": "15",
     "trend": "down"
