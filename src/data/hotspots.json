@@ -7,6 +7,16 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
+    "trend": "down"
+  },
+  {
+    "title": "Resources For GNOME Adds Intel Xe GPU Power Usage & Intel NPU Frequency Reporting",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/GNOME-Resources-1.10.2",
+    "abstract": "Resources, the modern GNOME GTK4/libadwaita-based GUI application for system resource monitoring and an alternative to GNOME System Monitor, is out with a new update. Resources 1.1...",
+    "pscore": 92,
+    "category": "CHIP_FRONT",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -16,8 +26,8 @@
     "abstract": "原力灵机 DM0 模型，正让机器人 “又聪明又敏捷” 的理想照进现实...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
+    "rank": "03",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -26,7 +36,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -36,8 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "超智算智能算力中心揭牌暨AI算力设备点亮仪式成功举行",
@@ -46,8 +56,8 @@
     "abstract": "北京在算力基础设施建设上迈出关键一步...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "OpenAI 发布 GPT-5.4：支持高达 100 万 tokens 上下文处理、提供“Thinking”模式、可提前展示思考路径",
@@ -56,8 +66,8 @@
     "abstract": "OpenAI 正式推出 GPT-5.4，提供“Thinking（思维）”模式，上线 ChatGPT、API 及 Codex 平台，同时面向 ChatGPT 及 API 平台推出 GPT-5.4 Pro 版本。 据介绍，GPT-5.4 不仅继承了 GPT-5.3-Codex 的编程能力，更优化了模型在各类工具、软件环境及专业任务中的协同表现 —— 涵盖电子表格...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "Meta 正在开发用于训练 AI 模型的自研芯片",
@@ -66,7 +76,7 @@
     "abstract": "根据彭博社的报道，Meta正在推进一项新的基础设施战略：开发用于训练AI模型的自研芯片。这一计划意味着，这家社交媒体巨头希望在AI算力层面进一步摆脱对外部供应商的依赖，并为未来更复杂的AI模型构建定制化硬件体系。 据报道，Meta首席财务官Susan Li在摩根士丹利科技会议上表示，公司正在研发新的定制处理器，目标是能......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -76,8 +86,8 @@
     "abstract": "宇树科技（Unitree）正式发布并开源了名为 OmniXtreme 的人形机器人运动控制架构，同步公开由创始人王兴兴署名的技术论文。 该架构针对人形机器人在春晚等高动态场景下的极限动作表现，系统性地解决了海量动作库追踪时的保真度下降与物理落地难题。 根据介绍，OmniXtreme采用双阶段训练框架：首阶段通过流匹配预训练（S......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "GPT-5.4 意外泄露：200 万上下文窗口与持久状态化特性引关注",
@@ -86,7 +96,7 @@
     "abstract": "OpenAI一名工程师在Codex的GitHub公开仓库提交代码时，意外将未发布的“gpt-5.4”写入版本判断条件。随后，带有“alpha-gpt-5.4”标识的模型端点及界面截图在社交平台X上迅速传播。 尽管相关帖文和代码很快被删除并覆盖为“gpt-5.3-codex”，但这一操作反而加深了外界对新版本真实性的判断。 据现有信息，GPT-5.4或将跳过....",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -96,8 +106,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "用户发现 Chrome 静默安装 Gemini Nano 模型：约 4GB 大小、删除后会再次下载",
@@ -106,7 +116,7 @@
     "abstract": "近日，一则来自 X 平台用户 Zephyrianna 的帖子在开发者和技术社区引发广泛讨论。该用户在排查电脑存储空间异常时，发现自己的 Windows 电脑中出现了一个约 4GB 的 weights.bin 文件，最终追踪到其来源为 Google Chrome 浏览器自动下载的本地 AI 模型。 根据该用户的描述，当其发现 C 盘空间持续减少后，开始逐层排查...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "down"
   },
   {
@@ -116,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "up"
   },
   {
@@ -126,24 +136,14 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "14",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/pytorch-xla",
     "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
-  },
-  {
-    "title": "Linux 7.1 To Prevent Intel NPUs From Being Exhausted By Single Programs",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Intel-NPU-Restrictions-Linux-71",
-    "abstract": "The Intel IVPU accelerator driver will be introducing limits on Intel NPU resource usage by non-root user-space programs beginning with the Linux 7.1 kernel......",
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "15",
