@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Resources For GNOME Adds Intel Xe GPU Power Usage & Intel NPU Frequency Reporting",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -47,6 +47,16 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
+    "trend": "down"
+  },
+  {
+    "title": "英伟达 CEO 黄仁勋：OpenClaw 三周达成 Linux 三十年成就，AI Agent 正引爆算力需求",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/408857",
+    "abstract": "在近期举行的摩根士丹利会议上，英伟达 CEO 黄仁勋表示，AI Agent 技术正在成为新一轮技术拐点，其中开源项目 OpenClaw 的爆发式增长尤为引人关注。他甚至称其可能是“有史以来最重要的软件发布之一”。 黄仁勋在发言中给出了一个颇具冲击力的对比：开源操作系统 Linux 用了约 30 年时间才达到如今的普及规模，而 OpenCl......",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -56,8 +66,8 @@
     "abstract": "OpenAI 正式推出 GPT-5.4，提供“Thinking（思维）”模式，上线 ChatGPT、API 及 Codex 平台，同时面向 ChatGPT 及 API 平台推出 GPT-5.4 Pro 版本。 据介绍，GPT-5.4 不仅继承了 GPT-5.3-Codex 的编程能力，更优化了模型在各类工具、软件环境及专业任务中的协同表现 —— 涵盖电子表格...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "Meta 正在开发用于训练 AI 模型的自研芯片",
@@ -66,7 +76,7 @@
     "abstract": "根据彭博社的报道，Meta正在推进一项新的基础设施战略：开发用于训练AI模型的自研芯片。这一计划意味着，这家社交媒体巨头希望在AI算力层面进一步摆脱对外部供应商的依赖，并为未来更复杂的AI模型构建定制化硬件体系。 据报道，Meta首席财务官Susan Li在摩根士丹利科技会议上表示，公司正在研发新的定制处理器，目标是能......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -76,8 +86,8 @@
     "abstract": "宇树科技（Unitree）正式发布并开源了名为 OmniXtreme 的人形机器人运动控制架构，同步公开由创始人王兴兴署名的技术论文。 该架构针对人形机器人在春晚等高动态场景下的极限动作表现，系统性地解决了海量动作库追踪时的保真度下降与物理落地难题。 根据介绍，OmniXtreme采用双阶段训练框架：首阶段通过流匹配预训练（S......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -86,27 +96,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
-  },
-  {
-    "title": "科研AI出了个狠角色：开源30B小模型，硬刚Gemini和Claude",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/03/384818.html",
-    "abstract": "真正跑通“假设-证据-验证”的循环 The post 科研AI出了个狠角色：开源30B小模型，硬刚Gemini和Claude first appeared on 量子位....",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
-  },
-  {
-    "title": "用户发现 Chrome 静默安装 Gemini Nano 模型：约 4GB 大小、删除后会再次下载",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/407850",
-    "abstract": "近日，一则来自 X 平台用户 Zephyrianna 的帖子在开发者和技术社区引发广泛讨论。该用户在排查电脑存储空间异常时，发现自己的 Windows 电脑中出现了一个约 4GB 的 weights.bin 文件，最终追踪到其来源为 Google Chrome 浏览器自动下载的本地 AI 模型。 根据该用户的描述，当其发现 C 盘空间持续减少后，开始逐层排查...",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
-    "rank": "11",
     "trend": "down"
   },
   {
@@ -116,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -126,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -136,17 +126,27 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
+    "rank": "13",
+    "trend": "down"
+  },
+  {
+    "title": "打败GPT-5.2，嵌入真实工业生产，这个大模型什么来头？",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/03/385010.html",
+    "abstract": "",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
     "rank": "14",
     "trend": "up"
   },
   {
-    "title": "马斯克：特斯拉可能会率先打造出人形通用人工智能",
+    "title": "Ant Design 6.3.2 发布，企业级 UI 设计语言和 React 实现",
     "source": "OSChina",
-    "link": "https://www.oschina.net/news/408783",
-    "abstract": "马斯克昨日在社交媒体平台 X 上的帖子中表示：“特斯拉将成为研发通用人工智能的公司之一，并且很可能是首个打造出人形 / 原子塑形形态通用人工智能的企业。” 此番言论正值特斯拉加速推进其 Optimus（擎天柱）人形机器人研发之际。马斯克此前曾表示，Optimus 最终有望成为冯 · 诺依曼探测器。这一概念由数学家约翰 · ......",
+    "link": "https://www.oschina.net/news/408924/ant-design-6-3-2-released",
+    "abstract": "Ant Design 是阿里巴巴开源的一套企业级 UI 设计语言和 React 组件库。Ant Design 6.3.2 现已发布，主要更新内容如下： 修复 Form.Item 使用动态 rules 与 dependencies 配合使用时，时序问题导致的校验失败的问题。#57147 修复 InputNumber 在 borderless 形态下与 Inpu...",
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "up"
+    "trend": "down"
   }
 ]
