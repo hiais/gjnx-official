@@ -7,7 +7,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "AMD GAIA 0.16 Introduces C++17 Agent Framework For Building AI PC Agents In Pure C++",
@@ -27,7 +27,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "技术获 NVIDIA、Pi 双重认可！原力灵机 DM0 模型重塑具身智能新范式",
@@ -37,7 +37,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -57,7 +57,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "OpenAI 发布 GPT-5.4：支持高达 100 万 tokens 上下文处理、提供“Thinking”模式、可提前展示思考路径",
@@ -67,7 +67,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Meta 正在开发用于训练 AI 模型的自研芯片",
@@ -77,7 +77,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "宇树开源 OmniXtreme 人形机器人架构",
@@ -87,7 +87,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "GPT-5.4 意外泄露：200 万上下文窗口与持久状态化特性引关注",
@@ -97,7 +97,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -117,7 +117,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -127,7 +127,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -147,6 +147,6 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "down"
+    "trend": "up"
   }
 ]
