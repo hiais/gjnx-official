@@ -1,10 +1,10 @@
 [
   {
-    "title": "Global 2nm Supply Crunch: TSMC Leads as Intel 18A, Samsung, and Rapidus Race to Compete",
-    "source": "SemiWiki",
-    "link": "https://semiwiki.com/semiconductor-manufacturers/tsmc/367081-global-2nm-supply-crunch-tsmc-leads-as-intel-18a-samsung-and-rapidus-race-to-compete/",
-    "abstract": "The semiconductor industry is in the midst of a structural supply challenge that’s tightly coupled to exploding demand for advanced chips, especially those used in AI, HPC, and nex...",
-    "pscore": 92,
+    "title": "NVIDIA 595 Linux Driver Running Well In Early Benchmarks",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/review/nvidia-595-linux",
+    "abstract": "Last week NVIDIA released the 595.45.04 beta Linux driver as their first public build in the R595 release branch. The NVIDIA R595 Linux driver is bringing a number of Vulkan driver...",
+    "pscore": 97,
     "category": "CHIP_FRONT",
     "rank": "01",
     "trend": "up"
@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Resources For GNOME Adds Intel Xe GPU Power Usage & Intel NPU Frequency Reporting",
@@ -27,7 +27,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "英伟达 CEO 黄仁勋：OpenClaw 三周达成 Linux 三十年成就，AI Agent 正引爆算力需求",
@@ -87,7 +87,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -97,7 +97,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -137,7 +137,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "14",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Ant Design 6.3.2 发布，企业级 UI 设计语言和 React 实现",
@@ -147,6 +147,6 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "down"
+    "trend": "up"
   }
 ]
