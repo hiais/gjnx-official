@@ -7,7 +7,7 @@
     "pscore": 97,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "AMD GAIA 0.16 Introduces C++17 Agent Framework For Building AI PC Agents In Pure C++",
@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Resources For GNOME Adds Intel Xe GPU Power Usage & Intel NPU Frequency Reporting",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -50,43 +50,23 @@
     "trend": "up"
   },
   {
+    "title": "超算互联网 OpenClaw 服务接入飞书、企业微信",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/409099",
+    "abstract": "超算互联网宣布OpenClaw服务再度升级——正式打通飞书、企业微信。用户可根据任务规模，灵活选择多种模型的API调用服务，并直接接入飞书、企业微信客户端使用。 依托由中科曙光scaleX万卡超集群构建的庞大国产AI算力池，超算互联网可为用户提供高稳定性、高性价比的多元算力支撑。用户可根据任务规模，灵活选择多种模型的......",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "06",
+    "trend": "down"
+  },
+  {
     "title": "英伟达 CEO 黄仁勋：OpenClaw 三周达成 Linux 三十年成就，AI Agent 正引爆算力需求",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/408857",
     "abstract": "在近期举行的摩根士丹利会议上，英伟达 CEO 黄仁勋表示，AI Agent 技术正在成为新一轮技术拐点，其中开源项目 OpenClaw 的爆发式增长尤为引人关注。他甚至称其可能是“有史以来最重要的软件发布之一”。 黄仁勋在发言中给出了一个颇具冲击力的对比：开源操作系统 Linux 用了约 30 年时间才达到如今的普及规模，而 OpenCl......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
-  },
-  {
-    "title": "OpenAI 发布 GPT-5.4：支持高达 100 万 tokens 上下文处理、提供“Thinking”模式、可提前展示思考路径",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/408069/openai-gpt-5-4",
-    "abstract": "OpenAI 正式推出 GPT-5.4，提供“Thinking（思维）”模式，上线 ChatGPT、API 及 Codex 平台，同时面向 ChatGPT 及 API 平台推出 GPT-5.4 Pro 版本。 据介绍，GPT-5.4 不仅继承了 GPT-5.3-Codex 的编程能力，更优化了模型在各类工具、软件环境及专业任务中的协同表现 —— 涵盖电子表格...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
-  },
-  {
-    "title": "Meta 正在开发用于训练 AI 模型的自研芯片",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/407948",
-    "abstract": "根据彭博社的报道，Meta正在推进一项新的基础设施战略：开发用于训练AI模型的自研芯片。这一计划意味着，这家社交媒体巨头希望在AI算力层面进一步摆脱对外部供应商的依赖，并为未来更复杂的AI模型构建定制化硬件体系。 据报道，Meta首席财务官Susan Li在摩根士丹利科技会议上表示，公司正在研发新的定制处理器，目标是能......",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
-  },
-  {
-    "title": "宇树开源 OmniXtreme 人形机器人架构",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/407914",
-    "abstract": "宇树科技（Unitree）正式发布并开源了名为 OmniXtreme 的人形机器人运动控制架构，同步公开由创始人王兴兴署名的技术论文。 该架构针对人形机器人在春晚等高动态场景下的极限动作表现，系统性地解决了海量动作库追踪时的保真度下降与物理落地难题。 根据介绍，OmniXtreme采用双阶段训练框架：首阶段通过流匹配预训练（S......",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "09",
     "trend": "down"
   },
   {
@@ -96,8 +76,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -106,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -116,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -126,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "打败GPT-5.2，嵌入真实工业生产，这个大模型什么来头？",
@@ -136,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "12",
     "trend": "down"
   },
   {
@@ -146,7 +126,27 @@
     "abstract": "Ant Design 是阿里巴巴开源的一套企业级 UI 设计语言和 React 组件库。Ant Design 6.3.2 现已发布，主要更新内容如下： 修复 Form.Item 使用动态 rules 与 dependencies 配合使用时，时序问题导致的校验失败的问题。#57147 修复 InputNumber 在 borderless 形态下与 Inpu...",
     "pscore": 75,
     "category": "CHIP_FRONT",
+    "rank": "13",
+    "trend": "down"
+  },
+  {
+    "title": "马斯克：特斯拉可能会率先打造出人形通用人工智能",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/408783",
+    "abstract": "马斯克昨日在社交媒体平台 X 上的帖子中表示：“特斯拉将成为研发通用人工智能的公司之一，并且很可能是首个打造出人形 / 原子塑形形态通用人工智能的企业。” 此番言论正值特斯拉加速推进其 Optimus（擎天柱）人形机器人研发之际。马斯克此前曾表示，Optimus 最终有望成为冯 · 诺依曼探测器。这一概念由数学家约翰 · ......",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "down"
+  },
+  {
+    "title": "告别海量数据收集！RoboAug 让机器人操作泛化至数百未知场景",
+    "source": "OSChina",
+    "link": "https://my.oschina.net/u/9021515/blog/19209122",
+    "abstract": "近日，由北京人形机器人创新中心联合慕尼黑工业大学、北京大学、北京航空航天大学等顶尖机构的研究团队，提出了一种全新的区域对比数据增强框架 ------RoboAug。该框架打破了传统数据收集的瓶颈，仅需对单张图像进行简单的边界框标注，即可让机器人操作策略泛化到数百个未见过的全新场景！...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "up"
+    "trend": "down"
   }
 ]
