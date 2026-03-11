@@ -10,14 +10,24 @@
     "trend": "up"
   },
   {
+    "title": "RoboMIND 2.0 解锁具身智能新范式：快慢系统协同，泛化指数提升",
+    "source": "OSChina",
+    "link": "https://my.oschina.net/u/9021515/blog/19209935",
+    "abstract": "为解决具身智能优质数据的稀缺问题，北京人形在 2024 年 12 月推出了大规模多构型智能机器人数据集和 Benchmark——RoboMIND1.0，发布后吸引了全球众多顶尖实验室与开发者接入使用。经过一年的全面的打磨与升级，RoboMIND2.0 于 2025 年 12 月正式发布！在此前版本的基础上，RoboMIND2.0 实现了跨越式的进化。从庞大的...",
+    "pscore": 97,
+    "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "up"
+  },
+  {
     "title": "Google Cloud TPUs made available to Hugging Face users",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
+    "rank": "03",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -26,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "超算互联网 OpenClaw 服务接入飞书、企业微信",
@@ -36,7 +46,7 @@
     "abstract": "超算互联网宣布OpenClaw服务再度升级——正式打通飞书、企业微信。用户可根据任务规模，灵活选择多种模型的API调用服务，并直接接入飞书、企业微信客户端使用。 依托由中科曙光scaleX万卡超集群构建的庞大国产AI算力池，超算互联网可为用户提供高稳定性、高性价比的多元算力支撑。用户可根据任务规模，灵活选择多种模型的......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -46,7 +56,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -56,7 +66,7 @@
     "abstract": "Fedora Project Leader Jef Spaleta announced a new proposal for \"A Technology Innovation Lifecycle Process for Fedora.\" With the help of Google's Gemini AI, Spaleta laid out a propo...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -66,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -76,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -86,18 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
-  },
-  {
-    "title": "Ant Design 6.3.2 发布，企业级 UI 设计语言和 React 实现",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/408924/ant-design-6-3-2-released",
-    "abstract": "Ant Design 是阿里巴巴开源的一套企业级 UI 设计语言和 React 组件库。Ant Design 6.3.2 现已发布，主要更新内容如下： 修复 Form.Item 使用动态 rules 与 dependencies 配合使用时，时序问题导致的校验失败的问题。#57147 修复 InputNumber 在 borderless 形态下与 Inpu...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Attackers prompted Gemini over 100,000 times while trying to clone it, Google says",
@@ -107,6 +107,16 @@
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "up"
+    "trend": "down"
+  },
+  {
+    "title": "谷歌发布首款多模态嵌入模型 Gemini Embedding 2",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/409545",
+    "abstract": "谷歌正式推出Gemini Embedding 2，这是其首款原生多模态嵌入模型，可将文本、图像、视频、音频及文档映射至统一的向量空间，实现跨模态语义理解。该模型支持100种语言，适用于语义搜索、分类、聚类及检索增强生成（RAG）等下游任务。 与仅处理文本的初代模型不同，Gemini Embedding 2单次请求最多可处理8192个文本token......",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "12",
+    "trend": "down"
   }
 ]
