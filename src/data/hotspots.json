@@ -7,7 +7,7 @@
     "pscore": 97,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "超算互联网 OpenClaw 服务接入飞书、企业微信",
@@ -40,24 +40,14 @@
     "trend": "down"
   },
   {
-    "title": "英伟达 CEO 黄仁勋：OpenClaw 三周达成 Linux 三十年成就，AI Agent 正引爆算力需求",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/408857",
-    "abstract": "在近期举行的摩根士丹利会议上，英伟达 CEO 黄仁勋表示，AI Agent 技术正在成为新一轮技术拐点，其中开源项目 OpenClaw 的爆发式增长尤为引人关注。他甚至称其可能是“有史以来最重要的软件发布之一”。 黄仁勋在发言中给出了一个颇具冲击力的对比：开源操作系统 Linux 用了约 30 年时间才达到如今的普及规模，而 OpenCl......",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
-  },
-  {
     "title": "Groq on Hugging Face Inference Providers 🔥",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/inference-providers-groq",
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "Fedora Evaluating New Idea For For Experimental Concepts & Fostering New Innovations",
@@ -66,7 +56,7 @@
     "abstract": "Fedora Project Leader Jef Spaleta announced a new proposal for \"A Technology Innovation Lifecycle Process for Fedora.\" With the help of Google's Gemini AI, Spaleta laid out a propo...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -76,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -86,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -96,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "Ant Design 6.3.2 发布，企业级 UI 设计语言和 React 实现",
@@ -106,17 +96,7 @@
     "abstract": "Ant Design 是阿里巴巴开源的一套企业级 UI 设计语言和 React 组件库。Ant Design 6.3.2 现已发布，主要更新内容如下： 修复 Form.Item 使用动态 rules 与 dependencies 配合使用时，时序问题导致的校验失败的问题。#57147 修复 InputNumber 在 borderless 形态下与 Inpu...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
-  },
-  {
-    "title": "马斯克：特斯拉可能会率先打造出人形通用人工智能",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/408783",
-    "abstract": "马斯克昨日在社交媒体平台 X 上的帖子中表示：“特斯拉将成为研发通用人工智能的公司之一，并且很可能是首个打造出人形 / 原子塑形形态通用人工智能的企业。” 此番言论正值特斯拉加速推进其 Optimus（擎天柱）人形机器人研发之际。马斯克此前曾表示，Optimus 最终有望成为冯 · 诺依曼探测器。这一概念由数学家约翰 · ......",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -126,7 +106,7 @@
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "11",
     "trend": "up"
   }
 ]
