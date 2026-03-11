@@ -20,14 +20,24 @@
     "trend": "up"
   },
   {
+    "title": "AMD Ryzen AI NPUs Are Finally Useful Under Linux For Running LLMs",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/AMD-Ryzen-AI-NPUs-Linux-LLMs",
+    "abstract": "Over the past two years AMD has developed the AMDXDNA accelerator driver in the mainline Linux kernel for supporting the AMD Ryzen AI NPUs. But when it comes to user-space software...",
+    "pscore": 92,
+    "category": "CHIP_FRONT",
+    "rank": "03",
+    "trend": "up"
+  },
+  {
     "title": "Google Cloud TPUs made available to Hugging Face users",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -36,7 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -46,8 +56,8 @@
     "abstract": "超算互联网宣布OpenClaw服务再度升级——正式打通飞书、企业微信。用户可根据任务规模，灵活选择多种模型的API调用服务，并直接接入飞书、企业微信客户端使用。 依托由中科曙光scaleX万卡超集群构建的庞大国产AI算力池，超算互联网可为用户提供高稳定性、高性价比的多元算力支撑。用户可根据任务规模，灵活选择多种模型的......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -56,8 +66,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "Fedora Evaluating New Idea For For Experimental Concepts & Fostering New Innovations",
@@ -66,7 +76,7 @@
     "abstract": "Fedora Project Leader Jef Spaleta announced a new proposal for \"A Technology Innovation Lifecycle Process for Fedora.\" With the help of Google's Gemini AI, Spaleta laid out a propo...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -76,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -86,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -96,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "Attackers prompted Gemini over 100,000 times while trying to clone it, Google says",
@@ -106,7 +116,7 @@
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "down"
   },
   {
@@ -116,7 +126,7 @@
     "abstract": "谷歌正式推出Gemini Embedding 2，这是其首款原生多模态嵌入模型，可将文本、图像、视频、音频及文档映射至统一的向量空间，实现跨模态语义理解。该模型支持100种语言，适用于语义搜索、分类、聚类及检索增强生成（RAG）等下游任务。 与仅处理文本的初代模型不同，Gemini Embedding 2单次请求最多可处理8192个文本token......",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
   }
 ]
