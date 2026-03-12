@@ -1,22 +1,12 @@
 [
   {
-    "title": "NVIDIA 595 Linux Driver Running Well In Early Benchmarks",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/nvidia-595-linux",
-    "abstract": "Last week NVIDIA released the 595.45.04 beta Linux driver as their first public build in the R595 release branch. The NVIDIA R595 Linux driver is bringing a number of Vulkan driver...",
-    "pscore": 97,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "down"
-  },
-  {
     "title": "RoboMIND 2.0 解锁具身智能新范式：快慢系统协同，泛化指数提升",
     "source": "OSChina",
     "link": "https://my.oschina.net/u/9021515/blog/19209935",
     "abstract": "为解决具身智能优质数据的稀缺问题，北京人形在 2024 年 12 月推出了大规模多构型智能机器人数据集和 Benchmark——RoboMIND1.0，发布后吸引了全球众多顶尖实验室与开发者接入使用。经过一年的全面的打磨与升级，RoboMIND2.0 于 2025 年 12 月正式发布！在此前版本的基础上，RoboMIND2.0 实现了跨越式的进化。从庞大的...",
     "pscore": 97,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "01",
     "trend": "down"
   },
   {
@@ -26,18 +16,8 @@
     "abstract": "Over the past two years AMD has developed the AMDXDNA accelerator driver in the mainline Linux kernel for supporting the AMD Ryzen AI NPUs. But when it comes to user-space software...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
-  },
-  {
-    "title": "魔法原子，105亿瞄准具身智能终局",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/03/386528.html",
-    "abstract": "百亿募资+五亿融资，魔法原子成为具身智能落地样本。...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "02",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -46,8 +26,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "03",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -56,7 +36,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -66,8 +46,8 @@
     "abstract": "《连线（Wired）》最新报道称，根据英伟达最新披露的公司财务文件和高管采访信息，该公司计划在未来五年投入约260亿美元，用于研发和训练开放权重（open-weight）AI模型，这一规模被认为是迄今最大开源模型投资计划之一。 从AI算力霸主，走向模型研发核心 长期以来，英伟达在AI产业链中的角色主要是基础设施提供者——通......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -76,8 +56,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "Fedora Evaluating New Idea For For Experimental Concepts & Fostering New Innovations",
@@ -86,8 +66,8 @@
     "abstract": "Fedora Project Leader Jef Spaleta announced a new proposal for \"A Technology Innovation Lifecycle Process for Fedora.\" With the help of Google's Gemini AI, Spaleta laid out a propo...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -96,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -106,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -116,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "Attackers prompted Gemini over 100,000 times while trying to clone it, Google says",
@@ -126,7 +106,7 @@
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -136,7 +116,7 @@
     "abstract": "谷歌正式推出Gemini Embedding 2，这是其首款原生多模态嵌入模型，可将文本、图像、视频、音频及文档映射至统一的向量空间，实现跨模态语义理解。该模型支持100种语言，适用于语义搜索、分类、聚类及检索增强生成（RAG）等下游任务。 与仅处理文本的初代模型不同，Gemini Embedding 2单次请求最多可处理8192个文本token......",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "12",
     "trend": "down"
   }
 ]
