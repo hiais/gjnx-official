@@ -7,7 +7,17 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
+  },
+  {
+    "title": "Linux 7.0 AMDGPU Fixing Idle Power Issue For RDNA4 GPUs After Compute Workloads",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Linux-7-Fix-Idle-RDNA4-Compute",
+    "abstract": "A fix is on the way to the Linux 7.0 kernel today for addressing an idle power issue with AMD RDNA4 GPUs reporting high power consumption and full utilization even after being \"idl...",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -16,8 +26,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
+    "rank": "03",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -26,8 +36,18 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
+  },
+  {
+    "title": "Intel NPU Driver 1.30 Released For Linux",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Intel-NPU-Driver-Linux-1.30",
+    "abstract": "For going along with the Intel IVPU kernel accelerator driver in the mainline Linux kernel is the Intel NPU driver support in user-space. Released yesterday was the Intel NPU Drive...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "全国农业高校人工智能学院院长研讨会开幕在即，OSChina 全栈支撑农业 AI4S 发展",
@@ -36,8 +56,8 @@
     "abstract": "为深化国家 AI for Science 战略部署，推动人工智能与农业深度融合，由开源共识（上海）网络技术有限公司（ OSChina ）联合海南省种业实验室承办的全国农业高校人工智能学院院长研讨会（后文称“研讨会”），将于 2026 年 3 月 20 日—3 月 22 日在三亚市崖州湾隆重召开。 研讨会三大核心议题： 议题一：国产算力在农业领......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "英伟达计划投入 260 亿美元研发“开放权重” AI 模型",
@@ -46,7 +66,7 @@
     "abstract": "《连线（Wired）》最新报道称，根据英伟达最新披露的公司财务文件和高管采访信息，该公司计划在未来五年投入约260亿美元，用于研发和训练开放权重（open-weight）AI模型，这一规模被认为是迄今最大开源模型投资计划之一。 从AI算力霸主，走向模型研发核心 长期以来，英伟达在AI产业链中的角色主要是基础设施提供者——通......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -56,7 +76,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -66,8 +86,8 @@
     "abstract": "Fedora Project Leader Jef Spaleta announced a new proposal for \"A Technology Innovation Lifecycle Process for Fedora.\" With the help of Google's Gemini AI, Spaleta laid out a propo...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -76,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -86,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -96,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "Attackers prompted Gemini over 100,000 times while trying to clone it, Google says",
@@ -106,7 +126,7 @@
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
   }
 ]
