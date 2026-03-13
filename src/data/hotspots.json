@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Intel NPU Driver 1.30 Released For Linux",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "全国农业高校人工智能学院院长研讨会开幕在即，OSChina 全栈支撑农业 AI4S 发展",
@@ -60,34 +60,14 @@
     "trend": "up"
   },
   {
-    "title": "英伟达计划投入 260 亿美元研发“开放权重” AI 模型",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/409772/nvidia-investing-26-billion-open-source-models",
-    "abstract": "《连线（Wired）》最新报道称，根据英伟达最新披露的公司财务文件和高管采访信息，该公司计划在未来五年投入约260亿美元，用于研发和训练开放权重（open-weight）AI模型，这一规模被认为是迄今最大开源模型投资计划之一。 从AI算力霸主，走向模型研发核心 长期以来，英伟达在AI产业链中的角色主要是基础设施提供者——通......",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
-  },
-  {
     "title": "Groq on Hugging Face Inference Providers 🔥",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/inference-providers-groq",
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "down"
-  },
-  {
-    "title": "Fedora Evaluating New Idea For For Experimental Concepts & Fostering New Innovations",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Fedora-Tech-Innovation-Process",
-    "abstract": "Fedora Project Leader Jef Spaleta announced a new proposal for \"A Technology Innovation Lifecycle Process for Fedora.\" With the help of Google's Gemini AI, Spaleta laid out a propo...",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -96,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -106,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -116,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -126,7 +106,7 @@
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "11",
     "trend": "up"
   }
 ]
