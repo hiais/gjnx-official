@@ -1,22 +1,12 @@
 [
   {
-    "title": "RoboMIND 2.0 解锁具身智能新范式：快慢系统协同，泛化指数提升",
-    "source": "OSChina",
-    "link": "https://my.oschina.net/u/9021515/blog/19209935",
-    "abstract": "为解决具身智能优质数据的稀缺问题，北京人形在 2024 年 12 月推出了大规模多构型智能机器人数据集和 Benchmark——RoboMIND1.0，发布后吸引了全球众多顶尖实验室与开发者接入使用。经过一年的全面的打磨与升级，RoboMIND2.0 于 2025 年 12 月正式发布！在此前版本的基础上，RoboMIND2.0 实现了跨越式的进化。从庞大的...",
-    "pscore": 97,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "up"
-  },
-  {
     "title": "AMD Ryzen AI NPUs Are Finally Useful Under Linux For Running LLMs",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/news/AMD-Ryzen-AI-NPUs-Linux-LLMs",
     "abstract": "Over the past two years AMD has developed the AMDXDNA accelerator driver in the mainline Linux kernel for supporting the AMD Ryzen AI NPUs. But when it comes to user-space software...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "01",
     "trend": "down"
   },
   {
@@ -26,7 +16,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -34,6 +24,16 @@
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tf_tpu",
     "abstract": "",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "03",
+    "trend": "up"
+  },
+  {
+    "title": "全国农业高校人工智能学院院长研讨会开幕在即，OSChina 全栈支撑农业 AI4S 发展",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/410084",
+    "abstract": "为深化国家 AI for Science 战略部署，推动人工智能与农业深度融合，由开源共识（上海）网络技术有限公司（ OSChina ）联合海南省种业实验室承办的全国农业高校人工智能学院院长研讨会（后文称“研讨会”），将于 2026 年 3 月 20 日—3 月 22 日在三亚市崖州湾隆重召开。 研讨会三大核心议题： 议题一：国产算力在农业领......",
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
@@ -57,7 +57,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Fedora Evaluating New Idea For For Experimental Concepts & Fostering New Innovations",
@@ -67,17 +67,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
-  },
-  {
-    "title": "Forcing Flash Attention onto a TPU and Learning the Hard Way",
-    "source": "HackerNews",
-    "link": "https://archerzhang.me/forcing-flash-attention-onto-a-tpu",
-    "abstract": "Comments...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -86,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -96,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -106,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "Attackers prompted Gemini over 100,000 times while trying to clone it, Google says",
@@ -116,17 +106,7 @@
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "down"
-  },
-  {
-    "title": "谷歌发布首款多模态嵌入模型 Gemini Embedding 2",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/409545",
-    "abstract": "谷歌正式推出Gemini Embedding 2，这是其首款原生多模态嵌入模型，可将文本、图像、视频、音频及文档映射至统一的向量空间，实现跨模态语义理解。该模型支持100种语言，适用于语义搜索、分类、聚类及检索增强生成（RAG）等下游任务。 与仅处理文本的初代模型不同，Gemini Embedding 2单次请求最多可处理8192个文本token......",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
   }
 ]
