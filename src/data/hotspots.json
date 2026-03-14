@@ -1,23 +1,13 @@
 [
   {
-    "title": "AMD Ryzen AI NPUs Are Finally Useful Under Linux For Running LLMs",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/AMD-Ryzen-AI-NPUs-Linux-LLMs",
-    "abstract": "Over the past two years AMD has developed the AMDXDNA accelerator driver in the mainline Linux kernel for supporting the AMD Ryzen AI NPUs. But when it comes to user-space software...",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "up"
-  },
-  {
     "title": "Linux 7.0 AMDGPU Fixing Idle Power Issue For RDNA4 GPUs After Compute Workloads",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/news/Linux-7-Fix-Idle-RDNA4-Compute",
     "abstract": "A fix is on the way to the Linux 7.0 kernel today for addressing an idle power issue with AMD RDNA4 GPUs reporting high power consumption and full utilization even after being \"idl...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
+    "rank": "01",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -26,7 +16,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -34,6 +24,16 @@
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tf_tpu",
     "abstract": "",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "03",
+    "trend": "up"
+  },
+  {
+    "title": "Linux 7.1 Will Bring Power Estimate Reporting For AMD Ryzen AI NPUs",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Linux-7.1-Ryzen-AI-NPU-Power",
+    "abstract": "This week's round of drm-misc-next patches bring a few improvements to the AMDXDNA accelerator driver used for supporting the Ryzen AI NPUs. Plus some new panel additions and vario...",
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
@@ -57,7 +57,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -67,7 +67,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -107,6 +107,16 @@
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "11",
+    "trend": "down"
+  },
+  {
+    "title": "Gemini重塑谷歌地图！一句话搞定出行攻略，网友：垂直应用全完蛋",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/03/387867.html",
+    "abstract": "以后出门有个谷歌地图就够了...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "12",
     "trend": "up"
   }
 ]
