@@ -1,13 +1,33 @@
 [
   {
+    "title": "不卷速度卷验证，陈天桥MiroMind精准预测15天后黄金价格",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/03/387990.html",
+    "abstract": "慢交互超车Gemini-3.1-Pro、GPT-5.4-Thinking...",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "up"
+  },
+  {
     "title": "Linux 7.0 AMDGPU Fixing Idle Power Issue For RDNA4 GPUs After Compute Workloads",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/news/Linux-7-Fix-Idle-RDNA4-Compute",
     "abstract": "A fix is on the way to the Linux 7.0 kernel today for addressing an idle power issue with AMD RDNA4 GPUs reporting high power consumption and full utilization even after being \"idl...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "01",
+    "rank": "02",
     "trend": "down"
+  },
+  {
+    "title": "机器人爆款收割机狂揽1.2亿美金",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/03/388381.html",
+    "abstract": "加速打造具身智能原生技术底座...",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -16,7 +36,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -26,7 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -36,7 +56,7 @@
     "abstract": "This week's round of drm-misc-next patches bring a few improvements to the AMDXDNA accelerator driver used for supporting the Ryzen AI NPUs. Plus some new panel additions and vario...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -46,8 +66,8 @@
     "abstract": "For going along with the Intel IVPU kernel accelerator driver in the mainline Linux kernel is the Intel NPU driver support in user-space. Released yesterday was the Intel NPU Drive...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "全国农业高校人工智能学院院长研讨会开幕在即，OSChina 全栈支撑农业 AI4S 发展",
@@ -56,7 +76,7 @@
     "abstract": "为深化国家 AI for Science 战略部署，推动人工智能与农业深度融合，由开源共识（上海）网络技术有限公司（ OSChina ）联合海南省种业实验室承办的全国农业高校人工智能学院院长研讨会（后文称“研讨会”），将于 2026 年 3 月 20 日—3 月 22 日在三亚市崖州湾隆重召开。 研讨会三大核心议题： 议题一：国产算力在农业领......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -66,8 +86,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -76,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -86,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -96,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "Attackers prompted Gemini over 100,000 times while trying to clone it, Google says",
@@ -106,17 +126,7 @@
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
-  },
-  {
-    "title": "Gemini重塑谷歌地图！一句话搞定出行攻略，网友：垂直应用全完蛋",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/03/387867.html",
-    "abstract": "以后出门有个谷歌地图就够了...",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "down"
   }
 ]
