@@ -7,6 +7,16 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
+    "trend": "up"
+  },
+  {
+    "title": "GPT-5.4一周狂赚10亿美元ARR！一句嗨烧掉80刀，效率却飙升32倍",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/03/388443.html",
+    "abstract": "GPT-5.4破纪录了！...",
+    "pscore": 87,
+    "category": "CHIP_FRONT",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -16,7 +26,7 @@
     "abstract": "加速打造具身智能原生技术底座...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -26,7 +36,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -36,7 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -46,17 +56,17 @@
     "abstract": "This week's round of drm-misc-next patches bring a few improvements to the AMDXDNA accelerator driver used for supporting the Ryzen AI NPUs. Plus some new panel additions and vario...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "06",
     "trend": "up"
   },
   {
-    "title": "全国农业高校人工智能学院院长研讨会开幕在即，OSChina 全栈支撑农业 AI4S 发展",
+    "title": "黄仁勋演讲 3 小时，几乎覆盖 AI 产业所有关键方向",
     "source": "OSChina",
-    "link": "https://www.oschina.net/news/410084",
-    "abstract": "为深化国家 AI for Science 战略部署，推动人工智能与农业深度融合，由开源共识（上海）网络技术有限公司（ OSChina ）联合海南省种业实验室承办的全国农业高校人工智能学院院长研讨会（后文称“研讨会”），将于 2026 年 3 月 20 日—3 月 22 日在三亚市崖州湾隆重召开。 研讨会三大核心议题： 议题一：国产算力在农业领......",
+    "link": "https://www.oschina.net/news/411245",
+    "abstract": "2026 年 3 月 16 日，Nvidia 在美国圣何塞举办年度大会 Nvidia GTC 2026。CEO Jensen Huang（黄仁勋）进行了接近 3 小时的主题演讲，核心围绕AI算力基础设施、AI推理时代、下一代芯片路线图、AI Agent、机器人与“物理AI”等方向。 一、AI 正从“训练时代”进入“推理时代” 黄仁勋在开场提出一个关键判断：A...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -66,7 +76,17 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
+    "trend": "up"
+  },
+  {
+    "title": "Kagi Translate now supports LinkedIn Speak as an output language",
+    "source": "HackerNews",
+    "link": "https://translate.kagi.com/?from=en&to=LinkedIn+speak",
+    "abstract": "Comments...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -76,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -86,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -96,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "12",
     "trend": "down"
   },
   {
@@ -106,7 +126,7 @@
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "13",
     "trend": "up"
   }
 ]
