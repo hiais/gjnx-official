@@ -7,7 +7,7 @@
     "pscore": 89,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -17,7 +17,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -27,6 +27,16 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
+    "trend": "down"
+  },
+  {
+    "title": "OpenAI 发布 GPT‑5.4 mini 与 nano，迄今为止能力最强的小型模型",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/411567/openai-gpt-5-4-mini-and-nano",
+    "abstract": "OpenAI正式发布GPT-5.4 mini与nano，据称是其迄今为止能力最强的小型模型。它们将 GPT‑5.4 的诸多优势引入到更快速、更高效的模型中，专为高吞吐量工作负载而设计。 GPT‑5.4 mini 在代码编写、推理、多模态理解以及工具使用方面较 GPT‑5 mini 有显著提升，同时运行速度提高两倍以上。它在多项评估中也接近体量更大的 ......",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -36,7 +46,7 @@
     "abstract": "2026 年 3 月 16 日，Nvidia 在美国圣何塞举办年度大会 Nvidia GTC 2026。CEO Jensen Huang（黄仁勋）进行了接近 3 小时的主题演讲，核心围绕AI算力基础设施、AI推理时代、下一代芯片路线图、AI Agent、机器人与“物理AI”等方向。 一、AI 正从“训练时代”进入“推理时代” 黄仁勋在开场提出一个关键判断：A...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -46,8 +56,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -56,8 +66,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -66,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -76,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "英伟达最强B200算力浪费60%！普林斯顿团队出手，利用率升至71%",
@@ -86,7 +96,7 @@
     "abstract": "老黄自己也抄作业了...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -96,8 +106,8 @@
     "abstract": "所有人都在等老黄掏出新芯片，但他没有掏，先用一小时教全世界CEO看一张图...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "Attackers prompted Gemini over 100,000 times while trying to clone it, Google says",
@@ -106,7 +116,7 @@
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   }
 ]
