@@ -1,13 +1,13 @@
 [
   {
-    "title": "GPT-5.4一周狂赚10亿美元ARR！一句嗨烧掉80刀，效率却飙升32倍",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/03/388443.html",
-    "abstract": "GPT-5.4破纪录了！...",
-    "pscore": 87,
+    "title": "AMD MLIR-AIE Releases New AIECC C++ Compiler To Help Bring New Workloads To Ryzen AI NPUs",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/MLIR-AIE-1.3",
+    "abstract": "AMD Ryzen AI NPUs are now running LLMs on Linux with the recently debuted Lemonade 10.0 server and FastFlowLM 0.9.35 adding Linux support. In addition to those software components,...",
+    "pscore": 89,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -50,24 +50,14 @@
     "trend": "up"
   },
   {
-    "title": "Kagi Translate now supports LinkedIn Speak as an output language",
-    "source": "HackerNews",
-    "link": "https://translate.kagi.com/?from=en&to=LinkedIn+speak",
-    "abstract": "Comments...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
-  },
-  {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/keras-chatbot-arena",
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -76,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -86,8 +76,18 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "down"
+  },
+  {
+    "title": "英伟达最强B200算力浪费60%！普林斯顿团队出手，利用率升至71%",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/03/388815.html",
+    "abstract": "老黄自己也抄作业了...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "黄仁勋：龙虾就是新操作系统！英伟达7种芯片拼出算力怪兽，放话2027营收万亿美元",
@@ -107,6 +107,6 @@
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "up"
+    "trend": "down"
   }
 ]
