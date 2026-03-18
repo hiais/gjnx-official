@@ -7,7 +7,7 @@
     "pscore": 89,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -17,7 +17,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "阿里云 AI 算力和存储产品最高涨价 34%",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "OpenAI 发布 GPT‑5.4 mini 与 nano，迄今为止能力最强的小型模型",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "黄仁勋演讲 3 小时，几乎覆盖 AI 产业所有关键方向",
