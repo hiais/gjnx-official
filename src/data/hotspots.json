@@ -27,6 +27,16 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
+    "trend": "up"
+  },
+  {
+    "title": "阿里云 AI 算力和存储产品最高涨价 34%",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/411701",
+    "abstract": "阿里云官网发布公告称，因全球AI需求爆发、供应链涨价，行业核心硬件采购成本显著上涨。经审慎评估，其决定将于2026年4月18日起对AI算力、CPFS（智算版）等服务价格进行调整。 其中，平头哥真武810E等算力卡产品上涨5%-34%，文件存储产品CPFS（智算版）上涨30%。 据知情人士透露，此轮涨价另一个重要原因是“Token调用量......",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -36,8 +46,8 @@
     "abstract": "OpenAI正式发布GPT-5.4 mini与nano，据称是其迄今为止能力最强的小型模型。它们将 GPT‑5.4 的诸多优势引入到更快速、更高效的模型中，专为高吞吐量工作负载而设计。 GPT‑5.4 mini 在代码编写、推理、多模态理解以及工具使用方面较 GPT‑5 mini 有显著提升，同时运行速度提高两倍以上。它在多项评估中也接近体量更大的 ......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "黄仁勋演讲 3 小时，几乎覆盖 AI 产业所有关键方向",
@@ -46,8 +56,8 @@
     "abstract": "2026 年 3 月 16 日，Nvidia 在美国圣何塞举办年度大会 Nvidia GTC 2026。CEO Jensen Huang（黄仁勋）进行了接近 3 小时的主题演讲，核心围绕AI算力基础设施、AI推理时代、下一代芯片路线图、AI Agent、机器人与“物理AI”等方向。 一、AI 正从“训练时代”进入“推理时代” 黄仁勋在开场提出一个关键判断：A...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -56,7 +66,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -66,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -76,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -86,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -96,7 +106,7 @@
     "abstract": "老黄自己也抄作业了...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -106,8 +116,8 @@
     "abstract": "所有人都在等老黄掏出新芯片，但他没有掏，先用一小时教全世界CEO看一张图...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "Attackers prompted Gemini over 100,000 times while trying to clone it, Google says",
@@ -116,7 +126,7 @@
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "13",
+    "trend": "down"
   }
 ]
