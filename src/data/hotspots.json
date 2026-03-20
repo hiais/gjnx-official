@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "京东云：全系核心产品不涨价",
@@ -47,17 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
-  },
-  {
-    "title": "阿里云 AI 算力和存储产品最高涨价 34%",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/411701",
-    "abstract": "阿里云官网发布公告称，因全球AI需求爆发、供应链涨价，行业核心硬件采购成本显著上涨。经审慎评估，其决定将于2026年4月18日起对AI算力、CPFS（智算版）等服务价格进行调整。 其中，平头哥真武810E等算力卡产品上涨5%-34%，文件存储产品CPFS（智算版）上涨30%。 据知情人士透露，此轮涨价另一个重要原因是“Token调用量......",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -66,7 +56,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -76,8 +66,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -86,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -96,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -106,7 +96,7 @@
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -116,8 +106,8 @@
     "abstract": "3月18日，被誉为“计算机界诺贝尔奖”的图灵奖正式揭晓。 美国计算机协会（ACM）宣布将2025年图灵奖（ACM A.M. Turing Award）授予美国物理学家、IBM研究员查尔斯·贝内特和加拿大计算机科学家、蒙特利尔大学教授吉尔·布拉萨德，以表彰他们在奠定量子信息科学基础，以及推动安全通信和量子计算发展方面作出的开创性贡献......",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   },
   {
     "title": "Blender 5.1 Delivers Some Nice Gains For CPU Rendering Performance On Linux",
@@ -126,7 +116,7 @@
     "abstract": "With this week's release of Blender 5.1 I have begun benchmarking it on different CPUs and GPUs. In this article is an initial look at the positive impact Blender 5.1 is having on ...",
     "pscore": 69,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   }
 ]
