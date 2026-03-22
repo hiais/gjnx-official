@@ -1,6 +1,6 @@
 ---
 title: BOM (物料清单)
-date: 2026-03-21T15:01:39.012Z
+date: 2026-03-22T15:40:28.091Z
 category: Auto-Mined
 tags:
   - Auto-Gen

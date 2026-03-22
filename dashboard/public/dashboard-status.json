@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-21 23:01:39",
+  "timestamp": "2026-03-22 23:40:28",
   "health": {
     "score": 30,
     "status": "critical",
@@ -122,7 +122,7 @@
   },
   "alerts": [
     {
-      "time": "23:01",
+      "time": "23:40",
       "level": "🔴 P0",
       "rule_id": "SYS-001",
       "reason": "核心服务离线 (心跳停止于 Never)",
@@ -132,10 +132,6 @@
   ],
   "history": {
     "token_trend_7d": [
-      {
-        "date": "2026-03-15",
-        "value": 0
-      },
       {
         "date": "2026-03-16",
         "value": 0
@@ -159,15 +155,15 @@
       {
         "date": "2026-03-21",
         "value": 0
+      },
+      {
+        "date": "2026-03-22",
+        "value": 0
       }
     ],
     "multi_metric_trend": {
       "token_usage": [
         {
-          "date": "2026-03-15",
-          "value": 0
-        },
-        {
           "date": "2026-03-16",
           "value": 0
         },
@@ -189,15 +185,15 @@
         },
         {
           "date": "2026-03-21",
+          "value": 0
+        },
+        {
+          "date": "2026-03-22",
           "value": 0
         }
       ],
       "success_rate": [
         {
-          "date": "2026-03-15",
-          "value": 0
-        },
-        {
           "date": "2026-03-16",
           "value": 0
         },
@@ -219,15 +215,15 @@
         },
         {
           "date": "2026-03-21",
+          "value": 0
+        },
+        {
+          "date": "2026-03-22",
           "value": 0
         }
       ],
       "error_rate": [
         {
-          "date": "2026-03-15",
-          "value": 0
-        },
-        {
           "date": "2026-03-16",
           "value": 0
         },
@@ -249,15 +245,15 @@
         },
         {
           "date": "2026-03-21",
+          "value": 0
+        },
+        {
+          "date": "2026-03-22",
           "value": 0
         }
       ],
       "queue_length": [
         {
-          "date": "2026-03-15",
-          "value": 0
-        },
-        {
           "date": "2026-03-16",
           "value": 0
         },
@@ -279,15 +275,15 @@
         },
         {
           "date": "2026-03-21",
+          "value": 0
+        },
+        {
+          "date": "2026-03-22",
           "value": 0
         }
       ],
       "avg_duration": [
         {
-          "date": "2026-03-15",
-          "value": 0
-        },
-        {
           "date": "2026-03-16",
           "value": 0
         },
@@ -309,6 +305,10 @@
         },
         {
           "date": "2026-03-21",
+          "value": 0
+        },
+        {
+          "date": "2026-03-22",
           "value": 0
         }
       ]
@@ -335,7 +335,7 @@
     }
   },
   "system": {
-    "last_update": "2026-03-21 23:01:39",
+    "last_update": "2026-03-22 23:40:28",
     "timezone": "China Standard Time"
   },
   "metadata": {
