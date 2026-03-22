@@ -1,6 +1,6 @@
 ---
 title: IPC (同频性能)
-date: 2026-03-22T15:40:27.708Z
+date: 2026-03-22T15:41:41.365Z
 category: Auto-Mined
 tags:
   - Auto-Gen
