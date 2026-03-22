@@ -17,7 +17,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -57,7 +57,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Sashiko Now Providing AI Reviews On Rust Code For The Linux Kernel",
@@ -70,24 +70,14 @@
     "trend": "up"
   },
   {
-    "title": "Cross-Model Void Convergence: GPT-5.2 and Claude Opus 4.6 Deterministic Silence",
-    "source": "HackerNews",
-    "link": "https://zenodo.org/records/18976656",
-    "abstract": "Comments...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
-  },
-  {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/keras-chatbot-arena",
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -96,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -106,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "浙大团队破解多模态模型「盲目自信」：先校准置信度，再分配算力丨CVPR’26",
@@ -116,8 +106,8 @@
     "abstract": "图都糊成一团了，模型还说“我很确定”？...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   },
   {
     "title": "Attackers prompted Gemini over 100,000 times while trying to clone it, Google says",
@@ -126,8 +116,8 @@
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "2025 年图灵奖公布，首次颁给量子信息科学领域",
@@ -136,8 +126,8 @@
     "abstract": "3月18日，被誉为“计算机界诺贝尔奖”的图灵奖正式揭晓。 美国计算机协会（ACM）宣布将2025年图灵奖（ACM A.M. Turing Award）授予美国物理学家、IBM研究员查尔斯·贝内特和加拿大计算机科学家、蒙特利尔大学教授吉尔·布拉萨德，以表彰他们在奠定量子信息科学基础，以及推动安全通信和量子计算发展方面作出的开创性贡献......",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
+    "rank": "13",
+    "trend": "down"
   },
   {
     "title": "Blender 5.1 Delivers Some Nice Gains For CPU Rendering Performance On Linux",
@@ -146,7 +136,7 @@
     "abstract": "With this week's release of Blender 5.1 I have begun benchmarking it on different CPUs and GPUs. In this article is an initial look at the positive impact Blender 5.1 is having on ...",
     "pscore": 69,
     "category": "CHIP_FRONT",
-    "rank": "15",
-    "trend": "down"
+    "rank": "14",
+    "trend": "up"
   }
 ]
