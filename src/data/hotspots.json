@@ -57,7 +57,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Sashiko Now Providing AI Reviews On Rust Code For The Linux Kernel",
@@ -67,7 +67,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -77,7 +77,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -100,13 +100,23 @@
     "trend": "down"
   },
   {
+    "title": "马斯克要自己做「英伟达+台积电」！宇宙芯片宏图开工，算力产能扩5000%",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/03/391045.html",
+    "abstract": "“Terafab补上了最后一块缺失的拼图”...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "11",
+    "trend": "up"
+  },
+  {
     "title": "浙大团队破解多模态模型「盲目自信」：先校准置信度，再分配算力丨CVPR’26",
     "source": "QbitAI",
     "link": "https://www.qbitai.com/2026/03/391014.html",
     "abstract": "图都糊成一团了，模型还说“我很确定”？...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -114,16 +124,6 @@
     "source": "ArsTechnica",
     "link": "https://arstechnica.com/ai/2026/02/attackers-prompted-gemini-over-100000-times-while-trying-to-clone-it-google-says/",
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
-  },
-  {
-    "title": "2025 年图灵奖公布，首次颁给量子信息科学领域",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/412041/2025-acm-turing-award",
-    "abstract": "3月18日，被誉为“计算机界诺贝尔奖”的图灵奖正式揭晓。 美国计算机协会（ACM）宣布将2025年图灵奖（ACM A.M. Turing Award）授予美国物理学家、IBM研究员查尔斯·贝内特和加拿大计算机科学家、蒙特利尔大学教授吉尔·布拉萨德，以表彰他们在奠定量子信息科学基础，以及推动安全通信和量子计算发展方面作出的开创性贡献......",
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "13",
