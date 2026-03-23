@@ -1,23 +1,13 @@
 [
   {
-    "title": "WEBINAR: HBM4E Advances Bandwidth Performance for AI Training",
-    "source": "SemiWiki",
-    "link": "https://semiwiki.com/ip/rambus/367607-webinar-hbm4e-advances-bandwidth-performance-for-ai-training/",
-    "abstract": "The rapid proliferation of LLMs and other AI applications, and of high-end GPU platforms that run them, is putting intense pressure on the performance requirements for memory techn...",
-    "pscore": 97,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "down"
-  },
-  {
     "title": "马斯克宣布在德州建设 Terafab 巨型芯片工厂，目标直指太空算力",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/413352",
     "abstract": "马斯克日前正式宣布，将在美国德克萨斯州奥斯汀市建设一座名为\"Terafab\"的巨型芯片制造工厂。该项目由特斯拉（Tesla）与SpaceX联合运营，目标是为机器人、人工智能以及马斯克旗下各公司的太空数据中心大规模生产芯片。这一举措被视为马斯克在AI算力军备竞赛中的又一次激进布局，也反映出科技巨头对半导体供应链安全的深度......",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
+    "rank": "01",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -26,7 +16,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -36,7 +26,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -46,8 +36,8 @@
     "abstract": "Merged overnight for Mesa 26.1 is enabling the Arm Ethos U85 NPU within the EthosU Gallium3D driver so that with Mesa's TEFLON framework can begin taking on AI workloads......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "深化国产算力发展 赋能农业AI创新 | 全国农业高校人工智能学院院长研讨会发出联合倡议",
@@ -56,8 +46,8 @@
     "abstract": "2026 年 3 月 20 日至 22 日，全国农业高校人工智能学院院长研讨会（后称“研讨会”）在海南省三亚市崖州湾科技城成功举办。本次研讨会以“聚焦国产算力与农业大模型创新，共筑农业人工智能人才培养体系”为主题，汇聚全国 40 多家农业高校、科研院所、行业企业的近 200 位顶尖专家学者，围绕农业人工智能领域的技术创新......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "AI 编程工具 Cursor 发布编程模型 Composer 2",
@@ -66,8 +56,8 @@
     "abstract": "AI编程工具Cursor正式发布第二代自研模型Composer 2，旨在以显著低于竞品的价格提供匹敌顶尖水平的编程能力。该模型输入令牌定价为每百万0.50美元，输出为2.50美元，远低于Claude Opus 4.6及GPT-5.4。 性能方面，Composer 2在内部基准CursorBench中得分61.3，较前代大幅提升，并与Claude Opus 4...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -76,8 +66,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "Sashiko Now Providing AI Reviews On Rust Code For The Linux Kernel",
@@ -86,7 +76,7 @@
     "abstract": "A few days ago Google engineers went public with Sashiko with their agentic AI code review for the Linux kernel. The Google Gemini Pro powered AI code review service is automatical...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -96,7 +86,7 @@
     "abstract": "谷歌近日正式在Pixel 10 Pro和Galaxy S26 Ultra上推出了Gemini的任务自动化功能（Task Automation），这是目前主流AI助手中首个能够真正接管手机、替用户完成复杂多步骤操作的功能。虽然当前仅支持Uber、DoorDash等少数几款外卖和打车应用，且仍处于测试阶段，但这一功能的亮相被业界视为AI助手从\"对话工具\"向\"执行...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -106,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -116,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -126,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "Attackers prompted Gemini over 100,000 times while trying to clone it, Google says",
@@ -136,17 +126,7 @@
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "13",
     "trend": "up"
-  },
-  {
-    "title": "Blender 5.1 Delivers Some Nice Gains For CPU Rendering Performance On Linux",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/blender-51-benchmarks",
-    "abstract": "With this week's release of Blender 5.1 I have begun benchmarking it on different CPUs and GPUs. In this article is an initial look at the positive impact Blender 5.1 is having on ...",
-    "pscore": 69,
-    "category": "CHIP_FRONT",
-    "rank": "15",
-    "trend": "down"
   }
 ]
