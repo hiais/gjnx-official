@@ -7,7 +7,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Arm Ethos U85 NPU Now Supported By EthosU Gallium3D Driver",
@@ -40,20 +40,20 @@
     "trend": "up"
   },
   {
-    "title": "深化国产算力发展 赋能农业AI创新 | 全国农业高校人工智能学院院长研讨会发出联合倡议",
+    "title": "OpenAI 布局核聚变能源：AI 算力野心背后的能源博弈",
     "source": "OSChina",
-    "link": "https://www.oschina.net/news/413057",
-    "abstract": "2026 年 3 月 20 日至 22 日，全国农业高校人工智能学院院长研讨会（后称“研讨会”）在海南省三亚市崖州湾科技城成功举办。本次研讨会以“聚焦国产算力与农业大模型创新，共筑农业人工智能人才培养体系”为主题，汇聚全国 40 多家农业高校、科研院所、行业企业的近 200 位顶尖专家学者，围绕农业人工智能领域的技术创新......",
+    "link": "https://www.oschina.net/news/413591",
+    "abstract": "OpenAI正与核聚变初创公司Helion Energy展开深度谈判，计划采购大规模清洁电力以满足其AI基础设施的能源需求。Axios独家报道称，OpenAI有望在2030年前获得相当于5吉瓦的电力供应，并计划到2035年将这一规模扩展至50吉瓦。这一动作揭示了人工智能产业高速发展背后日益严峻的能源挑战。 据了解，Helion Energy由Sam Altm...",
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
     "trend": "down"
   },
   {
-    "title": "AI 编程工具 Cursor 发布编程模型 Composer 2",
+    "title": "深化国产算力发展 赋能农业AI创新 | 全国农业高校人工智能学院院长研讨会发出联合倡议",
     "source": "OSChina",
-    "link": "https://www.oschina.net/news/412337/cursor-composer-2",
-    "abstract": "AI编程工具Cursor正式发布第二代自研模型Composer 2，旨在以显著低于竞品的价格提供匹敌顶尖水平的编程能力。该模型输入令牌定价为每百万0.50美元，输出为2.50美元，远低于Claude Opus 4.6及GPT-5.4。 性能方面，Composer 2在内部基准CursorBench中得分61.3，较前代大幅提升，并与Claude Opus 4...",
+    "link": "https://www.oschina.net/news/413057",
+    "abstract": "2026 年 3 月 20 日至 22 日，全国农业高校人工智能学院院长研讨会（后称“研讨会”）在海南省三亚市崖州湾科技城成功举办。本次研讨会以“聚焦国产算力与农业大模型创新，共筑农业人工智能人才培养体系”为主题，汇聚全国 40 多家农业高校、科研院所、行业企业的近 200 位顶尖专家学者，围绕农业人工智能领域的技术创新......",
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
@@ -90,14 +90,24 @@
     "trend": "down"
   },
   {
+    "title": "阿里达摩院发布 RISC-V CPU 玄铁 C950",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/413686",
+    "abstract": "阿里巴巴达摩院宣布推出新一代旗舰CPU产品玄铁C950，采用开源RISC-V架构。 根据介绍，其单核通用性能在Specint2006基准测试中突破70分，刷新全球RISC-V性能纪录，适用于云计算、生成式AI、高端机器人、边缘计算等领域，性能达到业界领先水平。 此外，玄铁 C950 利用RISC-V 开源开放特性，搭载自研AI加速引擎，首次原生支......",
+    "pscore": 76,
+    "category": "CHIP_FRONT",
+    "rank": "10",
+    "trend": "up"
+  },
+  {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/keras-chatbot-arena",
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -106,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "down"
   },
   {
@@ -116,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "up"
   },
   {
@@ -126,7 +136,7 @@
     "abstract": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost....",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "14",
+    "trend": "up"
   }
 ]
