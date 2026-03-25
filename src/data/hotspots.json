@@ -17,7 +17,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "OpenAI 布局核聚变能源：AI 算力野心背后的能源博弈",
@@ -67,7 +67,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Sashiko Now Providing AI Reviews On Rust Code For The Linux Kernel",
@@ -80,14 +80,24 @@
     "trend": "up"
   },
   {
+    "title": "OpenAI关停Sora！25个月从封神到退场",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/03/391799.html",
+    "abstract": "AI视频正在进入“中国时间”...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "09",
+    "trend": "down"
+  },
+  {
     "title": "谷歌 Gemini 任务自动化正式上线：虽慢但酷，AI 助手终于能替你点外卖了",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/413423",
     "abstract": "谷歌近日正式在Pixel 10 Pro和Galaxy S26 Ultra上推出了Gemini的任务自动化功能（Task Automation），这是目前主流AI助手中首个能够真正接管手机、替用户完成复杂多步骤操作的功能。虽然当前仅支持Uber、DoorDash等少数几款外卖和打车应用，且仍处于测试阶段，但这一功能的亮相被业界视为AI助手从\"对话工具\"向\"执行...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "阿里达摩院发布 RISC-V CPU 玄铁 C950",
@@ -96,7 +106,7 @@
     "abstract": "阿里巴巴达摩院宣布推出新一代旗舰CPU产品玄铁C950，采用开源RISC-V架构。 根据介绍，其单核通用性能在Specint2006基准测试中突破70分，刷新全球RISC-V性能纪录，适用于云计算、生成式AI、高端机器人、边缘计算等领域，性能达到业界领先水平。 此外，玄铁 C950 利用RISC-V 开源开放特性，搭载自研AI加速引擎，首次原生支......",
     "pscore": 76,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -106,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "down"
   },
   {
@@ -116,8 +126,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "13",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -126,8 +136,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "14",
+    "trend": "down"
   },
   {
     "title": "西湖大学发布全球首个机器人动作泛化大模型 GAE",
@@ -136,17 +146,7 @@
     "abstract": "由西湖大学孵化的西湖机器人公司在杭州正式发布人形机器人“Titan o1”（泰坦o1）”，搭载全球机器人领域首个动作泛化大模型——GAE（General Action Expert）。这一突破性技术相当于为不同厂家的机器人装上了可通用的“小脑”，使机器人能够突破时空限制，实时模仿人类动作。 有了这颗“小脑”，机器人自此能够手脚协同......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
-  },
-  {
-    "title": "Show HN: Gemini can now natively embed video, so I built sub-second video search",
-    "source": "HackerNews",
-    "link": "https://github.com/ssrajadh/sentrysearch",
-    "abstract": "Comments...",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "up"
+    "trend": "down"
   }
 ]
