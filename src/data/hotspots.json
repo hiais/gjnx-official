@@ -1,23 +1,13 @@
 [
   {
-    "title": "马斯克宣布在德州建设 Terafab 巨型芯片工厂，目标直指太空算力",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/413352",
-    "abstract": "马斯克日前正式宣布，将在美国德克萨斯州奥斯汀市建设一座名为\"Terafab\"的巨型芯片制造工厂。该项目由特斯拉（Tesla）与SpaceX联合运营，目标是为机器人、人工智能以及马斯克旗下各公司的太空数据中心大规模生产芯片。这一举措被视为马斯克在AI算力军备竞赛中的又一次激进布局，也反映出科技巨头对半导体供应链安全的深度......",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "up"
-  },
-  {
     "title": "你的模型真的会”举一反三”吗？RoboChallenge Table30 V2 正式发布，泛化时代开幕",
     "source": "QbitAI",
     "link": "https://www.qbitai.com/2026/03/391744.html",
     "abstract": "Table30 V2将为全球具身智能研究者打造了一个精准的“泛化标尺”与公平、开放的真机竞技场...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
+    "rank": "01",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -26,8 +16,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "rank": "02",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -36,7 +26,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -44,6 +34,16 @@
     "source": "Phoronix",
     "link": "https://www.phoronix.com/news/Arm-Ethos-U85-Mesa-26.1",
     "abstract": "Merged overnight for Mesa 26.1 is enabling the Arm Ethos U85 NPU within the EthosU Gallium3D driver so that with Mesa's TEFLON framework can begin taking on AI workloads......",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "04",
+    "trend": "up"
+  },
+  {
+    "title": "爱赛思 OpenAI4S 社区“百家讲坛”首期圆满落幕 |“养虾实验室”聚焦 DrClaw 科研龙虾，助力 AI4S 落地实践",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/414016",
+    "abstract": "2026年3月18日晚19:00，爱赛思OpenAI4S社区百家讲坛第一期 「养虾实验室——DrClaw从部署到科研工具实操」 准时开播。由上海人工智能实验室青年科学家胡舒悦主持，上海人工智能实验室青年研究员张航帆、上海智能算力科技有限公司解决方案负责人王丽忱主讲，为全网科研工作者带来了一场 “零基础养虾” 的硬核实操盛宴，感......",
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
@@ -67,7 +67,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Sashiko Now Providing AI Reviews On Rust Code For The Linux Kernel",
@@ -77,7 +77,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "OpenAI关停Sora！25个月从封神到退场",
@@ -90,14 +90,24 @@
     "trend": "down"
   },
   {
+    "title": "OpenAI 关停 Sora",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/414019",
+    "abstract": "《华尔街日报》报道称，OpenAI 计划关闭其 Sora 应用程序，并将重心转移到编程和其他业务上，为计划最早于今年第四季度进行的 IPO 做准备。 Sora 的消费者端应用、开发者接口及 ChatGPT 相关功能将全线关闭。Sora 官方也发布告别信证实了这一消息： 我们要和 Sora 说再见了。感谢所有用 Sora 进行创作、分享 Sora 并围绕......",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "10",
+    "trend": "down"
+  },
+  {
     "title": "谷歌 Gemini 任务自动化正式上线：虽慢但酷，AI 助手终于能替你点外卖了",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/413423",
     "abstract": "谷歌近日正式在Pixel 10 Pro和Galaxy S26 Ultra上推出了Gemini的任务自动化功能（Task Automation），这是目前主流AI助手中首个能够真正接管手机、替用户完成复杂多步骤操作的功能。虽然当前仅支持Uber、DoorDash等少数几款外卖和打车应用，且仍处于测试阶段，但这一功能的亮相被业界视为AI助手从\"对话工具\"向\"执行...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "阿里达摩院发布 RISC-V CPU 玄铁 C950",
@@ -106,8 +116,8 @@
     "abstract": "阿里巴巴达摩院宣布推出新一代旗舰CPU产品玄铁C950，采用开源RISC-V架构。 根据介绍，其单核通用性能在Specint2006基准测试中突破70分，刷新全球RISC-V性能纪录，适用于云计算、生成式AI、高端机器人、边缘计算等领域，性能达到业界领先水平。 此外，玄铁 C950 利用RISC-V 开源开放特性，搭载自研AI加速引擎，首次原生支......",
     "pscore": 76,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -116,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "down"
   },
   {
@@ -126,7 +136,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "14",
     "trend": "down"
   },
   {
@@ -134,16 +144,6 @@
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/pytorch-xla",
     "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
-  },
-  {
-    "title": "西湖大学发布全球首个机器人动作泛化大模型 GAE",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/413798",
-    "abstract": "由西湖大学孵化的西湖机器人公司在杭州正式发布人形机器人“Titan o1”（泰坦o1）”，搭载全球机器人领域首个动作泛化大模型——GAE（General Action Expert）。这一突破性技术相当于为不同厂家的机器人装上了可通用的“小脑”，使机器人能够突破时空限制，实时模仿人类动作。 有了这颗“小脑”，机器人自此能够手脚协同......",
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "15",
