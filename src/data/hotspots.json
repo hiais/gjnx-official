@@ -1,22 +1,12 @@
 [
   {
-    "title": "你的模型真的会”举一反三”吗？RoboChallenge Table30 V2 正式发布，泛化时代开幕",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/03/391744.html",
-    "abstract": "Table30 V2将为全球具身智能研究者打造了一个精准的“泛化标尺”与公平、开放的真机竞技场...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "up"
-  },
-  {
     "title": "Google Cloud TPUs made available to Hugging Face users",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "01",
     "trend": "up"
   },
   {
@@ -26,8 +16,18 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "down"
+  },
+  {
+    "title": "Lemonade 10.0.1 Improves Setup Process For Using AMD Ryzen AI NPUs On Linux",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Lemonade-10.0.1",
+    "abstract": "Earlier this month with the release of the Lemonade SDK 10.0 and FastFlowLM 0.9.35, using AMD Ryzen AI NPUs for running LLMs on Linux finally became feasible. AMD XDNA 2 NPUs can n...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Arm Ethos U85 NPU Now Supported By EthosU Gallium3D Driver",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "爱赛思 OpenAI4S 社区“百家讲坛”首期圆满落幕 |“养虾实验室”聚焦 DrClaw 科研龙虾，助力 AI4S 落地实践",
@@ -47,17 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
-  },
-  {
-    "title": "OpenAI 布局核聚变能源：AI 算力野心背后的能源博弈",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/413591",
-    "abstract": "OpenAI正与核聚变初创公司Helion Energy展开深度谈判，计划采购大规模清洁电力以满足其AI基础设施的能源需求。Axios独家报道称，OpenAI有望在2030年前获得相当于5吉瓦的电力供应，并计划到2035年将这一规模扩展至50吉瓦。这一动作揭示了人工智能产业高速发展背后日益严峻的能源挑战。 据了解，Helion Energy由Sam Altm...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -66,18 +56,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
-  },
-  {
-    "title": "Sashiko Now Providing AI Reviews On Rust Code For The Linux Kernel",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Sashiko-AI-Reviewing-Rust-Linux",
-    "abstract": "A few days ago Google engineers went public with Sashiko with their agentic AI code review for the Linux kernel. The Google Gemini Pro powered AI code review service is automatical...",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "OpenAI关停Sora！25个月从封神到退场",
@@ -86,7 +66,7 @@
     "abstract": "AI视频正在进入“中国时间”...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -96,18 +76,8 @@
     "abstract": "《华尔街日报》报道称，OpenAI 计划关闭其 Sora 应用程序，并将重心转移到编程和其他业务上，为计划最早于今年第四季度进行的 IPO 做准备。 Sora 的消费者端应用、开发者接口及 ChatGPT 相关功能将全线关闭。Sora 官方也发布告别信证实了这一消息： 我们要和 Sora 说再见了。感谢所有用 Sora 进行创作、分享 Sora 并围绕......",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
-  },
-  {
-    "title": "谷歌 Gemini 任务自动化正式上线：虽慢但酷，AI 助手终于能替你点外卖了",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/413423",
-    "abstract": "谷歌近日正式在Pixel 10 Pro和Galaxy S26 Ultra上推出了Gemini的任务自动化功能（Task Automation），这是目前主流AI助手中首个能够真正接管手机、替用户完成复杂多步骤操作的功能。虽然当前仅支持Uber、DoorDash等少数几款外卖和打车应用，且仍处于测试阶段，但这一功能的亮相被业界视为AI助手从\"对话工具\"向\"执行...",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "阿里达摩院发布 RISC-V CPU 玄铁 C950",
@@ -116,7 +86,7 @@
     "abstract": "阿里巴巴达摩院宣布推出新一代旗舰CPU产品玄铁C950，采用开源RISC-V架构。 根据介绍，其单核通用性能在Specint2006基准测试中突破70分，刷新全球RISC-V性能纪录，适用于云计算、生成式AI、高端机器人、边缘计算等领域，性能达到业界领先水平。 此外，玄铁 C950 利用RISC-V 开源开放特性，搭载自研AI加速引擎，首次原生支......",
     "pscore": 76,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -126,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -136,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -145,6 +115,36 @@
     "link": "https://huggingface.co/blog/pytorch-xla",
     "abstract": "",
     "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "12",
+    "trend": "down"
+  },
+  {
+    "title": "西湖大学发布全球首个机器人动作泛化大模型 GAE",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/413798",
+    "abstract": "由西湖大学孵化的西湖机器人公司在杭州正式发布人形机器人“Titan o1”（泰坦o1）”，搭载全球机器人领域首个动作泛化大模型——GAE（General Action Expert）。这一突破性技术相当于为不同厂家的机器人装上了可通用的“小脑”，使机器人能够突破时空限制，实时模仿人类动作。 有了这颗“小脑”，机器人自此能够手脚协同......",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "13",
+    "trend": "down"
+  },
+  {
+    "title": "Goodbye to Sora",
+    "source": "HackerNews",
+    "link": "https://twitter.com/soraofficialapp/status/2036532795984715896",
+    "abstract": "Comments...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "up"
+  },
+  {
+    "title": "Show HN: Gemini can now natively embed video, so I built sub-second video search",
+    "source": "HackerNews",
+    "link": "https://github.com/ssrajadh/sentrysearch",
+    "abstract": "Comments...",
+    "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "15",
     "trend": "down"
