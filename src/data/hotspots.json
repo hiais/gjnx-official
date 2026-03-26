@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -47,16 +47,6 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
-  },
-  {
-    "title": "OpenAI关停Sora！25个月从封神到退场",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/03/391799.html",
-    "abstract": "AI视频正在进入“中国时间”...",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
-    "rank": "06",
     "trend": "down"
   },
   {
@@ -66,18 +56,8 @@
     "abstract": "《华尔街日报》报道称，OpenAI 计划关闭其 Sora 应用程序，并将重心转移到编程和其他业务上，为计划最早于今年第四季度进行的 IPO 做准备。 Sora 的消费者端应用、开发者接口及 ChatGPT 相关功能将全线关闭。Sora 官方也发布告别信证实了这一消息： 我们要和 Sora 说再见了。感谢所有用 Sora 进行创作、分享 Sora 并围绕......",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
-  },
-  {
-    "title": "阿里达摩院发布 RISC-V CPU 玄铁 C950",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/413686",
-    "abstract": "阿里巴巴达摩院宣布推出新一代旗舰CPU产品玄铁C950，采用开源RISC-V架构。 根据介绍，其单核通用性能在Specint2006基准测试中突破70分，刷新全球RISC-V性能纪录，适用于云计算、生成式AI、高端机器人、边缘计算等领域，性能达到业界领先水平。 此外，玄铁 C950 利用RISC-V 开源开放特性，搭载自研AI加速引擎，首次原生支......",
-    "pscore": 76,
-    "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "90% of Claude-linked output going to GitHub repos w <2 stars",
@@ -86,7 +66,17 @@
     "abstract": "Comments...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "07",
+    "trend": "down"
+  },
+  {
+    "title": "Power consumption of Game Boy flash cartridges (2021)",
+    "source": "HackerNews",
+    "link": "https://gekkio.fi/blog/2021/power-consumption-of-game-boy-flash-cartridges/",
+    "abstract": "Comments...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -96,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -106,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -116,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "西湖大学发布全球首个机器人动作泛化大模型 GAE",
@@ -126,7 +116,7 @@
     "abstract": "由西湖大学孵化的西湖机器人公司在杭州正式发布人形机器人“Titan o1”（泰坦o1）”，搭载全球机器人领域首个动作泛化大模型——GAE（General Action Expert）。这一突破性技术相当于为不同厂家的机器人装上了可通用的“小脑”，使机器人能够突破时空限制，实时模仿人类动作。 有了这颗“小脑”，机器人自此能够手脚协同......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "12",
     "trend": "down"
   }
 ]
