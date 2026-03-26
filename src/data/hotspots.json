@@ -7,7 +7,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -27,16 +27,6 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
-  },
-  {
-    "title": "Arm Ethos U85 NPU Now Supported By EthosU Gallium3D Driver",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Arm-Ethos-U85-Mesa-26.1",
-    "abstract": "Merged overnight for Mesa 26.1 is enabling the Arm Ethos U85 NPU within the EthosU Gallium3D driver so that with Mesa's TEFLON framework can begin taking on AI workloads......",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "04",
     "trend": "down"
   },
   {
@@ -46,8 +36,8 @@
     "abstract": "2026年3月18日晚19:00，爱赛思OpenAI4S社区百家讲坛第一期 「养虾实验室——DrClaw从部署到科研工具实操」 准时开播。由上海人工智能实验室青年科学家胡舒悦主持，上海人工智能实验室青年研究员张航帆、上海智能算力科技有限公司解决方案负责人王丽忱主讲，为全网科研工作者带来了一场 “零基础养虾” 的硬核实操盛宴，感......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -56,8 +46,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "OpenAI关停Sora！25个月从封神到退场",
@@ -66,7 +56,7 @@
     "abstract": "AI视频正在进入“中国时间”...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -76,8 +66,8 @@
     "abstract": "《华尔街日报》报道称，OpenAI 计划关闭其 Sora 应用程序，并将重心转移到编程和其他业务上，为计划最早于今年第四季度进行的 IPO 做准备。 Sora 的消费者端应用、开发者接口及 ChatGPT 相关功能将全线关闭。Sora 官方也发布告别信证实了这一消息： 我们要和 Sora 说再见了。感谢所有用 Sora 进行创作、分享 Sora 并围绕......",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "阿里达摩院发布 RISC-V CPU 玄铁 C950",
@@ -86,8 +76,18 @@
     "abstract": "阿里巴巴达摩院宣布推出新一代旗舰CPU产品玄铁C950，采用开源RISC-V架构。 根据介绍，其单核通用性能在Specint2006基准测试中突破70分，刷新全球RISC-V性能纪录，适用于云计算、生成式AI、高端机器人、边缘计算等领域，性能达到业界领先水平。 此外，玄铁 C950 利用RISC-V 开源开放特性，搭载自研AI加速引擎，首次原生支......",
     "pscore": 76,
     "category": "CHIP_FRONT",
+    "rank": "08",
+    "trend": "up"
+  },
+  {
+    "title": "90% of Claude-linked output going to GitHub repos w <2 stars",
+    "source": "HackerNews",
+    "link": "https://www.claudescode.dev/?window=since_launch",
+    "abstract": "Comments...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -127,16 +127,6 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "up"
-  },
-  {
-    "title": "Goodbye to Sora",
-    "source": "HackerNews",
-    "link": "https://twitter.com/soraofficialapp/status/2036532795984715896",
-    "abstract": "Comments...",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
+    "trend": "down"
   }
 ]
