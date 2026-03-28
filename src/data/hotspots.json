@@ -17,7 +17,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "苹果计划在 iOS 27 正式向第三方 AI 助手开放 Siri 接口",
@@ -57,7 +57,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Lemonade 10.0.1 Improves Setup Process For Using AMD Ryzen AI NPUs On Linux",
@@ -87,7 +87,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -117,7 +117,17 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "down"
+    "trend": "up"
+  },
+  {
+    "title": "8.68万新车普及车位到车位，世界模型不吃高算力！零跑夯爆了",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/03/392948.html",
+    "abstract": "零跑开始尝试在智能化上问鼎了...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "13",
+    "trend": "up"
   },
   {
     "title": "avue v3.8.2 已经发布，基于 Element 的前端框架",
@@ -126,7 +136,7 @@
     "abstract": "avue v3.8.2 已经发布，基于 Element 的前端框架 此版本更新内容包括： v3.8.2 2026-03-27 新增 新增 InputCron 组件，支持 Cron 表达式可视化配置，并补充示例文档 在线例子 日期时间组件新增 disabledHours、disabledMinutes、disabledSeconds 属性，支持在 Crud 中...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "14",
+    "trend": "up"
   }
 ]
