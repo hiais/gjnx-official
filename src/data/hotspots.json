@@ -17,7 +17,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "苹果计划在 iOS 27 正式向第三方 AI 助手开放 Siri 接口",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "NXP Neutron NPU Kernel Driver Blocked For Now By A Closed-Source User-Space Blob",
@@ -60,23 +60,13 @@
     "trend": "up"
   },
   {
-    "title": "Lemonade 10.0.1 Improves Setup Process For Using AMD Ryzen AI NPUs On Linux",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Lemonade-10.0.1",
-    "abstract": "Earlier this month with the release of the Lemonade SDK 10.0 and FastFlowLM 0.9.35, using AMD Ryzen AI NPUs for running LLMs on Linux finally became feasible. AMD XDNA 2 NPUs can n...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
-  },
-  {
     "title": "软件所开源首个本地通用幻灯片智能体模型与环境系统",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/414467",
     "abstract": "中国科学院软件研究所中文信息处理实验室近日开源了第二代幻灯片智能体系统 PPTAgent，实现了业界首次将幻灯片智能体模型与完整的智能体沙箱环境一同开源，并支持在单张消费级显卡和 Mac 终端上一键部署，全面适配华为昇腾国产化算力生态。 该工作彻底重构了AI制作幻灯片的逻辑，使智能体不仅能“深度探索”，还能“亲眼......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -86,8 +76,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -96,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -106,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -116,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "8.68万新车普及车位到车位，世界模型不吃高算力！零跑夯爆了",
@@ -126,8 +116,8 @@
     "abstract": "零跑开始尝试在智能化上问鼎了...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "avue v3.8.2 已经发布，基于 Element 的前端框架",
@@ -136,7 +126,7 @@
     "abstract": "avue v3.8.2 已经发布，基于 Element 的前端框架 此版本更新内容包括： v3.8.2 2026-03-27 新增 新增 InputCron 组件，支持 Cron 表达式可视化配置，并补充示例文档 在线例子 日期时间组件新增 disabledHours、disabledMinutes、disabledSeconds 属性，支持在 Crud 中...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "13",
     "trend": "up"
   }
 ]
