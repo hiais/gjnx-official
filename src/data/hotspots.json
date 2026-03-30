@@ -1,22 +1,12 @@
 [
   {
-    "title": "AI 数学研究重大突破：GPT-5.4 Pro 等模型成功解决超图 Ramsey 难题",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/414521",
-    "abstract": "人工智能在科学研究领域的应用再次取得里程碑式进展。Epoch AI FrontierMath开放问题集中的一个超图Ramsey理论难题已被多个先进AI模型成功攻克，其中包括GPT-5.4 Pro、Claude Opus 4.6 (max)、Gemini 3.1 Pro以及GPT-5.4 (xhigh)。这一突破标志着AI在高级数学推理和原创性研究方面迈出了重...",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "down"
-  },
-  {
     "title": "“我国人工智能最高奖”揭晓：共产生 116 个获奖项目及个人",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/415529",
     "abstract": "被誉为“中国人工智能最高奖”的第十五届吴文俊人工智能科学技术奖已于日前正式揭晓。本届评选共产生 116 个获奖项目及个人，表彰范围涵盖了生成式 AI、大模型、具身智能及通用人工智能等当前最前沿的技术领域。该奖项由中国人工智能学会发起，旨在奖励在智能科学技术领域取得重大突破的集体和个人，代表了国内 AI 界的最......",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "01",
     "trend": "up"
   },
   {
@@ -26,7 +16,7 @@
     "abstract": "An important set of Linux scheduler patches were posted for review on Thursday for improving the SMT-aware asymmetric CPU capacity handling. These patches to improve the Linux kern...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -36,8 +26,8 @@
     "abstract": "据报道，Siri 正迎来诞生以来最大一次架构转变。苹果计划在 iOS 27 中正式向第三方 AI 助手开放 Siri 接口，使其不再只是一个封闭的语音助手，而是升级为一个可接入多模型的 AI 平台。 当前 Siri 已经接入 ChatGPT，但未来的变化更激进 —— 让用户可以在 Siri 内自由调用不同 AI 模型，支持接入包括 Gemini、Claude...",
     "pscore": 84,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -46,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -56,27 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
-  },
-  {
-    "title": "NXP Neutron NPU Kernel Driver Blocked For Now By A Closed-Source User-Space Blob",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/NXP-Neutron-NPU-User-Blob",
-    "abstract": "Last month NXP posted open-source Linux kernel driver patches for their Neutron NPU accelerator. The NXP Neutron NPU aims to help with edge AI applications and this neural processi...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
-  },
-  {
-    "title": "软件所开源首个本地通用幻灯片智能体模型与环境系统",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/414467",
-    "abstract": "中国科学院软件研究所中文信息处理实验室近日开源了第二代幻灯片智能体系统 PPTAgent，实现了业界首次将幻灯片智能体模型与完整的智能体沙箱环境一同开源，并支持在单张消费级显卡和 Mac 终端上一键部署，全面适配华为昇腾国产化算力生态。 该工作彻底重构了AI制作幻灯片的逻辑，使智能体不仅能“深度探索”，还能“亲眼......",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -86,8 +56,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -96,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -106,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -116,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "avue v3.8.2 已经发布，基于 Element 的前端框架",
@@ -126,7 +96,17 @@
     "abstract": "avue v3.8.2 已经发布，基于 Element 的前端框架 此版本更新内容包括： v3.8.2 2026-03-27 新增 新增 InputCron 组件，支持 Cron 表达式可视化配置，并补充示例文档 在线例子 日期时间组件新增 disabledHours、disabledMinutes、disabledSeconds 属性，支持在 Crud 中...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "10",
+    "trend": "down"
+  },
+  {
+    "title": "预测这件事，人类越犹豫，这个大模型越有优势",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/03/393353.html",
+    "abstract": "Elo 1034.2分霸榜，领先Gemini-3.1-Pro、Claude-Opus-4.6...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "11",
     "trend": "up"
   }
 ]
