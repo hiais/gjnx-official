@@ -10,24 +10,14 @@
     "trend": "up"
   },
   {
-    "title": "Linux Patches Posted To Fix ~2x Performance Drop For CPU Workloads On NVIDIA Vera Rubin",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/NVIDIA-Vera-Rubin-SMT-Sched-Fix",
-    "abstract": "An important set of Linux scheduler patches were posted for review on Thursday for improving the SMT-aware asymmetric CPU capacity handling. These patches to improve the Linux kern...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
-  },
-  {
     "title": "苹果计划在 iOS 27 正式向第三方 AI 助手开放 Siri 接口",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/414777",
     "abstract": "据报道，Siri 正迎来诞生以来最大一次架构转变。苹果计划在 iOS 27 中正式向第三方 AI 助手开放 Siri 接口，使其不再只是一个封闭的语音助手，而是升级为一个可接入多模型的 AI 平台。 当前 Siri 已经接入 ChatGPT，但未来的变化更激进 —— 让用户可以在 Siri 内自由调用不同 AI 模型，支持接入包括 Gemini、Claude...",
     "pscore": 84,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "02",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -36,7 +26,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -46,8 +36,18 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "up"
+  },
+  {
+    "title": "AMD Sends Out Linux Patches For Their Next-Gen AIE4 NPU",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/AMD-AIE4-NPU-AMDXDNA",
+    "abstract": "Hitting the mailing list today are patches providing initial support for AMD's next-gen NPU \"AIE4\" platform, complete with SR-IOV support......",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -57,7 +57,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -67,7 +67,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -97,6 +97,16 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
+    "trend": "up"
+  },
+  {
+    "title": "阿里发布Qwen3.5-Omni，多模态能力超越Gemini-3.1 Pro",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/03/393460.html",
+    "abstract": "每百万Tokens输入不到0.8元，比Gemini-3.1 Pro的1/10还低。...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -106,7 +116,7 @@
     "abstract": "Elo 1034.2分霸榜，领先Gemini-3.1-Pro、Claude-Opus-4.6...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "up"
   }
 ]
