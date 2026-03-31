@@ -7,14 +7,14 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
-    "title": "苹果计划在 iOS 27 正式向第三方 AI 助手开放 Siri 接口",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/414777",
-    "abstract": "据报道，Siri 正迎来诞生以来最大一次架构转变。苹果计划在 iOS 27 中正式向第三方 AI 助手开放 Siri 接口，使其不再只是一个封闭的语音助手，而是升级为一个可接入多模型的 AI 平台。 当前 Siri 已经接入 ChatGPT，但未来的变化更激进 —— 让用户可以在 Siri 内自由调用不同 AI 模型，支持接入包括 Gemini、Claude...",
-    "pscore": 84,
+    "title": "黄仁勋也站台的抱抱脸机器人卖爆了，背后公司竟来自中国",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/03/393483.html",
+    "abstract": "数据驱动的具身智能范式正在重新定义硬件...",
+    "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "02",
     "trend": "up"
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "AMD Sends Out Linux Patches For Their Next-Gen AIE4 NPU",
@@ -60,14 +60,14 @@
     "trend": "up"
   },
   {
-    "title": "Universal Claude.md – cut Claude output tokens by 63%",
+    "title": "Universal Claude.md – cut Claude output tokens",
     "source": "HackerNews",
     "link": "https://github.com/drona23/claude-token-efficient",
     "abstract": "Comments...",
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -97,16 +97,26 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "up"
+    "trend": "down"
   },
   {
-    "title": "avue v3.8.2 已经发布，基于 Element 的前端框架",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/414776",
-    "abstract": "avue v3.8.2 已经发布，基于 Element 的前端框架 此版本更新内容包括： v3.8.2 2026-03-27 新增 新增 InputCron 组件，支持 Cron 表达式可视化配置，并补充示例文档 在线例子 日期时间组件新增 disabledHours、disabledMinutes、disabledSeconds 属性，支持在 Crud 中...",
+    "title": "瑞声科技公开人形机器人感知解决方案，释放机器人业务加速落地信号",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/03/393883.html",
+    "abstract": "机器人产业链的竞争，正在从单点技术能力转向系统能力、工程能力和交付能力的综合比拼...",
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
+    "trend": "down"
+  },
+  {
+    "title": "玻色量子完成10亿元B轮融资，“十五五”规划专用量子计算机赛道唯一代表！",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/03/393856.html",
+    "abstract": "中国唯一“通用+专用”量子计算并行...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "12",
     "trend": "down"
   },
   {
@@ -116,17 +126,17 @@
     "abstract": "每百万Tokens输入不到0.8元，比Gemini-3.1 Pro的1/10还低。...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
-  },
-  {
-    "title": "预测这件事，人类越犹豫，这个大模型越有优势",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/03/393353.html",
-    "abstract": "Elo 1034.2分霸榜，领先Gemini-3.1-Pro、Claude-Opus-4.6...",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
     "rank": "13",
     "trend": "up"
+  },
+  {
+    "title": "阿里发布 Qwen3.5-Omni 全模态大模型",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/416053",
+    "abstract": "阿里通义实验室宣布全模态大模型 Qwen3.5-Omni 系列上线，包含 Plus、Flash、Light 三种尺寸的 Instruct 版本。 核心亮点速览 真正的“全模态”原生，无缝理解文本、图片、音频及音视频输入，支持细粒度、带时间戳的音视频 Caption 生成； 215 项 SOTA 霸榜，在音频及音视频分析、推理、对话、翻译等任务超过 Gemin...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "down"
   }
 ]
