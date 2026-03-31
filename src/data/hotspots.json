@@ -10,24 +10,14 @@
     "trend": "up"
   },
   {
-    "title": "黄仁勋也站台的抱抱脸机器人卖爆了，背后公司竟来自中国",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/03/393483.html",
-    "abstract": "数据驱动的具身智能范式正在重新定义硬件...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
-  },
-  {
     "title": "Google Cloud TPUs made available to Hugging Face users",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "rank": "02",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -36,7 +26,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -46,8 +36,8 @@
     "abstract": "Hitting the mailing list today are patches providing initial support for AMD's next-gen NPU \"AIE4\" platform, complete with SR-IOV support......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -56,7 +46,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -66,7 +56,7 @@
     "abstract": "Comments...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -76,8 +66,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -86,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -96,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "瑞声科技公开人形机器人感知解决方案，释放机器人业务加速落地信号",
@@ -106,7 +96,7 @@
     "abstract": "机器人产业链的竞争，正在从单点技术能力转向系统能力、工程能力和交付能力的综合比拼...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -116,18 +106,8 @@
     "abstract": "中国唯一“通用+专用”量子计算并行...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "down"
-  },
-  {
-    "title": "阿里发布Qwen3.5-Omni，多模态能力超越Gemini-3.1 Pro",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/03/393460.html",
-    "abstract": "每百万Tokens输入不到0.8元，比Gemini-3.1 Pro的1/10还低。...",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
   },
   {
     "title": "阿里发布 Qwen3.5-Omni 全模态大模型",
@@ -136,7 +116,7 @@
     "abstract": "阿里通义实验室宣布全模态大模型 Qwen3.5-Omni 系列上线，包含 Plus、Flash、Light 三种尺寸的 Instruct 版本。 核心亮点速览 真正的“全模态”原生，无缝理解文本、图片、音频及音视频输入，支持细粒度、带时间戳的音视频 Caption 生成； 215 项 SOTA 霸榜，在音频及音视频分析、推理、对话、翻译等任务超过 Gemin...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   }
 ]
