@@ -1,10 +1,10 @@
 [
   {
-    "title": "“我国人工智能最高奖”揭晓：共产生 116 个获奖项目及个人",
+    "title": "reBot-DevArm - 100% 全开源机械臂",
     "source": "OSChina",
-    "link": "https://www.oschina.net/news/415529",
-    "abstract": "被誉为“中国人工智能最高奖”的第十五届吴文俊人工智能科学技术奖已于日前正式揭晓。本届评选共产生 116 个获奖项目及个人，表彰范围涵盖了生成式 AI、大模型、具身智能及通用人工智能等当前最前沿的技术领域。该奖项由中国人工智能学会发起，旨在奖励在智能科学技术领域取得重大突破的集体和个人，代表了国内 AI 界的最......",
-    "pscore": 92,
+    "link": "https://www.oschina.net/p/rebot-devarm",
+    "abstract": "reBot-DevArm (reBot Arm B601 DM 和 reBot Arm B601 RS) 是一个致力于降低具身智能学习门槛的机械臂项目。主打 \"真・开源\" —— 不仅仅是代码，项目团队无保留地开源了所有的：...",
+    "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "01",
     "trend": "down"
@@ -17,7 +17,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -50,14 +50,24 @@
     "trend": "up"
   },
   {
+    "title": "Sora走了，PixVerse V6来了！AI视频空间时间处理能力大增，延时拍摄、慢动作都能搞",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/04/394373.html",
+    "abstract": "解锁AI视频沉浸式观感...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "06",
+    "trend": "up"
+  },
+  {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/keras-chatbot-arena",
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -66,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -76,28 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
-  },
-  {
-    "title": "瑞声科技公开人形机器人感知解决方案，释放机器人业务加速落地信号",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/03/393883.html",
-    "abstract": "机器人产业链的竞争，正在从单点技术能力转向系统能力、工程能力和交付能力的综合比拼...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
     "rank": "09",
     "trend": "up"
-  },
-  {
-    "title": "玻色量子完成10亿元B轮融资，“十五五”规划专用量子计算机赛道唯一代表！",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/03/393856.html",
-    "abstract": "中国唯一“通用+专用”量子计算并行...",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
   },
   {
     "title": "阿里发布 Qwen3.5-Omni 全模态大模型",
@@ -106,7 +96,7 @@
     "abstract": "阿里通义实验室宣布全模态大模型 Qwen3.5-Omni 系列上线，包含 Plus、Flash、Light 三种尺寸的 Instruct 版本。 核心亮点速览 真正的“全模态”原生，无缝理解文本、图片、音频及音视频输入，支持细粒度、带时间戳的音视频 Caption 生成； 215 项 SOTA 霸榜，在音频及音视频分析、推理、对话、翻译等任务超过 Gemin...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "up"
   }
 ]
