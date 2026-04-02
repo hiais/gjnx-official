@@ -1,23 +1,33 @@
 [
   {
-    "title": "Alchip’s Leadership in ASIC Innovation: Advancing Toward 2nm Semiconductor Technology",
-    "source": "SemiWiki",
-    "link": "https://semiwiki.com/semiconductor-services/alchip/367489-alchips-leadership-in-asic-innovation-advancing-toward-2nm-semiconductor-technology/",
-    "abstract": "Alchip Technologies has recently reported significant progress in the development of advanced 2nm  ASICs, positioning itself as a leader in next-generation semiconductor design for...",
+    "title": "Lemonade by AMD: a fast and open source local LLM server using GPU and NPU",
+    "source": "HackerNews",
+    "link": "https://lemonade-server.ai",
+    "abstract": "Comments...",
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
     "trend": "up"
   },
   {
-    "title": "再融20亿！星海图把具身智能头部门槛抬到了200亿",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/04/394626.html",
-    "abstract": "200亿估值成具身智能“季后赛”入场券...",
-    "pscore": 85,
+    "title": "Alchip’s Leadership in ASIC Innovation: Advancing Toward 2nm Semiconductor Technology",
+    "source": "SemiWiki",
+    "link": "https://semiwiki.com/semiconductor-services/alchip/367489-alchips-leadership-in-asic-innovation-advancing-toward-2nm-semiconductor-technology/",
+    "abstract": "Alchip Technologies has recently reported significant progress in the development of advanced 2nm  ASICs, positioning itself as a leader in next-generation semiconductor design for...",
+    "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
+  },
+  {
+    "title": "AI原生时代来临，商汤大装置如何重塑算力集群架构",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/04/395194.html",
+    "abstract": "商汤大装置分享AI原生云实践...",
+    "pscore": 89,
+    "category": "CHIP_FRONT",
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "reBot-DevArm - 100% 全开源机械臂",
@@ -26,8 +36,8 @@
     "abstract": "reBot-DevArm (reBot Arm B601 DM 和 reBot Arm B601 RS) 是一个致力于降低具身智能学习门槛的机械臂项目。主打 \"真・开源\" —— 不仅仅是代码，项目团队无保留地开源了所有的：...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -36,8 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -46,18 +56,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
-  },
-  {
-    "title": "AMD Sends Out Linux Patches For Their Next-Gen AIE4 NPU",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/AMD-AIE4-NPU-AMDXDNA",
-    "abstract": "Hitting the mailing list today are patches providing initial support for AMD's next-gen NPU \"AIE4\" platform, complete with SR-IOV support......",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -107,6 +107,6 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "up"
+    "trend": "down"
   }
 ]
