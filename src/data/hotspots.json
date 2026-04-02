@@ -7,6 +7,16 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
+    "trend": "up"
+  },
+  {
+    "title": "再融20亿！星海图把具身智能头部门槛抬到了200亿",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/04/394626.html",
+    "abstract": "200亿估值成具身智能“季后赛”入场券...",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -16,7 +26,7 @@
     "abstract": "reBot-DevArm (reBot Arm B601 DM 和 reBot Arm B601 RS) 是一个致力于降低具身智能学习门槛的机械臂项目。主打 \"真・开源\" —— 不仅仅是代码，项目团队无保留地开源了所有的：...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -26,7 +36,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -36,7 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -46,8 +56,8 @@
     "abstract": "Hitting the mailing list today are patches providing initial support for AMD's next-gen NPU \"AIE4\" platform, complete with SR-IOV support......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -56,18 +66,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
-  },
-  {
-    "title": "Sora走了，PixVerse V6来了！AI视频空间时间处理能力大增，延时拍摄、慢动作都能搞",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/04/394373.html",
-    "abstract": "解锁AI视频沉浸式观感...",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -97,16 +97,16 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "up"
+    "trend": "down"
   },
   {
-    "title": "阿里发布 Qwen3.5-Omni 全模态大模型",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/416053",
-    "abstract": "阿里通义实验室宣布全模态大模型 Qwen3.5-Omni 系列上线，包含 Plus、Flash、Light 三种尺寸的 Instruct 版本。 核心亮点速览 真正的“全模态”原生，无缝理解文本、图片、音频及音视频输入，支持细粒度、带时间戳的音视频 Caption 生成； 215 项 SOTA 霸榜，在音频及音视频分析、推理、对话、翻译等任务超过 Gemin...",
-    "pscore": 70,
+    "title": "Libinput Hit By Worrying Security Issues With Its Lua Plug-In System",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Libinput-Lua-Security-Issues",
+    "abstract": "Libinput devised a Lua-based plug-in system for modifying devices/events. The Lua plug-in support was introduced last year with libinput 1.30 but unfortunately some security issues...",
+    "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "down"
+    "trend": "up"
   }
 ]
