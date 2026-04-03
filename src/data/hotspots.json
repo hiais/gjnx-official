@@ -1,23 +1,13 @@
 [
   {
-    "title": "Lemonade by AMD: a fast and open source local LLM server using GPU and NPU",
-    "source": "HackerNews",
-    "link": "https://lemonade-server.ai",
-    "abstract": "Comments...",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "up"
-  },
-  {
     "title": "Alchip’s Leadership in ASIC Innovation: Advancing Toward 2nm Semiconductor Technology",
     "source": "SemiWiki",
     "link": "https://semiwiki.com/semiconductor-services/alchip/367489-alchips-leadership-in-asic-innovation-advancing-toward-2nm-semiconductor-technology/",
     "abstract": "Alchip Technologies has recently reported significant progress in the development of advanced 2nm  ASICs, positioning itself as a leader in next-generation semiconductor design for...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
+    "rank": "01",
+    "trend": "up"
   },
   {
     "title": "AI原生时代来临，商汤大装置如何重塑算力集群架构",
@@ -26,7 +16,7 @@
     "abstract": "商汤大装置分享AI原生云实践...",
     "pscore": 89,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -36,8 +26,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
+    "rank": "03",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -46,7 +36,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -56,7 +46,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -66,7 +56,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -76,8 +66,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -86,8 +76,18 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
+    "rank": "08",
+    "trend": "up"
+  },
+  {
+    "title": "Meta Has A New Linux Optimization To Avoid Throttling TCP Throughput Unnecessarily",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Linux-VM-Pressure-TCP-Through",
+    "abstract": "Meta's great Linux engineering team have been working through some fresh performance optimizations recently from optimizing /proc/interrupts outputs to renewing their investment in...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Libinput Hit By Worrying Security Issues With Its Lua Plug-In System",
@@ -97,7 +97,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google DeepMind 开源 Gemma 4 ",
