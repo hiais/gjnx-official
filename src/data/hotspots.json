@@ -7,7 +7,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -37,7 +37,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Sora向左，阿里向右：全能演技派模型登场千问APP",
@@ -50,14 +50,24 @@
     "trend": "down"
   },
   {
+    "title": "Show HN: Contrapunk – Real-time counterpoint harmony from guitar input, in Rust",
+    "source": "HackerNews",
+    "link": "https://contrapunk.com/",
+    "abstract": "Comments...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "06",
+    "trend": "up"
+  },
+  {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/keras-chatbot-arena",
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -66,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -76,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -86,8 +96,8 @@
     "abstract": "Ahead of tomorrow's Linux 7.0-rc7 kernel release, this week's batch of input fixes were sent in and merged. Besides a few small input fixes are also some new device IDs and quirks ...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "Intel Linux NPU Driver 1.32 Adds Wildcat Lake Support",
@@ -96,8 +106,8 @@
     "abstract": "Intel today released their Linux NPU Driver 1.32 as the user-space driver components that interacts with the upstream IVPU kernel accelerator driver for supporting the NPU hardware...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "Meta Has A New Linux Optimization To Avoid Throttling TCP Throughput Unnecessarily",
@@ -106,8 +116,8 @@
     "abstract": "Meta's great Linux engineering team have been working through some fresh performance optimizations recently from optimizing /proc/interrupts outputs to renewing their investment in...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "Libinput Hit By Worrying Security Issues With Its Lua Plug-In System",
@@ -116,7 +126,7 @@
     "abstract": "Libinput devised a Lua-based plug-in system for modifying devices/events. The Lua plug-in support was introduced last year with libinput 1.30 but unfortunately some security issues...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "up"
   },
   {
@@ -126,7 +136,7 @@
     "abstract": "谷歌宣布正式推出 Gemma 4 系列多模态模型，采用 Apache 2 许可，“这是我们迄今为止最智能的开放模型”。 官方文档介绍称，Gemma 是一系列先进的轻量级开放模型，其开发采用了与 Gemini 模型相同的研究成果和技术。 Gemma 由 Google DeepMind 和 Google 的其他团队共同开发，其名称源自拉丁语 gemma，意为“宝...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "14",
+    "trend": "up"
   }
 ]
