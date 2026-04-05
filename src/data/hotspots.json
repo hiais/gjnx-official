@@ -40,24 +40,34 @@
     "trend": "down"
   },
   {
+    "title": "太初元碁向员工发放百亿算力token并将共建高校AI科教融合学院",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/04/396533.html",
+    "abstract": "",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "05",
+    "trend": "up"
+  },
+  {
     "title": "Groq on Hugging Face Inference Providers 🔥",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/inference-providers-groq",
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "06",
     "trend": "down"
   },
   {
-    "title": "Sora向左，阿里向右：全能演技派模型登场千问APP",
+    "title": "OpenAI新模型不是GPTX！全新预训练“土豆”曝光，Sora成弃子的原因找到了",
     "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/04/395477.html",
-    "abstract": "千问APP迎来AI内容创作史诗级增强...",
+    "link": "https://www.qbitai.com/2026/04/396535.html",
+    "abstract": "正面回应了和Anthropic的竞争...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "Show HN: Contrapunk – Real-time counterpoint harmony from guitar input, in Rust",
@@ -66,7 +76,7 @@
     "abstract": "Comments...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -76,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -86,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -96,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   },
   {
     "title": "Razer Wolverine V3 Pro & Betop KP50 Controllers To Be Supported By Linux 7.0",
@@ -106,8 +116,8 @@
     "abstract": "Ahead of tomorrow's Linux 7.0-rc7 kernel release, this week's batch of input fixes were sent in and merged. Besides a few small input fixes are also some new device IDs and quirks ...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "Intel Linux NPU Driver 1.32 Adds Wildcat Lake Support",
@@ -116,7 +126,7 @@
     "abstract": "Intel today released their Linux NPU Driver 1.32 as the user-space driver components that interacts with the upstream IVPU kernel accelerator driver for supporting the NPU hardware...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "down"
   },
   {
@@ -124,16 +134,6 @@
     "source": "Phoronix",
     "link": "https://www.phoronix.com/news/Linux-VM-Pressure-TCP-Through",
     "abstract": "Meta's great Linux engineering team have been working through some fresh performance optimizations recently from optimizing /proc/interrupts outputs to renewing their investment in...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
-  },
-  {
-    "title": "Libinput Hit By Worrying Security Issues With Its Lua Plug-In System",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Libinput-Lua-Security-Issues",
-    "abstract": "Libinput devised a Lua-based plug-in system for modifying devices/events. The Lua plug-in support was introduced last year with libinput 1.30 but unfortunately some security issues...",
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "14",
