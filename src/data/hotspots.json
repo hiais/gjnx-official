@@ -1,12 +1,32 @@
 [
   {
+    "title": "智元开源具身数据集 AGIBOT WORLD 2026",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/418254",
+    "abstract": "智元机器人宣布正式开源 AGIBOT WORLD 2026 数据集，首个覆盖具身智能全域研究的开源数据集。 该数据集基于海量真实场景，围绕五大具身领域研究主题构建，每个主题均设有专属采集方法与精细化的标注体系，以精准支持不同细分领域研究者的需求。数据集将分五个阶段持续开源，覆盖更多主题与场景，旨在为具身领域提供覆盖广......",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "up"
+  },
+  {
+    "title": "我国将加快太空算力产业生态培育",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/418172",
+    "abstract": "工业和信息化部透露消息称，我国将加快太空算力产业生态培育。 中国信通院云大所数据中心部副主任谢丽娜介绍，算力卫星可通过激光通信组网，实现全球无缝覆盖，直接在轨处理数据，将灾害预警、资源监测等场景的数据时效从数小时压缩至秒级，这是地面算力无法实现的。 谢丽娜表示，目前，我国是率先实现太空计算星座在轨组......",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "up"
+  },
+  {
     "title": "Google Cloud TPUs made available to Hugging Face users",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "01",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -16,18 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
-  },
-  {
-    "title": "太初元碁向员工发放百亿算力token并将共建高校AI科教融合学院",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/04/396533.html",
-    "abstract": "",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -35,16 +45,6 @@
     "link": "https://huggingface.co/blog/inference-providers-groq",
     "abstract": "",
     "pscore": 80,
-    "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
-  },
-  {
-    "title": "OpenAI新模型不是GPTX！全新预训练“土豆”曝光，Sora成弃子的原因找到了",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/04/396535.html",
-    "abstract": "正面回应了和Anthropic的竞争...",
-    "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "05",
     "trend": "down"
@@ -77,7 +77,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Razer Wolverine V3 Pro & Betop KP50 Controllers To Be Supported By Linux 7.0",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Intel Linux NPU Driver 1.32 Adds Wildcat Lake Support",
@@ -97,7 +97,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Meta Has A New Linux Optimization To Avoid Throttling TCP Throughput Unnecessarily",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google DeepMind 开源 Gemma 4 ",
