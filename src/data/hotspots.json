@@ -17,7 +17,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "我国将加快太空算力产业生态培育",
@@ -27,7 +27,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -67,7 +67,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Razer Wolverine V3 Pro & Betop KP50 Controllers To Be Supported By Linux 7.0",
