@@ -1,12 +1,22 @@
 [
   {
+    "title": "AMD Making It Easier To Embed Lemonade AI Capabilities Into Other Apps",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Lemonade-SDK-10.2-Released",
+    "abstract": "The open-source Lemonade local AI server that enables using Ryzen AI NPUs on Linux for LLM usage as well as AMD Radeon GPU support and common x86_64 CPU support (in addition to Mic...",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "down"
+  },
+  {
     "title": "智元升级 Genie Sim 3.0 一站式仿真开发平台",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/418653",
     "abstract": "智元宣布 Genie Sim3.0 一站式仿真开发平台迎来新升级。通过环境生成、场景泛化、数据采集到模型评测的全流程仿真，显著加速模型训练验证，提升开发者与研究者的研发效率，推动具身智能的创新应用。 图文生境：无需建模、采集或硬件，仅文本或图片输入，用户即可零门槛生成海量场景。通过多模态大模型，用户指令一改、场......",
     "pscore": 97,
     "category": "CHIP_FRONT",
-    "rank": "01",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -16,8 +26,8 @@
     "abstract": "Agentic AI workloads are reshaping the compute requirements of modern data center infrastructure by shifting performance bottlenecks from GPU-centric inference to CPU-heavy orchest...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "Lemonade 10.1 Released For Latest Improvements For Local LLMs On AMD GPUs & NPUs",
@@ -25,16 +35,6 @@
     "link": "https://www.phoronix.com/news/Lemonade-10.1-Released",
     "abstract": "Following last month's Lemonade SDK 10.0 release that finally makes AMD Ryzen AI NPUs under Linux useful for running large language models (LLMs) where as before the Linux build co...",
     "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
-  },
-  {
-    "title": "智元开源具身数据集 AGIBOT WORLD 2026",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/418254",
-    "abstract": "智元机器人宣布正式开源 AGIBOT WORLD 2026 数据集，首个覆盖具身智能全域研究的开源数据集。 该数据集基于海量真实场景，围绕五大具身领域研究主题构建，每个主题均设有专属采集方法与精细化的标注体系，以精准支持不同细分领域研究者的需求。数据集将分五个阶段持续开源，覆盖更多主题与场景，旨在为具身领域提供覆盖广......",
-    "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "04",
     "trend": "down"
@@ -77,7 +77,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -97,16 +97,6 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
-  },
-  {
-    "title": "理想破例投资具身创业公司，L9功臣创办，阿里CEO也跟了",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/04/397930.html",
-    "abstract": "理想首款人形机器人也要来了...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "11",
     "trend": "up"
   },
   {
@@ -116,8 +106,8 @@
     "abstract": "公元 2026 年，来自第三世界国家的数千名临时工，正用自己的身体 “喂养” 人形机器人。...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "Intel Arc Pro B70 Benchmarks With LLM / AI, OpenCL, OpenGL & Vulkan",
@@ -126,7 +116,7 @@
     "abstract": "Last month Intel announced the Arc Pro B70 with 32GB of GDDR6 video memory for this long-awaited Battlemage G31 graphics card. This new top-end Battlemage graphics card with 32 Xe ...",
     "pscore": 69,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   }
 ]
