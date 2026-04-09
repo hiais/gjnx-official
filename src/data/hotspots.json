@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "智元升级 Genie Sim 3.0 一站式仿真开发平台",
@@ -17,17 +17,7 @@
     "pscore": 97,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
-  },
-  {
-    "title": "Agentic AI Demands More Than GPUs",
-    "source": "SemiWiki",
-    "link": "https://semiwiki.com/semiconductor-manufacturers/intel/368183-agentic-ai-demands-more-than-gpus/",
-    "abstract": "Agentic AI workloads are reshaping the compute requirements of modern data center infrastructure by shifting performance bottlenecks from GPU-centric inference to CPU-heavy orchest...",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Lemonade 10.1 Released For Latest Improvements For Local LLMs On AMD GPUs & NPUs",
@@ -36,7 +26,7 @@
     "abstract": "Following last month's Lemonade SDK 10.0 release that finally makes AMD Ryzen AI NPUs under Linux useful for running large language models (LLMs) where as before the Linux build co...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -46,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -56,7 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -66,7 +56,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -76,8 +66,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -86,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -96,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "赛博朋克 2026：出租身体，把灵魂注入机器",
@@ -106,8 +96,8 @@
     "abstract": "公元 2026 年，来自第三世界国家的数千名临时工，正用自己的身体 “喂养” 人形机器人。...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "Intel Arc Pro B70 Benchmarks With LLM / AI, OpenCL, OpenGL & Vulkan",
@@ -116,7 +106,7 @@
     "abstract": "Last month Intel announced the Arc Pro B70 with 32GB of GDDR6 video memory for this long-awaited Battlemage G31 graphics card. This new top-end Battlemage graphics card with 32 Xe ...",
     "pscore": 69,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "down"
   }
 ]
