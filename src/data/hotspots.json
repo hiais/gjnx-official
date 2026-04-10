@@ -10,34 +10,14 @@
     "trend": "down"
   },
   {
-    "title": "智元升级 Genie Sim 3.0 一站式仿真开发平台",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/418653",
-    "abstract": "智元宣布 Genie Sim3.0 一站式仿真开发平台迎来新升级。通过环境生成、场景泛化、数据采集到模型评测的全流程仿真，显著加速模型训练验证，提升开发者与研究者的研发效率，推动具身智能的创新应用。 图文生境：无需建模、采集或硬件，仅文本或图片输入，用户即可零门槛生成海量场景。通过多模态大模型，用户指令一改、场......",
-    "pscore": 97,
-    "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
-  },
-  {
-    "title": "Lemonade 10.1 Released For Latest Improvements For Local LLMs On AMD GPUs & NPUs",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Lemonade-10.1-Released",
-    "abstract": "Following last month's Lemonade SDK 10.0 release that finally makes AMD Ryzen AI NPUs under Linux useful for running large language models (LLMs) where as before the Linux build co...",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
-  },
-  {
     "title": "Intel NPU Linux Driver To Allow Limiting Frequency For Power & Thermal Management",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/news/Intel-NPU-Linux-Limit-Frequency",
     "abstract": "The Intel IVPU accelerator driver used on Linux for the neural processing unit (NPU) on Core Ultra SoCs saw a patch posted for allowing the NPU clock frequency to be limited in the...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "02",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -46,8 +26,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "03",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -56,7 +36,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -66,8 +46,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -76,7 +56,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -86,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -96,17 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
-  },
-  {
-    "title": "Reverse engineering Gemini's SynthID detection",
-    "source": "HackerNews",
-    "link": "https://github.com/aloshdenny/reverse-SynthID",
-    "abstract": "Comments...",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -116,7 +86,7 @@
     "abstract": "Last month Intel announced the Arc Pro B70 with 32GB of GDDR6 video memory for this long-awaited Battlemage G31 graphics card. This new top-end Battlemage graphics card with 32 Xe ...",
     "pscore": 69,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "09",
     "trend": "down"
   }
 ]
