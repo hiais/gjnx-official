@@ -17,7 +17,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -50,14 +50,24 @@
     "trend": "up"
   },
   {
+    "title": "Kairoa 开发者工具箱 v1.1.18 发布 - 新增 AI 多协议支持",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/419616",
+    "abstract": "Kairoa 是一款专为开发者打造的跨平台桌面工具箱，这次 v1.1.18 版本主要完善了 AI 聊天功能的协议支持。 这次更新了什么 AI 聊天模块现在支持更多协议类型了。之前只支持 OpenAI 格式的接口，本次更新新增了 了 Anthropic Messages API 和 Google Gemini 原生协议的支持。 对于自定义服务商，现在可以在配置...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "06",
+    "trend": "up"
+  },
+  {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/keras-chatbot-arena",
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -66,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -76,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "Intel Arc Pro B70 Benchmarks With LLM / AI, OpenCL, OpenGL & Vulkan",
@@ -86,7 +96,7 @@
     "abstract": "Last month Intel announced the Arc Pro B70 with 32GB of GDDR6 video memory for this long-awaited Battlemage G31 graphics card. This new top-end Battlemage graphics card with 32 Xe ...",
     "pscore": 69,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   }
 ]
