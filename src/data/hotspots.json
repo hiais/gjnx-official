@@ -1,22 +1,12 @@
 [
   {
-    "title": "AMD Making It Easier To Embed Lemonade AI Capabilities Into Other Apps",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Lemonade-SDK-10.2-Released",
-    "abstract": "The open-source Lemonade local AI server that enables using Ryzen AI NPUs on Linux for LLM usage as well as AMD Radeon GPU support and common x86_64 CPU support (in addition to Mic...",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "up"
-  },
-  {
     "title": "Intel NPU Linux Driver To Allow Limiting Frequency For Power & Thermal Management",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/news/Intel-NPU-Linux-Limit-Frequency",
     "abstract": "The Intel IVPU accelerator driver used on Linux for the neural processing unit (NPU) on Core Ultra SoCs saw a patch posted for allowing the NPU clock frequency to be limited in the...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "01",
     "trend": "up"
   },
   {
@@ -26,7 +16,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -36,7 +26,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -46,7 +36,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -56,8 +46,8 @@
     "abstract": "Kairoa 是一款专为开发者打造的跨平台桌面工具箱，这次 v1.1.18 版本主要完善了 AI 聊天功能的协议支持。 这次更新了什么 AI 聊天模块现在支持更多协议类型了。之前只支持 OpenAI 格式的接口，本次更新新增了 了 Anthropic Messages API 和 Google Gemini 原生协议的支持。 对于自定义服务商，现在可以在配置...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -66,8 +56,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -76,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -86,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -96,7 +86,7 @@
     "abstract": "Last month Intel announced the Arc Pro B70 with 32GB of GDDR6 video memory for this long-awaited Battlemage G31 graphics card. This new top-end Battlemage graphics card with 32 Xe ...",
     "pscore": 69,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   }
 ]
