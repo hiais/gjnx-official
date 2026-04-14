@@ -1,12 +1,22 @@
 [
   {
+    "title": "人形机器人从实验室到产线的最后一里路",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/420634",
+    "abstract": "过去两年，随着越来越多的国产人形机器人登上万众瞩目的大舞台，引发国内外主流媒体争相报道，「具身智能」从学术名词变成了产业热词。但实验室里的 Demo 和工厂里的稳定运行，中间隔着一道工程化的鸿沟。怎么让大模型真正操控机器人舞起来？怎么在真实环境里做强化学习？怎么把成本压到可量产？这些问题，需要一线从业者......",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "up"
+  },
+  {
     "title": "Google Cloud TPUs made available to Hugging Face users",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "01",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -16,8 +26,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -26,8 +36,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "Kairoa 开发者工具箱 v1.1.18 发布 - 新增 AI 多协议支持",
@@ -36,7 +46,7 @@
     "abstract": "Kairoa 是一款专为开发者打造的跨平台桌面工具箱，这次 v1.1.18 版本主要完善了 AI 聊天功能的协议支持。 这次更新了什么 AI 聊天模块现在支持更多协议类型了。之前只支持 OpenAI 格式的接口，本次更新新增了 了 Anthropic Messages API 和 Google Gemini 原生协议的支持。 对于自定义服务商，现在可以在配置...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -46,8 +56,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -56,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -66,7 +76,17 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
+    "trend": "up"
+  },
+  {
+    "title": "ng-zorro-antd 21.2.2 发布，基于 Angular 的 UI 组件",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/420702/ng-zorro-antd-21-2-2-released",
+    "abstract": "ng-zorro-antd 是 Ant Design 的 Angular 实现，主要用于研发企业级中后台产品。全部代码开源并遵循 MIT 协议，任何企业、组织及个人均可免费使用。 ng-zorro-antd 21.2.2 正式发布，更新内容如下： Bug Fixes input: 使用 ng control 值初始化 value (#9748) (c650b...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -76,7 +96,7 @@
     "abstract": "Last month Intel announced the Arc Pro B70 with 32GB of GDDR6 video memory for this long-awaited Battlemage G31 graphics card. This new top-end Battlemage graphics card with 32 Xe ...",
     "pscore": 69,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   }
 ]
