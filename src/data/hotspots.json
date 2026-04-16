@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "人形机器人从实验室到产线的最后一里路",
@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "CAAI携手中国人民大学高瓴人工智能学院、英博数科启动高校学院算力支持计划",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -57,7 +57,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "黄仁勋率先开源量子AI大模型",
@@ -97,7 +97,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "ng-zorro-antd 21.2.2 发布，基于 Angular 的 UI 组件",
@@ -107,12 +107,12 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "up"
+    "trend": "down"
   },
   {
-    "title": "Gemini Robotics-ER 1.6",
+    "title": "The Gemini app is now on Mac",
     "source": "HackerNews",
-    "link": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
+    "link": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/",
     "abstract": "Comments...",
     "pscore": 70,
     "category": "CHIP_FRONT",
@@ -127,6 +127,6 @@
     "pscore": 69,
     "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "up"
+    "trend": "down"
   }
 ]
