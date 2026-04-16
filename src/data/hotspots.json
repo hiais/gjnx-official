@@ -7,16 +7,26 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
-    "title": "人形机器人从实验室到产线的最后一里路",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/420634",
-    "abstract": "过去两年，随着越来越多的国产人形机器人登上万众瞩目的大舞台，引发国内外主流媒体争相报道，「具身智能」从学术名词变成了产业热词。但实验室里的 Demo 和工厂里的稳定运行，中间隔着一道工程化的鸿沟。怎么让大模型真正操控机器人舞起来？怎么在真实环境里做强化学习？怎么把成本压到可量产？这些问题，需要一线从业者......",
-    "pscore": 99,
+    "title": "短短3个月，高德已拿下具身智能领域15项世界第一",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/04/401649.html",
+    "abstract": "近期将有首款四足机器人发布。...",
+    "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "02",
+    "trend": "down"
+  },
+  {
+    "title": "具身智能为什么还没真正落地？问题卡在这｜沙龙报名",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/04/401541.html",
+    "abstract": "4月25日周六，不见不散！...",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -26,7 +36,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -34,16 +44,6 @@
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tf_tpu",
     "abstract": "",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
-  },
-  {
-    "title": "CAAI携手中国人民大学高瓴人工智能学院、英博数科启动高校学院算力支持计划",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/04/401479.html",
-    "abstract": "以智算为支撑，开启校企协同新篇章...",
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
@@ -57,17 +57,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
-  },
-  {
-    "title": "黄仁勋率先开源量子AI大模型",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/04/401351.html",
-    "abstract": "“AI会是量子计算机的操作系统”...",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -76,8 +66,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -86,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -96,27 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
-  },
-  {
-    "title": "ng-zorro-antd 21.2.2 发布，基于 Angular 的 UI 组件",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/420702/ng-zorro-antd-21-2-2-released",
-    "abstract": "ng-zorro-antd 是 Ant Design 的 Angular 实现，主要用于研发企业级中后台产品。全部代码开源并遵循 MIT 协议，任何企业、组织及个人均可免费使用。 ng-zorro-antd 21.2.2 正式发布，更新内容如下： Bug Fixes input: 使用 ng control 值初始化 value (#9748) (c650b...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
-  },
-  {
-    "title": "The Gemini app is now on Mac",
-    "source": "HackerNews",
-    "link": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/",
-    "abstract": "Comments...",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -126,7 +96,7 @@
     "abstract": "Last week after receiving the Intel Arc Pro B70 review hardware I began with some benchmarks looking at how the Arc Pro B70 compared to existing Intel GPUs on Linux with their full...",
     "pscore": 69,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   }
 ]
