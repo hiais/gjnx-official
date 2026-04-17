@@ -17,17 +17,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
-  },
-  {
-    "title": "TSMC and the Race for 2nm Capacity",
-    "source": "SemiWiki",
-    "link": "https://semiwiki.com/semiconductor-manufacturers/tsmc/367995-tsmc-and-the-race-for-2nm-capacity/",
-    "abstract": "TSMC sits at the center of the global semiconductor ecosystem, and its transition to 2nm (TSMC N2) manufacturing has become one of the most closely watched developments in the tech...",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "HeteroFlow 异构算力调度平台开源版 即将发布",
@@ -36,8 +26,28 @@
     "abstract": "HeteroFlow 异构算力调度平台开源版：让每一块 GPU 都物尽其用 HeteroFlow 是国内领先的开源异构算力 GPU 统一调度平台，支持 NVIDIA、昇腾、海光、寒武纪、壁仞、AMD 等 9 种 GPU 芯片的统一调度管理，已服务多家 AI 算力中心与科研机构。 GPU 显存分片——一块卡当多块用 screen 0: claude@VM-0-...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "up"
+  },
+  {
+    "title": "4.55亿美金！中国具身智能最大单笔融资诞生，高瓴红杉联手押注具身大脑",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/04/402388.html",
+    "abstract": "全栈大脑会成为具身智能下一阶段竞赛的胜负手...",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "04",
+    "trend": "down"
+  },
+  {
+    "title": "打造全球领先“具身智能超级供应链”，京东发布行业首个具身数据全链路基础设施",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/04/402063.html",
+    "abstract": "推动具身智能从实验室研发迈向规模化商业落地，打造“具身智能超级供应链”。...",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -46,8 +56,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -56,7 +66,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -66,8 +76,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "2026 年 AI 编码 CLI 工具终极对比：Claude、Cursor、Gemini、Codex",
@@ -76,7 +86,7 @@
     "abstract": "JEECG 低代码 AI 编程研究 | 从编程能力到 Skills 生态，五款主流 AI 编码 CLI 横评与选型指南 引言：AI 编码工具已是基础设施 如果你还把 AI 编程工具当作 \"锦上添花\" 的辅助品，那你可能已经落后了。2026 年，终端里的 AI Agent 早已超越了 \"聪明的自动补全\" 这一定位 ------ 它们能通读整个代码仓库、自主规划...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -86,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -96,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -106,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "down"
   },
   {
@@ -116,27 +126,27 @@
     "abstract": "Canonical today released Mir 2.26 as the newest feature release for this compositor for building Wayland-based shells. Notable with Mir 2.26 is a Rust-based input platform is in de...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
-  },
-  {
-    "title": "Ant Design 6.3.6 发布，企业级 UI 设计语言和 React 实现",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/430752/ant-design-6-3-6-released",
-    "abstract": "Ant Design 是阿里巴巴开源的一套企业级 UI 设计语言和 React 组件库。Ant Design 6.3.6 现已发布，主要更新内容如下： 修复 InputNumber 禁用步进按钮仍显示悬浮样式的问题。 #57592 修复 Space.Addon 在紧凑布局中展示中文等 CJK 内容时会换行的问题。 #57622 修复 Cascader 菜单项...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
     "rank": "13",
     "trend": "down"
   },
   {
-    "title": "Intel Arc Pro B70 Open-Source Linux Performance Against NVIDIA RTX & AMD Radeon AI PRO",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/intel-arc-pro-b70",
-    "abstract": "Last week after receiving the Intel Arc Pro B70 review hardware I began with some benchmarks looking at how the Arc Pro B70 compared to existing Intel GPUs on Linux with their full...",
-    "pscore": 69,
+    "title": "11.58万，全系Lidar+L4同源算法，广汽文远把城区NOA打成白菜价",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/04/402440.html",
+    "abstract": "算力只需200TOPS...",
+    "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "14",
+    "trend": "down"
+  },
+  {
+    "title": "18家具身顶尖势力集结，RoboChallenge 打造全球最大具身模型竞技场",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/04/402186.html",
+    "abstract": "RoboChallenge 正式完成第二批生态扩容，星动纪元、极佳视界、地平线、光轮智能、生数科技、中移杭研、长虹、算力自由8 家顶尖企业重磅入驻...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "15",
     "trend": "down"
   }
 ]
