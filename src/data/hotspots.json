@@ -1,12 +1,22 @@
 [
   {
+    "title": "具身智能领域首个国际标准成功立项",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/430625",
+    "abstract": "我国在国际标准化组织成功立项具身智能领域全球首项国际标准《人形机器人数据集》，并推动成立了首个由我国专家担任召集人的工作组。 当前，美国、日本、欧盟等主要经济体都将人形机器人纳入国家科技战略，争相布局研发与应用。 国际标准化组织机器人技术委员会国内技术对口单位负责人王振林表示，全球机器人领域的话语权......",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "down"
+  },
+  {
     "title": "HeteroFlow 异构算力调度平台",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/421192",
     "abstract": "HeteroFlow v2 企业版 异构算力统一调度平台 — 让每一张国产 GPU 都物尽其用 为什么选择 HeteroFlow？ 在国产 GPU 快速发展的今天，数据中心面临着前所未有的挑战：摩尔线程、海光、寒武纪、昇腾、壁仞、昆仑芯……品牌众多、架构各异，每一家都有独立的驱动和管理工具。算力碎片化、资源利用率低、运维成本高企，已经成......",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "01",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -16,8 +26,8 @@
     "abstract": "HeteroFlow 异构算力调度平台开源版：让每一块 GPU 都物尽其用 HeteroFlow 是国内领先的开源异构算力 GPU 统一调度平台，支持 NVIDIA、昇腾、海光、寒武纪、壁仞、AMD 等 9 种 GPU 芯片的统一调度管理，已服务多家 AI 算力中心与科研机构。 GPU 显存分片——一块卡当多块用 screen 0: claude@VM-0-...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "打造全球领先“具身智能超级供应链”，京东发布行业首个具身数据全链路基础设施",
@@ -26,18 +36,8 @@
     "abstract": "推动具身智能从实验室研发迈向规模化商业落地，打造“具身智能超级供应链”。...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
-  },
-  {
-    "title": "它石智航Pre-A轮融资4.55亿美金破中国具身智能纪录，高瓴红杉美团联合领投",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/04/401714.html",
-    "abstract": "创下中国具身智能有史以来最高单轮融资纪录，仅用一年时间成功领跑具身智能行业第一梯队。...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -70,14 +70,24 @@
     "trend": "up"
   },
   {
+    "title": "2026 年 AI 编码 CLI 工具终极对比：Claude、Cursor、Gemini、Codex",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/430624",
+    "abstract": "JEECG 低代码 AI 编程研究 | 从编程能力到 Skills 生态，五款主流 AI 编码 CLI 横评与选型指南 引言：AI 编码工具已是基础设施 如果你还把 AI 编程工具当作 \"锦上添花\" 的辅助品，那你可能已经落后了。2026 年，终端里的 AI Agent 早已超越了 \"聪明的自动补全\" 这一定位 ------ 它们能通读整个代码仓库、自主规划...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "08",
+    "trend": "up"
+  },
+  {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/keras-chatbot-arena",
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -86,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -96,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -106,7 +116,17 @@
     "abstract": "Canonical today released Mir 2.26 as the newest feature release for this compositor for building Wayland-based shells. Notable with Mir 2.26 is a Rust-based input platform is in de...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
+    "trend": "up"
+  },
+  {
+    "title": "18家具身顶尖势力集结，RoboChallenge 打造全球最大具身模型竞技场",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/04/402186.html",
+    "abstract": "RoboChallenge 正式完成第二批生态扩容，星动纪元、极佳视界、地平线、光轮智能、生数科技、中移杭研、长虹、算力自由8 家顶尖企业重磅入驻...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "13",
     "trend": "up"
   },
   {
@@ -116,7 +136,7 @@
     "abstract": "Last week after receiving the Intel Arc Pro B70 review hardware I began with some benchmarks looking at how the Arc Pro B70 compared to existing Intel GPUs on Linux with their full...",
     "pscore": 69,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "14",
     "trend": "down"
   }
 ]
