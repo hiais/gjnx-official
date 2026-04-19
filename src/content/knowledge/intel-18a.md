@@ -1,6 +1,6 @@
 ---
 title: Intel 18A
-date: 2026-04-19T15:40:15.382Z
+date: 2026-04-19T16:29:24.851Z
 category: 半导体工艺
 tags:
   - 英特尔

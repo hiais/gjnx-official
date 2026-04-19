@@ -1,6 +1,6 @@
 ---
 title: GUI (图形用户界面)
-date: 2026-04-19T15:40:15.625Z
+date: 2026-04-19T16:29:25.099Z
 category: Auto-Mined
 tags:
   - Auto-Gen
