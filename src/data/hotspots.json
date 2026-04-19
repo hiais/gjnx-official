@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "HeteroFlow 异构算力调度平台",
@@ -27,13 +27,13 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
-    "title": "4.55亿美金！中国具身智能最大单笔融资诞生，高瓴红杉联手押注具身大脑",
+    "title": "高德发布全球首个面向AGI的全栈具身技术体系“ABot”：15项SOTA，构建持续进化的具身智能闭环",
     "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/04/402388.html",
-    "abstract": "全栈大脑会成为具身智能下一阶段竞赛的胜负手...",
+    "link": "https://www.qbitai.com/2026/04/403505.html",
+    "abstract": "打造出全球首个面向AGI的全栈具身技术体系。...",
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "04",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -57,7 +57,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -77,7 +77,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Mir 2.26 Begins Working On Rust-Based Input Platform",
@@ -120,33 +120,13 @@
     "trend": "up"
   },
   {
-    "title": "11.58万，全系Lidar+L4同源算法，广汽文远把城区NOA打成白菜价",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/04/402440.html",
-    "abstract": "算力只需200TOPS...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
-  },
-  {
     "title": "Ant Design 6.3.6 发布，企业级 UI 设计语言和 React 实现",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/430752/ant-design-6-3-6-released",
     "abstract": "Ant Design 是阿里巴巴开源的一套企业级 UI 设计语言和 React 组件库。Ant Design 6.3.6 现已发布，主要更新内容如下： 修复 InputNumber 禁用步进按钮仍显示悬浮样式的问题。 #57592 修复 Space.Addon 在紧凑布局中展示中文等 CJK 内容时会换行的问题。 #57622 修复 Cascader 菜单项...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
-  },
-  {
-    "title": "谷歌最强具身大脑发布！波士顿机器狗瞬间人模人样",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/04/402329.html",
-    "abstract": "Gemini Robotics主打空间推理的第三代模型。...",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "15",
+    "rank": "13",
     "trend": "down"
   }
 ]
