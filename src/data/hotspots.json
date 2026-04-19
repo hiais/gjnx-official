@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "HeteroFlow 异构算力调度平台",
@@ -27,7 +27,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "4.55亿美金！中国具身智能最大单笔融资诞生，高瓴红杉联手押注具身大脑",
@@ -37,7 +37,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -57,7 +57,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -67,7 +67,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "2026 年 AI 编码 CLI 工具终极对比：Claude、Cursor、Gemini、Codex",
@@ -77,7 +77,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -97,7 +97,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -130,23 +130,23 @@
     "trend": "up"
   },
   {
-    "title": "18家具身顶尖势力集结，RoboChallenge 打造全球最大具身模型竞技场",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/04/402186.html",
-    "abstract": "RoboChallenge 正式完成第二批生态扩容，星动纪元、极佳视界、地平线、光轮智能、生数科技、中移杭研、长虹、算力自由8 家顶尖企业重磅入驻...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
-  },
-  {
     "title": "Ant Design 6.3.6 发布，企业级 UI 设计语言和 React 实现",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/430752/ant-design-6-3-6-released",
     "abstract": "Ant Design 是阿里巴巴开源的一套企业级 UI 设计语言和 React 组件库。Ant Design 6.3.6 现已发布，主要更新内容如下： 修复 InputNumber 禁用步进按钮仍显示悬浮样式的问题。 #57592 修复 Space.Addon 在紧凑布局中展示中文等 CJK 内容时会换行的问题。 #57622 修复 Cascader 菜单项...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "15",
+    "rank": "14",
     "trend": "up"
+  },
+  {
+    "title": "谷歌最强具身大脑发布！波士顿机器狗瞬间人模人样",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/04/402329.html",
+    "abstract": "Gemini Robotics主打空间推理的第三代模型。...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "15",
+    "trend": "down"
   }
 ]
