@@ -27,7 +27,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "高德发布全球首个面向AGI的全栈具身技术体系“ABot”：15项SOTA，构建持续进化的具身智能闭环",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -57,7 +57,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -70,13 +70,33 @@
     "trend": "up"
   },
   {
+    "title": "尝试 Gemini CLI 替代 Claude，Jeecg skills 基本通畅，但遇致命问题",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/433408",
+    "abstract": "AI Agent 使用体验 | JeecgBoot 团队将日常 Claude Code 工作流迁移到 Gemini CLI 的阶段性总结 为什么要换 Gemini CLI JeecgBoot 低代码团队平时主力用 Claude Code 做代码生成、文档写作、重构脚本。但 Claude 最近实名认证 + 频繁封号的事闹得人心惶惶 —— 身边已经有好几个账号莫...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "08",
+    "trend": "down"
+  },
+  {
     "title": "2026 年 AI 编码 CLI 工具终极对比：Claude、Cursor、Gemini、Codex",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/430624",
     "abstract": "JEECG 低代码 AI 编程研究 | 从编程能力到 Skills 生态，五款主流 AI 编码 CLI 横评与选型指南 引言：AI 编码工具已是基础设施 如果你还把 AI 编程工具当作 \"锦上添花\" 的辅助品，那你可能已经落后了。2026 年，终端里的 AI Agent 早已超越了 \"聪明的自动补全\" 这一定位 ------ 它们能通读整个代码仓库、自主规划...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
+    "trend": "down"
+  },
+  {
+    "title": "Reading Input from an USB RFID Card Reader",
+    "source": "HackerNews",
+    "link": "https://kevwe.com/blog/usb-rfid-reader",
+    "abstract": "Comments...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -86,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -96,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "12",
     "trend": "down"
   },
   {
@@ -106,8 +126,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
   },
   {
     "title": "Mir 2.26 Begins Working On Rust-Based Input Platform",
@@ -116,7 +136,7 @@
     "abstract": "Canonical today released Mir 2.26 as the newest feature release for this compositor for building Wayland-based shells. Notable with Mir 2.26 is a Rust-based input platform is in de...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "14",
     "trend": "up"
   },
   {
@@ -126,7 +146,7 @@
     "abstract": "Ant Design 是阿里巴巴开源的一套企业级 UI 设计语言和 React 组件库。Ant Design 6.3.6 现已发布，主要更新内容如下： 修复 InputNumber 禁用步进按钮仍显示悬浮样式的问题。 #57592 修复 Space.Addon 在紧凑布局中展示中文等 CJK 内容时会换行的问题。 #57622 修复 Cascader 菜单项...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "15",
+    "trend": "up"
   }
 ]
