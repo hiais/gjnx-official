@@ -10,23 +10,13 @@
     "trend": "up"
   },
   {
-    "title": "HeteroFlow 异构算力调度平台",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/421192",
-    "abstract": "HeteroFlow v2 企业版 异构算力统一调度平台 — 让每一张国产 GPU 都物尽其用 为什么选择 HeteroFlow？ 在国产 GPU 快速发展的今天，数据中心面临着前所未有的挑战：摩尔线程、海光、寒武纪、昇腾、壁仞、昆仑芯……品牌众多、架构各异，每一家都有独立的驱动和管理工具。算力碎片化、资源利用率低、运维成本高企，已经成......",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
-  },
-  {
     "title": "HeteroFlow 异构算力调度平台开源版 即将发布",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/430571",
     "abstract": "HeteroFlow 异构算力调度平台开源版：让每一块 GPU 都物尽其用 HeteroFlow 是国内领先的开源异构算力 GPU 统一调度平台，支持 NVIDIA、昇腾、海光、寒武纪、壁仞、AMD 等 9 种 GPU 芯片的统一调度管理，已服务多家 AI 算力中心与科研机构。 GPU 显存分片——一块卡当多块用 screen 0: claude@VM-0-...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -36,8 +26,8 @@
     "abstract": "打造出全球首个面向AGI的全栈具身技术体系。...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -46,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -56,7 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -66,8 +56,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "尝试 Gemini CLI 替代 Claude，Jeecg skills 基本通畅，但遇致命问题",
@@ -76,7 +66,7 @@
     "abstract": "AI Agent 使用体验 | JeecgBoot 团队将日常 Claude Code 工作流迁移到 Gemini CLI 的阶段性总结 为什么要换 Gemini CLI JeecgBoot 低代码团队平时主力用 Claude Code 做代码生成、文档写作、重构脚本。但 Claude 最近实名认证 + 频繁封号的事闹得人心惶惶 —— 身边已经有好几个账号莫...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -86,18 +76,8 @@
     "abstract": "JEECG 低代码 AI 编程研究 | 从编程能力到 Skills 生态，五款主流 AI 编码 CLI 横评与选型指南 引言：AI 编码工具已是基础设施 如果你还把 AI 编程工具当作 \"锦上添花\" 的辅助品，那你可能已经落后了。2026 年，终端里的 AI Agent 早已超越了 \"聪明的自动补全\" 这一定位 ------ 它们能通读整个代码仓库、自主规划...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
-  },
-  {
-    "title": "Reading Input from an USB RFID Card Reader",
-    "source": "HackerNews",
-    "link": "https://kevwe.com/blog/usb-rfid-reader",
-    "abstract": "Comments...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -106,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -116,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -126,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -136,8 +116,8 @@
     "abstract": "Canonical today released Mir 2.26 as the newest feature release for this compositor for building Wayland-based shells. Notable with Mir 2.26 is a Rust-based input platform is in de...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "Ant Design 6.3.6 发布，企业级 UI 设计语言和 React 实现",
@@ -146,7 +126,7 @@
     "abstract": "Ant Design 是阿里巴巴开源的一套企业级 UI 设计语言和 React 组件库。Ant Design 6.3.6 现已发布，主要更新内容如下： 修复 InputNumber 禁用步进按钮仍显示悬浮样式的问题。 #57592 修复 Space.Addon 在紧凑布局中展示中文等 CJK 内容时会换行的问题。 #57622 修复 Cascader 菜单项...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "15",
+    "rank": "13",
     "trend": "up"
   }
 ]
