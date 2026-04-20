@@ -1,6 +1,6 @@
 ---
 title: LTPO (自适应刷新率)
-date: 2026-04-19T16:29:25.038Z
+date: 2026-04-20T14:34:25.143Z
 category: Auto-Mined
 tags:
   - Auto-Gen
