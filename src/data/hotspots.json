@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "HeteroFlow 异构算力调度平台开源版 即将发布",
@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "谁能通过真实世界考验？ATEC2026发起具身智能“图灵测试”",
@@ -27,7 +27,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -57,7 +57,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "尝试 Gemini CLI 替代 Claude，Jeecg skills 基本通畅，但遇致命问题",
@@ -67,7 +67,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "2026 年 AI 编码 CLI 工具终极对比：Claude、Cursor、Gemini、Codex",
@@ -117,6 +117,16 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "down"
+    "trend": "up"
+  },
+  {
+    "title": "I prompted ChatGPT, Claude, Perplexity, and Gemini and watched my Nginx logs",
+    "source": "HackerNews",
+    "link": "https://surfacedby.com/blog/nginx-logs-ai-traffic-vs-referral-traffic",
+    "abstract": "Comments...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "13",
+    "trend": "up"
   }
 ]
