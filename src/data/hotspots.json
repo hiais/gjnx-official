@@ -7,7 +7,17 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
+  },
+  {
+    "title": "AMD's GAIA Makes It Easier To Import/Export Custom AI Agents Across PCs",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/AMD-GAIA-Import-Export-Agent",
+    "abstract": "AMD on the software side continues investing heavily in GAIA \"Generative AI Is Awesome\" as their cross-platform solution built around the Lemonade SDK for running local AI agents o...",
+    "pscore": 92,
+    "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "down"
   },
   {
     "title": "HeteroFlow 异构算力调度平台开源版 即将发布",
@@ -16,7 +26,7 @@
     "abstract": "HeteroFlow 异构算力调度平台开源版：让每一块 GPU 都物尽其用 HeteroFlow 是国内领先的开源异构算力 GPU 统一调度平台，支持 NVIDIA、昇腾、海光、寒武纪、壁仞、AMD 等 9 种 GPU 芯片的统一调度管理，已服务多家 AI 算力中心与科研机构。 GPU 显存分片——一块卡当多块用 screen 0: claude@VM-0-...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -26,8 +36,8 @@
     "abstract": "",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -36,8 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -46,7 +56,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -56,8 +66,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "尝试 Gemini CLI 替代 Claude，Jeecg skills 基本通畅，但遇致命问题",
@@ -66,7 +76,7 @@
     "abstract": "AI Agent 使用体验 | JeecgBoot 团队将日常 Claude Code 工作流迁移到 Gemini CLI 的阶段性总结 为什么要换 Gemini CLI JeecgBoot 低代码团队平时主力用 Claude Code 做代码生成、文档写作、重构脚本。但 Claude 最近实名认证 + 频繁封号的事闹得人心惶惶 —— 身边已经有好几个账号莫...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -76,7 +86,7 @@
     "abstract": "JEECG 低代码 AI 编程研究 | 从编程能力到 Skills 生态，五款主流 AI 编码 CLI 横评与选型指南 引言：AI 编码工具已是基础设施 如果你还把 AI 编程工具当作 \"锦上添花\" 的辅助品，那你可能已经落后了。2026 年，终端里的 AI Agent 早已超越了 \"聪明的自动补全\" 这一定位 ------ 它们能通读整个代码仓库、自主规划...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -86,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -96,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -106,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "Ant Design 6.3.6 发布，企业级 UI 设计语言和 React 实现",
@@ -116,17 +126,7 @@
     "abstract": "Ant Design 是阿里巴巴开源的一套企业级 UI 设计语言和 React 组件库。Ant Design 6.3.6 现已发布，主要更新内容如下： 修复 InputNumber 禁用步进按钮仍显示悬浮样式的问题。 #57592 修复 Space.Addon 在紧凑布局中展示中文等 CJK 内容时会换行的问题。 #57622 修复 Cascader 菜单项...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
-  },
-  {
-    "title": "I prompted ChatGPT, Claude, Perplexity, and Gemini and watched my Nginx logs",
-    "source": "HackerNews",
-    "link": "https://surfacedby.com/blog/nginx-logs-ai-traffic-vs-referral-traffic",
-    "abstract": "Comments...",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "up"
+    "trend": "down"
   }
 ]
