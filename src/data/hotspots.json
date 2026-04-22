@@ -7,7 +7,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "物理优先+VLA闭环进化：高德ABot-World世界模型，破解具身智能零样本泛化难题",
@@ -17,7 +17,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -47,17 +47,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
-  },
-  {
-    "title": "尝试 Gemini CLI 替代 Claude，Jeecg skills 基本通畅，但遇致命问题",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/433408",
-    "abstract": "AI Agent 使用体验 | JeecgBoot 团队将日常 Claude Code 工作流迁移到 Gemini CLI 的阶段性总结 为什么要换 Gemini CLI JeecgBoot 低代码团队平时主力用 Claude Code 做代码生成、文档写作、重构脚本。但 Claude 最近实名认证 + 频繁封号的事闹得人心惶惶 —— 身边已经有好几个账号莫...",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -66,8 +56,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -76,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -86,17 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "down"
-  },
-  {
-    "title": "Ant Design 6.3.6 发布，企业级 UI 设计语言和 React 实现",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/430752/ant-design-6-3-6-released",
-    "abstract": "Ant Design 是阿里巴巴开源的一套企业级 UI 设计语言和 React 组件库。Ant Design 6.3.6 现已发布，主要更新内容如下： 修复 InputNumber 禁用步进按钮仍显示悬浮样式的问题。 #57592 修复 Space.Addon 在紧凑布局中展示中文等 CJK 内容时会换行的问题。 #57622 修复 Cascader 菜单项...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
   }
 ]
