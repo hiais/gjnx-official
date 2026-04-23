@@ -1,23 +1,13 @@
 [
   {
-    "title": "AMD's GAIA Makes It Easier To Import/Export Custom AI Agents Across PCs",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/AMD-GAIA-Import-Export-Agent",
-    "abstract": "AMD on the software side continues investing heavily in GAIA \"Generative AI Is Awesome\" as their cross-platform solution built around the Lemonade SDK for running local AI agents o...",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "down"
-  },
-  {
     "title": "Google Cloud TPUs made available to Hugging Face users",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
+    "rank": "01",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -26,7 +16,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -35,6 +25,16 @@
     "link": "https://huggingface.co/blog/inference-providers-groq",
     "abstract": "",
     "pscore": 80,
+    "category": "CHIP_FRONT",
+    "rank": "03",
+    "trend": "up"
+  },
+  {
+    "title": "GPT-5.5",
+    "source": "HackerNews",
+    "link": "https://openai.com/index/introducing-gpt-5-5/",
+    "abstract": "Comments...",
+    "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "04",
     "trend": "down"
@@ -70,13 +70,23 @@
     "trend": "up"
   },
   {
+    "title": "Godot 4.7 Will Finally Have HDR Output, Including On Linux With Wayland",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Godot-4.7-With-HDR",
+    "abstract": "The upcoming Godot 4.7 open-source, cross-platform game engine release is rolling out support for high dynamic range (HDR)......",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "08",
+    "trend": "down"
+  },
+  {
     "title": "Semi Design v2.95.0 发布，抖音企业级 UI 库",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/436255/semi-design-2-95-0-released",
     "abstract": "Semi Design 是现代、全面、灵活的设计系统和 UI 库，由字节跳动抖音前端与 UED 团队设计、开发并维护，是一款包含设计语言、React 组件、主题等开箱即用的中后台解决方案，可用于快速搭建美观的 React 应用。 Semi Design v2.95.0 已发布，此版本带来如下更新内容： 【Feature】 Input 和 TextArea 组...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
     "trend": "down"
   }
 ]
