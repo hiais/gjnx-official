@@ -7,7 +7,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -17,7 +17,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -37,7 +37,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "TorchTPU: Running PyTorch Natively on TPUs at Google Scale",
@@ -67,7 +67,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -77,7 +77,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Godot 4.7 Will Finally Have HDR Output, Including On Linux With Wayland",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "刚刚，GPT-5.5发布！内测英伟达工程师：失去它像被截肢",
@@ -97,17 +97,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
-  },
-  {
-    "title": "Semi Design v2.95.0 发布，抖音企业级 UI 库",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/436255/semi-design-2-95-0-released",
-    "abstract": "Semi Design 是现代、全面、灵活的设计系统和 UI 库，由字节跳动抖音前端与 UED 团队设计、开发并维护，是一款包含设计语言、React 组件、主题等开箱即用的中后台解决方案，可用于快速搭建美观的 React 应用。 Semi Design v2.95.0 已发布，此版本带来如下更新内容： 【Feature】 Input 和 TextArea 组...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "集结！上海·徐汇 量子黑客松大赛 2026 正式官宣，50 万奖金等你来战",
@@ -116,7 +106,7 @@
     "abstract": "量子计算，正在从实验室走向真实的产业战场。 2026 年 5 月 16 日至 17 日，「上海·徐汇 量子黑客松大赛 2026」 将在上海徐汇源点大厦 2 号楼展示中心正式开幕。这是一场面向量子计算领域开发者、研究者与创业团队的极限编码挑战 —— 5 大赛道、30 支队伍、50 万元奖金总额，在同一个屋顶下，写代码、跑算法、路演、拿......",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   }
 ]
