@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -27,6 +27,16 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
+    "trend": "down"
+  },
+  {
+    "title": "Linux 7.1 Removes Drivers For Long Obsolete Input Hardware: Bye Bus Mouse Support",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Linux-7.1-Input",
+    "abstract": "Beyond Linux looking to remove old drivers due to the surge of AI/LLM bug reports, the Linux 7.1 kernel is also removing some old hardware drivers simply on the basis of long obsol...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -36,23 +46,13 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
     "trend": "up"
   },
   {
     "title": "GPT-5.5",
     "source": "HackerNews",
     "link": "https://openai.com/index/introducing-gpt-5-5/",
-    "abstract": "Comments...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
-  },
-  {
-    "title": "TorchTPU: Running PyTorch Natively on TPUs at Google Scale",
-    "source": "HackerNews",
-    "link": "https://developers.googleblog.com/torchtpu-running-pytorch-natively-on-tpus-at-google-scale/",
     "abstract": "Comments...",
     "pscore": 75,
     "category": "CHIP_FRONT",
@@ -67,7 +67,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -77,7 +77,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "集结！上海·徐汇 量子黑客松大赛 2026 正式官宣，50 万奖金等你来战",
@@ -117,6 +117,6 @@
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "up"
+    "trend": "down"
   }
 ]
