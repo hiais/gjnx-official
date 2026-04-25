@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -57,7 +57,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -90,14 +90,24 @@
     "trend": "up"
   },
   {
+    "title": "Godot 4.7 Reaches Beta With HDR Output, Ray-Tracing Improvements & Editor Enhancements",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Godot-4.7-Beta",
+    "abstract": "Godot 4.7 reached its beta milestone on Friday for this leading open-source, cross-platform game engine......",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "10",
+    "trend": "down"
+  },
+  {
     "title": "Godot 4.7 Will Finally Have HDR Output, Including On Linux With Wayland",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/news/Godot-4.7-With-HDR",
     "abstract": "The upcoming Godot 4.7 open-source, cross-platform game engine release is rolling out support for high dynamic range (HDR)......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "优必选发布Thinker cosmos：加码开发者生态，推动人形机器人走向规模化",
@@ -106,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "集结！上海·徐汇 量子黑客松大赛 2026 正式官宣，50 万奖金等你来战",
@@ -116,7 +126,7 @@
     "abstract": "量子计算，正在从实验室走向真实的产业战场。 2026 年 5 月 16 日至 17 日，「上海·徐汇 量子黑客松大赛 2026」 将在上海徐汇源点大厦 2 号楼展示中心正式开幕。这是一场面向量子计算领域开发者、研究者与创业团队的极限编码挑战 —— 5 大赛道、30 支队伍、50 万元奖金总额，在同一个屋顶下，写代码、跑算法、路演、拿......",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
   }
 ]
