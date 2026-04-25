@@ -10,14 +10,14 @@
     "trend": "down"
   },
   {
-    "title": "OpenAI releases GPT-5.5 and GPT-5.5 Pro in the API",
-    "source": "HackerNews",
-    "link": "https://developers.openai.com/api/docs/changelog",
-    "abstract": "Comments...",
-    "pscore": 82,
+    "title": "HeteroFlow 异构算力调度平台再获突破 成功适配八大国产 GPU 品牌",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/437482",
+    "abstract": "北京，2026年4月24日 - 国内领先的异构算力调度平台HeteroFlow今日宣布，已成功完成对主流国产GPU品牌的全面适配与测试，标志着我国自主可控算力生态建设迈出重要一步。 此次适配通过测试的国产GPU品牌包括：沐曦-曦云、燧原S60、天数智芯-天垓-智铠、壁砺106M、海光、摩尔线程、华为昇腾以及英伟达。HeteroFlow平台通过......",
+    "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -77,7 +77,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -97,7 +97,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "优必选发布Thinker cosmos：加码开发者生态，推动人形机器人走向规模化",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "集结！上海·徐汇 量子黑客松大赛 2026 正式官宣，50 万奖金等你来战",
