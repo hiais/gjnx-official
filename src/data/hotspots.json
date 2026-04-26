@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "HeteroFlow 异构算力调度平台再获突破 成功适配八大国产 GPU 品牌",
@@ -17,7 +17,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -57,7 +57,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Godot 4.7 Reaches Beta With HDR Output, Ray-Tracing Improvements & Editor Enhancements",
@@ -107,16 +107,6 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "down"
-  },
-  {
-    "title": "优必选发布Thinker cosmos：加码开发者生态，推动人形机器人走向规模化",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/04/406806.html",
-    "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "12",
     "trend": "up"
   },
   {
@@ -126,7 +116,7 @@
     "abstract": "量子计算，正在从实验室走向真实的产业战场。 2026 年 5 月 16 日至 17 日，「上海·徐汇 量子黑客松大赛 2026」 将在上海徐汇源点大厦 2 号楼展示中心正式开幕。这是一场面向量子计算领域开发者、研究者与创业团队的极限编码挑战 —— 5 大赛道、30 支队伍、50 万元奖金总额，在同一个屋顶下，写代码、跑算法、路演、拿......",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   }
 ]
