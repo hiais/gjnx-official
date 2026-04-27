@@ -7,6 +7,36 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
+    "trend": "down"
+  },
+  {
+    "title": "Meta 裁员 8000 人：AI 军备竞赛下的人本代价",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/437523",
+    "abstract": "Meta宣布裁减10%员工（约8000人）并取消6000个开放岗位，以此为公司2026年1150-1350亿美元的AI基础设施投资\"腾挪资源\"。这是继2023年\"效率年\"后又一次大规模人员精简，凸显科技巨头正将人力成本向算力资本转移的结构性转变。 2026年4月23日，Meta首席人才官Janelle Gale在内部备忘录中宣布，公司将于5月20日开始裁减约...",
+    "pscore": 94,
+    "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "up"
+  },
+  {
+    "title": "OSC 源创会 × FAIR plus2026 · 具身智能工程化实战沙龙成功举办",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/437503",
+    "abstract": "2026年4月24日，OSC源创会·深圳站【具身智能工程化实战沙龙】在深圳福田会展中心顺利举行。现场人气满满，吸引了近百名具身智能开发者、行业专家、硬件DIY爱好者及机器人技术工程师参与。 本次OSC源创会活动与FAIR plus2026共同举办，FAIR plus2026是在广东省工业和信息化厅、深圳市工业和信息化局的业务指导，以及中国......",
+    "pscore": 92,
+    "category": "CHIP_FRONT",
+    "rank": "03",
+    "trend": "down"
+  },
+  {
+    "title": "昇腾全面开源开放CANN，90+开源社区对接、70+大模型0day适配，Agent框架降低开发门槛",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/437509",
+    "abstract": "在AI从\"对话工具\"迈向\"生产代理\"的转折点上，算力底座的开放程度正在成为生态竞争的关键变量。华为昇腾在近期的生态媒体沟通会上释放了明确信号：CANN（Compute Architecture for Neural Networks）全面开源开放，与Triton、PyTorch、vLLM等90多个主流开源社区深度对接，并对DeepSeek、Qwen等70+全...",
+    "pscore": 89,
+    "category": "CHIP_FRONT",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -16,7 +46,7 @@
     "abstract": "北京，2026年4月24日 - 国内领先的异构算力调度平台HeteroFlow今日宣布，已成功完成对主流国产GPU品牌的全面适配与测试，标志着我国自主可控算力生态建设迈出重要一步。 此次适配通过测试的国产GPU品牌包括：沐曦-曦云、燧原S60、天数智芯-天垓-智铠、壁砺106M、海光、摩尔线程、华为昇腾以及英伟达。HeteroFlow平台通过......",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -26,7 +56,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -36,7 +66,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -46,7 +76,7 @@
     "abstract": "Beyond Linux looking to remove old drivers due to the surge of AI/LLM bug reports, the Linux 7.1 kernel is also removing some old hardware drivers simply on the basis of long obsol...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -56,8 +86,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -66,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -76,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -86,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "Godot 4.7 Reaches Beta With HDR Output, Ray-Tracing Improvements & Editor Enhancements",
@@ -96,8 +126,8 @@
     "abstract": "Godot 4.7 reached its beta milestone on Friday for this leading open-source, cross-platform game engine......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
   },
   {
     "title": "Godot 4.7 Will Finally Have HDR Output, Including On Linux With Wayland",
@@ -106,17 +136,17 @@
     "abstract": "The upcoming Godot 4.7 open-source, cross-platform game engine release is rolling out support for high dynamic range (HDR)......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "14",
+    "trend": "up"
   },
   {
-    "title": "集结！上海·徐汇 量子黑客松大赛 2026 正式官宣，50 万奖金等你来战",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/437455",
-    "abstract": "量子计算，正在从实验室走向真实的产业战场。 2026 年 5 月 16 日至 17 日，「上海·徐汇 量子黑客松大赛 2026」 将在上海徐汇源点大厦 2 号楼展示中心正式开幕。这是一场面向量子计算领域开发者、研究者与创业团队的极限编码挑战 —— 5 大赛道、30 支队伍、50 万元奖金总额，在同一个屋顶下，写代码、跑算法、路演、拿......",
-    "pscore": 70,
+    "title": "Token驱动未来，城市如何抢占算力新赛道？",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/04/407960.html",
+    "abstract": "报名大会现场观摩...",
+    "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "15",
     "trend": "down"
   }
 ]
