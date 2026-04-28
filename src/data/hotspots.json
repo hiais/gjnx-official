@@ -1,9 +1,9 @@
 [
   {
-    "title": "All in One Bluetooth Audio: A Complete Solution on a TSMC 12nm Single Die",
-    "source": "SemiWiki",
-    "link": "https://semiwiki.com/ip/ceva/368574-all-in-one-bluetooth-audio-a-complete-solution-on-a-tsmc-12nm-single-die/",
-    "abstract": "The rapid evolution of wireless audio has placed unprecedented demands on system integration, power efficiency, and performance. Against this backdrop, the webinar “All-in-One Blue...",
+    "title": "AMD's Lemonade SDK 10.3 Now 10x Smaller By Getting Rid Of Electron",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/AMD-Lemonade-10.3",
+    "abstract": "Lemonade as the open-source local AI server backed by AMD and supported across AMD CPUs / GPUs / NPUs on Windows and Linux is out with a big update......",
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
@@ -37,7 +37,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "昇腾全面开源开放CANN，90+开源社区对接、70+大模型0day适配，Agent框架降低开发门槛",
@@ -47,17 +47,7 @@
     "pscore": 89,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
-  },
-  {
-    "title": "HeteroFlow 异构算力调度平台再获突破 成功适配八大国产 GPU 品牌",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/437482",
-    "abstract": "北京，2026年4月24日 - 国内领先的异构算力调度平台HeteroFlow今日宣布，已成功完成对主流国产GPU品牌的全面适配与测试，标志着我国自主可控算力生态建设迈出重要一步。 此次适配通过测试的国产GPU品牌包括：沐曦-曦云、燧原S60、天数智芯-天垓-智铠、壁砺106M、海光、摩尔线程、华为昇腾以及英伟达。HeteroFlow平台通过......",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -66,7 +56,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -76,18 +66,18 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "up"
   },
   {
-    "title": "Linux 7.1 Removes Drivers For Long Obsolete Input Hardware: Bye Bus Mouse Support",
+    "title": "AMDXDNA Driver Preps Hardware Scheduler Time Quantum For Ryzen AI Multi-User Fairness",
     "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Linux-7.1-Input",
-    "abstract": "Beyond Linux looking to remove old drivers due to the surge of AI/LLM bug reports, the Linux 7.1 kernel is also removing some old hardware drivers simply on the basis of long obsol...",
+    "link": "https://www.phoronix.com/news/AMDXDNA-Hardware-Sched-Quant",
+    "abstract": "The AMDXDNA accelerator driver for Ryzen AI NPUs is preparing a new feature called hardware scheduler time quantum for ensuring fairness between multiple users/contexts wanting to ...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -96,7 +86,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -106,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -116,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -126,14 +116,24 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "12",
     "trend": "up"
   },
   {
-    "title": "Godot 4.7 Reaches Beta With HDR Output, Ray-Tracing Improvements & Editor Enhancements",
+    "title": "GCC 16's Improved Error Messages, Experimental HTML Output",
     "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Godot-4.7-Beta",
-    "abstract": "Godot 4.7 reached its beta milestone on Friday for this leading open-source, cross-platform game engine......",
+    "link": "https://www.phoronix.com/news/GCC-16-Error-Messages",
+    "abstract": "GCC 16.1 as the first stable version of the GCC 16 compiler is releasing as soon as later this week if all goes well. Among the many improvements in this year's open-source compile...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "13",
+    "trend": "down"
+  },
+  {
+    "title": "7-Zip 26.01 Now Allows Making Use Of Huge Pages On Linux For Faster Compression",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/7-Zip-26.01",
+    "abstract": "7-Zip 26.01 was released on Monday and making this release significant are huge pages support on Linux and some users may be interested in the new options around the path generatio...",
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "14",
@@ -147,6 +147,6 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "up"
+    "trend": "down"
   }
 ]
