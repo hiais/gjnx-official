@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "DeepSeek 为什么主动 “认怂”？",
@@ -17,17 +17,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
-  },
-  {
-    "title": "OpenAI 正式推出 GPT-5.5",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/437477",
-    "abstract": "OpenAI 正式推出其迄今最强大的 AI 模型 —— GPT-5.5，不仅在智能水平上实现质的飞跃，更以惊人的能效比重塑大模型经济性边界。 该模型专为“智能体”（Agent）时代设计，能在模糊指令下自主规划、调用工具、执行多步骤复杂任务，在代码生成、科研探索与企业自动化等领域表现卓越。 GPT-5.5的最大进化在于强自主性。用户......",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Meta 裁员 8000 人：AI 军备竞赛下的人本代价",
@@ -36,7 +26,7 @@
     "abstract": "Meta宣布裁减10%员工（约8000人）并取消6000个开放岗位，以此为公司2026年1150-1350亿美元的AI基础设施投资\"腾挪资源\"。这是继2023年\"效率年\"后又一次大规模人员精简，凸显科技巨头正将人力成本向算力资本转移的结构性转变。 2026年4月23日，Meta首席人才官Janelle Gale在内部备忘录中宣布，公司将于5月20日开始裁减约...",
     "pscore": 94,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -46,7 +36,7 @@
     "abstract": "2026年4月24日，OSC源创会·深圳站【具身智能工程化实战沙龙】在深圳福田会展中心顺利举行。现场人气满满，吸引了近百名具身智能开发者、行业专家、硬件DIY爱好者及机器人技术工程师参与。 本次OSC源创会活动与FAIR plus2026共同举办，FAIR plus2026是在广东省工业和信息化厅、深圳市工业和信息化局的业务指导，以及中国......",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -56,8 +46,8 @@
     "abstract": "在AI从\"对话工具\"迈向\"生产代理\"的转折点上，算力底座的开放程度正在成为生态竞争的关键变量。华为昇腾在近期的生态媒体沟通会上释放了明确信号：CANN（Compute Architecture for Neural Networks）全面开源开放，与Triton、PyTorch、vLLM等90多个主流开源社区深度对接，并对DeepSeek、Qwen等70+全...",
     "pscore": 89,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "HeteroFlow 异构算力调度平台再获突破 成功适配八大国产 GPU 品牌",
@@ -66,8 +56,8 @@
     "abstract": "北京，2026年4月24日 - 国内领先的异构算力调度平台HeteroFlow今日宣布，已成功完成对主流国产GPU品牌的全面适配与测试，标志着我国自主可控算力生态建设迈出重要一步。 此次适配通过测试的国产GPU品牌包括：沐曦-曦云、燧原S60、天数智芯-天垓-智铠、壁砺106M、海光、摩尔线程、华为昇腾以及英伟达。HeteroFlow平台通过......",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -76,8 +66,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -86,7 +76,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -96,8 +86,8 @@
     "abstract": "Beyond Linux looking to remove old drivers due to the surge of AI/LLM bug reports, the Linux 7.1 kernel is also removing some old hardware drivers simply on the basis of long obsol...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -106,7 +96,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -116,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -126,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -136,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "13",
     "trend": "up"
   },
   {
@@ -146,7 +136,17 @@
     "abstract": "Godot 4.7 reached its beta milestone on Friday for this leading open-source, cross-platform game engine......",
     "pscore": 75,
     "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "up"
+  },
+  {
+    "title": "Ant Design 6.3.7 发布，企业级 UI 设计语言和 React 实现",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/437539/ant-design-6-3-7-released",
+    "abstract": "Ant Design 是阿里巴巴开源的一套企业级 UI 设计语言和 React 组件库。Ant Design 6.3.7 现已发布，主要更新内容如下： Input 修复 Input.OTP 在 Windows 下选中文本时可能显示真实值的问题。#57689 优化 Input 清除按钮的可访问性。#57432 修复 Card 在未传入内容时仍渲染空 body ...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "down"
+    "trend": "up"
   }
 ]
