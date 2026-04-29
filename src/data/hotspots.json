@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "AMD's Lemonade SDK 10.3 Now 10x Smaller By Getting Rid Of Electron",
@@ -30,13 +30,23 @@
     "trend": "down"
   },
   {
+    "title": "Show HN: A new benchmark for testing LLMs for deterministic outputs",
+    "source": "HackerNews",
+    "link": "https://interfaze.ai/blog/introducing-structured-output-benchmark",
+    "abstract": "Comments...",
+    "pscore": 87,
+    "category": "CHIP_FRONT",
+    "rank": "04",
+    "trend": "up"
+  },
+  {
     "title": "Google Cloud TPUs made available to Hugging Face users",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -46,7 +56,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -56,8 +66,8 @@
     "abstract": "The AMDXDNA accelerator driver for Ryzen AI NPUs is preparing a new feature called hardware scheduler time quantum for ensuring fairness between multiple users/contexts wanting to ...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "OpenAI 模型正式登陆 AWS：GPT-5.5、Codex 等前沿能力通过 Amazon Bedrock 向企业开放",
@@ -66,7 +76,7 @@
     "abstract": "2026 年 4 月 28 日，在 \"What's Next with AWS\" 活动中，AWS 与 OpenAI 宣布扩大合作 ——OpenAI 正式将其前沿模型和开发工具向 AWS 平台开放集成。这意味着 AWS 企业客户将能够通过熟悉的 Amazon Bedrock 统一 API，直接调用 OpenAI 的 GPT-5.5、GPT-5.4 等最新模型，...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -76,8 +86,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -86,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -96,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -106,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "GCC 16's Improved Error Messages, Experimental HTML Output",
@@ -116,7 +126,7 @@
     "abstract": "GCC 16.1 as the first stable version of the GCC 16 compiler is releasing as soon as later this week if all goes well. Among the many improvements in this year's open-source compile...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "up"
   },
   {
@@ -126,8 +136,8 @@
     "abstract": "7-Zip 26.01 was released on Monday and making this release significant are huge pages support on Linux and some users may be interested in the new options around the path generatio...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "14",
+    "trend": "down"
   },
   {
     "title": "刚刚，“云计算一哥”版龙虾发布，奥特曼打着官司也要云站台",
@@ -135,16 +145,6 @@
     "link": "https://www.qbitai.com/2026/04/410772.html",
     "abstract": "GPT-5.5马上也能用了...",
     "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
-  },
-  {
-    "title": "【志愿者招募】上海・徐汇丨量子黑客松大赛 2026 期待你的加入",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/437596/quantum-hackathon-volunteer",
-    "abstract": "想深度参与一场量子计算领域的顶尖赛事吗？想与全球顶尖开发者、科研人员面对面交流吗？ 2026 年 5 月 16 日至 17 日，「上海・徐汇 量子黑客松大赛 2026」 将在徐汇源点大厦正式开幕，现公开招募赛事志愿者，诚邀你的加入！ 关于量子黑客松大赛 「上海・徐汇 量子黑客松大赛 2026」由徐汇区科委、上海未来产业基金、徐汇......",
-    "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "15",
     "trend": "up"
