@@ -20,33 +20,13 @@
     "trend": "up"
   },
   {
-    "title": "Meta 裁员 8000 人：AI 军备竞赛下的人本代价",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/437523",
-    "abstract": "Meta宣布裁减10%员工（约8000人）并取消6000个开放岗位，以此为公司2026年1150-1350亿美元的AI基础设施投资\"腾挪资源\"。这是继2023年\"效率年\"后又一次大规模人员精简，凸显科技巨头正将人力成本向算力资本转移的结构性转变。 2026年4月23日，Meta首席人才官Janelle Gale在内部备忘录中宣布，公司将于5月20日开始裁减约...",
-    "pscore": 94,
-    "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
-  },
-  {
-    "title": "昇腾全面开源开放CANN，90+开源社区对接、70+大模型0day适配，Agent框架降低开发门槛",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/437509",
-    "abstract": "在AI从\"对话工具\"迈向\"生产代理\"的转折点上，算力底座的开放程度正在成为生态竞争的关键变量。华为昇腾在近期的生态媒体沟通会上释放了明确信号：CANN（Compute Architecture for Neural Networks）全面开源开放，与Triton、PyTorch、vLLM等90多个主流开源社区深度对接，并对DeepSeek、Qwen等70+全...",
-    "pscore": 89,
-    "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
-  },
-  {
     "title": "Google Cloud TPUs made available to Hugging Face users",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -56,7 +36,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -66,7 +46,17 @@
     "abstract": "The AMDXDNA accelerator driver for Ryzen AI NPUs is preparing a new feature called hardware scheduler time quantum for ensuring fairness between multiple users/contexts wanting to ...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "05",
+    "trend": "up"
+  },
+  {
+    "title": "OpenAI 模型正式登陆 AWS：GPT-5.5、Codex 等前沿能力通过 Amazon Bedrock 向企业开放",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/437584",
+    "abstract": "2026 年 4 月 28 日，在 \"What's Next with AWS\" 活动中，AWS 与 OpenAI 宣布扩大合作 ——OpenAI 正式将其前沿模型和开发工具向 AWS 平台开放集成。这意味着 AWS 企业客户将能够通过熟悉的 Amazon Bedrock 统一 API，直接调用 OpenAI 的 GPT-5.5、GPT-5.4 等最新模型，...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -76,8 +66,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -86,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -96,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -106,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -116,7 +106,7 @@
     "abstract": "GCC 16.1 as the first stable version of the GCC 16 compiler is releasing as soon as later this week if all goes well. Among the many improvements in this year's open-source compile...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -124,6 +114,16 @@
     "source": "Phoronix",
     "link": "https://www.phoronix.com/news/7-Zip-26.01",
     "abstract": "7-Zip 26.01 was released on Monday and making this release significant are huge pages support on Linux and some users may be interested in the new options around the path generatio...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "12",
+    "trend": "up"
+  },
+  {
+    "title": "刚刚，“云计算一哥”版龙虾发布，奥特曼打着官司也要云站台",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/04/410772.html",
+    "abstract": "GPT-5.5马上也能用了...",
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "13",
