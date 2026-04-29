@@ -17,7 +17,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Meta 裁员 8000 人：AI 军备竞赛下的人本代价",
@@ -30,23 +30,13 @@
     "trend": "down"
   },
   {
-    "title": "OSC 源创会 × FAIR plus2026 · 具身智能工程化实战沙龙成功举办",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/437503",
-    "abstract": "2026年4月24日，OSC源创会·深圳站【具身智能工程化实战沙龙】在深圳福田会展中心顺利举行。现场人气满满，吸引了近百名具身智能开发者、行业专家、硬件DIY爱好者及机器人技术工程师参与。 本次OSC源创会活动与FAIR plus2026共同举办，FAIR plus2026是在广东省工业和信息化厅、深圳市工业和信息化局的业务指导，以及中国......",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
-  },
-  {
     "title": "昇腾全面开源开放CANN，90+开源社区对接、70+大模型0day适配，Agent框架降低开发门槛",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/437509",
     "abstract": "在AI从\"对话工具\"迈向\"生产代理\"的转折点上，算力底座的开放程度正在成为生态竞争的关键变量。华为昇腾在近期的生态媒体沟通会上释放了明确信号：CANN（Compute Architecture for Neural Networks）全面开源开放，与Triton、PyTorch、vLLM等90多个主流开源社区深度对接，并对DeepSeek、Qwen等70+全...",
     "pscore": 89,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -56,8 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -66,7 +56,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -76,7 +66,7 @@
     "abstract": "The AMDXDNA accelerator driver for Ryzen AI NPUs is preparing a new feature called hardware scheduler time quantum for ensuring fairness between multiple users/contexts wanting to ...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -86,7 +76,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -96,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -106,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -116,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -126,8 +116,8 @@
     "abstract": "GCC 16.1 as the first stable version of the GCC 16 compiler is releasing as soon as later this week if all goes well. Among the many improvements in this year's open-source compile...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "7-Zip 26.01 Now Allows Making Use Of Huge Pages On Linux For Faster Compression",
@@ -136,8 +126,8 @@
     "abstract": "7-Zip 26.01 was released on Monday and making this release significant are huge pages support on Linux and some users may be interested in the new options around the path generatio...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
+    "rank": "13",
+    "trend": "down"
   },
   {
     "title": "Ant Design 6.3.7 发布，企业级 UI 设计语言和 React 实现",
@@ -146,7 +136,7 @@
     "abstract": "Ant Design 是阿里巴巴开源的一套企业级 UI 设计语言和 React 组件库。Ant Design 6.3.7 现已发布，主要更新内容如下： Input 修复 Input.OTP 在 Windows 下选中文本时可能显示真实值的问题。#57689 优化 Input 清除按钮的可访问性。#57432 修复 Card 在未传入内容时仍渲染空 body ...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "15",
+    "rank": "14",
     "trend": "down"
   }
 ]
