@@ -20,21 +20,21 @@
     "trend": "up"
   },
   {
-    "title": "全球瞩目！斑陌易行闪耀硅谷，T6 无人车开启商用新纪元",
+    "title": "生数科技认领神秘登顶模型：AI视频公司拿出工业级Demo，跨本体跑通复杂长程任务",
     "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/04/411205.html",
-    "abstract": "The Magic X 全球具身智能创新大会在美国硅谷成功举办。...",
+    "link": "https://www.qbitai.com/2026/04/411336.html",
+    "abstract": "做视频，顺便把具身智能的活也干了。...",
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "03",
     "trend": "down"
   },
   {
-    "title": "Show HN: A new benchmark for testing LLMs for deterministic outputs",
-    "source": "HackerNews",
-    "link": "https://interfaze.ai/blog/introducing-structured-output-benchmark",
-    "abstract": "Comments...",
-    "pscore": 87,
+    "title": "全球瞩目！斑陌易行闪耀硅谷，T6 无人车开启商用新纪元",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/04/411205.html",
+    "abstract": "The Magic X 全球具身智能创新大会在美国硅谷成功举办。...",
+    "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "04",
     "trend": "up"
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -77,7 +77,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -87,7 +87,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -117,7 +117,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "GCC 16's Improved Error Messages, Experimental HTML Output",
@@ -147,6 +147,6 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "up"
+    "trend": "down"
   }
 ]
