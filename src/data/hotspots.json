@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "AMD's Lemonade SDK 10.3 Now 10x Smaller By Getting Rid Of Electron",
@@ -17,7 +17,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "生数科技认领神秘登顶模型：AI视频公司拿出工业级Demo，跨本体跑通复杂长程任务",
@@ -27,7 +27,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "全球瞩目！斑陌易行闪耀硅谷，T6 无人车开启商用新纪元",
@@ -57,7 +57,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "AMDXDNA Driver Preps Hardware Scheduler Time Quantum For Ryzen AI Multi-User Fairness",
@@ -67,7 +67,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "OpenAI 模型正式登陆 AWS：GPT-5.5、Codex 等前沿能力通过 Amazon Bedrock 向企业开放",
@@ -87,7 +87,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -127,7 +127,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "7-Zip 26.01 Now Allows Making Use Of Huge Pages On Linux For Faster Compression",
@@ -137,16 +137,16 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "14",
-    "trend": "down"
+    "trend": "up"
   },
   {
-    "title": "刚刚，“云计算一哥”版龙虾发布，奥特曼打着官司也要云站台",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/04/410772.html",
-    "abstract": "GPT-5.5马上也能用了...",
-    "pscore": 75,
+    "title": "【志愿者招募】上海・徐汇丨量子黑客松大赛 2026 期待你的加入",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/437596/quantum-hackathon-volunteer",
+    "abstract": "想深度参与一场量子计算领域的顶尖赛事吗？想与全球顶尖开发者、科研人员面对面交流吗？ 2026 年 5 月 16 日至 17 日，「上海・徐汇 量子黑客松大赛 2026」 将在徐汇源点大厦正式开幕，现公开招募赛事志愿者，诚邀你的加入！ 关于量子黑客松大赛 「上海・徐汇 量子黑客松大赛 2026」由徐汇区科委、上海未来产业基金、徐汇......",
+    "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "down"
+    "trend": "up"
   }
 ]
