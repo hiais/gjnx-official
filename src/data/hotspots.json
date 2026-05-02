@@ -1,22 +1,12 @@
 [
   {
-    "title": "AMD's Lemonade SDK 10.3 Now 10x Smaller By Getting Rid Of Electron",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/AMD-Lemonade-10.3",
-    "abstract": "Lemonade as the open-source local AI server backed by AMD and supported across AMD CPUs / GPUs / NPUs on Windows and Linux is out with a big update......",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "up"
-  },
-  {
     "title": "突破视觉仿真算力瓶颈！新一代具身智能仿真框架开源：高吞吐并行高保真渲染助力规模化训练",
     "source": "QbitAI",
     "link": "https://www.qbitai.com/2026/05/412577.html",
     "abstract": "真机部署“零微调”...",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "01",
     "trend": "up"
   },
   {
@@ -26,7 +16,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -36,7 +26,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -46,8 +36,8 @@
     "abstract": "从算力时代到智能时代，三大结构性变化...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "OpenAI 揭秘 GPT 模型频繁提及“哥布林”的幕后原因",
@@ -56,7 +46,7 @@
     "abstract": "OpenAI 日前发布了一篇技术博客，深入剖析了其大语言模型从 GPT-5.1 起频繁在回答中使用 \"哥布林\" \"小妖精\" 等奇幻生物隐喻的成因。这一现象看似无害，甚至略显俏皮，但随着模型迭代，相关词汇的出现频率持续攀升，最终引起了研究团队的高度重视。 问题的根源指向了 ChatGPT 的 \"Nerdy（极客）\" 个性化功能。该个性使用了......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -66,7 +56,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -76,8 +66,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -86,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -96,18 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "up"
-  },
-  {
-    "title": "GCC 16's Improved Error Messages, Experimental HTML Output",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/GCC-16-Error-Messages",
-    "abstract": "GCC 16.1 as the first stable version of the GCC 16 compiler is releasing as soon as later this week if all goes well. Among the many improvements in this year's open-source compile...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
   },
   {
     "title": "【志愿者招募】上海・徐汇丨量子黑客松大赛 2026 期待你的加入",
@@ -116,7 +96,7 @@
     "abstract": "想深度参与一场量子计算领域的顶尖赛事吗？想与全球顶尖开发者、科研人员面对面交流吗？ 2026 年 5 月 16 日至 17 日，「上海・徐汇 量子黑客松大赛 2026」 将在徐汇源点大厦正式开幕，现公开招募赛事志愿者，诚邀你的加入！ 关于量子黑客松大赛 「上海・徐汇 量子黑客松大赛 2026」由徐汇区科委、上海未来产业基金、徐汇......",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -126,7 +106,7 @@
     "abstract": "Recently I ran benchmarks looking at the Xe2 graphics performance gains on Intel Lunar Lake over the past year with what's shipped by Ubuntu and comparing against our original test...",
     "pscore": 69,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -136,7 +116,7 @@
     "abstract": "4 月 28 日，NVIDIA 正式发布开源全模态推理模型 Nemotron 3 Nano Omni，将文本、图像、音频、视频、文档、图表乃至 GUI 界面等多种感知能力整合至单一系统，旨在解决传统 AI 智能体系统中多模型碎片化导致的延迟高、上下文断裂和成本攀升等痛点。 Nemotron 3 Nano Omni 采用 30B-A3B 混合专家（MoE）架构...",
     "pscore": 66,
     "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "12",
     "trend": "up"
   }
 ]
