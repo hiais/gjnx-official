@@ -27,7 +27,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "OpenAI 揭秘 GPT 模型频繁提及“哥布林”的幕后原因",
@@ -97,7 +97,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "【志愿者招募】上海・徐汇丨量子黑客松大赛 2026 期待你的加入",
@@ -117,6 +117,6 @@
     "pscore": 66,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "down"
+    "trend": "up"
   }
 ]
