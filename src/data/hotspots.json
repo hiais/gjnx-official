@@ -40,14 +40,24 @@
     "trend": "down"
   },
   {
+    "title": "OpenAI 发布 GPT-5.5 Instant",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/437691/gpt-5-5-instant",
+    "abstract": "OpenAI 发布了名为 GPT-5.5 Instant 的新基础模型。GPT-5.5 Instant 将面向所有 ChatGPT 用户推出，取代 GPT-5.3 Instant 作为默认模型。 公告称，Instant 现在更加可靠，在各个方面都显著提升了事实准确性，尤其是在对准确性要求最高的领域，提升最为显著。在内部评估中，GPT-5.5 Instant ...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "05",
+    "trend": "up"
+  },
+  {
     "title": "OpenAI 揭秘 GPT 模型频繁提及“哥布林”的幕后原因",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/437668",
     "abstract": "OpenAI 日前发布了一篇技术博客，深入剖析了其大语言模型从 GPT-5.1 起频繁在回答中使用 \"哥布林\" \"小妖精\" 等奇幻生物隐喻的成因。这一现象看似无害，甚至略显俏皮，但随着模型迭代，相关词汇的出现频率持续攀升，最终引起了研究团队的高度重视。 问题的根源指向了 ChatGPT 的 \"Nerdy（极客）\" 个性化功能。该个性使用了......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -56,7 +66,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -66,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -76,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -85,16 +95,6 @@
     "link": "https://huggingface.co/blog/pytorch-xla",
     "abstract": "",
     "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
-  },
-  {
-    "title": "【志愿者招募】上海・徐汇丨量子黑客松大赛 2026 期待你的加入",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/437596/quantum-hackathon-volunteer",
-    "abstract": "想深度参与一场量子计算领域的顶尖赛事吗？想与全球顶尖开发者、科研人员面对面交流吗？ 2026 年 5 月 16 日至 17 日，「上海・徐汇 量子黑客松大赛 2026」 将在徐汇源点大厦正式开幕，现公开招募赛事志愿者，诚邀你的加入！ 关于量子黑客松大赛 「上海・徐汇 量子黑客松大赛 2026」由徐汇区科委、上海未来产业基金、徐汇......",
-    "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "10",
     "trend": "up"
