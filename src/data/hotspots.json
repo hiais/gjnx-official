@@ -7,7 +7,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "马斯克22万张GPU全卖给Claude用：5小时限额翻倍，双方合作建太空算力",
@@ -17,7 +17,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "SR-IOV Support Appears To Be Coming For Next-Gen Ryzen AI NPUs",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "马斯克的 3.5 万亿棋局，比某果短剧还要抓马",
@@ -57,7 +57,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "OpenAI 发布 GPT-5.5 Instant",
@@ -80,23 +80,13 @@
     "trend": "up"
   },
   {
-    "title": "Show HN: Agent-skills-eval – Test whether Agent Skills improve outputs",
-    "source": "HackerNews",
-    "link": "https://github.com/darkrishabh/agent-skills-eval",
-    "abstract": "Comments...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
-  },
-  {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/keras-chatbot-arena",
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -106,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -116,7 +106,27 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
+    "rank": "11",
+    "trend": "up"
+  },
+  {
+    "title": "RISC-V: From Niche Architecture to Strategic Foundation",
+    "source": "SemiWiki",
+    "link": "https://semiwiki.com/artificial-intelligence/368958-risc-v-from-niche-architecture-to-strategic-foundation/",
+    "abstract": "At the recent RISC-V Now by Andes conference, Aion Silicon’s presentation made one thing clear: RISC-V is no longer an emerging alternative but rather rapidly becoming foundational...",
+    "pscore": 71,
+    "category": "CHIP_FRONT",
     "rank": "12",
     "trend": "down"
+  },
+  {
+    "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
+    "source": "HackerNews",
+    "link": "https://deepmind.google/blog/alphaevolve-impact/",
+    "abstract": "Comments...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "13",
+    "trend": "up"
   }
 ]
