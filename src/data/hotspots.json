@@ -7,7 +7,17 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
+  },
+  {
+    "title": "马斯克22万张GPU全卖给Claude用：5小时限额翻倍，双方合作建太空算力",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/05/413569.html",
+    "abstract": "Claude用户（仅限付费用户）一觉醒来，发现限额翻倍，速度还变快了...",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -16,8 +26,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -26,7 +36,17 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "04",
+    "trend": "down"
+  },
+  {
+    "title": "SR-IOV Support Appears To Be Coming For Next-Gen Ryzen AI NPUs",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/AMD-Ryzen-AI-SR-IOV-VF",
+    "abstract": "AMD recently upstreamed Linux support for their next-gen AIE4 NPU. That next-gen AMD NPU support is expected to premiere in Linux 7.2 while this week an interesting new patch serie...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -36,7 +56,7 @@
     "abstract": "一边在法庭上要拆掉 OpenAI，一边亲手解散自己的 AI 公司，把全部算力送给 OpenAI 最大的竞争对手。马斯克与奥尔特曼的战争，正式打响了第一枪。...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -46,8 +66,8 @@
     "abstract": "OpenAI 发布了名为 GPT-5.5 Instant 的新基础模型。GPT-5.5 Instant 将面向所有 ChatGPT 用户推出，取代 GPT-5.3 Instant 作为默认模型。 公告称，Instant 现在更加可靠，在各个方面都显著提升了事实准确性，尤其是在对准确性要求最高的领域，提升最为显著。在内部评估中，GPT-5.5 Instant ...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -56,7 +76,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -66,7 +86,7 @@
     "abstract": "Comments...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -76,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -86,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -96,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "12",
     "trend": "down"
   }
 ]
