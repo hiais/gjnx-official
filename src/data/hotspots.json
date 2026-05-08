@@ -7,16 +7,6 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
-  },
-  {
-    "title": "马斯克22万张GPU全卖给Claude用：5小时限额翻倍，双方合作建太空算力",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/05/413569.html",
-    "abstract": "Claude用户（仅限付费用户）一觉醒来，发现限额翻倍，速度还变快了...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "02",
     "trend": "up"
   },
   {
@@ -26,7 +16,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -36,14 +26,24 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "SR-IOV Support Appears To Be Coming For Next-Gen Ryzen AI NPUs",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/news/AMD-Ryzen-AI-SR-IOV-VF",
     "abstract": "AMD recently upstreamed Linux support for their next-gen AIE4 NPU. That next-gen AMD NPU support is expected to premiere in Linux 7.2 while this week an interesting new patch serie...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "04",
+    "trend": "down"
+  },
+  {
+    "title": "GPT-5级推理能力塞进语音模型，OpenAI把同传翻译成本砍穿地板价",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/05/414194.html",
+    "abstract": "OpenAI上新三款实时语音模型...",
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
@@ -57,7 +57,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -67,7 +67,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -77,7 +77,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -117,6 +117,6 @@
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "up"
+    "trend": "down"
   }
 ]
