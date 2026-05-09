@@ -7,17 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
-  },
-  {
-    "title": "马斯克 xAI 解散，22 万张 GPU 租给 Claude，算力增加会对中国解封吗？",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/437734",
-    "abstract": "JeecgBoot AI 专题研究 | xAI 并入 SpaceX、Anthropic 拿下 Colossus 1 全部算力背后，对 Claude 用户和中国市场意味着什么？ 昨天，AI 行业发生了一件几乎没有人预见到的事情：Anthropic 与 SpaceX 签约，拿下了马斯克孟菲斯超算 Colossus 1 的全部算力 —— 超过 22 万张 NVID...",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -26,7 +16,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -36,8 +26,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "SR-IOV Support Appears To Be Coming For Next-Gen Ryzen AI NPUs",
@@ -46,8 +36,8 @@
     "abstract": "AMD recently upstreamed Linux support for their next-gen AIE4 NPU. That next-gen AMD NPU support is expected to premiere in Linux 7.2 while this week an interesting new patch serie...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "GPT-5级推理能力塞进语音模型，OpenAI把同传翻译成本砍穿地板价",
@@ -56,17 +46,7 @@
     "abstract": "OpenAI上新三款实时语音模型...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
-  },
-  {
-    "title": "马斯克的 3.5 万亿棋局，比某果短剧还要抓马",
-    "source": "OSChina",
-    "link": "https://my.oschina.net/u/4487475/blog/19654334",
-    "abstract": "一边在法庭上要拆掉 OpenAI，一边亲手解散自己的 AI 公司，把全部算力送给 OpenAI 最大的竞争对手。马斯克与奥尔特曼的战争，正式打响了第一枪。...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -76,8 +56,18 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
+  },
+  {
+    "title": "Chrome 被曝静默安装 4GB Gemini Nano 端侧 AI 模型",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/438234",
+    "abstract": "隐私研究员 Alexander Hanff 近日发文披露，Google Chrome 正在未经用户同意的情况下，静默向设备推送安装约 4GB 的 Gemini Nano 端侧 AI 模型，引发隐私合规与气候成本的双重担忧。 Hanff 通过全新创建的 macOS 审计配置文件，利用内核文件系统事件日志（.fseventsd）完整捕获了安装链。记录显示，从 C...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -86,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -96,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -106,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -116,7 +106,7 @@
     "abstract": "At the recent RISC-V Now by Andes conference, Aion Silicon’s presentation made one thing clear: RISC-V is no longer an emerging alternative but rather rapidly becoming foundational...",
     "pscore": 71,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   }
 ]
