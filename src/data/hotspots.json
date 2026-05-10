@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -17,7 +17,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -47,7 +47,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Chrome 被曝静默安装 4GB Gemini Nano 端侧 AI 模型",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "RISC-V: From Niche Architecture to Strategic Foundation",
@@ -97,7 +97,7 @@
     "pscore": 71,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Gemini API File Search is now multimodal",
