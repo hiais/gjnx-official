@@ -7,7 +7,27 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
+    "trend": "up"
+  },
+  {
+    "title": "李开复：开源是实现主权 AI 的第三条路",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/439632",
+    "abstract": "零一万物（01.AI）公众号发文称，近日该公司创始人兼 CEO、创新工场董事长李开复接受 Capgemini 凯捷咨询研究院专访，围绕“AI 主权”展开深度分享，系统讨论了开源与闭源模型的竞争格局、AI 时代的数据与控制权问题，以及中国在开源生态、工程效率与 AI 硬件上的独特机会。 在他看来，并不是每个国家都需要重造 OpenAI......",
+    "pscore": 89,
+    "category": "CHIP_FRONT",
+    "rank": "02",
     "trend": "down"
+  },
+  {
+    "title": "商汤善惠烧卖购机器人小店上海“开业”，让机器人真正落地线下零售",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/05/416590.html",
+    "abstract": "打造“一人多面”的具身智能便利店...",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -16,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -26,8 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "AMD Ryzen AI & Intel NPU Drivers Adding New Power Features With Linux 7.2",
@@ -36,8 +56,8 @@
     "abstract": "Last week's drm-misc-next pull request of new Direct Rendering Manager and accelerator driver feature material destined for Linux 7.2 include some new power management control feat...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "开发者用 Codex GPT-5.5 辅助开发的 AMD Linux 驱动程序被合并",
@@ -46,8 +66,8 @@
     "abstract": "Linux内核邮件列表上最近进入审查阶段的一个新开源AMD Linux驱动是 prom21-xhci，它用于暴露AMD Promontory 21芯片组xHCI控制器上的温度传感器。 Promontory 21架构被用于AMD的600系列和800系列AM5芯片组。虽然所有近期AMD处理器都已有CPU温度监控功能，桌面主板的传感器监控也因具体主板而异，且AMD...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -56,8 +76,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -66,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -76,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -86,18 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "11",
     "trend": "up"
-  },
-  {
-    "title": "RISC-V: From Niche Architecture to Strategic Foundation",
-    "source": "SemiWiki",
-    "link": "https://semiwiki.com/artificial-intelligence/368958-risc-v-from-niche-architecture-to-strategic-foundation/",
-    "abstract": "At the recent RISC-V Now by Andes conference, Aion Silicon’s presentation made one thing clear: RISC-V is no longer an emerging alternative but rather rapidly becoming foundational...",
-    "pscore": 71,
-    "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
   },
   {
     "title": "Gemini API File Search 升级：多模态检索、自定义元数据与页码引用全面落地",
@@ -106,7 +116,7 @@
     "abstract": "Google DeepMind 团队宣布对 Gemini API 的 File Search 工具进行重大扩展，推出三项核心功能更新——多模态支持、自定义元数据过滤，以及页码级引用。这些改进旨在帮助开发者更高效地构建可验证的检索增强生成（RAG）系统，让非结构化数据的组织与利用变得更加结构化。 长期以来，RAG 系统的检索能力主要局限于文本内容......",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "down"
   }
 ]
