@@ -17,7 +17,17 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
+  },
+  {
+    "title": "姚顺宇 4 小时深度访谈：从清华物理天才到 AI 前沿，“英雄主义时代已经过去”",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/439949",
+    "abstract": "2026年5月10日，播客《张小珺Jùn｜商业访谈录》发布了一期长达近4小时的深度访谈，主角是Google DeepMind/Gemini团队研究科学家姚顺宇（Shunyu Yao）。这场对话横跨技术、产业、个人选择与时代判断，为外界提供了观察顶尖AI研究者思维方式的珍贵窗口。 硅谷的\"两个Shunyu Yao\" 访谈开场便触及一个有趣的行业现象：硅谷A.....",
+    "pscore": 84,
+    "category": "CHIP_FRONT",
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -26,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -36,7 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -46,18 +56,8 @@
     "abstract": "Last week's drm-misc-next pull request of new Direct Rendering Manager and accelerator driver feature material destined for Linux 7.2 include some new power management control feat...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
-  },
-  {
-    "title": "开发者用 Codex GPT-5.5 辅助开发的 AMD Linux 驱动程序被合并",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/439190",
-    "abstract": "Linux内核邮件列表上最近进入审查阶段的一个新开源AMD Linux驱动是 prom21-xhci，它用于暴露AMD Promontory 21芯片组xHCI控制器上的温度传感器。 Promontory 21架构被用于AMD的600系列和800系列AM5芯片组。虽然所有近期AMD处理器都已有CPU温度监控功能，桌面主板的传感器监控也因具体主板而异，且AMD...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -67,17 +67,17 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
-    "title": "Google I/O 2026 Android 前瞻：Gemini Intelligence 全面集成，Googlebooks 登场",
+    "title": "Google I/O 2026 Android 前瞻：Gemini Intelligence 全面集成，Googlebook 登场",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/439923",
     "abstract": "在 Google I/O 2026 开发者大会正式开幕前夕，Google 于5月12日提前举办了 Android Show 专场发布会，一次性抛出了涵盖硬件、软件、AI 和安全领域的多项重大更新。这场发布会的主角无疑是 Gemini Intelligence——Google 将生成式 AI 深度整合进 Android 生态的系统性尝试，以及全新硬件产品线 G...",
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -120,10 +120,10 @@
     "trend": "up"
   },
   {
-    "title": "Gemini API File Search 升级：多模态检索、自定义元数据与页码引用全面落地",
+    "title": "MiBee NVR - 一款采用 Go 语言开发的轻量级网络视频录像机",
     "source": "OSChina",
-    "link": "https://www.oschina.net/news/438950",
-    "abstract": "Google DeepMind 团队宣布对 Gemini API 的 File Search 工具进行重大扩展，推出三项核心功能更新——多模态支持、自定义元数据过滤，以及页码级引用。这些改进旨在帮助开发者更高效地构建可验证的检索增强生成（RAG）系统，让非结构化数据的组织与利用变得更加结构化。 长期以来，RAG 系统的检索能力主要局限于文本内容......",
+    "link": "https://www.oschina.net/news/439981",
+    "abstract": "项目概述 MiBee NVR 是一款采用 Go 语言开发的轻量级网络视频录像机（Network Video Recorder）。项目支持 RTSP（H.264/H.265/MJPEG）、HTTP JPEG 及 ONVIF 协议摄像头，提供完整的视频录制、实时直播、存储管理功能。系统编译为单文件静态二进制程序，内置 Svelte 前端管理界面，无需任何外部依赖...",
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "13",
