@@ -10,24 +10,14 @@
     "trend": "down"
   },
   {
-    "title": "商汤善惠烧卖购机器人小店上海“开业”，让机器人真正落地线下零售",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/05/416590.html",
-    "abstract": "打造“一人多面”的具身智能便利店...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
-  },
-  {
     "title": "姚顺宇 4 小时深度访谈：从清华物理天才到 AI 前沿，“英雄主义时代已经过去”",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/439949",
     "abstract": "2026年5月10日，播客《张小珺Jùn｜商业访谈录》发布了一期长达近4小时的深度访谈，主角是Google DeepMind/Gemini团队研究科学家姚顺宇（Shunyu Yao）。这场对话横跨技术、产业、个人选择与时代判断，为外界提供了观察顶尖AI研究者思维方式的珍贵窗口。 硅谷的\"两个Shunyu Yao\" 访谈开场便触及一个有趣的行业现象：硅谷A.....",
     "pscore": 84,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "02",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -36,8 +26,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -46,7 +36,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -56,7 +46,7 @@
     "abstract": "Last week's drm-misc-next pull request of new Direct Rendering Manager and accelerator driver feature material destined for Linux 7.2 include some new power management control feat...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -65,6 +55,16 @@
     "link": "https://huggingface.co/blog/inference-providers-groq",
     "abstract": "",
     "pscore": 80,
+    "category": "CHIP_FRONT",
+    "rank": "06",
+    "trend": "down"
+  },
+  {
+    "title": "苹果画的饼谷歌率先搞定！Gemini全面进驻全家桶，连鼠标都AI上了",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/05/416870.html",
+    "abstract": "谷歌把Gemini塞进了Android...",
+    "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "07",
     "trend": "up"
@@ -77,7 +77,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -117,7 +117,7 @@
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "MiBee NVR - 一款采用 Go 语言开发的轻量级网络视频录像机",
