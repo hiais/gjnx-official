@@ -7,7 +7,7 @@
     "pscore": 89,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "商汤善惠烧卖购机器人小店上海“开业”，让机器人真正落地线下零售",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "开发者用 Codex GPT-5.5 辅助开发的 AMD Linux 驱动程序被合并",
@@ -70,11 +70,11 @@
     "trend": "down"
   },
   {
-    "title": "Testing UPS Output Waveforms",
-    "source": "HackerNews",
-    "link": "https://www.lttlabs.com/articles/2026/05/12/ups-exploration",
-    "abstract": "Comments...",
-    "pscore": 75,
+    "title": "Google I/O 2026 Android 前瞻：Gemini Intelligence 全面集成，Googlebooks 登场",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/439923",
+    "abstract": "在 Google I/O 2026 开发者大会正式开幕前夕，Google 于5月12日提前举办了 Android Show 专场发布会，一次性抛出了涵盖硬件、软件、AI 和安全领域的多项重大更新。这场发布会的主角无疑是 Gemini Intelligence——Google 将生成式 AI 深度整合进 Android 生态的系统性尝试，以及全新硬件产品线 G...",
+    "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "08",
     "trend": "up"
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
@@ -117,7 +117,7 @@
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Gemini API File Search 升级：多模态检索、自定义元数据与页码引用全面落地",
@@ -127,6 +127,6 @@
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "down"
+    "trend": "up"
   }
 ]
