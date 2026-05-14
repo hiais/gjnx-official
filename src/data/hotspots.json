@@ -1,10 +1,10 @@
 [
   {
-    "title": "姚顺宇 4 小时深度访谈：从清华物理天才到 AI 前沿，“英雄主义时代已经过去”",
+    "title": "黄仁勋基金会向 CoreWeave 购买 1.08 亿美元算力并捐赠给高校",
     "source": "OSChina",
-    "link": "https://www.oschina.net/news/439949",
-    "abstract": "2026年5月10日，播客《张小珺Jùn｜商业访谈录》发布了一期长达近4小时的深度访谈，主角是Google DeepMind/Gemini团队研究科学家姚顺宇（Shunyu Yao）。这场对话横跨技术、产业、个人选择与时代判断，为外界提供了观察顶尖AI研究者思维方式的珍贵窗口。 硅谷的\"两个Shunyu Yao\" 访谈开场便触及一个有趣的行业现象：硅谷A.....",
-    "pscore": 84,
+    "link": "https://www.oschina.net/news/440617",
+    "abstract": "据路透社 5 月 13 日报道，Nvidia CEO 黄仁勋与妻子 Lori 共同创立的慈善基金会（Jensen and Lori Huang Foundation）已向 CoreWeave 购买价值 1.083 亿美元的 AI 算力，并捐赠给大学和非营利研究机构。这是该基金会迄今为止最大规模的公开捐赠行动。 CoreWeave 成立于 2017 年，是一家...",
+    "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
     "trend": "up"
@@ -27,17 +27,17 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
-    "title": "AMD Ryzen AI & Intel NPU Drivers Adding New Power Features With Linux 7.2",
+    "title": "AMD Preps More AIE4 NPU Hardware Enablement For AMDXDNA Driver In Linux 7.2",
     "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/AMD-Intel-NPU-Drivers-Power-7.2",
-    "abstract": "Last week's drm-misc-next pull request of new Direct Rendering Manager and accelerator driver feature material destined for Linux 7.2 include some new power management control feat...",
+    "link": "https://www.phoronix.com/news/Linux-72-drm-misc-next-More-AIE",
+    "abstract": "Since March we have been seeing patches from AMD software engineers beginning to enable their next-generation \"AIE4\" NPU platform under Linux. We still don't know for sure when thi...",
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -47,17 +47,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
-  },
-  {
-    "title": "苹果画的饼谷歌率先搞定！Gemini全面进驻全家桶，连鼠标都AI上了",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/05/416870.html",
-    "abstract": "谷歌把Gemini塞进了Android...",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -66,8 +56,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -76,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -86,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
@@ -96,17 +86,7 @@
     "abstract": "Comments...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
-  },
-  {
-    "title": "MiBee NVR - 一款采用 Go 语言开发的轻量级网络视频录像机",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/439981",
-    "abstract": "项目概述 MiBee NVR 是一款采用 Go 语言开发的轻量级网络视频录像机（Network Video Recorder）。项目支持 RTSP（H.264/H.265/MJPEG）、HTTP JPEG 及 ONVIF 协议摄像头，提供完整的视频录制、实时直播、存储管理功能。系统编译为单文件静态二进制程序，内置 Svelte 前端管理界面，无需任何外部依赖...",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   }
 ]
