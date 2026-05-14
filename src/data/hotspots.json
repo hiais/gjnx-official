@@ -1,23 +1,13 @@
 [
   {
-    "title": "李开复：开源是实现主权 AI 的第三条路",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/439632",
-    "abstract": "零一万物（01.AI）公众号发文称，近日该公司创始人兼 CEO、创新工场董事长李开复接受 Capgemini 凯捷咨询研究院专访，围绕“AI 主权”展开深度分享，系统讨论了开源与闭源模型的竞争格局、AI 时代的数据与控制权问题，以及中国在开源生态、工程效率与 AI 硬件上的独特机会。 在他看来，并不是每个国家都需要重造 OpenAI......",
-    "pscore": 89,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "down"
-  },
-  {
     "title": "姚顺宇 4 小时深度访谈：从清华物理天才到 AI 前沿，“英雄主义时代已经过去”",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/439949",
     "abstract": "2026年5月10日，播客《张小珺Jùn｜商业访谈录》发布了一期长达近4小时的深度访谈，主角是Google DeepMind/Gemini团队研究科学家姚顺宇（Shunyu Yao）。这场对话横跨技术、产业、个人选择与时代判断，为外界提供了观察顶尖AI研究者思维方式的珍贵窗口。 硅谷的\"两个Shunyu Yao\" 访谈开场便触及一个有趣的行业现象：硅谷A.....",
     "pscore": 84,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
+    "rank": "01",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -26,7 +16,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -36,7 +26,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -46,7 +36,7 @@
     "abstract": "Last week's drm-misc-next pull request of new Direct Rendering Manager and accelerator driver feature material destined for Linux 7.2 include some new power management control feat...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -56,8 +46,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "苹果画的饼谷歌率先搞定！Gemini全面进驻全家桶，连鼠标都AI上了",
@@ -66,18 +56,8 @@
     "abstract": "谷歌把Gemini塞进了Android...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
-  },
-  {
-    "title": "Google I/O 2026 Android 前瞻：Gemini Intelligence 全面集成，Googlebook 登场",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/439923",
-    "abstract": "在 Google I/O 2026 开发者大会正式开幕前夕，Google 于5月12日提前举办了 Android Show 专场发布会，一次性抛出了涵盖硬件、软件、AI 和安全领域的多项重大更新。这场发布会的主角无疑是 Gemini Intelligence——Google 将生成式 AI 深度整合进 Android 生态的系统性尝试，以及全新硬件产品线 G...",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -86,8 +66,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -96,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -106,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
@@ -116,7 +96,7 @@
     "abstract": "Comments...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -126,7 +106,7 @@
     "abstract": "项目概述 MiBee NVR 是一款采用 Go 语言开发的轻量级网络视频录像机（Network Video Recorder）。项目支持 RTSP（H.264/H.265/MJPEG）、HTTP JPEG 及 ONVIF 协议摄像头，提供完整的视频录制、实时直播、存储管理功能。系统编译为单文件静态二进制程序，内置 Svelte 前端管理界面，无需任何外部依赖...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "11",
     "trend": "down"
   }
 ]
