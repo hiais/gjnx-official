@@ -1,22 +1,12 @@
 [
   {
-    "title": "数亿元融资落地！国内最早布局“人类学习”路线的具身公司，用人类视角重做具身智能",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/05/417935.html",
-    "abstract": "具身智能正在经历一场静默但深刻的路线转变...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "down"
-  },
-  {
     "title": "Google Cloud TPUs made available to Hugging Face users",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "01",
     "trend": "down"
   },
   {
@@ -26,8 +16,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "02",
+    "trend": "down"
   },
   {
     "title": "AMD Preps More AIE4 NPU Hardware Enablement For AMDXDNA Driver In Linux 7.2",
@@ -36,8 +26,8 @@
     "abstract": "Since March we have been seeing patches from AMD software engineers beginning to enable their next-generation \"AIE4\" NPU platform under Linux. We still don't know for sure when thi...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -46,8 +36,18 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "up"
+  },
+  {
+    "title": "Orthrus-Qwen3: up to 7.8×tokens/forward on Qwen3, identical output distribution",
+    "source": "HackerNews",
+    "link": "https://github.com/chiennv2000/orthrus",
+    "abstract": "Comments...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -67,7 +67,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -77,7 +77,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Linux 7.1 Supports Newer Logitech Bluetooth Keyboards, Malicious Input Hardware Sanitization",
@@ -97,6 +97,6 @@
     "pscore": 69,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
+    "trend": "up"
   }
 ]
