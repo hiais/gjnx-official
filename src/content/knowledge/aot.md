@@ -1,6 +1,6 @@
 ---
 title: AOT (超前编译)
-date: 2026-05-08T14:32:38.252Z
+date: 2026-05-16T08:33:45.855Z
 category: Auto-Mined
 tags:
   - Auto-Gen
