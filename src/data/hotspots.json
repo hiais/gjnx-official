@@ -1,23 +1,13 @@
 [
   {
-    "title": "黄仁勋基金会向 CoreWeave 购买 1.08 亿美元算力并捐赠给高校",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/440617",
-    "abstract": "据路透社 5 月 13 日报道，Nvidia CEO 黄仁勋与妻子 Lori 共同创立的慈善基金会（Jensen and Lori Huang Foundation）已向 CoreWeave 购买价值 1.083 亿美元的 AI 算力，并捐赠给大学和非营利研究机构。这是该基金会迄今为止最大规模的公开捐赠行动。 CoreWeave 成立于 2017 年，是一家...",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "up"
-  },
-  {
     "title": "数亿元融资落地！国内最早布局“人类学习”路线的具身公司，用人类视角重做具身智能",
     "source": "QbitAI",
     "link": "https://www.qbitai.com/2026/05/417935.html",
     "abstract": "具身智能正在经历一场静默但深刻的路线转变...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
+    "rank": "01",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -26,7 +16,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -36,7 +26,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -46,8 +36,8 @@
     "abstract": "Since March we have been seeing patches from AMD software engineers beginning to enable their next-generation \"AIE4\" NPU platform under Linux. We still don't know for sure when thi...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -56,8 +46,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -66,8 +56,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -76,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -86,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -96,7 +86,7 @@
     "abstract": "Ahead of the Linux 7.1-rc4 release due out on Sunday, a variety of HID subsystem patches were merged overnight to Linux Git......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -106,7 +96,7 @@
     "abstract": "With the new System76 Thelio Major workstation review unit having arrived equipped with an AMD Radeon AI PRO R9700 graphics card, I took the opportunity of having the extra RDNA4 w...",
     "pscore": 69,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "down"
   }
 ]
