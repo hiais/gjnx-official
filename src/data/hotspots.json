@@ -7,7 +7,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -17,7 +17,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "AMD Preps More AIE4 NPU Hardware Enablement For AMDXDNA Driver In Linux 7.2",
@@ -57,7 +57,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -67,7 +67,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -90,13 +90,33 @@
     "trend": "down"
   },
   {
+    "title": "一只机器狗，把英伟达的算力王座拱翻了",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/05/418969.html",
+    "abstract": "人造劳动力，离普通家庭还有多远？...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "10",
+    "trend": "up"
+  },
+  {
+    "title": "上海·徐汇量子黑客松大赛2026圆满落幕",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/441978",
+    "abstract": "2026年5月17日，「上海·徐汇 量子黑客松大赛 2026」在上海徐汇西岸圆满落幕。本次大赛旨在为量子计算领域的青年人才提供展示才华、交流合作的舞台，搭建产学研资对接桥梁，推动量子计算技术与实体经济深度融合。 大赛期间，多支队伍在现场开展路演，展现了量子技术在不同产业场景中的落地潜力。赛事同期安排了投资人见面......",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "11",
+    "trend": "up"
+  },
+  {
     "title": "ROCm 7.0.0 vs. ROCm 7.2.3 Performance On The AMD Radeon AI PRO R9700",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/review/amd-rocm7-723",
     "abstract": "With the new System76 Thelio Major workstation review unit having arrived equipped with an AMD Radeon AI PRO R9700 graphics card, I took the opportunity of having the extra RDNA4 w...",
     "pscore": 69,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   }
 ]
