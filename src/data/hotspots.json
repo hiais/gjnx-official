@@ -20,23 +20,13 @@
     "trend": "down"
   },
   {
-    "title": "AMD Preps More AIE4 NPU Hardware Enablement For AMDXDNA Driver In Linux 7.2",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Linux-72-drm-misc-next-More-AIE",
-    "abstract": "Since March we have been seeing patches from AMD software engineers beginning to enable their next-generation \"AIE4\" NPU platform under Linux. We still don't know for sure when thi...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
-  },
-  {
     "title": "Agent、多模态、应用、算力一天看尽，峰会亮点在此｜5.20日，来现场一起AI",
     "source": "QbitAI",
     "link": "https://www.qbitai.com/2026/05/418836.html",
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -46,7 +36,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -56,8 +46,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -66,7 +56,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -76,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -86,7 +76,7 @@
     "abstract": "Ahead of the Linux 7.1-rc4 release due out on Sunday, a variety of HID subsystem patches were merged overnight to Linux Git......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -96,8 +86,8 @@
     "abstract": "人造劳动力，离普通家庭还有多远？...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "上海·徐汇量子黑客松大赛2026圆满落幕",
@@ -106,7 +96,7 @@
     "abstract": "2026年5月17日，「上海·徐汇 量子黑客松大赛 2026」在上海徐汇西岸圆满落幕。本次大赛旨在为量子计算领域的青年人才提供展示才华、交流合作的舞台，搭建产学研资对接桥梁，推动量子计算技术与实体经济深度融合。 大赛期间，多支队伍在现场开展路演，展现了量子技术在不同产业场景中的落地潜力。赛事同期安排了投资人见面......",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -116,7 +106,7 @@
     "abstract": "With the new System76 Thelio Major workstation review unit having arrived equipped with an AMD Radeon AI PRO R9700 graphics card, I took the opportunity of having the extra RDNA4 w...",
     "pscore": 69,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   }
 ]
