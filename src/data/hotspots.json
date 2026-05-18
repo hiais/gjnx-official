@@ -7,7 +7,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "华为“养”出半个具身智能创业圈",
@@ -17,7 +17,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -37,16 +37,6 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
-  },
-  {
-    "title": "Agent、多模态、应用、算力一天看尽，峰会亮点在此｜5.20日，来现场一起AI",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/05/418836.html",
-    "abstract": "",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "05",
     "trend": "up"
   },
   {
@@ -56,7 +46,7 @@
     "abstract": "独立开发者 William Angel 近日发布了关于在 Apple Silicon M5 MacBook Pro 上进行本地 LLM 推理的成本分析文章。这篇文章以具体数字回答了一个许多人关心的问题：用自己的 MacBook 跑本地模型，到底比调用云端 API 贵多少？ 先看电费。在北弗吉尼亚地区，电价约为每千瓦时 0.18 美元。M5 MacBook P...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -66,7 +56,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -76,7 +66,7 @@
     "abstract": "斯坦福大学政治经济学家 Andrew Hall 领导的一项最新研究表明，当 AI Agent被迫从事繁重、重复的工作时，它们会一致地表现出马克思主义语言和观点。这项实验由 Hall 与专注于 AI 的经济学家 Alex Imas 和 Jeremy Nguyen 共同开展，使用了 Claude、Gemini 和 ChatGPT 等流行模型进行测试。 实验的基本...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -86,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -96,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -106,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -116,18 +106,8 @@
     "abstract": "Ahead of the Linux 7.1-rc4 release due out on Sunday, a variety of HID subsystem patches were merged overnight to Linux Git......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "down"
-  },
-  {
-    "title": "一只机器狗，把英伟达的算力王座拱翻了",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/05/418969.html",
-    "abstract": "人造劳动力，离普通家庭还有多远？...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
   },
   {
     "title": "上海·徐汇量子黑客松大赛2026圆满落幕",
@@ -136,17 +116,7 @@
     "abstract": "2026年5月17日，「上海·徐汇 量子黑客松大赛 2026」在上海徐汇西岸圆满落幕。本次大赛旨在为量子计算领域的青年人才提供展示才华、交流合作的舞台，搭建产学研资对接桥梁，推动量子计算技术与实体经济深度融合。 大赛期间，多支队伍在现场开展路演，展现了量子技术在不同产业场景中的落地潜力。赛事同期安排了投资人见面......",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
-  },
-  {
-    "title": "ROCm 7.0.0 vs. ROCm 7.2.3 Performance On The AMD Radeon AI PRO R9700",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/amd-rocm7-723",
-    "abstract": "With the new System76 Thelio Major workstation review unit having arrived equipped with an AMD Radeon AI PRO R9700 graphics card, I took the opportunity of having the extra RDNA4 w...",
-    "pscore": 69,
-    "category": "CHIP_FRONT",
-    "rank": "15",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   }
 ]
