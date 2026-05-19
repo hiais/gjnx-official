@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -57,7 +57,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "AI Agent 在“压榨式”工作条件下会表现出马克思主义倾向",
@@ -67,7 +67,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -100,23 +100,13 @@
     "trend": "down"
   },
   {
-    "title": "Linux 7.1 Supports Newer Logitech Bluetooth Keyboards, Malicious Input Hardware Sanitization",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Linux-7.1-rc4-HID",
-    "abstract": "Ahead of the Linux 7.1-rc4 release due out on Sunday, a variety of HID subsystem patches were merged overnight to Linux Git......",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
-  },
-  {
     "title": "上海·徐汇量子黑客松大赛2026圆满落幕",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/441978",
     "abstract": "2026年5月17日，「上海·徐汇 量子黑客松大赛 2026」在上海徐汇西岸圆满落幕。本次大赛旨在为量子计算领域的青年人才提供展示才华、交流合作的舞台，搭建产学研资对接桥梁，推动量子计算技术与实体经济深度融合。 大赛期间，多支队伍在现场开展路演，展现了量子技术在不同产业场景中的落地潜力。赛事同期安排了投资人见面......",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   }
 ]
