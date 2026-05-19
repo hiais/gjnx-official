@@ -7,7 +7,7 @@
     "pscore": 95,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "AMD's Lemonade SDK For AI Promotes macOS To GA Status, ROCm 7.13 Integrated",
@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -50,13 +50,23 @@
     "trend": "down"
   },
   {
+    "title": "AMD Announces The EPYC 8005 Series SKUs From 8 To 84 Cores",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/AMD-EPYC-8005-SKU-Table",
+    "abstract": "Back in late February AMD announced the EPYC 8005 \"Sorano\" series to succeed EPYC 8004 Siena. At the time details were light while today AMD published the SKU table and more detail...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "06",
+    "trend": "up"
+  },
+  {
     "title": "AI Agent 在“压榨式”工作条件下会表现出马克思主义倾向",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/442302/overworked-ai-agents-turn-marxist-study",
     "abstract": "斯坦福大学政治经济学家 Andrew Hall 领导的一项最新研究表明，当 AI Agent被迫从事繁重、重复的工作时，它们会一致地表现出马克思主义语言和观点。这项实验由 Hall 与专注于 AI 的经济学家 Alex Imas 和 Jeremy Nguyen 共同开展，使用了 Claude、Gemini 和 ChatGPT 等流行模型进行测试。 实验的基本...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -66,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -76,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -86,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -96,7 +106,27 @@
     "abstract": "地平线宣布正式发布并开源HoloMotion-1，一个面向人形机器人全身控制打造的 4 亿参数级机器人小脑大模型。 根据介绍，HoloMotion-1依托更大的模型容量，面向更丰富的动作分布和更长时序的运动连续性，建模更复杂的身体协同关系。并结合MoE稀疏激活与KV-cache推理机制，在保持 4 亿参数级模型容量的同时降低单步推理开销，......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
+    "trend": "up"
+  },
+  {
+    "title": "Gemini 3.5 Flash",
+    "source": "HackerNews",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+    "abstract": "Comments...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "12",
+    "trend": "down"
+  },
+  {
+    "title": "Gemini Omni",
+    "source": "HackerNews",
+    "link": "https://deepmind.google/models/gemini-omni/",
+    "abstract": "Comments...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "13",
     "trend": "up"
   }
 ]
