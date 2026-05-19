@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -57,7 +57,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -77,7 +77,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -87,6 +87,16 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
+    "trend": "down"
+  },
+  {
+    "title": "地平线开源 4 亿参数机器人小脑大模型 HoloMotion-1",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/442809",
+    "abstract": "地平线宣布正式发布并开源HoloMotion-1，一个面向人形机器人全身控制打造的 4 亿参数级机器人小脑大模型。 根据介绍，HoloMotion-1依托更大的模型容量，面向更丰富的动作分布和更长时序的运动连续性，建模更复杂的身体协同关系。并结合MoE稀疏激活与KV-cache推理机制，在保持 4 亿参数级模型容量的同时降低单步推理开销，......",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "10",
     "trend": "up"
   }
 ]
