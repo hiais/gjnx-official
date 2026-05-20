@@ -7,7 +7,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -17,7 +17,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -57,7 +57,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "AMD Announces The EPYC 8005 Series SKUs From 8 To 84 Cores",
@@ -67,7 +67,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google I/O 2026 | “搜索”功能迎来 25 年来最大升级，AI Mode 月活突破 10 亿",
@@ -77,7 +77,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google I/O 2026 | Gemini CLI 谢幕，Antigravity CLI 正式接班",
@@ -87,7 +87,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "谷歌 Android CLI 已稳定在 1.0 版本",
@@ -97,7 +97,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -127,7 +127,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "地平线开源 4 亿参数机器人小脑大模型 HoloMotion-1",
@@ -137,13 +137,13 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "14",
-    "trend": "down"
+    "trend": "up"
   },
   {
-    "title": "Gemini 3.5 Flash",
-    "source": "HackerNews",
-    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
-    "abstract": "Comments...",
+    "title": "“全模态” Gemini Omni 来了，谷歌用自然对话重新定义视频创作",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/443254/google-deepmind-gemini-omni",
+    "abstract": "去年，Google推出了Nano Banana，将Gemini的智能带入了图像生成和编辑领域——帮助数百万人修复老照片、从草图开始设计、以此前无法实现的方式可视化创意。在I/O 2026大会上，Google宣布了这项能力的下一个延伸：Gemini Omni。 Gemini Omni将Gemini的推理能力与视频生成创作能力融合，是一款能够从任意输入创作内容的...",
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "15",
