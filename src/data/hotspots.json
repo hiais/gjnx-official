@@ -7,7 +7,7 @@
     "pscore": 95,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "AMD's Lemonade SDK For AI Promotes macOS To GA Status, ROCm 7.13 Integrated",
@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -57,7 +57,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "AMD Announces The EPYC 8005 Series SKUs From 8 To 84 Cores",
@@ -70,14 +70,34 @@
     "trend": "down"
   },
   {
+    "title": "Google I/O 2026 | “搜索”功能迎来 25 年来最大升级，AI Mode 月活突破 10 亿",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/443183",
+    "abstract": "Google在I/O 2026上宣布了“搜索(Search)”业务的核心升级。AI Mode自推出仅一年，月活用户已突破10亿，查询量每季度翻一番以上。随着用户意识到“搜索”能做的远比以前多，搜索次数已创历史新高。 本次升级的核心是用Gemini 3.5 Flash替换了原来的默认模型，作为AI Mode的新内核。同时，Search迎来了25年来最大的升级—...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "08",
+    "trend": "up"
+  },
+  {
+    "title": "Google I/O 2026 | Gemini CLI 谢幕，Antigravity CLI 正式接班",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/443081/google-transitioning-gemini-cli-to-antigravity-cli",
+    "abstract": "Google 在 I/O 2026 宣布了一个重要的产品过渡：将 Gemini CLI 正式更名为 Antigravity CLI，并同步推出 Google Antigravity 2.0—— 一个统一的 Agent 优先开发平台。这一举措标志着 Google 在 AI 编程工具领域的战略升级，从单一命令行工具转向支持多 Agent 协作的完整开发生态系统。...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "09",
+    "trend": "down"
+  },
+  {
     "title": "谷歌 Android CLI 已稳定在 1.0 版本",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/443051",
     "abstract": "除了提供其独有的用于在 Android 上构建应用的 vibe-coding 工具外，谷歌还宣布将在 Android Studio 中提供一系列工具，支持 AI agent（如 Claude Code、OpenAI 的 Codex，以及谷歌自家的 Antigravity 或 Gemini）的集成，从而加速 Android 应用的开发进程。 谷歌在其年度 Go...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -86,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -96,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -106,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "13",
     "trend": "up"
   },
   {
@@ -116,7 +136,7 @@
     "abstract": "地平线宣布正式发布并开源HoloMotion-1，一个面向人形机器人全身控制打造的 4 亿参数级机器人小脑大模型。 根据介绍，HoloMotion-1依托更大的模型容量，面向更丰富的动作分布和更长时序的运动连续性，建模更复杂的身体协同关系。并结合MoE稀疏激活与KV-cache推理机制，在保持 4 亿参数级模型容量的同时降低单步推理开销，......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "14",
     "trend": "up"
   },
   {
@@ -126,17 +146,7 @@
     "abstract": "Comments...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
-  },
-  {
-    "title": "Gemini CLI will stop working from June 18, 2026",
-    "source": "HackerNews",
-    "link": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/",
-    "abstract": "Comments...",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
+    "rank": "15",
+    "trend": "up"
   }
 ]
