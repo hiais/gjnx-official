@@ -1,23 +1,13 @@
 [
   {
-    "title": "国产GPU开始造世界！国内首个全栈具身智能仿真平台来了",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/05/420084.html",
-    "abstract": "发布MT Lambda...",
-    "pscore": 95,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "up"
-  },
-  {
     "title": "AMD's Lemonade SDK For AI Promotes macOS To GA Status, ROCm 7.13 Integrated",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/news/Lemonade-SDK-10.5-Released",
     "abstract": "The Lemonade SDK for \"refreshingly fast local AI\" that is largely developed by AMD engineers as an open-source project continues advancing quite rapidly for serving optimized LLMs ...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
+    "rank": "01",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -26,7 +16,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -36,8 +26,18 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
+    "rank": "03",
+    "trend": "up"
+  },
+  {
+    "title": "太初元碁洪源：异构计算能力将成为未来AI算力基础设施的重要方向｜AIGC2026",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/05/420743.html",
+    "abstract": "AI产业正在进入新一轮高强度算力周期...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google I/O 2026 | Gemini 3.5 Flash 发布：4 倍速度提升，剑指 Agent 时代",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -67,7 +67,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google I/O 2026 | “搜索”功能迎来 25 年来最大升级，AI Mode 月活突破 10 亿",
@@ -97,7 +97,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -127,7 +127,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "地平线开源 4 亿参数机器人小脑大模型 HoloMotion-1",
@@ -137,7 +137,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "14",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Gemini 3.5 Flash",
