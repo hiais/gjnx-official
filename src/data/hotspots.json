@@ -1,12 +1,22 @@
 [
   {
+    "title": "NVIDIA RTX PRO Blackwell Performance Delivering Excellent Linux Performance",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/review/nvidia-rtx-pro-blackwell",
+    "abstract": "Recently I received the line-up of the NVIDIA RTX PRO \"Blackwell\" workstation graphics cards for seeing how these newest professional offerings from NVIDIA are performing on Linux ...",
+    "pscore": 92,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "up"
+  },
+  {
     "title": "Google Cloud TPUs made available to Hugging Face users",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "01",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -16,7 +26,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -26,7 +36,7 @@
     "abstract": "AMD engineers continue enhancing the AMDXDNA accelerator driver for supporting the Ryzen AI NPUs on Linux......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -36,7 +46,7 @@
     "abstract": "腾讯宣布旗下操作系统层级 AI 助手 Marvis（马维斯）正式上线，由腾讯应用宝团队打造，能把整台电脑变成可对话的对象。 开箱即用，支Windows端、Mac端、安卓端版本同步上线，无需邀请码。 根据介绍，Marvis 将终端系统、文件、应用、算力和跨端连接纳入同一个 AI 中间层。目前，每位用户每天可享 1000 万免费 Token。 Ma......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -46,8 +56,8 @@
     "abstract": "数学界迎来了一次里程碑式突破。OpenAI近日宣布，其内部推理模型生成了一份原创数学证明，推翻了保罗·Erdős于1946年提出的单位距离猜想——一个困扰数学家近80年的离散几何开放问题。 这一成果的发布紧随OpenAI上一次失败之后。七个月前，前副总裁Kevin Weil曾宣称GPT-5解决了10个Erdős问题，但随后被学界证伪：那些\"......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -56,8 +66,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "AMD Announces The EPYC 8005 Series SKUs From 8 To 84 Cores",
@@ -66,8 +76,8 @@
     "abstract": "Back in late February AMD announced the EPYC 8005 \"Sorano\" series to succeed EPYC 8004 Siena. At the time details were light while today AMD published the SKU table and more detail...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "Google I/O 2026 | “搜索”功能迎来 25 年来最大升级，AI Mode 月活突破 10 亿",
@@ -76,18 +86,8 @@
     "abstract": "Google在I/O 2026上宣布了“搜索(Search)”业务的核心升级。AI Mode自推出仅一年，月活用户已突破10亿，查询量每季度翻一番以上。随着用户意识到“搜索”能做的远比以前多，搜索次数已创历史新高。 本次升级的核心是用Gemini 3.5 Flash替换了原来的默认模型，作为AI Mode的新内核。同时，Search迎来了25年来最大的升级—...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
-  },
-  {
-    "title": "New features in GCC 16: Improved error messages and SARIF output",
-    "source": "HackerNews",
-    "link": "https://developers.redhat.com/articles/2026/04/28/gcc-16-improved-error-messages-sarif-output",
-    "abstract": "Comments...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
