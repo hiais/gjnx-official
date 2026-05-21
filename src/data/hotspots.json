@@ -7,7 +7,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "太初元碁洪源：异构计算能力将成为未来AI算力基础设施的重要方向｜AIGC2026",
@@ -40,13 +40,23 @@
     "trend": "up"
   },
   {
+    "title": "OpenAI 推理模型推翻 80 年几何猜想：AI 首次自主证明 Erdős 开放问题",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/443573",
+    "abstract": "数学界迎来了一次里程碑式突破。OpenAI近日宣布，其内部推理模型生成了一份原创数学证明，推翻了保罗·Erdős于1946年提出的单位距离猜想——一个困扰数学家近80年的离散几何开放问题。 这一成果的发布紧随OpenAI上一次失败之后。七个月前，前副总裁Kevin Weil曾宣称GPT-5解决了10个Erdős问题，但随后被学界证伪：那些\"......",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "05",
+    "trend": "down"
+  },
+  {
     "title": "Google I/O 2026 | Gemini 3.5 Flash 发布：4 倍速度提升，剑指 Agent 时代",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/443038",
     "abstract": "Google在I/O 2026上正式发布Gemini 3.5 Flash，这是Google最新一代结合前沿智能与行动能力的模型系列。 3.5 Flash定位为迄今最强的Agentic和编程模型，在Terminal-Bench 2.1（76.2%）、GDPval-AA（1656 Elo）和MCP Atlas（83.6%）等具有挑战性的基准测试中均超越Gemin...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -56,7 +66,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -66,8 +76,8 @@
     "abstract": "Back in late February AMD announced the EPYC 8005 \"Sorano\" series to succeed EPYC 8004 Siena. At the time details were light while today AMD published the SKU table and more detail...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "Google I/O 2026 | “搜索”功能迎来 25 年来最大升级，AI Mode 月活突破 10 亿",
@@ -76,7 +86,7 @@
     "abstract": "Google在I/O 2026上宣布了“搜索(Search)”业务的核心升级。AI Mode自推出仅一年，月活用户已突破10亿，查询量每季度翻一番以上。随着用户意识到“搜索”能做的远比以前多，搜索次数已创历史新高。 本次升级的核心是用Gemini 3.5 Flash替换了原来的默认模型，作为AI Mode的新内核。同时，Search迎来了25年来最大的升级—...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -86,7 +96,7 @@
     "abstract": "Google 在 I/O 2026 宣布了一个重要的产品过渡：将 Gemini CLI 正式更名为 Antigravity CLI，并同步推出 Google Antigravity 2.0—— 一个统一的 Agent 优先开发平台。这一举措标志着 Google 在 AI 编程工具领域的战略升级，从单一命令行工具转向支持多 Agent 协作的完整开发生态系统。...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -96,7 +106,7 @@
     "abstract": "除了提供其独有的用于在 Android 上构建应用的 vibe-coding 工具外，谷歌还宣布将在 Android Studio 中提供一系列工具，支持 AI agent（如 Claude Code、OpenAI 的 Codex，以及谷歌自家的 Antigravity 或 Gemini）的集成，从而加速 Android 应用的开发进程。 谷歌在其年度 Go...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -106,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -116,24 +126,14 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "13",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/pytorch-xla",
     "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
-  },
-  {
-    "title": "地平线开源 4 亿参数机器人小脑大模型 HoloMotion-1",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/442809",
-    "abstract": "地平线宣布正式发布并开源HoloMotion-1，一个面向人形机器人全身控制打造的 4 亿参数级机器人小脑大模型。 根据介绍，HoloMotion-1依托更大的模型容量，面向更丰富的动作分布和更长时序的运动连续性，建模更复杂的身体协同关系。并结合MoE稀疏激活与KV-cache推理机制，在保持 4 亿参数级模型容量的同时降低单步推理开销，......",
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "14",
