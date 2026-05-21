@@ -1,22 +1,12 @@
 [
   {
-    "title": "AMD's Lemonade SDK For AI Promotes macOS To GA Status, ROCm 7.13 Integrated",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Lemonade-SDK-10.5-Released",
-    "abstract": "The Lemonade SDK for \"refreshingly fast local AI\" that is largely developed by AMD engineers as an open-source project continues advancing quite rapidly for serving optimized LLMs ...",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "down"
-  },
-  {
     "title": "Google Cloud TPUs made available to Hugging Face users",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "01",
     "trend": "down"
   },
   {
@@ -26,18 +16,18 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "rank": "02",
+    "trend": "up"
   },
   {
-    "title": "太初元碁洪源：异构计算能力将成为未来AI算力基础设施的重要方向｜AIGC2026",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/05/420743.html",
-    "abstract": "AI产业正在进入新一轮高强度算力周期...",
+    "title": "Ryzen AI AMDXDNA Driver Adding Expandable Heap Support With Linux 7.2",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/AMDXDNA-Expandable-Heap",
+    "abstract": "AMD engineers continue enhancing the AMDXDNA accelerator driver for supporting the Ryzen AI NPUs on Linux......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
+    "rank": "03",
+    "trend": "down"
   },
   {
     "title": "腾讯推出操作系统层级 AI 助手：Marvis（马维斯）",
@@ -46,7 +36,7 @@
     "abstract": "腾讯宣布旗下操作系统层级 AI 助手 Marvis（马维斯）正式上线，由腾讯应用宝团队打造，能把整台电脑变成可对话的对象。 开箱即用，支Windows端、Mac端、安卓端版本同步上线，无需邀请码。 根据介绍，Marvis 将终端系统、文件、应用、算力和跨端连接纳入同一个 AI 中间层。目前，每位用户每天可享 1000 万免费 Token。 Ma......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -56,7 +46,7 @@
     "abstract": "数学界迎来了一次里程碑式突破。OpenAI近日宣布，其内部推理模型生成了一份原创数学证明，推翻了保罗·Erdős于1946年提出的单位距离猜想——一个困扰数学家近80年的离散几何开放问题。 这一成果的发布紧随OpenAI上一次失败之后。七个月前，前副总裁Kevin Weil曾宣称GPT-5解决了10个Erdős问题，但随后被学界证伪：那些\"......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -66,7 +56,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -76,7 +66,7 @@
     "abstract": "Back in late February AMD announced the EPYC 8005 \"Sorano\" series to succeed EPYC 8004 Siena. At the time details were light while today AMD published the SKU table and more detail...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -86,8 +76,8 @@
     "abstract": "Google在I/O 2026上宣布了“搜索(Search)”业务的核心升级。AI Mode自推出仅一年，月活用户已突破10亿，查询量每季度翻一番以上。随着用户意识到“搜索”能做的远比以前多，搜索次数已创历史新高。 本次升级的核心是用Gemini 3.5 Flash替换了原来的默认模型，作为AI Mode的新内核。同时，Search迎来了25年来最大的升级—...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "New features in GCC 16: Improved error messages and SARIF output",
@@ -96,7 +86,7 @@
     "abstract": "Comments...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -106,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -116,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -126,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "12",
     "trend": "down"
   },
   {
@@ -136,8 +126,8 @@
     "abstract": "去年，Google推出了Nano Banana，将Gemini的智能带入了图像生成和编辑领域——帮助数百万人修复老照片、从草图开始设计、以此前无法实现的方式可视化创意。在I/O 2026大会上，Google宣布了这项能力的下一个延伸：Gemini Omni。 Gemini Omni将Gemini的推理能力与视频生成创作能力融合，是一款能够从任意输入创作内容的...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
   },
   {
     "title": "Initial Benchmarks Of The SpacemiT K3 RVA23 RISC-V CPU With The K3 Pico-ITX",
@@ -146,7 +136,7 @@
     "abstract": "One of the RISC-V SoCs we have been most looking forward to this year is the SpacemiT K3 that features the X100 RISC-V cores that are RVA23 compliant and among the first readily av...",
     "pscore": 69,
     "category": "CHIP_FRONT",
-    "rank": "15",
+    "rank": "14",
     "trend": "up"
   }
 ]
