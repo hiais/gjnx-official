@@ -7,7 +7,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "花 4.8 万美元自建 GPU 服务器，值不值？一位独立研究者的真实算力账本",
@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google 逐渐“IBM 化”",
@@ -70,23 +70,13 @@
     "trend": "down"
   },
   {
-    "title": "AMD Announces The EPYC 8005 Series SKUs From 8 To 84 Cores",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/AMD-EPYC-8005-SKU-Table",
-    "abstract": "Back in late February AMD announced the EPYC 8005 \"Sorano\" series to succeed EPYC 8004 Siena. At the time details were light while today AMD published the SKU table and more detail...",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
-  },
-  {
     "title": "谷歌推出新一代 AI 搜索广告",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/444192",
     "abstract": "当用户在搜索引擎上研究复杂话题或发现产品时，Google一直是最主要的流量入口。如今，这个入口正在被AI彻底重构。在刚刚结束的Google Marketing Live活动上，Google发布了一整套基于Gemini大模型的新一代搜索广告格式，旨在将AI能力深度融入广告体验，帮助品牌在用户的研究决策过程中实现更精准的连接。 AI Mode下的全新......",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -96,7 +86,7 @@
     "abstract": "Google I/O 2026 的 Gemini 3.5 发布，与 Claude Opus 4.7 正面对照 —— 看清智能体时代的胜负手 在刚结束的 Google I/O 2026 上，CEO 桑达尔・皮查伊（Sundar Pichai）发布了新一代大模型 Gemini 3.5。表面是例行迭代，但把性能、定价、产品路线和资本支出几张牌摊开看，谷歌真正的意图...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -106,7 +96,7 @@
     "abstract": "JeecgBoot AI 专题研究 | 拆解谷歌 I/O 2026 全模态模型 Gemini Omni—— 从任意输入直出视频，再用一句话反复改 一个暴论：做视频这件事，正在变成一句话的成本 先把结论放在最前面：视频制作，正在变成「一句话」就能搞定的事。 过去做一条像样的视频，意味着拍摄、布光、剪辑、调色、特效，一套流程下来要团队、要设备......",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -116,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -126,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -136,8 +126,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
   },
   {
     "title": "Initial Benchmarks Of The SpacemiT K3 RVA23 RISC-V CPU With The K3 Pico-ITX",
@@ -146,7 +136,7 @@
     "abstract": "One of the RISC-V SoCs we have been most looking forward to this year is the SpacemiT K3 that features the X100 RISC-V cores that are RVA23 compliant and among the first readily av...",
     "pscore": 69,
     "category": "CHIP_FRONT",
-    "rank": "15",
-    "trend": "up"
+    "rank": "14",
+    "trend": "down"
   }
 ]
