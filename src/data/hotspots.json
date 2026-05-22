@@ -17,7 +17,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Ryzen AI AMDXDNA Driver Adding Expandable Heap Support With Linux 7.2",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "腾讯推出操作系统层级 AI 助手：Marvis（马维斯）",
@@ -67,7 +67,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "AMD Announces The EPYC 8005 Series SKUs From 8 To 84 Cores",
@@ -77,16 +77,26 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "up"
+    "trend": "down"
   },
   {
-    "title": "Google I/O 2026 | “搜索”功能迎来 25 年来最大升级，AI Mode 月活突破 10 亿",
+    "title": "Gemini 3.5 砍半定价、4 倍提速强势入场，Claude Opus 4.7 还守得住王座吗？",
     "source": "OSChina",
-    "link": "https://www.oschina.net/news/443183",
-    "abstract": "Google在I/O 2026上宣布了“搜索(Search)”业务的核心升级。AI Mode自推出仅一年，月活用户已突破10亿，查询量每季度翻一番以上。随着用户意识到“搜索”能做的远比以前多，搜索次数已创历史新高。 本次升级的核心是用Gemini 3.5 Flash替换了原来的默认模型，作为AI Mode的新内核。同时，Search迎来了25年来最大的升级—...",
+    "link": "https://www.oschina.net/news/444145",
+    "abstract": "Google I/O 2026 的 Gemini 3.5 发布，与 Claude Opus 4.7 正面对照 —— 看清智能体时代的胜负手 在刚结束的 Google I/O 2026 上，CEO 桑达尔・皮查伊（Sundar Pichai）发布了新一代大模型 Gemini 3.5。表面是例行迭代，但把性能、定价、产品路线和资本支出几张牌摊开看，谷歌真正的意图...",
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "09",
+    "trend": "down"
+  },
+  {
+    "title": "【视频创作变天了】谷歌 Gemini Omni：任意输入直出视频，一句话改片时代来了",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/444144",
+    "abstract": "JeecgBoot AI 专题研究 | 拆解谷歌 I/O 2026 全模态模型 Gemini Omni—— 从任意输入直出视频，再用一句话反复改 一个暴论：做视频这件事，正在变成一句话的成本 先把结论放在最前面：视频制作，正在变成「一句话」就能搞定的事。 过去做一条像样的视频，意味着拍摄、布光、剪辑、调色、特效，一套流程下来要团队、要设备......",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -96,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -106,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "down"
   },
   {
@@ -116,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "down"
   },
   {
@@ -126,8 +136,8 @@
     "abstract": "去年，Google推出了Nano Banana，将Gemini的智能带入了图像生成和编辑领域——帮助数百万人修复老照片、从草图开始设计、以此前无法实现的方式可视化创意。在I/O 2026大会上，Google宣布了这项能力的下一个延伸：Gemini Omni。 Gemini Omni将Gemini的推理能力与视频生成创作能力融合，是一款能够从任意输入创作内容的...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "14",
+    "trend": "down"
   },
   {
     "title": "Initial Benchmarks Of The SpacemiT K3 RVA23 RISC-V CPU With The K3 Pico-ITX",
@@ -136,7 +146,7 @@
     "abstract": "One of the RISC-V SoCs we have been most looking forward to this year is the SpacemiT K3 that features the X100 RISC-V cores that are RVA23 compliant and among the first readily av...",
     "pscore": 69,
     "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "15",
     "trend": "up"
   }
 ]
