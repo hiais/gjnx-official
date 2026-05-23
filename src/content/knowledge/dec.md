@@ -1,6 +1,6 @@
 ---
 title: dec (理想极限)
-date: 2026-05-23T06:45:12.088Z
+date: 2026-05-23T09:40:04.341Z
 category: Auto-Mined
 tags:
   - Auto-Gen

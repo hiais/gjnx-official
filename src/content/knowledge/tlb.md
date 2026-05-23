@@ -1,6 +1,6 @@
 ---
 title: TLB (转译后备缓冲器)
-date: 2026-05-23T06:45:11.343Z
+date: 2026-05-23T09:40:03.604Z
 category: Auto-Mined
 tags:
   - Auto-Gen

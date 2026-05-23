@@ -1,6 +1,6 @@
 ---
 title: HAL (硬件抽象层)
-date: 2026-05-23T06:45:11.126Z
+date: 2026-05-23T09:40:03.418Z
 category: Auto-Mined
 tags:
   - Auto-Gen

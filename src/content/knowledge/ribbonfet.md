@@ -1,6 +1,6 @@
 ---
 title: RibbonFET (全环绕栅极)
-date: 2026-05-23T06:45:11.201Z
+date: 2026-05-23T09:40:03.491Z
 category: Auto-Mined
 tags:
   - Auto-Gen

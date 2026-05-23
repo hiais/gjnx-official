@@ -1,6 +1,6 @@
 ---
 title: COP (能效比)
-date: 2026-05-23T06:45:11.759Z
+date: 2026-05-23T09:40:03.987Z
 category: Auto-Mined
 tags:
   - Auto-Gen
