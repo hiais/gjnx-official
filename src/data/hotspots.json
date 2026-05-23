@@ -1,12 +1,22 @@
 [
   {
+    "title": "HeteroFlow 异构算力调度平台 5 月 22 日上线推理服务-彻底让 TOKEN 产量翻倍",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/444549",
+    "abstract": "推理服务 HeteroFlow V2 提供完整的 GPU 推理服务管理能力，支持从模型发现到 API 服务的全自动化流程。通过 TaskGroup 统一管理推理服务生命周期，内置 OpenAI 兼容网关，实现一键部署和调用。 系统架构 \r ┌────────────────────────────────────────────────────......",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "up"
+  },
+  {
     "title": "NVIDIA RTX PRO Blackwell Performance Delivering Excellent Linux Performance",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/review/nvidia-rtx-pro-blackwell",
     "abstract": "Recently I received the line-up of the NVIDIA RTX PRO \"Blackwell\" workstation graphics cards for seeing how these newest professional offerings from NVIDIA are performing on Linux ...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "01",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -16,7 +26,7 @@
     "abstract": "2024 年，一位前 FAANG 工程师决定辞职，成为独立 AI 研究者。要做研究就需要算力，于是他花 4.8 万美元亲手组装了一台搭载 6 张 RTX 6000 Ada GPU 的服务器——取名\"grumbl\"（他自嘲不会拼写\"GPUs\"）。 最近他公开发布了这台服务器的完整使用数据，回答了那个所有自建算力的开发者都会问的问题：自己买 GPU 到底值不值？...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -26,7 +36,7 @@
     "abstract": "一位曾经的Google铁杆用户发出尖锐批评，指出这家科技巨头正重蹈IBM覆辙——坐拥垂直整合的技术优势，却因产品策略失误、用户信任崩塌和自动化服务的冷漠，逐渐失去创新活力与用户忠诚度。 Google曾被视为拥有最完美技术栈的企业：从TSMC代工的TPU芯片、自建数据中心，到自研AI模型和搜索引擎，这种端到端的垂直整合被外......",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -36,8 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -46,7 +56,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -56,8 +66,8 @@
     "abstract": "AMD engineers continue enhancing the AMDXDNA accelerator driver for supporting the Ryzen AI NPUs on Linux......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -66,7 +76,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -76,8 +86,8 @@
     "abstract": "当用户在搜索引擎上研究复杂话题或发现产品时，Google一直是最主要的流量入口。如今，这个入口正在被AI彻底重构。在刚刚结束的Google Marketing Live活动上，Google发布了一整套基于Gemini大模型的新一代搜索广告格式，旨在将AI能力深度融入广告体验，帮助品牌在用户的研究决策过程中实现更精准的连接。 AI Mode下的全新......",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "Gemini 3.5 砍半定价、4 倍提速强势入场，Claude Opus 4.7 还守得住王座吗？",
@@ -86,8 +96,8 @@
     "abstract": "Google I/O 2026 的 Gemini 3.5 发布，与 Claude Opus 4.7 正面对照 —— 看清智能体时代的胜负手 在刚结束的 Google I/O 2026 上，CEO 桑达尔・皮查伊（Sundar Pichai）发布了新一代大模型 Gemini 3.5。表面是例行迭代，但把性能、定价、产品路线和资本支出几张牌摊开看，谷歌真正的意图...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "【视频创作变天了】谷歌 Gemini Omni：任意输入直出视频，一句话改片时代来了",
@@ -96,7 +106,7 @@
     "abstract": "JeecgBoot AI 专题研究 | 拆解谷歌 I/O 2026 全模态模型 Gemini Omni—— 从任意输入直出视频，再用一句话反复改 一个暴论：做视频这件事，正在变成一句话的成本 先把结论放在最前面：视频制作，正在变成「一句话」就能搞定的事。 过去做一条像样的视频，意味着拍摄、布光、剪辑、调色、特效，一套流程下来要团队、要设备......",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -106,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "down"
   },
   {
@@ -116,8 +126,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -126,17 +136,17 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "14",
+    "trend": "up"
   },
   {
-    "title": "Initial Benchmarks Of The SpacemiT K3 RVA23 RISC-V CPU With The K3 Pico-ITX",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/spacemit-k3-pico-itx",
-    "abstract": "One of the RISC-V SoCs we have been most looking forward to this year is the SpacemiT K3 that features the X100 RISC-V cores that are RVA23 compliant and among the first readily av...",
-    "pscore": 69,
+    "title": "美团外卖前负责人入局餐饮具身模型，元节智能获千万级种子轮融资",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/05/423159.html",
+    "abstract": "不造人形机器人，死磕餐饮后厨...",
+    "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "15",
     "trend": "up"
   }
 ]
