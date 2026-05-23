@@ -1,6 +1,6 @@
 ---
 title: Calling (函数调用)
-date: 2026-05-23T06:01:30.936Z
+date: 2026-05-23T06:45:11.241Z
 category: Auto-Mined
 tags:
   - Auto-Gen

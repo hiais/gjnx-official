@@ -1,6 +1,6 @@
 ---
 title: Frequent (频繁)
-date: 2026-05-23T06:01:30.956Z
+date: 2026-05-23T06:45:11.277Z
 category: Auto-Mined
 tags:
   - Auto-Gen

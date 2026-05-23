@@ -1,6 +1,6 @@
 ---
 title: Principles (第一性原理)
-date: 2026-05-23T06:01:31.403Z
+date: 2026-05-23T06:45:11.757Z
 category: Auto-Mined
 tags:
   - Auto-Gen
