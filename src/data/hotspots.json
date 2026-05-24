@@ -37,7 +37,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -57,7 +57,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Ryzen AI AMDXDNA Driver Adding Expandable Heap Support With Linux 7.2",
@@ -67,7 +67,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -87,7 +87,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Gemini 3.5 砍半定价、4 倍提速强势入场，Claude Opus 4.7 还守得住王座吗？",
@@ -127,7 +127,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -137,6 +137,16 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "14",
-    "trend": "up"
+    "trend": "down"
+  },
+  {
+    "title": "美团外卖前负责人入局餐饮具身模型，元节智能获千万级种子轮融资",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/05/423159.html",
+    "abstract": "不造人形机器人，死磕餐饮后厨...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "15",
+    "trend": "down"
   }
 ]
