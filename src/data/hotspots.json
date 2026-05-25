@@ -20,14 +20,24 @@
     "trend": "down"
   },
   {
+    "title": "一季度 AI 领域融资超 1100 亿元",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/445497",
+    "abstract": "央视财经报道称，近期人工智能创投市场热度攀升。5月，月之暗面、阶跃星辰等国产大模型拿下超过300亿元融资。 具身智能同样受到市场关注，一周内维他动力、鹿明机器人等接连斩获数亿元融资。有创投机构统计，一季度人工智能领域的融资有近600起，总额超1100亿元，同比激增185.4%。 AI创业公司拿到融资后不少都投向三大方......",
+    "pscore": 92,
+    "category": "CHIP_FRONT",
+    "rank": "03",
+    "trend": "up"
+  },
+  {
     "title": "花 4.8 万美元自建 GPU 服务器，值不值？一位独立研究者的真实算力账本",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/444365/was-my-48k-gpu-worth-it",
     "abstract": "2024 年，一位前 FAANG 工程师决定辞职，成为独立 AI 研究者。要做研究就需要算力，于是他花 4.8 万美元亲手组装了一台搭载 6 张 RTX 6000 Ada GPU 的服务器——取名\"grumbl\"（他自嘲不会拼写\"GPUs\"）。 最近他公开发布了这台服务器的完整使用数据，回答了那个所有自建算力的开发者都会问的问题：自己买 GPU 到底值不值？...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "Google 逐渐“IBM 化”",
@@ -36,8 +46,18 @@
     "abstract": "一位曾经的Google铁杆用户发出尖锐批评，指出这家科技巨头正重蹈IBM覆辙——坐拥垂直整合的技术优势，却因产品策略失误、用户信任崩塌和自动化服务的冷漠，逐渐失去创新活力与用户忠诚度。 Google曾被视为拥有最完美技术栈的企业：从TSMC代工的TPU芯片、自建数据中心，到自研AI模型和搜索引擎，这种端到端的垂直整合被外......",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
+  },
+  {
+    "title": "未来推理将吃掉70%算力，30%留给训练丨硅谷投资人张璐@AIGC2026",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/05/423441.html",
+    "abstract": "这些AI关键词正在被重新定义...",
+    "pscore": 89,
+    "category": "CHIP_FRONT",
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "未来推理将吃掉70%算力，30%留给训练丨硅谷投资人张璐@AIGC2026",
@@ -46,7 +66,17 @@
     "abstract": "技术创新只是起点，产业整合速度才是AI落地的真正竞争力...",
     "pscore": 89,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "07",
+    "trend": "up"
+  },
+  {
+    "title": "华为具身大脑一号位创业，用认知科学造世界模型，获亿元级融资",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/05/423455.html",
+    "abstract": "用“人类心智”重做具身智能...",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -56,8 +86,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -66,8 +96,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "Ryzen AI AMDXDNA Driver Adding Expandable Heap Support With Linux 7.2",
@@ -76,7 +106,7 @@
     "abstract": "AMD engineers continue enhancing the AMDXDNA accelerator driver for supporting the Ryzen AI NPUs on Linux......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -86,8 +116,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "谷歌推出新一代 AI 搜索广告",
@@ -96,8 +126,8 @@
     "abstract": "当用户在搜索引擎上研究复杂话题或发现产品时，Google一直是最主要的流量入口。如今，这个入口正在被AI彻底重构。在刚刚结束的Google Marketing Live活动上，Google发布了一整套基于Gemini大模型的新一代搜索广告格式，旨在将AI能力深度融入广告体验，帮助品牌在用户的研究决策过程中实现更精准的连接。 AI Mode下的全新......",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "13",
+    "trend": "down"
   },
   {
     "title": "Gemini 3.5 砍半定价、4 倍提速强势入场，Claude Opus 4.7 还守得住王座吗？",
@@ -106,8 +136,8 @@
     "abstract": "Google I/O 2026 的 Gemini 3.5 发布，与 Claude Opus 4.7 正面对照 —— 看清智能体时代的胜负手 在刚结束的 Google I/O 2026 上，CEO 桑达尔・皮查伊（Sundar Pichai）发布了新一代大模型 Gemini 3.5。表面是例行迭代，但把性能、定价、产品路线和资本支出几张牌摊开看，谷歌真正的意图...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "14",
+    "trend": "up"
   },
   {
     "title": "【视频创作变天了】谷歌 Gemini Omni：任意输入直出视频，一句话改片时代来了",
@@ -116,37 +146,7 @@
     "abstract": "JeecgBoot AI 专题研究 | 拆解谷歌 I/O 2026 全模态模型 Gemini Omni—— 从任意输入直出视频，再用一句话反复改 一个暴论：做视频这件事，正在变成一句话的成本 先把结论放在最前面：视频制作，正在变成「一句话」就能搞定的事。 过去做一条像样的视频，意味着拍摄、布光、剪辑、调色、特效，一套流程下来要团队、要设备......",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
-  },
-  {
-    "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/keras-chatbot-arena",
-    "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
-  },
-  {
-    "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/sdxl_jax",
-    "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
-  },
-  {
-    "title": "Hugging Face on PyTorch / XLA TPUs",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/pytorch-xla",
-    "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "down"
+    "trend": "up"
   }
 ]
