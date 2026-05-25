@@ -1,13 +1,33 @@
 [
   {
+    "title": "TSMC Powers Up: 408,000 Batteries Get a Safety Intelligence Upgrade",
+    "source": "SemiWiki",
+    "link": "https://semiwiki.com/semiconductor-manufacturers/tsmc/369345-tsmc-powers-up-408000-batteries-get-a-safety-intelligence-upgrade/",
+    "abstract": "As semiconductor manufacturing becomes increasingly dependent on uninterrupted power and energy efficiency, battery reliability has emerged as a critical operational issue for adva...",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "down"
+  },
+  {
     "title": "HeteroFlow 异构算力调度平台 5 月 22 日上线推理服务-彻底让 TOKEN 产量翻倍",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/444549",
     "abstract": "推理服务 HeteroFlow V2 提供完整的 GPU 推理服务管理能力，支持从模型发现到 API 服务的全自动化流程。通过 TaskGroup 统一管理推理服务生命周期，内置 OpenAI 兼容网关，实现一键部署和调用。 系统架构 \r ┌────────────────────────────────────────────────────......",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "up"
+    "rank": "02",
+    "trend": "down"
+  },
+  {
+    "title": "Library Characterization gets a Boost from AI",
+    "source": "SemiWiki",
+    "link": "https://semiwiki.com/eda/369561-library-characterization-gets-a-boost-from-ai/",
+    "abstract": "The semiconductor industry creates increasingly complex SoC and chiplets using lots of IP and all of that IP needs to be characterized at the cell level. As we design with 3nm and ...",
+    "pscore": 92,
+    "category": "CHIP_FRONT",
+    "rank": "03",
+    "trend": "down"
   },
   {
     "title": "NVIDIA RTX PRO Blackwell Performance Delivering Excellent Linux Performance",
@@ -16,7 +36,7 @@
     "abstract": "Recently I received the line-up of the NVIDIA RTX PRO \"Blackwell\" workstation graphics cards for seeing how these newest professional offerings from NVIDIA are performing on Linux ...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -26,8 +46,8 @@
     "abstract": "央视财经报道称，近期人工智能创投市场热度攀升。5月，月之暗面、阶跃星辰等国产大模型拿下超过300亿元融资。 具身智能同样受到市场关注，一周内维他动力、鹿明机器人等接连斩获数亿元融资。有创投机构统计，一季度人工智能领域的融资有近600起，总额超1100亿元，同比激增185.4%。 AI创业公司拿到融资后不少都投向三大方......",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "花 4.8 万美元自建 GPU 服务器，值不值？一位独立研究者的真实算力账本",
@@ -36,8 +56,8 @@
     "abstract": "2024 年，一位前 FAANG 工程师决定辞职，成为独立 AI 研究者。要做研究就需要算力，于是他花 4.8 万美元亲手组装了一台搭载 6 张 RTX 6000 Ada GPU 的服务器——取名\"grumbl\"（他自嘲不会拼写\"GPUs\"）。 最近他公开发布了这台服务器的完整使用数据，回答了那个所有自建算力的开发者都会问的问题：自己买 GPU 到底值不值？...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "未来推理将吃掉70%算力，30%留给训练丨硅谷投资人张璐@AIGC2026",
@@ -46,8 +66,8 @@
     "abstract": "这些AI关键词正在被重新定义...",
     "pscore": 89,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "华为具身大脑一号位创业，用认知科学造世界模型，获亿元级融资",
@@ -56,7 +76,7 @@
     "abstract": "用“人类心智”重做具身智能...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -66,8 +86,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -76,8 +96,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -86,8 +106,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -96,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -106,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "13",
     "trend": "up"
   },
   {
@@ -116,7 +136,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "14",
     "trend": "up"
   }
 ]
