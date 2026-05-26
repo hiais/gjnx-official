@@ -17,7 +17,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Library Characterization gets a Boost from AI",
@@ -37,7 +37,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "一季度 AI 领域融资超 1100 亿元",
@@ -50,23 +50,13 @@
     "trend": "up"
   },
   {
-    "title": "花 4.8 万美元自建 GPU 服务器，值不值？一位独立研究者的真实算力账本",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/444365/was-my-48k-gpu-worth-it",
-    "abstract": "2024 年，一位前 FAANG 工程师决定辞职，成为独立 AI 研究者。要做研究就需要算力，于是他花 4.8 万美元亲手组装了一台搭载 6 张 RTX 6000 Ada GPU 的服务器——取名\"grumbl\"（他自嘲不会拼写\"GPUs\"）。 最近他公开发布了这台服务器的完整使用数据，回答了那个所有自建算力的开发者都会问的问题：自己买 GPU 到底值不值？...",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
-  },
-  {
     "title": "未来推理将吃掉70%算力，30%留给训练丨硅谷投资人张璐@AIGC2026",
     "source": "QbitAI",
     "link": "https://www.qbitai.com/2026/05/423441.html",
     "abstract": "这些AI关键词正在被重新定义...",
     "pscore": 89,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -76,7 +66,7 @@
     "abstract": "用“人类心智”重做具身智能...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -86,7 +76,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -96,7 +86,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -106,7 +96,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -116,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -126,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -136,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
+    "rank": "13",
+    "trend": "down"
   }
 ]
