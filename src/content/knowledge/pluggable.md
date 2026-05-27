@@ -1,6 +1,6 @@
 ---
 title: Pluggable (传统可插拔)
-date: 2026-05-23T09:40:04.924Z
+date: 2026-05-27T10:24:59.510Z
 category: Auto-Mined
 tags:
   - Auto-Gen

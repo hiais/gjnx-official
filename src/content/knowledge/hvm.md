@@ -1,6 +1,6 @@
 ---
 title: HVM (长效量产)
-date: 2026-05-23T09:40:04.912Z
+date: 2026-05-27T10:24:59.499Z
 category: Auto-Mined
 tags:
   - Auto-Gen
