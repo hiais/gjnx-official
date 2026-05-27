@@ -7,7 +7,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -27,7 +27,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "微软 MAI-Image-2.5 登上 Arena 文生图排行榜前三",
@@ -80,13 +80,23 @@
     "trend": "down"
   },
   {
+    "title": "Gemini, Gophers, and Fingers. Oh My Alternative Internets Beyond HTTPS",
+    "source": "HackerNews",
+    "link": "https://brennan.day/gemini-gophers-and-fingers-oh-my-alternative-internets-beyond-https/",
+    "abstract": "Comments...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "09",
+    "trend": "up"
+  },
+  {
     "title": "我用免费 AI 完成 JeeSite 手机端重磅升级：找对方法，免费工具也能高效落地项目",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/446251",
     "abstract": "JeeSite 手机端全面重构 近期，我顺利完成了 JeeSite 快速开发平台手机端 的全方位技术升级，完成了旧架构到全新现代化前端架构的迭代。全程依托免费AI编程工具辅助开发，摸索出一套零成本、高落地率的开发工作流，完美解决了传统开发效率低、新版架构适配难、多端兼容繁琐等问题。 很多开发者都有一个固有认知：免费 AI......",
     "pscore": 66,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
     "trend": "down"
   }
 ]
