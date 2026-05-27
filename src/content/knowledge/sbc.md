@@ -1,6 +1,6 @@
 ---
 title: SBC (基础)
-date: 2026-05-27T12:56:24.444Z
+date: 2026-05-27T16:18:09.697Z
 category: Auto-Mined
 tags:
   - Auto-Gen

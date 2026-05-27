@@ -1,6 +1,6 @@
 ---
 title: Power (漏功耗)
-date: 2026-05-27T12:56:24.336Z
+date: 2026-05-27T16:18:09.604Z
 category: Auto-Mined
 tags:
   - Auto-Gen
