@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -47,7 +47,17 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
+  },
+  {
+    "title": "微软 MAI-Image-2.5 登上 Arena 文生图排行榜前三",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/446875/mai-image-2-5-launches-at-no-3-on-arena-ai",
+    "abstract": "文本生成图像模型领域正在经历新一轮竞争。微软近日发布其最新一代图像生成模型 MAI-Image-2.5，并在 Arena 的最新文生图排行榜中首发即拿下第三名的位置，显示其在 AI 图像生成领域的整体实力正明显追赶行业领先者。目前在这一榜单上，OpenAI 的 gpt-image-2 以 1388 分位居第一，Google 的 gemini-3.1-flas...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -56,8 +66,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -66,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -76,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "我用免费 AI 完成 JeeSite 手机端重磅升级：找对方法，免费工具也能高效落地项目",
@@ -86,7 +96,7 @@
     "abstract": "JeeSite 手机端全面重构 近期，我顺利完成了 JeeSite 快速开发平台手机端 的全方位技术升级，完成了旧架构到全新现代化前端架构的迭代。全程依托免费AI编程工具辅助开发，摸索出一套零成本、高落地率的开发工作流，完美解决了传统开发效率低、新版架构适配难、多端兼容繁琐等问题。 很多开发者都有一个固有认知：免费 AI......",
     "pscore": 66,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   }
 ]
