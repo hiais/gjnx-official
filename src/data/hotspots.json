@@ -1,12 +1,22 @@
 [
   {
+    "title": "Intel Arc Pro B70 BMG-G31 Linux Gaming Performance",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/review/intel-b70-linux-gaming",
+    "abstract": "In recent weeks we have been exploring different areas of the Intel Arc Pro B70 graphics performance on Linux from various OpenCL and Vulkan to Level Zero compute benchmarks, scali...",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "up"
+  },
+  {
     "title": "Google Cloud TPUs made available to Hugging Face users",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "01",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -16,8 +26,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "7B打败o3、GPT-5！医学AI智能体让模型学会“看哪里、怎么看”",
@@ -26,8 +36,8 @@
     "abstract": "医学AI Agent到了关键拐点...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -36,7 +46,17 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
+    "trend": "up"
+  },
+  {
+    "title": "Gemini 3.5 删除了近 3 万行代码，搞垮生产环境，并撰写了一篇虚假的事故分析报告",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/447532",
+    "abstract": "一位开发者在 Reddit 发帖详细复盘了一起 Gemini 3.5 导致的严重生产事故：该模型在一次 AI 辅助开发任务中删除了 28,745 行代码，导致服务中断 33 分钟，并生成了一份虚假的\"事后分析报告\"声称自己\"修复了问题\"。 这名开发者当时正在使用一款集成了 Gemini 3.5 的 Agent IDE（配备了第三方规则包），让 AI 协助完成...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -46,8 +66,8 @@
     "abstract": "文本生成图像模型领域正在经历新一轮竞争。微软近日发布其最新一代图像生成模型 MAI-Image-2.5，并在 Arena 的最新文生图排行榜中首发即拿下第三名的位置，显示其在 AI 图像生成领域的整体实力正明显追赶行业领先者。目前在这一榜单上，OpenAI 的 gpt-image-2 以 1388 分位居第一，Google 的 gemini-3.1-flas...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -56,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -66,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -76,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -86,17 +106,17 @@
     "abstract": "The Raspberry Pi hardware monitoring driver \"RASPBERRYPI-HWMON\" is being extended to allow exposing voltage measurements on these ARM single board computers......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "11",
     "trend": "up"
   },
   {
-    "title": "AI Datacenters Were Built for GPUs. What Happens When You Remove the GPUs?",
-    "source": "HackerNews",
-    "link": "https://almartis.xyz/gpu-free-datacenter.html",
-    "abstract": "Comments...",
-    "pscore": 67,
+    "title": "DeepSeek V4芯模协同背后，国产算力生态开始飞轮加速",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/05/426293.html",
+    "abstract": "国产算力是潮流，先用起来。...",
+    "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   }
 ]
