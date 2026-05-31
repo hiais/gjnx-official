@@ -10,23 +10,13 @@
     "trend": "up"
   },
   {
-    "title": "4nm！比亚迪自研AI芯片来了：制程对齐英伟达，算力拉爆特斯拉",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/05/426557.html",
-    "abstract": "智驾出事，比亚迪兜底...",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
-  },
-  {
     "title": "Linux 7.1-rc6 To Hide The Documentation On \"clearcpuid\" Feature",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/news/Linux-7.1-Hide-Docs-clearcpuid",
     "abstract": "The clearcpuid= kernel parameter can be used to disable specific CPUID features for the kernel by specifying the targeted bit numbers of the feature(s) to disable or their flags fr...",
     "pscore": 87,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -36,7 +26,7 @@
     "abstract": "Undisclosed addition in jqwik instructed AI coding agents to delete app output....",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -46,14 +36,24 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tf_tpu",
     "abstract": "",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "05",
+    "trend": "up"
+  },
+  {
+    "title": "Linux 7.1-rc6 To Support The ASUS ROG RAIKIRI II & Nova 2 Lite Controllers",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Linux-7.1-rc6-Input",
+    "abstract": "Ahead of the Linux 7.1-rc6 test kernel due out later today, this week's batch of input subsystem fixes have been sent out that includes enabling a few newer input devices......",
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "帮Gemini拿下IMO金牌的关键先生，差点成了职业钢琴家",
@@ -117,6 +117,6 @@
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "up"
+    "trend": "down"
   }
 ]
