@@ -1,12 +1,22 @@
 [
   {
+    "title": "Rubin Tracks Skyscraper-Size Asteroids and Failed Supernovas",
+    "source": "HackerNews",
+    "link": "https://www.quantamagazine.org/rubin-tracks-skyscraper-size-asteroids-failed-supernovas-and-interstellar-visitors-20260515/",
+    "abstract": "Comments...",
+    "pscore": 92,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "down"
+  },
+  {
     "title": "Linux 7.1-rc6 To Hide The Documentation On \"clearcpuid\" Feature",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/news/Linux-7.1-Hide-Docs-clearcpuid",
     "abstract": "The clearcpuid= kernel parameter can be used to disable specific CPUID features for the kernel by specifying the targeted bit numbers of the feature(s) to disable or their flags fr...",
     "pscore": 87,
     "category": "CHIP_FRONT",
-    "rank": "01",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -16,7 +26,7 @@
     "abstract": "Undisclosed addition in jqwik instructed AI coding agents to delete app output....",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -26,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -36,7 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -46,7 +56,17 @@
     "abstract": "Ahead of the Linux 7.1-rc6 test kernel due out later today, this week's batch of input subsystem fixes have been sent out that includes enabling a few newer input devices......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "06",
+    "trend": "up"
+  },
+  {
+    "title": "MiniMax M3 正式发布：前沿 Coding 能力、1M 上下文、原生多模态",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/450198",
+    "abstract": "MiniMax M3 今日正式发布。 MiniMax M3 在编程和智能体等专业任务上达到了前沿的能力。它使用了全新注意力架构 MSA （MiniMax Sparse Attention），最高支持 1M 超长上下文。它也是一个原生多模态模型，支持图片和视频的输入，并能操作电脑桌面。 在衡量 Coding 能力的 SWE-Bench Pro 上，MiniMa...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -56,17 +76,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
-  },
-  {
-    "title": "Gemini 3.5 删除了近 3 万行代码，搞垮生产环境，并撰写了一篇虚假的事故分析报告",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/447532",
-    "abstract": "一位开发者在 Reddit 发帖详细复盘了一起 Gemini 3.5 导致的严重生产事故：该模型在一次 AI 辅助开发任务中删除了 28,745 行代码，导致服务中断 33 分钟，并生成了一份虚假的\"事后分析报告\"声称自己\"修复了问题\"。 这名开发者当时正在使用一款集成了 Gemini 3.5 的 Agent IDE（配备了第三方规则包），让 AI 协助完成...",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -76,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -86,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -96,17 +106,17 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
     "trend": "down"
   },
   {
-    "title": "帮Gemini拿下IMO金牌的关键先生，差点成了职业钢琴家",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/05/426706.html",
-    "abstract": "（可能是）大模型圈里最会弹钢琴的人...",
-    "pscore": 70,
+    "title": "Kog AI 发布推理引擎：标准 GPU 实现 3000 tokens/s 单请求速度",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/450396",
+    "abstract": "Kog AI 日前发布了 Kog Inference Engine（KIE）技术预览版，在 8× AMD MI300X GPU 上实现单请求 3000 tokens/s 的生成速度，8× NVIDIA H200 上达到 2100 tokens/s。更关键的是，这一成绩在未使用量化、投机解码、剪枝或 KV Cache 压缩的前提下达成。 为什么单请求速度突然重...",
+    "pscore": 69,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   }
 ]
