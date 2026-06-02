@@ -1,20 +1,20 @@
 [
   {
+    "title": "英伟达联合微软发布 RTX Spark：消费级 ARM 超级芯片、1 Petaflop 算力塞进 Windows PC",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/450990",
+    "abstract": "NVIDIA与微软在Computex 2026期间联合发布了RTX Spark，这是一款面向消费级PC和笔记本电脑的ARM超级芯片。NVIDIA CEO将其描述为\"个人电脑的新起点\"，将Petaflop级AI算力带入消费级设备。 RTX Spark的核心参数令人印象深刻：Blackwell架构GPU与Grace CPU的结合，台积电N3E工艺，完整的CUDA...",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "down"
+  },
+  {
     "title": "开源中国 AI 研报 (2026.5)丨AI Agent 赛道融资爆发；Google I/O 2026 发布 Gemini 全生态升级；AI 芯片与算力基础设施进入万亿市值时代",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/450867",
     "abstract": "《开源中国 AI 研报》2026 年 5 月期，追踪全球 AI 行业动态。 热点导览 Google I/O 2026 发布 Gemini 3.5 Flash、Gemini Omni 视频模型与持续运行 AI 助手 Gemini Spark，搜索迎来 25 年最大升级。 Anthropic 发布 Claude Opus 4.8，提升诚实性与可靠性，支持动态工作...",
     "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "up"
-  },
-  {
-    "title": "How is Groq raising more money?",
-    "source": "HackerNews",
-    "link": "https://www.zach.be/p/how-the-hell-is-groq-raising-more",
-    "abstract": "Comments...",
-    "pscore": 87,
     "category": "CHIP_FRONT",
     "rank": "02",
     "trend": "down"
@@ -97,7 +97,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
