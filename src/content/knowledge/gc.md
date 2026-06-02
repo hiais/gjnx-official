@@ -1,6 +1,6 @@
 ---
 title: GC (垃圾回收)
-date: 2026-05-31T16:24:18.941Z
+date: 2026-06-02T15:13:51.892Z
 category: Auto-Mined
 tags:
   - Auto-Gen
