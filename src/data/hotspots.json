@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "开源中国 AI 研报 (2026.5)丨AI Agent 赛道融资爆发；Google I/O 2026 发布 Gemini 全生态升级；AI 芯片与算力基础设施进入万亿市值时代",
@@ -27,7 +27,7 @@
     "pscore": 87,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "云端模型如何落地物理世界？招商局狮子山人工智能实验室用LiOS打通具身智能全链路",
@@ -37,7 +37,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
@@ -50,34 +50,14 @@
     "trend": "up"
   },
   {
-    "title": "Google Cloud TPUs made available to Hugging Face users",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
-    "abstract": "",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
-  },
-  {
-    "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/tf_tpu",
-    "abstract": "",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
-  },
-  {
     "title": "Linux 7.1-rc6 To Support The ASUS ROG RAIKIRI II & Nova 2 Lite Controllers",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/news/Linux-7.1-rc6-Input",
     "abstract": "Ahead of the Linux 7.1-rc6 test kernel due out later today, this week's batch of input subsystem fixes have been sent out that includes enabling a few newer input devices......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "Mistral AI 正在成为欧洲的全栈 AI 伙伴",
@@ -86,48 +66,8 @@
     "abstract": "Koen van Gilst 日前参加了在巴黎举办的 Mistral AI Now 峰会，并分享了他的观察。这篇文章让我们得以窥见 Mistral 这家欧洲 AI 公司正在如何重新定位自己——从一家模型公司，转变为涵盖基础设施、模型和应用的全栈 AI 供应商。 自有算力基础设施 本次峰会传达的最明确信号之一，是 Mistral 正在大力投资自有算力。它在.....",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
-  },
-  {
-    "title": "Groq on Hugging Face Inference Providers 🔥",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/inference-providers-groq",
-    "abstract": "",
-    "pscore": 80,
-    "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
-  },
-  {
-    "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/keras-chatbot-arena",
-    "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "07",
     "trend": "up"
-  },
-  {
-    "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/sdxl_jax",
-    "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
-  },
-  {
-    "title": "Hugging Face on PyTorch / XLA TPUs",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/pytorch-xla",
-    "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
   },
   {
     "title": "Kog AI 发布推理引擎：标准 GPU 实现 3000 tokens/s 单请求速度",
@@ -136,7 +76,7 @@
     "abstract": "Kog AI 日前发布了 Kog Inference Engine（KIE）技术预览版，在 8× AMD MI300X GPU 上实现单请求 3000 tokens/s 的生成速度，8× NVIDIA H200 上达到 2100 tokens/s。更关键的是，这一成绩在未使用量化、投机解码、剪枝或 KV Cache 压缩的前提下达成。 为什么单请求速度突然重...",
     "pscore": 69,
     "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "08",
     "trend": "up"
   }
 ]
