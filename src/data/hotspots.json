@@ -20,30 +20,30 @@
     "trend": "down"
   },
   {
-    "title": "Linux 7.1-rc6 To Hide The Documentation On \"clearcpuid\" Feature",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Linux-7.1-Hide-Docs-clearcpuid",
-    "abstract": "The clearcpuid= kernel parameter can be used to disable specific CPUID features for the kernel by specifying the targeted bit numbers of the feature(s) to disable or their flags fr...",
-    "pscore": 87,
+    "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
+    "source": "ArsTechnica",
+    "link": "https://arstechnica.com/security/2026/05/fed-up-with-vibe-coders-dev-sneaks-data-nuking-prompt-injection-into-their-code/",
+    "abstract": "Undisclosed addition in jqwik instructed AI coding agents to delete app output....",
+    "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
     "trend": "up"
   },
   {
-    "title": "云端模型如何落地物理世界？招商局狮子山人工智能实验室用LiOS打通具身智能全链路",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/06/427472.html",
-    "abstract": "从仿真到多形态真机，具身模型如何落地复杂家庭柔性物体操作？...",
-    "pscore": 85,
+    "title": "Google Cloud TPUs made available to Hugging Face users",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
+    "abstract": "",
+    "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
     "trend": "up"
   },
   {
-    "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
-    "source": "ArsTechnica",
-    "link": "https://arstechnica.com/security/2026/05/fed-up-with-vibe-coders-dev-sneaks-data-nuking-prompt-injection-into-their-code/",
-    "abstract": "Undisclosed addition in jqwik instructed AI coding agents to delete app output....",
+    "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/tf_tpu",
+    "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
@@ -57,7 +57,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Mistral AI 正在成为欧洲的全栈 AI 伙伴",
@@ -70,13 +70,43 @@
     "trend": "up"
   },
   {
-    "title": "Kog AI 发布推理引擎：标准 GPU 实现 3000 tokens/s 单请求速度",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/450396",
-    "abstract": "Kog AI 日前发布了 Kog Inference Engine（KIE）技术预览版，在 8× AMD MI300X GPU 上实现单请求 3000 tokens/s 的生成速度，8× NVIDIA H200 上达到 2100 tokens/s。更关键的是，这一成绩在未使用量化、投机解码、剪枝或 KV Cache 压缩的前提下达成。 为什么单请求速度突然重...",
-    "pscore": 69,
+    "title": "Groq on Hugging Face Inference Providers 🔥",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/inference-providers-groq",
+    "abstract": "",
+    "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "08",
     "trend": "up"
+  },
+  {
+    "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/keras-chatbot-arena",
+    "abstract": "",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "09",
+    "trend": "up"
+  },
+  {
+    "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/sdxl_jax",
+    "abstract": "",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "10",
+    "trend": "up"
+  },
+  {
+    "title": "Hugging Face on PyTorch / XLA TPUs",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/pytorch-xla",
+    "abstract": "",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "11",
+    "trend": "down"
   }
 ]
