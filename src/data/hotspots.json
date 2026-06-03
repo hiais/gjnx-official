@@ -17,7 +17,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "开源中国 AI 研报 (2026.5)丨AI Agent 赛道融资爆发；Google I/O 2026 发布 Gemini 全生态升级；AI 芯片与算力基础设施进入万亿市值时代",
@@ -27,7 +27,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "AMD EPYC 8635P \"Sorano\" Benchmarks: Significant Upgrade Opportunity For EPYC 8004 Servers",
@@ -37,7 +37,7 @@
     "pscore": 89,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "从看懂世界到做对动作，卧安机器人OneModel 1.7用一条「隐式通路」打通了具身智能的关键断层",
@@ -47,7 +47,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "橡木果发布“本能驱动”技术路线，开辟自下而上具身智能新范式",
@@ -57,7 +57,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
@@ -67,7 +67,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -77,7 +77,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -87,7 +87,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Mistral AI 正在成为欧洲的全栈 AI 伙伴",
@@ -107,7 +107,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -117,7 +117,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -137,7 +137,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "14",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Intel XPU Manager Adds Support For Arc Pro B65 + Arc Pro B70",
@@ -147,6 +147,6 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "down"
+    "trend": "up"
   }
 ]
