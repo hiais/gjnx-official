@@ -1,12 +1,22 @@
 [
   {
+    "title": "NVIDIA Hopper & Blackwell GPU Support Moves Closer For Open-Source Nova Driver",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Hopper-Blackwell-Nova-Closer",
+    "abstract": "While the upstream, open-source Nouveau driver already supports NVIDIA's Hopper and Blackwell graphics processors with the GPU System Processor (GSP) code path, the bring-up of the...",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "up"
+  },
+  {
     "title": "英伟达联合微软发布 RTX Spark：消费级 ARM 超级芯片、1 Petaflop 算力塞进 Windows PC",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/450990",
     "abstract": "NVIDIA与微软在Computex 2026期间联合发布了RTX Spark，这是一款面向消费级PC和笔记本电脑的ARM超级芯片。NVIDIA CEO将其描述为\"个人电脑的新起点\"，将Petaflop级AI算力带入消费级设备。 RTX Spark的核心参数令人印象深刻：Blackwell架构GPU与Grace CPU的结合，台积电N3E工艺，完整的CUDA...",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "01",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -16,8 +26,18 @@
     "abstract": "《开源中国 AI 研报》2026 年 5 月期，追踪全球 AI 行业动态。 热点导览 Google I/O 2026 发布 Gemini 3.5 Flash、Gemini Omni 视频模型与持续运行 AI 助手 Gemini Spark，搜索迎来 25 年最大升级。 Anthropic 发布 Claude Opus 4.8，提升诚实性与可靠性，支持动态工作...",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
+    "rank": "03",
+    "trend": "up"
+  },
+  {
+    "title": "橡木果发布“本能驱动”技术路线，开辟自下而上具身智能新范式",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/06/428413.html",
+    "abstract": "自下而上，从底层本能出发...",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
@@ -26,8 +46,8 @@
     "abstract": "Undisclosed addition in jqwik instructed AI coding agents to delete app output....",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -36,7 +56,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -46,7 +66,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -56,7 +76,7 @@
     "abstract": "Ahead of the Linux 7.1-rc6 test kernel due out later today, this week's batch of input subsystem fixes have been sent out that includes enabling a few newer input devices......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -66,8 +86,8 @@
     "abstract": "Koen van Gilst 日前参加了在巴黎举办的 Mistral AI Now 峰会，并分享了他的观察。这篇文章让我们得以窥见 Mistral 这家欧洲 AI 公司正在如何重新定位自己——从一家模型公司，转变为涵盖基础设施、模型和应用的全栈 AI 供应商。 自有算力基础设施 本次峰会传达的最明确信号之一，是 Mistral 正在大力投资自有算力。它在.....",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -76,8 +96,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -86,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -96,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -106,7 +126,17 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "13",
     "trend": "down"
+  },
+  {
+    "title": "Intel XPU Manager Adds Support For Arc Pro B65 + Arc Pro B70",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Intel-XPU-Manager-B65-B70",
+    "abstract": "Intel this week rolled out new versions of their open-source XPU Manager and Linux NPU driver software......",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "up"
   }
 ]
