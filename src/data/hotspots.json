@@ -17,16 +17,6 @@
     "pscore": 89,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
-  },
-  {
-    "title": "从看懂世界到做对动作，卧安机器人OneModel 1.7用一条「隐式通路」打通了具身智能的关键断层",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/06/428703.html",
-    "abstract": "在潜在空间中完成信息传导...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "03",
     "trend": "down"
   },
   {
@@ -36,7 +26,7 @@
     "abstract": "Undisclosed addition in jqwik instructed AI coding agents to delete app output....",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -46,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -56,8 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "谷歌发布 Gemma 4 12B，无需编码器的统一多模态模型",
@@ -66,7 +56,7 @@
     "abstract": "Google于6月3日正式发布了Gemma 4 12B，这是一款统一的多模态模型，在不需要传统多模态编码器的情况下实现了视觉和音频的直接处理。这个参数量的模型被设计为在消费级硬件上运行——仅需16GB显存或统一内存即可在本地运行，这意味着它可以直接部署在高端笔记本电脑上，无需云端算力支持。 从架构角度看，Gemma 4 12B的核......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -76,7 +66,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -86,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -96,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -106,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "Widely-Used libinput Updated Due To Arbitrary Root Code Execution",
@@ -116,7 +106,7 @@
     "abstract": "The libinput input handling library used by both X.Org and Wayland environments on modern Linux desktops is out with a new security fix release. A new vulnerability is now public a...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -126,8 +116,8 @@
     "abstract": "Intel this week rolled out new versions of their open-source XPU Manager and Linux NPU driver software......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "英博数科亮相CCIG 2026，首次公开EBFlex私有化算力管理平台",
@@ -136,8 +126,8 @@
     "abstract": "聚焦高校科研算力...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
+    "rank": "13",
+    "trend": "down"
   },
   {
     "title": "Let's Encrypt 押注 Merkle 树证书，迎战量子威胁",
@@ -146,7 +136,7 @@
     "abstract": "量子计算的威胁正在迫近，互联网证书颁发机构开始行动——Let's Encrypt宣布后量子证书路线图：Merkle树证书或将重塑Web安全基础设施。 时间窗口正在收窄 2026年6月3日，全球最大的免费证书颁发机构 Let's Encrypt 发布博客文章，正式宣布其后量子密码学迁移计划——以 Merkle Tree Certificates（MTC，默克尔...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "15",
+    "rank": "14",
     "trend": "down"
   }
 ]
