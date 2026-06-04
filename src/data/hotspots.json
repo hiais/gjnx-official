@@ -10,24 +10,14 @@
     "trend": "up"
   },
   {
-    "title": "英伟达联合微软发布 RTX Spark：消费级 ARM 超级芯片、1 Petaflop 算力塞进 Windows PC",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/450990",
-    "abstract": "NVIDIA与微软在Computex 2026期间联合发布了RTX Spark，这是一款面向消费级PC和笔记本电脑的ARM超级芯片。NVIDIA CEO将其描述为\"个人电脑的新起点\"，将Petaflop级AI算力带入消费级设备。 RTX Spark的核心参数令人印象深刻：Blackwell架构GPU与Grace CPU的结合，台积电N3E工艺，完整的CUDA...",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
-  },
-  {
     "title": "AMD EPYC 8635P \"Sorano\" Benchmarks: Significant Upgrade Opportunity For EPYC 8004 Servers",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/review/amd-epyc-8635p",
     "abstract": "After announcing the AMD EPYC 8005 \"Sorano\" series back in February, AMD recently began shipping these Zen 5 successors to the EPYC 8004 \"Siena\" line-up. With the EPYC 8005 product...",
     "pscore": 89,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "rank": "02",
+    "trend": "up"
   },
   {
     "title": "从看懂世界到做对动作，卧安机器人OneModel 1.7用一条「隐式通路」打通了具身智能的关键断层",
@@ -36,18 +26,8 @@
     "abstract": "在潜在空间中完成信息传导...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
-  },
-  {
-    "title": "橡木果发布“本能驱动”技术路线，开辟自下而上具身智能新范式",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/06/428413.html",
-    "abstract": "自下而上，从底层本能出发...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "03",
+    "trend": "down"
   },
   {
     "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
@@ -56,7 +36,7 @@
     "abstract": "Undisclosed addition in jqwik instructed AI coding agents to delete app output....",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -66,8 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -76,8 +56,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "谷歌发布 Gemma 4 12B，无需编码器的统一多模态模型",
@@ -86,18 +66,8 @@
     "abstract": "Google于6月3日正式发布了Gemma 4 12B，这是一款统一的多模态模型，在不需要传统多模态编码器的情况下实现了视觉和音频的直接处理。这个参数量的模型被设计为在消费级硬件上运行——仅需16GB显存或统一内存即可在本地运行，这意味着它可以直接部署在高端笔记本电脑上，无需云端算力支持。 从架构角度看，Gemma 4 12B的核......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
-  },
-  {
-    "title": "Mistral AI 正在成为欧洲的全栈 AI 伙伴",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/450879",
-    "abstract": "Koen van Gilst 日前参加了在巴黎举办的 Mistral AI Now 峰会，并分享了他的观察。这篇文章让我们得以窥见 Mistral 这家欧洲 AI 公司正在如何重新定位自己——从一家模型公司，转变为涵盖基础设施、模型和应用的全栈 AI 供应商。 自有算力基础设施 本次峰会传达的最明确信号之一，是 Mistral 正在大力投资自有算力。它在.....",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -106,7 +76,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -116,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -126,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -136,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -145,6 +115,36 @@
     "link": "https://www.phoronix.com/news/libinput-1.31.2-Security-Fix",
     "abstract": "The libinput input handling library used by both X.Org and Wayland environments on modern Linux desktops is out with a new security fix release. A new vulnerability is now public a...",
     "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "12",
+    "trend": "up"
+  },
+  {
+    "title": "Intel XPU Manager Adds Support For Arc Pro B65 + Arc Pro B70",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Intel-XPU-Manager-B65-B70",
+    "abstract": "Intel this week rolled out new versions of their open-source XPU Manager and Linux NPU driver software......",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "13",
+    "trend": "up"
+  },
+  {
+    "title": "英博数科亮相CCIG 2026，首次公开EBFlex私有化算力管理平台",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/06/428942.html",
+    "abstract": "聚焦高校科研算力...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "up"
+  },
+  {
+    "title": "Let's Encrypt 押注 Merkle 树证书，迎战量子威胁",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/451728",
+    "abstract": "量子计算的威胁正在迫近，互联网证书颁发机构开始行动——Let's Encrypt宣布后量子证书路线图：Merkle树证书或将重塑Web安全基础设施。 时间窗口正在收窄 2026年6月3日，全球最大的免费证书颁发机构 Let's Encrypt 发布博客文章，正式宣布其后量子密码学迁移计划——以 Merkle Tree Certificates（MTC，默克尔...",
+    "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "15",
     "trend": "down"
