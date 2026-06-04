@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "英伟达联合微软发布 RTX Spark：消费级 ARM 超级芯片、1 Petaflop 算力塞进 Windows PC",
@@ -17,16 +17,6 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
-  },
-  {
-    "title": "开源中国 AI 研报 (2026.5)丨AI Agent 赛道融资爆发；Google I/O 2026 发布 Gemini 全生态升级；AI 芯片与算力基础设施进入万亿市值时代",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/450867",
-    "abstract": "《开源中国 AI 研报》2026 年 5 月期，追踪全球 AI 行业动态。 热点导览 Google I/O 2026 发布 Gemini 3.5 Flash、Gemini Omni 视频模型与持续运行 AI 助手 Gemini Spark，搜索迎来 25 年最大升级。 Anthropic 发布 Claude Opus 4.8，提升诚实性与可靠性，支持动态工作...",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "03",
     "trend": "up"
   },
   {
@@ -36,7 +26,7 @@
     "abstract": "After announcing the AMD EPYC 8005 \"Sorano\" series back in February, AMD recently began shipping these Zen 5 successors to the EPYC 8004 \"Siena\" line-up. With the EPYC 8005 product...",
     "pscore": 89,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -46,7 +36,7 @@
     "abstract": "在潜在空间中完成信息传导...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -56,8 +46,8 @@
     "abstract": "自下而上，从底层本能出发...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
@@ -66,8 +56,8 @@
     "abstract": "Undisclosed addition in jqwik instructed AI coding agents to delete app output....",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -76,14 +66,24 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tf_tpu",
     "abstract": "",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "08",
+    "trend": "down"
+  },
+  {
+    "title": "谷歌发布 Gemma 4 12B，无需编码器的统一多模态模型",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/451788/google-gemma-4-12b",
+    "abstract": "Google于6月3日正式发布了Gemma 4 12B，这是一款统一的多模态模型，在不需要传统多模态编码器的情况下实现了视觉和音频的直接处理。这个参数量的模型被设计为在消费级硬件上运行——仅需16GB显存或统一内存即可在本地运行，这意味着它可以直接部署在高端笔记本电脑上，无需云端算力支持。 从架构角度看，Gemma 4 12B的核......",
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "09",
@@ -97,7 +97,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -117,7 +117,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -127,7 +127,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -137,16 +137,16 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "14",
-    "trend": "up"
+    "trend": "down"
   },
   {
-    "title": "Intel XPU Manager Adds Support For Arc Pro B65 + Arc Pro B70",
+    "title": "Widely-Used libinput Updated Due To Arbitrary Root Code Execution",
     "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Intel-XPU-Manager-B65-B70",
-    "abstract": "Intel this week rolled out new versions of their open-source XPU Manager and Linux NPU driver software......",
+    "link": "https://www.phoronix.com/news/libinput-1.31.2-Security-Fix",
+    "abstract": "The libinput input handling library used by both X.Org and Wayland environments on modern Linux desktops is out with a new security fix release. A new vulnerability is now public a...",
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "up"
+    "trend": "down"
   }
 ]
