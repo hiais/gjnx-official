@@ -1,6 +1,6 @@
 ---
 title: SCOP (季节性综合能效比)
-date: 2026-06-02T15:13:52.754Z
+date: 2026-06-05T13:51:11.032Z
 category: Auto-Mined
 tags:
   - Auto-Gen
