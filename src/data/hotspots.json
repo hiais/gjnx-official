@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "AMD EPYC 8635P \"Sorano\" Benchmarks: Significant Upgrade Opportunity For EPYC 8004 Servers",
@@ -20,23 +20,83 @@
     "trend": "up"
   },
   {
+    "title": "全球首个机器人训练楼盘开盘：30万套中国住宅，机器人拎包入住",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/06/429349.html",
+    "abstract": "具身智能的房地产开发商来了！...",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "03",
+    "trend": "down"
+  },
+  {
     "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
     "source": "ArsTechnica",
     "link": "https://arstechnica.com/security/2026/05/fed-up-with-vibe-coders-dev-sneaks-data-nuking-prompt-injection-into-their-code/",
     "abstract": "Undisclosed addition in jqwik instructed AI coding agents to delete app output....",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "04",
     "trend": "up"
   },
   {
-    "title": "谷歌发布 Gemma 4 12B，无需编码器的统一多模态模型",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/451788/google-gemma-4-12b",
-    "abstract": "Google于6月3日正式发布了Gemma 4 12B，这是一款统一的多模态模型，在不需要传统多模态编码器的情况下实现了视觉和音频的直接处理。这个参数量的模型被设计为在消费级硬件上运行——仅需16GB显存或统一内存即可在本地运行，这意味着它可以直接部署在高端笔记本电脑上，无需云端算力支持。 从架构角度看，Gemma 4 12B的核......",
+    "title": "Google Cloud TPUs made available to Hugging Face users",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
+    "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
+    "trend": "up"
+  },
+  {
+    "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/tf_tpu",
+    "abstract": "",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "06",
+    "trend": "down"
+  },
+  {
+    "title": "Groq on Hugging Face Inference Providers 🔥",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/inference-providers-groq",
+    "abstract": "",
+    "pscore": 80,
+    "category": "CHIP_FRONT",
+    "rank": "07",
+    "trend": "up"
+  },
+  {
+    "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/keras-chatbot-arena",
+    "abstract": "",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "08",
+    "trend": "up"
+  },
+  {
+    "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/sdxl_jax",
+    "abstract": "",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "09",
+    "trend": "down"
+  },
+  {
+    "title": "Hugging Face on PyTorch / XLA TPUs",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/pytorch-xla",
+    "abstract": "",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -46,8 +106,8 @@
     "abstract": "The libinput input handling library used by both X.Org and Wayland environments on modern Linux desktops is out with a new security fix release. A new vulnerability is now public a...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   },
   {
     "title": "Intel XPU Manager Adds Support For Arc Pro B65 + Arc Pro B70",
@@ -56,27 +116,7 @@
     "abstract": "Intel this week rolled out new versions of their open-source XPU Manager and Linux NPU driver software......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
-  },
-  {
-    "title": "英博数科亮相CCIG 2026，首次公开EBFlex私有化算力管理平台",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/06/428942.html",
-    "abstract": "聚焦高校科研算力...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
-  },
-  {
-    "title": "Let's Encrypt 押注 Merkle 树证书，迎战量子威胁",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/451728",
-    "abstract": "量子计算的威胁正在迫近，互联网证书颁发机构开始行动——Let's Encrypt宣布后量子证书路线图：Merkle树证书或将重塑Web安全基础设施。 时间窗口正在收窄 2026年6月3日，全球最大的免费证书颁发机构 Let's Encrypt 发布博客文章，正式宣布其后量子密码学迁移计划——以 Merkle Tree Certificates（MTC，默克尔...",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "12",
     "trend": "up"
   }
 ]
