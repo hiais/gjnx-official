@@ -17,7 +17,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
@@ -30,74 +30,14 @@
     "trend": "up"
   },
   {
-    "title": "Google Cloud TPUs made available to Hugging Face users",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
-    "abstract": "",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
-  },
-  {
-    "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/tf_tpu",
-    "abstract": "",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
-  },
-  {
     "title": "有人靠CPU把AI算力密度卷到了新高度",
     "source": "QbitAI",
     "link": "https://www.qbitai.com/2026/06/431045.html",
     "abstract": "Agentic AI的算力焦虑，英特尔给来了一剂「猛药」...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
-  },
-  {
-    "title": "Groq on Hugging Face Inference Providers 🔥",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/inference-providers-groq",
-    "abstract": "",
-    "pscore": 80,
-    "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
-  },
-  {
-    "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/keras-chatbot-arena",
-    "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "04",
     "trend": "down"
-  },
-  {
-    "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/sdxl_jax",
-    "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
-  },
-  {
-    "title": "Hugging Face on PyTorch / XLA TPUs",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/pytorch-xla",
-    "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
   },
   {
     "title": "Widely-Used libinput Updated Due To Arbitrary Root Code Execution",
@@ -106,7 +46,7 @@
     "abstract": "The libinput input handling library used by both X.Org and Wayland environments on modern Linux desktops is out with a new security fix release. A new vulnerability is now public a...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   }
 ]
