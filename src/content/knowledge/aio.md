@@ -1,6 +1,6 @@
 ---
 title: AIO (一体式水冷)
-date: 2026-06-06T06:22:21.042Z
+date: 2026-06-06T09:48:10.063Z
 category: Auto-Mined
 tags:
   - Auto-Gen
