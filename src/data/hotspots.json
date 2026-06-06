@@ -1,23 +1,13 @@
 [
   {
-    "title": "NVIDIA Hopper & Blackwell GPU Support Moves Closer For Open-Source Nova Driver",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Hopper-Blackwell-Nova-Closer",
-    "abstract": "While the upstream, open-source Nouveau driver already supports NVIDIA's Hopper and Blackwell graphics processors with the GPU System Processor (GSP) code path, the bring-up of the...",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "up"
-  },
-  {
     "title": "AMD EPYC 8635P \"Sorano\" Benchmarks: Significant Upgrade Opportunity For EPYC 8004 Servers",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/review/amd-epyc-8635p",
     "abstract": "After announcing the AMD EPYC 8005 \"Sorano\" series back in February, AMD recently began shipping these Zen 5 successors to the EPYC 8004 \"Siena\" line-up. With the EPYC 8005 product...",
     "pscore": 89,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
+    "rank": "01",
+    "trend": "down"
   },
   {
     "title": "CUDA-Oxide 0.2 Brings Early Improvements To Pure Rust CUDA Kernels",
@@ -26,7 +16,7 @@
     "abstract": "Last month CUDA-Oxide was introduced as an experimental Rust-to-CUDA compiler. From pure Rust programming language code, one can write CUDA GPU kernels in a \"safe(ish)\" manner with...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -36,8 +26,8 @@
     "abstract": "Undisclosed addition in jqwik instructed AI coding agents to delete app output....",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -46,7 +36,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -56,7 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -66,8 +56,8 @@
     "abstract": "Agentic AI的算力焦虑，英特尔给来了一剂「猛药」...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -76,8 +66,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -86,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -96,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -106,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -116,17 +106,7 @@
     "abstract": "The libinput input handling library used by both X.Org and Wayland environments on modern Linux desktops is out with a new security fix release. A new vulnerability is now public a...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "down"
-  },
-  {
-    "title": "Intel XPU Manager Adds Support For Arc Pro B65 + Arc Pro B70",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Intel-XPU-Manager-B65-B70",
-    "abstract": "Intel this week rolled out new versions of their open-source XPU Manager and Linux NPU driver software......",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
   }
 ]
