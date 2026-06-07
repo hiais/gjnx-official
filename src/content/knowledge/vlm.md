@@ -1,6 +1,6 @@
 ---
 title: VLM (视觉语言模型)
-date: 2026-06-07T03:17:09.811Z
+date: 2026-06-07T10:00:12.296Z
 category: Auto-Mined
 tags:
   - Auto-Gen
