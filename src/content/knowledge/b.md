@@ -1,6 +1,6 @@
 ---
 title: B- (瓶颈资产)
-date: 2026-06-07T03:11:28.211Z
+date: 2026-06-07T03:17:11.036Z
 category: Auto-Mined
 tags:
   - Auto-Gen
