@@ -1,6 +1,6 @@
 ---
 title: Sink (注意力汇聚点)
-date: 2026-06-07T17:37:28.878Z
+date: 2026-06-07T18:22:07.808Z
 category: Auto-Mined
 tags:
   - Auto-Gen
