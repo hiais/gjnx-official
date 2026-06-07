@@ -1,6 +1,6 @@
 ---
 title: XR (扩展现实)
-date: 2026-06-07T17:22:12.425Z
+date: 2026-06-07T17:37:28.922Z
 category: Auto-Mined
 tags:
   - Auto-Gen

@@ -1,6 +1,6 @@
 ---
 title: EDP (能效延迟积)
-date: 2026-06-07T17:22:13.338Z
+date: 2026-06-07T17:37:29.628Z
 category: Auto-Mined
 tags:
   - Auto-Gen
