@@ -1,6 +1,6 @@
 ---
 title: P-State (性能状态)
-date: 2026-06-07T14:42:07.230Z
+date: 2026-06-07T14:54:38.552Z
 category: Auto-Mined
 tags:
   - Auto-Gen
