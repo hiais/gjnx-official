@@ -1,6 +1,6 @@
 ---
 title: Watt (每瓦准确率)
-date: 2026-06-07T10:55:07.722Z
+date: 2026-06-07T12:30:52.362Z
 category: Auto-Mined
 tags:
   - Auto-Gen
