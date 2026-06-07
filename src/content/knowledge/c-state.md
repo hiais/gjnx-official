@@ -1,6 +1,6 @@
 ---
 title: C-State (深度休眠)
-date: 2026-06-07T12:30:52.399Z
+date: 2026-06-07T14:42:07.231Z
 category: Auto-Mined
 tags:
   - Auto-Gen

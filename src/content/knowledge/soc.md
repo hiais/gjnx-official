@@ -1,6 +1,6 @@
 ---
 title: SOC (剩余电量)
-date: 2026-06-07T12:30:52.053Z
+date: 2026-06-07T14:42:07.096Z
 category: Auto-Mined
 tags:
   - Auto-Gen
