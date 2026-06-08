@@ -1,13 +1,33 @@
 [
   {
+    "title": "Synopsys and Samsung Foundry Extend AI-Driven Design Collaboration for Advanced 2nm and Multi-Die Systems",
+    "source": "SemiWiki",
+    "link": "https://semiwiki.com/eda/369885-synopsys-and-samsung-foundry-extend-ai-driven-design-collaboration-for-advanced-2nm-and-multi-die-systems/",
+    "abstract": "At SAFE Forum 2026, Synopsys announced significant advancements in its collaboration with Samsung Foundry, expanding AI-powered design, verification, test, and IP solutions for Sam...",
+    "pscore": 92,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "down"
+  },
+  {
     "title": "CUDA-Oxide 0.2 Brings Early Improvements To Pure Rust CUDA Kernels",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/news/CUDA-Oxide-0.2",
     "abstract": "Last month CUDA-Oxide was introduced as an experimental Rust-to-CUDA compiler. From pure Rust programming language code, one can write CUDA GPU kernels in a \"safe(ish)\" manner with...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "01",
+    "rank": "02",
     "trend": "up"
+  },
+  {
+    "title": "Apple reveals new AI architecture built around Google Gemini models",
+    "source": "HackerNews",
+    "link": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+    "abstract": "Comments...",
+    "pscore": 84,
+    "category": "CHIP_FRONT",
+    "rank": "03",
+    "trend": "down"
   },
   {
     "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
@@ -16,8 +36,8 @@
     "abstract": "Undisclosed addition in jqwik instructed AI coding agents to delete app output....",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -26,8 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -36,8 +56,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -46,8 +66,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -56,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -66,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -76,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   }
 ]
