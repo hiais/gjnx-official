@@ -20,113 +20,73 @@
     "trend": "up"
   },
   {
-    "title": "ARM Linux Server Performance Up More Than 7x Geo Mean In 8 Years, As Much As 15x With NVIDIA Vera CPU",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/nvidia-vera-arm-server",
-    "abstract": "NVIDIA's Vera CPU is delivering the fastest ARM performance I have ever seen. For putting it into perspective how far the ARM server CPU hardware has come in just the last decade a...",
-    "pscore": 59,
+    "title": "Google Cloud TPUs made available to Hugging Face users",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
+    "abstract": "",
+    "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
-    "title": "阿里开源 AI 代码审查 CLI 工具：Open Code Review",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/452693",
-    "abstract": "代码审查是软件工程中保证代码质量的关键环节，但在快速迭代的团队中，人工审查的效率往往跟不上代码提交的节奏。阿里巴巴将内部使用两年的 AI 代码审查助手 Open Code Review 开源，免费提供给社区使用。在内部部署期间，该工具服务了数万名开发者，发现了数百万个代码缺陷——这个规模是目前大多数 AI 代码审查工具没有......",
-    "pscore": 59,
+    "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/tf_tpu",
+    "abstract": "",
+    "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
     "trend": "down"
   },
   {
-    "title": "Anthropic 认为 AI 自我改进已达临界点，称内部代码自动化率突破 80%",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/452519",
-    "abstract": "Anthropic 在其官方网站上发布了一篇关于\"递归自我改进\"的研究文章，描述了 AI 在编写和改进自身代码方面的进展。这篇文章的发布时间正值 AI 能力快速提升的关键节点，也是 Anthropic 首次系统性地向公众阐述这一趋势的规模和速度。 文章开篇明确了一个核心观点：AI 能力的提升速度正在加快。在公开基准测试中，任务完成......",
-    "pscore": 59,
+    "title": "Groq on Hugging Face Inference Providers 🔥",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/inference-providers-groq",
+    "abstract": "",
+    "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
-    "title": "AMD Submits Its Long-Awaited HDMI 2.1 FRL Support For Linux 7.2 AMDGPU",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/HDMI-FRL-2.1-Submitted-DRM",
-    "abstract": "It's happening! The long-awaited HDMI 2.1 Fixed Rate Link \"FRL\" support for handling higher resolutions and higher refresh rates on modern AMD Radeon graphics cards with the upstre...",
-    "pscore": 57,
+    "title": "DeepSeek V4 Pro beats GPT-5.5 Pro on precision",
+    "source": "HackerNews",
+    "link": "https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision",
+    "abstract": "Comments...",
+    "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "down"
+    "trend": "up"
   },
   {
-    "title": "Engineering Documentation is a Critical Source of Truth – Do You Know if it’s Accurate?",
-    "source": "SemiWiki",
-    "link": "https://semiwiki.com/eda/llmda-ai/369693-engineering-documentation-is-a-critical-source-of-truth-do-you-know-if-its-accurate/",
-    "abstract": "Embedded systems programs rarely fail because of a lack of execution capability. They fail because critical engineering documentation drifts out of alignment over time and distance...",
-    "pscore": 54,
+    "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/keras-chatbot-arena",
+    "abstract": "",
+    "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "07",
     "trend": "down"
   },
   {
-    "title": "Aifei 发布，世界首个 AI Coding 框架",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/452924",
-    "abstract": "Aifei 是世界首个 AI Coding 框架。 Aifei 不是在传统框架之上增加 AI 用法，而是从框架结构本身出发，围绕大模型理解、生成和维护代码的方式，重新设计 Java 服务端开发。 过去三年，AI 写代码的能力快速跃升。代码生成正在从“辅助”走向“主导”，开发者的角色也会越来越多地转向需求判断、架构决策、代码审查与质量控......",
-    "pscore": 54,
+    "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/sdxl_jax",
+    "abstract": "",
+    "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "down"
+    "trend": "up"
   },
   {
-    "title": "Anthropic 披露 Claude 安全隔离架构：三种产品，三层防线",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/451942",
-    "abstract": "Anthropic工程团队最近发布了一篇文章，详细披露了他们在三款产品中构建AI Agent安全隔离系统的经验和教训。这三款产品分别面向不同的使用场景：面向普通用户的claude.ai、面向开发者的Claude Code，以及面向企业协作的Claude Cowork。每款产品的风险模型和隔离策略各不相同，但都遵循同一个核心原则：环境层隔离优先，模......",
-    "pscore": 54,
+    "title": "Hugging Face on PyTorch / XLA TPUs",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/pytorch-xla",
+    "abstract": "",
+    "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
     "trend": "up"
-  },
-  {
-    "title": "Today Marks 22 Years Of Phoronix For Linux Hardware Testing & Benchmarking",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Phoronix-Turns-22",
-    "abstract": "Today marks 22 years since I started Phoronix.com to focus on Linux hardware reviews. It's been quite a journey from the early state of Linux hardware support........",
-    "pscore": 52,
-    "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
-  },
-  {
-    "title": "Benchmarking The BORE Scheduler Performance With CachyOS Linux",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/cachyos-bore",
-    "abstract": "Earlier this week I ran benchmarks of different CachyOS Linux kernel flavors that proved interesting from the performance overhead of their hardened kernel build to various other i...",
-    "pscore": 52,
-    "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
-  },
-  {
-    "title": "用 LLM Agent 重构告警排查流程",
-    "source": "OSChina",
-    "link": "https://my.oschina.net/u/5783135/blog/19694184",
-    "abstract": "告警来了，第一反应是打开日志平台搜关键词，切到 APM 看监控曲线，再去链路追踪系统找 trace 详情。三个平台来回切换，最后发现只是上游 GC 抖动导致的瞬间超时，一分钟后就自愈了。这类告警排查通常需要 10～30 分钟，主要耗时不在分析本身，而在于频繁登录不同平台、拼凑分散的数据。此外，排查效率高度依赖个人经验，......",
-    "pscore": 52,
-    "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
-  },
-  {
-    "title": "银河麒麟安全 SDK 3.0 全面升级",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/451956",
-    "abstract": "全面升级--银河麒麟安全SDK 3.0 为降低生态厂商适配难度，提升安全应用开发效率，银河麒麟操作系统安全 SDK 3.0 优化统一调用标准，全面适配银河麒麟操作系统V11。新增应用联网管控和隐私防护、关键进程控制、设备管控和账户安全等核心功能，实现对应用、进程、设备、文件等全维度的安全防护覆盖。通过规划提供标准化的 ......",
-    "pscore": 52,
-    "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
   }
 ]
