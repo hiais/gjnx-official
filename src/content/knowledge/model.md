@@ -1,6 +1,6 @@
 ---
 title: Model (组件模型)
-date: 2026-06-08T16:32:50.471Z
+date: 2026-06-08T17:13:14.182Z
 category: Auto-Mined
 tags:
   - Auto-Gen
