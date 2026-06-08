@@ -1,6 +1,6 @@
 ---
 title: Clevo (蓝天)
-date: 2026-06-07T18:46:47.642Z
+date: 2026-06-08T16:32:49.267Z
 category: Auto-Mined
 tags:
   - Auto-Gen
