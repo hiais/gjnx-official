@@ -1,6 +1,6 @@
 ---
 title: Buffer (代理共享缓存)
-date: 2026-06-09T15:17:24.274Z
+date: 2026-06-09T15:29:40.414Z
 category: Auto-Mined
 tags:
   - Auto-Gen
