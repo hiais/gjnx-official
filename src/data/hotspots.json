@@ -7,16 +7,6 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
-  },
-  {
-    "title": "CUDA-Oxide 0.2 Brings Early Improvements To Pure Rust CUDA Kernels",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/CUDA-Oxide-0.2",
-    "abstract": "Last month CUDA-Oxide was introduced as an experimental Rust-to-CUDA compiler. From pure Rust programming language code, one can write CUDA GPU kernels in a \"safe(ish)\" manner with...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "02",
     "trend": "up"
   },
   {
@@ -26,7 +16,7 @@
     "abstract": "Comments...",
     "pscore": 84,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -36,7 +26,7 @@
     "abstract": "苹果在WWDC 2026期间公布了Apple Intelligence平台的重大架构升级，核心是基于Google Gemini系列模型技术、与Google深度合作开发的Apple Foundation Models。这一合作被苹果形容为\"深度\"合作，旨在为Apple Intelligence带来\"巨大升级\"——在理解能力、推理能力及多模态支持上达到前沿水平。...",
     "pscore": 84,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -46,7 +36,7 @@
     "abstract": "Undisclosed addition in jqwik instructed AI coding agents to delete app output....",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -56,7 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -66,7 +56,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -75,6 +65,16 @@
     "link": "https://huggingface.co/blog/inference-providers-groq",
     "abstract": "",
     "pscore": 80,
+    "category": "CHIP_FRONT",
+    "rank": "07",
+    "trend": "down"
+  },
+  {
+    "title": "给 AI 加一点“苹果”",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/454979",
+    "abstract": "过去三年，AI 几乎重塑了整个科技行业。 从 ChatGPT 到 Gemini，从 Agent 到 AI Coding，新的产品形态层出不穷，几乎所有科技巨头都在重新定义人与计算机的交互方式。相比之下，苹果的节奏显得有些缓慢。Apple Intelligence 自 2024 年亮相以来，经历了多次延期与调整，外界对于苹果 AI 战略的质疑也从未停止。 直到...",
+    "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "08",
     "trend": "up"
@@ -87,7 +87,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -130,13 +130,23 @@
     "trend": "up"
   },
   {
+    "title": "Semi Design v2.100.0 发布，抖音企业级 UI 库",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/454877/semi-design-2-100-0-released",
+    "abstract": "Semi Design 是现代、全面、灵活的设计系统和 UI 库，由字节跳动抖音前端与 UED 团队设计、开发并维护，是一款包含设计语言、React 组件、主题等开箱即用的中后台解决方案，可用于快速搭建美观的 React 应用。 Semi Design v2.100.0 已发布，此版本带来如下更新内容： Fix 修复 InputNumber 组件在step绝...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "down"
+  },
+  {
     "title": "InnoCMS v0.4.2 已经发布，轻量级企业官网 CMS",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/454745/innocms-0-4-2-released",
     "abstract": "InnoCMS v0.4.2 已经发布，轻量级企业官网 CMS 此版本更新内容包括： v0.4.2 更新日志 (2026-06-09) 新增 新增访客追踪系统，支持 IP 地理位置解析（GeoIP2） 新增访客详情页和访问分析面板 新增咨询管理功能（Consultations） 新增 Sitemap 路由注册 新增文章图片字段和多语言表单组件（LocaleI...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
+    "rank": "15",
+    "trend": "down"
   }
 ]
