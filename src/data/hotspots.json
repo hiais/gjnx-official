@@ -7,7 +7,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "CUDA-Oxide 0.2 Brings Early Improvements To Pure Rust CUDA Kernels",
@@ -30,14 +30,24 @@
     "trend": "up"
   },
   {
+    "title": "苹果公布全新 AI 架构：基于 Google Gemini 构建 Apple Foundation Models",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/454679",
+    "abstract": "苹果在WWDC 2026期间公布了Apple Intelligence平台的重大架构升级，核心是基于Google Gemini系列模型技术、与Google深度合作开发的Apple Foundation Models。这一合作被苹果形容为\"深度\"合作，旨在为Apple Intelligence带来\"巨大升级\"——在理解能力、推理能力及多模态支持上达到前沿水平。...",
+    "pscore": 84,
+    "category": "CHIP_FRONT",
+    "rank": "04",
+    "trend": "down"
+  },
+  {
     "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
     "source": "ArsTechnica",
     "link": "https://arstechnica.com/security/2026/05/fed-up-with-vibe-coders-dev-sneaks-data-nuking-prompt-injection-into-their-code/",
     "abstract": "Undisclosed addition in jqwik instructed AI coding agents to delete app output....",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -46,7 +56,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -56,7 +66,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -66,7 +76,17 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
+    "trend": "up"
+  },
+  {
+    "title": "因遭到黑客攻击，微软关闭数十个开源仓库访问权限",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/454658",
+    "abstract": "微软已关闭了 GitHub 上的一批自有代码仓库，旨在调查一起数据泄露事件。其中受影响的包括与 Azure 及 AI 编程工具相关的仓库，例如 Claude Code、Gemini 的命令行界面以及 VS Code。 据研究人员表示，黑客在这些工具中植入了可以窃取用户密码和其他敏感凭证的恶意软件。目前尚不清楚有多少人下载了受影响的工具。 微软发......",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -76,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -86,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -96,7 +116,27 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "12",
     "trend": "down"
+  },
+  {
+    "title": "仅4B大小可端侧部署！卡帕西预言的「认知模型」被国产做出来了",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/06/433478.html",
+    "abstract": "效果比肩GPT-5.4...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "13",
+    "trend": "up"
+  },
+  {
+    "title": "InnoCMS v0.4.2 已经发布，轻量级企业官网 CMS",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/454745/innocms-0-4-2-released",
+    "abstract": "InnoCMS v0.4.2 已经发布，轻量级企业官网 CMS 此版本更新内容包括： v0.4.2 更新日志 (2026-06-09) 新增 新增访客追踪系统，支持 IP 地理位置解析（GeoIP2） 新增访客详情页和访问分析面板 新增咨询管理功能（Consultations） 新增 Sitemap 路由注册 新增文章图片字段和多语言表单组件（LocaleI...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "up"
   }
 ]
