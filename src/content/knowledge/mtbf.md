@@ -1,6 +1,6 @@
 ---
 title: MTBF (平均无故障时间)
-date: 2026-06-10T17:46:30.236Z
+date: 2026-06-10T18:09:46.263Z
 category: Auto-Mined
 tags:
   - Auto-Gen
