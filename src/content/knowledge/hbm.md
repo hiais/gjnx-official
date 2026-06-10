@@ -1,6 +1,6 @@
 ---
 title: HBM (高带宽内存)
-date: 2026-06-10T12:59:58.227Z
+date: 2026-06-10T14:06:28.887Z
 category: Auto-Mined
 tags:
   - Auto-Gen

@@ -1,6 +1,6 @@
 ---
 title: REC (可再生能源证书)
-date: 2026-06-10T12:59:58.636Z
+date: 2026-06-10T14:06:29.349Z
 category: Auto-Mined
 tags:
   - Auto-Gen

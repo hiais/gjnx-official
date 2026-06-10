@@ -1,6 +1,6 @@
 ---
 title: Restricted (限制)
-date: 2026-06-10T12:59:58.278Z
+date: 2026-06-10T14:06:28.947Z
 category: Auto-Mined
 tags:
   - Auto-Gen

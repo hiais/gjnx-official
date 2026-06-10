@@ -1,6 +1,6 @@
 ---
 title: BMS (电池管理系统)
-date: 2026-06-10T12:59:58.611Z
+date: 2026-06-10T14:06:29.322Z
 category: Auto-Mined
 tags:
   - Auto-Gen
