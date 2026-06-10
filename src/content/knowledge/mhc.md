@@ -1,6 +1,6 @@
 ---
 title: mHC (流形约束)
-date: 2026-06-10T14:32:49.877Z
+date: 2026-06-10T17:08:30.041Z
 category: Auto-Mined
 tags:
   - Auto-Gen
