@@ -1,6 +1,6 @@
 ---
 title: Orin-X (或同等算力)
-date: 2026-06-10T14:06:30.864Z
+date: 2026-06-10T14:32:51.307Z
 category: Auto-Mined
 tags:
   - Auto-Gen
