@@ -1,12 +1,22 @@
 [
   {
+    "title": "AMD's Lemonade SDK For Local AI Adds NVIDIA CUDA Support",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/AMD-Lemonade-10.7-Released",
+    "abstract": "Lemonade, the local AI server solution developed by AMD that is designed to work across their CPUs, GPUs, and NPUs, is out with a new version today that also adds NVIDIA CUDA suppo...",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "down"
+  },
+  {
     "title": "英特尔锐炫™ Pro B70 GPU亮相MPTS2026，共探大视听时代AI创作新范式",
     "source": "QbitAI",
     "link": "https://www.qbitai.com/2026/06/433798.html",
     "abstract": "AI创作新时代，英特尔锐炫™ Pro B70 GPU 释放专业算力潜能...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "01",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -16,7 +26,7 @@
     "abstract": "摩尔线程宣布正式发布并开源面向 GPU 底层算子生成的专用代码大模型 MusaCoder，包含 9B 和 27B 两个参数规模。 公告称，这是业内首个基于国产 GPU 算力底座完成全链路训练与验证的开源代码大模型，其完整后训练流程均在基于 MTT S5000 构建的夸娥智算集群上完成。 在 KernelBench 严格评测中，MusaCoder-27B-RL...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -26,7 +36,7 @@
     "abstract": "苹果在WWDC 2026期间公布了Apple Intelligence平台的重大架构升级，核心是基于Google Gemini系列模型技术、与Google深度合作开发的Apple Foundation Models。这一合作被苹果形容为\"深度\"合作，旨在为Apple Intelligence带来\"巨大升级\"——在理解能力、推理能力及多模态支持上达到前沿水平。...",
     "pscore": 84,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -36,8 +46,8 @@
     "abstract": "Undisclosed addition in jqwik instructed AI coding agents to delete app output....",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -46,8 +56,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -56,8 +66,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "工信部聚焦“AI+通信” 打造智算网络体系",
@@ -66,7 +76,7 @@
     "abstract": "工业和信息化部印发《“人工智能+信息通信”创新发展实施意见（2026—2028年）》。 《意见》主旨即“AI+通信”融合发展，核心目标是到2028年初步实现信息通信网络高等级自智，网络、算力等信息基础设施支撑人工智能能力进一步提升，城域算力1毫秒时延圈覆盖率不低于75%；到2030年，人工智能与信息通信网络融合关键核心技......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -76,7 +86,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -86,8 +96,8 @@
     "abstract": "过去三年，AI 几乎重塑了整个科技行业。 从 ChatGPT 到 Gemini，从 Agent 到 AI Coding，新的产品形态层出不穷，几乎所有科技巨头都在重新定义人与计算机的交互方式。相比之下，苹果的节奏显得有些缓慢。Apple Intelligence 自 2024 年亮相以来，经历了多次延期与调整，外界对于苹果 AI 战略的质疑也从未停止。 直到...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "因遭到黑客攻击，微软关闭数十个开源仓库访问权限",
@@ -96,7 +106,7 @@
     "abstract": "微软已关闭了 GitHub 上的一批自有代码仓库，旨在调查一起数据泄露事件。其中受影响的包括与 Azure 及 AI 编程工具相关的仓库，例如 Claude Code、Gemini 的命令行界面以及 VS Code。 据研究人员表示，黑客在这些工具中植入了可以窃取用户密码和其他敏感凭证的恶意软件。目前尚不清楚有多少人下载了受影响的工具。 微软发......",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -106,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -116,8 +126,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "13",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -126,8 +136,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "14",
+    "trend": "up"
   },
   {
     "title": "GPT-5.6首批实测来了！精准狙击Mythos",
@@ -136,17 +146,7 @@
     "abstract": "本月发布！...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
-  },
-  {
-    "title": "Semi Design v2.100.0 发布，抖音企业级 UI 库",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/454877/semi-design-2-100-0-released",
-    "abstract": "Semi Design 是现代、全面、灵活的设计系统和 UI 库，由字节跳动抖音前端与 UED 团队设计、开发并维护，是一款包含设计语言、React 组件、主题等开箱即用的中后台解决方案，可用于快速搭建美观的 React 应用。 Semi Design v2.100.0 已发布，此版本带来如下更新内容： Fix 修复 InputNumber 组件在step绝...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "up"
+    "trend": "down"
   }
 ]
