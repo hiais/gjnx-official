@@ -1,22 +1,12 @@
 [
   {
-    "title": "Synopsys and Samsung Foundry Extend AI-Driven Design Collaboration for Advanced 2nm and Multi-Die Systems",
-    "source": "SemiWiki",
-    "link": "https://semiwiki.com/eda/369885-synopsys-and-samsung-foundry-extend-ai-driven-design-collaboration-for-advanced-2nm-and-multi-die-systems/",
-    "abstract": "At SAFE Forum 2026, Synopsys announced significant advancements in its collaboration with Samsung Foundry, expanding AI-powered design, verification, test, and IP solutions for Sam...",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "up"
-  },
-  {
     "title": "英特尔锐炫™ Pro B70 GPU亮相MPTS2026，共探大视听时代AI创作新范式",
     "source": "QbitAI",
     "link": "https://www.qbitai.com/2026/06/433798.html",
     "abstract": "AI创作新时代，英特尔锐炫™ Pro B70 GPU 释放专业算力潜能...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "01",
     "trend": "up"
   },
   {
@@ -26,7 +16,7 @@
     "abstract": "摩尔线程宣布正式发布并开源面向 GPU 底层算子生成的专用代码大模型 MusaCoder，包含 9B 和 27B 两个参数规模。 公告称，这是业内首个基于国产 GPU 算力底座完成全链路训练与验证的开源代码大模型，其完整后训练流程均在基于 MTT S5000 构建的夸娥智算集群上完成。 在 KernelBench 严格评测中，MusaCoder-27B-RL...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -36,8 +26,8 @@
     "abstract": "苹果在WWDC 2026期间公布了Apple Intelligence平台的重大架构升级，核心是基于Google Gemini系列模型技术、与Google深度合作开发的Apple Foundation Models。这一合作被苹果形容为\"深度\"合作，旨在为Apple Intelligence带来\"巨大升级\"——在理解能力、推理能力及多模态支持上达到前沿水平。...",
     "pscore": 84,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
+    "rank": "03",
+    "trend": "down"
   },
   {
     "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
@@ -46,7 +36,7 @@
     "abstract": "Undisclosed addition in jqwik instructed AI coding agents to delete app output....",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -56,14 +46,24 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tf_tpu",
     "abstract": "",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "06",
+    "trend": "up"
+  },
+  {
+    "title": "工信部聚焦“AI+通信” 打造智算网络体系",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/455560",
+    "abstract": "工业和信息化部印发《“人工智能+信息通信”创新发展实施意见（2026—2028年）》。 《意见》主旨即“AI+通信”融合发展，核心目标是到2028年初步实现信息通信网络高等级自智，网络、算力等信息基础设施支撑人工智能能力进一步提升，城域算力1毫秒时延圈覆盖率不低于75%；到2030年，人工智能与信息通信网络融合关键核心技......",
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "07",
@@ -87,7 +87,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "因遭到黑客攻击，微软关闭数十个开源仓库访问权限",
@@ -117,7 +117,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -140,10 +140,10 @@
     "trend": "down"
   },
   {
-    "title": "仅4B大小可端侧部署！卡帕西预言的「认知模型」被国产做出来了",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/06/433478.html",
-    "abstract": "效果比肩GPT-5.4...",
+    "title": "Semi Design v2.100.0 发布，抖音企业级 UI 库",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/454877/semi-design-2-100-0-released",
+    "abstract": "Semi Design 是现代、全面、灵活的设计系统和 UI 库，由字节跳动抖音前端与 UED 团队设计、开发并维护，是一款包含设计语言、React 组件、主题等开箱即用的中后台解决方案，可用于快速搭建美观的 React 应用。 Semi Design v2.100.0 已发布，此版本带来如下更新内容： Fix 修复 InputNumber 组件在step绝...",
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "15",
