@@ -1,6 +1,6 @@
 ---
 title: SVR (支持向量回归)
-date: 2026-06-10T18:09:43.179Z
+date: 2026-06-11T16:48:02.368Z
 category: Auto-Mined
 tags:
   - Auto-Gen
