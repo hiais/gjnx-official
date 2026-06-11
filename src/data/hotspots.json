@@ -7,17 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
-  },
-  {
-    "title": "英特尔锐炫™ Pro B70 GPU亮相MPTS2026，共探大视听时代AI创作新范式",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/06/433798.html",
-    "abstract": "AI创作新时代，英特尔锐炫™ Pro B70 GPU 释放专业算力潜能...",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "摩尔线程开源 MusaCoder：首个基于国产全功能 GPU 全栈训练的代码大模型",
@@ -26,8 +16,8 @@
     "abstract": "摩尔线程宣布正式发布并开源面向 GPU 底层算子生成的专用代码大模型 MusaCoder，包含 9B 和 27B 两个参数规模。 公告称，这是业内首个基于国产 GPU 算力底座完成全链路训练与验证的开源代码大模型，其完整后训练流程均在基于 MTT S5000 构建的夸娥智算集群上完成。 在 KernelBench 严格评测中，MusaCoder-27B-RL...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "02",
+    "trend": "down"
   },
   {
     "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
@@ -36,7 +26,7 @@
     "abstract": "Undisclosed addition in jqwik instructed AI coding agents to delete app output....",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -46,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -56,8 +46,18 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
+    "rank": "05",
+    "trend": "down"
+  },
+  {
+    "title": "AIGC 盛典邀您：见证荣耀，链接资源，欣赏佳作！",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/456108",
+    "abstract": "嘿，AIGC 创作的同路人！ 才华被埋没？为算力、成本、变现发愁？渴望舞台？ 机会来了！ 由全球数字经济创新大赛组委会主办的“2026 全球数字经济创新大赛・AIGC For Future 全球挑战赛 ——‘未来城市・遇见小亦’IP 创作赛”决赛暨颁奖典礼来了！邀您见证 AIGC 巅峰对决！ 来这里，既能看入围决赛的顶尖 AIGC 创作者现场......",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "工信部聚焦“AI+通信” 打造智算网络体系",
@@ -77,7 +77,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "给 AI 加一点“苹果”",
@@ -87,7 +87,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -97,7 +97,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -117,26 +117,6 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "down"
-  },
-  {
-    "title": "GPT-5.6首批实测来了！精准狙击Mythos",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/06/433731.html",
-    "abstract": "本月发布！...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
-  },
-  {
-    "title": "Semi Design v2.100.0 发布，抖音企业级 UI 库",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/454877/semi-design-2-100-0-released",
-    "abstract": "Semi Design 是现代、全面、灵活的设计系统和 UI 库，由字节跳动抖音前端与 UED 团队设计、开发并维护，是一款包含设计语言、React 组件、主题等开箱即用的中后台解决方案，可用于快速搭建美观的 React 应用。 Semi Design v2.100.0 已发布，此版本带来如下更新内容： Fix 修复 InputNumber 组件在step绝...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "14",
     "trend": "up"
   },
   {
@@ -146,7 +126,7 @@
     "abstract": "Recently I published some initial SpacemiT K3 benchmarks for that first-to-market RISC-V RVA23 SoC with the K3 Pico-ITX mini computer. In there was a comparison against modern Inte...",
     "pscore": 69,
     "category": "CHIP_FRONT",
-    "rank": "15",
+    "rank": "13",
     "trend": "up"
   }
 ]
