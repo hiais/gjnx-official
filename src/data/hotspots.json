@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "英特尔锐炫™ Pro B70 GPU亮相MPTS2026，共探大视听时代AI创作新范式",
@@ -27,17 +27,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
-  },
-  {
-    "title": "苹果公布全新 AI 架构：基于 Google Gemini 构建 Apple Foundation Models",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/454679",
-    "abstract": "苹果在WWDC 2026期间公布了Apple Intelligence平台的重大架构升级，核心是基于Google Gemini系列模型技术、与Google深度合作开发的Apple Foundation Models。这一合作被苹果形容为\"深度\"合作，旨在为Apple Intelligence带来\"巨大升级\"——在理解能力、推理能力及多模态支持上达到前沿水平。...",
-    "pscore": 84,
-    "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
@@ -46,8 +36,8 @@
     "abstract": "Undisclosed addition in jqwik instructed AI coding agents to delete app output....",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -56,8 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -66,8 +56,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "工信部聚焦“AI+通信” 打造智算网络体系",
@@ -76,8 +66,8 @@
     "abstract": "工业和信息化部印发《“人工智能+信息通信”创新发展实施意见（2026—2028年）》。 《意见》主旨即“AI+通信”融合发展，核心目标是到2028年初步实现信息通信网络高等级自智，网络、算力等信息基础设施支撑人工智能能力进一步提升，城域算力1毫秒时延圈覆盖率不低于75%；到2030年，人工智能与信息通信网络融合关键核心技......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -86,8 +76,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "给 AI 加一点“苹果”",
@@ -96,17 +86,7 @@
     "abstract": "过去三年，AI 几乎重塑了整个科技行业。 从 ChatGPT 到 Gemini，从 Agent 到 AI Coding，新的产品形态层出不穷，几乎所有科技巨头都在重新定义人与计算机的交互方式。相比之下，苹果的节奏显得有些缓慢。Apple Intelligence 自 2024 年亮相以来，经历了多次延期与调整，外界对于苹果 AI 战略的质疑也从未停止。 直到...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
-  },
-  {
-    "title": "因遭到黑客攻击，微软关闭数十个开源仓库访问权限",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/454658",
-    "abstract": "微软已关闭了 GitHub 上的一批自有代码仓库，旨在调查一起数据泄露事件。其中受影响的包括与 Azure 及 AI 编程工具相关的仓库，例如 Claude Code、Gemini 的命令行界面以及 VS Code。 据研究人员表示，黑客在这些工具中植入了可以窃取用户密码和其他敏感凭证的恶意软件。目前尚不清楚有多少人下载了受影响的工具。 微软发......",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -116,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -126,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -136,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "GPT-5.6首批实测来了！精准狙击Mythos",
@@ -146,7 +126,27 @@
     "abstract": "本月发布！...",
     "pscore": 75,
     "category": "CHIP_FRONT",
+    "rank": "13",
+    "trend": "up"
+  },
+  {
+    "title": "Semi Design v2.100.0 发布，抖音企业级 UI 库",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/454877/semi-design-2-100-0-released",
+    "abstract": "Semi Design 是现代、全面、灵活的设计系统和 UI 库，由字节跳动抖音前端与 UED 团队设计、开发并维护，是一款包含设计语言、React 组件、主题等开箱即用的中后台解决方案，可用于快速搭建美观的 React 应用。 Semi Design v2.100.0 已发布，此版本带来如下更新内容： Fix 修复 InputNumber 组件在step绝...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "up"
+  },
+  {
+    "title": "RISC-V CPU Performance Up 8x In Five Years: SiFive HiFive Unmatched To SpacemiT K3",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/review/risc-v-5-year-performance",
+    "abstract": "Recently I published some initial SpacemiT K3 benchmarks for that first-to-market RISC-V RVA23 SoC with the K3 Pico-ITX mini computer. In there was a comparison against modern Inte...",
+    "pscore": 69,
+    "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "down"
+    "trend": "up"
   }
 ]
