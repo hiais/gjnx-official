@@ -1,6 +1,6 @@
 ---
 title: FIFO (先进先出)
-date: 2026-06-11T16:48:02.387Z
+date: 2026-06-12T14:10:26.776Z
 category: Auto-Mined
 tags:
   - Auto-Gen

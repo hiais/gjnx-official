@@ -1,6 +1,6 @@
 ---
 title: Anti-Rollback (防回滚)
-date: 2026-06-11T16:48:03.158Z
+date: 2026-06-12T14:10:27.230Z
 category: Auto-Mined
 tags:
   - Auto-Gen
