@@ -1,6 +1,6 @@
 ---
 title: DDR5 (普通频段)
-date: 2026-06-12T14:41:17.742Z
+date: 2026-06-12T14:44:15.252Z
 category: Auto-Mined
 tags:
   - Auto-Gen

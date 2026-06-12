@@ -1,6 +1,6 @@
 ---
 title: ELAA (超大规模天线阵列)
-date: 2026-06-12T14:41:15.494Z
+date: 2026-06-12T14:44:12.892Z
 category: Auto-Mined
 tags:
   - Auto-Gen
