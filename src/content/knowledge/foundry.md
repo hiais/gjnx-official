@@ -1,6 +1,6 @@
 ---
 title: Foundry (代工厂)
-date: 2026-06-12T14:44:13.797Z
+date: 2026-06-12T15:33:38.867Z
 category: Auto-Mined
 tags:
   - Auto-Gen

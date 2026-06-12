@@ -1,6 +1,6 @@
 ---
 title: BSPDN (背面供电网络)
-date: 2026-06-12T14:44:14.758Z
+date: 2026-06-12T15:33:39.835Z
 category: Auto-Mined
 tags:
   - Auto-Gen
