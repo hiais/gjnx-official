@@ -10,14 +10,24 @@
     "trend": "down"
   },
   {
+    "title": "BEV 杀入具身智能：跨维把机器人数据带上 Scaling 快车道",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/06/434761.html",
+    "abstract": "",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "up"
+  },
+  {
     "title": "摩尔线程开源 MusaCoder：首个基于国产全功能 GPU 全栈训练的代码大模型",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/455509",
     "abstract": "摩尔线程宣布正式发布并开源面向 GPU 底层算子生成的专用代码大模型 MusaCoder，包含 9B 和 27B 两个参数规模。 公告称，这是业内首个基于国产 GPU 算力底座完成全链路训练与验证的开源代码大模型，其完整后训练流程均在基于 MTT S5000 构建的夸娥智算集群上完成。 在 KernelBench 严格评测中，MusaCoder-27B-RL...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
@@ -26,7 +36,7 @@
     "abstract": "Undisclosed addition in jqwik instructed AI coding agents to delete app output....",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -36,8 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -46,8 +56,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "AIGC 盛典邀您：见证荣耀，链接资源，欣赏佳作！",
@@ -56,7 +66,7 @@
     "abstract": "嘿，AIGC 创作的同路人！ 才华被埋没？为算力、成本、变现发愁？渴望舞台？ 机会来了！ 由全球数字经济创新大赛组委会主办的“2026 全球数字经济创新大赛・AIGC For Future 全球挑战赛 ——‘未来城市・遇见小亦’IP 创作赛”决赛暨颁奖典礼来了！邀您见证 AIGC 巅峰对决！ 来这里，既能看入围决赛的顶尖 AIGC 创作者现场......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -66,8 +76,8 @@
     "abstract": "工业和信息化部印发《“人工智能+信息通信”创新发展实施意见（2026—2028年）》。 《意见》主旨即“AI+通信”融合发展，核心目标是到2028年初步实现信息通信网络高等级自智，网络、算力等信息基础设施支撑人工智能能力进一步提升，城域算力1毫秒时延圈覆盖率不低于75%；到2030年，人工智能与信息通信网络融合关键核心技......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -76,8 +86,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -86,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -96,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -106,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "RISC-V CPU Performance Up 8x In Five Years: SiFive HiFive Unmatched To SpacemiT K3",
@@ -116,7 +126,7 @@
     "abstract": "Recently I published some initial SpacemiT K3 benchmarks for that first-to-market RISC-V RVA23 SoC with the K3 Pico-ITX mini computer. In there was a comparison against modern Inte...",
     "pscore": 69,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "13",
+    "trend": "down"
   }
 ]
