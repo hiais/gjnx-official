@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "摩尔线程开源 MusaCoder：首个基于国产全功能 GPU 全栈训练的代码大模型",
@@ -17,7 +17,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -80,24 +80,14 @@
     "trend": "up"
   },
   {
-    "title": "给 AI 加一点“苹果”",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/454979",
-    "abstract": "过去三年，AI 几乎重塑了整个科技行业。 从 ChatGPT 到 Gemini，从 Agent 到 AI Coding，新的产品形态层出不穷，几乎所有科技巨头都在重新定义人与计算机的交互方式。相比之下，苹果的节奏显得有些缓慢。Apple Intelligence 自 2024 年亮相以来，经历了多次延期与调整，外界对于苹果 AI 战略的质疑也从未停止。 直到...",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
-  },
-  {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/keras-chatbot-arena",
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -106,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -116,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -126,7 +116,7 @@
     "abstract": "Recently I published some initial SpacemiT K3 benchmarks for that first-to-market RISC-V RVA23 SoC with the K3 Pico-ITX mini computer. In there was a comparison against modern Inte...",
     "pscore": 69,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   }
 ]
