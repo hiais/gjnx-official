@@ -1,6 +1,6 @@
 ---
 title: RAG (检索增强生成)
-date: 2026-06-13T11:04:23.275Z
+date: 2026-06-13T11:24:11.932Z
 category: Auto-Mined
 tags:
   - Auto-Gen
