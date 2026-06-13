@@ -1,6 +1,6 @@
 ---
 title: IDM (垂直整合制造)
-date: 2026-06-13T11:24:11.833Z
+date: 2026-06-13T11:45:38.542Z
 category: Auto-Mined
 tags:
   - Auto-Gen
