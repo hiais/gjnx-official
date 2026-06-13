@@ -1,6 +1,6 @@
 ---
 title: Jamming (压制)
-date: 2026-06-13T18:36:52.640Z
+date: 2026-06-13T18:40:36.483Z
 category: Auto-Mined
 tags:
   - Auto-Gen

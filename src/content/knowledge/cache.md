@@ -1,6 +1,6 @@
 ---
 title: Cache (键值缓存)
-date: 2026-06-13T18:36:51.479Z
+date: 2026-06-13T18:40:35.854Z
 category: Auto-Mined
 tags:
   - Auto-Gen

@@ -1,6 +1,6 @@
 ---
 title: SLM (小模型)
-date: 2026-06-13T18:36:52.956Z
+date: 2026-06-13T18:40:36.885Z
 category: Auto-Mined
 tags:
   - Auto-Gen
