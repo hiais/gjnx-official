@@ -1,12 +1,22 @@
 [
   {
+    "title": "4× RTX Pro 6000 Blackwell on Water, and the One Card That Wouldn't Behave",
+    "source": "HackerNews",
+    "link": "https://sabareesh.com/posts/blackwell-waterblock/",
+    "abstract": "Comments...",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "down"
+  },
+  {
     "title": "阿里发布首个具身大模型 Qwen-Robot 系列",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/459601",
     "abstract": "阿里巴巴发布千问具身智能大模型 Qwen-Robot 系列。 根据介绍，Qwen-Robot Suite 包含 VLA 操作模型Qwen-RobotManip、VLN 移动模型 Qwen-RobotNav 和世界模型 Qwen-RobotWorld 三大模型，这也是千问大模型家族首个完整的具身智能模型系列。 Qwen-RobotNav：物理智能体的行动入口 ...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "01",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -16,27 +26,7 @@
     "abstract": "Undisclosed addition in jqwik instructed AI coding agents to delete app output....",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
-  },
-  {
-    "title": "Google Cloud TPUs made available to Hugging Face users",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
-    "abstract": "",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
-  },
-  {
-    "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/tf_tpu",
-    "abstract": "",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "04",
     "trend": "down"
   },
   {
@@ -46,7 +36,7 @@
     "abstract": "2026 年 6 月 16 日，RuntimeWire 和 Business Insider 分别援引知情人士消息报道，微软正在向其最大云竞争对手 AWS 租用计算容量，以缓解旗下 GitHub 平台因 AI 驱动的代码生成浪潮而面临的严重算力短缺。这一消息揭示了一个令人咋舌的数字：GitHub 的年度代码提交量预计将从 2025 年的 10 亿次飙升至 2...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -56,47 +46,7 @@
     "abstract": "如何让前沿的 AI 大模型、科学计算能力无缝跑在国产操作系统上？如何破解异构芯片软件栈之间“生态隔离”的行业痛点？ 近日，deepin 社区与众智 FlagOS 团队已展开深度技术攻坚，并取得了阶段性的适配成果！ 双方将基于开源共建理念，打通 “系统 - 算力 - 模型” 协同链路，为国产异构算力应用与 AI 生态落地提供稳定、......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
-  },
-  {
-    "title": "Groq on Hugging Face Inference Providers 🔥",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/inference-providers-groq",
-    "abstract": "",
-    "pscore": 80,
-    "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
-  },
-  {
-    "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/keras-chatbot-arena",
-    "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
-  },
-  {
-    "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/sdxl_jax",
-    "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
-  },
-  {
-    "title": "Hugging Face on PyTorch / XLA TPUs",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/pytorch-xla",
-    "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -106,7 +56,7 @@
     "abstract": "The momentum behind RISC-V continues to accelerate as Akeana announced a strategic collaboration with Samsung Electronics aimed at reducing time-to-market for next-generation serve...",
     "pscore": 71,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "06",
     "trend": "down"
   }
 ]
