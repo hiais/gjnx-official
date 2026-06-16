@@ -1,6 +1,6 @@
 ---
 title: GT (传统豪华转型的巅峰)
-date: 2026-06-14T04:10:26.203Z
+date: 2026-06-16T15:32:03.708Z
 category: Auto-Mined
 tags:
   - Auto-Gen

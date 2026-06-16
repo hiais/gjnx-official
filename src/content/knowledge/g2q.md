@@ -1,6 +1,6 @@
 ---
 title: G2q (全能王)
-date: 2026-06-14T04:10:24.036Z
+date: 2026-06-16T15:32:01.790Z
 category: Auto-Mined
 tags:
   - Auto-Gen
