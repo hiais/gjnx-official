@@ -1,13 +1,23 @@
 [
   {
+    "title": "AMD's Lemonade AI Server Now Much More Useful With MCP Server Integration",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/AMD-Lemonade-10.8-Released",
+    "abstract": "The open-source Lemonade AI server for \"100% free and private\" AI usage across Windows and Linux in leveraging AMD Ryzen AI NPUs, Radeon GPUs, and x86_64 CPUs, is now much more pow...",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "down"
+  },
+  {
     "title": "算苗3D TokenPU正式流片 引领国产AI云端大算力芯片再升级",
     "source": "QbitAI",
     "link": "https://www.qbitai.com/2026/06/436213.html",
     "abstract": "本文由算苗科技提供，量子位获授权转载，版权归原作者所有...",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "down"
+    "rank": "02",
+    "trend": "up"
   },
   {
     "title": "星海图创始人高继扬：具身智能三层技术路线，没有捷径可走",
@@ -16,7 +26,7 @@
     "abstract": "砸2亿只为“喂”数据？星海图在WDC上扔出三个信号弹。...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -26,7 +36,7 @@
     "abstract": "阿里巴巴发布千问具身智能大模型 Qwen-Robot 系列。 根据介绍，Qwen-Robot Suite 包含 VLA 操作模型Qwen-RobotManip、VLN 移动模型 Qwen-RobotNav 和世界模型 Qwen-RobotWorld 三大模型，这也是千问大模型家族首个完整的具身智能模型系列。 Qwen-RobotNav：物理智能体的行动入口 ...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -36,8 +46,8 @@
     "abstract": "Undisclosed addition in jqwik instructed AI coding agents to delete app output....",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -46,7 +56,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -56,7 +66,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -66,7 +76,7 @@
     "abstract": "计划1000倍综合降本...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -76,8 +86,8 @@
     "abstract": "在多项关键医疗测评上打败了GPT-5.5...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "GitHub 算力告急，微软被迫向 AWS 租用计算容量",
@@ -86,8 +96,8 @@
     "abstract": "2026 年 6 月 16 日，RuntimeWire 和 Business Insider 分别援引知情人士消息报道，微软正在向其最大云竞争对手 AWS 租用计算容量，以缓解旗下 GitHub 平台因 AI 驱动的代码生成浪潮而面临的严重算力短缺。这一消息揭示了一个令人咋舌的数字：GitHub 的年度代码提交量预计将从 2025 年的 10 亿次飙升至 2...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -96,8 +106,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   },
   {
     "title": "ChatGPT 市场份额首次跌破 50%",
@@ -106,8 +116,8 @@
     "abstract": "自 ChatGPT 首次发布以来已过去三年半多，竞争格局也日新月异。分析公司 Sensor Tower 发布的《2026 年 AI 现状报告》显示，随着用户在谷歌的 Gemini、Anthropic 的 Claude 以及 xAI 的 Grok 等类似工具之间进行切换，ChatGPT 的市场份额已经首次跌破 50%。 Sensor Tower 本月报道称，C...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -116,8 +126,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "13",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -126,8 +136,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "14",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -136,17 +146,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
-  },
-  {
-    "title": "Akeana Collaborates with Samsung Electronics, Fast-Tracking RISC-V Customers and Ecosystem for Server and Agentic AI Silicon",
-    "source": "SemiWiki",
-    "link": "https://semiwiki.com/ip/370104-akeana-collaborates-with-samsung-electronics-fast-tracking-risc-v-customers-and-ecosystem-for-server-and-agentic-ai-silicon/",
-    "abstract": "The momentum behind RISC-V continues to accelerate as Akeana announced a strategic collaboration with Samsung Electronics aimed at reducing time-to-market for next-generation serve...",
-    "pscore": 71,
-    "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "down"
+    "trend": "up"
   }
 ]
