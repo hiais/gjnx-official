@@ -7,7 +7,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
@@ -40,24 +40,24 @@
     "trend": "up"
   },
   {
-    "title": "GitHub 算力告急，微软被迫向 AWS 租用计算容量",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/459641",
-    "abstract": "2026 年 6 月 16 日，RuntimeWire 和 Business Insider 分别援引知情人士消息报道，微软正在向其最大云竞争对手 AWS 租用计算容量，以缓解旗下 GitHub 平台因 AI 驱动的代码生成浪潮而面临的严重算力短缺。这一消息揭示了一个令人咋舌的数字：GitHub 的年度代码提交量预计将从 2025 年的 10 亿次飙升至 2...",
+    "title": "困住医疗AI的死循环，终于有国产玩家跑通了",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/06/436171.html",
+    "abstract": "在多项关键医疗测评上打败了GPT-5.5...",
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
     "trend": "down"
   },
   {
-    "title": "强强联合！deepin X FlagOS 完成深度适配，共筑国产算力新底座",
+    "title": "GitHub 算力告急，微软被迫向 AWS 租用计算容量",
     "source": "OSChina",
-    "link": "https://www.oschina.net/news/459000",
-    "abstract": "如何让前沿的 AI 大模型、科学计算能力无缝跑在国产操作系统上？如何破解异构芯片软件栈之间“生态隔离”的行业痛点？ 近日，deepin 社区与众智 FlagOS 团队已展开深度技术攻坚，并取得了阶段性的适配成果！ 双方将基于开源共建理念，打通 “系统 - 算力 - 模型” 协同链路，为国产异构算力应用与 AI 生态落地提供稳定、......",
+    "link": "https://www.oschina.net/news/459641",
+    "abstract": "2026 年 6 月 16 日，RuntimeWire 和 Business Insider 分别援引知情人士消息报道，微软正在向其最大云竞争对手 AWS 租用计算容量，以缓解旗下 GitHub 平台因 AI 驱动的代码生成浪潮而面临的严重算力短缺。这一消息揭示了一个令人咋舌的数字：GitHub 的年度代码提交量预计将从 2025 年的 10 亿次飙升至 2...",
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -67,6 +67,26 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "07",
+    "trend": "down"
+  },
+  {
+    "title": "英特尔晒出未来芯片”三张底牌”：CFET、氮化镓+硅集成、钌互连",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/06/436082.html",
+    "abstract": "详解制程节点里程碑与未来技术创新...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "08",
+    "trend": "up"
+  },
+  {
+    "title": "ChatGPT 市场份额首次跌破 50%",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/460241",
+    "abstract": "自 ChatGPT 首次发布以来已过去三年半多，竞争格局也日新月异。分析公司 Sensor Tower 发布的《2026 年 AI 现状报告》显示，随着用户在谷歌的 Gemini、Anthropic 的 Claude 以及 xAI 的 Grok 等类似工具之间进行切换，ChatGPT 的市场份额已经首次跌破 50%。 Sensor Tower 本月报道称，C...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -76,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -86,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -96,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "Akeana Collaborates with Samsung Electronics, Fast-Tracking RISC-V Customers and Ecosystem for Server and Agentic AI Silicon",
@@ -106,7 +126,17 @@
     "abstract": "The momentum behind RISC-V continues to accelerate as Akeana announced a strategic collaboration with Samsung Electronics aimed at reducing time-to-market for next-generation serve...",
     "pscore": 71,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
+  },
+  {
+    "title": "Android 17 正式发布，气泡多任务、临时权限和折叠屏游戏模式齐上线",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/460184",
+    "abstract": "2026 年 6 月 16 日，Google 正式发布了 Android 17，由 Android 平台副总裁兼总经理 Seang Chau 亲自执笔的官方博客宣告了这一次大版本更新的到来。按惯例，Pixel 设备率先获得推送，其他符合条件的 Android 设备将在 2026 年内陆续收到更新。今年晚些时候，部分高端设备还将获得 Gemini Intell...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "up"
   }
 ]
