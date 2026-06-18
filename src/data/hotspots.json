@@ -10,13 +10,23 @@
     "trend": "down"
   },
   {
-    "title": "算苗3D TokenPU正式流片 引领国产AI云端大算力芯片再升级",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/06/436213.html",
-    "abstract": "本文由算苗科技提供，量子位获授权转载，版权归原作者所有...",
-    "pscore": 99,
+    "title": "GLM-5.2 登顶开源权重模型榜首：编程能力超越 GPT-5.5，MIT 许可免费可用",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/460824",
+    "abstract": "2026年6月的AI模型竞争版图上，一个来自北京的团队悄悄把自己的名字写到了开源权重模型排行榜的最顶端。6月17日，权威基准测试平台Artificial Analysis发布了最新的Intelligence Index v4.1测评结果：Z.ai（原智谱AI）推出的GLM-5.2以51分登顶所有开源权重模型，大幅领先MiniMax-M3（44分）、DeepS...",
+    "pscore": 94,
     "category": "CHIP_FRONT",
     "rank": "02",
+    "trend": "up"
+  },
+  {
+    "title": "我国正式发行首套 AI 主题邮票",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/460761",
+    "abstract": "中国邮政今日发行《人工智能》特种邮票1套4枚，邮票图案名称为：智启纪元、数智融合、具身智能、和谐共生。这是我国设计发行的第一套人工智能邮票，我国成为目前为数不多的发行人工智能邮票的国家之一。 本套邮票串联人工智能从诞生到未来的发展图景，以科技美学与人文内涵为双重内涵，全面展现AI技术的演进历程、多元应......",
+    "pscore": 92,
+    "category": "CHIP_FRONT",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -26,7 +36,7 @@
     "abstract": "砸2亿只为“喂”数据？星海图在WDC上扔出三个信号弹。...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -36,8 +46,8 @@
     "abstract": "阿里巴巴发布千问具身智能大模型 Qwen-Robot 系列。 根据介绍，Qwen-Robot Suite 包含 VLA 操作模型Qwen-RobotManip、VLN 移动模型 Qwen-RobotNav 和世界模型 Qwen-RobotWorld 三大模型，这也是千问大模型家族首个完整的具身智能模型系列。 Qwen-RobotNav：物理智能体的行动入口 ...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
@@ -46,8 +56,8 @@
     "abstract": "Undisclosed addition in jqwik instructed AI coding agents to delete app output....",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -56,8 +66,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -66,7 +76,17 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
+    "trend": "up"
+  },
+  {
+    "title": "AIEC 2026 | 太初元碁分享国产 AI 算力实践 助力 Token 服务落地生根",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/06/436740.html",
+    "abstract": "",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -76,18 +96,8 @@
     "abstract": "计划1000倍综合降本...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "10",
     "trend": "down"
-  },
-  {
-    "title": "困住医疗AI的死循环，终于有国产玩家跑通了",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/06/436171.html",
-    "abstract": "在多项关键医疗测评上打败了GPT-5.5...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
   },
   {
     "title": "GitHub 算力告急，微软被迫向 AWS 租用计算容量",
@@ -96,8 +106,8 @@
     "abstract": "2026 年 6 月 16 日，RuntimeWire 和 Business Insider 分别援引知情人士消息报道，微软正在向其最大云竞争对手 AWS 租用计算容量，以缓解旗下 GitHub 平台因 AI 驱动的代码生成浪潮而面临的严重算力短缺。这一消息揭示了一个令人咋舌的数字：GitHub 的年度代码提交量预计将从 2025 年的 10 亿次飙升至 2...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -106,8 +116,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "ChatGPT 市场份额首次跌破 50%",
@@ -116,8 +126,8 @@
     "abstract": "自 ChatGPT 首次发布以来已过去三年半多，竞争格局也日新月异。分析公司 Sensor Tower 发布的《2026 年 AI 现状报告》显示，随着用户在谷歌的 Gemini、Anthropic 的 Claude 以及 xAI 的 Grok 等类似工具之间进行切换，ChatGPT 的市场份额已经首次跌破 50%。 Sensor Tower 本月报道称，C...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "13",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -126,7 +136,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "14",
     "trend": "down"
   },
   {
@@ -136,17 +146,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
-  },
-  {
-    "title": "Hugging Face on PyTorch / XLA TPUs",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/pytorch-xla",
-    "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "up"
+    "trend": "down"
   }
 ]
