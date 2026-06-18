@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "GLM-5.2 登顶开源权重模型榜首：编程能力超越 GPT-5.5，MIT 许可免费可用",
@@ -17,7 +17,7 @@
     "pscore": 94,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "我国正式发行首套 AI 主题邮票",
@@ -27,27 +27,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
-  },
-  {
-    "title": "星海图创始人高继扬：具身智能三层技术路线，没有捷径可走",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/06/436223.html",
-    "abstract": "砸2亿只为“喂”数据？星海图在WDC上扔出三个信号弹。...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "04",
     "trend": "down"
-  },
-  {
-    "title": "阿里发布首个具身大模型 Qwen-Robot 系列",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/459601",
-    "abstract": "阿里巴巴发布千问具身智能大模型 Qwen-Robot 系列。 根据介绍，Qwen-Robot Suite 包含 VLA 操作模型Qwen-RobotManip、VLN 移动模型 Qwen-RobotNav 和世界模型 Qwen-RobotWorld 三大模型，这也是千问大模型家族首个完整的具身智能模型系列。 Qwen-RobotNav：物理智能体的行动入口 ...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
   },
   {
     "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
@@ -56,7 +36,7 @@
     "abstract": "Undisclosed addition in jqwik instructed AI coding agents to delete app output....",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -66,8 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -76,7 +56,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -86,27 +66,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
-  },
-  {
-    "title": "刚刚，北京建了一座AI工厂：目标10万P算力，日产10万亿Token！",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/06/436456.html",
-    "abstract": "计划1000倍综合降本...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
-  },
-  {
-    "title": "GitHub 算力告急，微软被迫向 AWS 租用计算容量",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/459641",
-    "abstract": "2026 年 6 月 16 日，RuntimeWire 和 Business Insider 分别援引知情人士消息报道，微软正在向其最大云竞争对手 AWS 租用计算容量，以缓解旗下 GitHub 平台因 AI 驱动的代码生成浪潮而面临的严重算力短缺。这一消息揭示了一个令人咋舌的数字：GitHub 的年度代码提交量预计将从 2025 年的 10 亿次飙升至 2...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -116,8 +76,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "ChatGPT 市场份额首次跌破 50%",
@@ -126,7 +86,7 @@
     "abstract": "自 ChatGPT 首次发布以来已过去三年半多，竞争格局也日新月异。分析公司 Sensor Tower 发布的《2026 年 AI 现状报告》显示，随着用户在谷歌的 Gemini、Anthropic 的 Claude 以及 xAI 的 Grok 等类似工具之间进行切换，ChatGPT 的市场份额已经首次跌破 50%。 Sensor Tower 本月报道称，C...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -136,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -146,7 +106,47 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
+    "rank": "11",
+    "trend": "up"
+  },
+  {
+    "title": "Hugging Face on PyTorch / XLA TPUs",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/pytorch-xla",
+    "abstract": "",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "12",
+    "trend": "up"
+  },
+  {
+    "title": "国产算力正在进入Token标准化时代",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/06/436468.html",
+    "abstract": "当前国产算力的瓶颈不在芯片本身，而在从异构算力到可用Token之间的工程化转化能力。...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "13",
+    "trend": "up"
+  },
+  {
+    "title": "Android 17 正式发布，气泡多任务、临时权限和折叠屏游戏模式齐上线",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/460184",
+    "abstract": "2026 年 6 月 16 日，Google 正式发布了 Android 17，由 Android 平台副总裁兼总经理 Seang Chau 亲自执笔的官方博客宣告了这一次大版本更新的到来。按惯例，Pixel 设备率先获得推送，其他符合条件的 Android 设备将在 2026 年内陆续收到更新。今年晚些时候，部分高端设备还将获得 Gemini Intell...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "up"
+  },
+  {
+    "title": "Intel Core Ultra X7 Panther Lake Performance On Linux 7.1",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/review/linux-71-panther-lake",
+    "abstract": "After recently noting the Intel Arc B580 Battlemage performance improving with Linux 7.1 and similarly finding performance gains for the Arc Pro B70 on Linux 7.1, several Phoronix ...",
+    "pscore": 69,
+    "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "down"
+    "trend": "up"
   }
 ]
