@@ -37,7 +37,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -67,7 +67,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "刚刚，北京建了一座AI工厂：目标10万P算力，日产10万亿Token！",
@@ -87,7 +87,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "GitHub 算力告急，微软被迫向 AWS 租用计算容量",
@@ -107,7 +107,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "ChatGPT 市场份额首次跌破 50%",
@@ -137,7 +137,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "14",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
