@@ -17,7 +17,7 @@
     "pscore": 94,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "我国正式发行首套 AI 主题邮票",
@@ -27,7 +27,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
@@ -77,7 +77,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "ChatGPT 市场份额首次跌破 50%",
@@ -117,6 +117,16 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "12",
+    "trend": "down"
+  },
+  {
+    "title": "Godot 4.7 Released With HDR Output Support",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Godot-4.7-Released",
+    "abstract": "Godot 4.7 is out today as the newest feature release for this leading open-source, cross-platform game engine......",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "13",
     "trend": "up"
   },
   {
@@ -126,7 +136,7 @@
     "abstract": "当前国产算力的瓶颈不在芯片本身，而在从异构算力到可用Token之间的工程化转化能力。...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "14",
     "trend": "up"
   },
   {
@@ -135,16 +145,6 @@
     "link": "https://www.oschina.net/news/460184",
     "abstract": "2026 年 6 月 16 日，Google 正式发布了 Android 17，由 Android 平台副总裁兼总经理 Seang Chau 亲自执笔的官方博客宣告了这一次大版本更新的到来。按惯例，Pixel 设备率先获得推送，其他符合条件的 Android 设备将在 2026 年内陆续收到更新。今年晚些时候，部分高端设备还将获得 Gemini Intell...",
     "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
-  },
-  {
-    "title": "Intel Core Ultra X7 Panther Lake Performance On Linux 7.1",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/linux-71-panther-lake",
-    "abstract": "After recently noting the Intel Arc B580 Battlemage performance improving with Linux 7.1 and similarly finding performance gains for the Arc Pro B70 on Linux 7.1, several Phoronix ...",
-    "pscore": 69,
     "category": "CHIP_FRONT",
     "rank": "15",
     "trend": "up"
