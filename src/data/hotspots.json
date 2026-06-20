@@ -27,7 +27,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -87,7 +87,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -117,7 +117,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Godot 4.7 Released With HDR Output Support",
@@ -127,7 +127,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "全球首个人形机器人通用小脑来了！全球最大规模2万小时人类动作数据，实现零样本泛化",
@@ -137,7 +137,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "14",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Android 17 正式发布，气泡多任务、临时权限和折叠屏游戏模式齐上线",
@@ -147,6 +147,6 @@
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "down"
+    "trend": "up"
   }
 ]
