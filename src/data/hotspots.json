@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "GLM-5.2 登顶开源权重模型榜首：编程能力超越 GPT-5.5，MIT 许可免费可用",
@@ -17,7 +17,7 @@
     "pscore": 94,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "我国正式发行首套 AI 主题邮票",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -67,7 +67,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -87,6 +87,16 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "09",
+    "trend": "up"
+  },
+  {
+    "title": "GPT-5.5 hallucinates 3x more than MIT-licensed GLM-5.2",
+    "source": "HackerNews",
+    "link": "https://arrowtsx.dev/bigger-models/",
+    "abstract": "Comments...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -96,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -106,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -116,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "up"
   },
   {
@@ -126,8 +136,8 @@
     "abstract": "Godot 4.7 is out today as the newest feature release for this leading open-source, cross-platform game engine......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "14",
+    "trend": "up"
   },
   {
     "title": "全球首个人形机器人通用小脑来了！全球最大规模2万小时人类动作数据，实现零样本泛化",
@@ -135,16 +145,6 @@
     "link": "https://www.qbitai.com/2026/06/436813.html",
     "abstract": "人形机器人正式迈入“GPT时代”...",
     "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
-  },
-  {
-    "title": "Android 17 正式发布，气泡多任务、临时权限和折叠屏游戏模式齐上线",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/460184",
-    "abstract": "2026 年 6 月 16 日，Google 正式发布了 Android 17，由 Android 平台副总裁兼总经理 Seang Chau 亲自执笔的官方博客宣告了这一次大版本更新的到来。按惯例，Pixel 设备率先获得推送，其他符合条件的 Android 设备将在 2026 年内陆续收到更新。今年晚些时候，部分高端设备还将获得 Gemini Intell...",
-    "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "15",
     "trend": "up"
