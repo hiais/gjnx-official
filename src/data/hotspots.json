@@ -1,22 +1,12 @@
 [
   {
-    "title": "AMD's Lemonade AI Server Now Much More Useful With MCP Server Integration",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/AMD-Lemonade-10.8-Released",
-    "abstract": "The open-source Lemonade AI server for \"100% free and private\" AI usage across Windows and Linux in leveraging AMD Ryzen AI NPUs, Radeon GPUs, and x86_64 CPUs, is now much more pow...",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "down"
-  },
-  {
     "title": "GLM-5.2 登顶开源权重模型榜首：编程能力超越 GPT-5.5，MIT 许可免费可用",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/460824",
     "abstract": "2026年6月的AI模型竞争版图上，一个来自北京的团队悄悄把自己的名字写到了开源权重模型排行榜的最顶端。6月17日，权威基准测试平台Artificial Analysis发布了最新的Intelligence Index v4.1测评结果：Z.ai（原智谱AI）推出的GLM-5.2以51分登顶所有开源权重模型，大幅领先MiniMax-M3（44分）、DeepS...",
     "pscore": 94,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "01",
     "trend": "up"
   },
   {
@@ -26,7 +16,7 @@
     "abstract": "中国邮政今日发行《人工智能》特种邮票1套4枚，邮票图案名称为：智启纪元、数智融合、具身智能、和谐共生。这是我国设计发行的第一套人工智能邮票，我国成为目前为数不多的发行人工智能邮票的国家之一。 本套邮票串联人工智能从诞生到未来的发展图景，以科技美学与人文内涵为双重内涵，全面展现AI技术的演进历程、多元应......",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -36,8 +26,8 @@
     "abstract": "Undisclosed addition in jqwik instructed AI coding agents to delete app output....",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
+    "rank": "03",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -46,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -56,18 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
-  },
-  {
-    "title": "AIEC 2026 | 太初元碁分享国产 AI 算力实践 助力 Token 服务落地生根",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/06/436740.html",
-    "abstract": "",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -76,8 +56,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "ChatGPT 市场份额首次跌破 50%",
@@ -86,8 +66,8 @@
     "abstract": "自 ChatGPT 首次发布以来已过去三年半多，竞争格局也日新月异。分析公司 Sensor Tower 发布的《2026 年 AI 现状报告》显示，随着用户在谷歌的 Gemini、Anthropic 的 Claude 以及 xAI 的 Grok 等类似工具之间进行切换，ChatGPT 的市场份额已经首次跌破 50%。 Sensor Tower 本月报道称，C...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "GPT-5.5 hallucinates 3x more than MIT-licensed GLM-5.2",
@@ -96,7 +76,7 @@
     "abstract": "Comments...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -106,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -116,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -126,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "Godot 4.7 Released With HDR Output Support",
@@ -136,7 +116,7 @@
     "abstract": "Godot 4.7 is out today as the newest feature release for this leading open-source, cross-platform game engine......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -146,7 +126,27 @@
     "abstract": "人形机器人正式迈入“GPT时代”...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "15",
+    "rank": "13",
     "trend": "up"
+  },
+  {
+    "title": "诺奖得主、AlphaFold之父投奔Anthropic！谷歌48小时连跑俩大将",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/06/436980.html",
+    "abstract": "Gemini 3.5 Pro呢？...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "up"
+  },
+  {
+    "title": "Android 17 正式发布，气泡多任务、临时权限和折叠屏游戏模式齐上线",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/460184",
+    "abstract": "2026 年 6 月 16 日，Google 正式发布了 Android 17，由 Android 平台副总裁兼总经理 Seang Chau 亲自执笔的官方博客宣告了这一次大版本更新的到来。按惯例，Pixel 设备率先获得推送，其他符合条件的 Android 设备将在 2026 年内陆续收到更新。今年晚些时候，部分高端设备还将获得 Gemini Intell...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "15",
+    "trend": "down"
   }
 ]
