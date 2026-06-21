@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -57,7 +57,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "ChatGPT 市场份额首次跌破 50%",
@@ -67,16 +67,6 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
-  },
-  {
-    "title": "GPT-5.5 hallucinates 3x more than MIT-licensed GLM-5.2",
-    "source": "HackerNews",
-    "link": "https://arrowtsx.dev/bigger-models/",
-    "abstract": "Comments...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "08",
     "trend": "up"
   },
   {
@@ -86,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -96,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -106,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "Godot 4.7 Released With HDR Output Support",
@@ -116,8 +106,8 @@
     "abstract": "Godot 4.7 is out today as the newest feature release for this leading open-source, cross-platform game engine......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "全球首个人形机器人通用小脑来了！全球最大规模2万小时人类动作数据，实现零样本泛化",
@@ -126,8 +116,8 @@
     "abstract": "人形机器人正式迈入“GPT时代”...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "诺奖得主、AlphaFold之父投奔Anthropic！谷歌48小时连跑俩大将",
@@ -136,8 +126,8 @@
     "abstract": "Gemini 3.5 Pro呢？...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
+    "rank": "13",
+    "trend": "down"
   },
   {
     "title": "Android 17 正式发布，气泡多任务、临时权限和折叠屏游戏模式齐上线",
@@ -146,7 +136,17 @@
     "abstract": "2026 年 6 月 16 日，Google 正式发布了 Android 17，由 Android 平台副总裁兼总经理 Seang Chau 亲自执笔的官方博客宣告了这一次大版本更新的到来。按惯例，Pixel 设备率先获得推送，其他符合条件的 Android 设备将在 2026 年内陆续收到更新。今年晚些时候，部分高端设备还将获得 Gemini Intell...",
     "pscore": 70,
     "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "up"
+  },
+  {
+    "title": "Intel Core Ultra X7 Panther Lake Performance On Linux 7.1",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/review/linux-71-panther-lake",
+    "abstract": "After recently noting the Intel Arc B580 Battlemage performance improving with Linux 7.1 and similarly finding performance gains for the Arc Pro B70 on Linux 7.1, several Phoronix ...",
+    "pscore": 69,
+    "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "down"
+    "trend": "up"
   }
 ]
