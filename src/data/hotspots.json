@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Linux 7.2 Begins Making Preparations For NVIDIA \"Blackwell-Next\"",
@@ -27,7 +27,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "具身赛道现状素描：脑子灵，模型好，不是百亿，就是独角",
@@ -37,7 +37,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -57,7 +57,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -70,24 +70,24 @@
     "trend": "down"
   },
   {
+    "title": "LM Studio 与苹果合作，用四台 Mac Studio 成功运行万亿参数大模型 Kimi K2.6",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/464871",
+    "abstract": "LM Studio 官方账号近日发布了一条推文：\"我们在 WWDC 期间与 Apple 合作，在四台 Mac Studio 组成的集群上运行了 Kimi K2.6——一个万亿参数模型。我们通过 LM Link 展示了从 MacBook Neo 和 iPhone 的安全远程访问。这是你私人拥有的、前沿级 AI 的一瞥。\" 要理解这次演示的技术含量，必须先厘清\"...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "08",
+    "trend": "down"
+  },
+  {
     "title": "Groq on Hugging Face Inference Providers 🔥",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/inference-providers-groq",
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
-  },
-  {
-    "title": "ChatGPT 市场份额首次跌破 50%",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/460241",
-    "abstract": "自 ChatGPT 首次发布以来已过去三年半多，竞争格局也日新月异。分析公司 Sensor Tower 发布的《2026 年 AI 现状报告》显示，随着用户在谷歌的 Gemini、Anthropic 的 Claude 以及 xAI 的 Grok 等类似工具之间进行切换，ChatGPT 的市场份额已经首次跌破 50%。 Sensor Tower 本月报道称，C...",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -97,7 +97,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -117,7 +117,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Linux's KUnit Finally Supporting JUnit Output",
@@ -130,23 +130,23 @@
     "trend": "up"
   },
   {
-    "title": "Godot 4.7 Released With HDR Output Support",
+    "title": "Google's Gemini Partially Figures Out A Lengthy Linux Boot Time On Modern ASUS Laptop",
     "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Godot-4.7-Released",
-    "abstract": "Godot 4.7 is out today as the newest feature release for this leading open-source, cross-platform game engine......",
-    "pscore": 75,
+    "link": "https://www.phoronix.com/news/Gemini-ASUS-Laptop-Boot-Time",
+    "abstract": "Google Antigravity with the Gemini 3.5 Flash model helped a Linux user sort out a situation where his laptop was taking around 36 seconds to boot the kernel, which shouldn't be the...",
+    "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "14",
     "trend": "up"
   },
   {
-    "title": "全球首个人形机器人通用小脑来了！全球最大规模2万小时人类动作数据，实现零样本泛化",
+    "title": "入选ECCV 2026！清华开源空间模型打败Gemini：真正的空间智能是在世界变化中持续学习",
     "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/06/436813.html",
-    "abstract": "人形机器人正式迈入“GPT时代”...",
-    "pscore": 75,
+    "link": "https://www.qbitai.com/2026/06/437235.html",
+    "abstract": "120分钟长视频一边看一边记...",
+    "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "up"
+    "trend": "down"
   }
 ]
