@@ -1,23 +1,13 @@
 [
   {
-    "title": "GLM-5.2 登顶开源权重模型榜首：编程能力超越 GPT-5.5，MIT 许可免费可用",
+    "title": "贾跃亭旗下 Futurist 具身智能机器人上市，售价 89900 美元",
     "source": "OSChina",
-    "link": "https://www.oschina.net/news/460824",
-    "abstract": "2026年6月的AI模型竞争版图上，一个来自北京的团队悄悄把自己的名字写到了开源权重模型排行榜的最顶端。6月17日，权威基准测试平台Artificial Analysis发布了最新的Intelligence Index v4.1测评结果：Z.ai（原智谱AI）推出的GLM-5.2以51分登顶所有开源权重模型，大幅领先MiniMax-M3（44分）、DeepS...",
-    "pscore": 94,
+    "link": "https://www.oschina.net/news/465771",
+    "abstract": "贾跃亭通过社交平台宣布，旗下全新 Futurist 具身智能人形机器人已正式上市并开启销售。 该产品官方售价为 89,900 美元，价格中已包含价值 10,000 美元的增强 Skills 技能包。 贾跃亭介绍称，作为一款定位于“All in One全能职业专家”的本体产品，Futurist 是全美首个原生支持 Nvidia Sonic 全尺寸人形机器人全身...",
+    "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
-  },
-  {
-    "title": "我国正式发行首套 AI 主题邮票",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/460761",
-    "abstract": "中国邮政今日发行《人工智能》特种邮票1套4枚，邮票图案名称为：智启纪元、数智融合、具身智能、和谐共生。这是我国设计发行的第一套人工智能邮票，我国成为目前为数不多的发行人工智能邮票的国家之一。 本套邮票串联人工智能从诞生到未来的发展图景，以科技美学与人文内涵为双重内涵，全面展现AI技术的演进历程、多元应......",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Linux 7.2 Begins Making Preparations For NVIDIA \"Blackwell-Next\"",
@@ -26,7 +16,7 @@
     "abstract": "When going through the VFIO subsystem patches for the ongoing Linux 7.2 merge window, there isn't too much to get excited about for end users with these changes. But there is the f...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -35,6 +25,16 @@
     "link": "https://www.qbitai.com/2026/06/437198.html",
     "abstract": "2026年还没过半，具身智能的融资就快要超过去年全年了，超过一半的钱都流入了机器人的“大脑”。...",
     "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "03",
+    "trend": "down"
+  },
+  {
+    "title": "OpenAI DayBreak – GPT-5.5-Cyber",
+    "source": "HackerNews",
+    "link": "https://openai.com/index/daybreak-securing-the-world/",
+    "abstract": "Comments...",
+    "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
     "trend": "up"
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -67,7 +67,17 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
+  },
+  {
+    "title": "马斯克又盯上AI基建：特斯拉要卖“算力积木”了",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/06/437340.html",
+    "abstract": "新商标已曝光...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "百川发布新一代医疗增强大模型 M4",
@@ -76,8 +86,8 @@
     "abstract": "百川智能宣布已于近日联合清华大学研究团队发布了新一代医疗增强大模型 Baichuan-M4。 据介绍，其在 HealthBench 及其 Hard、Professional 三个榜单上同时位列世界第一，全面超越 GPT-5.5、Claude Opus 4.7、DeepSeek-V4-Pro，幻觉率低至 3.3%。 在问诊方面，M4 会主动追问症状的性质与诱因...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "LM Studio 与苹果合作，用四台 Mac Studio 成功运行万亿参数大模型 Kimi K2.6",
@@ -86,8 +96,8 @@
     "abstract": "LM Studio 官方账号近日发布了一条推文：\"我们在 WWDC 期间与 Apple 合作，在四台 Mac Studio 组成的集群上运行了 Kimi K2.6——一个万亿参数模型。我们通过 LM Link 展示了从 MacBook Neo 和 iPhone 的安全远程访问。这是你私人拥有的、前沿级 AI 的一瞥。\" 要理解这次演示的技术含量，必须先厘清\"...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -96,8 +106,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -106,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -116,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "up"
   },
   {
@@ -126,8 +136,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "14",
+    "trend": "up"
   },
   {
     "title": "Linux's KUnit Finally Supporting JUnit Output",
@@ -135,16 +145,6 @@
     "link": "https://www.phoronix.com/news/Linux-KUnit-JUnit",
     "abstract": "KUnit as the unit testing framework for the Linux kernel and was inspired in part by Java's JUnit when originally conceived, is now finally able to output to the JUnit format for b...",
     "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
-  },
-  {
-    "title": "AION Silicon: Architecting Smarter SoCs with RISC-V: Balancing Performance, Flexibility, and Risk",
-    "source": "SemiWiki",
-    "link": "https://semiwiki.com/semiconductor-services/aion-silicon/369777-aion-silicon-architecting-smarter-socs-with-risc-v-balancing-performance-flexibility-and-risk/",
-    "abstract": "As semiconductor complexity accelerates across AI, automotive, and edge computing markets, SoC architecture has become a critical determinant of commercial success. Modern silicon ...",
-    "pscore": 71,
     "category": "CHIP_FRONT",
     "rank": "15",
     "trend": "up"
