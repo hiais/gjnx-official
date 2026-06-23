@@ -7,7 +7,7 @@
     "pscore": 94,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "我国正式发行首套 AI 主题邮票",
@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Linux 7.2 Begins Making Preparations For NVIDIA \"Blackwell-Next\"",
@@ -27,7 +27,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "具身赛道现状素描：脑子灵，模型好，不是百亿，就是独角",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -57,7 +57,27 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
+    "trend": "down"
+  },
+  {
+    "title": "Available Is Not In Control: Balancing Output, Quality, and Risk in High-Volume Fabs",
+    "source": "SemiWiki",
+    "link": "https://semiwiki.com/semiconductor-manufacturers/370465-available-is-not-in-control-balancing-output-quality-and-risk-in-high-volume-fabs/",
+    "abstract": "A deposition chamber drops out of production at 2 a.m. Forty minutes later it is back, the dashboard flips from red to green, and two people want opposite things. The operations-ce...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "07",
     "trend": "up"
+  },
+  {
+    "title": "百川发布新一代医疗增强大模型 M4",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/465731",
+    "abstract": "百川智能宣布已于近日联合清华大学研究团队发布了新一代医疗增强大模型 Baichuan-M4。 据介绍，其在 HealthBench 及其 Hard、Professional 三个榜单上同时位列世界第一，全面超越 GPT-5.5、Claude Opus 4.7、DeepSeek-V4-Pro，幻觉率低至 3.3%。 在问诊方面，M4 会主动追问症状的性质与诱因...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "LM Studio 与苹果合作，用四台 Mac Studio 成功运行万亿参数大模型 Kimi K2.6",
@@ -66,7 +86,7 @@
     "abstract": "LM Studio 官方账号近日发布了一条推文：\"我们在 WWDC 期间与 Apple 合作，在四台 Mac Studio 组成的集群上运行了 Kimi K2.6——一个万亿参数模型。我们通过 LM Link 展示了从 MacBook Neo 和 iPhone 的安全远程访问。这是你私人拥有的、前沿级 AI 的一瞥。\" 要理解这次演示的技术含量，必须先厘清\"...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -76,17 +96,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
-  },
-  {
-    "title": "The text in Claude Code’s “Extended Thinking” output",
-    "source": "HackerNews",
-    "link": "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/",
-    "abstract": "Comments...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -96,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -106,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -116,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "down"
   },
   {
@@ -126,8 +136,8 @@
     "abstract": "KUnit as the unit testing framework for the Linux kernel and was inspired in part by Java's JUnit when originally conceived, is now finally able to output to the JUnit format for b...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "14",
+    "trend": "up"
   },
   {
     "title": "AION Silicon: Architecting Smarter SoCs with RISC-V: Balancing Performance, Flexibility, and Risk",
@@ -135,16 +145,6 @@
     "link": "https://semiwiki.com/semiconductor-services/aion-silicon/369777-aion-silicon-architecting-smarter-socs-with-risc-v-balancing-performance-flexibility-and-risk/",
     "abstract": "As semiconductor complexity accelerates across AI, automotive, and edge computing markets, SoC architecture has become a critical determinant of commercial success. Modern silicon ...",
     "pscore": 71,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
-  },
-  {
-    "title": "Google's Gemini Partially Figures Out A Lengthy Linux Boot Time On Modern ASUS Laptop",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Gemini-ASUS-Laptop-Boot-Time",
-    "abstract": "Google Antigravity with the Gemini 3.5 Flash model helped a Linux user sort out a situation where his laptop was taking around 36 seconds to boot the kernel, which shouldn't be the...",
-    "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "15",
     "trend": "up"
