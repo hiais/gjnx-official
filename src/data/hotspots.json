@@ -20,23 +20,13 @@
     "trend": "down"
   },
   {
-    "title": "具身赛道现状素描：脑子灵，模型好，不是百亿，就是独角",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/06/437198.html",
-    "abstract": "2026年还没过半，具身智能的融资就快要超过去年全年了，超过一半的钱都流入了机器人的“大脑”。...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
-  },
-  {
     "title": "OpenAI DayBreak – GPT-5.5-Cyber",
     "source": "HackerNews",
     "link": "https://openai.com/index/daybreak-securing-the-world/",
     "abstract": "Comments...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -46,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -56,7 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -66,8 +56,8 @@
     "abstract": "A deposition chamber drops out of production at 2 a.m. Forty minutes later it is back, the dashboard flips from red to green, and two people want opposite things. The operations-ce...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "马斯克又盯上AI基建：特斯拉要卖“算力积木”了",
@@ -76,7 +66,7 @@
     "abstract": "新商标已曝光...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -86,8 +76,8 @@
     "abstract": "百川智能宣布已于近日联合清华大学研究团队发布了新一代医疗增强大模型 Baichuan-M4。 据介绍，其在 HealthBench 及其 Hard、Professional 三个榜单上同时位列世界第一，全面超越 GPT-5.5、Claude Opus 4.7、DeepSeek-V4-Pro，幻觉率低至 3.3%。 在问诊方面，M4 会主动追问症状的性质与诱因...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "LM Studio 与苹果合作，用四台 Mac Studio 成功运行万亿参数大模型 Kimi K2.6",
@@ -96,8 +86,8 @@
     "abstract": "LM Studio 官方账号近日发布了一条推文：\"我们在 WWDC 期间与 Apple 合作，在四台 Mac Studio 组成的集群上运行了 Kimi K2.6——一个万亿参数模型。我们通过 LM Link 展示了从 MacBook Neo 和 iPhone 的安全远程访问。这是你私人拥有的、前沿级 AI 的一瞥。\" 要理解这次演示的技术含量，必须先厘清\"...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -106,8 +96,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -116,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -126,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -136,8 +126,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
+    "rank": "13",
+    "trend": "down"
   },
   {
     "title": "Linux's KUnit Finally Supporting JUnit Output",
@@ -145,6 +135,16 @@
     "link": "https://www.phoronix.com/news/Linux-KUnit-JUnit",
     "abstract": "KUnit as the unit testing framework for the Linux kernel and was inspired in part by Java's JUnit when originally conceived, is now finally able to output to the JUnit format for b...",
     "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "up"
+  },
+  {
+    "title": "AION Silicon: Architecting Smarter SoCs with RISC-V: Balancing Performance, Flexibility, and Risk",
+    "source": "SemiWiki",
+    "link": "https://semiwiki.com/semiconductor-services/aion-silicon/369777-aion-silicon-architecting-smarter-socs-with-risc-v-balancing-performance-flexibility-and-risk/",
+    "abstract": "As semiconductor complexity accelerates across AI, automotive, and edge computing markets, SoC architecture has become a critical determinant of commercial success. Modern silicon ...",
+    "pscore": 71,
     "category": "CHIP_FRONT",
     "rank": "15",
     "trend": "up"
