@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "马斯克官宣\"Starmind\"，规划 100 万颗卫星入轨",
@@ -60,24 +60,14 @@
     "trend": "up"
   },
   {
-    "title": "Available Is Not In Control: Balancing Output, Quality, and Risk in High-Volume Fabs",
-    "source": "SemiWiki",
-    "link": "https://semiwiki.com/semiconductor-manufacturers/370465-available-is-not-in-control-balancing-output-quality-and-risk-in-high-volume-fabs/",
-    "abstract": "A deposition chamber drops out of production at 2 a.m. Forty minutes later it is back, the dashboard flips from red to green, and two people want opposite things. The operations-ce...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
-  },
-  {
     "title": "智能座舱之王「转身」物理AI，高通需要被重估了",
     "source": "QbitAI",
     "link": "https://www.qbitai.com/2026/06/432494.html",
     "abstract": "不争最强算力，只求无处不在...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -86,7 +76,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -96,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -106,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -116,7 +106,17 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "down"
+  },
+  {
+    "title": "Computer use in Gemini 3.5 Flash",
+    "source": "HackerNews",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+    "abstract": "Comments...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "12",
+    "trend": "up"
   }
 ]
