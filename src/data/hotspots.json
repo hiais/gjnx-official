@@ -30,23 +30,13 @@
     "trend": "down"
   },
   {
-    "title": "Linux 7.2 Begins Making Preparations For NVIDIA \"Blackwell-Next\"",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/NVIDIA-Blackwell-Next-VFIO",
-    "abstract": "When going through the VFIO subsystem patches for the ongoing Linux 7.2 merge window, there isn't too much to get excited about for end users with these changes. But there is the f...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
-  },
-  {
     "title": "Google Cloud TPUs made available to Hugging Face users",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -56,8 +46,18 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
+    "rank": "05",
+    "trend": "up"
+  },
+  {
+    "title": "All-Embracing Multiphysics Analysis for Chiplet-Based Systems",
+    "source": "SemiWiki",
+    "link": "https://semiwiki.com/5g/370474-all-embracing-multiphysics-analysis-for-chiplet-based-systems/",
+    "abstract": "What systems can accomplish by combining semiconductors, AI, and software seems at times boundless. Chiplet-based semiconductors deliver this promise, allowing a myriad of complex ...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Available Is Not In Control: Balancing Output, Quality, and Risk in High-Volume Fabs",
@@ -67,7 +67,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "智能座舱之王「转身」物理AI，高通需要被重估了",
@@ -77,16 +77,6 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "down"
-  },
-  {
-    "title": "百川发布新一代医疗增强大模型 M4",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/465731",
-    "abstract": "百川智能宣布已于近日联合清华大学研究团队发布了新一代医疗增强大模型 Baichuan-M4。 据介绍，其在 HealthBench 及其 Hard、Professional 三个榜单上同时位列世界第一，全面超越 GPT-5.5、Claude Opus 4.7、DeepSeek-V4-Pro，幻觉率低至 3.3%。 在问诊方面，M4 会主动追问症状的性质与诱因...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "09",
     "trend": "up"
   },
   {
@@ -96,7 +86,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -106,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -116,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -126,27 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
-  },
-  {
-    "title": "Linux's KUnit Finally Supporting JUnit Output",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Linux-KUnit-JUnit",
-    "abstract": "KUnit as the unit testing framework for the Linux kernel and was inspired in part by Java's JUnit when originally conceived, is now finally able to output to the JUnit format for b...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
-  },
-  {
-    "title": "AION Silicon: Architecting Smarter SoCs with RISC-V: Balancing Performance, Flexibility, and Risk",
-    "source": "SemiWiki",
-    "link": "https://semiwiki.com/semiconductor-services/aion-silicon/369777-aion-silicon-architecting-smarter-socs-with-risc-v-balancing-performance-flexibility-and-risk/",
-    "abstract": "As semiconductor complexity accelerates across AI, automotive, and edge computing markets, SoC architecture has become a critical determinant of commercial success. Modern silicon ...",
-    "pscore": 71,
-    "category": "CHIP_FRONT",
-    "rank": "15",
+    "rank": "12",
     "trend": "down"
   }
 ]
