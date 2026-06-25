@@ -1,22 +1,12 @@
 [
   {
-    "title": "贾跃亭旗下 Futurist 具身智能机器人上市，售价 89900 美元",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/465771",
-    "abstract": "贾跃亭通过社交平台宣布，旗下全新 Futurist 具身智能人形机器人已正式上市并开启销售。 该产品官方售价为 89,900 美元，价格中已包含价值 10,000 美元的增强 Skills 技能包。 贾跃亭介绍称，作为一款定位于“All in One全能职业专家”的本体产品，Futurist 是全美首个原生支持 Nvidia Sonic 全尺寸人形机器人全身...",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "down"
-  },
-  {
     "title": "OpenAI 发布首款‌定制 AI 芯片 Jalapeño：联合 Broadcom 打造，专为推理优化",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/467076/openai-and-broadcom-announce-strategic-collaboration",
     "abstract": "2026年6月24日，OpenAI 首次向外界展示了其自研的首款定制 AI 推理芯片，代号 Jalapeño。这颗芯片由 OpenAI 与 Broadcom 联合设计与制造，专为 OpenAI 推理系统的工作负载而优化。OpenAI 表示，公司自家的 AI 模型也参与了芯片设计过程。虽然芯片仍在测试阶段，但早期结果显示其每瓦性能显著优于当前市场上最先进的替代...",
     "pscore": 97,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "01",
     "trend": "up"
   },
   {
@@ -26,14 +16,24 @@
     "abstract": "埃隆·马斯克（Elon Musk）在 X 平台正式确认，SpaceX 规划中的轨道 AI 数据中心项目定名为“Starmind”。计划最高发射 100 万颗搭载 AI 算力单元的计算卫星入轨，依托部署在近地轨道的庞大卫星集群，直接为地面提供完全脱离传统机房限制的新型 AI 算力。 SpaceX在 6 月 8 日已率先公布该项目的首代硬件产品AI1。单颗卫星....",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "02",
+    "trend": "down"
   },
   {
     "title": "Linux 7.2 Showing Some Unexpected & Nice Performance Gains On AMD EPYC Sorano",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/news/Linux-7.2--EPYC-Sorano-Network",
     "abstract": "While the Linux 7.2 merge window doesn't wrap up until this weekend as the feature cut-off for new material, I have already begun some early benchmarks of the code currently staged...",
+    "pscore": 89,
+    "category": "CHIP_FRONT",
+    "rank": "03",
+    "trend": "up"
+  },
+  {
+    "title": "文心一言发布服务升级公告，数据迁移即将开启",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/467308",
+    "abstract": "文心一言正式发布服务升级公告，宣告其平台架构与服务入口的深度整合。 根据公告，自2026年6月25日零时起，文心一言官网的提问入口已正式开启升级。未来用户若想继续使用智能对话、创意写作、高效办公辅助以及专业信息查询等 AI 功能，并将体验最新的文心大模型强大算力，需统一迁移至百度文心网站进行操作。 为了确保用......",
     "pscore": 89,
     "category": "CHIP_FRONT",
     "rank": "04",
@@ -57,7 +57,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "All-Embracing Multiphysics Analysis for Chiplet-Based Systems",
@@ -80,13 +80,23 @@
     "trend": "down"
   },
   {
+    "title": "谷歌将 Computer Use 能力原生集成到 Gemini 3.5 Flash",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/467115/introducing-computer-use-gemini-3-5-flash",
+    "abstract": "2026年6月24日，Google DeepMind团队宣布将计算机使用（computer use）能力原生集成到Gemini 3.5 Flash模型中。这意味着开发者现在可以通过单一模型构建能够在浏览器、移动设备和桌面环境中\"看见屏幕内容、理解界面逻辑并自主执行操作\"的AI Agent——而不再需要为此单独部署一个专门的计算机使用模型。这项能力通过Gemi...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "09",
+    "trend": "up"
+  },
+  {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/keras-chatbot-arena",
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -96,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -106,8 +116,18 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "down"
+  },
+  {
+    "title": "聚焦GW级Token工厂，解码下一代算力底座｜6月30日，深圳",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/06/438297.html",
+    "abstract": "谁将定义下一代算力基础设施？谁又能在Token时代占据产业制高点？...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "13",
+    "trend": "up"
   },
   {
     "title": "Computer use in Gemini 3.5 Flash",
@@ -116,8 +136,8 @@
     "abstract": "Comments...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "14",
+    "trend": "down"
   },
   {
     "title": "MGLRU Improvement Yielding Nice Gains On Linux 7.2: MongoDB 30~100% Higher Throughput",
@@ -126,7 +146,7 @@
     "abstract": "The many memory management \"MM\" related improvements were recently merged to Git for the Linux 7.2 kernel. As typical most kernel cycles, some of the low-level improvements can yie...",
     "pscore": 69,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "15",
     "trend": "up"
   }
 ]
