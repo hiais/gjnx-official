@@ -7,6 +7,16 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
+    "trend": "down"
+  },
+  {
+    "title": "OpenAI 发布首款‌定制 AI 芯片 Jalapeño：联合 Broadcom 打造，专为推理优化",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/467076/openai-and-broadcom-announce-strategic-collaboration",
+    "abstract": "2026年6月24日，OpenAI 首次向外界展示了其自研的首款定制 AI 推理芯片，代号 Jalapeño。这颗芯片由 OpenAI 与 Broadcom 联合设计与制造，专为 OpenAI 推理系统的工作负载而优化。OpenAI 表示，公司自家的 AI 模型也参与了芯片设计过程。虽然芯片仍在测试阶段，但早期结果显示其每瓦性能显著优于当前市场上最先进的替代...",
+    "pscore": 97,
+    "category": "CHIP_FRONT",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -16,8 +26,8 @@
     "abstract": "埃隆·马斯克（Elon Musk）在 X 平台正式确认，SpaceX 规划中的轨道 AI 数据中心项目定名为“Starmind”。计划最高发射 100 万颗搭载 AI 算力单元的计算卫星入轨，依托部署在近地轨道的庞大卫星集群，直接为地面提供完全脱离传统机房限制的新型 AI 算力。 SpaceX在 6 月 8 日已率先公布该项目的首代硬件产品AI1。单颗卫星....",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "Linux 7.2 Showing Some Unexpected & Nice Performance Gains On AMD EPYC Sorano",
@@ -26,8 +36,8 @@
     "abstract": "While the Linux 7.2 merge window doesn't wrap up until this weekend as the feature cut-off for new material, I have already begun some early benchmarks of the code currently staged...",
     "pscore": 89,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -36,8 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -46,7 +56,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -56,18 +66,8 @@
     "abstract": "What systems can accomplish by combining semiconductors, AI, and software seems at times boundless. Chiplet-based semiconductors deliver this promise, allowing a myriad of complex ...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
-  },
-  {
-    "title": "智能座舱之王「转身」物理AI，高通需要被重估了",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/06/432494.html",
-    "abstract": "不争最强算力，只求无处不在...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -97,7 +97,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -117,6 +117,16 @@
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "12",
+    "trend": "up"
+  },
+  {
+    "title": "MGLRU Improvement Yielding Nice Gains On Linux 7.2: MongoDB 30~100% Higher Throughput",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Linux-7.2-MM",
+    "abstract": "The many memory management \"MM\" related improvements were recently merged to Git for the Linux 7.2 kernel. As typical most kernel cycles, some of the low-level improvements can yie...",
+    "pscore": 69,
+    "category": "CHIP_FRONT",
+    "rank": "13",
     "trend": "up"
   }
 ]
