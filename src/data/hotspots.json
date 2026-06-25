@@ -7,6 +7,26 @@
     "pscore": 97,
     "category": "CHIP_FRONT",
     "rank": "01",
+    "trend": "down"
+  },
+  {
+    "title": "AMD Contributes ONNX Runtime Backend To FFmpeg DNN Filter",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/FFmpeg-DNN-ONNX-Runtime",
+    "abstract": "An AMD engineer has contributed to the upstream FFmpeg library an ONNX Runtime back-end for its DNN filter. The FFmpeg Deep Neural Network (DNN) filters allow for running AI models...",
+    "pscore": 92,
+    "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "up"
+  },
+  {
+    "title": "RoboScience 发布 Visics 大模型，实现跨场景自主执行",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/467328",
+    "abstract": "RoboScience 机器科学正式发布了通用具身大模型 Visics，并披露了其核心技术架构 VLOA（Vision-Language-Object-Action）。这一进展意味着机器人不再局限于针对单一任务的重复训练，而是具备了跨本体、跨物体、跨任务的通用操作能力。 过去，具身智能行业普遍采取“动作复刻”模式，即让机器人死记硬背特定的关节运动轨迹......",
+    "pscore": 92,
+    "category": "CHIP_FRONT",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -16,8 +36,8 @@
     "abstract": "埃隆·马斯克（Elon Musk）在 X 平台正式确认，SpaceX 规划中的轨道 AI 数据中心项目定名为“Starmind”。计划最高发射 100 万颗搭载 AI 算力单元的计算卫星入轨，依托部署在近地轨道的庞大卫星集群，直接为地面提供完全脱离传统机房限制的新型 AI 算力。 SpaceX在 6 月 8 日已率先公布该项目的首代硬件产品AI1。单颗卫星....",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "Linux 7.2 Showing Some Unexpected & Nice Performance Gains On AMD EPYC Sorano",
@@ -26,7 +46,7 @@
     "abstract": "While the Linux 7.2 merge window doesn't wrap up until this weekend as the feature cut-off for new material, I have already begun some early benchmarks of the code currently staged...",
     "pscore": 89,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -36,8 +56,8 @@
     "abstract": "文心一言正式发布服务升级公告，宣告其平台架构与服务入口的深度整合。 根据公告，自2026年6月25日零时起，文心一言官网的提问入口已正式开启升级。未来用户若想继续使用智能对话、创意写作、高效办公辅助以及专业信息查询等 AI 功能，并将体验最新的文心大模型强大算力，需统一迁移至百度文心网站进行操作。 为了确保用......",
     "pscore": 89,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -46,8 +66,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -56,8 +76,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "All-Embracing Multiphysics Analysis for Chiplet-Based Systems",
@@ -66,8 +86,8 @@
     "abstract": "What systems can accomplish by combining semiconductors, AI, and software seems at times boundless. Chiplet-based semiconductors deliver this promise, allowing a myriad of complex ...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -76,7 +96,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -86,8 +106,8 @@
     "abstract": "2026年6月24日，Google DeepMind团队宣布将计算机使用（computer use）能力原生集成到Gemini 3.5 Flash模型中。这意味着开发者现在可以通过单一模型构建能够在浏览器、移动设备和桌面环境中\"看见屏幕内容、理解界面逻辑并自主执行操作\"的AI Agent——而不再需要为此单独部署一个专门的计算机使用模型。这项能力通过Gemi...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -96,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -106,8 +126,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "13",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -116,8 +136,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "14",
+    "trend": "up"
   },
   {
     "title": "聚焦GW级Token工厂，解码下一代算力底座｜6月30日，深圳",
@@ -126,27 +146,7 @@
     "abstract": "谁将定义下一代算力基础设施？谁又能在Token时代占据产业制高点？...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
-  },
-  {
-    "title": "Computer use in Gemini 3.5 Flash",
-    "source": "HackerNews",
-    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
-    "abstract": "Comments...",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
-  },
-  {
-    "title": "MGLRU Improvement Yielding Nice Gains On Linux 7.2: MongoDB 30~100% Higher Throughput",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Linux-7.2-MM",
-    "abstract": "The many memory management \"MM\" related improvements were recently merged to Git for the Linux 7.2 kernel. As typical most kernel cycles, some of the low-level improvements can yie...",
-    "pscore": 69,
-    "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "up"
+    "trend": "down"
   }
 ]
