@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "RoboScience 发布 Visics 大模型，实现跨场景自主执行",
@@ -27,7 +27,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "马斯克官宣\"Starmind\"，规划 100 万颗卫星入轨",
@@ -37,7 +37,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Linux 7.2 Showing Some Unexpected & Nice Performance Gains On AMD EPYC Sorano",
@@ -47,7 +47,7 @@
     "pscore": 89,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "文心一言发布服务升级公告，数据迁移即将开启",
@@ -57,7 +57,7 @@
     "pscore": 89,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -67,7 +67,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -80,13 +80,43 @@
     "trend": "down"
   },
   {
+    "title": "美国政府要求 OpenAI 分阶段发布 GPT-5.6",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/467764",
+    "abstract": "The Information 援引知情人士消息称，与以往版本发布节奏有所不同，特朗普政府要求 OpenAI 分阶段发布即将推出的最新款 GPT-5.6 模型。 具体而言，GPT-5.6 将首先面向一小部分经过筛选、被认为更加可靠的合作伙伴开放，在经历一段时间的测试与风险评估后，再逐步扩大至更广泛的用户群体。 报道称，OpenAI 的新模型不仅正......",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "09",
+    "trend": "down"
+  },
+  {
     "title": "Groq on Hugging Face Inference Providers 🔥",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/inference-providers-groq",
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
+    "trend": "down"
+  },
+  {
+    "title": "Mistral AI 发布 OCR4 模型：支持 170 种语言",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/467954",
+    "abstract": "Mistral AI 近日宣布其自主研发的全新文档识别模型 OCR4 已正式亮相。该模型在处理多语言文档方面表现出色，能够支持跨越10个语族的170种语言。 根据公开评估数据，Mistral OCR4在 OmniDocBench 测试中取得了93.07分的成绩，在用户体验测评中表现优于 GPT5.5Pro 和 Gemini3.1Pro Preview 等业界...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "11",
+    "trend": "down"
+  },
+  {
+    "title": "当代码越来越便宜，什么在变贵？",
+    "source": "OSChina",
+    "link": "https://my.oschina.net/u/4939618/blog/19710937",
+    "abstract": "用 AI 做产品，最大的坑可能不是 \"做不出来\"，而是 \"什么都想做\"。本文记录了百度前端研发工程师与 AI 组队开发 Design.md Token Exporter 的全过程 ——ChatGPT 陪他脑暴、Codex 当主力写代码、Gemini 做体验顾问，但 AI 的热情差点让产品变得臃肿不堪。当技术门槛被击碎后，什么该做、什么不该做，成了每个产品人必...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "12",
     "trend": "down"
   },
   {
@@ -96,8 +126,8 @@
     "abstract": "2026年6月24日，Google DeepMind团队宣布将计算机使用（computer use）能力原生集成到Gemini 3.5 Flash模型中。这意味着开发者现在可以通过单一模型构建能够在浏览器、移动设备和桌面环境中\"看见屏幕内容、理解界面逻辑并自主执行操作\"的AI Agent——而不再需要为此单独部署一个专门的计算机使用模型。这项能力通过Gemi...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -106,8 +136,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "14",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -115,36 +145,6 @@
     "link": "https://huggingface.co/blog/sdxl_jax",
     "abstract": "",
     "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
-  },
-  {
-    "title": "Hugging Face on PyTorch / XLA TPUs",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/pytorch-xla",
-    "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
-  },
-  {
-    "title": "聚焦GW级Token工厂，解码下一代算力底座｜6月30日，深圳",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/06/438297.html",
-    "abstract": "谁将定义下一代算力基础设施？谁又能在Token时代占据产业制高点？...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
-  },
-  {
-    "title": "MGLRU Improvement Yielding Nice Gains On Linux 7.2: MongoDB 30~100% Higher Throughput",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Linux-7.2-MM",
-    "abstract": "The many memory management \"MM\" related improvements were recently merged to Git for the Linux 7.2 kernel. As typical most kernel cycles, some of the low-level improvements can yie...",
-    "pscore": 69,
     "category": "CHIP_FRONT",
     "rank": "15",
     "trend": "down"
