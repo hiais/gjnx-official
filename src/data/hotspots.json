@@ -7,7 +7,7 @@
     "pscore": 97,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "AMD Contributes ONNX Runtime Backend To FFmpeg DNN Filter",
@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "RoboScience 发布 Visics 大模型，实现跨场景自主执行",
@@ -37,7 +37,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Linux 7.2 Showing Some Unexpected & Nice Performance Gains On AMD EPYC Sorano",
@@ -47,7 +47,7 @@
     "pscore": 89,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "文心一言发布服务升级公告，数据迁移即将开启",
@@ -57,7 +57,7 @@
     "pscore": 89,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -80,23 +80,13 @@
     "trend": "down"
   },
   {
-    "title": "All-Embracing Multiphysics Analysis for Chiplet-Based Systems",
-    "source": "SemiWiki",
-    "link": "https://semiwiki.com/5g/370474-all-embracing-multiphysics-analysis-for-chiplet-based-systems/",
-    "abstract": "What systems can accomplish by combining semiconductors, AI, and software seems at times boundless. Chiplet-based semiconductors deliver this promise, allowing a myriad of complex ...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
-  },
-  {
     "title": "Groq on Hugging Face Inference Providers 🔥",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/inference-providers-groq",
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -106,7 +96,7 @@
     "abstract": "2026年6月24日，Google DeepMind团队宣布将计算机使用（computer use）能力原生集成到Gemini 3.5 Flash模型中。这意味着开发者现在可以通过单一模型构建能够在浏览器、移动设备和桌面环境中\"看见屏幕内容、理解界面逻辑并自主执行操作\"的AI Agent——而不再需要为此单独部署一个专门的计算机使用模型。这项能力通过Gemi...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -116,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -126,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -136,8 +126,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
+    "rank": "13",
+    "trend": "down"
   },
   {
     "title": "聚焦GW级Token工厂，解码下一代算力底座｜6月30日，深圳",
@@ -145,6 +135,16 @@
     "link": "https://www.qbitai.com/2026/06/438297.html",
     "abstract": "谁将定义下一代算力基础设施？谁又能在Token时代占据产业制高点？...",
     "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "down"
+  },
+  {
+    "title": "MGLRU Improvement Yielding Nice Gains On Linux 7.2: MongoDB 30~100% Higher Throughput",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Linux-7.2-MM",
+    "abstract": "The many memory management \"MM\" related improvements were recently merged to Git for the Linux 7.2 kernel. As typical most kernel cycles, some of the low-level improvements can yie...",
+    "pscore": 69,
     "category": "CHIP_FRONT",
     "rank": "15",
     "trend": "down"
