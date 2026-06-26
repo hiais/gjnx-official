@@ -1,12 +1,22 @@
 [
   {
+    "title": "Intel 18A vs Intel 18A-P: What Is the Difference and Why Does It Matter?",
+    "source": "SemiWiki",
+    "link": "https://semiwiki.com/semiconductor-manufacturers/intel/370512-intel-18a-vs-intel-18a-p-what-is-the-difference-and-why-does-it-matter/",
+    "abstract": "Intel’s 18A process technology has become one of the most scrutinized semiconductor manufacturing nodes in the industry. It represents Intel’s introduction of two major innovations...",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "down"
+  },
+  {
     "title": "OpenAI 发布首款‌定制 AI 芯片 Jalapeño：联合 Broadcom 打造，专为推理优化",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/467076/openai-and-broadcom-announce-strategic-collaboration",
     "abstract": "2026年6月24日，OpenAI 首次向外界展示了其自研的首款定制 AI 推理芯片，代号 Jalapeño。这颗芯片由 OpenAI 与 Broadcom 联合设计与制造，专为 OpenAI 推理系统的工作负载而优化。OpenAI 表示，公司自家的 AI 模型也参与了芯片设计过程。虽然芯片仍在测试阶段，但早期结果显示其每瓦性能显著优于当前市场上最先进的替代...",
     "pscore": 97,
     "category": "CHIP_FRONT",
-    "rank": "01",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -16,8 +26,8 @@
     "abstract": "An AMD engineer has contributed to the upstream FFmpeg library an ONNX Runtime back-end for its DNN filter. The FFmpeg Deep Neural Network (DNN) filters allow for running AI models...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
+    "rank": "03",
+    "trend": "down"
   },
   {
     "title": "RoboScience 发布 Visics 大模型，实现跨场景自主执行",
@@ -26,7 +36,7 @@
     "abstract": "RoboScience 机器科学正式发布了通用具身大模型 Visics，并披露了其核心技术架构 VLOA（Vision-Language-Object-Action）。这一进展意味着机器人不再局限于针对单一任务的重复训练，而是具备了跨本体、跨物体、跨任务的通用操作能力。 过去，具身智能行业普遍采取“动作复刻”模式，即让机器人死记硬背特定的关节运动轨迹......",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -36,7 +46,7 @@
     "abstract": "埃隆·马斯克（Elon Musk）在 X 平台正式确认，SpaceX 规划中的轨道 AI 数据中心项目定名为“Starmind”。计划最高发射 100 万颗搭载 AI 算力单元的计算卫星入轨，依托部署在近地轨道的庞大卫星集群，直接为地面提供完全脱离传统机房限制的新型 AI 算力。 SpaceX在 6 月 8 日已率先公布该项目的首代硬件产品AI1。单颗卫星....",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -46,8 +56,8 @@
     "abstract": "While the Linux 7.2 merge window doesn't wrap up until this weekend as the feature cut-off for new material, I have already begun some early benchmarks of the code currently staged...",
     "pscore": 89,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "文心一言发布服务升级公告，数据迁移即将开启",
@@ -56,8 +66,8 @@
     "abstract": "文心一言正式发布服务升级公告，宣告其平台架构与服务入口的深度整合。 根据公告，自2026年6月25日零时起，文心一言官网的提问入口已正式开启升级。未来用户若想继续使用智能对话、创意写作、高效办公辅助以及专业信息查询等 AI 功能，并将体验最新的文心大模型强大算力，需统一迁移至百度文心网站进行操作。 为了确保用......",
     "pscore": 89,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -66,8 +76,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -76,8 +86,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "美国政府要求 OpenAI 分阶段发布 GPT-5.6",
@@ -86,8 +96,8 @@
     "abstract": "The Information 援引知情人士消息称，与以往版本发布节奏有所不同，特朗普政府要求 OpenAI 分阶段发布即将推出的最新款 GPT-5.6 模型。 具体而言，GPT-5.6 将首先面向一小部分经过筛选、被认为更加可靠的合作伙伴开放，在经历一段时间的测试与风险评估后，再逐步扩大至更广泛的用户群体。 报道称，OpenAI 的新模型不仅正......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -96,8 +106,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   },
   {
     "title": "Mistral AI 发布 OCR4 模型：支持 170 种语言",
@@ -106,7 +116,7 @@
     "abstract": "Mistral AI 近日宣布其自主研发的全新文档识别模型 OCR4 已正式亮相。该模型在处理多语言文档方面表现出色，能够支持跨越10个语族的170种语言。 根据公开评估数据，Mistral OCR4在 OmniDocBench 测试中取得了93.07分的成绩，在用户体验测评中表现优于 GPT5.5Pro 和 Gemini3.1Pro Preview 等业界...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "down"
   },
   {
@@ -116,7 +126,7 @@
     "abstract": "用 AI 做产品，最大的坑可能不是 \"做不出来\"，而是 \"什么都想做\"。本文记录了百度前端研发工程师与 AI 组队开发 Design.md Token Exporter 的全过程 ——ChatGPT 陪他脑暴、Codex 当主力写代码、Gemini 做体验顾问，但 AI 的热情差点让产品变得臃肿不堪。当技术门槛被击碎后，什么该做、什么不该做，成了每个产品人必...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "down"
   },
   {
@@ -126,7 +136,7 @@
     "abstract": "2026年6月24日，Google DeepMind团队宣布将计算机使用（computer use）能力原生集成到Gemini 3.5 Flash模型中。这意味着开发者现在可以通过单一模型构建能够在浏览器、移动设备和桌面环境中\"看见屏幕内容、理解界面逻辑并自主执行操作\"的AI Agent——而不再需要为此单独部署一个专门的计算机使用模型。这项能力通过Gemi...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "14",
     "trend": "up"
   },
   {
@@ -136,17 +146,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
-  },
-  {
-    "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/sdxl_jax",
-    "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "down"
+    "trend": "up"
   }
 ]
