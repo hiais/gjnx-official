@@ -17,7 +17,7 @@
     "pscore": 97,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "AMD Contributes ONNX Runtime Backend To FFmpeg DNN Filter",
@@ -27,7 +27,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "RoboScience 发布 Visics 大模型，实现跨场景自主执行",
@@ -37,7 +37,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "文心一言发布服务升级公告，数据迁移即将开启",
@@ -57,7 +57,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -87,7 +87,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Mistral AI 发布 OCR4 模型：支持 170 种语言",
@@ -107,7 +107,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "谷歌将 Computer Use 能力原生集成到 Gemini 3.5 Flash",
@@ -117,7 +117,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
