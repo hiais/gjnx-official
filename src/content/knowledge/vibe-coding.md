@@ -1,6 +1,6 @@
 ---
 title: vibe-coding (凭感觉编码)
-date: 2026-06-27T16:46:05.627Z
+date: 2026-06-28T01:53:00.769Z
 category: Auto-Mined
 tags:
   - Auto-Gen

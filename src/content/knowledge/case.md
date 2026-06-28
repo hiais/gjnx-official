@@ -1,6 +1,6 @@
 ---
 title: Case (长尾场景)
-date: 2026-06-27T16:46:06.658Z
+date: 2026-06-28T01:53:01.720Z
 category: Auto-Mined
 tags:
   - Auto-Gen

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-28 00:46:08",
+  "timestamp": "2026-06-28 09:53:03",
   "health": {
     "score": 30,
     "status": "critical",
@@ -122,7 +122,7 @@
   },
   "alerts": [
     {
-      "time": "00:46",
+      "time": "09:53",
       "level": "🔴 P0",
       "rule_id": "SYS-001",
       "reason": "核心服务离线 (心跳停止于 Never)",
@@ -335,7 +335,7 @@
     }
   },
   "system": {
-    "last_update": "2026-06-28 00:46:08",
+    "last_update": "2026-06-28 09:53:03",
     "timezone": "China Standard Time"
   },
   "metadata": {
