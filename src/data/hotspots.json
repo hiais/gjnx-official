@@ -1,23 +1,13 @@
 [
   {
-    "title": "Intel 18A vs Intel 18A-P: What Is the Difference and Why Does It Matter?",
-    "source": "SemiWiki",
-    "link": "https://semiwiki.com/semiconductor-manufacturers/intel/370512-intel-18a-vs-intel-18a-p-what-is-the-difference-and-why-does-it-matter/",
-    "abstract": "Intel’s 18A process technology has become one of the most scrutinized semiconductor manufacturing nodes in the industry. It represents Intel’s introduction of two major innovations...",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "up"
-  },
-  {
     "title": "国家队+千亿产业+头部财投集体入局，智平方200亿估值筑就大湾区具身智能名片",
     "source": "QbitAI",
     "link": "https://www.qbitai.com/2026/06/439861.html",
     "abstract": "大湾区首个200亿具身智能独角兽诞生！“最像特斯拉”智平方吸金50亿，全矩阵顶级资本重仓...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
+    "rank": "01",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -26,7 +16,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -36,18 +26,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "down"
-  },
-  {
-    "title": "美国政府要求 OpenAI 分阶段发布 GPT-5.6",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/467764",
-    "abstract": "The Information 援引知情人士消息称，与以往版本发布节奏有所不同，特朗普政府要求 OpenAI 分阶段发布即将推出的最新款 GPT-5.6 模型。 具体而言，GPT-5.6 将首先面向一小部分经过筛选、被认为更加可靠的合作伙伴开放，在经历一段时间的测试与风险评估后，再逐步扩大至更广泛的用户群体。 报道称，OpenAI 的新模型不仅正......",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -56,8 +36,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Mistral AI 发布 OCR4 模型：支持 170 种语言",
@@ -66,17 +46,7 @@
     "abstract": "Mistral AI 近日宣布其自主研发的全新文档识别模型 OCR4 已正式亮相。该模型在处理多语言文档方面表现出色，能够支持跨越10个语族的170种语言。 根据公开评估数据，Mistral OCR4在 OmniDocBench 测试中取得了93.07分的成绩，在用户体验测评中表现优于 GPT5.5Pro 和 Gemini3.1Pro Preview 等业界...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
-  },
-  {
-    "title": "当代码越来越便宜，什么在变贵？",
-    "source": "OSChina",
-    "link": "https://my.oschina.net/u/4939618/blog/19710937",
-    "abstract": "用 AI 做产品，最大的坑可能不是 \"做不出来\"，而是 \"什么都想做\"。本文记录了百度前端研发工程师与 AI 组队开发 Design.md Token Exporter 的全过程 ——ChatGPT 陪他脑暴、Codex 当主力写代码、Gemini 做体验顾问，但 AI 的热情差点让产品变得臃肿不堪。当技术门槛被击碎后，什么该做、什么不该做，成了每个产品人必...",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -86,7 +56,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -96,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -106,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -116,8 +86,8 @@
     "abstract": "把天基计算推进到可验证、可迭代的工程路线...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "How NVIDIA GB10 CPU Performance Compares To Vera",
@@ -126,7 +96,7 @@
     "abstract": "Since delivering NVIDIA Vera CPU benchmarks one month ago and follow-ups like how the ARM Linux server performance has evolved in 8 years or how Vera compares to Ampere Altra that ...",
     "pscore": 66,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -136,7 +106,7 @@
     "abstract": "在IT基础设施复杂度持续提升的今天，资产巡检正卡在安全合规与效率经验的双重夹缝中。一方面是安全与合规的铁律，生产环境的操作必须严格受到堡垒机的审计与拦截，拒绝任何高危越权操作；另一方面则是效率与经验的断层，控制台返回的原生日志和性能指标（例如Top负载、dmesg内核报错、MD5基线篡改）枯燥且零散，初级运维......",
     "pscore": 66,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   }
 ]
