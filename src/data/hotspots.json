@@ -1,13 +1,13 @@
 [
   {
-    "title": "国家队+千亿产业+头部财投集体入局，智平方200亿估值筑就大湾区具身智能名片",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/06/439861.html",
-    "abstract": "大湾区首个200亿具身智能独角兽诞生！“最像特斯拉”智平方吸金50亿，全矩阵顶级资本重仓...",
-    "pscore": 85,
+    "title": "谷歌限制 Meta 访问 Gemini AI 模型",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/470245",
+    "abstract": "由于全球云计算能力持续短缺，谷歌正式限制了Meta对其顶级AI模型Gemini的访问权限。作为Meta自动化安全工作流程的核心，Gemini此前被广泛应用于诈骗检测和有害内容过滤等大规模审核任务，其效率曾一度优于Meta自身的开源Llama系统。 然而，随着AI推理工作负载的激增，谷歌即使在第一季度创下200亿美元的云业务营收，其物......",
+    "pscore": 89,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -67,7 +67,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -80,13 +80,23 @@
     "trend": "up"
   },
   {
+    "title": "Qwen 3.6 27B 实测：本地模型第一次有了 GPT-5 水平的智力",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/470261/qwen-36-is-awesome",
+    "abstract": "Piotr Migdał 在 MacBook Max M5 128GB 上跑了一整天 Qwen 3.6 27B，结论是：这是他第一次觉得本地模型能当通用智能用，不需要将就。他把体验写成了一篇博客，标题直白——Qwen 3.6 27B is awesome。 先说配置。他用的是 unsloth 的 8-bit GGUF 量化版，llama.cpp 跑服务，开了...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "09",
+    "trend": "up"
+  },
+  {
     "title": "How NVIDIA GB10 CPU Performance Compares To Vera",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/review/nvidia-vera-gb10",
     "abstract": "Since delivering NVIDIA Vera CPU benchmarks one month ago and follow-ups like how the ARM Linux server performance has evolved in 8 years or how Vera compares to Ampere Altra that ...",
     "pscore": 66,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -96,7 +106,7 @@
     "abstract": "在IT基础设施复杂度持续提升的今天，资产巡检正卡在安全合规与效率经验的双重夹缝中。一方面是安全与合规的铁律，生产环境的操作必须严格受到堡垒机的审计与拦截，拒绝任何高危越权操作；另一方面则是效率与经验的断层，控制台返回的原生日志和性能指标（例如Top负载、dmesg内核报错、MD5基线篡改）枯燥且零散，初级运维......",
     "pscore": 66,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
     "trend": "up"
   }
 ]
