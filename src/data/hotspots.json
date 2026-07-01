@@ -7,7 +7,7 @@
     "pscore": 89,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "美团开源 LongCat-2.0",
@@ -47,7 +47,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -87,14 +87,14 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
   },
   {
-    "title": "“JumpServer+MaxKB”联合AI智能运维审计方案",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/469350",
-    "abstract": "在IT基础设施复杂度持续提升的今天，资产巡检正卡在安全合规与效率经验的双重夹缝中。一方面是安全与合规的铁律，生产环境的操作必须严格受到堡垒机的审计与拦截，拒绝任何高危越权操作；另一方面则是效率与经验的断层，控制台返回的原生日志和性能指标（例如Top负载、dmesg内核报错、MD5基线篡改）枯燥且零散，初级运维......",
-    "pscore": 66,
+    "title": "视频版Nano Banana来了！内置Gemini世界知识；原版香蕉出图仅需4秒",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/07/440985.html",
+    "abstract": "Gemni 3.5 Pro到底啥时候来啊！！！...",
+    "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "10",
     "trend": "up"
