@@ -10,13 +10,23 @@
     "trend": "down"
   },
   {
+    "title": "具身智能Skill时刻！英伟达开源机器人技能库，Jim Fan：范式变了",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/07/441396.html",
+    "abstract": "全新的持续学习范式...",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "down"
+  },
+  {
     "title": "Google Cloud TPUs made available to Hugging Face users",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -26,7 +36,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -36,7 +46,7 @@
     "abstract": "美团宣布正式发布并开源 LongCat-2.0，一个总参数量达 1.6 万亿、每个 token 激活约 480 亿参数的 MoE 语言模型。LongCat-2.0 相比此前的 LongCat 系列引入了多项架构改进，实现了模型能力的显著跃升。 根据介绍，LongCat-2.0 的完整训练流程与大规模部署均全部使用国产算力集群。预训练在5万余国产算力芯片上耗时...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -46,8 +56,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -56,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -66,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -76,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "Qwen 3.6 27B 实测：本地模型第一次有了 GPT-5 水平的智力",
@@ -86,18 +96,8 @@
     "abstract": "Piotr Migdał 在 MacBook Max M5 128GB 上跑了一整天 Qwen 3.6 27B，结论是：这是他第一次觉得本地模型能当通用智能用，不需要将就。他把体验写成了一篇博客，标题直白——Qwen 3.6 27B is awesome。 先说配置。他用的是 unsloth 的 8-bit GGUF 量化版，llama.cpp 跑服务，开了...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
-  },
-  {
-    "title": "视频版Nano Banana来了！内置Gemini世界知识；原版香蕉出图仅需4秒",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/07/440985.html",
-    "abstract": "Gemni 3.5 Pro到底啥时候来啊！！！...",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "谷歌发布 Nano Banana 2 Lite：最快的 Gemini 图像模型，便宜到能批量跑",
