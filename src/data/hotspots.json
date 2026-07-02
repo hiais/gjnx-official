@@ -1,13 +1,13 @@
 [
   {
-    "title": "谷歌限制 Meta 访问 Gemini AI 模型",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/470245",
-    "abstract": "由于全球云计算能力持续短缺，谷歌正式限制了Meta对其顶级AI模型Gemini的访问权限。作为Meta自动化安全工作流程的核心，Gemini此前被广泛应用于诈骗检测和有害内容过滤等大规模审核任务，其效率曾一度优于Meta自身的开源Llama系统。 然而，随着AI推理工作负载的激增，谷歌即使在第一季度创下200亿美元的云业务营收，其物......",
-    "pscore": 89,
+    "title": "训练世界模型，开始从人类的肌肉和脑子里偷师了",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/07/441725.html",
+    "abstract": "具身智能数采迎来了新范式...",
+    "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "具身智能Skill时刻！英伟达开源机器人技能库，Jim Fan：范式变了",
@@ -17,6 +17,16 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "02",
+    "trend": "down"
+  },
+  {
+    "title": "报告：中国具身智能市场规模年均复合增长率 22% 至 23%",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/471428",
+    "abstract": "《中国具身智能产业发展报告(2026)》2日在上海发布。该报告称，中国已成为全球增长最快的具身智能市场之一，据多家研究机构测算，中国具身智能市场规模从2018年的约2133亿元人民币到2026年预计的1.09万亿元，年均复合增长率为22%至23%。 当日，在2026上海国际具身智能产业博览会(CIEI2026)开幕式上，中国机电一体化技术应......",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -26,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -36,17 +46,17 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
-    "title": "美团开源 LongCat-2.0",
+    "title": "魔珐星云亮相 OSC 源创会上海站，共探 AI 创新产品新可能",
     "source": "OSChina",
-    "link": "https://www.oschina.net/news/470047",
-    "abstract": "美团宣布正式发布并开源 LongCat-2.0，一个总参数量达 1.6 万亿、每个 token 激活约 480 亿参数的 MoE 语言模型。LongCat-2.0 相比此前的 LongCat 系列引入了多项架构改进，实现了模型能力的显著跃升。 根据介绍，LongCat-2.0 的完整训练流程与大规模部署均全部使用国产算力集群。预训练在5万余国产算力芯片上耗时...",
+    "link": "https://www.oschina.net/news/471393",
+    "abstract": "大模型补齐了 AI 思考能力，但多数智能仍局限于对话框，难以落地各类终端实现自然拟人交互。AI 终端时代已至，屏幕、人形机器人、AR/VR 都需轻量化、可开源二次开发的具身交互底座。 6 月 27 日，开源中国 OSCHINA AI 创新沙龙在上海虹桥阿里中心举办。魔珐星云以具身交互智能平台核心代表身份参会，面向开源开发者分享全......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -56,7 +66,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -66,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -76,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -84,16 +94,6 @@
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/pytorch-xla",
     "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
-  },
-  {
-    "title": "Qwen 3.6 27B 实测：本地模型第一次有了 GPT-5 水平的智力",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/470261/qwen-36-is-awesome",
-    "abstract": "Piotr Migdał 在 MacBook Max M5 128GB 上跑了一整天 Qwen 3.6 27B，结论是：这是他第一次觉得本地模型能当通用智能用，不需要将就。他把体验写成了一篇博客，标题直白——Qwen 3.6 27B is awesome。 先说配置。他用的是 unsloth 的 8-bit GGUF 量化版，llama.cpp 跑服务，开了...",
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
@@ -107,6 +107,6 @@
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "down"
+    "trend": "up"
   }
 ]
