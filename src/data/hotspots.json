@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "NVIDIA VR-NVL BMC Device Tree Being Upstreamed For OpenBMC Support",
@@ -17,6 +17,16 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "02",
+    "trend": "up"
+  },
+  {
+    "title": "GLM5.2 on AMD MI355X at 2626 tok/s/node at over 2x lower cost than Blackwell",
+    "source": "HackerNews",
+    "link": "https://www.wafer.ai/blog/glm52-amd",
+    "abstract": "Comments...",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -26,8 +36,8 @@
     "abstract": "《中国具身智能产业发展报告(2026)》2日在上海发布。该报告称，中国已成为全球增长最快的具身智能市场之一，据多家研究机构测算，中国具身智能市场规模从2018年的约2133亿元人民币到2026年预计的1.09万亿元，年均复合增长率为22%至23%。 当日，在2026上海国际具身智能产业博览会(CIEI2026)开幕式上，中国机电一体化技术应......",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -36,8 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -46,8 +56,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "黄仁勋说的Physical AI，被这家中国跨界选手带进了生命科学实验室",
@@ -56,8 +66,8 @@
     "abstract": "第三方测评超越OpenAI最强旗舰GPT-5.6 Sol...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "基石筑底｜WAIC 2026算力：超节点与光互连，能否绕过单芯片的物理天花板？",
@@ -66,7 +76,7 @@
     "abstract": "7月17-7月20...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -76,7 +86,7 @@
     "abstract": "大模型补齐了 AI 思考能力，但多数智能仍局限于对话框，难以落地各类终端实现自然拟人交互。AI 终端时代已至，屏幕、人形机器人、AR/VR 都需轻量化、可开源二次开发的具身交互底座。 6 月 27 日，开源中国 OSCHINA AI 创新沙龙在上海虹桥阿里中心举办。魔珐星云以具身交互智能平台核心代表身份参会，面向开源开发者分享全......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -86,7 +96,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -96,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -106,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -116,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "up"
   },
   {
@@ -126,7 +136,7 @@
     "abstract": "超越人类超导体发现100年效率...",
     "pscore": 69,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "14",
+    "trend": "up"
   }
 ]
