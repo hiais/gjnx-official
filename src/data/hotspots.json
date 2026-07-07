@@ -1,22 +1,12 @@
 [
   {
-    "title": "NVIDIA VR-NVL BMC Device Tree Being Upstreamed For OpenBMC Support",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/NVIDIA-VR-NVL-BMC-DT",
-    "abstract": "NVIDIA's latest Linux kernel mailing list patches are for providing the Device Tree for the baseboard management controller (BMC) of their Vera Rubin VR-NVL server platform. With t...",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "down"
-  },
-  {
     "title": "Anthropic 每招一个人，就要为算力多支付 200 万美元",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/471517/ai-spend-breakeven-2029",
     "abstract": "硅谷知名投资人 Tomasz Tunguz 在 Theory Ventures 的博客上发了一组数据，干净利落地解释了一个让很多人困惑的问题：AI 行业的钱到底花到哪里去了。 先说最扎眼的数字。Anthropic 有大约 5000 名员工，2026 年在模型推理和训练上的支出约 100 亿美元。平均下来，每个员工头上顶着 200 万美元的年均算力账单。而 A...",
     "pscore": 89,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "01",
     "trend": "down"
   },
   {
@@ -26,7 +16,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -36,8 +26,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
+    "rank": "03",
+    "trend": "down"
   },
   {
     "title": "在联合国，这家中国公司给AI“减负”：不堆算力，而是给机器人装了个“类脑”",
@@ -46,7 +36,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -56,7 +46,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -66,8 +56,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -76,8 +66,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -86,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "腾讯混元 Hy3 开源发布",
@@ -96,8 +86,8 @@
     "abstract": "继 4 月底发布 Hy3 preview 后，腾讯混元 Hy3 现已开源发布，基于 preview 版本进一步提升了后训练数据的质量和多样性，扩大了 RL 算力规模。 公告称，Hy3 在推理、智能体、长上下文等任务上显著进步，取得了比肩国内外更大尺寸旗舰模型（参数规模往往是 Hy3 的 2～5 倍）的效果。Hy3 在软件开发、办公生产、金融建模、前......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "真·QQ飞车！「电动版F1」上海开赛，Gemini在线解说",
@@ -106,7 +96,7 @@
     "abstract": "现实版《飞驰人生 3》...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "up"
   }
 ]
