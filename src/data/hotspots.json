@@ -1,13 +1,33 @@
 [
   {
+    "title": "SpaceXAI 与 Cursor 合体后的首款 AI 模型将于今日亮相",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/471558/spacexai-cursor-jointly-developed-ai-model-launch-nears",
+    "abstract": "The Information 独家爆料：SpaceXAI 与 Cursor 联合开发的首款 AI 模型最快将于今日（7 月 8 日）上线。这款模型在 xAI 的 Colossus 数据中心从零开始训练，据称已在多项基准上对表 Anthropic Opus 4.8 和 OpenAI GPT-5.5。 这是 SpaceX 以 600 亿美元全股票交易收购 Cu...",
+    "pscore": 92,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "down"
+  },
+  {
+    "title": "DeepSeek 正在自研面向推理场景的 AI 芯片",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/471557",
+    "abstract": "根据路透社的独家报道，三位知情人士透露，DeepSeek 正在开发自己的 AI 芯片。这是一款推理芯片，而非训练芯片。用途明确——在模型完成训练后，用于高效运行模型并生成用户响应。 DeepSeek 当前的算力基础设施建立在 Nvidia H800 和华为昇腾芯片之上。美国出口管制让中国公司无法买到 Nvidia 最新最强的 GPU，而华为昇腾......",
+    "pscore": 92,
+    "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "down"
+  },
+  {
     "title": "Anthropic 每招一个人，就要为算力多支付 200 万美元",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/471517/ai-spend-breakeven-2029",
     "abstract": "硅谷知名投资人 Tomasz Tunguz 在 Theory Ventures 的博客上发了一组数据，干净利落地解释了一个让很多人困惑的问题：AI 行业的钱到底花到哪里去了。 先说最扎眼的数字。Anthropic 有大约 5000 名员工，2026 年在模型推理和训练上的支出约 100 亿美元。平均下来，每个员工头上顶着 200 万美元的年均算力账单。而 A...",
     "pscore": 89,
     "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "down"
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "从共识到非共识：科技有「联想」沙龙首场活动直击具身智能产业化“三大困惑”",
@@ -16,8 +36,8 @@
     "abstract": "“共识与非共识”的深度思辨...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -26,7 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -36,7 +56,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -46,8 +66,18 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
+  },
+  {
+    "title": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday",
+    "source": "HackerNews",
+    "link": "https://twitter.com/OpenAI/status/2074704958419792299",
+    "abstract": "Comments...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -56,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -66,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -76,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -86,7 +116,7 @@
     "abstract": "继 4 月底发布 Hy3 preview 后，腾讯混元 Hy3 现已开源发布，基于 preview 版本进一步提升了后训练数据的质量和多样性，扩大了 RL 算力规模。 公告称，Hy3 在推理、智能体、长上下文等任务上显著进步，取得了比肩国内外更大尺寸旗舰模型（参数规模往往是 Hy3 的 2～5 倍）的效果。Hy3 在软件开发、办公生产、金融建模、前......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "12",
     "trend": "up"
   }
 ]
