@@ -7,7 +7,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "DeepSeek 正在自研面向推理场景的 AI 芯片",
@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Anthropic 每招一个人，就要为算力多支付 200 万美元",
@@ -30,13 +30,23 @@
     "trend": "up"
   },
   {
-    "title": "从共识到非共识：科技有「联想」沙龙首场活动直击具身智能产业化“三大困惑”",
+    "title": "具身智能“高考”难疯了！人类100分，最强模型12.8",
     "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/07/445443.html",
-    "abstract": "“共识与非共识”的深度思辨...",
+    "link": "https://www.qbitai.com/2026/07/446363.html",
+    "abstract": "具身测评界的珠峰来了：RoboDojo...",
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "04",
+    "trend": "down"
+  },
+  {
+    "title": "蚂蚁推出 LingBot-Depth 2.0，并开源 LingBot-Vision",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/471571",
+    "abstract": "在 2026 年 1 月开源 LingBot-Depth 1.0 后，蚂蚁集团旗下具身智能公司灵波科技宣布推出全新一代空间感知模型 LingBot-Depth 2.0，以及同步开源视觉基座模型 LingBot-Vision。 根据介绍，LingBot-Depth 是一种面向真实场景的深度补全模型，相当于机器人在物理世界的眼睛。LingBot-Depth 2....",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -46,8 +56,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -56,8 +66,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -66,18 +76,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
-  },
-  {
-    "title": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday",
-    "source": "HackerNews",
-    "link": "https://twitter.com/OpenAI/status/2074704958419792299",
-    "abstract": "Comments...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -97,7 +97,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
