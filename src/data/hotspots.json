@@ -1,12 +1,22 @@
 [
   {
+    "title": "Grok 4.5 发布：SpaceXAI 迄今最强模型，token 效率是竞品 4 倍",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/471588/grok-4-5",
+    "abstract": "SpaceXAI 今天正式发布了 Grok 4.5。没有铺垫，直接甩数据——在 DeepSWE、SWE Bench Pro、Terminal Bench 等主流基准上全面对标 GPT-5.5 和 Opus 4.8。 这次最狠的牌不是跑分，是 token 效率。SWE Bench Pro 任务中，Grok 4.5 平均只用 15,954 个 token 完成任...",
+    "pscore": 94,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "up"
+  },
+  {
     "title": "SpaceXAI 与 Cursor 合体后的首款 AI 模型将于今日亮相",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/471558/spacexai-cursor-jointly-developed-ai-model-launch-nears",
     "abstract": "The Information 独家爆料：SpaceXAI 与 Cursor 联合开发的首款 AI 模型最快将于今日（7 月 8 日）上线。这款模型在 xAI 的 Colossus 数据中心从零开始训练，据称已在多项基准上对表 Anthropic Opus 4.8 和 OpenAI GPT-5.5。 这是 SpaceX 以 600 亿美元全股票交易收购 Cu...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "01",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -15,16 +25,6 @@
     "link": "https://www.oschina.net/news/471557",
     "abstract": "根据路透社的独家报道，三位知情人士透露，DeepSeek 正在开发自己的 AI 芯片。这是一款推理芯片，而非训练芯片。用途明确——在模型完成训练后，用于高效运行模型并生成用户响应。 DeepSeek 当前的算力基础设施建立在 Nvidia H800 和华为昇腾芯片之上。美国出口管制让中国公司无法买到 Nvidia 最新最强的 GPU，而华为昇腾......",
     "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
-  },
-  {
-    "title": "具身智能“高考”难疯了！人类100分，最强模型12.8",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/07/446363.html",
-    "abstract": "具身测评界的珠峰来了：RoboDojo...",
-    "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "03",
     "trend": "up"
@@ -37,7 +37,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -67,16 +67,6 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
-  },
-  {
-    "title": "We made Grok 4.5, GPT-5.5, and Claude build the same apps",
-    "source": "HackerNews",
-    "link": "https://www.tryai.dev/blog/grok-4.5-vs-gpt-5.5-vs-claude-build-off",
-    "abstract": "Comments...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "08",
     "trend": "up"
   },
   {
@@ -86,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -96,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -105,6 +95,16 @@
     "link": "https://huggingface.co/blog/pytorch-xla",
     "abstract": "",
     "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "10",
+    "trend": "down"
+  },
+  {
+    "title": "英特尔归档 Quantum Intrinsics 等开源项目",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/471603",
+    "abstract": "尽管英特尔实验室仍在继续研发新型量子计算芯片，但其在量子处理器相关的开源软件工作却再次停滞。早在今年 2 月，英特尔就归档了为英特尔量子 SDK 提供额外编译器优化通道的 Quantum Passes 项目。 时至今日，他们又归档了 Quantum Intrinsics 开源项目。Intel Quantum Intrinsics 是基于 LLVM/Clang...",
+    "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "11",
     "trend": "up"
