@@ -7,36 +7,6 @@
     "pscore": 94,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
-  },
-  {
-    "title": "SpaceXAI 与 Cursor 合体后的首款 AI 模型将于今日亮相",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/471558/spacexai-cursor-jointly-developed-ai-model-launch-nears",
-    "abstract": "The Information 独家爆料：SpaceXAI 与 Cursor 联合开发的首款 AI 模型最快将于今日（7 月 8 日）上线。这款模型在 xAI 的 Colossus 数据中心从零开始训练，据称已在多项基准上对表 Anthropic Opus 4.8 和 OpenAI GPT-5.5。 这是 SpaceX 以 600 亿美元全股票交易收购 Cu...",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
-  },
-  {
-    "title": "DeepSeek 正在自研面向推理场景的 AI 芯片",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/471557",
-    "abstract": "根据路透社的独家报道，三位知情人士透露，DeepSeek 正在开发自己的 AI 芯片。这是一款推理芯片，而非训练芯片。用途明确——在模型完成训练后，用于高效运行模型并生成用户响应。 DeepSeek 当前的算力基础设施建立在 Nvidia H800 和华为昇腾芯片之上。美国出口管制让中国公司无法买到 Nvidia 最新最强的 GPU，而华为昇腾......",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
-  },
-  {
-    "title": "蚂蚁推出 LingBot-Depth 2.0，并开源 LingBot-Vision",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/471571",
-    "abstract": "在 2026 年 1 月开源 LingBot-Depth 1.0 后，蚂蚁集团旗下具身智能公司灵波科技宣布推出全新一代空间感知模型 LingBot-Depth 2.0，以及同步开源视觉基座模型 LingBot-Vision。 根据介绍，LingBot-Depth 是一种面向真实场景的深度补全模型，相当于机器人在物理世界的眼睛。LingBot-Depth 2....",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "04",
     "trend": "down"
   },
   {
@@ -46,7 +16,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -56,8 +26,28 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "03",
     "trend": "up"
+  },
+  {
+    "title": "Logback 1.5.38 发布，Java 日志框架",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/471628/logback-1-5-38-released",
+    "abstract": "Logback 旨在成为广受欢迎的 log4j 项目的继任者，承接 log4j 1.x 版本的发展脉络。Logback 的架构设计高度通用，可适应不同场景需求。目前该框架分为三个模块：logback-core、logback-classic 和 logback-access。 Logback 1.5.38 现已发布，具体更新内容包括： 在HardenedOb...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "04",
+    "trend": "down"
+  },
+  {
+    "title": "GPT-5.6 今日全量开放，AI 开发正在进入新阶段，与 Claude Fable 5、GLM-5.2 相比，它意味着什么",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/471626",
+    "abstract": "一个月内，OpenAI、Anthropic、智谱先后落子。热闹之外，真正值得工程师关心的是：当模型能连续跑几个小时不掉线，我们的开发方式会变成什么样？ 本文先讲清新闻与三家模型的差异，再谈范式迁移，最后落到两个可用的工程答案。 一、先看新闻：一个月内，三家前沿模型接连落子 GPT-5.6（OpenAI）：6 月 26 日以限量预览形......",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -66,7 +56,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -76,8 +66,8 @@
     "abstract": "Comments...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -86,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -96,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -106,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "英特尔归档 Quantum Intrinsics 等开源项目",
@@ -116,8 +106,8 @@
     "abstract": "尽管英特尔实验室仍在继续研发新型量子计算芯片，但其在量子处理器相关的开源软件工作却再次停滞。早在今年 2 月，英特尔就归档了为英特尔量子 SDK 提供额外编译器优化通道的 Quantum Passes 项目。 时至今日，他们又归档了 Quantum Intrinsics 开源项目。Intel Quantum Intrinsics 是基于 LLVM/Clang...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "Graviton5 CPU Benchmarks: 30% Geo Mean Improvement Over Graviton4",
@@ -126,7 +116,7 @@
     "abstract": "After originally announcing Graviton5 last December, recently AWS finally made the M9g and M9gd instances generally available as the first featuring these new in-house ARM server p...",
     "pscore": 66,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   }
 ]
