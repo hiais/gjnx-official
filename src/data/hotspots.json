@@ -17,7 +17,7 @@
     "pscore": 87,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "GPT-5.6 今日全量开放，AI 开发正在进入新阶段，与 Claude Fable 5、GLM-5.2 相比，它意味着什么",
@@ -97,7 +97,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Wine 11.13 Better Supports Input Pointers, Improved Keyboard Scancode Mapping For X11",
@@ -117,7 +117,27 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "12",
+    "trend": "down"
+  },
+  {
+    "title": "中国首个十万卡集群落成！全国产算力支撑“十万卡时代”",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/07/447891.html",
+    "abstract": "从FP64到INT8，全精度覆盖。...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "13",
     "trend": "up"
+  },
+  {
+    "title": "GPT-5.6一小时解开50年数学猜想，700词Prompt驾驭64个子Agent",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/07/447873.html",
+    "abstract": "神话级大模型驾驭宝典...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "down"
   },
   {
     "title": "GPT-5.6一发布，Claude终于舍得重置Fable 5额度了",
@@ -125,26 +145,6 @@
     "link": "https://www.qbitai.com/2026/07/447691.html",
     "abstract": "",
     "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
-  },
-  {
-    "title": "英特尔归档 Quantum Intrinsics 等开源项目",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/471603",
-    "abstract": "尽管英特尔实验室仍在继续研发新型量子计算芯片，但其在量子处理器相关的开源软件工作却再次停滞。早在今年 2 月，英特尔就归档了为英特尔量子 SDK 提供额外编译器优化通道的 Quantum Passes 项目。 时至今日，他们又归档了 Quantum Intrinsics 开源项目。Intel Quantum Intrinsics 是基于 LLVM/Clang...",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
-  },
-  {
-    "title": "Graviton5 CPU Benchmarks: 30% Geo Mean Improvement Over Graviton4",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/aws-graviton5",
-    "abstract": "After originally announcing Graviton5 last December, recently AWS finally made the M9g and M9gd instances generally available as the first featuring these new in-house ARM server p...",
-    "pscore": 66,
     "category": "CHIP_FRONT",
     "rank": "15",
     "trend": "up"
