@@ -17,7 +17,7 @@
     "pscore": 87,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Logback 1.5.38 发布，Java 日志框架",
@@ -67,7 +67,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -97,7 +97,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Wine 11.13 Better Supports Input Pointers, Improved Keyboard Scancode Mapping For X11",
@@ -122,28 +122,28 @@
   {
     "title": "中国首个十万卡集群落成！全国产算力支撑“十万卡时代”",
     "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/07/447891.html",
-    "abstract": "从FP64到INT8，全精度覆盖。...",
+    "link": "https://www.qbitai.com/2026/07/447902.html",
+    "abstract": "已跑通300余项应用...",
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "13",
     "trend": "up"
   },
   {
-    "title": "GPT-5.6一小时解开50年数学猜想，700词Prompt驾驭64个子Agent",
+    "title": "中国首个十万卡集群落成！全国产算力支撑“十万卡时代”",
     "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/07/447873.html",
-    "abstract": "神话级大模型驾驭宝典...",
+    "link": "https://www.qbitai.com/2026/07/447891.html",
+    "abstract": "从FP64到INT8，全精度覆盖。...",
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "14",
     "trend": "down"
   },
   {
-    "title": "GPT-5.6一发布，Claude终于舍得重置Fable 5额度了",
+    "title": "GPT-5.6一小时解开50年数学猜想，700词Prompt驾驭64个子Agent",
     "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/07/447691.html",
-    "abstract": "",
+    "link": "https://www.qbitai.com/2026/07/447873.html",
+    "abstract": "神话级大模型驾驭宝典...",
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "15",
