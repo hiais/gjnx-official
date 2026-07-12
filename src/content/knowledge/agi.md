@@ -1,6 +1,6 @@
 ---
 title: AGI (通用人工智能)
-date: 2026-06-30T16:23:59.479Z
+date: 2026-07-12T13:51:00.712Z
 category: Auto-Mined
 tags:
   - Auto-Gen
