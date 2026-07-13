@@ -1,13 +1,13 @@
 [
   {
-    "title": "Grok 4.5 发布：SpaceXAI 迄今最强模型，token 效率是竞品 4 倍",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/471588/grok-4-5",
-    "abstract": "SpaceXAI 今天正式发布了 Grok 4.5。没有铺垫，直接甩数据——在 DeepSWE、SWE Bench Pro、Terminal Bench 等主流基准上全面对标 GPT-5.5 和 Opus 4.8。 这次最狠的牌不是跑分，是 token 效率。SWE Bench Pro 任务中，Grok 4.5 平均只用 15,954 个 token 完成任...",
-    "pscore": 94,
+    "title": "CEO Interview with Dr. Albert Liu of Kneron",
+    "source": "SemiWiki",
+    "link": "https://semiwiki.com/ceo-interviews/369987-ceo-interview-with-dr-albert-liu-of-kneron/",
+    "abstract": "Dr. Albert Liu is the Founder and CEO of Kneron, a full-stack edge AI company pioneering next-generation Neural Processing Unit (NPU) architectures and localized AI infrastructure....",
+    "pscore": 89,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "TSMC A16 Backside Power at VLSI 2026",
@@ -17,6 +17,16 @@
     "pscore": 87,
     "category": "CHIP_FRONT",
     "rank": "02",
+    "trend": "up"
+  },
+  {
+    "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
+    "source": "HackerNews",
+    "link": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+    "abstract": "Comments...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -26,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -36,7 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -46,7 +56,7 @@
     "abstract": "Logback 旨在成为广受欢迎的 log4j 项目的继任者，承接 log4j 1.x 版本的发展脉络。Logback 的架构设计高度通用，可适应不同场景需求。目前该框架分为三个模块：logback-core、logback-classic 和 logback-access。 Logback 1.5.38 现已发布，具体更新内容包括： 在HardenedOb...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -56,8 +66,8 @@
     "abstract": "一个月内，OpenAI、Anthropic、智谱先后落子。热闹之外，真正值得工程师关心的是：当模型能连续跑几个小时不掉线，我们的开发方式会变成什么样？ 本文先讲清新闻与三家模型的差异，再谈范式迁移，最后落到两个可用的工程答案。 一、先看新闻：一个月内，三家前沿模型接连落子 GPT-5.6（OpenAI）：6 月 26 日以限量预览形......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -66,7 +76,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -76,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -86,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -96,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "Wine 11.13 Better Supports Input Pointers, Improved Keyboard Scancode Mapping For X11",
@@ -106,7 +116,7 @@
     "abstract": "Wine 11.13 is out today as the newest bi-weekly development release for this open-source software enabling support for running Windows games and applications on Linux......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "down"
   },
   {
@@ -116,7 +126,7 @@
     "abstract": "已跑通300余项应用...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "down"
   },
   {
@@ -126,7 +136,7 @@
     "abstract": "从FP64到INT8，全精度覆盖。...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "14",
     "trend": "down"
   },
   {
@@ -134,16 +144,6 @@
     "source": "QbitAI",
     "link": "https://www.qbitai.com/2026/07/447873.html",
     "abstract": "神话级大模型驾驭宝典...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
-  },
-  {
-    "title": "GPT-5.6一发布，Claude终于舍得重置Fable 5额度了",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/07/447691.html",
-    "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "15",
