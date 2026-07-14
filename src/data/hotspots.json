@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Logback 1.5.38 发布，Java 日志框架",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -77,7 +77,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -97,7 +97,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "GPT-5.6-sol入榜DRACO：OpenSquilla集成方案仍在Brave组质量、成本双领先",
@@ -117,16 +117,6 @@
     "pscore": 66,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "down"
-  },
-  {
-    "title": "Graviton5 CPU Benchmarks: 30% Geo Mean Improvement Over Graviton4",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/aws-graviton5",
-    "abstract": "After originally announcing Graviton5 last December, recently AWS finally made the M9g and M9gd instances generally available as the first featuring these new in-house ARM server p...",
-    "pscore": 66,
-    "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "trend": "up"
   }
 ]
