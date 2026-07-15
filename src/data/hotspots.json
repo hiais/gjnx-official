@@ -7,7 +7,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -30,34 +30,14 @@
     "trend": "up"
   },
   {
-    "title": "Logback 1.5.38 发布，Java 日志框架",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/471628/logback-1-5-38-released",
-    "abstract": "Logback 旨在成为广受欢迎的 log4j 项目的继任者，承接 log4j 1.x 版本的发展脉络。Logback 的架构设计高度通用，可适应不同场景需求。目前该框架分为三个模块：logback-core、logback-classic 和 logback-access。 Logback 1.5.38 现已发布，具体更新内容包括： 在HardenedOb...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
-  },
-  {
-    "title": "GPT-5.6 今日全量开放，AI 开发正在进入新阶段，与 Claude Fable 5、GLM-5.2 相比，它意味着什么",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/471626",
-    "abstract": "一个月内，OpenAI、Anthropic、智谱先后落子。热闹之外，真正值得工程师关心的是：当模型能连续跑几个小时不掉线，我们的开发方式会变成什么样？ 本文先讲清新闻与三家模型的差异，再谈范式迁移，最后落到两个可用的工程答案。 一、先看新闻：一个月内，三家前沿模型接连落子 GPT-5.6（OpenAI）：6 月 26 日以限量预览形......",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
-  },
-  {
     "title": "Groq on Hugging Face Inference Providers 🔥",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/inference-providers-groq",
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -66,7 +46,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -76,8 +56,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -86,18 +66,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "07",
     "trend": "up"
-  },
-  {
-    "title": "GPT-5.6-sol入榜DRACO：OpenSquilla集成方案仍在Brave组质量、成本双领先",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/07/449842.html",
-    "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
   },
   {
     "title": "Graviton5 Outperforming Intel Xeon Granite Rapids But Falls Short Of AMD EPYC Turin",
@@ -106,7 +76,7 @@
     "abstract": "Following the recent GA of the AWS M9g series as the first instances powered by the new Graviton5 CPUs, I recently ran benchmarks looking at Graviton4 vs. Graviton5 CPU performance...",
     "pscore": 66,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "08",
+    "trend": "down"
   }
 ]
