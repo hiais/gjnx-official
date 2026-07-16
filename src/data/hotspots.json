@@ -10,24 +10,14 @@
     "trend": "down"
   },
   {
-    "title": "DAC 2026: Certus Semiconductor Brings Two New I/O Libraries to GlobalFoundries 12nm",
-    "source": "SemiWiki",
-    "link": "https://semiwiki.com/ip/certus-semiconductor/370883-certus-semiconductor-brings-two-new-i-o-libraries-to-globalfoundries-12nm-certus-sem/",
-    "abstract": "Certus Semiconductor, a trusted leader in custom I/O and ESD solutions, will exhibit at Booth 839 during DAC 2026, July 27–29 in Long Beach. This year, Certus is announcing two new...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
-  },
-  {
     "title": "RLinf v0.3来了！从模型生态到真机部署五大能力跃升，无问芯穹与清华大学联合打造",
     "source": "QbitAI",
     "link": "https://www.qbitai.com/2026/07/451379.html",
     "abstract": "为破解具身智能行业发展瓶颈构建了新一代“进化底座”...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "02",
+    "trend": "down"
   },
   {
     "title": "手握英伟达宁德时代相同剧本，具身智能的第一个「基建商」出现了",
@@ -36,7 +26,7 @@
     "abstract": "Robotaxi第一股文远知行孵化...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -46,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -56,8 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "OpenAI 发布 GPT-5.6 系列：三款模型、多智能体协作、全新安全体系",
@@ -66,8 +56,8 @@
     "abstract": "OpenAI 已正式发布 GPT-5.6 系列模型，包含旗舰 Sol、均衡型 Terra 和经济型 Luna 三款。这是 OpenAI 首次以同一代系同时推出三个定位清晰的模型层级，定价和性能梯度直接对标 Anthropic 的 Fable 5 / Opus 4.8 产品线。 三款模型，分层定价 Sol 作为旗舰，定价 $5/$30（输入/输出每百万 tok...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -76,8 +66,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -86,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -96,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -106,17 +96,17 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "down"
   },
   {
-    "title": "Graviton5 Outperforming Intel Xeon Granite Rapids But Falls Short Of AMD EPYC Turin",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/graviton5-epyc-xeon",
-    "abstract": "Following the recent GA of the AWS M9g series as the first instances powered by the new Graviton5 CPUs, I recently ran benchmarks looking at Graviton4 vs. Graviton5 CPU performance...",
-    "pscore": 66,
+    "title": "NotebookLM is now Gemini Notebook",
+    "source": "HackerNews",
+    "link": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
+    "abstract": "Comments...",
+    "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "down"
   }
 ]
