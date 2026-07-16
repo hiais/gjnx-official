@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "DAC 2026: Certus Semiconductor Brings Two New I/O Libraries to GlobalFoundries 12nm",
@@ -20,13 +20,93 @@
     "trend": "down"
   },
   {
+    "title": "RLinf v0.3来了！从模型生态到真机部署五大能力跃升，无问芯穹与清华大学联合打造",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/07/451379.html",
+    "abstract": "为破解具身智能行业发展瓶颈构建了新一代“进化底座”...",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "03",
+    "trend": "up"
+  },
+  {
+    "title": "手握英伟达宁德时代相同剧本，具身智能的第一个「基建商」出现了",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/07/451327.html",
+    "abstract": "Robotaxi第一股文远知行孵化...",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "04",
+    "trend": "up"
+  },
+  {
+    "title": "Google Cloud TPUs made available to Hugging Face users",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
+    "abstract": "",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "05",
+    "trend": "up"
+  },
+  {
+    "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/tf_tpu",
+    "abstract": "",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "06",
+    "trend": "down"
+  },
+  {
     "title": "OpenAI 发布 GPT-5.6 系列：三款模型、多智能体协作、全新安全体系",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/471754/gpt-5-6",
     "abstract": "OpenAI 已正式发布 GPT-5.6 系列模型，包含旗舰 Sol、均衡型 Terra 和经济型 Luna 三款。这是 OpenAI 首次以同一代系同时推出三个定位清晰的模型层级，定价和性能梯度直接对标 Anthropic 的 Fable 5 / Opus 4.8 产品线。 三款模型，分层定价 Sol 作为旗舰，定价 $5/$30（输入/输出每百万 tok...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "07",
+    "trend": "down"
+  },
+  {
+    "title": "Groq on Hugging Face Inference Providers 🔥",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/inference-providers-groq",
+    "abstract": "",
+    "pscore": 80,
+    "category": "CHIP_FRONT",
+    "rank": "08",
+    "trend": "down"
+  },
+  {
+    "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/keras-chatbot-arena",
+    "abstract": "",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "09",
+    "trend": "down"
+  },
+  {
+    "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/sdxl_jax",
+    "abstract": "",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "10",
+    "trend": "up"
+  },
+  {
+    "title": "Hugging Face on PyTorch / XLA TPUs",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/pytorch-xla",
+    "abstract": "",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -36,97 +116,7 @@
     "abstract": "Following the recent GA of the AWS M9g series as the first instances powered by the new Graviton5 CPUs, I recently ran benchmarks looking at Graviton4 vs. Graviton5 CPU performance...",
     "pscore": 66,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
-  },
-  {
-    "title": "AMD ROCm 7.14 \"TheRock\" Tech Preview Tagged For Latest AMD GPU Compute Stack",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/AMD-ROCm-TheRock-7.14",
-    "abstract": "AMD's software team appears to be busy getting ready for next week's Advancing AI event happening next week in San Francisco. In addition to the release today of the Lemonade 11.0 ...",
-    "pscore": 64,
-    "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
-  },
-  {
-    "title": "Linux Dealing With Apple's Wild Mess Of Sensors On Apple Silicon SoCs",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Apple-Wild-Mess-Sensors-Linux",
-    "abstract": "While there has been the Apple System Management Controller \"SMC\" hardware monitoring driver with the intent on exposing battery/power stats as well as thermal and more for Apple S...",
-    "pscore": 64,
-    "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
-  },
-  {
-    "title": "Ubuntu 26.04 LTS vs. Windows 11 vs. CachyOS Performance On A $5399 Laptop",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/razer-blade18-windows-linux",
-    "abstract": "Earlier this month on Phoronix I reviewed the Razer Blade 18 RZ09-0582 as the first laptop Razer is certifying for Linux use via Canonical's hardware certification program for Linu...",
-    "pscore": 59,
-    "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
-  },
-  {
-    "title": "Arteris at DAC 2026 Connecting Innovation for Silicon Success",
-    "source": "SemiWiki",
-    "link": "https://semiwiki.com/ip/arteris/371060-arteris-at-dac-2026-connecting-innovation-for-silicon-success/",
-    "abstract": "The semiconductor industry has entered a new era as AI workloads, chiplets, heterogeneous computing, software-defined vehicles, and intelligent edge devices are transforming how ch...",
-    "pscore": 54,
-    "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
-  },
-  {
-    "title": "Linux Patches Finally Allow Apple Magic Keyboard/Mouse Battery Monitoring Via Bluetooth",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Apple-Magic-Bluetooth-Battery",
-    "abstract": "Besides the ongoing challenges of enabling newer Apple Silicon SoC support on Linux, Apple peripheral support on Linux remains a mixed bag depending on the product as well. The lat...",
-    "pscore": 54,
-    "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
-  },
-  {
-    "title": "Khronos Lists First Conformant OpenCL 3.1 Implementation: Apple M1/M2 On Asahi Linux With Rusticl",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/OpenCL-3.1-Conformance-Apple",
-    "abstract": "Back in May OpenCL 3.1 was announced with a focus on AI and HPC workloads. Just over two months later, this incremental update over OpenCL 3.0 now has its first listed conformant O...",
-    "pscore": 54,
-    "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
-  },
-  {
-    "title": "测量精度突破1微米，效率提升3倍，优可测高精度闪测仪发布",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/07/450841.html",
-    "abstract": "",
-    "pscore": 52,
-    "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
-  },
-  {
-    "title": "FlyFlow 新版本优化与修复一览：让工作流转更顺畅",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/471752",
-    "abstract": "各位FlyFlow的用户朋友们，大家好！ 作为一款始终致力于提升工作效率的开源工作流引擎，FlyFlow一直在倾听用户声音，不断打磨产品细节。本次更新我们聚焦于多个维度的优化与修复，从人员表单配置到智能联动逻辑，从流程搜索体验到操作日志记录，每一项改进都旨在让您的工作流配置与管理更加得心应手。 以下是本次更新的详......",
-    "pscore": 52,
-    "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "up"
-  },
-  {
-    "title": "调问更新 6.27~7.11：调研效率再升级：任务分发全面升级+ 微信小程序上线",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/471693",
-    "abstract": "调问自开源以来一直坚持前后端所有代码 100% 开源💯，助力企业建设属于自己的问卷调研系统👏。 🔥官网地址：https://www.diaowen.net 🔥 在线服务：https://www.surveyform.cn 🔥 源码下载：https://gitee.com/wkeyuan/DWSurvey 本次版本围绕调研发布效率、填写体验与产品能力...",
-    "pscore": 52,
-    "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "trend": "down"
   }
 ]
