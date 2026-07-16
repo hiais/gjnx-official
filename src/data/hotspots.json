@@ -1,12 +1,22 @@
 [
   {
+    "title": "AMD Releases Lemonade 11.0 Local AI Server With Text-To-Speech, Other New Features",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/AMD-Lemonade-11.0",
+    "abstract": "Ahead of the AMD Advancing AI event next week, today AMD released Lemonade 11.0 as the latest feature release of their local AI server supporting AMD Ryzen CPUs, AMD Radeon GPUs, a...",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "up"
+  },
+  {
     "title": "DAC 2026: Certus Semiconductor Brings Two New I/O Libraries to GlobalFoundries 12nm",
     "source": "SemiWiki",
     "link": "https://semiwiki.com/ip/certus-semiconductor/370883-certus-semiconductor-brings-two-new-i-o-libraries-to-globalfoundries-12nm-certus-sem/",
     "abstract": "Certus Semiconductor, a trusted leader in custom I/O and ESD solutions, will exhibit at Booth 839 during DAC 2026, July 27–29 in Long Beach. This year, Certus is announcing two new...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "01",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -16,7 +26,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -26,7 +36,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -36,7 +46,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -46,7 +56,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -56,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -66,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "Graviton5 Outperforming Intel Xeon Granite Rapids But Falls Short Of AMD EPYC Turin",
@@ -76,7 +86,7 @@
     "abstract": "Following the recent GA of the AWS M9g series as the first instances powered by the new Graviton5 CPUs, I recently ran benchmarks looking at Graviton4 vs. Graviton5 CPU performance...",
     "pscore": 66,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
     "trend": "down"
   }
 ]
