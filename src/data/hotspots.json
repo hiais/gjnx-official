@@ -7,26 +7,6 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
-  },
-  {
-    "title": "RLinf v0.3来了！从模型生态到真机部署五大能力跃升，无问芯穹与清华大学联合打造",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/07/451379.html",
-    "abstract": "为破解具身智能行业发展瓶颈构建了新一代“进化底座”...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
-  },
-  {
-    "title": "手握英伟达宁德时代相同剧本，具身智能的第一个「基建商」出现了",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/07/451327.html",
-    "abstract": "Robotaxi第一股文远知行孵化...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "03",
     "trend": "up"
   },
   {
@@ -36,7 +16,7 @@
     "abstract": "Comments...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -46,13 +26,33 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "03",
     "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tf_tpu",
+    "abstract": "",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "04",
+    "trend": "up"
+  },
+  {
+    "title": "达卯科技WAIC首发算电协同2.0：构筑AI算力与绿色能源融合新范式",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/07/453237.html",
+    "abstract": "打造AIDC绿电直连能源运营操作系统...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "05",
+    "trend": "down"
+  },
+  {
+    "title": "算力的尽头，不是更多算力——全球顶尖科学家7月18日聚首上海，共议AI时代的“未来计算”",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/07/453208.html",
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
@@ -67,7 +67,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -77,7 +77,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -97,7 +97,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -117,6 +117,6 @@
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "down"
+    "trend": "up"
   }
 ]
