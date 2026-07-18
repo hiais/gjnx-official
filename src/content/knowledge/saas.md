@@ -1,6 +1,6 @@
 ---
 title: SaaS (软件即服务)
-date: 2026-07-18T11:15:05.690Z
+date: 2026-07-18T13:55:25.910Z
 category: Auto-Mined
 tags:
   - Auto-Gen

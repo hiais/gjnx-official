@@ -1,6 +1,6 @@
 ---
 title: GAAFET (全环绕栅极)
-date: 2026-07-18T11:15:05.504Z
+date: 2026-07-18T13:55:25.716Z
 category: Auto-Mined
 tags:
   - Auto-Gen
