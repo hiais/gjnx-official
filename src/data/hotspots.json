@@ -37,26 +37,16 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
-  },
-  {
-    "title": "达卯科技WAIC首发算电协同2.0：构筑AI算力与绿色能源融合新范式",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/07/453237.html",
-    "abstract": "打造AIDC绿电直连能源运营操作系统...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "05",
     "trend": "up"
   },
   {
-    "title": "算力的尽头，不是更多算力——全球顶尖科学家7月18日聚首上海，共议AI时代的“未来计算”",
+    "title": "后摩智能携 M50 Inside 终端亮相 WAIC 2026，支撑端侧 AI 算力与终端创新",
     "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/07/453208.html",
-    "abstract": "",
+    "link": "https://www.qbitai.com/2026/07/453705.html",
+    "abstract": "本地大模型规模化商用破局...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -66,7 +56,7 @@
     "abstract": "OpenAI 已正式发布 GPT-5.6 系列模型，包含旗舰 Sol、均衡型 Terra 和经济型 Luna 三款。这是 OpenAI 首次以同一代系同时推出三个定位清晰的模型层级，定价和性能梯度直接对标 Anthropic 的 Fable 5 / Opus 4.8 产品线。 三款模型，分层定价 Sol 作为旗舰，定价 $5/$30（输入/输出每百万 tok...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -76,8 +66,18 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "up"
+  },
+  {
+    "title": "Porting nanochat to a TPU: what carries over from PyTorch, and what breaks",
+    "source": "HackerNews",
+    "link": "https://github.com/tucan9389/nanochat-jax/discussions/1",
+    "abstract": "Comments...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -107,6 +107,26 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "down"
+    "trend": "up"
+  },
+  {
+    "title": "商汤大装置联合近20家生态伙伴发起“银河计划”，将共建5个万卡级国产智算集群",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/07/453697.html",
+    "abstract": "加速国产算力从落地可用到规模化盈利...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "12",
+    "trend": "up"
+  },
+  {
+    "title": "清华系团队发布国产Token优化工厂：兼容10余种国产芯片，日吞吐千亿Token",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/07/453617.html",
+    "abstract": "让每一份算力都变成有效Token...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "13",
+    "trend": "up"
   }
 ]
