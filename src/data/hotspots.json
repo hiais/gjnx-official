@@ -1,12 +1,32 @@
 [
   {
+    "title": "光鉴科技发布具身智能视觉感知方案，为物理AI提供视觉感知基础",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/07/455438.html",
+    "abstract": "",
+    "pscore": 92,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "up"
+  },
+  {
     "title": "FastFlowLM Developers Join AMD To Help Push Open-Source NPU Software",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/news/FastFlowLM-Joins-AMD",
     "abstract": "On top of releasing ROCm 7.14 as the new production release of ROCm now built offTheRock, rolling out the Lemonade 11.0 local AI server, and GAIA 0.22, AMD has some more open-sourc...",
     "pscore": 89,
     "category": "CHIP_FRONT",
-    "rank": "01",
+    "rank": "02",
+    "trend": "up"
+  },
+  {
+    "title": "1.5B开源通用VLA模型，冲进具身智能第一梯队",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/07/455229.html",
+    "abstract": "面壁智能发布MiniCPM-Robot系列模型...",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -16,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -26,28 +46,18 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
-  },
-  {
-    "title": "危！GPT-5.6会自动删文件，AI初创老板痛失整台Mac",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/07/454689.html",
-    "abstract": "黎曼动力正式发布Rienmann-1.0...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
-  },
-  {
-    "title": "OpenAI 发布 GPT-5.6 系列：三款模型、多智能体协作、全新安全体系",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/471754/gpt-5-6",
-    "abstract": "OpenAI 已正式发布 GPT-5.6 系列模型，包含旗舰 Sol、均衡型 Terra 和经济型 Luna 三款。这是 OpenAI 首次以同一代系同时推出三个定位清晰的模型层级，定价和性能梯度直接对标 Anthropic 的 Fable 5 / Opus 4.8 产品线。 三款模型，分层定价 Sol 作为旗舰，定价 $5/$30（输入/输出每百万 tok...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
+  },
+  {
+    "title": "DBeaver 26.1.3 发布",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/474926/dbeaver-26-1-3-released",
+    "abstract": "DBeaver 是一个免费开源的通用数据库工具，适用于开发人员和数据库管理员。DBeaver 26.1.3 现已发布，具体更新内容包括： AI 助手： 在“Preferences”中新增了 AI Engine 响应的最大等待时间设置 修复了 GitHub Copilot 免费版中的模型列表显示问题 Engine 设置已重新设计 GPT-5 现已成为 Open...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -56,8 +66,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -66,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -76,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -86,24 +96,14 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
-  },
-  {
-    "title": "2026世界人工智能大会“未来计算·未来算力”专题论坛在沪召开，共识凝聚五问",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/07/454774.html",
-    "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
+    "trend": "up"
   },
   {
-    "title": "商汤大装置与国信数算达成战略合作，共建全国一体化算力网试验场",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/07/454771.html",
-    "abstract": "极响应全国一体化算力网建设部署...",
+    "title": "Kimi 因算力紧缺暂停 C 端新用户订阅",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/474866",
+    "abstract": "Kimi 昨日晚间发布公告称，由于近期用户请求量快速增长，现有算力集群承载压力接近极限，决定暂停 C 端新用户订阅，并启动算力扩容计划。 在订阅体系调整方面，Kimi计划对后续新用户权益进行拆分，将“Kimi主权益”和“Kimi Code权益”分别管理。 其中，Kimi主权益覆盖Kimi Web、Kimi APP以及Kimi Work等产品服务，Kimi ....",
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
