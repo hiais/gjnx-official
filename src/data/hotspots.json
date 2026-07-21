@@ -7,7 +7,7 @@
     "pscore": 89,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "国家具身智能应用中试基地发布首个合作世界模型 魔芯科技MoWorld 3D正式亮相",
@@ -17,7 +17,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "DBeaver 26.1.3 发布",
@@ -60,13 +60,23 @@
     "trend": "up"
   },
   {
+    "title": ":fire::fire: 2026 年，Java Agent 的最后一块拼图，终于被补齐了!",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/475598",
+    "abstract": "过去两年，Java AI 生态的发展非常快。 Spring AI、LangChain4j 等优秀框架，让 Java 开发者可以轻松接入 GPT、Claude、Gemini、DeepSeek 等各种大模型。 Chat、Prompt、Memory、RAG、Tool Calling、MCP、Agent…… 这些能力越来越成熟。 Java Agent，终于开始走进真...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "07",
+    "trend": "down"
+  },
+  {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/keras-chatbot-arena",
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -76,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -86,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "Kimi 因算力紧缺暂停 C 端新用户订阅",
@@ -96,7 +106,7 @@
     "abstract": "Kimi 昨日晚间发布公告称，由于近期用户请求量快速增长，现有算力集群承载压力接近极限，决定暂停 C 端新用户订阅，并启动算力扩容计划。 在订阅体系调整方面，Kimi计划对后续新用户权益进行拆分，将“Kimi主权益”和“Kimi Code权益”分别管理。 其中，Kimi主权益覆盖Kimi Web、Kimi APP以及Kimi Work等产品服务，Kimi ....",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   }
 ]
