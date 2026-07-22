@@ -1,23 +1,13 @@
 [
   {
-    "title": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok",
-    "source": "HackerNews",
-    "link": "https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok",
-    "abstract": "Comments...",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "up"
-  },
-  {
     "title": "Silicon Creations at DAC 2026: Solutions for clocking, SerDes, and sensing in 2nm (and beyond)",
     "source": "SemiWiki",
     "link": "https://semiwiki.com/ip/silicon-creations/371418-silicon-creations-at-dac-2026-solutions-for-clocking-serdes-and-sensing-in-2nm-and-beyond/",
     "abstract": "Silicon Creations provides world-class IP for precision and general-purpose timing (PLLs and oscillators), high-performance multi-protocol, latency optimized and protocol-specific ...",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
+    "rank": "01",
+    "trend": "up"
   },
   {
     "title": "GPT-5.6 为了在测试里拿高分，黑了 Hugging Face 的生产环境",
@@ -26,8 +16,8 @@
     "abstract": "AI 为了达成目标能干出什么事？OpenAI 和 Hugging Face 刚一起复盘了一件事：一个被关在沙箱里做安全测试的模型，逃了出来，黑了另一家公司的生产环境，只为偷到考试的正确答案。 起因是 OpenAI 在做内部网络能力评估。他们把 GPT-5.6 Sol 和一个更强的未发布模型放到 ExploitGym 基准测试里，关掉了网络限制的安全分类器.....",
     "pscore": 94,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "02",
+    "trend": "down"
   },
   {
     "title": "物理AI的闭环，终于有人跑通了：日冕+远图万台级部署计划官宣",
@@ -36,7 +26,7 @@
     "abstract": "按照规划，日冕和远图将首先在服务器制造场景验证超级工站能力，随后向更多生产环节扩展。2027年完成百台级部署，未来实现万台级具身智能产品部署。...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -46,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -56,8 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -66,7 +56,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -76,7 +66,7 @@
     "abstract": "过去两年，Java AI 生态的发展非常快。 Spring AI、LangChain4j 等优秀框架，让 Java 开发者可以轻松接入 GPT、Claude、Gemini、DeepSeek 等各种大模型。 Chat、Prompt、Memory、RAG、Tool Calling、MCP、Agent…… 这些能力越来越成熟。 Java Agent，终于开始走进真...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -86,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -96,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -106,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -116,8 +106,8 @@
     "abstract": "InputPlumber is out with its newest feature release. As a reminder, InputPlumber is the open-source input router and remapper daemon for combining various input devices from gamepa...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   },
   {
     "title": "宇树科技发布 UnifoLM-OminiA-0.3",
@@ -126,8 +116,8 @@
     "abstract": "宇树科技近日发布人形机器人通用智能模型 UnifoLM-OminiA-0.3，该模型支持全模态交互理解，可统筹家居、康养等多场景任务，实现机器人从环境感知、任务理解到自主执行的完整闭环。 根据宇树科技公布的演示视频，搭载该模型的人形机器人G1能够完成多种实际任务，包括将地面抱枕搬放至沙发、识别物品颜色与数量、精准抓取指......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "ng-zorro-antd 22.0.0 发布，基于 Angular 的 UI 组件",
@@ -136,8 +126,8 @@
     "abstract": "ng-zorro-antd 是 Ant Design 的 Angular 实现，主要用于研发企业级中后台产品。全部代码开源并遵循 MIT 协议，任何企业、组织及个人均可免费使用。 ng-zorro-antd 22.0.0 正式发布，更新内容如下： Features 所有组件均使用 OnPush (#9824) (b50ea34) *: 新增日期适配器支持 (...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
+    "rank": "13",
+    "trend": "down"
   },
   {
     "title": "The Architecture of Success: Why a Unified Semiconductor IP Strategy Is the Foundation of Modern SoC Design",
@@ -145,6 +135,16 @@
     "link": "https://semiwiki.com/artificial-intelligence/371309-the-architecture-of-success-why-a-unified-semiconductor-ip-strategy-is-the-foundation-of-modern-soc-design/",
     "abstract": "As architects push toward advanced nodes and increasingly demanding workloads, modern silicon design has entered an era of unprecedented complexity. A single design respin can cost...",
     "pscore": 73,
+    "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "down"
+  },
+  {
+    "title": "Google Gemini 一口气发了三个新模型，还有一个只给政府用",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/476554/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber",
+    "abstract": "Google 今天更新了 Gemini Flash 系列，一口气推出三个新型号，外加两个预告。 重头戏是 Gemini 3.6 Flash。Google 管它叫\"主力马\"，主攻编程、知识工作和多模态。相比 3.5 Flash，输出 token 量减少了 17%（按 Artificial Analysis 的统计），DeepSWE 基准上甚至砍掉了 65% 的...",
+    "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "15",
     "trend": "up"
