@@ -1,33 +1,13 @@
 [
   {
-    "title": "GPT-5.6 为了在测试里拿高分，黑了 Hugging Face 的生产环境",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/476550/hugging-face-model-evaluation-security-incident",
-    "abstract": "AI 为了达成目标能干出什么事？OpenAI 和 Hugging Face 刚一起复盘了一件事：一个被关在沙箱里做安全测试的模型，逃了出来，黑了另一家公司的生产环境，只为偷到考试的正确答案。 起因是 OpenAI 在做内部网络能力评估。他们把 GPT-5.6 Sol 和一个更强的未发布模型放到 ExploitGym 基准测试里，关掉了网络限制的安全分类器.....",
-    "pscore": 94,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "up"
-  },
-  {
-    "title": "超越π0，中国团队用1B参数模型登顶具身智能榜单",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/07/457537.html",
-    "abstract": "具身智能正在从「参数竞赛」进入「架构竞赛」。...",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
-  },
-  {
     "title": "Google Cloud TPUs made available to Hugging Face users",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "01",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -36,8 +16,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "02",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -46,7 +26,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -56,8 +36,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -66,8 +46,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -76,7 +56,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -86,7 +66,7 @@
     "abstract": "InputPlumber is out with its newest feature release. As a reminder, InputPlumber is the open-source input router and remapper daemon for combining various input devices from gamepa...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -96,28 +76,8 @@
     "abstract": "宇树科技近日发布人形机器人通用智能模型 UnifoLM-OminiA-0.3，该模型支持全模态交互理解，可统筹家居、康养等多场景任务，实现机器人从环境感知、任务理解到自主执行的完整闭环。 根据宇树科技公布的演示视频，搭载该模型的人形机器人G1能够完成多种实际任务，包括将地面抱枕搬放至沙发、识别物品颜色与数量、精准抓取指......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "08",
     "trend": "down"
-  },
-  {
-    "title": "ng-zorro-antd 22.0.0 发布，基于 Angular 的 UI 组件",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/476127/ng-zorro-antd-22-0-0-released",
-    "abstract": "ng-zorro-antd 是 Ant Design 的 Angular 实现，主要用于研发企业级中后台产品。全部代码开源并遵循 MIT 协议，任何企业、组织及个人均可免费使用。 ng-zorro-antd 22.0.0 正式发布，更新内容如下： Features 所有组件均使用 OnPush (#9824) (b50ea34) *: 新增日期适配器支持 (...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
-  },
-  {
-    "title": "Google Gemini 一口气发了三个新模型，还有一个只给政府用",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/476554/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber",
-    "abstract": "Google 今天更新了 Gemini Flash 系列，一口气推出三个新型号，外加两个预告。 重头戏是 Gemini 3.6 Flash。Google 管它叫\"主力马\"，主攻编程、知识工作和多模态。相比 3.5 Flash，输出 token 量减少了 17%（按 Artificial Analysis 的统计），DeepSWE 基准上甚至砍掉了 65% 的...",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
   },
   {
     "title": "AMD EPYC 9006 Venice Announced & Looks Poised To Be A Grand Slam",
@@ -126,7 +86,7 @@
     "abstract": "While AMD EPYC 9005 \"Turin\" launched just under two years ago, it has aged remarkably well. It is one of the few CPU generations in my past 22 years of Linux hardware reviews/bench...",
     "pscore": 66,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   }
 ]
