@@ -1,13 +1,23 @@
 [
   {
+    "title": "3万小时触觉数据补齐具身智能“手感”！新智具身&复旦报告三连发",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/07/460962.html",
+    "abstract": "项目数据模型均开源...",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "up"
+  },
+  {
     "title": "具身智能的「ChatGPT时刻」还没到，科沃斯先把机器人拆开了",
     "source": "QbitAI",
     "link": "https://www.qbitai.com/2026/07/460234.html",
     "abstract": "不做人形，抓住真实用户需求...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "up"
+    "rank": "02",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -16,8 +26,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
+    "rank": "03",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -26,7 +36,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -36,8 +46,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -46,7 +56,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -56,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -66,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -76,8 +86,8 @@
     "abstract": "给它一张图，还你整个世界...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "AMD EPYC 9006 Venice Announced & Looks Poised To Be A Grand Slam",
@@ -86,7 +96,7 @@
     "abstract": "While AMD EPYC 9005 \"Turin\" launched just under two years ago, it has aged remarkably well. It is one of the few CPU generations in my past 22 years of Linux hardware reviews/bench...",
     "pscore": 66,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
     "trend": "down"
   }
 ]
