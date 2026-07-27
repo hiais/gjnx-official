@@ -7,17 +7,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
-  },
-  {
-    "title": "具身智能的「ChatGPT时刻」还没到，科沃斯先把机器人拆开了",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/07/460234.html",
-    "abstract": "不做人形，抓住真实用户需求...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -26,8 +16,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "rank": "02",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -36,7 +26,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -46,7 +36,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -56,7 +46,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -66,8 +56,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -76,18 +66,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "down"
-  },
-  {
-    "title": "国产世界模型登顶李飞飞团队榜单！适配国产昇腾算力、代码权重全开源",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/07/460041.html",
-    "abstract": "给它一张图，还你整个世界...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
   },
   {
     "title": "AMD EPYC 9006 Venice Announced & Looks Poised To Be A Grand Slam",
@@ -96,7 +76,7 @@
     "abstract": "While AMD EPYC 9005 \"Turin\" launched just under two years ago, it has aged remarkably well. It is one of the few CPU generations in my past 22 years of Linux hardware reviews/bench...",
     "pscore": 66,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   }
 ]
