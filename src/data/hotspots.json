@@ -7,7 +7,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "3万小时触觉数据补齐具身智能“手感”！新智具身&复旦报告三连发",
@@ -17,7 +17,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -47,7 +47,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -77,16 +77,6 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "down"
-  },
-  {
-    "title": "AMD EPYC 9006 Venice Announced & Looks Poised To Be A Grand Slam",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/amd-epyc-9006-venice",
-    "abstract": "While AMD EPYC 9005 \"Turin\" launched just under two years ago, it has aged remarkably well. It is one of the few CPU generations in my past 22 years of Linux hardware reviews/bench...",
-    "pscore": 66,
-    "category": "CHIP_FRONT",
-    "rank": "09",
     "trend": "down"
   }
 ]
