@@ -1,12 +1,22 @@
 [
   {
+    "title": "GPT-5.6 vs. Claude Fable 5 for Physical AI, which performs best?",
+    "source": "HackerNews",
+    "link": "https://juliahub.com/blog/frontier-models-physical-ai-evaluation",
+    "abstract": "Comments...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "down"
+  },
+  {
     "title": "Google Cloud TPUs made available to Hugging Face users",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "01",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -16,7 +26,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -26,7 +36,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -36,8 +46,8 @@
     "abstract": "据媒体报道，谷歌旗下 AI 实验室 DeepMind 已经解散了 AlphaFold 背后的团队——正是这套预测蛋白质三维结构的系统，把 CEO 哈萨比斯与工程研究员江珀送上了 2024 年诺贝尔化学奖的领奖台。 过去一年里，这场静默的拆解沿着人事变动一点点展开。AlphaFold 论文的大多数原始作者，已被重新分配到别的团队；在仍属 DeepMi......",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -46,8 +56,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -56,8 +66,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -66,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "down"
   }
 ]
