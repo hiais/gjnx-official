@@ -7,7 +7,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -68,5 +68,35 @@
     "category": "CHIP_FRONT",
     "rank": "07",
     "trend": "up"
+  },
+  {
+    "title": "“接力跑”盘活全国算力，PD分离终于破局：延迟砍半、成本直降近40%！",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/07/463012.html",
+    "abstract": "最新完整技术报告出炉...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "08",
+    "trend": "up"
+  },
+  {
+    "title": "xAI 发布 Grok Voice Think Fast2.0",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/482971",
+    "abstract": "xAI推出新一代语音识别模型 Grok Voice Think Fast2.0，面向构建语音智能体的开发者开放，在智能水平、转录准确率、对话能力以及工具调用效率方面实现升级。该模型定价为每分钟音频0.08美元，xAI表示无需修改现有提示词，Think Fast2.0即可在多数应用场景中带来性能提升。 在Artificial Analysis语音识别基准测试中...",
+    "pscore": 71,
+    "category": "CHIP_FRONT",
+    "rank": "09",
+    "trend": "down"
+  },
+  {
+    "title": "传奇AlphaFold团队全员解散！诺奖得主投奔Anthropic，资源转向Gemini",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/07/463123.html",
+    "abstract": "嚯，诺奖团队也被砍了...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "10",
+    "trend": "down"
   }
 ]
