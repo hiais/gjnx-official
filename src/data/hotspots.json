@@ -7,7 +7,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -27,6 +27,16 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
+    "trend": "up"
+  },
+  {
+    "title": "OpenAI 宣布 GPT-5.6 Luna 价格下降 80%",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/484069",
+    "abstract": "OpenAI 宣布 GPT-5.6 Luna 价格下降 80%。输入从每百万 token 1 美元砍到 0.2 美元，输出从 6 美元砍到 1.2 美元。GPT-5.6 Terra 降 20%。旗舰 Sol 没降，但加了一个 Fast 模式——2.5 倍速度，2 倍价格，智商不变。 降价的理由不是市场竞争，不是清库存，是 Sol 自己把自己优化了。 这事分两...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -36,8 +46,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "谷歌解散 AlphaFold 团队，将重心放在 Gemini",
@@ -46,8 +56,8 @@
     "abstract": "据媒体报道，谷歌旗下 AI 实验室 DeepMind 已经解散了 AlphaFold 背后的团队——正是这套预测蛋白质三维结构的系统，把 CEO 哈萨比斯与工程研究员江珀送上了 2024 年诺贝尔化学奖的领奖台。 过去一年里，这场静默的拆解沿着人事变动一点点展开。AlphaFold 论文的大多数原始作者，已被重新分配到别的团队；在仍属 DeepMi......",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -56,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -66,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -76,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -84,16 +94,6 @@
     "source": "QbitAI",
     "link": "https://www.qbitai.com/2026/07/463640.html",
     "abstract": "Luna打骨折...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
-  },
-  {
-    "title": "“接力跑”盘活全国算力，PD分离终于破局：延迟砍半、成本直降近40%！",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/07/463012.html",
-    "abstract": "最新完整技术报告出炉...",
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
@@ -107,7 +107,7 @@
     "pscore": 71,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Gemini Robotics 2 brings whole body intelligence to robots",
@@ -117,16 +117,6 @@
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "up"
-  },
-  {
-    "title": "传奇AlphaFold团队全员解散！诺奖得主投奔Anthropic，资源转向Gemini",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/07/463123.html",
-    "abstract": "嚯，诺奖团队也被砍了...",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "13",
     "trend": "up"
   }
 ]
