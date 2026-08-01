@@ -1,6 +1,6 @@
 ---
 title: TIPB (技术决策者)
-date: 2026-07-18T13:55:25.853Z
+date: 2026-08-01T03:59:37.533Z
 category: Auto-Mined
 tags:
   - Auto-Gen
