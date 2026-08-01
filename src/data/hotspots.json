@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "OpenAI 宣布 GPT-5.6 Luna 价格下降 80%",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -47,7 +47,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "谷歌解散 AlphaFold 团队，将重心放在 Gemini",
@@ -60,23 +60,13 @@
     "trend": "up"
   },
   {
-    "title": "$0.09 and $290.12 are both the price of 1M output tokens",
-    "source": "HackerNews",
-    "link": "https://runinfra.ai/news/inference-cost-truth",
-    "abstract": "Comments...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
-  },
-  {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/keras-chatbot-arena",
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -86,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -96,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "xAI 发布 Grok Voice Think Fast2.0",
@@ -106,8 +96,8 @@
     "abstract": "xAI推出新一代语音识别模型 Grok Voice Think Fast2.0，面向构建语音智能体的开发者开放，在智能水平、转录准确率、对话能力以及工具调用效率方面实现升级。该模型定价为每分钟音频0.08美元，xAI表示无需修改现有提示词，Think Fast2.0即可在多数应用场景中带来性能提升。 在Artificial Analysis语音识别基准测试中...",
     "pscore": 71,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "奥特曼也逃不过刷TikTok上瘾，Sora背后最抓马的一段来了",
@@ -116,7 +106,7 @@
     "abstract": "狂刷3小时！...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "down"
   }
 ]
