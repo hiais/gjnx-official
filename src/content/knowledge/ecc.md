@@ -1,6 +1,6 @@
 ---
 title: ECC (纠错算法)
-date: 2026-08-02T04:08:36.764Z
+date: 2026-08-02T04:52:49.242Z
 category: Auto-Mined
 tags:
   - Auto-Gen

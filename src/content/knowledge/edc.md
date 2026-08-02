@@ -1,6 +1,6 @@
 ---
 title: EDC (日常携带)
-date: 2026-08-02T04:08:36.761Z
+date: 2026-08-02T04:52:49.238Z
 category: Auto-Mined
 tags:
   - Auto-Gen

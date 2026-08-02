@@ -1,6 +1,6 @@
 ---
 title: Hyrox (体能挑战赛)
-date: 2026-08-02T04:08:38.397Z
+date: 2026-08-02T04:52:51.076Z
 category: Auto-Mined
 tags:
   - Auto-Gen
