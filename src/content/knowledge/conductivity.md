@@ -1,6 +1,6 @@
 ---
 title: Conductivity (热导率)
-date: 2026-08-02T04:52:49.135Z
+date: 2026-08-02T10:07:51.314Z
 category: Auto-Mined
 tags:
   - Auto-Gen

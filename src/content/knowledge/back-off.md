@@ -1,6 +1,6 @@
 ---
 title: Back-off (大幅度降功耗)
-date: 2026-08-02T04:52:50.142Z
+date: 2026-08-02T10:07:52.610Z
 category: Auto-Mined
 tags:
   - Auto-Gen
