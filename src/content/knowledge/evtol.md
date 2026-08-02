@@ -1,6 +1,6 @@
 ---
 title: eVTOL (电动垂直起降飞行器)
-date: 2026-08-02T10:07:51.731Z
+date: 2026-08-02T10:20:20.554Z
 category: Auto-Mined
 tags:
   - Auto-Gen

@@ -1,6 +1,6 @@
 ---
 title: E-Core (能效核)
-date: 2026-08-02T10:07:51.752Z
+date: 2026-08-02T10:20:20.578Z
 category: Auto-Mined
 tags:
   - Auto-Gen

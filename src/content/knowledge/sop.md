@@ -1,6 +1,6 @@
 ---
 title: SOP (标准作业程序)
-date: 2026-08-02T10:07:51.749Z
+date: 2026-08-02T10:20:20.575Z
 category: Auto-Mined
 tags:
   - Auto-Gen

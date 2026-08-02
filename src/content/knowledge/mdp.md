@@ -1,6 +1,6 @@
 ---
 title: MDP (马尔可夫决策过程)
-date: 2026-08-02T10:07:51.377Z
+date: 2026-08-02T10:20:20.499Z
 category: Auto-Mined
 tags:
   - Auto-Gen
