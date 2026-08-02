@@ -1,6 +1,6 @@
 ---
 title: CAPEX (资本支出)
-date: 2026-08-01T05:04:21.636Z
+date: 2026-08-02T04:08:40.030Z
 category: Auto-Mined
 tags:
   - Auto-Gen
