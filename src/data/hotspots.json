@@ -1,22 +1,12 @@
 [
   {
-    "title": "Characterizing Warp Divergence from Pascal to Blackwell",
-    "source": "HackerNews",
-    "link": "https://arxiv.org/abs/2607.23402",
-    "abstract": "Comments...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "down"
-  },
-  {
     "title": "Demo的高估值时代结束了，具身智能开始按生产力重新算账",
     "source": "QbitAI",
     "link": "https://www.qbitai.com/2026/08/465225.html",
     "abstract": "",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "01",
     "trend": "down"
   },
   {
@@ -26,7 +16,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -36,8 +26,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
+    "rank": "03",
+    "trend": "down"
   },
   {
     "title": "OpenAI 宣布 GPT-5.6 Luna 价格下降 80%",
@@ -46,8 +36,8 @@
     "abstract": "OpenAI 宣布 GPT-5.6 Luna 价格下降 80%。输入从每百万 token 1 美元砍到 0.2 美元，输出从 6 美元砍到 1.2 美元。GPT-5.6 Terra 降 20%。旗舰 Sol 没降，但加了一个 Fast 模式——2.5 倍速度，2 倍价格，智商不变。 降价的理由不是市场竞争，不是清库存，是 Sol 自己把自己优化了。 这事分两...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -56,8 +46,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -66,7 +56,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -76,8 +66,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -86,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -96,7 +86,7 @@
     "abstract": "Ant Design 是阿里巴巴开源的一套企业级 UI 设计语言和 React 组件库。Ant Design 6.5.3 现已发布，主要更新内容如下： Input 修复 Input.OTP 使用字符串 mask 时仍采用 type=\"text\" 的问题，并保留显式 type 配置。#58835 修复 Input.OTP 的 mask 为 true 时仍显示原...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -106,7 +96,7 @@
     "abstract": "xAI推出新一代语音识别模型 Grok Voice Think Fast2.0，面向构建语音智能体的开发者开放，在智能水平、转录准确率、对话能力以及工具调用效率方面实现升级。该模型定价为每分钟音频0.08美元，xAI表示无需修改现有提示词，Think Fast2.0即可在多数应用场景中带来性能提升。 在Artificial Analysis语音识别基准测试中...",
     "pscore": 71,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "down"
   }
 ]
