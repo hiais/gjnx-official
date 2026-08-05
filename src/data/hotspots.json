@@ -1,10 +1,10 @@
 [
   {
-    "title": "亿级日活App的“算力生死劫”：推理成本倒挂，他们靠跨云架构砍掉75% GPU集群",
+    "title": "倒卖英伟达GPU算力比火箭卫星来钱快！马斯克交出SpaceX首份财报",
     "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/08/465732.html",
-    "abstract": "出海AI，正被“三重算力锁链\"捆死...",
-    "pscore": 99,
+    "link": "https://www.qbitai.com/2026/08/466454.html",
+    "abstract": "二季度AI收入暴涨247%...",
+    "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
     "trend": "up"
@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -37,7 +37,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -57,7 +57,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -67,13 +67,13 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
-    "title": "Ant Design 6.5.3 发布，企业级 UI 设计语言和 React 实现",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/486011/ant-design-6-5-3-released",
-    "abstract": "Ant Design 是阿里巴巴开源的一套企业级 UI 设计语言和 React 组件库。Ant Design 6.5.3 现已发布，主要更新内容如下： Input 修复 Input.OTP 使用字符串 mask 时仍采用 type=\"text\" 的问题，并保留显式 type 配置。#58835 修复 Input.OTP 的 mask 为 true 时仍显示原...",
+    "title": "微软叫停Tokenmaxxing！预算卡死，超限自负",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/08/466739.html",
+    "abstract": "内部默认用GPT-5.6...",
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "08",
