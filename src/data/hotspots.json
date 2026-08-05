@@ -10,13 +10,23 @@
     "trend": "up"
   },
   {
+    "title": "Rubin Observatory's first LSST Camera release: 500k galaxies in the COSMOS field",
+    "source": "HackerNews",
+    "link": "https://rubinobservatory.org/news/rubin-new-window-cosmos-field",
+    "abstract": "Comments...",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "up"
+  },
+  {
     "title": "Google Cloud TPUs made available to Hugging Face users",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -26,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -36,7 +46,17 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
+    "trend": "up"
+  },
+  {
+    "title": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models",
+    "source": "HackerNews",
+    "link": "https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency",
+    "abstract": "Comments...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -46,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -56,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -66,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "微软叫停Tokenmaxxing！预算卡死，超限自负",
@@ -76,7 +96,7 @@
     "abstract": "内部默认用GPT-5.6...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "10",
     "trend": "down"
   }
 ]
