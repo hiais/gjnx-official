@@ -1,22 +1,12 @@
 [
   {
-    "title": "倒卖英伟达GPU算力比火箭卫星来钱快！马斯克交出SpaceX首份财报",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/08/466454.html",
-    "abstract": "二季度AI收入暴涨247%...",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "down"
-  },
-  {
     "title": "Google Cloud TPUs made available to Hugging Face users",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "01",
     "trend": "up"
   },
   {
@@ -26,8 +16,18 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "down"
+  },
+  {
+    "title": "超级算力枢纽远景乌兰察布星河基地投产，全球最大AI算力超级单体落地",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/08/467262.html",
+    "abstract": "",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -40,23 +40,13 @@
     "trend": "down"
   },
   {
-    "title": "Sula: A Gemini protocol server written in Scryer Prolog",
-    "source": "HackerNews",
-    "link": "https://sagredo.dev/projects/sula/",
-    "abstract": "Comments...",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
-  },
-  {
     "title": "Jeff Dean 离开 Google：一个时代的结束，一个实验室的开始",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/488566",
     "abstract": "Google 员工编号 20。MapReduce 作者之一。Bigtable 作者之一。TensorFlow 的作者之一。Gemini 的架构师。Google 首席科学家。 Jeff Dean 在 Google 工作了 27 年后，宣布离职。 他不是一个人走。一同离开的还有 Sanjay Ghemawat（Google 员工编号 23，Jeff Dean 二...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -66,8 +56,8 @@
     "abstract": "Comments...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -76,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -86,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -96,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -106,7 +96,7 @@
     "abstract": "内部默认用GPT-5.6...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "up"
   }
 ]
