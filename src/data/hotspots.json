@@ -20,23 +20,13 @@
     "trend": "down"
   },
   {
-    "title": "超级算力枢纽远景乌兰察布星河基地投产，全球最大AI算力超级单体落地",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/08/467262.html",
-    "abstract": "",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
-  },
-  {
     "title": "Groq on Hugging Face Inference Providers 🔥",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/inference-providers-groq",
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -46,7 +36,7 @@
     "abstract": "Google 员工编号 20。MapReduce 作者之一。Bigtable 作者之一。TensorFlow 的作者之一。Gemini 的架构师。Google 首席科学家。 Jeff Dean 在 Google 工作了 27 年后，宣布离职。 他不是一个人走。一同离开的还有 Sanjay Ghemawat（Google 员工编号 23，Jeff Dean 二...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -56,7 +46,7 @@
     "abstract": "Comments...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -66,8 +56,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -76,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -86,17 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
-  },
-  {
-    "title": "微软叫停Tokenmaxxing！预算卡死，超限自负",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/08/466739.html",
-    "abstract": "内部默认用GPT-5.6...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "08",
     "trend": "up"
   }
 ]
