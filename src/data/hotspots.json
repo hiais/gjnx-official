@@ -1,10 +1,10 @@
 [
   {
-    "title": "DeepSeek豪掷1.4亿护航宇树IPO，杭州绝代双骄战略合体",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/08/467487.html",
-    "abstract": "此后模型、算力、数据中心都在合作范围内...",
-    "pscore": 85,
+    "title": "潮起潮落，你我仍在 | 2026 腾讯云粤港澳大湾区架构师峰会",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/489697",
+    "abstract": "这两年，AI 一波接着一波。大模型、Agent、AI Coding、具身智能……几乎每隔几个月，技术栈就要被重新理解一次。追新的人越来越多，能停下来喘口气的人越来越少。很多技术人都有一种共同的感受——跑得越来越快，却越来越不确定自己站在哪里。 这是一场不太一样的峰会 —— 它当然会有硬核的技术内容，但我们更想让它成为......",
+    "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
     "trend": "down"
@@ -27,7 +27,17 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
+  },
+  {
+    "title": "AI SSD：大模型推理的存储范式转移",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/08/467840.html",
+    "abstract": "算力、网络、内存与存储开始围绕每个Token协同...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -36,7 +46,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -46,7 +56,7 @@
     "abstract": "Google 员工编号 20。MapReduce 作者之一。Bigtable 作者之一。TensorFlow 的作者之一。Gemini 的架构师。Google 首席科学家。 Jeff Dean 在 Google 工作了 27 年后，宣布离职。 他不是一个人走。一同离开的还有 Sanjay Ghemawat（Google 员工编号 23，Jeff Dean 二...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -56,8 +66,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -66,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -76,7 +86,27 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
+    "trend": "up"
+  },
+  {
+    "title": "刚刚，ChatGPT免费版史诗升级！GPT-5.6可以无限白嫖了",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/08/467879.html",
+    "abstract": "Chat优化版...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "10",
+    "trend": "down"
+  },
+  {
+    "title": "宇树科技 IPO 战略配售曝光：DeepSeek 获配 93.3 万股，锁定 36 个月",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/489801",
+    "abstract": "8月6日晚间，“人形机器人第一股”宇树科技股份有限公司披露IPO发行价格及战略配售结果，杭州深度求索人工智能基础技术研究有限公司（DeepSeek）获配93.3399万股，按150.8元/股发行价格计算，认购金额约1.41亿元，股份锁定期为36个月。 公告显示，本次宇树科技战略配售对象主要包括长期投资机构、与公司业务具有战略合作......",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "11",
     "trend": "up"
   }
 ]
