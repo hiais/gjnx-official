@@ -17,7 +17,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -57,7 +57,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Jeff Dean 离开 Google：一个时代的结束，一个实验室的开始",
@@ -67,7 +67,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -117,6 +117,16 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "12",
+    "trend": "down"
+  },
+  {
+    "title": "PoCL 7.2-RC1 Brings Official OpenCL 3.0 Conformance On RISC-V & x86_64 CPUs",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/PoCL-7.2-RC1",
+    "abstract": "The release candidate of PoCL 7.2 is now available for testing of this Portable Computing Language implementation of OpenCL that allows for CPU-based execution or via alternative L...",
+    "pscore": 67,
+    "category": "CHIP_FRONT",
+    "rank": "13",
     "trend": "down"
   }
 ]
