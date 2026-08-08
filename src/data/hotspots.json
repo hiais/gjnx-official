@@ -17,7 +17,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "AI SSD：大模型推理的存储范式转移",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "OpenAI 宣布为 GPT-5.6 Sol 调优，并让免费用户无限用 Luna",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -100,14 +100,24 @@
     "trend": "down"
   },
   {
+    "title": "Linux 7.3 To Support Logitech HID++ 2.0 Reprogrammable Button Support",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Linux-7.3-HIDPP-Reprogrammable",
+    "abstract": "For those with newer, high-end Logitech input devices, coming with Linux 7.3 is support for the re-programmable button support of the HID++ 2.0 protocol......",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "11",
+    "trend": "down"
+  },
+  {
     "title": "刚刚，ChatGPT免费版史诗升级！GPT-5.6可以无限白嫖了",
     "source": "QbitAI",
     "link": "https://www.qbitai.com/2026/08/467879.html",
     "abstract": "Chat优化版...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "宇树科技 IPO 战略配售曝光：DeepSeek 获配 93.3 万股，锁定 36 个月",
@@ -116,7 +126,7 @@
     "abstract": "8月6日晚间，“人形机器人第一股”宇树科技股份有限公司披露IPO发行价格及战略配售结果，杭州深度求索人工智能基础技术研究有限公司（DeepSeek）获配93.3399万股，按150.8元/股发行价格计算，认购金额约1.41亿元，股份锁定期为36个月。 公告显示，本次宇树科技战略配售对象主要包括长期投资机构、与公司业务具有战略合作......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "down"
   },
   {
@@ -126,7 +136,7 @@
     "abstract": "The release candidate of PoCL 7.2 is now available for testing of this Portable Computing Language implementation of OpenCL that allows for CPU-based execution or via alternative L...",
     "pscore": 67,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "14",
+    "trend": "up"
   }
 ]
