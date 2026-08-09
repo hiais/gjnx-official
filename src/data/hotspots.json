@@ -7,7 +7,17 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
+  },
+  {
+    "title": "HeteroFlow 异构算力调度平台于 2026 年 8 月 8 日推理服务正式发布",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/491395",
+    "abstract": "HeteroFlow v2 推理服务的解决方案正式上线 HeteroFlow v2 是一款开源的异构算力调度平台，本次发布的推理服务功能针对上述三大痛点提供完整解决方案： **> 一句话总结：**用一套 OpenAI 兼容 API，统一调度 9 种厂商 GPU × 5 种推理引擎，原生支持多租户、计费、扩缩容、热加载。 三、核心能力详解1. OpenAI A...",
+    "pscore": 92,
+    "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -16,7 +26,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -26,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "Linux 7.2-rc7 Adding Support For The Most Unique Or Very Funky Gaming Controller",
@@ -36,8 +46,18 @@
     "abstract": "The input subsystem fixes for the week include a number of AI-driven patches to address various information leaks, out-of-bounds accesses, validation fixes, and other coding issues...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
+  },
+  {
+    "title": "GPT-5.6和Fable联手，解决了一道悬了25年的数学难题",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/08/468913.html",
+    "abstract": "作者读博时就在研究，17年后被AI解开了...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "OpenAI 宣布为 GPT-5.6 Sol 调优，并让免费用户无限用 Luna",
@@ -46,8 +66,8 @@
     "abstract": "OpenAI 今天更新了 ChatGPT 的模型矩阵，包含两个重要变化：GPT-5.6 Sol 调优了回复风格和事实准确性，GPT-5.6 Luna 对免费用户开放了无限文本聊天和一个\"Think\"按钮。 先说重点数据。 在新的内部评估中，金融、医疗和法律三类需要事实准确性的 prompt 上，GPT-5.6 Luna 的回复包含至少一个事实错误的概率比 G...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -56,7 +76,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -66,7 +86,7 @@
     "abstract": "Google 员工编号 20。MapReduce 作者之一。Bigtable 作者之一。TensorFlow 的作者之一。Gemini 的架构师。Google 首席科学家。 Jeff Dean 在 Google 工作了 27 年后，宣布离职。 他不是一个人走。一同离开的还有 Sanjay Ghemawat（Google 员工编号 23，Jeff Dean 二...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -76,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -86,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -96,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -106,7 +126,7 @@
     "abstract": "For those with newer, high-end Logitech input devices, coming with Linux 7.3 is support for the re-programmable button support of the HID++ 2.0 protocol......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "13",
     "trend": "down"
   },
   {
@@ -116,8 +136,8 @@
     "abstract": "据说GPT-5.6很适合拿来做游戏...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "14",
+    "trend": "up"
   },
   {
     "title": "宇树科技 IPO 战略配售曝光：DeepSeek 获配 93.3 万股，锁定 36 个月",
@@ -126,17 +146,7 @@
     "abstract": "8月6日晚间，“人形机器人第一股”宇树科技股份有限公司披露IPO发行价格及战略配售结果，杭州深度求索人工智能基础技术研究有限公司（DeepSeek）获配93.3399万股，按150.8元/股发行价格计算，认购金额约1.41亿元，股份锁定期为36个月。 公告显示，本次宇树科技战略配售对象主要包括长期投资机构、与公司业务具有战略合作......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
-  },
-  {
-    "title": "PoCL 7.2-RC1 Brings Official OpenCL 3.0 Conformance On RISC-V & x86_64 CPUs",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/PoCL-7.2-RC1",
-    "abstract": "The release candidate of PoCL 7.2 is now available for testing of this Portable Computing Language implementation of OpenCL that allows for CPU-based execution or via alternative L...",
-    "pscore": 67,
-    "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "15",
     "trend": "up"
   }
 ]
