@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "HeteroFlow 异构算力调度平台于 2026 年 8 月 8 日推理服务正式发布",
@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "3B模型碾压英伟达谷歌后，Om AI端侧原生VLX模型：小参数实现物理世界精准感知",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Linux 7.2-rc7 Adding Support For The Most Unique Or Very Funky Gaming Controller",
@@ -57,7 +57,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "GPT-5.6和Fable联手，解决了一道悬了25年的数学难题",
@@ -70,13 +70,23 @@
     "trend": "up"
   },
   {
+    "title": "LLM 的极限不在算力，在语言本身",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/492309/llms-cant-jump",
+    "abstract": "一篇标题叫 \"Position: LLMs Can't Jump\" 的论文近日在 Hacker News 引起了众多程序员关注，讨论层层递进，从语言的有损编码一直聊到爱因斯坦的思考方式。 论文的核心论点很简单，但直接挑战了当前 AI 行业的底层假设：大语言模型的能力边界，不是算力不够，不是数据不够，而是语言本身就是人类体验的有损压缩。LLM 看到......",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "08",
+    "trend": "down"
+  },
+  {
     "title": "OpenAI 宣布为 GPT-5.6 Sol 调优，并让免费用户无限用 Luna",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/490138/improving-gpt-5-6-sol-in-chatgpt",
     "abstract": "OpenAI 今天更新了 ChatGPT 的模型矩阵，包含两个重要变化：GPT-5.6 Sol 调优了回复风格和事实准确性，GPT-5.6 Luna 对免费用户开放了无限文本聊天和一个\"Think\"按钮。 先说重点数据。 在新的内部评估中，金融、医疗和法律三类需要事实准确性的 prompt 上，GPT-5.6 Luna 的回复包含至少一个事实错误的概率比 G...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -86,7 +96,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -96,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -106,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -116,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "down"
   },
   {
@@ -126,24 +136,14 @@
     "abstract": "For those with newer, high-end Logitech input devices, coming with Linux 7.3 is support for the re-programmable button support of the HID++ 2.0 protocol......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
-  },
-  {
-    "title": "Opus 5狂烧6.9亿token做游戏，GPT-5.6用5美元复刻了",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/08/468766.html",
-    "abstract": "据说GPT-5.6很适合拿来做游戏...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
     "rank": "14",
     "trend": "down"
   },
   {
-    "title": "宇树科技 IPO 战略配售曝光：DeepSeek 获配 93.3 万股，锁定 36 个月",
+    "title": "一个 4B 开源模型，检索能力追平了 GPT-5.6 Sol，成本降到 1/100",
     "source": "OSChina",
-    "link": "https://www.oschina.net/news/489801",
-    "abstract": "8月6日晚间，“人形机器人第一股”宇树科技股份有限公司披露IPO发行价格及战略配售结果，杭州深度求索人工智能基础技术研究有限公司（DeepSeek）获配93.3399万股，按150.8元/股发行价格计算，认购金额约1.41亿元，股份锁定期为36个月。 公告显示，本次宇树科技战略配售对象主要包括长期投资机构、与公司业务具有战略合作......",
+    "link": "https://www.oschina.net/news/492295",
+    "abstract": "Neon 和 Castform 联合发布了一篇博客，展示了一个惊人的结果：一个 4B 参数的开源模型，经过 RL 后训练之后，在检索任务上的准确率追平了 GPT-5.6 Sol，但每次请求的成本只有对方的 1/100。 具体来说，GPT-5.6 Sol 做一次典型的多轮搜索请求需要超过 10 秒，端到端成本约 0.03 美元。对于需要反复搜索的 agent ...",
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "15",
