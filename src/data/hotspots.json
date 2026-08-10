@@ -17,7 +17,17 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
+  },
+  {
+    "title": "3B模型碾压英伟达谷歌后，Om AI端侧原生VLX模型：小参数实现物理世界精准感知",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/08/469076.html",
+    "abstract": "从云计算到云原生，产业真正的跃迁从来不是简单堆算力，而是找到更适合新世界的架构。...",
+    "pscore": 89,
+    "category": "CHIP_FRONT",
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -26,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -36,7 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -46,8 +56,8 @@
     "abstract": "The input subsystem fixes for the week include a number of AI-driven patches to address various information leaks, out-of-bounds accesses, validation fixes, and other coding issues...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "GPT-5.6和Fable联手，解决了一道悬了25年的数学难题",
@@ -56,8 +66,8 @@
     "abstract": "作者读博时就在研究，17年后被AI解开了...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "OpenAI 宣布为 GPT-5.6 Sol 调优，并让免费用户无限用 Luna",
@@ -66,8 +76,8 @@
     "abstract": "OpenAI 今天更新了 ChatGPT 的模型矩阵，包含两个重要变化：GPT-5.6 Sol 调优了回复风格和事实准确性，GPT-5.6 Luna 对免费用户开放了无限文本聊天和一个\"Think\"按钮。 先说重点数据。 在新的内部评估中，金融、医疗和法律三类需要事实准确性的 prompt 上，GPT-5.6 Luna 的回复包含至少一个事实错误的概率比 G...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -76,18 +86,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
-  },
-  {
-    "title": "Jeff Dean 离开 Google：一个时代的结束，一个实验室的开始",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/488566",
-    "abstract": "Google 员工编号 20。MapReduce 作者之一。Bigtable 作者之一。TensorFlow 的作者之一。Gemini 的架构师。Google 首席科学家。 Jeff Dean 在 Google 工作了 27 年后，宣布离职。 他不是一个人走。一同离开的还有 Sanjay Ghemawat（Google 员工编号 23，Jeff Dean 二...",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -117,7 +117,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Linux 7.3 To Support Logitech HID++ 2.0 Reprogrammable Button Support",
@@ -147,6 +147,6 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "down"
+    "trend": "up"
   }
 ]
