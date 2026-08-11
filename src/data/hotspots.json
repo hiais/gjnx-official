@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Linux 7.2-rc7 Adding Support For The Most Unique Or Very Funky Gaming Controller",
@@ -87,7 +87,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Humanising LLM Outputs Is Dumb",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -127,7 +127,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Linux 7.3 To Support Logitech HID++ 2.0 Reprogrammable Button Support",
@@ -147,6 +147,6 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "down"
+    "trend": "up"
   }
 ]
