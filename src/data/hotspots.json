@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "FastFlowLM 1.0 Released Now As Part Of The AMD ROCm Umbrella",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "一家新能源大厂，如何撑起全球最大AI算力超级单体？",
@@ -57,7 +57,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "LLM 的极限不在算力，在语言本身",
@@ -77,7 +77,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -127,16 +127,6 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "up"
-  },
-  {
-    "title": "宇树科技 IPO 战略配售曝光：DeepSeek 获配 93.3 万股，锁定 36 个月",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/489801",
-    "abstract": "8月6日晚间，“人形机器人第一股”宇树科技股份有限公司披露IPO发行价格及战略配售结果，杭州深度求索人工智能基础技术研究有限公司（DeepSeek）获配93.3399万股，按150.8元/股发行价格计算，认购金额约1.41亿元，股份锁定期为36个月。 公告显示，本次宇树科技战略配售对象主要包括长期投资机构、与公司业务具有战略合作......",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "14",
     "trend": "down"
   },
   {
@@ -146,7 +136,7 @@
     "abstract": "如果你玩过《过山车大亨》，你大概记得那种俯瞰视角——小人在公园里走来走去，游乐设施运转着，一切都在你的注视下运行。现在想象同样的视角，但公园里不是过山车，而是一座完整的芯片制造工厂。 这就是 Chip Tycoon。 一个黄色的小车载着一片硅晶圆，穿过 20 栋建筑，从石英砂一路走到封装好的芯片。晶圆在每一站都会发......",
     "pscore": 72,
     "category": "CHIP_FRONT",
-    "rank": "15",
-    "trend": "down"
+    "rank": "14",
+    "trend": "up"
   }
 ]
