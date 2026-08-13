@@ -1,6 +1,6 @@
 ---
 title: Law (缩放定律)
-date: 2026-08-02T10:20:23.865Z
+date: 2026-08-13T14:58:37.474Z
 category: Auto-Mined
 tags:
   - Auto-Gen

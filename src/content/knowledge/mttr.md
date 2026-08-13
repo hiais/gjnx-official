@@ -1,6 +1,6 @@
 ---
 title: MTTR (平均恢复时间)
-date: 2026-08-02T10:20:23.684Z
+date: 2026-08-13T14:58:37.327Z
 category: Auto-Mined
 tags:
   - Auto-Gen
