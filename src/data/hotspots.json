@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "谷歌创始人布林紧急接管Gemini团队，但“3.5 Pro已被取消”",
@@ -27,7 +27,7 @@
     "pscore": 95,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "黄仁勋的豪赌：当 AI 算力成为可投资的资产类别",
@@ -40,23 +40,13 @@
     "trend": "up"
   },
   {
-    "title": "HeteroFlow 异构算力调度平台于 2026 年 8 月 8 日推理服务正式发布",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/491395",
-    "abstract": "HeteroFlow v2 推理服务的解决方案正式上线 HeteroFlow v2 是一款开源的异构算力调度平台，本次发布的推理服务功能针对上述三大痛点提供完整解决方案： **> 一句话总结：**用一套 OpenAI 兼容 API，统一调度 9 种厂商 GPU × 5 种推理引擎，原生支持多租户、计费、扩缩容、热加载。 三、核心能力详解1. OpenAI A...",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
-  },
-  {
     "title": "人形之外，擎羽把“身体”变成具身智能的新变量",
     "source": "QbitAI",
     "link": "https://www.qbitai.com/2026/08/470874.html",
     "abstract": "从柔性本体走向跨本体基础智能，让任务与世界知识延续...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -66,7 +56,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -76,8 +66,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "FastFlowLM 1.0 Released Now As Part Of The AMD ROCm Umbrella",
@@ -86,7 +76,7 @@
     "abstract": "FastFlowLM is the open-source software for getting vision, audio, embedding, and MoE large language models up and running on AMD Ryzen AI NPUs. FastFlowLM 1.0 released today and is...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -96,7 +86,7 @@
     "abstract": "算力竞赛的天平，正在向电力倾斜...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -106,7 +96,7 @@
     "abstract": "一篇标题叫 \"Position: LLMs Can't Jump\" 的论文近日在 Hacker News 引起了众多程序员关注，讨论层层递进，从语言的有损编码一直聊到爱因斯坦的思考方式。 论文的核心论点很简单，但直接挑战了当前 AI 行业的底层假设：大语言模型的能力边界，不是算力不够，不是数据不够，而是语言本身就是人类体验的有损压缩。LLM 看到......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -116,7 +106,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -126,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -136,14 +126,24 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/pytorch-xla",
     "abstract": "",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "down"
+  },
+  {
+    "title": "一个 4B 开源模型，检索能力追平了 GPT-5.6 Sol，成本降到 1/100",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/492295",
+    "abstract": "Neon 和 Castform 联合发布了一篇博客，展示了一个惊人的结果：一个 4B 参数的开源模型，经过 RL 后训练之后，在检索任务上的准确率追平了 GPT-5.6 Sol，但每次请求的成本只有对方的 1/100。 具体来说，GPT-5.6 Sol 做一次典型的多轮搜索请求需要超过 10 秒，端到端成本约 0.03 美元。对于需要反复搜索的 agent ...",
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "15",
