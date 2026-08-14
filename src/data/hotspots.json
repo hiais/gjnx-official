@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "FastFlowLM 1.0 Released Now As Part Of The AMD ROCm Umbrella",
@@ -67,16 +67,6 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
-  },
-  {
-    "title": "LLM 的极限不在算力，在语言本身",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/492309/llms-cant-jump",
-    "abstract": "一篇标题叫 \"Position: LLMs Can't Jump\" 的论文近日在 Hacker News 引起了众多程序员关注，讨论层层递进，从语言的有损编码一直聊到爱因斯坦的思考方式。 论文的核心论点很简单，但直接挑战了当前 AI 行业的底层假设：大语言模型的能力边界，不是算力不够，不是数据不够，而是语言本身就是人类体验的有损压缩。LLM 看到......",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "08",
     "trend": "down"
   },
   {
@@ -86,8 +76,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "Accelerating GPT-5.6 Sol Ultrafast",
@@ -96,8 +86,8 @@
     "abstract": "Comments...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -106,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -116,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -126,18 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "12",
     "trend": "up"
-  },
-  {
-    "title": "他把芯片制造做成了“过山车大亨”：一个浏览器里的半导体工厂",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/492323/chip-tycoon",
-    "abstract": "如果你玩过《过山车大亨》，你大概记得那种俯瞰视角——小人在公园里走来走去，游乐设施运转着，一切都在你的注视下运行。现在想象同样的视角，但公园里不是过山车，而是一座完整的芯片制造工厂。 这就是 Chip Tycoon。 一个黄色的小车载着一片硅晶圆，穿过 20 栋建筑，从石英砂一路走到封装好的芯片。晶圆在每一站都会发......",
-    "pscore": 72,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
   },
   {
     "title": "深度测评 SpaceXAI 的 Grok 4.6：Agent 能力突出、成本效率成杀手锏",
@@ -146,7 +126,17 @@
     "abstract": "Artificial Analysis对Grok 4.6进行了独立深度评测，结果显示这款模型在Agent任务上表现尤为出色，同时在成本效率方面建立了显著优势。Grok 4.6在AI智能指数（九项基准测试的复合评分）中获得61分，较Grok 4.5提升5分，较Grok 4.3提升23分。 评测的核心发现是：Grok 4.6的Agent能力突出于静态推理能力之上...",
     "pscore": 71,
     "category": "CHIP_FRONT",
-    "rank": "15",
+    "rank": "13",
+    "trend": "up"
+  },
+  {
+    "title": "Gemini 3.7 Flash",
+    "source": "HackerNews",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+    "abstract": "Comments...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "14",
     "trend": "down"
   }
 ]
