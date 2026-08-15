@@ -1,6 +1,6 @@
 ---
 title: 1ns (直连)
-date: 2026-08-13T14:58:35.741Z
+date: 2026-08-15T22:49:22.315Z
 category: Auto-Mined
 tags:
   - Auto-Gen

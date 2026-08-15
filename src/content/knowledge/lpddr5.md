@@ -1,6 +1,6 @@
 ---
 title: LPDDR5 (旧代)
-date: 2026-08-13T14:58:37.598Z
+date: 2026-08-15T22:49:24.521Z
 category: Auto-Mined
 tags:
   - Auto-Gen
