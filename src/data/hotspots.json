@@ -1,23 +1,13 @@
 [
   {
-    "title": "LACT 0.10 Released With New NVIDIA Overclocking Controls, Blackwell Hotspot Sensor",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/LACT-0.10-Released",
-    "abstract": "LACT is one of the popular third-party Linux GPU configuration and monitoring utilities that works across NVIDIA, AMD, and Intel graphics. This GUI provides GPU overclocking contro...",
-    "pscore": 95,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "up"
-  },
-  {
     "title": "Lemonade 11.6 Integrates Muse-Glimmer 30B, Experimental TheNoise ROCm Image Generation",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/news/Lemonade-SDK-11.6",
     "abstract": "For those dabbling with generative AI on the weekends, the AMD-led Lemonade SDK 11.6 is out today with its newest feature release of this open-source software for running local AI ...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
+    "rank": "01",
+    "trend": "down"
   },
   {
     "title": "黄仁勋的豪赌：当 AI 算力成为可投资的资产类别",
@@ -26,18 +16,8 @@
     "abstract": "英伟达正试图把 AI 工厂变成一种新的资产类别——就像铁路、电网、数据中心一样，可以打包成金融产品卖给机构投资者。 黄仁勋在 X 上宣布与 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs 和 KKR 合作，目标是撬动超过 5000 亿美元的第三方资本来建设 AI 基础设施。英伟达自己承担最高 25% ...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
-  },
-  {
-    "title": "算力需求两年涨10倍，机器人为了走进真实物理世界，正在疯狂「吃算力」",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/08/472722.html",
-    "abstract": "少花一半成本，部署效率提升80%！机器人研发可以不用重复造轮子了。...",
-    "pscore": 87,
-    "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "02",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -46,7 +26,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -56,7 +36,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -66,8 +46,8 @@
     "abstract": "xAI于2026年8月12日正式发布Grok 4.6，在AI智能指数（Artificial Analysis Intelligence Index）上获得61分，追平了GPT-5.6 Sol（Max），仅落后Claude Opus 5（63分）和Claude Fable 5（62分，含fallback）。 Grok 4.6在Grok 4.5基础上进行了扩展训...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -76,8 +56,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -86,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -96,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -106,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "深度测评 SpaceXAI 的 Grok 4.6：Agent 能力突出、成本效率成杀手锏",
@@ -116,7 +96,7 @@
     "abstract": "Artificial Analysis对Grok 4.6进行了独立深度评测，结果显示这款模型在Agent任务上表现尤为出色，同时在成本效率方面建立了显著优势。Grok 4.6在AI智能指数（九项基准测试的复合评分）中获得61分，较Grok 4.5提升5分，较Grok 4.3提升23分。 评测的核心发现是：Grok 4.6的Agent能力突出于静态推理能力之上...",
     "pscore": 71,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "10",
     "trend": "down"
   }
 ]
