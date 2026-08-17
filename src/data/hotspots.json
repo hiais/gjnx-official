@@ -1,23 +1,23 @@
 [
   {
+    "title": "共生知行发布人形机器人赛车Demo：以卡丁车测试双足机器人的“全身智能”",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/08/474537.html",
+    "abstract": "8月17日，具身智能初创公司共生知行发布双足人形机器人驾驶卡丁车Demo...",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "up"
+  },
+  {
     "title": "Lemonade 11.6 Integrates Muse-Glimmer 30B, Experimental TheNoise ROCm Image Generation",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/news/Lemonade-SDK-11.6",
     "abstract": "For those dabbling with generative AI on the weekends, the AMD-led Lemonade SDK 11.6 is out today with its newest feature release of this open-source software for running local AI ...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "down"
-  },
-  {
-    "title": "黄仁勋的豪赌：当 AI 算力成为可投资的资产类别",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/501899/nvidias-risky-business",
-    "abstract": "英伟达正试图把 AI 工厂变成一种新的资产类别——就像铁路、电网、数据中心一样，可以打包成金融产品卖给机构投资者。 黄仁勋在 X 上宣布与 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs 和 KKR 合作，目标是撬动超过 5000 亿美元的第三方资本来建设 AI 基础设施。英伟达自己承担最高 25% ...",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "xAI 发布 Grok 4.6，智能指数追平 GPT-5.6 Sol",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -57,7 +57,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -77,7 +77,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -87,7 +87,17 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
+  },
+  {
+    "title": "人形机器人开始打国球了！两台机器人完整打完11分制比赛",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/08/474518.html",
+    "abstract": "没有遥控、没人喂球...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "深度测评 SpaceXAI 的 Grok 4.6：Agent 能力突出、成本效率成杀手锏",
@@ -96,7 +106,7 @@
     "abstract": "Artificial Analysis对Grok 4.6进行了独立深度评测，结果显示这款模型在Agent任务上表现尤为出色，同时在成本效率方面建立了显著优势。Grok 4.6在AI智能指数（九项基准测试的复合评分）中获得61分，较Grok 4.5提升5分，较Grok 4.3提升23分。 评测的核心发现是：Grok 4.6的Agent能力突出于静态推理能力之上...",
     "pscore": 71,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   }
 ]
