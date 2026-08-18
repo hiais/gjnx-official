@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "xAI 发布 Grok 4.6，智能指数追平 GPT-5.6 Sol",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -60,13 +60,23 @@
     "trend": "up"
   },
   {
+    "title": "GPT-5.6 Sol Pricing Cut by 50%",
+    "source": "HackerNews",
+    "link": "https://openrouter.ai/openai/gpt-5.6-sol",
+    "abstract": "Comments...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "07",
+    "trend": "up"
+  },
+  {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/keras-chatbot-arena",
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -76,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -86,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -96,8 +106,8 @@
     "abstract": "没有遥控、没人喂球...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "深度测评 SpaceXAI 的 Grok 4.6：Agent 能力突出、成本效率成杀手锏",
@@ -106,7 +116,7 @@
     "abstract": "Artificial Analysis对Grok 4.6进行了独立深度评测，结果显示这款模型在Agent任务上表现尤为出色，同时在成本效率方面建立了显著优势。Grok 4.6在AI智能指数（九项基准测试的复合评分）中获得61分，较Grok 4.5提升5分，较Grok 4.3提升23分。 评测的核心发现是：Grok 4.6的Agent能力突出于静态推理能力之上...",
     "pscore": 71,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "down"
   }
 ]
