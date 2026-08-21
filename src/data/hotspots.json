@@ -10,23 +10,13 @@
     "trend": "up"
   },
   {
-    "title": "首批！优必选行者具身智能大模型完成生成式人工智能服务备案",
+    "title": "明略科技携手海康机器人亮相世界机器人大会，以“Agent+具身”联合进入商业机器人场景",
     "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/08/476406.html",
-    "abstract": "",
+    "link": "https://www.qbitai.com/2026/08/476733.html",
+    "abstract": "明略科技（2718.HK）与海康机器人联合参展2026WRC，聚焦商业服务领域展示具身智能落地进展。...",
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
-  },
-  {
-    "title": "今年WRC最大展台，预告具身智能未来",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/08/476141.html",
-    "abstract": "从自主泛化到真生产力...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "03",
     "trend": "up"
   },
   {
@@ -36,8 +26,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
+    "rank": "03",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -46,7 +36,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -56,7 +46,7 @@
     "abstract": "All of the networking subsystem feature updates were merged today for the Linux 7.3 kernel's merge window. There are a lot of wired and wireless networking improvements this cycle ...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -66,8 +56,8 @@
     "abstract": "美团核心本地商业 CEO 王莆中最近做了一次公开复盘，话题是内部那场轰轰烈烈的 AI 运动——「全员养虾」。 「养虾」是美团内部的戏称。今年 2 到 3 月，美团十万员工中约八万人放开使用 AI Agent，token 不设上限。公司希望用规模换认知，快速完成组织级 AI 扫盲。 效果确实立竿见影——每天算力账单上千万元。 钱烧出去......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "算力互联、调度协同、生态共创｜开源中国携手超智算科技、共绩科技达成战略合作",
@@ -76,7 +66,7 @@
     "abstract": "国务院《AI+行动意见》强调加强智能算力互联互通和供需匹配。工信部《算力互联互通行动计划》和\"毫秒用算\"专项行动提出\"盘活存量、精准对接、弹性供给\"，推动算力从\"重硬件囤积\"转向\"重高效调度\"。超智算科技（S·AIDC）与共绩科技、开源中国就算力资源共享、算网平台建设、弹性算力协同、技术与商业信息共享、用户生态等......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -86,7 +76,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -96,7 +86,7 @@
     "abstract": "Andrew Morton on Tuesday sent out all of the memory management \"MM\" updates for the Linux 7.3 merge window. The MM pull was particularly heavy as he noted 1,250 \"added-to-MM\" email...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -106,7 +96,7 @@
     "abstract": "Comments...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -116,8 +106,8 @@
     "abstract": "Secret parameter allowed hackers to steal passwords when a target clicked on a link....",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -126,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -136,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "13",
     "trend": "down"
   },
   {
@@ -146,7 +136,17 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "15",
+    "rank": "14",
     "trend": "up"
+  },
+  {
+    "title": "设计无边界！中坚科技旗下子公司桦之坚携巨型概念机器人ZERO惊艳2026世界机器人大会",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/08/476525.html",
+    "abstract": "中坚科技（002779.SZ）旗下桦之坚携概念人形机器人ZERO亮相2026世界机器人大会。...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "15",
+    "trend": "down"
   }
 ]
