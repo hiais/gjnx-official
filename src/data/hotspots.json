@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Open-Source Etnaviv Driver Now Able To Run YOLOX",
@@ -37,36 +37,6 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
-  },
-  {
-    "title": "不是Demo！优必选把客户产线1:1搬进WRC，解锁具身智能真落地路径",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/08/477016.html",
-    "abstract": "具身智能赛道壁垒不在出货量...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
-  },
-  {
-    "title": "从模型到生产力：星海图与产业朋友圈共探具身智能的下一站",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/08/476930.html",
-    "abstract": "让具身智能技术真正落地千行万业。...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
-  },
-  {
-    "title": "明略科技携手海康机器人亮相世界机器人大会，以“Agent+具身”联合进入商业机器人场景",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/08/476733.html",
-    "abstract": "明略科技（2718.HK）与海康机器人联合参展2026WRC，聚焦商业服务领域展示具身智能落地进展。...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "07",
     "trend": "up"
   },
   {
@@ -76,7 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -86,8 +56,18 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
+  },
+  {
+    "title": "Linux 7.3 Input Subsystem Updates Merged With Security Fixes, Other Improvements",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Linux-7.3-Input",
+    "abstract": "The big set of input subsystem updates were merged earlier this week for the Linux 7.3 cycle. It's a random assortment of different improvements as well as bug/security fixes drive...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "Linux 7.3 Network Changes Merged But Developers \"Completely Overwhelmed\" Due To AI/LLMs",
@@ -96,7 +76,7 @@
     "abstract": "All of the networking subsystem feature updates were merged today for the Linux 7.3 kernel's merge window. There are a lot of wired and wireless networking improvements this cycle ...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -106,7 +86,7 @@
     "abstract": "美团核心本地商业 CEO 王莆中最近做了一次公开复盘，话题是内部那场轰轰烈烈的 AI 运动——「全员养虾」。 「养虾」是美团内部的戏称。今年 2 到 3 月，美团十万员工中约八万人放开使用 AI Agent，token 不设上限。公司希望用规模换认知，快速完成组织级 AI 扫盲。 效果确实立竿见影——每天算力账单上千万元。 钱烧出去......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -116,7 +96,7 @@
     "abstract": "国务院《AI+行动意见》强调加强智能算力互联互通和供需匹配。工信部《算力互联互通行动计划》和\"毫秒用算\"专项行动提出\"盘活存量、精准对接、弹性供给\"，推动算力从\"重硬件囤积\"转向\"重高效调度\"。超智算科技（S·AIDC）与共绩科技、开源中国就算力资源共享、算网平台建设、弹性算力协同、技术与商业信息共享、用户生态等......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -126,8 +106,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   },
   {
     "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
@@ -136,13 +116,33 @@
     "abstract": "Secret parameter allowed hackers to steal passwords when a target clicked on a link....",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "12",
     "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/keras-chatbot-arena",
+    "abstract": "",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "13",
+    "trend": "up"
+  },
+  {
+    "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/sdxl_jax",
+    "abstract": "",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "down"
+  },
+  {
+    "title": "Hugging Face on PyTorch / XLA TPUs",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/pytorch-xla",
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
