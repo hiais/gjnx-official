@@ -7,7 +7,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Open-Source Etnaviv Driver Now Able To Run YOLOX",
@@ -17,7 +17,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "MS Paint and Photos inivisibly watermark even locally generated output with GUID",
@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -77,7 +77,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -97,7 +97,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -117,7 +117,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -137,7 +137,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "14",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "演出前一晚机器人集体拖拍，宇树团队通宵重写代码保住王力宏演唱会",
