@@ -10,13 +10,23 @@
     "trend": "up"
   },
   {
+    "title": "OpenAI Jalapeño: Better than Nvidia Blackwell",
+    "source": "HackerNews",
+    "link": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
+    "abstract": "Comments...",
+    "pscore": 92,
+    "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "down"
+  },
+  {
     "title": "Apple Launches The M6 2nm 12-core CPU, Quad-Die M5 Ultra",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/news/Apple-M6-M5-Ultra",
     "abstract": "Apple today unveiled the M6 as their first 2nm SoC design while also introducing the M5 Ultra as their first quad-die product......",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -26,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -36,7 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -46,8 +56,8 @@
     "abstract": "The big set of input subsystem updates were merged earlier this week for the Linux 7.3 cycle. It's a random assortment of different improvements as well as bug/security fixes drive...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "美团高管反思「全员养虾」，8 万人日耗千万算力没带来生产力提升",
@@ -56,7 +66,7 @@
     "abstract": "美团核心本地商业 CEO 王莆中最近做了一次公开复盘，话题是内部那场轰轰烈烈的 AI 运动——「全员养虾」。 「养虾」是美团内部的戏称。今年 2 到 3 月，美团十万员工中约八万人放开使用 AI Agent，token 不设上限。公司希望用规模换认知，快速完成组织级 AI 扫盲。 效果确实立竿见影——每天算力账单上千万元。 钱烧出去......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -66,8 +76,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
@@ -76,8 +86,8 @@
     "abstract": "Secret parameter allowed hackers to steal passwords when a target clicked on a link....",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -86,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -96,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -106,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "down"
   },
   {
@@ -116,7 +126,7 @@
     "abstract": "第二届世界人形机器人运动会 400 米（小型组）决赛，天工 Omni 以 45.66 秒的成绩夺冠。但让它出圈的，是那个捂脸狂奔的跑姿——网友说\"神似章若楠\"。 面对\"是不是找个了小姑娘去模仿\"的猜测，天工 Omni 400 米小型组研发团队负责人、运动控制算法专家韩刚用一句话让讨论换了方向：都是强化学习自己迭代出来的。 \"一开始......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "down"
   },
   {
@@ -126,8 +136,8 @@
     "abstract": "GitHub 上有个 Issue 值得关注。 一位开发者在使用 Codex CLI 的 Amazon Bedrock 原生 provider 接入 GPT-5.6 Sol 时，发现 4 天花掉了约 1386 美元，其中85% 花在了 prompt cache write 上，而不是真正的推理使用。 事情是这样的：Codex 在工作时会维护一个 prompt_...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "14",
+    "trend": "up"
   },
   {
     "title": "演出前一晚机器人集体拖拍，宇树团队通宵重写代码保住王力宏演唱会",
@@ -136,7 +146,7 @@
     "abstract": "宇树科技上市答谢午宴上，王力宏讲了一段往事。 2025 年 12 月，他的成都演唱会，6 台宇树 G1 人形机器人要上台伴舞《火力全开》。这是全球首次机器人群体舞蹈演出。准备期几个月。编舞老师绑上动作捕捉器，几千个动作逐帧输入到机器人关节里。彩排时一切正常——机器人跳得很完美。 然后出问题了。 王力宏原话是：\"一开......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
+    "rank": "15",
+    "trend": "up"
   }
 ]
