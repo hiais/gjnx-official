@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "硅谷今日最热具身模型！不用后训练，看一遍就学会",
@@ -17,16 +17,6 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
-  },
-  {
-    "title": "Apple Launches The M6 2nm 12-core CPU, Quad-Die M5 Ultra",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Apple-M6-M5-Ultra",
-    "abstract": "Apple today unveiled the M6 as their first 2nm SoC design while also introducing the M5 Ultra as their first quad-die product......",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "03",
     "trend": "down"
   },
   {
@@ -36,8 +26,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -46,7 +36,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -56,8 +46,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
@@ -66,7 +56,7 @@
     "abstract": "Secret parameter allowed hackers to steal passwords when a target clicked on a link....",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -76,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -86,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -96,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "天工机器人捂脸跑夺冠，团队：没找人教，它自己决定的",
@@ -106,17 +96,27 @@
     "abstract": "第二届世界人形机器人运动会 400 米（小型组）决赛，天工 Omni 以 45.66 秒的成绩夺冠。但让它出圈的，是那个捂脸狂奔的跑姿——网友说\"神似章若楠\"。 面对\"是不是找个了小姑娘去模仿\"的猜测，天工 Omni 400 米小型组研发团队负责人、运动控制算法专家韩刚用一句话让讨论换了方向：都是强化学习自己迭代出来的。 \"一开始......",
     "pscore": 75,
     "category": "CHIP_FRONT",
+    "rank": "10",
+    "trend": "down"
+  },
+  {
+    "title": "Gemini Omni 1.1 Flash",
+    "source": "HackerNews",
+    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+    "abstract": "Comments...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
     "rank": "11",
     "trend": "up"
   },
   {
-    "title": "Codex CLI 的 Bedrock 接入绕过了 GPT-5.6 缓存，4 天花掉 1386 美元，85% 是白写的",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/502085",
-    "abstract": "GitHub 上有个 Issue 值得关注。 一位开发者在使用 Codex CLI 的 Amazon Bedrock 原生 provider 接入 GPT-5.6 Sol 时，发现 4 天花掉了约 1386 美元，其中85% 花在了 prompt cache write 上，而不是真正的推理使用。 事情是这样的：Codex 在工作时会维护一个 prompt_...",
-    "pscore": 75,
+    "title": "Gemini-3.5-Transcribe",
+    "source": "HackerNews",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+    "abstract": "Comments...",
+    "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "down"
+    "trend": "up"
   }
 ]
