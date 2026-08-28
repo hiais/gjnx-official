@@ -7,17 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
-  },
-  {
-    "title": "硅谷今日最热具身模型！不用后训练，看一遍就学会",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/08/479834.html",
-    "abstract": "具身智能迈向GPT时刻...",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -26,7 +16,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -36,7 +26,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -46,8 +36,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
@@ -56,8 +46,8 @@
     "abstract": "Secret parameter allowed hackers to steal passwords when a target clicked on a link....",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -66,7 +56,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -76,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -86,7 +76,27 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
+    "rank": "08",
+    "trend": "up"
+  },
+  {
+    "title": "商汤大装置助力智象未来实现视频生成业务向国产算力无感迁移",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/08/480227.html",
+    "abstract": "国产算力跑通视频生成规模化应用...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
     "rank": "09",
+    "trend": "up"
+  },
+  {
+    "title": "智谱 GLM-5.3-Flash上线，商汤大装置提供国产算力支持",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/08/480223.html",
+    "abstract": "国产异构助力前沿智能进入普惠时代...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -95,16 +105,6 @@
     "link": "https://www.oschina.net/news/502105",
     "abstract": "第二届世界人形机器人运动会 400 米（小型组）决赛，天工 Omni 以 45.66 秒的成绩夺冠。但让它出圈的，是那个捂脸狂奔的跑姿——网友说\"神似章若楠\"。 面对\"是不是找个了小姑娘去模仿\"的猜测，天工 Omni 400 米小型组研发团队负责人、运动控制算法专家韩刚用一句话让讨论换了方向：都是强化学习自己迭代出来的。 \"一开始......",
     "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
-  },
-  {
-    "title": "Gemini Omni 1.1 Flash",
-    "source": "HackerNews",
-    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
-    "abstract": "Comments...",
-    "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "11",
     "trend": "up"
@@ -117,6 +117,16 @@
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "up"
+    "trend": "down"
+  },
+  {
+    "title": "Gemini Omni 1.1 Flash",
+    "source": "HackerNews",
+    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+    "abstract": "Comments...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "13",
+    "trend": "down"
   }
 ]
