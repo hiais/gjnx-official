@@ -7,7 +7,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -37,7 +37,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
@@ -57,7 +57,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -78,25 +78,5 @@
     "category": "CHIP_FRONT",
     "rank": "08",
     "trend": "up"
-  },
-  {
-    "title": "商汤大装置助力智象未来实现视频生成业务向国产算力无感迁移",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/08/480227.html",
-    "abstract": "国产算力跑通视频生成规模化应用...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
-  },
-  {
-    "title": "智谱 GLM-5.3-Flash上线，商汤大装置提供国产算力支持",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/08/480223.html",
-    "abstract": "国产异构助力前沿智能进入普惠时代...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
   }
 ]
