@@ -7,17 +7,17 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
-    "title": "全国第三，公司第二，“初创黑马”灵犀智涌用ROSS Harness把机器人送进工业具身智能第一梯队",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/08/481750.html",
-    "abstract": "灵犀智涌用一台由Demo级本体组装而成的机器人，成为工业场景赛除行业头部企业外唯一获奖的机器人公司。...",
-    "pscore": 85,
+    "title": "云上AI应用故障诊断，上海开源大赛ZSvirt命题公布",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/502247",
+    "abstract": "现在不少 AI 应用跑在云环境里，我们称之为「智算云」。简单来说，就是专门承载 GPU 算力、支撑大模型训练和推理的云平台。 在智算云环境中，GPU、vGPU、虚拟机、容器、模型服务和智能体（Agent）往往跨越多个资源与运行层。ZSvirt 可提供主机、虚拟机、网络、存储、GPU/vGPU、告警等基础设施视角，但实际业务故障常发生......",
+    "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -118,5 +118,15 @@
     "category": "CHIP_FRONT",
     "rank": "12",
     "trend": "up"
+  },
+  {
+    "title": "机器人自由搏斗大赛",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/502244",
+    "abstract": "当冰冷的钢铁机身踏上擂台，当精密算法取代临场本能，当机械铁拳、精准闪避、极限攻防轮番上演，一场属于未来的热血对决就此开启。不同于传统科技赛事的静态展示，机器人自由搏斗大赛以最直观、最高燃的方式，让大众亲眼见证人形机器人的硬核实力，解锁人工智能与智能制造的无限可能。 很多人对机器人的印象，还停留在流......",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "13",
+    "trend": "down"
   }
 ]
