@@ -7,6 +7,16 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
+    "trend": "down"
+  },
+  {
+    "title": "Lemonade 11.9 Local AI Server Released With Super Exciting AMD ROCm HRX Backend",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Lemonade-11.9-ROCm-HRX",
+    "abstract": "Lemonade 11.9 is out today as the newest feature release to this AMD-backed, open-source local AI server solution across Linux, Windows, and macOS. Lemonade has long been focused o...",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -16,8 +26,8 @@
     "abstract": "现在不少 AI 应用跑在云环境里，我们称之为「智算云」。简单来说，就是专门承载 GPU 算力、支撑大模型训练和推理的云平台。 在智算云环境中，GPU、vGPU、虚拟机、容器、模型服务和智能体（Agent）往往跨越多个资源与运行层。ZSvirt 可提供主机、虚拟机、网络、存储、GPU/vGPU、告警等基础设施视角，但实际业务故障常发生......",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
+    "rank": "03",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -26,24 +36,14 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tf_tpu",
     "abstract": "",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
-  },
-  {
-    "title": "New Linux Patches Tune AMD Ryzen Zen 6 To Optimize Performance & Power Consumption",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/AMD-Zen-6-Client-EPP-Tunings",
-    "abstract": "Ahead of the next-generation AMD Ryzen Zen 6 client processors debuting, an important patch series was posted overnight to the Linux kernel mailing list. These patches provide new ...",
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
@@ -77,7 +77,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
@@ -117,7 +117,7 @@
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Early Benchmarks Of AMD EPYC On Linux 7.3 Show Some Performance Gains On The Horizon",
