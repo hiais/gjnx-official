@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Lemonade 11.9 Local AI Server Released With Super Exciting AMD ROCm HRX Backend",
@@ -17,7 +17,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "云上AI应用故障诊断，上海开源大赛ZSvirt命题公布",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -67,7 +67,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
@@ -97,7 +97,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -107,6 +107,16 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
+    "trend": "down"
+  },
+  {
+    "title": "InputPlumber 0.79 Adds Support For More Handhelds",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/InputPlumber-0.79",
+    "abstract": "InputPlumber is the open-source router and remapping daemon for Linux that is particularly popular among Linux gaming handhelds for combining multiple input devices and translating...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -116,7 +126,7 @@
     "abstract": "Comments...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "down"
   },
   {
@@ -126,7 +136,7 @@
     "abstract": "With Linux 7.3-rc1 out this week and marking the end of the merge window, it's onto a lot of Linux 7.3 performance testing at Phoronix and looking at all the new features of Linux ...",
     "pscore": 66,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "14",
     "trend": "up"
   }
 ]
