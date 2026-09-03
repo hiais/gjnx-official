@@ -1,22 +1,12 @@
 [
   {
-    "title": "Can I opt out of my input or output data being used for training?",
-    "source": "HackerNews",
-    "link": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
-    "abstract": "Comments...",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "up"
-  },
-  {
     "title": "Lemonade 11.9 Local AI Server Released With Super Exciting AMD ROCm HRX Backend",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/news/Lemonade-11.9-ROCm-HRX",
     "abstract": "Lemonade 11.9 is out today as the newest feature release to this AMD-backed, open-source local AI server solution across Linux, Windows, and macOS. Lemonade has long been focused o...",
     "pscore": 99,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "01",
     "trend": "up"
   },
   {
@@ -26,7 +16,7 @@
     "abstract": "现在不少 AI 应用跑在云环境里，我们称之为「智算云」。简单来说，就是专门承载 GPU 算力、支撑大模型训练和推理的云平台。 在智算云环境中，GPU、vGPU、虚拟机、容器、模型服务和智能体（Agent）往往跨越多个资源与运行层。ZSvirt 可提供主机、虚拟机、网络、存储、GPU/vGPU、告警等基础设施视角，但实际业务故障常发生......",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -36,7 +26,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -46,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -56,7 +46,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -66,8 +56,8 @@
     "abstract": "Intel Foundry has a blog on LinkedIn that is worth a look. The blogs are by trusted Intel Foundry technical experts and are filled with content. I will cherry pick write a bit abou...",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
@@ -76,7 +66,7 @@
     "abstract": "Secret parameter allowed hackers to steal passwords when a target clicked on a link....",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -86,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -96,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -106,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -116,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -126,17 +116,7 @@
     "abstract": "InputPlumber is the open-source router and remapping daemon for Linux that is particularly popular among Linux gaming handhelds for combining multiple input devices and translating...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
-  },
-  {
-    "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
-    "source": "HackerNews",
-    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-    "abstract": "Comments...",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -146,7 +126,7 @@
     "abstract": "With Linux 7.3-rc1 out this week and marking the end of the merge window, it's onto a lot of Linux 7.3 performance testing at Phoronix and looking at all the new features of Linux ...",
     "pscore": 66,
     "category": "CHIP_FRONT",
-    "rank": "15",
+    "rank": "13",
     "trend": "up"
   }
 ]
