@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "云上AI应用故障诊断，上海开源大赛ZSvirt命题公布",
@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -40,24 +40,24 @@
     "trend": "up"
   },
   {
+    "title": "趋境科技与摩尔线程达成战略合作，高品质 AI Token 国产异构方案性价比超越国际先进算力",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/09/484547.html",
+    "abstract": "国产卡跑出高品质 AI Token 生产级性能...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "05",
+    "trend": "up"
+  },
+  {
     "title": "Groq on Hugging Face Inference Providers 🔥",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/inference-providers-groq",
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
-  },
-  {
-    "title": "Intel 18A-P Pushes RibbonFET and Backside Power Beyond the First Generation",
-    "source": "SemiWiki",
-    "link": "https://semiwiki.com/semiconductor-manufacturers/intel/372712-intel-18a-p-pushes-ribbonfet-and-backside-power-beyond-the-first-generation/",
-    "abstract": "Intel Foundry has a blog on LinkedIn that is worth a look. The blogs are by trusted Intel Foundry technical experts and are filled with content. I will cherry pick write a bit abou...",
-    "pscore": 80,
-    "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "InputPlumber 0.79 Adds Support For More Handhelds",
@@ -120,13 +120,23 @@
     "trend": "up"
   },
   {
+    "title": "PoCL 7.2 Released With Official OpenCL 3.0 Conformance On RISC-V & x86_64 CPUs",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/PoCL-7.2-Released",
+    "abstract": "The Portable Computing Language project is out today with PoCL 7.2 as this portable, MIT-licensed OpenCL implementation that runs across various CPU architectures as well as target...",
+    "pscore": 67,
+    "category": "CHIP_FRONT",
+    "rank": "13",
+    "trend": "down"
+  },
+  {
     "title": "Early Benchmarks Of AMD EPYC On Linux 7.3 Show Some Performance Gains On The Horizon",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/review/linux-73-amd-epyc",
     "abstract": "With Linux 7.3-rc1 out this week and marking the end of the merge window, it's onto a lot of Linux 7.3 performance testing at Phoronix and looking at all the new features of Linux ...",
     "pscore": 66,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "14",
     "trend": "up"
   }
 ]
