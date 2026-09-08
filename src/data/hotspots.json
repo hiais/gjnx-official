@@ -1,20 +1,20 @@
 [
   {
-    "title": "Comparing Advanced Packaging from TSMC, Intel Foundry, and Samsung Foundry",
-    "source": "SemiWiki",
-    "link": "https://semiwiki.com/3dic/372087-comparing-advanced-packaging-from-tsmc-intel-foundry-and-samsung-foundry/",
-    "abstract": "Advanced semiconductor packaging has become essential to improving computing performance as conventional transistor scaling grows more difficult and expensive. Instead of manufactu...",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "up"
-  },
-  {
     "title": "Nouveau Lands Display Fixes For NVIDIA Blackwell GPUs As It Works Toward HDMI 2.1",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/news/Nouveau-Blackwell-Display-Fixes",
     "abstract": "This week's Direct Rendering Manager (DRM) fixes that were merged ahead of Sunday's Linux 7.3-rc2 release contain a number of fixes to the open-source Nouveau driver's display supp...",
     "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "down"
+  },
+  {
+    "title": "New Patches Provide HDMI 1.4 3D Mode Support For AMD Radeon Graphics On Linux",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/AMDGPU-HDMI-1.4-3D-Mode",
+    "abstract": "It turns out one of the feature limitations of the AMDGPU Linux graphics driver is HDMI 1.4 3D output support with frame packing, top-and-bottom, and side-by-side options for trans...",
+    "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "02",
     "trend": "up"
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "深度智控获宁德时代、沙特阿美战投等重磅加码，加速打造物理AI时代算力与能源底座",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -57,7 +57,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
@@ -67,7 +67,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
@@ -77,7 +77,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -97,7 +97,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -108,25 +108,5 @@
     "category": "CHIP_FRONT",
     "rank": "11",
     "trend": "down"
-  },
-  {
-    "title": "PoCL 7.2 Released With Official OpenCL 3.0 Conformance On RISC-V & x86_64 CPUs",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/PoCL-7.2-Released",
-    "abstract": "The Portable Computing Language project is out today with PoCL 7.2 as this portable, MIT-licensed OpenCL implementation that runs across various CPU architectures as well as target...",
-    "pscore": 67,
-    "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
-  },
-  {
-    "title": "Early Benchmarks Of AMD EPYC On Linux 7.3 Show Some Performance Gains On The Horizon",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/linux-73-amd-epyc",
-    "abstract": "With Linux 7.3-rc1 out this week and marking the end of the merge window, it's onto a lot of Linux 7.3 performance testing at Phoronix and looking at all the new features of Linux ...",
-    "pscore": 66,
-    "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
   }
 ]
