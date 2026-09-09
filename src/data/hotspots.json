@@ -1,23 +1,23 @@
 [
   {
-    "title": "Nouveau Lands Display Fixes For NVIDIA Blackwell GPUs As It Works Toward HDMI 2.1",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Nouveau-Blackwell-Display-Fixes",
-    "abstract": "This week's Direct Rendering Manager (DRM) fixes that were merged ahead of Sunday's Linux 7.3-rc2 release contain a number of fixes to the open-source Nouveau driver's display supp...",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "down"
-  },
-  {
     "title": "HBM’s Second Act: When Memory Starts Thinking",
     "source": "SemiWiki",
     "link": "https://semiwiki.com/events/372843-372843/",
     "abstract": "Samsung’s Hot Chips 2026 presentation, “HBM Base Die: How HBM Will Evolve Using Advanced Logic Processes,” argues that the base die beneath a High Bandwidth Memory stack is about t...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "01",
     "trend": "up"
+  },
+  {
+    "title": "Experimental Patches Get Nouveau+NVK Working On NVIDIA DGX Spark GB10",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Experiment-Nouveau-NVIDIA-GB10",
+    "abstract": "Red Hat's David Airlie has managed another open-source graphics engineering feat... Getting the Nouveau reverse-engineered kernel graphics driver and Mesa NVK Vulkan driver running...",
+    "pscore": 92,
+    "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "down"
   },
   {
     "title": "New Patches Provide HDMI 1.4 3D Mode Support For AMD Radeon Graphics On Linux",
@@ -27,6 +27,16 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "03",
+    "trend": "down"
+  },
+  {
+    "title": "具身机器人能搞定超市盘点吗？全球七万门店正在给出答案",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/09/486280.html",
+    "abstract": "从Demo到货架，这两家公司要让具身智能算得过账...",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -36,7 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -46,7 +56,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -56,7 +66,7 @@
     "abstract": "近日，物理AI企业深度智控（DeepCtrls）完成新一轮B+轮数亿元融资。...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -66,7 +76,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -76,8 +86,8 @@
     "abstract": "Secret parameter allowed hackers to steal passwords when a target clicked on a link....",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
@@ -86,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -96,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -106,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -116,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
   }
 ]
