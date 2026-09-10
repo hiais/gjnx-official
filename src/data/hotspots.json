@@ -1,23 +1,13 @@
 [
   {
-    "title": "HBM’s Second Act: When Memory Starts Thinking",
-    "source": "SemiWiki",
-    "link": "https://semiwiki.com/events/372843-372843/",
-    "abstract": "Samsung’s Hot Chips 2026 presentation, “HBM Base Die: How HBM Will Evolve Using Advanced Logic Processes,” argues that the base die beneath a High Bandwidth Memory stack is about t...",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "down"
-  },
-  {
     "title": "Experimental Patches Get Nouveau+NVK Working On NVIDIA DGX Spark GB10",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/news/Experiment-Nouveau-NVIDIA-GB10",
     "abstract": "Red Hat's David Airlie has managed another open-source graphics engineering feat... Getting the Nouveau reverse-engineered kernel graphics driver and Mesa NVK Vulkan driver running...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
+    "rank": "01",
+    "trend": "down"
   },
   {
     "title": "New Patches Provide HDMI 1.4 3D Mode Support For AMD Radeon Graphics On Linux",
@@ -26,8 +16,8 @@
     "abstract": "It turns out one of the feature limitations of the AMDGPU Linux graphics driver is HDMI 1.4 3D output support with frame packing, top-and-bottom, and side-by-side options for trans...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "02",
+    "trend": "down"
   },
   {
     "title": "一周连发6个模型！这家公司把具身智能的闭环跑通了",
@@ -36,8 +26,18 @@
     "abstract": "模型可以开源，部署经验不能...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "up"
+  },
+  {
+    "title": "More questions about whether researchers can trust OpenAI with unpublished math",
+    "source": "HackerNews",
+    "link": "https://mathstodon.xyz/@andreasthom/117240535270608201",
+    "abstract": "Comments...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -57,7 +57,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "打造10万卡国产算力集群推出JoyAI世界模型，京东发布物理AI建设最新成果",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
@@ -117,7 +117,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
