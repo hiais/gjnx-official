@@ -7,7 +7,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Experimental Patches Get Nouveau+NVK Working On NVIDIA DGX Spark GB10",
@@ -17,7 +17,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "New Patches Provide HDMI 1.4 3D Mode Support For AMD Radeon Graphics On Linux",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -70,33 +70,13 @@
     "trend": "up"
   },
   {
-    "title": "国产AI4S计算平台登场亮相2026外滩大会 算力技术与人才布局双向发力",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/09/486370.html",
-    "abstract": "",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
-  },
-  {
     "title": "Groq on Hugging Face Inference Providers 🔥",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/inference-providers-groq",
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
-  },
-  {
-    "title": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
-    "source": "HackerNews",
-    "link": "https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3",
-    "abstract": "Comments...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -106,8 +86,8 @@
     "abstract": "Secret parameter allowed hackers to steal passwords when a target clicked on a link....",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
@@ -116,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -126,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -136,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "12",
     "trend": "down"
   },
   {
@@ -146,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "15",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
   }
 ]
