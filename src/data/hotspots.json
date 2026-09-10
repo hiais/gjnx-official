@@ -7,7 +7,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Experimental Patches Get Nouveau+NVK Working On NVIDIA DGX Spark GB10",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -60,24 +60,24 @@
     "trend": "up"
   },
   {
+    "title": "打造10万卡国产算力集群推出JoyAI世界模型，京东发布物理AI建设最新成果",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/09/486436.html",
+    "abstract": "9月9日，以“JoyAI · 跃迁物理世界”为主题的JDDiscovery-2026京东全球科技探索者大会在北京举行...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "07",
+    "trend": "up"
+  },
+  {
     "title": "国产AI4S计算平台登场亮相2026外滩大会 算力技术与人才布局双向发力",
     "source": "QbitAI",
     "link": "https://www.qbitai.com/2026/09/486370.html",
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
-  },
-  {
-    "title": "深度智控获宁德时代、沙特阿美战投等重磅加码，加速打造物理AI时代算力与能源底座",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/09/485784.html",
-    "abstract": "近日，物理AI企业深度智控（DeepCtrls）完成新一轮B+轮数亿元融资。...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -87,7 +87,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
@@ -97,7 +97,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
@@ -117,7 +117,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
