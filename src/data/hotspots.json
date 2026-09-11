@@ -10,34 +10,14 @@
     "trend": "down"
   },
   {
-    "title": "New Patches Provide HDMI 1.4 3D Mode Support For AMD Radeon Graphics On Linux",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/AMDGPU-HDMI-1.4-3D-Mode",
-    "abstract": "It turns out one of the feature limitations of the AMDGPU Linux graphics driver is HDMI 1.4 3D output support with frame packing, top-and-bottom, and side-by-side options for trans...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
-  },
-  {
-    "title": "一周连发6个模型！这家公司把具身智能的闭环跑通了",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/09/486625.html",
-    "abstract": "模型可以开源，部署经验不能...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
-  },
-  {
     "title": "More questions about whether researchers can trust OpenAI with unpublished math",
     "source": "HackerNews",
     "link": "https://mathstodon.xyz/@andreasthom/117240535270608201",
     "abstract": "Comments...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
+    "rank": "02",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -46,7 +26,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -56,7 +36,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -66,18 +46,28 @@
     "abstract": "In addition to August bringing the long-awaited Haiku R1 Beta 6 release, there was also a lot of development progress on this BeOS-inspired operating system too during the course o...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "05",
     "trend": "up"
   },
   {
-    "title": "打造10万卡国产算力集群推出JoyAI世界模型，京东发布物理AI建设最新成果",
+    "title": "墨芯人工智能亮相2026 Inclusion·外滩大会：以专用稀疏推理芯片提升算力效能，共创AI新经济",
     "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/09/486436.html",
-    "abstract": "9月9日，以“JoyAI · 跃迁物理世界”为主题的JDDiscovery-2026京东全球科技探索者大会在北京举行...",
+    "link": "https://www.qbitai.com/2026/09/487273.html",
+    "abstract": "9月9日，墨芯人工智能亮相以\"共创AI新经济\"为主题的2026 Inclusion·外滩大会。...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "06",
     "trend": "down"
+  },
+  {
+    "title": "Cognition 发布 SWE-2：用 Kimi K3 做基座，RL 后训练追平 Fable 5.1",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/502413/cognition-swe-2",
+    "abstract": "Cognition 昨天发布了 SWE-2，一个从 Kimi K3（2.8T 参数）通过 RL 后训练而来的编码 Agent 模型。 它在 FrontierCode 1.1 Main 上拿到 50.0%，距离 Fable 5.1 的 50.9% 只差不到一个百分点，比 GPT-5.6 Sol（47.5%）高 2.5 分。价格比 Fable 5.1 便宜 64...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -86,8 +76,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
@@ -96,8 +86,8 @@
     "abstract": "Secret parameter allowed hackers to steal passwords when a target clicked on a link....",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
@@ -106,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -116,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -126,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -136,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "13",
     "trend": "down"
   }
 ]
