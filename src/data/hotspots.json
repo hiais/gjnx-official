@@ -1,23 +1,13 @@
 [
   {
-    "title": "Experimental Patches Get Nouveau+NVK Working On NVIDIA DGX Spark GB10",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Experiment-Nouveau-NVIDIA-GB10",
-    "abstract": "Red Hat's David Airlie has managed another open-source graphics engineering feat... Getting the Nouveau reverse-engineered kernel graphics driver and Mesa NVK Vulkan driver running...",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "up"
-  },
-  {
     "title": "Google Cloud TPUs made available to Hugging Face users",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
+    "rank": "01",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -26,8 +16,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "rank": "02",
+    "trend": "up"
   },
   {
     "title": "BeOS-Inspired Haiku Now Supports Changing Audio Outputs Live, Other Improvements",
@@ -36,7 +26,7 @@
     "abstract": "In addition to August bringing the long-awaited Haiku R1 Beta 6 release, there was also a lot of development progress on this BeOS-inspired operating system too during the course o...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -46,7 +36,7 @@
     "abstract": "9月9日，墨芯人工智能亮相以\"共创AI新经济\"为主题的2026 Inclusion·外滩大会。...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -56,7 +46,7 @@
     "abstract": "Cognition 昨天发布了 SWE-2，一个从 Kimi K3（2.8T 参数）通过 RL 后训练而来的编码 Agent 模型。 它在 FrontierCode 1.1 Main 上拿到 50.0%，距离 Fable 5.1 的 50.9% 只差不到一个百分点，比 GPT-5.6 Sol（47.5%）高 2.5 分。价格比 Fable 5.1 便宜 64...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -66,8 +56,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
@@ -76,7 +66,7 @@
     "abstract": "Secret parameter allowed hackers to steal passwords when a target clicked on a link....",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -86,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -96,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -106,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -116,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   }
 ]
