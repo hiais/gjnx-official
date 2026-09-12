@@ -17,7 +17,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "BeOS-Inspired Haiku Now Supports Changing Audio Outputs Live, Other Improvements",
@@ -30,23 +30,13 @@
     "trend": "up"
   },
   {
-    "title": "墨芯人工智能亮相2026 Inclusion·外滩大会：以专用稀疏推理芯片提升算力效能，共创AI新经济",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/09/487273.html",
-    "abstract": "9月9日，墨芯人工智能亮相以\"共创AI新经济\"为主题的2026 Inclusion·外滩大会。...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
-  },
-  {
     "title": "Cognition 发布 SWE-2：用 Kimi K3 做基座，RL 后训练追平 Fable 5.1",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/502413/cognition-swe-2",
     "abstract": "Cognition 昨天发布了 SWE-2，一个从 Kimi K3（2.8T 参数）通过 RL 后训练而来的编码 Agent 模型。 它在 FrontierCode 1.1 Main 上拿到 50.0%，距离 Fable 5.1 的 50.9% 只差不到一个百分点，比 GPT-5.6 Sol（47.5%）高 2.5 分。价格比 Fable 5.1 便宜 64...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -56,8 +46,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
@@ -66,7 +56,7 @@
     "abstract": "Secret parameter allowed hackers to steal passwords when a target clicked on a link....",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -76,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -86,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -96,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -106,7 +96,27 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
+    "rank": "10",
+    "trend": "up"
+  },
+  {
+    "title": "Intel Linux NPU Driver Only Now Officially Supports Ubuntu 26.04 LTS",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Intel-Linux-NPU-Driver-1.38",
+    "abstract": "Releasing on Friday was the Intel Linux NPU Driver 1.38 as the user-space open-source driver components for leveraging the Core Ultra Neural Processing Unit (NPU) under Linux in co...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
     "rank": "11",
+    "trend": "up"
+  },
+  {
+    "title": "“算力中国·年度卓越成就”发布 太初元碁超智融合计算系统入选",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/09/487860.html",
+    "abstract": "太初（杭州）集成电路有限公司新一代超智融合计算系统元碁Hypertintellix入选“算力中国·年度卓越成就”。...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "12",
     "trend": "down"
   }
 ]
