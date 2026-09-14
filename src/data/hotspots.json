@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "BeOS-Inspired Haiku Now Supports Changing Audio Outputs Live, Other Improvements",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -118,15 +118,5 @@
     "category": "CHIP_FRONT",
     "rank": "12",
     "trend": "up"
-  },
-  {
-    "title": "“算力中国·年度卓越成就”发布 太初元碁超智融合计算系统入选",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/09/487860.html",
-    "abstract": "太初（杭州）集成电路有限公司新一代超智融合计算系统元碁Hypertintellix入选“算力中国·年度卓越成就”。...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
   }
 ]
