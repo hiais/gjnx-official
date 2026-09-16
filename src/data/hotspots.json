@@ -7,7 +7,17 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
+  },
+  {
+    "title": "通用能力不打折，空间具身智能断层领先！ZDTaichu5.0-9B国产开源，跻身全球多模态第一梯队",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/09/490839.html",
+    "abstract": "九大空间测试10B规模通用模型中8项第一...",
+    "pscore": 92,
+    "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -16,7 +26,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -26,7 +36,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -36,8 +46,18 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
+  },
+  {
+    "title": "Rethinking AI Chips: How VSORA Redesigned the Hardware That Runs AI",
+    "source": "SemiWiki",
+    "link": "https://semiwiki.com/semiconductor-manufacturers/vsora/373568-rethinking-ai-chips-how-vsora-redesigned-the-hardware-that-runs-ai/",
+    "abstract": "Instead of tweaking existing designs, VSORA built an AI chip from scratch to fix the real bottleneck: moving data fast enough to keep the math circuits busy. There’s a version of t...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
@@ -46,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -56,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -66,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -76,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "全能 Go Agent 框架 covonaut v1.1.3 发布：TUI 库迎来更人性化的交互",
@@ -86,7 +106,7 @@
     "abstract": "covonaut 是一个 Go 语言生产级 Agent 开发框架，基于 Go 1.25 构建，MIT 开源。框架覆盖 Agent 循环、工具注册与生命周期钩子、MCP 协议桥接、A2A 多智能体协作、图引擎（DAG 与 Pregel）、会话管理、工作流编排等功能，并自带一套完整的终端图形界面库。 v1.1.3 变更 本次发布聚焦终端界面交互。 输入刻度条（I...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -96,7 +116,7 @@
     "abstract": "Comments...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   }
 ]
