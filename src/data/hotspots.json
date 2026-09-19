@@ -17,7 +17,7 @@
     "pscore": 89,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "具身智能技术路线尚未定型，基础设施却先收敛",
@@ -27,7 +27,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -47,6 +47,26 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
+    "trend": "down"
+  },
+  {
+    "title": "华为汪涛：华为要打造AI算力底座，只做好一颗芯片远远不够",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/09/492476.html",
+    "abstract": "CANN跨过拐点，华为补上软件生态...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "06",
+    "trend": "up"
+  },
+  {
+    "title": "陶哲轩代表SAIR Foundation宣布正式启动“开放数学模型计划”",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/09/492467.html",
+    "abstract": "让开放模型与可负担的算力成为数学研究的共享基石...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -56,8 +76,8 @@
     "abstract": "协同布局AI基础设施...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "华为押注“硅基黑土地”：昇腾 960 超节点、百万卡集群，还有 PyTorch 官方支持",
@@ -66,7 +86,7 @@
     "abstract": "华为全联接大会 2026（Huawei Connect）今日在上海启幕，副董事长、轮值董事长汪涛做了开场主题演讲，抛出的核心命题很直白——智能世界需要更硬的算力底座，华为要做那块\"硅基黑土地\"。 汪涛给了一组压迫感很强的数字做铺垫：大模型参数正快速迈向 10 万亿，到 2030 年要过 100 万亿；智能体已经能按小时级连续工作，2......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -76,7 +96,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -86,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -96,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -106,8 +126,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -116,7 +136,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "14",
     "trend": "up"
   },
   {
@@ -126,27 +146,7 @@
     "abstract": "Sent out today was the latest weekly drm-misc-next pull request of new Direct Rendering Manager (DRM) material ready for the upcoming Linux 7.4 merge window......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
-  },
-  {
-    "title": "libinput 1.32 Released With Circular Scrolling Support For Circular Touchpads",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/libinput-1.32-Released",
-    "abstract": "Leading Linux input expert Peter Hutterer announced the release today of libinput 1.32 for improving input handling on Wayland and X.Org based environments......",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
-  },
-  {
-    "title": "华为云 All in Agentic Cloud，灵衢昇腾 950 智算集群全球上线",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/502586/hc-agentic-infra-industry-ai",
-    "abstract": "华为云这届全联接大会的调子，是\"Agentic Cloud\"。华为云 CEO 周跃峰演讲里那句被反复引用的判断是：智能体时代基础设施的核心，不再只是给算力，而是\"让每一个 Token 更高效\"。 最能说明态度的莫过于那个出圈的名字——灵衢昇腾 950 智算集群，面向全球的服务今年 9 月 30 日国内商用、11 月 30 日海外商用。几个数字落......",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "down"
+    "trend": "up"
   }
 ]
