@@ -1,13 +1,23 @@
 [
   {
+    "title": "Samsung is expected to more than double output of its HBM4 and HBM4E DRAM",
+    "source": "HackerNews",
+    "link": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
+    "abstract": "Comments...",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "down"
+  },
+  {
     "title": "华为发布“Peerium 计算架构”，让百万处理器成为一台计算机",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/502587/huawei-new-computing-architecture-peerium",
     "abstract": "华为发布AI时代的全新计算架构 – Peerium计算架构。该架构能实现百万级处理器成为一台计算机，以满足不断发展的AI算力需求。 Peerium计算架构是基于嵌套并行，统一内存寻址、平等互联实现百万级处理器强扩展的计算架构。Peerium计算架构突破了图灵范式，提出了Nested BSP，突破了冯·诺依曼单机架构，颠覆了长久以来的主......",
     "pscore": 89,
     "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "up"
+    "rank": "02",
+    "trend": "down"
   },
   {
     "title": "华为发布全球首个采用NPO的超节点——昇腾960超节点",
@@ -16,7 +26,7 @@
     "abstract": "今日，华为全联接大会2026在上海启幕，华为副董事长、轮值董事长汪涛发表题为“智启新未来，打造智能世界的硅基黑土地”的主题演讲，发布全球首个采用NPO技术的超节点——昇腾960超节点，加速十万亿规模的大模型训练和推理。 华为副董事长、轮值董事长汪涛发表主题演讲 华为AI战略的核心是算力，坚持硬件变现，聚焦做好A......",
     "pscore": 89,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -26,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -36,7 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -46,8 +56,8 @@
     "abstract": "Agentic 时代给算力带来的麻烦，比想象中具体。大量 Agent 跑长程复杂任务，输出等待时延高、通信带宽压力大、内存消耗激增，算力分布和互联方式都在变。华为计算首席战略官朱照生在全联接大会上给出应对思路：基于灵衢架构，面向\"超节点+集群\"提出 Agentic 计算新开发方式，拆成五个维度推进——从单服务器到超节点开发......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "华为押注“硅基黑土地”：昇腾 960 超节点、百万卡集群，还有 PyTorch 官方支持",
@@ -56,8 +66,8 @@
     "abstract": "华为全联接大会 2026（Huawei Connect）今日在上海启幕，副董事长、轮值董事长汪涛做了开场主题演讲，抛出的核心命题很直白——智能世界需要更硬的算力底座，华为要做那块\"硅基黑土地\"。 汪涛给了一组压迫感很强的数字做铺垫：大模型参数正快速迈向 10 万亿，到 2030 年要过 100 万亿；智能体已经能按小时级连续工作，2......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -66,8 +76,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
@@ -76,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -86,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -96,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -106,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "Linux 7.3 Adds Support For Victrix Pro BFG & Azeron Controllers",
@@ -116,8 +126,8 @@
     "abstract": "Sent out this morning were a big batch of input subsystem fixes ahead of the Linux 7.3-rc4 kernel releasing later today. Alongside many bug fixes to different drivers is also expan...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
   },
   {
     "title": "华为云 All in Agentic Cloud，灵衢昇腾 950 智算集群全球上线",
@@ -126,7 +136,7 @@
     "abstract": "华为云这届全联接大会的调子，是\"Agentic Cloud\"。华为云 CEO 周跃峰演讲里那句被反复引用的判断是：智能体时代基础设施的核心，不再只是给算力，而是\"让每一个 Token 更高效\"。 最能说明态度的莫过于那个出圈的名字——灵衢昇腾 950 智算集群，面向全球的服务今年 9 月 30 日国内商用、11 月 30 日海外商用。几个数字落......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "14",
+    "trend": "down"
   }
 ]
