@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -40,23 +40,13 @@
     "trend": "up"
   },
   {
-    "title": "华为汪涛：华为要打造AI算力底座，只做好一颗芯片远远不够",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/09/492476.html",
-    "abstract": "CANN跨过拐点，华为补上软件生态...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
-  },
-  {
     "title": "华为多维探索 Agentic 计算：超节点 + 集群，从算子打到 Agent 开发范式",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/502611/huawei-hc2026-agentic-thinkpro-pto-cann",
     "abstract": "Agentic 时代给算力带来的麻烦，比想象中具体。大量 Agent 跑长程复杂任务，输出等待时延高、通信带宽压力大、内存消耗激增，算力分布和互联方式都在变。华为计算首席战略官朱照生在全联接大会上给出应对思路：基于灵衢架构，面向\"超节点+集群\"提出 Agentic 计算新开发方式，拆成五个维度推进——从单服务器到超节点开发......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -66,8 +56,8 @@
     "abstract": "华为全联接大会 2026（Huawei Connect）今日在上海启幕，副董事长、轮值董事长汪涛做了开场主题演讲，抛出的核心命题很直白——智能世界需要更硬的算力底座，华为要做那块\"硅基黑土地\"。 汪涛给了一组压迫感很强的数字做铺垫：大模型参数正快速迈向 10 万亿，到 2030 年要过 100 万亿；智能体已经能按小时级连续工作，2......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -76,7 +66,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -86,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -96,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -106,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -116,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -126,18 +116,8 @@
     "abstract": "Sent out this morning were a big batch of input subsystem fixes ahead of the Linux 7.3-rc4 kernel releasing later today. Alongside many bug fixes to different drivers is also expan...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "12",
     "trend": "down"
-  },
-  {
-    "title": "Intel NPU Linux Driver Adding Command-Queue Priority ioctl For Linux 7.4",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Intel-NPU-Linux-7.4-CQ-Priority",
-    "abstract": "Sent out today was the latest weekly drm-misc-next pull request of new Direct Rendering Manager (DRM) material ready for the upcoming Linux 7.4 merge window......",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
   },
   {
     "title": "华为云 All in Agentic Cloud，灵衢昇腾 950 智算集群全球上线",
@@ -146,7 +126,7 @@
     "abstract": "华为云这届全联接大会的调子，是\"Agentic Cloud\"。华为云 CEO 周跃峰演讲里那句被反复引用的判断是：智能体时代基础设施的核心，不再只是给算力，而是\"让每一个 Token 更高效\"。 最能说明态度的莫过于那个出圈的名字——灵衢昇腾 950 智算集群，面向全球的服务今年 9 月 30 日国内商用、11 月 30 日海外商用。几个数字落......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "15",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
   }
 ]
