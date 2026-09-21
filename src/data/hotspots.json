@@ -7,6 +7,16 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
+    "trend": "down"
+  },
+  {
+    "title": "从具身智能到桌面小装置，北京开源创新赛硬件赛道面向全国创客开放",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/502640",
+    "abstract": "开源最早从代码开始，后来有人把电路图、结构件模型和固件一起分享到互联网上，硬件图纸也能被下载、被改进、被重新做出来。Arduino 用一块开发板把创客文化带进课堂，RISC-V 把开源指令集推广到全球，3D 打印和便宜的传感器又把动手门槛降低到每个人就能尝试的程度。现在一块开发板接上开源 AI 模型，就能做出会认路的车......",
+    "pscore": 99,
+    "category": "CHIP_FRONT",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -16,7 +26,17 @@
     "abstract": "华为发布AI时代的全新计算架构 – Peerium计算架构。该架构能实现百万级处理器成为一台计算机，以满足不断发展的AI算力需求。 Peerium计算架构是基于嵌套并行，统一内存寻址、平等互联实现百万级处理器强扩展的计算架构。Peerium计算架构突破了图灵范式，提出了Nested BSP，突破了冯·诺依曼单机架构，颠覆了长久以来的主......",
     "pscore": 89,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "03",
+    "trend": "up"
+  },
+  {
+    "title": "GPT-6 Astra开进机器人身体！清华联手无问芯穹等开源RPent",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/09/493218.html",
+    "abstract": "在物理世界真正干活的具身智能体...",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -26,8 +46,8 @@
     "abstract": "近年来，实时操作系统（RTOS）正从单一内核向平台化、生态化演进，应用场景也从单 MCU 控制走向异构计算与云边协同，开源生态的重要性日益凸显。但在国内，Zephyr 的基础设施与配套支持仍不够完善。为此，麒麟软件牵头在 OpenAtom openKylin（以下简称“openKylin”）社区成立了 ZephyrProject SIG，面向工控、具身智能、...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -36,7 +56,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -46,7 +66,17 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "07",
+    "trend": "up"
+  },
+  {
+    "title": "IDC评估中国AI算力管理平台:范式智能四项维度获满分，综合评分第一",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/09/493109.html",
+    "abstract": "范式成为《中国AI算力管理平台技术能力评估，2026》综合评分位列第一的厂商。...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -56,7 +86,7 @@
     "abstract": "Agentic 时代给算力带来的麻烦，比想象中具体。大量 Agent 跑长程复杂任务，输出等待时延高、通信带宽压力大、内存消耗激增，算力分布和互联方式都在变。华为计算首席战略官朱照生在全联接大会上给出应对思路：基于灵衢架构，面向\"超节点+集群\"提出 Agentic 计算新开发方式，拆成五个维度推进——从单服务器到超节点开发......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -66,7 +96,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -76,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -86,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "12",
     "trend": "down"
   },
   {
@@ -96,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "13",
     "trend": "up"
   },
   {
@@ -106,7 +136,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "14",
     "trend": "up"
   },
   {
@@ -116,17 +146,7 @@
     "abstract": "Sent out this morning were a big batch of input subsystem fixes ahead of the Linux 7.3-rc4 kernel releasing later today. Alongside many bug fixes to different drivers is also expan...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
-  },
-  {
-    "title": "华为云 All in Agentic Cloud，灵衢昇腾 950 智算集群全球上线",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/502586/hc-agentic-infra-industry-ai",
-    "abstract": "华为云这届全联接大会的调子，是\"Agentic Cloud\"。华为云 CEO 周跃峰演讲里那句被反复引用的判断是：智能体时代基础设施的核心，不再只是给算力，而是\"让每一个 Token 更高效\"。 最能说明态度的莫过于那个出圈的名字——灵衢昇腾 950 智算集群，面向全球的服务今年 9 月 30 日国内商用、11 月 30 日海外商用。几个数字落......",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "15",
+    "trend": "down"
   }
 ]
