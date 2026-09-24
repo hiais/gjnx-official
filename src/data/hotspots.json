@@ -1,32 +1,22 @@
 [
   {
-    "title": "从具身智能到桌面小装置，北京开源创新赛硬件赛道面向全国创客开放",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/502640",
-    "abstract": "开源最早从代码开始，后来有人把电路图、结构件模型和固件一起分享到互联网上，硬件图纸也能被下载、被改进、被重新做出来。Arduino 用一块开发板把创客文化带进课堂，RISC-V 把开源指令集推广到全球，3D 打印和便宜的传感器又把动手门槛降低到每个人就能尝试的程度。现在一块开发板接上开源 AI 模型，就能做出会认路的车......",
-    "pscore": 99,
+    "title": "GPT-6之后，具身智能走向何方？诺因发布GLOW技术报告，给出机器人“一教就会”的答案",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/09/496816.html",
+    "abstract": "人类演示一次，机器人即可实现跨场景任务复用...",
+    "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
-  },
-  {
-    "title": "Silicon Valley, à la Française – One Year On",
-    "source": "SemiWiki",
-    "link": "https://semiwiki.com/semiconductor-manufacturers/vsora/373731-silicon-valley-a-la-francaise-one-year-on/",
-    "abstract": "One Year Later — September 2026 When this piece first ran a year ago, VSORA was the quiet outsider, a company with a bold architecture and no Silicon Valley address. One year on, t...",
-    "pscore": 91,
-    "category": "CHIP_FRONT",
-    "rank": "02",
     "trend": "down"
   },
   {
-    "title": "它石智航顶尖团队引领中国具身智能率先迈入规模化落地阶段",
+    "title": "5分钟完成机器人纳管、10秒启动跨集群任务，清华大学联合无问芯穹开源具身智能云原生平台RLark",
     "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/09/496481.html",
-    "abstract": "它石智航将继续扩大研发团队，加快布局生产基地，全面提升机器人交付能力...",
+    "link": "https://www.qbitai.com/2026/09/496767.html",
+    "abstract": "开源一座具身智能的新“塔台”...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "up"
   },
   {
@@ -36,14 +26,24 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
+    "rank": "03",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tf_tpu",
     "abstract": "",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "04",
+    "trend": "down"
+  },
+  {
+    "title": "Agentic OS亮相云栖大会，阿里云基础软件加速迈向智能体原生",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/502729",
+    "abstract": "当AI从生成内容走向自主规划和持续执行，产业焦点也从模型能力延伸至智能体能否安全、稳定地进入生产环境。操作系统因此不再只是资源管理底座，更成为连接算力、模型、工具和应用的智能体基础设施。9月23日，2026云栖大会“AI Agent原生操作系统”分论坛集中呈现了这一趋势。 阿里云智能集团CTO李飞飞 阿里云智能集团CTO......",
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
@@ -57,7 +57,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -67,7 +67,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -97,7 +97,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -107,26 +107,6 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "down"
-  },
-  {
-    "title": "上海开源大赛DaoCloud赛题公布，选做可获额外现金激励",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/502643",
-    "abstract": "2026 年，智算云领域面临着相似的问题，即算力能买到，但跑得顺却不容易。 过去两年，行业把精力放在算力供给上，异构集群从千卡走到万卡。卡到位之后，压力转向利用率和吞吐。训练侧任务排队等配额，推理侧 KV Cache 命中率上不去，首 token 时延压不下来，单版权重几十上百 GB 还要在训练节点和终端之间来回搬。真正拖......",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
-  },
-  {
-    "title": "Gemini 3.8 text-to-speech",
-    "source": "HackerNews",
-    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
-    "abstract": "Comments...",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "13",
     "trend": "down"
   }
 ]
