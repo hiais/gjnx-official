@@ -7,16 +7,6 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
-  },
-  {
-    "title": "5分钟完成机器人纳管、10秒启动跨集群任务，清华大学联合无问芯穹开源具身智能云原生平台RLark",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/09/496767.html",
-    "abstract": "开源一座具身智能的新“塔台”...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "02",
     "trend": "up"
   },
   {
@@ -26,7 +16,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -36,7 +26,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -46,8 +36,8 @@
     "abstract": "当AI从生成内容走向自主规划和持续执行，产业焦点也从模型能力延伸至智能体能否安全、稳定地进入生产环境。操作系统因此不再只是资源管理底座，更成为连接算力、模型、工具和应用的智能体基础设施。9月23日，2026云栖大会“AI Agent原生操作系统”分论坛集中呈现了这一趋势。 阿里云智能集团CTO李飞飞 阿里云智能集团CTO......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "OpenAI 发布 GPT‑6 Sol 和 Luna：价格腰斩，能力钉在 Astra 之下",
@@ -56,7 +46,7 @@
     "abstract": "OpenAI 宣布为 GPT-6 家族推出新模型，这次是 Sol 和 Luna，用跟 Astra 相似的方法训练出来的两个便宜版本。官方口径很直接：把 Astra 在专业工作、事实性、编程、计算机使用上那些进步，搬进更快、更便宜的模型里。 价格是这次唯一的注意不用展开都懂的亮点。GPT-5.6 Sol 变成 GPT-6 Sol，输入从 $4 掉到 $2，输出...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -66,7 +56,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -76,8 +66,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -86,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "08",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -96,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -106,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -116,7 +106,7 @@
     "abstract": "The central argument of Ankur Gupta’s AI Infra Summit keynote is simple but consequential: the next leap in AI infrastructure will not come from improving chips, servers, cooling s...",
     "pscore": 71,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "down"
   }
 ]
