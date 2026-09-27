@@ -7,7 +7,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "谷歌TPU跑Kimi比英伟达GPU快57%！用的还是DeepSeek推理框架",
@@ -17,7 +17,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "AMDXDNA Linux Driver Being Enhanced For Current NPU3 Hardware",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Agentic OS亮相云栖大会，阿里云基础软件加速迈向智能体原生",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -97,7 +97,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -127,6 +127,6 @@
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "down"
+    "trend": "up"
   }
 ]
