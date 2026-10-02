@@ -27,17 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
-  },
-  {
-    "title": "Linux 7.4 To Support The NPU On AMD Ryzen AI Max 400 Series \"Gorgon Halo\"",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/AMD-Gorgon-Halo-NPU-LInux",
-    "abstract": "While the AMD Ryzen AI 400 series \"Gorgon Halo\" systems are nearing the marketplace, the NPU support for Linux was seemingly overlooked until now. But at least the simple enablemen...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -46,8 +36,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
@@ -56,8 +46,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -66,8 +56,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -76,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -86,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -96,7 +86,7 @@
     "abstract": "价格只有Astra一半...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "up"
   }
 ]
