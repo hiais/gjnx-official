@@ -1,13 +1,23 @@
 [
   {
+    "title": "WEBINAR: The Convergence of Edge Accelerators",
+    "source": "SemiWiki",
+    "link": "https://semiwiki.com/ip/imagination-technologies/374484-webinar-the-convergence-of-edge-accelerators/",
+    "abstract": "The rapid growth of AI at the edge is forcing SoC architects to rethink traditional processor designs. Dedicated NPUs deliver impressive performance for today’s models, but evolvin...",
+    "pscore": 89,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "up"
+  },
+  {
     "title": "DeepSeek 开源昇腾基础组件",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/502814",
     "abstract": "DeepSeek 今天（9 月 30 日）正式开源面向华为昇腾算力平台的基础设施组件，涵盖 TileLang 高级语言编译工具、计算库、分布式通信库——所有组件与此前面向英伟达平台的开源组件一一对应。 文件里最重的一块是 TileLang 的昇腾版本。DeepSeek 的叙事是：要建立新一代自主可控的 GPU 软件生态，得先有一个通用的、编程简单......",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "down"
+    "rank": "02",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -16,7 +26,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -26,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -35,16 +45,6 @@
     "link": "https://huggingface.co/blog/inference-providers-groq",
     "abstract": "",
     "pscore": 80,
-    "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
-  },
-  {
-    "title": "Built to Deliver the Answer, Not to Train the Model",
-    "source": "SemiWiki",
-    "link": "https://semiwiki.com/semiconductor-manufacturers/vsora/374232-built-to-deliver-the-answer-not-to-train-the-model/",
-    "abstract": "How VSORA rebalances memory and compute for AI inference in the data center and at the edge For more than a decade, the AI hardware industry focused mainly on model training, while...",
-    "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "05",
     "trend": "up"
@@ -77,7 +77,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -97,6 +97,6 @@
     "pscore": 66,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
+    "trend": "up"
   }
 ]
