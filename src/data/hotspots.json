@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "WEBINAR: The Convergence of Edge Accelerators",
@@ -17,7 +17,7 @@
     "pscore": 89,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -57,7 +57,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -67,7 +67,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -87,17 +87,17 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
   },
   {
-    "title": "不等Gemini 4了！谷歌发布办公Agent，支持调用Claude",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/10/502083.html",
-    "abstract": "新的“缝合怪”已经出现，怎么能够停滞不前...",
-    "pscore": 70,
+    "title": "HDR Support Coming For Qualcomm MSM Driver To Benefit Snapdragon X Laptops On Linux",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Qualcomm-MSM-DRM-HDR",
+    "abstract": "For those making use of Qualcomm Snapdragon X laptops on Linux, one of the features coming to the MSM DRM kernel driver is static HDR support for DisplayPort outputs and eDP panels...",
+    "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "$100 预算 + 四个顶级大模型，造出的 PDF 编辑器点几下就露馅",
@@ -108,15 +108,5 @@
     "category": "CHIP_FRONT",
     "rank": "11",
     "trend": "down"
-  },
-  {
-    "title": "NVIDIA Vera HPC Performance Benchmarks Take On AMD EPYC, Intel Xeon",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/nvidia-vera-hpc",
-    "abstract": "While most everyone understandably likes to talk about AI these days, one of the areas of NVIDIA's Vera CPU I have been most eager to test has been for conventional high performanc...",
-    "pscore": 66,
-    "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
   }
 ]
