@@ -1,20 +1,20 @@
 [
   {
-    "title": "WEBINAR: The Convergence of Edge Accelerators",
-    "source": "SemiWiki",
-    "link": "https://semiwiki.com/ip/imagination-technologies/374484-webinar-the-convergence-of-edge-accelerators/",
-    "abstract": "The rapid growth of AI at the edge is forcing SoC architects to rethink traditional processor designs. Dedicated NPUs deliver impressive performance for today’s models, but evolvin...",
-    "pscore": 89,
+    "title": "跳出 AI 试点陷阱：SUSE 企业级私有 AI 战略，用开源基础设施打通生产级落地",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/502904",
+    "abstract": "AI 发展正在经历一个非常明显的分水岭：大量企业已经跑完概念验证，做过 Demo 试点，但卡在 “从实验环境迈向生产部署” 这道鸿沟上。很多团队会遇到相似的困境：POC 阶段效果惊艳，一旦迁移到本地数据中心、离线隔离环境、多云混合架构，就会暴露出数据安全、厂商锁定、运维复杂度飙升、算力资源浪费等一系列现实难题。......",
+    "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
     "trend": "up"
   },
   {
-    "title": "DeepSeek 开源昇腾基础组件",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/502814",
-    "abstract": "DeepSeek 今天（9 月 30 日）正式开源面向华为昇腾算力平台的基础设施组件，涵盖 TileLang 高级语言编译工具、计算库、分布式通信库——所有组件与此前面向英伟达平台的开源组件一一对应。 文件里最重的一块是 TileLang 的昇腾版本。DeepSeek 的叙事是：要建立新一代自主可控的 GPU 软件生态，得先有一个通用的、编程简单......",
-    "pscore": 85,
+    "title": "WEBINAR: The Convergence of Edge Accelerators",
+    "source": "SemiWiki",
+    "link": "https://semiwiki.com/ip/imagination-technologies/374484-webinar-the-convergence-of-edge-accelerators/",
+    "abstract": "The rapid growth of AI at the edge is forcing SoC architects to rethink traditional processor designs. Dedicated NPUs deliver impressive performance for today’s models, but evolvin...",
+    "pscore": 89,
     "category": "CHIP_FRONT",
     "rank": "02",
     "trend": "up"
@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -77,7 +77,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -87,7 +87,27 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
+  },
+  {
+    "title": "不等Gemini 4了！谷歌发布办公Agent，支持调用Claude",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/10/502083.html",
+    "abstract": "新的“缝合怪”已经出现，怎么能够停滞不前...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "10",
+    "trend": "down"
+  },
+  {
+    "title": "$100 预算 + 四个顶级大模型，造出的 PDF 编辑器点几下就露馅",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/502906/the-remaining-shortcomings-of-coding-agents",
+    "abstract": "一个研究 LLM for Code 的研究者，拿 400 美元做了个实验：给 Gemini 3.8 Flash、GPT Astra 6、Opus 5、Fable 5 四个前沿模型各 $100 预算，让它们自主开发一款「用户体验极好」的开源 PDF 编辑器——结果是「点几下就能在几乎每个里找到 bug」。作者 nielstron 据此提出：coding age...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "NVIDIA Vera HPC Performance Benchmarks Take On AMD EPYC, Intel Xeon",
@@ -96,7 +116,7 @@
     "abstract": "While most everyone understandably likes to talk about AI these days, one of the areas of NVIDIA's Vera CPU I have been most eager to test has been for conventional high performanc...",
     "pscore": 66,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "12",
     "trend": "up"
   }
 ]
