@@ -10,14 +10,24 @@
     "trend": "up"
   },
   {
+    "title": "Chip-hex:cost-benefit, energy efficiency and hexagonal",
+    "source": "HackerNews",
+    "link": "https://github.com/lzprograma/Chip-Hexa",
+    "abstract": "Comments...",
+    "pscore": 92,
+    "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "down"
+  },
+  {
     "title": "WEBINAR: The Convergence of Edge Accelerators",
     "source": "SemiWiki",
     "link": "https://semiwiki.com/ip/imagination-technologies/374484-webinar-the-convergence-of-edge-accelerators/",
     "abstract": "The rapid growth of AI at the edge is forcing SoC architects to rethink traditional processor designs. Dedicated NPUs deliver impressive performance for today’s models, but evolvin...",
     "pscore": 89,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -26,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -36,8 +46,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "up"
+    "rank": "05",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -46,7 +56,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -56,8 +66,8 @@
     "abstract": "Gemini 4 还没公开，Antigravity 里已经开始出现 Argon 的身影。最新的引用显示，这个内部模型的选择器带了三档上下文：256K 默认、512K 每轮约消耗 1.3 倍 quota、900K 每轮约消耗 1.8 倍 quota。配置方式和 Gemini Flash 系列的现有选项很接近，但上下文长度和推理强度之间的具体关系还不清楚。 Ar...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "5 万 star 的 REA：把逆向工程变成 agent 的一项本地能力",
@@ -66,7 +76,7 @@
     "abstract": "REA 是近日爆火的开源逆向工程工具——让 coding agent 具备检查/反编译程序的能力，「以你的 agent 来做逆向工程」。 REA 想让你直接问 coding agent：这个 App 的某某功能是怎么实现的？它不是一个逆向工具链，而是把逆向能力以 MCP server 的形式接到你的 agent 上——让 Claude Code、Codex、...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -76,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -86,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -96,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -106,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "HDR Support Coming For Qualcomm MSM Driver To Benefit Snapdragon X Laptops On Linux",
@@ -116,7 +126,7 @@
     "abstract": "For those making use of Qualcomm Snapdragon X laptops on Linux, one of the features coming to the MSM DRM kernel driver is static HDR support for DisplayPort outputs and eDP panels...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "13",
     "trend": "up"
   },
   {
@@ -126,24 +136,14 @@
     "abstract": "写在前面：Flash 的价格，Pro 的能力 2026 年 10 月 6 日，Google 发布了 Nano Banana 2.1。名字只多了个小数点，底座却换成了 Gemini 3.6 Flash，思路也很明确：把以前只有 Pro 级模型才稳得住的能力 —— 多参考图一致性、复杂局部编辑、文字海报 —— 下放到 Flash 的成本和速度上。 先把几个关键参...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "14",
+    "trend": "up"
   },
   {
     "title": "Nano Banana 2.1 深度实测：4K 直出、中文排版大进步，连续改图的坑也要看清",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/502939",
     "abstract": "先说结论 10 月 6 日，Google 把生图模型 Nano Banana 更新到了 2.1。这一版底座换成了 Gemini 3.6 Flash，升级集中在四个方向：视觉设计、蒙版编辑、主体一致性、画面真实感。 如果只想知道值不值得切过去，可以先看这张速查表： 维度 表现 一句话评价 画面质感 4K 原图直出，微距细节扎实 明显进步 中文文字 清晰度、错....",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
-  },
-  {
-    "title": "$100 预算 + 四个顶级大模型，造出的 PDF 编辑器点几下就露馅",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/502906/the-remaining-shortcomings-of-coding-agents",
-    "abstract": "一个研究 LLM for Code 的研究者，拿 400 美元做了个实验：给 Gemini 3.8 Flash、GPT Astra 6、Opus 5、Fable 5 四个前沿模型各 $100 预算，让它们自主开发一款「用户体验极好」的开源 PDF 编辑器——结果是「点几下就能在几乎每个里找到 bug」。作者 nielstron 据此提出：coding age...",
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "15",
