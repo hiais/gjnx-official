@@ -1,20 +1,20 @@
 [
   {
-    "title": "硅谷AI现状：谁有算力谁是爹",
+    "title": "9大赛道，23份企业真实考卷！上海具身智能大考，邀千队共解题",
     "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/10/502585.html",
-    "abstract": "马斯克连横A社，硅谷VC开始囤GPU...",
-    "pscore": 99,
+    "link": "https://www.qbitai.com/2026/10/502784.html",
+    "abstract": "赢奖金、拿融资、送出海...",
+    "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "01",
     "trend": "up"
   },
   {
-    "title": "跳出 AI 试点陷阱：SUSE 企业级私有 AI 战略，用开源基础设施打通生产级落地",
+    "title": "DeepSeek 半年融 1500 亿冲向科创板，梁文锋开始给模型找“身体”",
     "source": "OSChina",
-    "link": "https://www.oschina.net/news/502904",
-    "abstract": "AI 发展正在经历一个非常明显的分水岭：大量企业已经跑完概念验证，做过 Demo 试点，但卡在 “从实验环境迈向生产部署” 这道鸿沟上。很多团队会遇到相似的困境：POC 阶段效果惊艳，一旦迁移到本地数据中心、离线隔离环境、多云混合架构，就会暴露出数据安全、厂商锁定、运维复杂度飙升、算力资源浪费等一系列现实难题。......",
-    "pscore": 99,
+    "link": "https://www.oschina.net/news/502997",
+    "abstract": "据媒体报道，DeepSeek 有意入局具身智能领域，其创始人梁文锋最近在密集和具身智能领域的创业者见面交流，探讨方向涉及具身机器人、大模型与现实世界的交互。 融资这边，《财经》记者从多位参与交易的人士处确认了一个数字：DeepSeek 将在近期完成最新一轮融资，金额从此前计划的 500 亿元增至约 1000 亿元。这是它的第二......",
+    "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "02",
     "trend": "down"
@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -47,7 +47,17 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
+  },
+  {
+    "title": "单轮23亿，累计43亿，无问芯穹刷新国产AI Infra赛道融资双重纪录",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/10/502767.html",
+    "abstract": "算力、模型、行业，三层生意一起做...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -56,8 +66,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "谷歌正在内测新 AI 模型，员工称其编码能力和 Claude Opus 5.5 打平",
@@ -66,8 +76,8 @@
     "abstract": "Gemini 4 还没公开，Antigravity 里已经开始出现 Argon 的身影。最新的引用显示，这个内部模型的选择器带了三档上下文：256K 默认、512K 每轮约消耗 1.3 倍 quota、900K 每轮约消耗 1.8 倍 quota。配置方式和 Gemini Flash 系列的现有选项很接近，但上下文长度和推理强度之间的具体关系还不清楚。 Ar...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "5 万 star 的 REA：把逆向工程变成 agent 的一项本地能力",
@@ -76,7 +86,7 @@
     "abstract": "REA 是近日爆火的开源逆向工程工具——让 coding agent 具备检查/反编译程序的能力，「以你的 agent 来做逆向工程」。 REA 想让你直接问 coding agent：这个 App 的某某功能是怎么实现的？它不是一个逆向工具链，而是把逆向能力以 MCP server 的形式接到你的 agent 上——让 Claude Code、Codex、...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -86,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -96,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -106,24 +116,14 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/pytorch-xla",
     "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
-  },
-  {
-    "title": "HDR Support Coming For Qualcomm MSM Driver To Benefit Snapdragon X Laptops On Linux",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Qualcomm-MSM-DRM-HDR",
-    "abstract": "For those making use of Qualcomm Snapdragon X laptops on Linux, one of the features coming to the MSM DRM kernel driver is static HDR support for DisplayPort outputs and eDP panels...",
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "13",
