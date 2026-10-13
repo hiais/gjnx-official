@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -77,7 +77,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
@@ -117,7 +117,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "HDR Support Coming For Qualcomm MSM Driver To Benefit Snapdragon X Laptops On Linux",
@@ -130,20 +130,20 @@
     "trend": "up"
   },
   {
-    "title": "Nano Banana 2.1 九种实战用法：从多图一致性到\"养图\"，附完整提示词",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/502940",
-    "abstract": "写在前面：Flash 的价格，Pro 的能力 2026 年 10 月 6 日，Google 发布了 Nano Banana 2.1。名字只多了个小数点，底座却换成了 Gemini 3.6 Flash，思路也很明确：把以前只有 Pro 级模型才稳得住的能力 —— 多参考图一致性、复杂局部编辑、文字海报 —— 下放到 Flash 的成本和速度上。 先把几个关键参...",
-    "pscore": 70,
+    "title": "Overcoming the Edge AI Power Wall with Low-Voltage Foundation IP",
+    "source": "SemiWiki",
+    "link": "https://semiwiki.com/artificial-intelligence/374757-overcoming-the-edge-ai-power-wall-with-low-voltage-foundation-ip/",
+    "abstract": "As artificial intelligence (AI) workloads migrate to endpoint hardware, edge AI devices face immense pressure to deliver real-time inference within highly restrictive power and the...",
+    "pscore": 74,
     "category": "CHIP_FRONT",
     "rank": "14",
     "trend": "up"
   },
   {
-    "title": "Nano Banana 2.1 深度实测：4K 直出、中文排版大进步，连续改图的坑也要看清",
+    "title": "Nano Banana 2.1 九种实战用法：从多图一致性到\"养图\"，附完整提示词",
     "source": "OSChina",
-    "link": "https://www.oschina.net/news/502939",
-    "abstract": "先说结论 10 月 6 日，Google 把生图模型 Nano Banana 更新到了 2.1。这一版底座换成了 Gemini 3.6 Flash，升级集中在四个方向：视觉设计、蒙版编辑、主体一致性、画面真实感。 如果只想知道值不值得切过去，可以先看这张速查表： 维度 表现 一句话评价 画面质感 4K 原图直出，微距细节扎实 明显进步 中文文字 清晰度、错....",
+    "link": "https://www.oschina.net/news/502940",
+    "abstract": "写在前面：Flash 的价格，Pro 的能力 2026 年 10 月 6 日，Google 发布了 Nano Banana 2.1。名字只多了个小数点，底座却换成了 Gemini 3.6 Flash，思路也很明确：把以前只有 Pro 级模型才稳得住的能力 —— 多参考图一致性、复杂局部编辑、文字海报 —— 下放到 Flash 的成本和速度上。 先把几个关键参...",
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "15",
