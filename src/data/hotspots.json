@@ -7,7 +7,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Mesa Expands NPU Capabilities With Support For YOLOX With PyTorch",
@@ -17,7 +17,17 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
+  },
+  {
+    "title": "抢先盘点2026全球开发者先锋大会暨国际具身智能技能大赛十大亮点！",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/10/503294.html",
+    "abstract": "“具身进实景，劳动最光荣”...",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "DeepSeek 半年融 1500 亿冲向科创板，梁文锋开始给模型找“身体”",
@@ -26,7 +36,7 @@
     "abstract": "据媒体报道，DeepSeek 有意入局具身智能领域，其创始人梁文锋最近在密集和具身智能领域的创业者见面交流，探讨方向涉及具身机器人、大模型与现实世界的交互。 融资这边，《财经》记者从多位参与交易的人士处确认了一个数字：DeepSeek 将在近期完成最新一轮融资，金额从此前计划的 500 亿元增至约 1000 亿元。这是它的第二......",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "04",
     "trend": "down"
   },
   {
@@ -36,7 +46,7 @@
     "abstract": "Sandra Rivera, Chair of VSORA, joined Bloomberg’s The Close in July for an interview on the current state of AI. What follows is a summary of that conversation. When a Silicon Vall...",
     "pscore": 84,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -46,8 +56,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -56,18 +66,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
-  },
-  {
-    "title": "Corsair Novablade Pro & 8BitDo Pro 2 Controllers To Be Supported With Linux 7.3-rc7",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Corsair-Novablade-Pro-Linux-7.3",
-    "abstract": "Sent out today as part of this week's input subsystem fixes are device ID additions to the XPad driver for enabling two more gaming controllers to work nicely under Linux......",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -87,7 +87,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
@@ -127,7 +127,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Gemini 4 Argon",
@@ -137,6 +137,6 @@
     "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "14",
-    "trend": "up"
+    "trend": "down"
   }
 ]
