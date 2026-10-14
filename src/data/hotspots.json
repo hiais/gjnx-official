@@ -1,23 +1,23 @@
 [
   {
+    "title": "从 Agent 到 Loop：AI 正如何重构软件工程？｜QCon 上海 2026 即将开幕",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/event/8598415",
+    "abstract": "10 月 22—24 日，来自阿里巴巴、腾讯、字节跳动、美团、小红书、蚂蚁集团、无问芯穹、阶跃星辰、快手、百度、网易、微软、华为、携程、平安等企业的一线技术实践者，将从 AI 应用、Agent 工程、AI Coding、基础设施、数据系统、质量、安全、SRE 以及具身智能等方向，分享 AI 进入真实生产环境之后正在发生的变化。......",
+    "pscore": 92,
+    "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "up"
+  },
+  {
     "title": "Mesa Expands NPU Capabilities With Support For YOLOX With PyTorch",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/news/Mesa-Torx-YOLOX-PyTorch",
     "abstract": "While Mesa is predominantly used for GPU drivers, open-source developer Tomeu Vizoso continues advancing the capabilities of NPUs within the Mesa driver stack......",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "down"
-  },
-  {
-    "title": "9大赛道，23份企业真实考卷！上海具身智能大考，邀千队共解题",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/10/502784.html",
-    "abstract": "赢奖金、拿融资、送出海...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "DeepSeek 半年融 1500 亿冲向科创板，梁文锋开始给模型找“身体”",
@@ -27,7 +27,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "VSORA’s Sandra Rivera on the Inference Era: Demand Is Real, But Not Everyone Survives",
@@ -37,7 +37,7 @@
     "pscore": 84,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -67,16 +67,6 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "down"
-  },
-  {
-    "title": "单轮23亿，累计43亿，无问芯穹刷新国产AI Infra赛道融资双重纪录",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/10/502767.html",
-    "abstract": "算力、模型、行业，三层生意一起做...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "08",
     "trend": "up"
   },
   {
@@ -86,28 +76,18 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
+    "rank": "08",
+    "trend": "down"
+  },
+  {
+    "title": "Gemini 4 Argon 全球上线，主打 Coding、企业工作流和网络安全",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/503010/google-deepmind-gemini4-models-argon",
+    "abstract": "Google DeepMind 今早官宣：Gemini 4 Argon 全球可用，公司把它定义为『从头到尾解决你最棘手问题的模型』，押注的三个方向是人尽皆知的码农旧战场——coding、企业工作流——外加一个冷门到有点意外的词：cyber defense（网络安全防御）。 发布口径把人群切得很清楚。普通用户走 @GeminiApp 和 Search 里的 A...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
-  },
-  {
-    "title": "谷歌正在内测新 AI 模型，员工称其编码能力和 Claude Opus 5.5 打平",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/502949/google-employees-test-new-gemini-4-model-argon-barium-carbon",
-    "abstract": "Gemini 4 还没公开，Antigravity 里已经开始出现 Argon 的身影。最新的引用显示，这个内部模型的选择器带了三档上下文：256K 默认、512K 每轮约消耗 1.3 倍 quota、900K 每轮约消耗 1.8 倍 quota。配置方式和 Gemini Flash 系列的现有选项很接近，但上下文长度和推理强度之间的具体关系还不清楚。 Ar...",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
-    "rank": "10",
     "trend": "up"
-  },
-  {
-    "title": "5 万 star 的 REA：把逆向工程变成 agent 的一项本地能力",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/502941",
-    "abstract": "REA 是近日爆火的开源逆向工程工具——让 coding agent 具备检查/反编译程序的能力，「以你的 agent 来做逆向工程」。 REA 想让你直接问 coding agent：这个 App 的某某功能是怎么实现的？它不是一个逆向工具链，而是把逆向能力以 MCP server 的形式接到你的 agent 上——让 Claude Code、Codex、...",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
   },
   {
     "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
@@ -116,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -126,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -136,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -146,7 +126,17 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "15",
+    "rank": "13",
+    "trend": "up"
+  },
+  {
+    "title": "Gemini 4 Argon",
+    "source": "HackerNews",
+    "link": "https://deepmind.google/models/gemini/",
+    "abstract": "Comments...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "14",
     "trend": "up"
   }
 ]
