@@ -10,24 +10,14 @@
     "trend": "down"
   },
   {
-    "title": "Mesa Expands NPU Capabilities With Support For YOLOX With PyTorch",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Mesa-Torx-YOLOX-PyTorch",
-    "abstract": "While Mesa is predominantly used for GPU drivers, open-source developer Tomeu Vizoso continues advancing the capabilities of NPUs within the Mesa driver stack......",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "down"
-  },
-  {
     "title": "DeepSeek 半年融 1500 亿冲向科创板，梁文锋开始给模型找“身体”",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/502997",
     "abstract": "据媒体报道，DeepSeek 有意入局具身智能领域，其创始人梁文锋最近在密集和具身智能领域的创业者见面交流，探讨方向涉及具身机器人、大模型与现实世界的交互。 融资这边，《财经》记者从多位参与交易的人士处确认了一个数字：DeepSeek 将在近期完成最新一轮融资，金额从此前计划的 500 亿元增至约 1000 亿元。这是它的第二......",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "02",
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -36,7 +26,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -46,7 +36,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "04",
     "trend": "up"
   },
   {
@@ -56,8 +46,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "Gemini 4 Argon 全球上线，主打 Coding、企业工作流和网络安全",
@@ -66,8 +56,8 @@
     "abstract": "Google DeepMind 今早官宣：Gemini 4 Argon 全球可用，公司把它定义为『从头到尾解决你最棘手问题的模型』，押注的三个方向是人尽皆知的码农旧战场——coding、企业工作流——外加一个冷门到有点意外的词：cyber defense（网络安全防御）。 发布口径把人群切得很清楚。普通用户走 @GeminiApp 和 Search 里的 A...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
@@ -76,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -86,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -96,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -106,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -116,7 +106,7 @@
     "abstract": "Comments...",
     "pscore": 70,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -126,7 +116,7 @@
     "abstract": "It's been nearly one year since receiving the Gigabyte R284-A92-AAL1 2U Granite Rapids server platform for continuing my testing of the flagship Xeon 6980P processors. Curious how ...",
     "pscore": 66,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "12",
+    "trend": "down"
   }
 ]
