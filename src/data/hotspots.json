@@ -7,7 +7,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -17,7 +17,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -37,7 +37,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Gemini 4 Argon 全球上线，主打 Coding、企业工作流和网络安全",
@@ -57,7 +57,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -90,23 +90,13 @@
     "trend": "down"
   },
   {
-    "title": "刚刚，Gemini 4终于来了：谷歌重回御三家，API限时半价",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/10/503701.html",
-    "abstract": "谷歌就是季节性气候模型公司...",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
-  },
-  {
     "title": "Intel Xeon 6980P Granite Rapids Performance On Linux Over The Past Year",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/review/intel-xeon-granite-rapids-ubuntu-2610",
     "abstract": "It's been nearly one year since receiving the Gigabyte R284-A92-AAL1 2U Granite Rapids server platform for continuing my testing of the flagship Xeon 6980P processors. Curious how ...",
     "pscore": 66,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   }
 ]
