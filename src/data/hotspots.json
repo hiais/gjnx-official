@@ -7,7 +7,7 @@
     "pscore": 94,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -40,23 +40,13 @@
     "trend": "down"
   },
   {
-    "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
-    "source": "HackerNews",
-    "link": "https://github.com/google-pytorch/torch_tpu",
-    "abstract": "Comments...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
-  },
-  {
     "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/hf-torchtpu",
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -66,8 +56,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -76,8 +66,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -86,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -96,17 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
-  },
-  {
-    "title": "Intel Xeon 6980P Granite Rapids Performance On Linux Over The Past Year",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/intel-xeon-granite-rapids-ubuntu-2610",
-    "abstract": "It's been nearly one year since receiving the Gigabyte R284-A92-AAL1 2U Granite Rapids server platform for continuing my testing of the flagship Xeon 6980P processors. Curious how ...",
-    "pscore": 66,
-    "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "09",
     "trend": "down"
   }
 ]
