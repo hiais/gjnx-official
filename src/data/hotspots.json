@@ -7,7 +7,7 @@
     "pscore": 94,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -30,13 +30,23 @@
     "trend": "down"
   },
   {
+    "title": "New Wayland Protocol Proposed For VNC/Remote Software",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Wayland-ext-transient-output",
+    "abstract": "Prominent Wayland developer Simon Ser sent out a merge request today for introducing the new ext-transient-output protocol. With ext-transient-output, it's intent is for helping re...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "04",
+    "trend": "down"
+  },
+  {
     "title": "Groq on Hugging Face Inference Providers 🔥",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/inference-providers-groq",
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -46,7 +56,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "05",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -56,8 +66,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -66,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -76,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -86,7 +96,17 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
     "trend": "up"
+  },
+  {
+    "title": "Cheap GameSir Nova Lite Gaming Controller Supported By Linux 7.4",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Linux-7.4-Input",
+    "abstract": "Following all the HID driver updates/additions in Linux 7.4, the input subsystem changes were merged this weekend for this new kernel version......",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "11",
+    "trend": "down"
   }
 ]
