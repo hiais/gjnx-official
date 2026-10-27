@@ -7,17 +7,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
-  },
-  {
-    "title": "2026全球开发者先锋大会暨国际具身智能技能大赛圆满落幕",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/10/505615.html",
-    "abstract": "GDPS全球开发者先锋大会将持续推动应用成果落地转化和国际产业交流合作。...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -26,7 +16,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -36,7 +26,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -46,18 +36,8 @@
     "abstract": "Prominent Wayland developer Simon Ser sent out a merge request today for introducing the new ext-transient-output protocol. With ext-transient-output, it's intent is for helping re...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
-  },
-  {
-    "title": "印奇把4D雷达也端到端了",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/10/505852.html",
-    "abstract": "毫米波雷达，AI算力10TOPS...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "OpenAI 和 Anthropic 将大模型价格砍了八成，这门生意到底怎么算的？",
@@ -66,7 +46,7 @@
     "abstract": "从六月 GPT-5.6 系列发布到现在，OpenAI 和 Anthropic 的主流模型价格塌了一大截，最多砍掉 80%。Max Woolf 把这场价格战的时间线全捋了一遍，结论有点反直觉：这不像烧钱抢市场的套路。 先看数字怎么掉的。GPT-5.6 Sol 卖 $5/$30/$0.50（输入/输出/缓存读取，每百万 token），Luna 是 $1/$6/$...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -76,7 +56,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "06",
     "trend": "down"
   },
   {
@@ -86,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -96,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -106,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -116,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -126,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -136,8 +116,8 @@
     "abstract": "Open-source developer Jason Donenfeld known for his work on WireGuard announced today the release of kwin-type. KWin-type is a new Wayland-compatible program for auto-typing text f...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "Cheap GameSir Nova Lite Gaming Controller Supported By Linux 7.4",
@@ -146,7 +126,17 @@
     "abstract": "Following all the HID driver updates/additions in Linux 7.4, the input subsystem changes were merged this weekend for this new kernel version......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "15",
-    "trend": "down"
+    "rank": "13",
+    "trend": "up"
+  },
+  {
+    "title": "ToolForge v0.2.2 正式发布：AI Agent 也能调用工具了！支持 MCP、CLI 与插件级权限管理",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/503201",
+    "abstract": "最近一直在持续完善自己的开源项目 ToolForge，今天正式发布 v0.2.2！ ToolForge 是一款基于 Rust + Tauri 2 构建的开源桌面工具箱，面向开发者与效率工作者，通过插件化架构整合开发调试、数据转换、文件处理、系统管理和日常效率工具。 从 v0.1.10 引入 WASM 插件市场，到 v0.2.0 实现官网一键安装，再到 v0....",
+    "pscore": 66,
+    "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "up"
   }
 ]
