@@ -7,7 +7,17 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
+  },
+  {
+    "title": "Ceva’s Next-Generation NeuPro Brings a Unified AI Platform from Sensors to Infrastructure",
+    "source": "SemiWiki",
+    "link": "https://semiwiki.com/ip/375410-cevas-next-generation-neupro-brings-a-unified-ai-platform-from-sensors-to-infrastructure/",
+    "abstract": "Ceva is expanding the reach of its neural processing technology with a next-generation NeuPro portfolio designed to serve everything from always-on sensors to AI infrastructure. Th...",
+    "pscore": 89,
+    "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -16,8 +26,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "02",
-    "trend": "up"
+    "rank": "03",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -26,17 +36,17 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
-    "title": "New Wayland Protocol Proposed For VNC/Remote Software",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Wayland-ext-transient-output",
-    "abstract": "Prominent Wayland developer Simon Ser sent out a merge request today for introducing the new ext-transient-output protocol. With ext-transient-output, it's intent is for helping re...",
+    "title": "印奇把4D雷达也端到端了",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/10/505852.html",
+    "abstract": "毫米波雷达，AI算力10TOPS...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -46,8 +56,8 @@
     "abstract": "从六月 GPT-5.6 系列发布到现在，OpenAI 和 Anthropic 的主流模型价格塌了一大截，最多砍掉 80%。Max Woolf 把这场价格战的时间线全捋了一遍，结论有点反直觉：这不像烧钱抢市场的套路。 先看数字怎么掉的。GPT-5.6 Sol 卖 $5/$30/$0.50（输入/输出/缓存读取，每百万 token），Luna 是 $1/$6/$...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -56,7 +66,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -66,7 +76,7 @@
     "abstract": "谷歌旗下 AI 公司 DeepMind 宣布推出 Genie 4，世界模型这条线又往前走了一格。最实质的进步不是画质，是声音——Genie 4 是原生多模态的，画面、音乐、环境声、对话可以同时生成。你在模拟里推倒一块石头，它不只是画出来，还会响。 技术上它基于 Gemini 家族：Gemini Omni 负责让模拟锚定真实世界的样貌和物理行为，其......",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "down"
   },
   {
@@ -76,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -86,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -96,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -106,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "down"
   },
   {
@@ -116,8 +126,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "13",
+    "trend": "down"
   },
   {
     "title": "KWin-Type Introduced To Address KDE Wayland Usability Gap For Auto-Typing Text",
@@ -126,25 +136,15 @@
     "abstract": "Open-source developer Jason Donenfeld known for his work on WireGuard announced today the release of kwin-type. KWin-type is a new Wayland-compatible program for auto-typing text f...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
-  },
-  {
-    "title": "Cheap GameSir Nova Lite Gaming Controller Supported By Linux 7.4",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Linux-7.4-Input",
-    "abstract": "Following all the HID driver updates/additions in Linux 7.4, the input subsystem changes were merged this weekend for this new kernel version......",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
     "rank": "14",
     "trend": "down"
   },
   {
-    "title": "ToolForge v0.2.2 正式发布：AI Agent 也能调用工具了！支持 MCP、CLI 与插件级权限管理",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/503201",
-    "abstract": "最近一直在持续完善自己的开源项目 ToolForge，今天正式发布 v0.2.2！ ToolForge 是一款基于 Rust + Tauri 2 构建的开源桌面工具箱，面向开发者与效率工作者，通过插件化架构整合开发调试、数据转换、文件处理、系统管理和日常效率工具。 从 v0.1.10 引入 WASM 插件市场，到 v0.2.0 实现官网一键安装，再到 v0....",
-    "pscore": 66,
+    "title": "不藏了！人形机器人全开源动真格，从机械结构一路拆到运动算法",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/10/505865.html",
+    "abstract": "人形机器人全套图纸开源！从关节到算法，下载就能自己造。...",
+    "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "15",
     "trend": "up"
