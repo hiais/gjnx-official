@@ -17,7 +17,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "New Wayland Protocol Proposed For VNC/Remote Software",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "OpenAI 和 Anthropic 将大模型价格砍了八成，这门生意到底怎么算的？",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -57,6 +57,16 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "06",
+    "trend": "up"
+  },
+  {
+    "title": "Genie 4 来了，谷歌 DeepMind 的世界模型开始同步生成声音",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/503259/google-deepmind-genie-4-a-new-generation-of-world-simulation",
+    "abstract": "谷歌旗下 AI 公司 DeepMind 宣布推出 Genie 4，世界模型这条线又往前走了一格。最实质的进步不是画质，是声音——Genie 4 是原生多模态的，画面、音乐、环境声、对话可以同时生成。你在模拟里推倒一块石头，它不只是画出来，还会响。 技术上它基于 Gemini 家族：Gemini Omni 负责让模拟锚定真实世界的样貌和物理行为，其......",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -66,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -76,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -86,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -96,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -106,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "KWin-Type Introduced To Address KDE Wayland Usability Gap For Auto-Typing Text",
@@ -116,8 +126,8 @@
     "abstract": "Open-source developer Jason Donenfeld known for his work on WireGuard announced today the release of kwin-type. KWin-type is a new Wayland-compatible program for auto-typing text f...",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "13",
+    "trend": "down"
   },
   {
     "title": "Cheap GameSir Nova Lite Gaming Controller Supported By Linux 7.4",
@@ -126,8 +136,8 @@
     "abstract": "Following all the HID driver updates/additions in Linux 7.4, the input subsystem changes were merged this weekend for this new kernel version......",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "14",
+    "trend": "down"
   },
   {
     "title": "ToolForge v0.2.2 正式发布：AI Agent 也能调用工具了！支持 MCP、CLI 与插件级权限管理",
@@ -136,7 +146,7 @@
     "abstract": "最近一直在持续完善自己的开源项目 ToolForge，今天正式发布 v0.2.2！ ToolForge 是一款基于 Rust + Tauri 2 构建的开源桌面工具箱，面向开发者与效率工作者，通过插件化架构整合开发调试、数据转换、文件处理、系统管理和日常效率工具。 从 v0.1.10 引入 WASM 插件市场，到 v0.2.0 实现官网一键安装，再到 v0....",
     "pscore": 66,
     "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "15",
     "trend": "up"
   }
 ]
