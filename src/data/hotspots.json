@@ -1,22 +1,12 @@
 [
   {
-    "title": "Grace Blackwell needs a new scheduler: 27% more usable GPUs from the same racks",
-    "source": "HackerNews",
-    "link": "https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler",
-    "abstract": "Comments...",
-    "pscore": 95,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "up"
-  },
-  {
     "title": "AMD's ROCm HRX Loom v0.1 Released For Targeting AMD CPUs, GPUs & NPUs",
     "source": "Phoronix",
     "link": "https://www.phoronix.com/news/AMD-ROCm-HRX-Loom-0.1",
     "abstract": "At this year's AMD Advancing AI event Hyperloom was announced among the ROCm improvements to expect. Hyperloom aims for agentic  workload optimizations and more with quote powerful...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "01",
     "trend": "down"
   },
   {
@@ -26,7 +16,7 @@
     "abstract": "第六届 RISC-V 中国峰会在深圳盛大举行。在本届峰会上，deepin（深度）社区披露了其 RISC-V 桌面生态的最新进展：从主线镜像、应用商店到本地 AI 助手，deepin 正在全力打通 RISC-V 从芯片、开发板到桌面用户之间的“最后一公里”。 这几年，RISC-V 芯片越造越猛：端侧 AI 算力飙到 60 TOPS，服务器级直接上到 46 核。...",
     "pscore": 92,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -36,7 +26,7 @@
     "abstract": "2026年10月27日，“工业具身智能焊接与检测技术联合实验室”正式揭牌成立。...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -44,6 +34,16 @@
     "source": "QbitAI",
     "link": "https://www.qbitai.com/2026/10/506063.html",
     "abstract": "威卡：为工程机械的智能化与少人化，提供一条被验证的路径...",
+    "pscore": 85,
+    "category": "CHIP_FRONT",
+    "rank": "04",
+    "trend": "down"
+  },
+  {
+    "title": "拿注意力层当内存——有人在 Qwen 权重里编译了一颗 RISC-V CPU",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/503307/qwenputer-risc-v",
+    "abstract": "开发者 Divyansh Agrawal 往 Qwen 3.5 4B 的权重里编译了一颗真正的 RISC-V CPU，然后用模型自己的 Gated DeltaNet 注意力层当内存。他给这东西起名 Qwenputer。 先把话说明白：这不是插件、不是工具调用、也不是沙箱。CPU 完全跑在模型的前向传播里，能执行算术、跑 C 和 MicroPython 代码，...",
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "05",
@@ -57,7 +57,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -67,7 +67,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "OpenAI 和 Anthropic 将大模型价格砍了八成，这门生意到底怎么算的？",
@@ -77,7 +77,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
@@ -117,7 +117,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -127,7 +127,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -147,6 +147,6 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "up"
+    "trend": "down"
   }
 ]
