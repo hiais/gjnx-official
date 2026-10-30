@@ -7,7 +7,7 @@
     "pscore": 92,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "deepin 在第六届 RISC-V 中国峰会展示 RISC-V 桌面生态“最后一公里”进展",
@@ -20,24 +20,14 @@
     "trend": "down"
   },
   {
-    "title": "小雨智造与国家钢结构质检中心共建实验室，乔忠良：具身智能新质生产力已成事实",
+    "title": "从学习人类到学习机器人同伴，清华大学联合无问芯穹、智元提出具身智能规模化落地新路径",
     "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/10/506273.html",
-    "abstract": "2026年10月27日，“工业具身智能焊接与检测技术联合实验室”正式揭牌成立。...",
+    "link": "https://www.qbitai.com/2026/10/506662.html",
+    "abstract": "让机器人成为彼此的“老师”...",
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "down"
-  },
-  {
-    "title": "威卡：用数据集链接具身智能和工程机械",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/10/506063.html",
-    "abstract": "威卡：为工程机械的智能化与少人化，提供一条被验证的路径...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "拿注意力层当内存——有人在 Qwen 权重里编译了一颗 RISC-V CPU",
@@ -46,8 +36,8 @@
     "abstract": "开发者 Divyansh Agrawal 往 Qwen 3.5 4B 的权重里编译了一颗真正的 RISC-V CPU，然后用模型自己的 Gated DeltaNet 注意力层当内存。他给这东西起名 Qwenputer。 先把话说明白：这不是插件、不是工具调用、也不是沙箱。CPU 完全跑在模型的前向传播里，能执行算术、跑 C 和 MicroPython 代码，...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -56,7 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -66,8 +56,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "06",
+    "trend": "up"
   },
   {
     "title": "OpenAI 和 Anthropic 将大模型价格砍了八成，这门生意到底怎么算的？",
@@ -76,8 +66,8 @@
     "abstract": "从六月 GPT-5.6 系列发布到现在，OpenAI 和 Anthropic 的主流模型价格塌了一大截，最多砍掉 80%。Max Woolf 把这场价格战的时间线全捋了一遍，结论有点反直觉：这不像烧钱抢市场的套路。 先看数字怎么掉的。GPT-5.6 Sol 卖 $5/$30/$0.50（输入/输出/缓存读取，每百万 token），Luna 是 $1/$6/$...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -86,8 +76,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "Genie 4 来了，谷歌 DeepMind 的世界模型开始同步生成声音",
@@ -96,7 +86,7 @@
     "abstract": "谷歌旗下 AI 公司 DeepMind 宣布推出 Genie 4，世界模型这条线又往前走了一格。最实质的进步不是画质，是声音——Genie 4 是原生多模态的，画面、音乐、环境声、对话可以同时生成。你在模拟里推倒一块石头，它不只是画出来，还会响。 技术上它基于 Gemini 家族：Gemini Omni 负责让模拟锚定真实世界的样貌和物理行为，其......",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -106,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
@@ -116,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -126,8 +116,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -136,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "13",
     "trend": "down"
   },
   {
@@ -146,7 +136,17 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "up"
+  },
+  {
+    "title": "Graphics/NPU Driver Changes Already Begin Queuing Up For What Will Be Linux 7.5",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Linux-7.5-drm-misc-next",
+    "abstract": "Since last week drm-misc-next pull requests have already been sent out to DRM-Next to begin staging new feature code for what's intended for the Linux 7.5 kernel cycle kicking off ...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "down"
+    "trend": "up"
   }
 ]
