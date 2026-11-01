@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "AMD's ROCm HRX Loom v0.1 Released For Targeting AMD CPUs, GPUs & NPUs",
@@ -20,23 +20,13 @@
     "trend": "down"
   },
   {
-    "title": "deepin 在第六届 RISC-V 中国峰会展示 RISC-V 桌面生态“最后一公里”进展",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/503247",
-    "abstract": "第六届 RISC-V 中国峰会在深圳盛大举行。在本届峰会上，deepin（深度）社区披露了其 RISC-V 桌面生态的最新进展：从主线镜像、应用商店到本地 AI 助手，deepin 正在全力打通 RISC-V 从芯片、开发板到桌面用户之间的“最后一公里”。 这几年，RISC-V 芯片越造越猛：端侧 AI 算力飙到 60 TOPS，服务器级直接上到 46 核。...",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
-  },
-  {
     "title": "拿注意力层当内存——有人在 Qwen 权重里编译了一颗 RISC-V CPU",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/503307/qwenputer-risc-v",
     "abstract": "开发者 Divyansh Agrawal 往 Qwen 3.5 4B 的权重里编译了一颗真正的 RISC-V CPU，然后用模型自己的 Gated DeltaNet 注意力层当内存。他给这东西起名 Qwenputer。 先把话说明白：这不是插件、不是工具调用、也不是沙箱。CPU 完全跑在模型的前向传播里，能执行算术、跑 C 和 MicroPython 代码，...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "down"
   },
   {
@@ -46,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -56,17 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
-  },
-  {
-    "title": "OpenAI 和 Anthropic 将大模型价格砍了八成，这门生意到底怎么算的？",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/503251/cheap-llms",
-    "abstract": "从六月 GPT-5.6 系列发布到现在，OpenAI 和 Anthropic 的主流模型价格塌了一大截，最多砍掉 80%。Max Woolf 把这场价格战的时间线全捋了一遍，结论有点反直觉：这不像烧钱抢市场的套路。 先看数字怎么掉的。GPT-5.6 Sol 卖 $5/$30/$0.50（输入/输出/缓存读取，每百万 token），Luna 是 $1/$6/$...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -76,8 +56,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "Genie 4 来了，谷歌 DeepMind 的世界模型开始同步生成声音",
@@ -86,7 +66,7 @@
     "abstract": "谷歌旗下 AI 公司 DeepMind 宣布推出 Genie 4，世界模型这条线又往前走了一格。最实质的进步不是画质，是声音——Genie 4 是原生多模态的，画面、音乐、环境声、对话可以同时生成。你在模拟里推倒一块石头，它不只是画出来，还会响。 技术上它基于 Gemini 家族：Gemini Omni 负责让模拟锚定真实世界的样貌和物理行为，其......",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -96,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -106,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "up"
+    "rank": "09",
+    "trend": "down"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -116,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -126,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -136,15 +116,35 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
+    "rank": "12",
+    "trend": "down"
+  },
+  {
+    "title": "谷歌发布 Gemini 4 Carbon，安全能力先开放给白帽子",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/503286/google-gemini-4-carbon",
+    "abstract": "Google DeepMind 宣布推出 Gemini 4 Carbon，离上一代 Argon 只隔了两周。官方给它的定位很聚焦：迄今最强的网络安全能力和长程任务能力。 成绩单先摆出来。Artificial Analysis Intelligence Index v5.0 上拿到 59 分排第一；WebDev Arena 上靠网页开发和产物的质量提升，elo...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "13",
+    "trend": "up"
+  },
+  {
+    "title": "深度使用 Zig 四个月：最爱的设计和最失望的坑，来自同一种偏执",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/503266/four-months-of-zig",
+    "abstract": "Anna Liberty 放弃 Zig 后转用了几年 Rust，近日她表示自己大约四个月前重新开始使用 Zig，还攒了一篇挺有料的体验报告。有意思的地方在于：她最爱的几个特性和最失望的那件事，来自同一套设计哲学的两面。 先说不爽的。她第一个项目写 snurl（小网络协议库，Gemini、Finger、Gopher 那类），想按 TigerStyle 做测试和...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
     "rank": "14",
     "trend": "down"
   },
   {
-    "title": "Graphics/NPU Driver Changes Already Begin Queuing Up For What Will Be Linux 7.5",
+    "title": "AMD PerfOpt Makes it Into Linux 7.4 As A Nice Performance Boost For AMD iGPUs",
     "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Linux-7.5-drm-misc-next",
-    "abstract": "Since last week drm-misc-next pull requests have already been sent out to DRM-Next to begin staging new feature code for what's intended for the Linux 7.5 kernel cycle kicking off ...",
-    "pscore": 75,
+    "link": "https://www.phoronix.com/news/Linux-7.4-IOMMU",
+    "abstract": "As anticipated, the AMD PerfOpt feature was picked up for the Linux 7.4 kernel. As shown already in multiple Phoronix benchmarks, AMD PerfOpt makes for a nice performance boost for...",
+    "pscore": 69,
     "category": "CHIP_FRONT",
     "rank": "15",
     "trend": "down"
