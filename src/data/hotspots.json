@@ -7,7 +7,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -27,7 +27,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
@@ -37,7 +37,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
@@ -57,7 +57,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -78,15 +78,5 @@
     "category": "CHIP_FRONT",
     "rank": "08",
     "trend": "down"
-  },
-  {
-    "title": "Gemini Omni 1.2 Flash",
-    "source": "HackerNews",
-    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-    "abstract": "Comments...",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
   }
 ]
