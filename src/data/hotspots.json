@@ -7,7 +7,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -17,7 +17,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "CEO Interview with Mark Rushworth of Finchetto",
@@ -47,6 +47,26 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "05",
+    "trend": "down"
+  },
+  {
+    "title": "Google Gemini routes personal Drive files and emails to human annotators",
+    "source": "HackerNews",
+    "link": "https://github.com/thisisme6598/gemini_files/",
+    "abstract": "Comments...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "06",
+    "trend": "down"
+  },
+  {
+    "title": "TPU 8tx and TPU 8i Max",
+    "source": "HackerNews",
+    "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+    "abstract": "Comments...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "07",
     "trend": "up"
   },
   {
@@ -56,7 +76,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -66,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -76,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "10",
     "trend": "up"
   },
   {
@@ -86,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "11",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -96,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
   }
 ]
