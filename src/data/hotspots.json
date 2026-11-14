@@ -7,7 +7,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -37,7 +37,7 @@
     "pscore": 80,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "MEET2027含金量再加码：AI4S/量子计算/AI Infra…第二批嘉宾强势来袭！",
@@ -77,7 +77,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "08",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -97,6 +97,16 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
+    "trend": "up"
+  },
+  {
+    "title": "「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/11/510232.html",
+    "abstract": "斯坦福、哈佛、康奈尔……十余家顶尖团队齐坐一桌了...",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "11",
     "trend": "up"
   }
 ]
