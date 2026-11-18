@@ -10,13 +10,23 @@
     "trend": "up"
   },
   {
+    "title": "Can Faster HBM Solve AI’s Memory Bottleneck?",
+    "source": "SemiWiki",
+    "link": "https://semiwiki.com/3dic/376277-can-faster-hbm-solve-ais-memory-bottleneck/",
+    "abstract": "Why bandwidth alone cannot determine the performance of the next generation of AI accelerators High-bandwidth memory is entering another phase of rapid development. HBM4 increases ...",
+    "pscore": 94,
+    "category": "CHIP_FRONT",
+    "rank": "02",
+    "trend": "up"
+  },
+  {
     "title": "睿尔曼智能郑随兵：质量、经济性、稳定性是机器人落地三大标准",
     "source": "QbitAI",
     "link": "https://www.qbitai.com/2026/11/510542.html",
     "abstract": "具身智能的真正价值是“把人的经验、技能复刻出来”...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "02",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -26,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -36,7 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "05",
     "trend": "up"
   },
   {
@@ -46,8 +56,8 @@
     "abstract": "英伟达 11 月 12 日宣布，联合创始人黄仁勋辞去 CEO 职务。CFO 科莱特·克雷斯（Colette Kress）出任临时 CEO。 一家 4 万亿美元的公司，在 AI 投资周期最关键的节点上，暂时由一位财务背景的高管掌舵。 这是一个 33 年的句号。黄仁勋 1993 年参与创办英伟达，把它从做游戏显卡的公司带成了市值 4 万亿美元的 AI 算力中枢....",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "06",
+    "trend": "down"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -56,18 +66,8 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
-  },
-  {
-    "title": "Why 3dfx 1 cards had such a washed out color output?",
-    "source": "HackerNews",
-    "link": "https://twitter.com/id_aa_carmack/status/2122478083319992513",
-    "abstract": "Comments...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
     "rank": "07",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
@@ -87,7 +87,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "09",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -97,7 +97,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
