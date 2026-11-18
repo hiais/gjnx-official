@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Can Faster HBM Solve AI’s Memory Bottleneck?",
@@ -20,23 +20,13 @@
     "trend": "up"
   },
   {
-    "title": "睿尔曼智能郑随兵：质量、经济性、稳定性是机器人落地三大标准",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/11/510542.html",
-    "abstract": "具身智能的真正价值是“把人的经验、技能复刻出来”...",
-    "pscore": 85,
-    "category": "CHIP_FRONT",
-    "rank": "03",
-    "trend": "up"
-  },
-  {
     "title": "Google Cloud TPUs made available to Hugging Face users",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/tpu-inference-endpoints-spaces",
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
+    "rank": "03",
     "trend": "up"
   },
   {
@@ -46,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "up"
+    "rank": "04",
+    "trend": "down"
   },
   {
     "title": "黄仁勋辞任英伟达 CEO，CFO 接任临时掌门",
@@ -56,8 +46,8 @@
     "abstract": "英伟达 11 月 12 日宣布，联合创始人黄仁勋辞去 CEO 职务。CFO 科莱特·克雷斯（Colette Kress）出任临时 CEO。 一家 4 万亿美元的公司，在 AI 投资周期最关键的节点上，暂时由一位财务背景的高管掌舵。 这是一个 33 年的句号。黄仁勋 1993 年参与创办英伟达，把它从做游戏显卡的公司带成了市值 4 万亿美元的 AI 算力中枢....",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "down"
+    "rank": "05",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -66,8 +56,18 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "down"
+  },
+  {
+    "title": "AI-Powered Sashiko Introduces Experimental Patch Series Design Assessment",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Sashiko-0.9.4-Released",
+    "abstract": "When it comes to leveraging AI for Linux kernel development, one of the most widely-used solutions at the moment is Sashiko that has evolved nicely over the past year for agentic A...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "07",
+    "trend": "up"
   },
   {
     "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
@@ -97,7 +97,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "10",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -107,7 +107,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "11",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -117,7 +117,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "DeepSeek 悄悄收紧免费额度，或因算力资源紧张所致",
@@ -127,16 +127,26 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "up"
+    "trend": "down"
   },
   {
-    "title": "MRDIMM 8800 MT/s vs. 12800 MT/s Memory Performance With AMD EPYC Venice",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/mrdimm-8800-12800-amd-epyc",
-    "abstract": "With last week's AMD EPYC 9006 SP7 availability and the AMD EPYC 9686F and EPYC 9996 processor reviews, one of the most frequent questions/comments was around the impact that the n...",
-    "pscore": 66,
+    "title": "Why is Gemini 4 Carbon taking so long?",
+    "source": "HackerNews",
+    "link": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
+    "abstract": "Comments...",
+    "pscore": 70,
     "category": "CHIP_FRONT",
     "rank": "14",
+    "trend": "down"
+  },
+  {
+    "title": "Gemini新模型Neon箭在弦上，网友：遍历元素周期表？",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/11/510922.html",
+    "abstract": "氖人寻味！...",
+    "pscore": 70,
+    "category": "CHIP_FRONT",
+    "rank": "15",
     "trend": "down"
   }
 ]
