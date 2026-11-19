@@ -40,13 +40,33 @@
     "trend": "down"
   },
   {
-    "title": "黄仁勋辞任英伟达 CEO，CFO 接任临时掌门",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/503568/nvidia-announces-ceo-transition",
-    "abstract": "英伟达 11 月 12 日宣布，联合创始人黄仁勋辞去 CEO 职务。CFO 科莱特·克雷斯（Colette Kress）出任临时 CEO。 一家 4 万亿美元的公司，在 AI 投资周期最关键的节点上，暂时由一位财务背景的高管掌舵。 这是一个 33 年的句号。黄仁勋 1993 年参与创办英伟达，把它从做游戏显卡的公司带成了市值 4 万亿美元的 AI 算力中枢....",
+    "title": "Unsloth Desktop Now Supports Using The AMD Ryzen AI NPU - Including On Linux",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/Unsloth-Desktop-Ryzen-AI-NPU",
+    "abstract": "AMD and Unsloth announced today that local NPU inference is now available for Unsloth Desktop, starting with the AMD Ryzen AI NPUs of XDNA 2 and later......",
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
+    "trend": "up"
+  },
+  {
+    "title": "AMD AI Engine \"AIE\" Driver Posted For Mainline Linux Kernel Review",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/AMD-AI-Engine-Linux-Driver",
+    "abstract": "Separate from the existing AMDXDNA accelerator driver in the Linux kernel for Ryzen AI NPUs, on Wednesday AMD posted patches for the new AMD AI Engine \"AIE\" accelerator driver......",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "06",
+    "trend": "down"
+  },
+  {
+    "title": "Gemini 4 Neon 发布：Google 在最强和最便宜之间，塞进了一个中间档",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/503675/google-gemini-4-neon",
+    "abstract": "Gemini 4 系列现在是三个档位：Carbon 攻坚最难的长周期项目，Hydrogen 负责日常快速执行，新来的 Neon 卡在中间——按 Google 自己的说法，是「平衡深度与效率」。 输入每百万 token 3 美元，缓存输入 0.15 美元（95% 折扣），输出每百万 token 15 美元，上下文窗口 100 万 token。 这个定价放在前沿...",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -56,7 +76,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "06",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -66,7 +86,17 @@
     "abstract": "When it comes to leveraging AI for Linux kernel development, one of the most widely-used solutions at the moment is Sashiko that has evolved nicely over the past year for agentic A...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "09",
+    "trend": "up"
+  },
+  {
+    "title": "NGINX 被曝两个高危 RCE，其中一个在代码里藏了十年",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/503679/nginx-http2-rce-vulnerabilities",
+    "abstract": "NGINX 近日被曝出两个高危漏洞：编号 CVE-2026-123633 和 CVE-2026-123007，都能让未认证的攻击者在服务器上执行任意代码。CVSS 4.0 都是 9.2，两个都要求服务器启用了 HTTP/2。 它们由五个团队各自独立发现：Wiz Research、Ikotas Labs、Metnir、Rapid7 和 Xint。Wiz 说他们...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -76,8 +106,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "11",
+    "trend": "up"
   },
   {
     "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
@@ -86,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -96,7 +126,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "13",
     "trend": "up"
   },
   {
@@ -106,7 +136,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "14",
     "trend": "up"
   },
   {
@@ -116,37 +146,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
-  },
-  {
-    "title": "范式下场做基模了！国产算力全链路训练，双模型同步亮相",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/11/511071.html",
-    "abstract": "语言模型单张3090卡即可运行...",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
-  },
-  {
-    "title": "DeepSeek 悄悄收紧免费额度，或因算力资源紧张所致",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/503610",
-    "abstract": "11 月 16 日，「DeepSeek 使用额度已达上限」冲上热搜。多名用户反馈，App 和网页端同时收紧了限制，而且一次收了三条。 最直接的一条：超过 7 天没交互的长对话不能再接着聊。页面上的原话是「因算力不足，不再支持 7 天不活跃的长对话」，系统给出的办法是新开一个对话，或者把历史记录导出去。 单次输入的文字上限也被......",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
-  },
-  {
-    "title": "Gemini 4 Neon",
-    "source": "HackerNews",
-    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-    "abstract": "Comments...",
-    "pscore": 70,
-    "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "down"
+    "trend": "up"
   }
 ]
