@@ -1,23 +1,23 @@
 [
   {
-    "title": "华为云“行业AI梦工厂”发布并开源昇腾原生具身世界模型CloudRobo-WM1.2",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/503602",
-    "abstract": "[中国，杭州，2026年11月16日] 今天，华为云“行业AI梦工厂”发布并开源昇腾原生的具身世界模型CloudRobo-WM1.2，采用共享世界模型骨干网络实现预测增强的世界表征，基于世界模型原生DualAct架构，实现了世界模型原生动作生成，在RoboTwin 2.0、LiberoPro 2.0 评测中均位列第一。 五大核心技术突破，加速具身智能从实验室...",
-    "pscore": 99,
-    "category": "CHIP_FRONT",
-    "rank": "01",
-    "trend": "down"
-  },
-  {
     "title": "上海推进开源平台建设 打造“最懂开发者的城市”",
     "source": "OSChina",
     "link": "https://www.oschina.net/news/503653",
     "abstract": "近年来，上海在AI产业方面的政策支持不断加码，AI产业正在成为上海的一张新名片。开源平台作为连接大模型、算力、工具链与应用场景的分发层，成为上海加快建设AI产业链中的一个重点。为此，上海连续出台措施，助力开发者能够更方便地拿到模型、算力和场景，更高效率地把作品变成产品，致力于将上海打造成最懂开发者的城市......",
     "pscore": 94,
     "category": "CHIP_FRONT",
+    "rank": "01",
+    "trend": "up"
+  },
+  {
+    "title": "昇腾算力训出了双榜SOTA的具身世界模型，华为云这次想把整套底座开放出来",
+    "source": "QbitAI",
+    "link": "https://www.qbitai.com/2026/11/511610.html",
+    "abstract": "国产算力的成熟，把具身竞争维度从「芯片有多强」，拉入了一个比拼训练效率、数据规模、部署成本和场景落地速度的多维战场。...",
+    "pscore": 87,
+    "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Ceva and Mobilint Bring Physical AI Closer to Everyday Devices",
@@ -47,6 +47,16 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
+    "trend": "down"
+  },
+  {
+    "title": "AMDXDNA Driver Reaches Version 1.0, Ryzen AI NPU10 & NPU11 Coming To Linux 7.5",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/news/AMDXDNA-1.0-Linux-Driver",
+    "abstract": "With the upcoming Linux 7.5 kernel, the AMDXDNA accelerator driver for supporting the Ryzen AI NPUs is declaring version 1.0......",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -56,8 +66,8 @@
     "abstract": "AMD and Unsloth announced today that local NPU inference is now available for Unsloth Desktop, starting with the AMD Ryzen AI NPUs of XDNA 2 and later......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "rank": "07",
+    "trend": "down"
   },
   {
     "title": "AMD AI Engine \"AIE\" Driver Posted For Mainline Linux Kernel Review",
@@ -66,7 +76,7 @@
     "abstract": "Separate from the existing AMDXDNA accelerator driver in the Linux kernel for Ryzen AI NPUs, on Wednesday AMD posted patches for the new AMD AI Engine \"AIE\" accelerator driver......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -76,8 +86,8 @@
     "abstract": "Gemini 4 系列现在是三个档位：Carbon 攻坚最难的长周期项目，Hydrogen 负责日常快速执行，新来的 Neon 卡在中间——按 Google 自己的说法，是「平衡深度与效率」。 输入每百万 token 3 美元，缓存输入 0.15 美元（95% 折扣），输出每百万 token 15 美元，上下文窗口 100 万 token。 这个定价放在前沿...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -86,7 +96,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -96,7 +106,7 @@
     "abstract": "When it comes to leveraging AI for Linux kernel development, one of the most widely-used solutions at the moment is Sashiko that has evolved nicely over the past year for agentic A...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -106,7 +116,7 @@
     "abstract": "NGINX 近日被曝出两个高危漏洞：编号 CVE-2026-123633 和 CVE-2026-123007，都能让未认证的攻击者在服务器上执行任意代码。CVSS 4.0 都是 9.2，两个都要求服务器启用了 HTTP/2。 它们由五个团队各自独立发现：Wiz Research、Ikotas Labs、Metnir、Rapid7 和 Xint。Wiz 说他们...",
     "pscore": 77,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -116,8 +126,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "up"
+    "rank": "13",
+    "trend": "down"
   },
   {
     "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
@@ -126,7 +136,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "14",
     "trend": "up"
   },
   {
@@ -136,17 +146,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
-    "trend": "up"
-  },
-  {
-    "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
-    "source": "HuggingFace",
-    "link": "https://huggingface.co/blog/sdxl_jax",
-    "abstract": "",
-    "pscore": 75,
-    "category": "CHIP_FRONT",
     "rank": "15",
-    "trend": "down"
+    "trend": "up"
   }
 ]
