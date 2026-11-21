@@ -37,7 +37,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "04",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Ceva and Mobilint Bring Physical AI Closer to Everyday Devices",
@@ -77,6 +77,16 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "08",
+    "trend": "up"
+  },
+  {
+    "title": "具身智创·生态共融，2026人形机器人开发者大会将于11月25日举办",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/503716",
+    "abstract": "为贯彻落实国务院关于推动人形机器人产业发展的决策部署，汇聚全球开发者协同创新，由北京经济技术开发区管理委员会指导的2026人形机器人开发者大会拟于2026年11月25日在北京亦庄北人亦创国际会展中心会议厅（南）举办。 大会以“具身智创·生态共融”为主题，采用“1个主论坛+3场开发者活动”架构，3场开发者活动分别为......",
+    "pscore": 82,
+    "category": "CHIP_FRONT",
+    "rank": "09",
     "trend": "down"
   },
   {
@@ -86,8 +96,8 @@
     "abstract": "Gemini 4 系列现在是三个档位：Carbon 攻坚最难的长周期项目，Hydrogen 负责日常快速执行，新来的 Neon 卡在中间——按 Google 自己的说法，是「平衡深度与效率」。 输入每百万 token 3 美元，缓存输入 0.15 美元（95% 折扣），输出每百万 token 15 美元，上下文窗口 100 万 token。 这个定价放在前沿...",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "down"
+    "rank": "10",
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -95,16 +105,6 @@
     "link": "https://huggingface.co/blog/inference-providers-groq",
     "abstract": "",
     "pscore": 80,
-    "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
-  },
-  {
-    "title": "AI-Powered Sashiko Introduces Experimental Patch Series Design Assessment",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/Sashiko-0.9.4-Released",
-    "abstract": "When it comes to leveraging AI for Linux kernel development, one of the most widely-used solutions at the moment is Sashiko that has evolved nicely over the past year for agentic A...",
-    "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "11",
     "trend": "down"
@@ -117,7 +117,7 @@
     "pscore": 77,
     "category": "CHIP_FRONT",
     "rank": "12",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
@@ -127,7 +127,7 @@
     "pscore": 75,
     "category": "CHIP_FRONT",
     "rank": "13",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
