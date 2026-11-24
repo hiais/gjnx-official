@@ -7,14 +7,14 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
+    "trend": "down"
   },
   {
-    "title": "算力周期更迭，数据复合增长：为何存储经济性对中国规模化 AI 至关重要",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/11/511989.html",
-    "abstract": "AI 的未来将依赖能够在数据全生命周期中平衡性能、可靠性与经济性的存储架构。...",
-    "pscore": 89,
+    "title": "开源 Windows 任务管理器 Argus v0.6.0 发布，新增桌面与任务栏监控、多轨道历史与 NPU 支持",
+    "source": "OSChina",
+    "link": "https://www.oschina.net/news/503759",
+    "abstract": "开源 Windows 任务管理器 Argus 现已发布 v0.6.0。Argus 使用 Rust 直接调用 Windows NT 原生接口（不依赖 WMI），界面基于 GPUI Kit 与 DirectX 11 原生渲染，脱离 WebView2 与浏览器内核开销，支持 Windows 10 22H2 及 Windows 11（x64），以 AGPL-3.0 ...",
+    "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "02",
     "trend": "up"
@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -47,17 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "up"
-  },
-  {
-    "title": "AMDXDNA Driver Reaches Version 1.0, Ryzen AI NPU10 & NPU11 Coming To Linux 7.5",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/news/AMDXDNA-1.0-Linux-Driver",
-    "abstract": "With the upcoming Linux 7.5 kernel, the AMDXDNA accelerator driver for supporting the Ryzen AI NPUs is declaring version 1.0......",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "从算力底座到行业落地，华为智启未来主题论坛亮相 2026 世界计算大会",
@@ -66,7 +56,7 @@
     "abstract": "11 月 20 日，2026 世界计算大会举办期间，由华为主办的“数智共昇 鸿湘有为”智启未来主题论坛在长沙举办。论坛深度对接湖南省“AI+”发展战略，围绕计算前沿技术、产业生态演进与人工智能行业落地实践展开研讨，既有面向产业全局的趋势判断，也有来自一线场景的落地经验，为算力生态伙伴协同创新、产业数智升级提供交流......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "07",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -76,17 +66,7 @@
     "abstract": "为贯彻落实国务院关于推动人形机器人产业发展的决策部署，汇聚全球开发者协同创新，由北京经济技术开发区管理委员会指导的2026人形机器人开发者大会拟于2026年11月25日在北京亦庄北人亦创国际会展中心会议厅（南）举办。 大会以“具身智创·生态共融”为主题，采用“1个主论坛+3场开发者活动”架构，3场开发者活动分别为......",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "08",
-    "trend": "up"
-  },
-  {
-    "title": "Gemini 4 Neon 发布：Google 在最强和最便宜之间，塞进了一个中间档",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/503675/google-gemini-4-neon",
-    "abstract": "Gemini 4 系列现在是三个档位：Carbon 攻坚最难的长周期项目，Hydrogen 负责日常快速执行，新来的 Neon 卡在中间——按 Google 自己的说法，是「平衡深度与效率」。 输入每百万 token 3 美元，缓存输入 0.15 美元（95% 折扣），输出每百万 token 15 美元，上下文窗口 100 万 token。 这个定价放在前沿...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -96,17 +76,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "10",
-    "trend": "down"
-  },
-  {
-    "title": "NGINX 被曝两个高危 RCE，其中一个在代码里藏了十年",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/503679/nginx-http2-rce-vulnerabilities",
-    "abstract": "NGINX 近日被曝出两个高危漏洞：编号 CVE-2026-123633 和 CVE-2026-123007，都能让未认证的攻击者在服务器上执行任意代码。CVSS 4.0 都是 9.2，两个都要求服务器启用了 HTTP/2。 它们由五个团队各自独立发现：Wiz Research、Ikotas Labs、Metnir、Rapid7 和 Xint。Wiz 说他们...",
-    "pscore": 77,
-    "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "08",
     "trend": "up"
   },
   {
@@ -116,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -126,7 +96,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
+    "rank": "10",
     "trend": "down"
   },
   {
@@ -136,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "11",
     "trend": "up"
   },
   {
@@ -146,7 +116,27 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "15",
-    "trend": "down"
+    "rank": "12",
+    "trend": "up"
+  },
+  {
+    "title": "Hugging Face on PyTorch / XLA TPUs",
+    "source": "HuggingFace",
+    "link": "https://huggingface.co/blog/pytorch-xla",
+    "abstract": "",
+    "pscore": 75,
+    "category": "CHIP_FRONT",
+    "rank": "13",
+    "trend": "up"
+  },
+  {
+    "title": "AMD EPYC Zen 6 vs. Zen 1 Performance: 12.1x Geo Mean In Less Than 10 Years, Up To 133x In AI",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/review/amd-epyc-9006-7601",
+    "abstract": "This month brought the availability of the new EPYC 9006 \"Venice\" SP7 Zen 6 server processors. We have seen excellent generational gains with the likes of the EPYC 9686F and EPYC 9...",
+    "pscore": 66,
+    "category": "CHIP_FRONT",
+    "rank": "14",
+    "trend": "up"
   }
 ]
