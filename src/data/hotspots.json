@@ -7,16 +7,6 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "up"
-  },
-  {
-    "title": "零基础也能做开发，智元灵心平台一年孵化超3万个机器人智能体",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/11/512715.html",
-    "abstract": "智元推出行业首个开放且完整的具身智能生态技术体系AIMA...",
-    "pscore": 92,
-    "category": "CHIP_FRONT",
-    "rank": "02",
     "trend": "down"
   },
   {
@@ -26,7 +16,7 @@
     "abstract": "开源 Windows 任务管理器 Argus 现已发布 v0.6.0。Argus 使用 Rust 直接调用 Windows NT 原生接口（不依赖 WMI），界面基于 GPUI Kit 与 DirectX 11 原生渲染，脱离 WebView2 与浏览器内核开销，支持 Windows 10 22H2 及 Windows 11（x64），以 AGPL-3.0 ...",
     "pscore": 85,
     "category": "CHIP_FRONT",
-    "rank": "03",
+    "rank": "02",
     "trend": "down"
   },
   {
@@ -36,8 +26,8 @@
     "abstract": "The Cairn AI framework is proving to be a boon for defenders and attackers....",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "04",
-    "trend": "down"
+    "rank": "03",
+    "trend": "up"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -46,8 +36,8 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "05",
-    "trend": "down"
+    "rank": "04",
+    "trend": "up"
   },
   {
     "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
@@ -56,27 +46,7 @@
     "abstract": "",
     "pscore": 82,
     "category": "CHIP_FRONT",
-    "rank": "06",
-    "trend": "up"
-  },
-  {
-    "title": "算力唤醒真实世界：九章云极发布物理AI工厂与生态开放计划",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/11/512582.html",
-    "abstract": "11月25日，以“算力唤醒真实世界”为主题的2026物理AI行业峰会暨九章云极智算生态大会在深圳举行。...",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "up"
-  },
-  {
-    "title": "从算力底座到行业落地，华为智启未来主题论坛亮相 2026 世界计算大会",
-    "source": "OSChina",
-    "link": "https://www.oschina.net/news/503727",
-    "abstract": "11 月 20 日，2026 世界计算大会举办期间，由华为主办的“数智共昇 鸿湘有为”智启未来主题论坛在长沙举办。论坛深度对接湖南省“AI+”发展战略，围绕计算前沿技术、产业生态演进与人工智能行业落地实践展开研讨，既有面向产业全局的趋势判断，也有来自一线场景的落地经验，为算力生态伙伴协同创新、产业数智升级提供交流......",
-    "pscore": 82,
-    "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "05",
     "trend": "down"
   },
   {
@@ -86,7 +56,7 @@
     "abstract": "",
     "pscore": 80,
     "category": "CHIP_FRONT",
-    "rank": "09",
+    "rank": "06",
     "trend": "up"
   },
   {
@@ -96,7 +66,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "07",
     "trend": "down"
   },
   {
@@ -106,8 +76,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
@@ -116,8 +86,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
+    "rank": "09",
+    "trend": "up"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -126,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "13",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "Hugging Face on PyTorch / XLA TPUs",
@@ -136,17 +106,27 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "14",
+    "rank": "11",
+    "trend": "up"
+  },
+  {
+    "title": "PostgreSQL 19 Delivering Nice Performance Gains, Benchmarks On 6th Gen AMD EPYC Venice",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/review/postgresql-19-benchmarks",
+    "abstract": "Last week PostgreSQL 19.0 finally shipped after being delayed due to the AI/LLM burden facing open-source developers this year. The wait is worth it though as PostgreSQL 19 is show...",
+    "pscore": 66,
+    "category": "CHIP_FRONT",
+    "rank": "12",
     "trend": "down"
   },
   {
-    "title": "逐际动⼒与商汤⼤装置达成合作，以高质量算力全⾯⽀撑机器⼈仿真训练与测试",
-    "source": "QbitAI",
-    "link": "https://www.qbitai.com/2026/11/512683.html",
-    "abstract": "贯通具⾝智能研发流程...",
-    "pscore": 75,
+    "title": "AMD EPYC Zen 6 vs. Zen 1 Performance: 12.1x Geo Mean In Less Than 10 Years, Up To 133x In AI",
+    "source": "Phoronix",
+    "link": "https://www.phoronix.com/review/amd-epyc-9006-7601",
+    "abstract": "This month brought the availability of the new EPYC 9006 \"Venice\" SP7 Zen 6 server processors. We have seen excellent generational gains with the likes of the EPYC 9686F and EPYC 9...",
+    "pscore": 66,
     "category": "CHIP_FRONT",
-    "rank": "15",
-    "trend": "up"
+    "rank": "13",
+    "trend": "down"
   }
 ]
