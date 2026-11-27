@@ -7,7 +7,7 @@
     "pscore": 99,
     "category": "CHIP_FRONT",
     "rank": "01",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "开源 Windows 任务管理器 Argus v0.6.0 发布，新增桌面与任务栏监控、多轨道历史与 NPU 支持",
@@ -17,7 +17,7 @@
     "pscore": 85,
     "category": "CHIP_FRONT",
     "rank": "02",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
@@ -27,7 +27,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "03",
-    "trend": "up"
+    "trend": "down"
   },
   {
     "title": "Google Cloud TPUs made available to Hugging Face users",
@@ -47,7 +47,7 @@
     "pscore": 82,
     "category": "CHIP_FRONT",
     "rank": "05",
-    "trend": "down"
+    "trend": "up"
   },
   {
     "title": "Groq on Hugging Face Inference Providers 🔥",
@@ -60,14 +60,24 @@
     "trend": "up"
   },
   {
+    "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
+    "source": "HackerNews",
+    "link": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+    "abstract": "Comments...",
+    "pscore": 77,
+    "category": "CHIP_FRONT",
+    "rank": "07",
+    "trend": "down"
+  },
+  {
     "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
     "source": "HuggingFace",
     "link": "https://huggingface.co/blog/hf-torchtpu",
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "07",
-    "trend": "down"
+    "rank": "08",
+    "trend": "up"
   },
   {
     "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
@@ -76,7 +86,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "08",
+    "rank": "09",
     "trend": "up"
   },
   {
@@ -86,8 +96,8 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "09",
-    "trend": "up"
+    "rank": "10",
+    "trend": "down"
   },
   {
     "title": "🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e",
@@ -96,7 +106,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "10",
+    "rank": "11",
     "trend": "down"
   },
   {
@@ -106,7 +116,7 @@
     "abstract": "",
     "pscore": 75,
     "category": "CHIP_FRONT",
-    "rank": "11",
+    "rank": "12",
     "trend": "up"
   },
   {
@@ -114,16 +124,6 @@
     "source": "Phoronix",
     "link": "https://www.phoronix.com/review/postgresql-19-benchmarks",
     "abstract": "Last week PostgreSQL 19.0 finally shipped after being delayed due to the AI/LLM burden facing open-source developers this year. The wait is worth it though as PostgreSQL 19 is show...",
-    "pscore": 66,
-    "category": "CHIP_FRONT",
-    "rank": "12",
-    "trend": "down"
-  },
-  {
-    "title": "AMD EPYC Zen 6 vs. Zen 1 Performance: 12.1x Geo Mean In Less Than 10 Years, Up To 133x In AI",
-    "source": "Phoronix",
-    "link": "https://www.phoronix.com/review/amd-epyc-9006-7601",
-    "abstract": "This month brought the availability of the new EPYC 9006 \"Venice\" SP7 Zen 6 server processors. We have seen excellent generational gains with the likes of the EPYC 9686F and EPYC 9...",
     "pscore": 66,
     "category": "CHIP_FRONT",
     "rank": "13",
